@@ -14,7 +14,7 @@ node scripts/google-tts.mjs
 node scripts/google-tts.mjs --project YOUR_PROJECT_ID --sample --generate
 ```
 
-本生成（全130項目、最大20,000文字のガード付き）：
+本生成（全250項目、最大20,000文字のガード付き）：
 
 ```powershell
 node scripts/google-tts.mjs --project YOUR_PROJECT_ID --generate

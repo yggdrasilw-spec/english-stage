@@ -2,7 +2,7 @@
   "provider": "Google Cloud Text-to-Speech",
   "voice": "en-US-Neural2-F",
   "languageCode": "en-US",
-  "generatedAt": "2026-10-31T11:57:32.465Z",
+  "generatedAt": "2026-10-31T13:13:42.789Z",
   "review": "未試聴",
   "terms": "https://cloud.google.com/terms/",
   "files": [
@@ -4165,6 +4165,3846 @@
       "text": "I'm reading a book.",
       "path": "assets/audio/g5-p-30-example-slow-0d8015edaee0f905.mp3",
       "hash": "0d8015edaee0f905"
+    },
+    {
+      "id": "g5-w-january",
+      "part": "word",
+      "speed": "normal",
+      "text": "January",
+      "path": "assets/audio/g5-w-january-word-normal-0cec5f6f21e53a0d.mp3",
+      "hash": "0cec5f6f21e53a0d"
+    },
+    {
+      "id": "g5-w-january",
+      "part": "word",
+      "speed": "slow",
+      "text": "January",
+      "path": "assets/audio/g5-w-january-word-slow-a427379bb913558d.mp3",
+      "hash": "a427379bb913558d"
+    },
+    {
+      "id": "g5-w-january",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in January.",
+      "path": "assets/audio/g5-w-january-example-normal-90536f53bb0f3c64.mp3",
+      "hash": "90536f53bb0f3c64"
+    },
+    {
+      "id": "g5-w-january",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in January.",
+      "path": "assets/audio/g5-w-january-example-slow-5dffb9fabbc8c1ff.mp3",
+      "hash": "5dffb9fabbc8c1ff"
+    },
+    {
+      "id": "g5-w-february",
+      "part": "word",
+      "speed": "normal",
+      "text": "February",
+      "path": "assets/audio/g5-w-february-word-normal-eba91bdfa8c5e637.mp3",
+      "hash": "eba91bdfa8c5e637"
+    },
+    {
+      "id": "g5-w-february",
+      "part": "word",
+      "speed": "slow",
+      "text": "February",
+      "path": "assets/audio/g5-w-february-word-slow-a2dddde552f184de.mp3",
+      "hash": "a2dddde552f184de"
+    },
+    {
+      "id": "g5-w-february",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in February.",
+      "path": "assets/audio/g5-w-february-example-normal-ab300fa015a19d1a.mp3",
+      "hash": "ab300fa015a19d1a"
+    },
+    {
+      "id": "g5-w-february",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in February.",
+      "path": "assets/audio/g5-w-february-example-slow-d4387790accade23.mp3",
+      "hash": "d4387790accade23"
+    },
+    {
+      "id": "g5-w-march",
+      "part": "word",
+      "speed": "normal",
+      "text": "March",
+      "path": "assets/audio/g5-w-march-word-normal-9240c36ddf00af67.mp3",
+      "hash": "9240c36ddf00af67"
+    },
+    {
+      "id": "g5-w-march",
+      "part": "word",
+      "speed": "slow",
+      "text": "March",
+      "path": "assets/audio/g5-w-march-word-slow-3fe2e60b52a71f21.mp3",
+      "hash": "3fe2e60b52a71f21"
+    },
+    {
+      "id": "g5-w-march",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in March.",
+      "path": "assets/audio/g5-w-march-example-normal-f724f9ca4378e1f4.mp3",
+      "hash": "f724f9ca4378e1f4"
+    },
+    {
+      "id": "g5-w-march",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in March.",
+      "path": "assets/audio/g5-w-march-example-slow-fb792b01e77cb9a7.mp3",
+      "hash": "fb792b01e77cb9a7"
+    },
+    {
+      "id": "g5-w-april",
+      "part": "word",
+      "speed": "normal",
+      "text": "April",
+      "path": "assets/audio/g5-w-april-word-normal-c86c092b016ab7ef.mp3",
+      "hash": "c86c092b016ab7ef"
+    },
+    {
+      "id": "g5-w-april",
+      "part": "word",
+      "speed": "slow",
+      "text": "April",
+      "path": "assets/audio/g5-w-april-word-slow-481dfdbf778513e8.mp3",
+      "hash": "481dfdbf778513e8"
+    },
+    {
+      "id": "g5-w-april",
+      "part": "example",
+      "speed": "normal",
+      "text": "School starts in April.",
+      "path": "assets/audio/g5-w-april-example-normal-3ac22326068d7ee0.mp3",
+      "hash": "3ac22326068d7ee0"
+    },
+    {
+      "id": "g5-w-april",
+      "part": "example",
+      "speed": "slow",
+      "text": "School starts in April.",
+      "path": "assets/audio/g5-w-april-example-slow-45766c2fa04eb694.mp3",
+      "hash": "45766c2fa04eb694"
+    },
+    {
+      "id": "g5-w-may",
+      "part": "word",
+      "speed": "normal",
+      "text": "May",
+      "path": "assets/audio/g5-w-may-word-normal-07f5d66804ede206.mp3",
+      "hash": "07f5d66804ede206"
+    },
+    {
+      "id": "g5-w-may",
+      "part": "word",
+      "speed": "slow",
+      "text": "May",
+      "path": "assets/audio/g5-w-may-word-slow-9b125f063b348094.mp3",
+      "hash": "9b125f063b348094"
+    },
+    {
+      "id": "g5-w-may",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in May.",
+      "path": "assets/audio/g5-w-may-example-normal-1850b9a3cc8ac951.mp3",
+      "hash": "1850b9a3cc8ac951"
+    },
+    {
+      "id": "g5-w-may",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in May.",
+      "path": "assets/audio/g5-w-may-example-slow-1d4e7c8b754b60ca.mp3",
+      "hash": "1d4e7c8b754b60ca"
+    },
+    {
+      "id": "g5-w-june",
+      "part": "word",
+      "speed": "normal",
+      "text": "June",
+      "path": "assets/audio/g5-w-june-word-normal-893bd652fd7c621a.mp3",
+      "hash": "893bd652fd7c621a"
+    },
+    {
+      "id": "g5-w-june",
+      "part": "word",
+      "speed": "slow",
+      "text": "June",
+      "path": "assets/audio/g5-w-june-word-slow-eb4854b426a16e25.mp3",
+      "hash": "eb4854b426a16e25"
+    },
+    {
+      "id": "g5-w-june",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in June.",
+      "path": "assets/audio/g5-w-june-example-normal-a63ec8d96a62c461.mp3",
+      "hash": "a63ec8d96a62c461"
+    },
+    {
+      "id": "g5-w-june",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in June.",
+      "path": "assets/audio/g5-w-june-example-slow-75ee3e0547b4e320.mp3",
+      "hash": "75ee3e0547b4e320"
+    },
+    {
+      "id": "g5-w-july",
+      "part": "word",
+      "speed": "normal",
+      "text": "July",
+      "path": "assets/audio/g5-w-july-word-normal-b2f2126d434c9332.mp3",
+      "hash": "b2f2126d434c9332"
+    },
+    {
+      "id": "g5-w-july",
+      "part": "word",
+      "speed": "slow",
+      "text": "July",
+      "path": "assets/audio/g5-w-july-word-slow-e2dfea2ff306d3b7.mp3",
+      "hash": "e2dfea2ff306d3b7"
+    },
+    {
+      "id": "g5-w-july",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in July.",
+      "path": "assets/audio/g5-w-july-example-normal-9fe8a9ff3cd8b9c3.mp3",
+      "hash": "9fe8a9ff3cd8b9c3"
+    },
+    {
+      "id": "g5-w-july",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in July.",
+      "path": "assets/audio/g5-w-july-example-slow-a517c524cd6cc404.mp3",
+      "hash": "a517c524cd6cc404"
+    },
+    {
+      "id": "g5-w-august",
+      "part": "word",
+      "speed": "normal",
+      "text": "August",
+      "path": "assets/audio/g5-w-august-word-normal-3f53b00dc6abe6aa.mp3",
+      "hash": "3f53b00dc6abe6aa"
+    },
+    {
+      "id": "g5-w-august",
+      "part": "word",
+      "speed": "slow",
+      "text": "August",
+      "path": "assets/audio/g5-w-august-word-slow-27569238d4fe7a94.mp3",
+      "hash": "27569238d4fe7a94"
+    },
+    {
+      "id": "g5-w-august",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in August.",
+      "path": "assets/audio/g5-w-august-example-normal-23969327175da080.mp3",
+      "hash": "23969327175da080"
+    },
+    {
+      "id": "g5-w-august",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in August.",
+      "path": "assets/audio/g5-w-august-example-slow-66619b75320b11d0.mp3",
+      "hash": "66619b75320b11d0"
+    },
+    {
+      "id": "g5-w-september",
+      "part": "word",
+      "speed": "normal",
+      "text": "September",
+      "path": "assets/audio/g5-w-september-word-normal-d3e7ff9d307b3b56.mp3",
+      "hash": "d3e7ff9d307b3b56"
+    },
+    {
+      "id": "g5-w-september",
+      "part": "word",
+      "speed": "slow",
+      "text": "September",
+      "path": "assets/audio/g5-w-september-word-slow-fb01cced92f151f6.mp3",
+      "hash": "fb01cced92f151f6"
+    },
+    {
+      "id": "g5-w-september",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in September.",
+      "path": "assets/audio/g5-w-september-example-normal-09677230cc73fcf5.mp3",
+      "hash": "09677230cc73fcf5"
+    },
+    {
+      "id": "g5-w-september",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in September.",
+      "path": "assets/audio/g5-w-september-example-slow-f629eeacbbff336f.mp3",
+      "hash": "f629eeacbbff336f"
+    },
+    {
+      "id": "g5-w-october",
+      "part": "word",
+      "speed": "normal",
+      "text": "October",
+      "path": "assets/audio/g5-w-october-word-normal-9744a00dc68a5f97.mp3",
+      "hash": "9744a00dc68a5f97"
+    },
+    {
+      "id": "g5-w-october",
+      "part": "word",
+      "speed": "slow",
+      "text": "October",
+      "path": "assets/audio/g5-w-october-word-slow-e3ebc6aa7f0b586c.mp3",
+      "hash": "e3ebc6aa7f0b586c"
+    },
+    {
+      "id": "g5-w-october",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in October.",
+      "path": "assets/audio/g5-w-october-example-normal-9695ee3350b6e3d9.mp3",
+      "hash": "9695ee3350b6e3d9"
+    },
+    {
+      "id": "g5-w-october",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in October.",
+      "path": "assets/audio/g5-w-october-example-slow-3e7488d5c3325498.mp3",
+      "hash": "3e7488d5c3325498"
+    },
+    {
+      "id": "g5-w-november",
+      "part": "word",
+      "speed": "normal",
+      "text": "November",
+      "path": "assets/audio/g5-w-november-word-normal-a98dea3f1a6064e7.mp3",
+      "hash": "a98dea3f1a6064e7"
+    },
+    {
+      "id": "g5-w-november",
+      "part": "word",
+      "speed": "slow",
+      "text": "November",
+      "path": "assets/audio/g5-w-november-word-slow-8de14c4762df04c1.mp3",
+      "hash": "8de14c4762df04c1"
+    },
+    {
+      "id": "g5-w-november",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in November.",
+      "path": "assets/audio/g5-w-november-example-normal-6d0a82de899a342b.mp3",
+      "hash": "6d0a82de899a342b"
+    },
+    {
+      "id": "g5-w-november",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in November.",
+      "path": "assets/audio/g5-w-november-example-slow-fc811baa43001e5c.mp3",
+      "hash": "fc811baa43001e5c"
+    },
+    {
+      "id": "g5-w-december",
+      "part": "word",
+      "speed": "normal",
+      "text": "December",
+      "path": "assets/audio/g5-w-december-word-normal-439090382c858a85.mp3",
+      "hash": "439090382c858a85"
+    },
+    {
+      "id": "g5-w-december",
+      "part": "word",
+      "speed": "slow",
+      "text": "December",
+      "path": "assets/audio/g5-w-december-word-slow-59969c40a83873bf.mp3",
+      "hash": "59969c40a83873bf"
+    },
+    {
+      "id": "g5-w-december",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in December.",
+      "path": "assets/audio/g5-w-december-example-normal-c42a63f7e7044417.mp3",
+      "hash": "c42a63f7e7044417"
+    },
+    {
+      "id": "g5-w-december",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in December.",
+      "path": "assets/audio/g5-w-december-example-slow-68fab2372c6cd7b8.mp3",
+      "hash": "68fab2372c6cd7b8"
+    },
+    {
+      "id": "g5-w-eleven",
+      "part": "word",
+      "speed": "normal",
+      "text": "eleven",
+      "path": "assets/audio/g5-w-eleven-word-normal-eaa7263861478994.mp3",
+      "hash": "eaa7263861478994"
+    },
+    {
+      "id": "g5-w-eleven",
+      "part": "word",
+      "speed": "slow",
+      "text": "eleven",
+      "path": "assets/audio/g5-w-eleven-word-slow-ae9bde3a9745e687.mp3",
+      "hash": "ae9bde3a9745e687"
+    },
+    {
+      "id": "g5-w-eleven",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have eleven pencils.",
+      "path": "assets/audio/g5-w-eleven-example-normal-5b48d3f20fd8673f.mp3",
+      "hash": "5b48d3f20fd8673f"
+    },
+    {
+      "id": "g5-w-eleven",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have eleven pencils.",
+      "path": "assets/audio/g5-w-eleven-example-slow-41c959a673ca4076.mp3",
+      "hash": "41c959a673ca4076"
+    },
+    {
+      "id": "g5-w-twelve",
+      "part": "word",
+      "speed": "normal",
+      "text": "twelve",
+      "path": "assets/audio/g5-w-twelve-word-normal-d316db27f12530e0.mp3",
+      "hash": "d316db27f12530e0"
+    },
+    {
+      "id": "g5-w-twelve",
+      "part": "word",
+      "speed": "slow",
+      "text": "twelve",
+      "path": "assets/audio/g5-w-twelve-word-slow-03368e820fecc120.mp3",
+      "hash": "03368e820fecc120"
+    },
+    {
+      "id": "g5-w-twelve",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have twelve pencils.",
+      "path": "assets/audio/g5-w-twelve-example-normal-2402c41ff64534e2.mp3",
+      "hash": "2402c41ff64534e2"
+    },
+    {
+      "id": "g5-w-twelve",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have twelve pencils.",
+      "path": "assets/audio/g5-w-twelve-example-slow-9a41ab50a1b547ce.mp3",
+      "hash": "9a41ab50a1b547ce"
+    },
+    {
+      "id": "g5-w-thirteen",
+      "part": "word",
+      "speed": "normal",
+      "text": "thirteen",
+      "path": "assets/audio/g5-w-thirteen-word-normal-64799fe6a67057d6.mp3",
+      "hash": "64799fe6a67057d6"
+    },
+    {
+      "id": "g5-w-thirteen",
+      "part": "word",
+      "speed": "slow",
+      "text": "thirteen",
+      "path": "assets/audio/g5-w-thirteen-word-slow-6925a804cc851e73.mp3",
+      "hash": "6925a804cc851e73"
+    },
+    {
+      "id": "g5-w-thirteen",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have thirteen pencils.",
+      "path": "assets/audio/g5-w-thirteen-example-normal-b61c6a526fb70a71.mp3",
+      "hash": "b61c6a526fb70a71"
+    },
+    {
+      "id": "g5-w-thirteen",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have thirteen pencils.",
+      "path": "assets/audio/g5-w-thirteen-example-slow-14cbd7efc29f06c2.mp3",
+      "hash": "14cbd7efc29f06c2"
+    },
+    {
+      "id": "g5-w-fourteen",
+      "part": "word",
+      "speed": "normal",
+      "text": "fourteen",
+      "path": "assets/audio/g5-w-fourteen-word-normal-31fa9f04d3723957.mp3",
+      "hash": "31fa9f04d3723957"
+    },
+    {
+      "id": "g5-w-fourteen",
+      "part": "word",
+      "speed": "slow",
+      "text": "fourteen",
+      "path": "assets/audio/g5-w-fourteen-word-slow-983cdafd0e0c0084.mp3",
+      "hash": "983cdafd0e0c0084"
+    },
+    {
+      "id": "g5-w-fourteen",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have fourteen pencils.",
+      "path": "assets/audio/g5-w-fourteen-example-normal-8d79bbefbecc9770.mp3",
+      "hash": "8d79bbefbecc9770"
+    },
+    {
+      "id": "g5-w-fourteen",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have fourteen pencils.",
+      "path": "assets/audio/g5-w-fourteen-example-slow-3048170bcdb7aae5.mp3",
+      "hash": "3048170bcdb7aae5"
+    },
+    {
+      "id": "g5-w-fifteen",
+      "part": "word",
+      "speed": "normal",
+      "text": "fifteen",
+      "path": "assets/audio/g5-w-fifteen-word-normal-a8f210a640334c1a.mp3",
+      "hash": "a8f210a640334c1a"
+    },
+    {
+      "id": "g5-w-fifteen",
+      "part": "word",
+      "speed": "slow",
+      "text": "fifteen",
+      "path": "assets/audio/g5-w-fifteen-word-slow-0fe2ca5178d4a980.mp3",
+      "hash": "0fe2ca5178d4a980"
+    },
+    {
+      "id": "g5-w-fifteen",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have fifteen pencils.",
+      "path": "assets/audio/g5-w-fifteen-example-normal-186a799056a0371a.mp3",
+      "hash": "186a799056a0371a"
+    },
+    {
+      "id": "g5-w-fifteen",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have fifteen pencils.",
+      "path": "assets/audio/g5-w-fifteen-example-slow-1b8e74d64c40f849.mp3",
+      "hash": "1b8e74d64c40f849"
+    },
+    {
+      "id": "g5-w-sixteen",
+      "part": "word",
+      "speed": "normal",
+      "text": "sixteen",
+      "path": "assets/audio/g5-w-sixteen-word-normal-81f1337f587c604f.mp3",
+      "hash": "81f1337f587c604f"
+    },
+    {
+      "id": "g5-w-sixteen",
+      "part": "word",
+      "speed": "slow",
+      "text": "sixteen",
+      "path": "assets/audio/g5-w-sixteen-word-slow-2883b065d6adf46b.mp3",
+      "hash": "2883b065d6adf46b"
+    },
+    {
+      "id": "g5-w-sixteen",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have sixteen pencils.",
+      "path": "assets/audio/g5-w-sixteen-example-normal-43197d1e1b554b64.mp3",
+      "hash": "43197d1e1b554b64"
+    },
+    {
+      "id": "g5-w-sixteen",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have sixteen pencils.",
+      "path": "assets/audio/g5-w-sixteen-example-slow-6cb90745e3160237.mp3",
+      "hash": "6cb90745e3160237"
+    },
+    {
+      "id": "g5-w-seventeen",
+      "part": "word",
+      "speed": "normal",
+      "text": "seventeen",
+      "path": "assets/audio/g5-w-seventeen-word-normal-6846da5ddeb7fc3b.mp3",
+      "hash": "6846da5ddeb7fc3b"
+    },
+    {
+      "id": "g5-w-seventeen",
+      "part": "word",
+      "speed": "slow",
+      "text": "seventeen",
+      "path": "assets/audio/g5-w-seventeen-word-slow-5c48979fdcd6e991.mp3",
+      "hash": "5c48979fdcd6e991"
+    },
+    {
+      "id": "g5-w-seventeen",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have seventeen pencils.",
+      "path": "assets/audio/g5-w-seventeen-example-normal-8be4ec16d5096af8.mp3",
+      "hash": "8be4ec16d5096af8"
+    },
+    {
+      "id": "g5-w-seventeen",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have seventeen pencils.",
+      "path": "assets/audio/g5-w-seventeen-example-slow-afc1b505ed6c8152.mp3",
+      "hash": "afc1b505ed6c8152"
+    },
+    {
+      "id": "g5-w-eighteen",
+      "part": "word",
+      "speed": "normal",
+      "text": "eighteen",
+      "path": "assets/audio/g5-w-eighteen-word-normal-591c1afccd7b1bf2.mp3",
+      "hash": "591c1afccd7b1bf2"
+    },
+    {
+      "id": "g5-w-eighteen",
+      "part": "word",
+      "speed": "slow",
+      "text": "eighteen",
+      "path": "assets/audio/g5-w-eighteen-word-slow-b204ff8f268cf13f.mp3",
+      "hash": "b204ff8f268cf13f"
+    },
+    {
+      "id": "g5-w-eighteen",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have eighteen pencils.",
+      "path": "assets/audio/g5-w-eighteen-example-normal-a9b853015b34606b.mp3",
+      "hash": "a9b853015b34606b"
+    },
+    {
+      "id": "g5-w-eighteen",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have eighteen pencils.",
+      "path": "assets/audio/g5-w-eighteen-example-slow-0a53354398cfed8b.mp3",
+      "hash": "0a53354398cfed8b"
+    },
+    {
+      "id": "g5-w-nineteen",
+      "part": "word",
+      "speed": "normal",
+      "text": "nineteen",
+      "path": "assets/audio/g5-w-nineteen-word-normal-b95432a9e63f0cd4.mp3",
+      "hash": "b95432a9e63f0cd4"
+    },
+    {
+      "id": "g5-w-nineteen",
+      "part": "word",
+      "speed": "slow",
+      "text": "nineteen",
+      "path": "assets/audio/g5-w-nineteen-word-slow-8c5e2ea6cc8859a6.mp3",
+      "hash": "8c5e2ea6cc8859a6"
+    },
+    {
+      "id": "g5-w-nineteen",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have nineteen pencils.",
+      "path": "assets/audio/g5-w-nineteen-example-normal-5619162eadb39503.mp3",
+      "hash": "5619162eadb39503"
+    },
+    {
+      "id": "g5-w-nineteen",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have nineteen pencils.",
+      "path": "assets/audio/g5-w-nineteen-example-slow-e71f53bb14009aa1.mp3",
+      "hash": "e71f53bb14009aa1"
+    },
+    {
+      "id": "g5-w-twenty",
+      "part": "word",
+      "speed": "normal",
+      "text": "twenty",
+      "path": "assets/audio/g5-w-twenty-word-normal-7a4838eb13dc692c.mp3",
+      "hash": "7a4838eb13dc692c"
+    },
+    {
+      "id": "g5-w-twenty",
+      "part": "word",
+      "speed": "slow",
+      "text": "twenty",
+      "path": "assets/audio/g5-w-twenty-word-slow-8d0ac50448cc1f36.mp3",
+      "hash": "8d0ac50448cc1f36"
+    },
+    {
+      "id": "g5-w-twenty",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have twenty pencils.",
+      "path": "assets/audio/g5-w-twenty-example-normal-6ef3e4faa1dcad9a.mp3",
+      "hash": "6ef3e4faa1dcad9a"
+    },
+    {
+      "id": "g5-w-twenty",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have twenty pencils.",
+      "path": "assets/audio/g5-w-twenty-example-slow-efb6121826bcbd62.mp3",
+      "hash": "efb6121826bcbd62"
+    },
+    {
+      "id": "g5-w-sunny",
+      "part": "word",
+      "speed": "normal",
+      "text": "sunny",
+      "path": "assets/audio/g5-w-sunny-word-normal-8d545bd75fba535d.mp3",
+      "hash": "8d545bd75fba535d"
+    },
+    {
+      "id": "g5-w-sunny",
+      "part": "word",
+      "speed": "slow",
+      "text": "sunny",
+      "path": "assets/audio/g5-w-sunny-word-slow-67dc1b9c35930779.mp3",
+      "hash": "67dc1b9c35930779"
+    },
+    {
+      "id": "g5-w-sunny",
+      "part": "example",
+      "speed": "normal",
+      "text": "It is sunny today.",
+      "path": "assets/audio/g5-w-sunny-example-normal-782a4d2c83ab1b95.mp3",
+      "hash": "782a4d2c83ab1b95"
+    },
+    {
+      "id": "g5-w-sunny",
+      "part": "example",
+      "speed": "slow",
+      "text": "It is sunny today.",
+      "path": "assets/audio/g5-w-sunny-example-slow-0fd3fe33b5693602.mp3",
+      "hash": "0fd3fe33b5693602"
+    },
+    {
+      "id": "g5-w-rainy",
+      "part": "word",
+      "speed": "normal",
+      "text": "rainy",
+      "path": "assets/audio/g5-w-rainy-word-normal-f46758ebc68f8b02.mp3",
+      "hash": "f46758ebc68f8b02"
+    },
+    {
+      "id": "g5-w-rainy",
+      "part": "word",
+      "speed": "slow",
+      "text": "rainy",
+      "path": "assets/audio/g5-w-rainy-word-slow-92a07323ae7c8680.mp3",
+      "hash": "92a07323ae7c8680"
+    },
+    {
+      "id": "g5-w-rainy",
+      "part": "example",
+      "speed": "normal",
+      "text": "It is rainy today.",
+      "path": "assets/audio/g5-w-rainy-example-normal-671767f4333b82c4.mp3",
+      "hash": "671767f4333b82c4"
+    },
+    {
+      "id": "g5-w-rainy",
+      "part": "example",
+      "speed": "slow",
+      "text": "It is rainy today.",
+      "path": "assets/audio/g5-w-rainy-example-slow-5d27ae61be174d6e.mp3",
+      "hash": "5d27ae61be174d6e"
+    },
+    {
+      "id": "g5-w-cloudy",
+      "part": "word",
+      "speed": "normal",
+      "text": "cloudy",
+      "path": "assets/audio/g5-w-cloudy-word-normal-a216bbbe4177d058.mp3",
+      "hash": "a216bbbe4177d058"
+    },
+    {
+      "id": "g5-w-cloudy",
+      "part": "word",
+      "speed": "slow",
+      "text": "cloudy",
+      "path": "assets/audio/g5-w-cloudy-word-slow-8609b0549cd7500f.mp3",
+      "hash": "8609b0549cd7500f"
+    },
+    {
+      "id": "g5-w-cloudy",
+      "part": "example",
+      "speed": "normal",
+      "text": "It is cloudy today.",
+      "path": "assets/audio/g5-w-cloudy-example-normal-750c6f76a0e15e6b.mp3",
+      "hash": "750c6f76a0e15e6b"
+    },
+    {
+      "id": "g5-w-cloudy",
+      "part": "example",
+      "speed": "slow",
+      "text": "It is cloudy today.",
+      "path": "assets/audio/g5-w-cloudy-example-slow-7473f137c163e71f.mp3",
+      "hash": "7473f137c163e71f"
+    },
+    {
+      "id": "g5-w-snowy",
+      "part": "word",
+      "speed": "normal",
+      "text": "snowy",
+      "path": "assets/audio/g5-w-snowy-word-normal-0d160efdeaa76c62.mp3",
+      "hash": "0d160efdeaa76c62"
+    },
+    {
+      "id": "g5-w-snowy",
+      "part": "word",
+      "speed": "slow",
+      "text": "snowy",
+      "path": "assets/audio/g5-w-snowy-word-slow-e3b1d4e410482073.mp3",
+      "hash": "e3b1d4e410482073"
+    },
+    {
+      "id": "g5-w-snowy",
+      "part": "example",
+      "speed": "normal",
+      "text": "It is snowy today.",
+      "path": "assets/audio/g5-w-snowy-example-normal-9f744892c6b0dd53.mp3",
+      "hash": "9f744892c6b0dd53"
+    },
+    {
+      "id": "g5-w-snowy",
+      "part": "example",
+      "speed": "slow",
+      "text": "It is snowy today.",
+      "path": "assets/audio/g5-w-snowy-example-slow-620973e826aa4563.mp3",
+      "hash": "620973e826aa4563"
+    },
+    {
+      "id": "g5-w-windy",
+      "part": "word",
+      "speed": "normal",
+      "text": "windy",
+      "path": "assets/audio/g5-w-windy-word-normal-481c6fce0b231838.mp3",
+      "hash": "481c6fce0b231838"
+    },
+    {
+      "id": "g5-w-windy",
+      "part": "word",
+      "speed": "slow",
+      "text": "windy",
+      "path": "assets/audio/g5-w-windy-word-slow-a7b48fe972975d7d.mp3",
+      "hash": "a7b48fe972975d7d"
+    },
+    {
+      "id": "g5-w-windy",
+      "part": "example",
+      "speed": "normal",
+      "text": "It is windy today.",
+      "path": "assets/audio/g5-w-windy-example-normal-493df4d99bedf416.mp3",
+      "hash": "493df4d99bedf416"
+    },
+    {
+      "id": "g5-w-windy",
+      "part": "example",
+      "speed": "slow",
+      "text": "It is windy today.",
+      "path": "assets/audio/g5-w-windy-example-slow-fa3e9c7f0bbd5bcd.mp3",
+      "hash": "fa3e9c7f0bbd5bcd"
+    },
+    {
+      "id": "g5-w-rain",
+      "part": "word",
+      "speed": "normal",
+      "text": "rain",
+      "path": "assets/audio/g5-w-rain-word-normal-56e0bbad1b271295.mp3",
+      "hash": "56e0bbad1b271295"
+    },
+    {
+      "id": "g5-w-rain",
+      "part": "word",
+      "speed": "slow",
+      "text": "rain",
+      "path": "assets/audio/g5-w-rain-word-slow-41adbf5cdf778570.mp3",
+      "hash": "41adbf5cdf778570"
+    },
+    {
+      "id": "g5-w-rain",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like the rain.",
+      "path": "assets/audio/g5-w-rain-example-normal-de5b9d38e4efd4dc.mp3",
+      "hash": "de5b9d38e4efd4dc"
+    },
+    {
+      "id": "g5-w-rain",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like the rain.",
+      "path": "assets/audio/g5-w-rain-example-slow-73ffea3ddc45aad5.mp3",
+      "hash": "73ffea3ddc45aad5"
+    },
+    {
+      "id": "g5-w-snow",
+      "part": "word",
+      "speed": "normal",
+      "text": "snow",
+      "path": "assets/audio/g5-w-snow-word-normal-a4c259a9914c2221.mp3",
+      "hash": "a4c259a9914c2221"
+    },
+    {
+      "id": "g5-w-snow",
+      "part": "word",
+      "speed": "slow",
+      "text": "snow",
+      "path": "assets/audio/g5-w-snow-word-slow-c7113b707cac1eb8.mp3",
+      "hash": "c7113b707cac1eb8"
+    },
+    {
+      "id": "g5-w-snow",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like snow.",
+      "path": "assets/audio/g5-w-snow-example-normal-cf6318a500ac9110.mp3",
+      "hash": "cf6318a500ac9110"
+    },
+    {
+      "id": "g5-w-snow",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like snow.",
+      "path": "assets/audio/g5-w-snow-example-slow-f850295c2260c15c.mp3",
+      "hash": "f850295c2260c15c"
+    },
+    {
+      "id": "g5-w-fall",
+      "part": "word",
+      "speed": "normal",
+      "text": "fall",
+      "path": "assets/audio/g5-w-fall-word-normal-502b95ec3d403f64.mp3",
+      "hash": "502b95ec3d403f64"
+    },
+    {
+      "id": "g5-w-fall",
+      "part": "word",
+      "speed": "slow",
+      "text": "fall",
+      "path": "assets/audio/g5-w-fall-word-slow-61d45eb4be60f2ad.mp3",
+      "hash": "61d45eb4be60f2ad"
+    },
+    {
+      "id": "g5-w-fall",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like fall.",
+      "path": "assets/audio/g5-w-fall-example-normal-bd367df882018941.mp3",
+      "hash": "bd367df882018941"
+    },
+    {
+      "id": "g5-w-fall",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like fall.",
+      "path": "assets/audio/g5-w-fall-example-slow-9bbd1c9afdb5977e.mp3",
+      "hash": "9bbd1c9afdb5977e"
+    },
+    {
+      "id": "g5-w-strawberry",
+      "part": "word",
+      "speed": "normal",
+      "text": "strawberry",
+      "path": "assets/audio/g5-w-strawberry-word-normal-aad4daabf9d21216.mp3",
+      "hash": "aad4daabf9d21216"
+    },
+    {
+      "id": "g5-w-strawberry",
+      "part": "word",
+      "speed": "slow",
+      "text": "strawberry",
+      "path": "assets/audio/g5-w-strawberry-word-slow-c4baeb7dd2d65c07.mp3",
+      "hash": "c4baeb7dd2d65c07"
+    },
+    {
+      "id": "g5-w-strawberry",
+      "part": "example",
+      "speed": "normal",
+      "text": "This strawberry is red.",
+      "path": "assets/audio/g5-w-strawberry-example-normal-daf083df3b46f2d3.mp3",
+      "hash": "daf083df3b46f2d3"
+    },
+    {
+      "id": "g5-w-strawberry",
+      "part": "example",
+      "speed": "slow",
+      "text": "This strawberry is red.",
+      "path": "assets/audio/g5-w-strawberry-example-slow-1e79fcd0bd4a0801.mp3",
+      "hash": "1e79fcd0bd4a0801"
+    },
+    {
+      "id": "g5-w-grape",
+      "part": "word",
+      "speed": "normal",
+      "text": "grape",
+      "path": "assets/audio/g5-w-grape-word-normal-02770481a8e366f9.mp3",
+      "hash": "02770481a8e366f9"
+    },
+    {
+      "id": "g5-w-grape",
+      "part": "word",
+      "speed": "slow",
+      "text": "grape",
+      "path": "assets/audio/g5-w-grape-word-slow-a1e6205db19a1ff5.mp3",
+      "hash": "a1e6205db19a1ff5"
+    },
+    {
+      "id": "g5-w-grape",
+      "part": "example",
+      "speed": "normal",
+      "text": "This grape is sweet.",
+      "path": "assets/audio/g5-w-grape-example-normal-b8900ddf2a925e6b.mp3",
+      "hash": "b8900ddf2a925e6b"
+    },
+    {
+      "id": "g5-w-grape",
+      "part": "example",
+      "speed": "slow",
+      "text": "This grape is sweet.",
+      "path": "assets/audio/g5-w-grape-example-slow-f661638f6c990c63.mp3",
+      "hash": "f661638f6c990c63"
+    },
+    {
+      "id": "g5-w-ice-cream",
+      "part": "word",
+      "speed": "normal",
+      "text": "ice cream",
+      "path": "assets/audio/g5-w-ice-cream-word-normal-5d273e6b5a68f7db.mp3",
+      "hash": "5d273e6b5a68f7db"
+    },
+    {
+      "id": "g5-w-ice-cream",
+      "part": "word",
+      "speed": "slow",
+      "text": "ice cream",
+      "path": "assets/audio/g5-w-ice-cream-word-slow-ef13af7fc8b3760e.mp3",
+      "hash": "ef13af7fc8b3760e"
+    },
+    {
+      "id": "g5-w-ice-cream",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like ice cream.",
+      "path": "assets/audio/g5-w-ice-cream-example-normal-929c35e652d512ba.mp3",
+      "hash": "929c35e652d512ba"
+    },
+    {
+      "id": "g5-w-ice-cream",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like ice cream.",
+      "path": "assets/audio/g5-w-ice-cream-example-slow-3cd78396313d2bb2.mp3",
+      "hash": "3cd78396313d2bb2"
+    },
+    {
+      "id": "g5-w-chocolate",
+      "part": "word",
+      "speed": "normal",
+      "text": "chocolate",
+      "path": "assets/audio/g5-w-chocolate-word-normal-4905607b86057a32.mp3",
+      "hash": "4905607b86057a32"
+    },
+    {
+      "id": "g5-w-chocolate",
+      "part": "word",
+      "speed": "slow",
+      "text": "chocolate",
+      "path": "assets/audio/g5-w-chocolate-word-slow-925a1590d0cc46ac.mp3",
+      "hash": "925a1590d0cc46ac"
+    },
+    {
+      "id": "g5-w-chocolate",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like chocolate.",
+      "path": "assets/audio/g5-w-chocolate-example-normal-891483f8188b4e53.mp3",
+      "hash": "891483f8188b4e53"
+    },
+    {
+      "id": "g5-w-chocolate",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like chocolate.",
+      "path": "assets/audio/g5-w-chocolate-example-slow-be8a1fb2e9be83e9.mp3",
+      "hash": "be8a1fb2e9be83e9"
+    },
+    {
+      "id": "g5-w-cheese",
+      "part": "word",
+      "speed": "normal",
+      "text": "cheese",
+      "path": "assets/audio/g5-w-cheese-word-normal-1b1bc74681e19547.mp3",
+      "hash": "1b1bc74681e19547"
+    },
+    {
+      "id": "g5-w-cheese",
+      "part": "word",
+      "speed": "slow",
+      "text": "cheese",
+      "path": "assets/audio/g5-w-cheese-word-slow-c6251a65d33d0978.mp3",
+      "hash": "c6251a65d33d0978"
+    },
+    {
+      "id": "g5-w-cheese",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like cheese.",
+      "path": "assets/audio/g5-w-cheese-example-normal-369611ae221646f0.mp3",
+      "hash": "369611ae221646f0"
+    },
+    {
+      "id": "g5-w-cheese",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like cheese.",
+      "path": "assets/audio/g5-w-cheese-example-slow-e196ef0645f9945b.mp3",
+      "hash": "e196ef0645f9945b"
+    },
+    {
+      "id": "g5-w-juice",
+      "part": "word",
+      "speed": "normal",
+      "text": "juice",
+      "path": "assets/audio/g5-w-juice-word-normal-bc2210925cfd1d90.mp3",
+      "hash": "bc2210925cfd1d90"
+    },
+    {
+      "id": "g5-w-juice",
+      "part": "word",
+      "speed": "slow",
+      "text": "juice",
+      "path": "assets/audio/g5-w-juice-word-slow-720d9e782eb97f0d.mp3",
+      "hash": "720d9e782eb97f0d"
+    },
+    {
+      "id": "g5-w-juice",
+      "part": "example",
+      "speed": "normal",
+      "text": "I drink orange juice.",
+      "path": "assets/audio/g5-w-juice-example-normal-807ac1e276cc045a.mp3",
+      "hash": "807ac1e276cc045a"
+    },
+    {
+      "id": "g5-w-juice",
+      "part": "example",
+      "speed": "slow",
+      "text": "I drink orange juice.",
+      "path": "assets/audio/g5-w-juice-example-slow-4e924a0a6a930660.mp3",
+      "hash": "4e924a0a6a930660"
+    },
+    {
+      "id": "g5-w-tea",
+      "part": "word",
+      "speed": "normal",
+      "text": "tea",
+      "path": "assets/audio/g5-w-tea-word-normal-7c5157ed11bd68c9.mp3",
+      "hash": "7c5157ed11bd68c9"
+    },
+    {
+      "id": "g5-w-tea",
+      "part": "word",
+      "speed": "slow",
+      "text": "tea",
+      "path": "assets/audio/g5-w-tea-word-slow-79dc3e514877e9cb.mp3",
+      "hash": "79dc3e514877e9cb"
+    },
+    {
+      "id": "g5-w-tea",
+      "part": "example",
+      "speed": "normal",
+      "text": "My mother likes tea.",
+      "path": "assets/audio/g5-w-tea-example-normal-6edf9f6748b33dbe.mp3",
+      "hash": "6edf9f6748b33dbe"
+    },
+    {
+      "id": "g5-w-tea",
+      "part": "example",
+      "speed": "slow",
+      "text": "My mother likes tea.",
+      "path": "assets/audio/g5-w-tea-example-slow-5deed6e892a53702.mp3",
+      "hash": "5deed6e892a53702"
+    },
+    {
+      "id": "g5-w-soup",
+      "part": "word",
+      "speed": "normal",
+      "text": "soup",
+      "path": "assets/audio/g5-w-soup-word-normal-dfa8a8498125e834.mp3",
+      "hash": "dfa8a8498125e834"
+    },
+    {
+      "id": "g5-w-soup",
+      "part": "word",
+      "speed": "slow",
+      "text": "soup",
+      "path": "assets/audio/g5-w-soup-word-slow-771129cb8fb3042d.mp3",
+      "hash": "771129cb8fb3042d"
+    },
+    {
+      "id": "g5-w-soup",
+      "part": "example",
+      "speed": "normal",
+      "text": "This soup is hot.",
+      "path": "assets/audio/g5-w-soup-example-normal-ad2c8ab4bcbddb4f.mp3",
+      "hash": "ad2c8ab4bcbddb4f"
+    },
+    {
+      "id": "g5-w-soup",
+      "part": "example",
+      "speed": "slow",
+      "text": "This soup is hot.",
+      "path": "assets/audio/g5-w-soup-example-slow-a8309b21ed6de4cb.mp3",
+      "hash": "a8309b21ed6de4cb"
+    },
+    {
+      "id": "g5-w-meat",
+      "part": "word",
+      "speed": "normal",
+      "text": "meat",
+      "path": "assets/audio/g5-w-meat-word-normal-4046fc15b917c596.mp3",
+      "hash": "4046fc15b917c596"
+    },
+    {
+      "id": "g5-w-meat",
+      "part": "word",
+      "speed": "slow",
+      "text": "meat",
+      "path": "assets/audio/g5-w-meat-word-slow-1d3aaa254ec2d20b.mp3",
+      "hash": "1d3aaa254ec2d20b"
+    },
+    {
+      "id": "g5-w-meat",
+      "part": "example",
+      "speed": "normal",
+      "text": "I eat meat.",
+      "path": "assets/audio/g5-w-meat-example-normal-5ef56716d2dcf61d.mp3",
+      "hash": "5ef56716d2dcf61d"
+    },
+    {
+      "id": "g5-w-meat",
+      "part": "example",
+      "speed": "slow",
+      "text": "I eat meat.",
+      "path": "assets/audio/g5-w-meat-example-slow-eb9caa51f6e8e711.mp3",
+      "hash": "eb9caa51f6e8e711"
+    },
+    {
+      "id": "g5-w-chicken",
+      "part": "word",
+      "speed": "normal",
+      "text": "chicken",
+      "path": "assets/audio/g5-w-chicken-word-normal-d0620fa29a4840ec.mp3",
+      "hash": "d0620fa29a4840ec"
+    },
+    {
+      "id": "g5-w-chicken",
+      "part": "word",
+      "speed": "slow",
+      "text": "chicken",
+      "path": "assets/audio/g5-w-chicken-word-slow-7f9d4eef49188b24.mp3",
+      "hash": "7f9d4eef49188b24"
+    },
+    {
+      "id": "g5-w-chicken",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like chicken.",
+      "path": "assets/audio/g5-w-chicken-example-normal-37e3c0010b47c156.mp3",
+      "hash": "37e3c0010b47c156"
+    },
+    {
+      "id": "g5-w-chicken",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like chicken.",
+      "path": "assets/audio/g5-w-chicken-example-slow-7b077adfeb50b764.mp3",
+      "hash": "7b077adfeb50b764"
+    },
+    {
+      "id": "g5-w-soccer",
+      "part": "word",
+      "speed": "normal",
+      "text": "soccer",
+      "path": "assets/audio/g5-w-soccer-word-normal-48abe36070564b8a.mp3",
+      "hash": "48abe36070564b8a"
+    },
+    {
+      "id": "g5-w-soccer",
+      "part": "word",
+      "speed": "slow",
+      "text": "soccer",
+      "path": "assets/audio/g5-w-soccer-word-slow-3ed4eb4df54ec687.mp3",
+      "hash": "3ed4eb4df54ec687"
+    },
+    {
+      "id": "g5-w-soccer",
+      "part": "example",
+      "speed": "normal",
+      "text": "I play soccer.",
+      "path": "assets/audio/g5-w-soccer-example-normal-1f6bd0b801252b71.mp3",
+      "hash": "1f6bd0b801252b71"
+    },
+    {
+      "id": "g5-w-soccer",
+      "part": "example",
+      "speed": "slow",
+      "text": "I play soccer.",
+      "path": "assets/audio/g5-w-soccer-example-slow-73cb7994f782d4df.mp3",
+      "hash": "73cb7994f782d4df"
+    },
+    {
+      "id": "g5-w-baseball",
+      "part": "word",
+      "speed": "normal",
+      "text": "baseball",
+      "path": "assets/audio/g5-w-baseball-word-normal-b753f49e64ef3b16.mp3",
+      "hash": "b753f49e64ef3b16"
+    },
+    {
+      "id": "g5-w-baseball",
+      "part": "word",
+      "speed": "slow",
+      "text": "baseball",
+      "path": "assets/audio/g5-w-baseball-word-slow-61ae3cb2a4dafcec.mp3",
+      "hash": "61ae3cb2a4dafcec"
+    },
+    {
+      "id": "g5-w-baseball",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like baseball.",
+      "path": "assets/audio/g5-w-baseball-example-normal-12024b98ebfbc36d.mp3",
+      "hash": "12024b98ebfbc36d"
+    },
+    {
+      "id": "g5-w-baseball",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like baseball.",
+      "path": "assets/audio/g5-w-baseball-example-slow-b78cf079e64a8e26.mp3",
+      "hash": "b78cf079e64a8e26"
+    },
+    {
+      "id": "g5-w-basketball",
+      "part": "word",
+      "speed": "normal",
+      "text": "basketball",
+      "path": "assets/audio/g5-w-basketball-word-normal-160d547b9153a87d.mp3",
+      "hash": "160d547b9153a87d"
+    },
+    {
+      "id": "g5-w-basketball",
+      "part": "word",
+      "speed": "slow",
+      "text": "basketball",
+      "path": "assets/audio/g5-w-basketball-word-slow-f04473385c5a2929.mp3",
+      "hash": "f04473385c5a2929"
+    },
+    {
+      "id": "g5-w-basketball",
+      "part": "example",
+      "speed": "normal",
+      "text": "I play basketball.",
+      "path": "assets/audio/g5-w-basketball-example-normal-7bf6a9bbb61f997b.mp3",
+      "hash": "7bf6a9bbb61f997b"
+    },
+    {
+      "id": "g5-w-basketball",
+      "part": "example",
+      "speed": "slow",
+      "text": "I play basketball.",
+      "path": "assets/audio/g5-w-basketball-example-slow-871ae6925c70a235.mp3",
+      "hash": "871ae6925c70a235"
+    },
+    {
+      "id": "g5-w-tennis",
+      "part": "word",
+      "speed": "normal",
+      "text": "tennis",
+      "path": "assets/audio/g5-w-tennis-word-normal-985818aa4b7f6a31.mp3",
+      "hash": "985818aa4b7f6a31"
+    },
+    {
+      "id": "g5-w-tennis",
+      "part": "word",
+      "speed": "slow",
+      "text": "tennis",
+      "path": "assets/audio/g5-w-tennis-word-slow-bde450be1e0ea4da.mp3",
+      "hash": "bde450be1e0ea4da"
+    },
+    {
+      "id": "g5-w-tennis",
+      "part": "example",
+      "speed": "normal",
+      "text": "I play tennis.",
+      "path": "assets/audio/g5-w-tennis-example-normal-136aee759cb27502.mp3",
+      "hash": "136aee759cb27502"
+    },
+    {
+      "id": "g5-w-tennis",
+      "part": "example",
+      "speed": "slow",
+      "text": "I play tennis.",
+      "path": "assets/audio/g5-w-tennis-example-slow-3fe7e51f48216d69.mp3",
+      "hash": "3fe7e51f48216d69"
+    },
+    {
+      "id": "g5-w-volleyball",
+      "part": "word",
+      "speed": "normal",
+      "text": "volleyball",
+      "path": "assets/audio/g5-w-volleyball-word-normal-38cdff1fd4e00332.mp3",
+      "hash": "38cdff1fd4e00332"
+    },
+    {
+      "id": "g5-w-volleyball",
+      "part": "word",
+      "speed": "slow",
+      "text": "volleyball",
+      "path": "assets/audio/g5-w-volleyball-word-slow-c980fee67bb29c98.mp3",
+      "hash": "c980fee67bb29c98"
+    },
+    {
+      "id": "g5-w-volleyball",
+      "part": "example",
+      "speed": "normal",
+      "text": "I play volleyball.",
+      "path": "assets/audio/g5-w-volleyball-example-normal-354bc6f65ce20035.mp3",
+      "hash": "354bc6f65ce20035"
+    },
+    {
+      "id": "g5-w-volleyball",
+      "part": "example",
+      "speed": "slow",
+      "text": "I play volleyball.",
+      "path": "assets/audio/g5-w-volleyball-example-slow-708a0e87ad9687a0.mp3",
+      "hash": "708a0e87ad9687a0"
+    },
+    {
+      "id": "g5-w-badminton",
+      "part": "word",
+      "speed": "normal",
+      "text": "badminton",
+      "path": "assets/audio/g5-w-badminton-word-normal-77343d01f1dd8095.mp3",
+      "hash": "77343d01f1dd8095"
+    },
+    {
+      "id": "g5-w-badminton",
+      "part": "word",
+      "speed": "slow",
+      "text": "badminton",
+      "path": "assets/audio/g5-w-badminton-word-slow-d77f40ab58b30609.mp3",
+      "hash": "d77f40ab58b30609"
+    },
+    {
+      "id": "g5-w-badminton",
+      "part": "example",
+      "speed": "normal",
+      "text": "I play badminton.",
+      "path": "assets/audio/g5-w-badminton-example-normal-b29e2dee42b476be.mp3",
+      "hash": "b29e2dee42b476be"
+    },
+    {
+      "id": "g5-w-badminton",
+      "part": "example",
+      "speed": "slow",
+      "text": "I play badminton.",
+      "path": "assets/audio/g5-w-badminton-example-slow-6d1bb8909158504a.mp3",
+      "hash": "6d1bb8909158504a"
+    },
+    {
+      "id": "g5-w-sport",
+      "part": "word",
+      "speed": "normal",
+      "text": "sport",
+      "path": "assets/audio/g5-w-sport-word-normal-facc736bace9ecc0.mp3",
+      "hash": "facc736bace9ecc0"
+    },
+    {
+      "id": "g5-w-sport",
+      "part": "word",
+      "speed": "slow",
+      "text": "sport",
+      "path": "assets/audio/g5-w-sport-word-slow-4583f0157d13f5f9.mp3",
+      "hash": "4583f0157d13f5f9"
+    },
+    {
+      "id": "g5-w-sport",
+      "part": "example",
+      "speed": "normal",
+      "text": "What sport do you like?",
+      "path": "assets/audio/g5-w-sport-example-normal-bdbe72be52c7a028.mp3",
+      "hash": "bdbe72be52c7a028"
+    },
+    {
+      "id": "g5-w-sport",
+      "part": "example",
+      "speed": "slow",
+      "text": "What sport do you like?",
+      "path": "assets/audio/g5-w-sport-example-slow-78ca84cc529b5129.mp3",
+      "hash": "78ca84cc529b5129"
+    },
+    {
+      "id": "g5-w-music",
+      "part": "word",
+      "speed": "normal",
+      "text": "music",
+      "path": "assets/audio/g5-w-music-word-normal-5601f639781ba172.mp3",
+      "hash": "5601f639781ba172"
+    },
+    {
+      "id": "g5-w-music",
+      "part": "word",
+      "speed": "slow",
+      "text": "music",
+      "path": "assets/audio/g5-w-music-word-slow-f9f17b4d44c11dbc.mp3",
+      "hash": "f9f17b4d44c11dbc"
+    },
+    {
+      "id": "g5-w-music",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like music.",
+      "path": "assets/audio/g5-w-music-example-normal-4762905993a14692.mp3",
+      "hash": "4762905993a14692"
+    },
+    {
+      "id": "g5-w-music",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like music.",
+      "path": "assets/audio/g5-w-music-example-slow-f51498c9fc44ca35.mp3",
+      "hash": "f51498c9fc44ca35"
+    },
+    {
+      "id": "g5-w-piano",
+      "part": "word",
+      "speed": "normal",
+      "text": "piano",
+      "path": "assets/audio/g5-w-piano-word-normal-08caccd0492af678.mp3",
+      "hash": "08caccd0492af678"
+    },
+    {
+      "id": "g5-w-piano",
+      "part": "word",
+      "speed": "slow",
+      "text": "piano",
+      "path": "assets/audio/g5-w-piano-word-slow-0a5a26ff80548df9.mp3",
+      "hash": "0a5a26ff80548df9"
+    },
+    {
+      "id": "g5-w-piano",
+      "part": "example",
+      "speed": "normal",
+      "text": "I play the piano.",
+      "path": "assets/audio/g5-w-piano-example-normal-378a4d2e0930f38a.mp3",
+      "hash": "378a4d2e0930f38a"
+    },
+    {
+      "id": "g5-w-piano",
+      "part": "example",
+      "speed": "slow",
+      "text": "I play the piano.",
+      "path": "assets/audio/g5-w-piano-example-slow-91cae6413780f987.mp3",
+      "hash": "91cae6413780f987"
+    },
+    {
+      "id": "g5-w-guitar",
+      "part": "word",
+      "speed": "normal",
+      "text": "guitar",
+      "path": "assets/audio/g5-w-guitar-word-normal-05884adc679f9708.mp3",
+      "hash": "05884adc679f9708"
+    },
+    {
+      "id": "g5-w-guitar",
+      "part": "word",
+      "speed": "slow",
+      "text": "guitar",
+      "path": "assets/audio/g5-w-guitar-word-slow-aceaa143a162b802.mp3",
+      "hash": "aceaa143a162b802"
+    },
+    {
+      "id": "g5-w-guitar",
+      "part": "example",
+      "speed": "normal",
+      "text": "I play the guitar.",
+      "path": "assets/audio/g5-w-guitar-example-normal-98e26aa94591aa8f.mp3",
+      "hash": "98e26aa94591aa8f"
+    },
+    {
+      "id": "g5-w-guitar",
+      "part": "example",
+      "speed": "slow",
+      "text": "I play the guitar.",
+      "path": "assets/audio/g5-w-guitar-example-slow-e5b85e742d3afe57.mp3",
+      "hash": "e5b85e742d3afe57"
+    },
+    {
+      "id": "g5-w-store",
+      "part": "word",
+      "speed": "normal",
+      "text": "store",
+      "path": "assets/audio/g5-w-store-word-normal-ec7b7aede701b3f7.mp3",
+      "hash": "ec7b7aede701b3f7"
+    },
+    {
+      "id": "g5-w-store",
+      "part": "word",
+      "speed": "slow",
+      "text": "store",
+      "path": "assets/audio/g5-w-store-word-slow-ff4670784b46f988.mp3",
+      "hash": "ff4670784b46f988"
+    },
+    {
+      "id": "g5-w-store",
+      "part": "example",
+      "speed": "normal",
+      "text": "I go to the store.",
+      "path": "assets/audio/g5-w-store-example-normal-fb5caef188a56104.mp3",
+      "hash": "fb5caef188a56104"
+    },
+    {
+      "id": "g5-w-store",
+      "part": "example",
+      "speed": "slow",
+      "text": "I go to the store.",
+      "path": "assets/audio/g5-w-store-example-slow-a9af52d869c37c4e.mp3",
+      "hash": "a9af52d869c37c4e"
+    },
+    {
+      "id": "g5-w-supermarket",
+      "part": "word",
+      "speed": "normal",
+      "text": "supermarket",
+      "path": "assets/audio/g5-w-supermarket-word-normal-9261debf9bca5840.mp3",
+      "hash": "9261debf9bca5840"
+    },
+    {
+      "id": "g5-w-supermarket",
+      "part": "word",
+      "speed": "slow",
+      "text": "supermarket",
+      "path": "assets/audio/g5-w-supermarket-word-slow-7fba5921c07d20d6.mp3",
+      "hash": "7fba5921c07d20d6"
+    },
+    {
+      "id": "g5-w-supermarket",
+      "part": "example",
+      "speed": "normal",
+      "text": "This supermarket is big.",
+      "path": "assets/audio/g5-w-supermarket-example-normal-8d3b6d3b5e98829a.mp3",
+      "hash": "8d3b6d3b5e98829a"
+    },
+    {
+      "id": "g5-w-supermarket",
+      "part": "example",
+      "speed": "slow",
+      "text": "This supermarket is big.",
+      "path": "assets/audio/g5-w-supermarket-example-slow-78848494b9c73893.mp3",
+      "hash": "78848494b9c73893"
+    },
+    {
+      "id": "g5-w-restaurant",
+      "part": "word",
+      "speed": "normal",
+      "text": "restaurant",
+      "path": "assets/audio/g5-w-restaurant-word-normal-26e70c26e7854cd4.mp3",
+      "hash": "26e70c26e7854cd4"
+    },
+    {
+      "id": "g5-w-restaurant",
+      "part": "word",
+      "speed": "slow",
+      "text": "restaurant",
+      "path": "assets/audio/g5-w-restaurant-word-slow-234c653e6d731e4f.mp3",
+      "hash": "234c653e6d731e4f"
+    },
+    {
+      "id": "g5-w-restaurant",
+      "part": "example",
+      "speed": "normal",
+      "text": "That restaurant is good.",
+      "path": "assets/audio/g5-w-restaurant-example-normal-dce5fa44bd4e5594.mp3",
+      "hash": "dce5fa44bd4e5594"
+    },
+    {
+      "id": "g5-w-restaurant",
+      "part": "example",
+      "speed": "slow",
+      "text": "That restaurant is good.",
+      "path": "assets/audio/g5-w-restaurant-example-slow-236da4fdf74b1d04.mp3",
+      "hash": "236da4fdf74b1d04"
+    },
+    {
+      "id": "g5-w-zoo",
+      "part": "word",
+      "speed": "normal",
+      "text": "zoo",
+      "path": "assets/audio/g5-w-zoo-word-normal-62000721e37dacea.mp3",
+      "hash": "62000721e37dacea"
+    },
+    {
+      "id": "g5-w-zoo",
+      "part": "word",
+      "speed": "slow",
+      "text": "zoo",
+      "path": "assets/audio/g5-w-zoo-word-slow-96bc16fd321db907.mp3",
+      "hash": "96bc16fd321db907"
+    },
+    {
+      "id": "g5-w-zoo",
+      "part": "example",
+      "speed": "normal",
+      "text": "I see lions at the zoo.",
+      "path": "assets/audio/g5-w-zoo-example-normal-1c316f3899019987.mp3",
+      "hash": "1c316f3899019987"
+    },
+    {
+      "id": "g5-w-zoo",
+      "part": "example",
+      "speed": "slow",
+      "text": "I see lions at the zoo.",
+      "path": "assets/audio/g5-w-zoo-example-slow-6e0c54ee801fd18a.mp3",
+      "hash": "6e0c54ee801fd18a"
+    },
+    {
+      "id": "g5-w-pool",
+      "part": "word",
+      "speed": "normal",
+      "text": "pool",
+      "path": "assets/audio/g5-w-pool-word-normal-0b667e87e8a464a6.mp3",
+      "hash": "0b667e87e8a464a6"
+    },
+    {
+      "id": "g5-w-pool",
+      "part": "word",
+      "speed": "slow",
+      "text": "pool",
+      "path": "assets/audio/g5-w-pool-word-slow-0aac5c6335d4baf0.mp3",
+      "hash": "0aac5c6335d4baf0"
+    },
+    {
+      "id": "g5-w-pool",
+      "part": "example",
+      "speed": "normal",
+      "text": "I swim in the pool.",
+      "path": "assets/audio/g5-w-pool-example-normal-314ccaefc7e1590a.mp3",
+      "hash": "314ccaefc7e1590a"
+    },
+    {
+      "id": "g5-w-pool",
+      "part": "example",
+      "speed": "slow",
+      "text": "I swim in the pool.",
+      "path": "assets/audio/g5-w-pool-example-slow-4775037c3930f4e6.mp3",
+      "hash": "4775037c3930f4e6"
+    },
+    {
+      "id": "g5-w-kitchen",
+      "part": "word",
+      "speed": "normal",
+      "text": "kitchen",
+      "path": "assets/audio/g5-w-kitchen-word-normal-f88b6d967079a98e.mp3",
+      "hash": "f88b6d967079a98e"
+    },
+    {
+      "id": "g5-w-kitchen",
+      "part": "word",
+      "speed": "slow",
+      "text": "kitchen",
+      "path": "assets/audio/g5-w-kitchen-word-slow-25415ba3d98f0c4f.mp3",
+      "hash": "25415ba3d98f0c4f"
+    },
+    {
+      "id": "g5-w-kitchen",
+      "part": "example",
+      "speed": "normal",
+      "text": "My father is in the kitchen.",
+      "path": "assets/audio/g5-w-kitchen-example-normal-041393085be7fd51.mp3",
+      "hash": "041393085be7fd51"
+    },
+    {
+      "id": "g5-w-kitchen",
+      "part": "example",
+      "speed": "slow",
+      "text": "My father is in the kitchen.",
+      "path": "assets/audio/g5-w-kitchen-example-slow-d6704039a8af67f1.mp3",
+      "hash": "d6704039a8af67f1"
+    },
+    {
+      "id": "g5-w-bathroom",
+      "part": "word",
+      "speed": "normal",
+      "text": "bathroom",
+      "path": "assets/audio/g5-w-bathroom-word-normal-4320f54d8054006b.mp3",
+      "hash": "4320f54d8054006b"
+    },
+    {
+      "id": "g5-w-bathroom",
+      "part": "word",
+      "speed": "slow",
+      "text": "bathroom",
+      "path": "assets/audio/g5-w-bathroom-word-slow-e4ce67ffa0439b28.mp3",
+      "hash": "e4ce67ffa0439b28"
+    },
+    {
+      "id": "g5-w-bathroom",
+      "part": "example",
+      "speed": "normal",
+      "text": "Where is the bathroom?",
+      "path": "assets/audio/g5-w-bathroom-example-normal-f80b7c3794b4f0e4.mp3",
+      "hash": "f80b7c3794b4f0e4"
+    },
+    {
+      "id": "g5-w-bathroom",
+      "part": "example",
+      "speed": "slow",
+      "text": "Where is the bathroom?",
+      "path": "assets/audio/g5-w-bathroom-example-slow-5623b864e1548c7a.mp3",
+      "hash": "5623b864e1548c7a"
+    },
+    {
+      "id": "g5-w-garden",
+      "part": "word",
+      "speed": "normal",
+      "text": "garden",
+      "path": "assets/audio/g5-w-garden-word-normal-135f85fce03da862.mp3",
+      "hash": "135f85fce03da862"
+    },
+    {
+      "id": "g5-w-garden",
+      "part": "word",
+      "speed": "slow",
+      "text": "garden",
+      "path": "assets/audio/g5-w-garden-word-slow-ae7011b5a8bc2e10.mp3",
+      "hash": "ae7011b5a8bc2e10"
+    },
+    {
+      "id": "g5-w-garden",
+      "part": "example",
+      "speed": "normal",
+      "text": "We have a small garden.",
+      "path": "assets/audio/g5-w-garden-example-normal-67980f8eb9b31d6b.mp3",
+      "hash": "67980f8eb9b31d6b"
+    },
+    {
+      "id": "g5-w-garden",
+      "part": "example",
+      "speed": "slow",
+      "text": "We have a small garden.",
+      "path": "assets/audio/g5-w-garden-example-slow-a8b3eea774cb28e1.mp3",
+      "hash": "a8b3eea774cb28e1"
+    },
+    {
+      "id": "g5-w-town",
+      "part": "word",
+      "speed": "normal",
+      "text": "town",
+      "path": "assets/audio/g5-w-town-word-normal-a95b60109cb9cc14.mp3",
+      "hash": "a95b60109cb9cc14"
+    },
+    {
+      "id": "g5-w-town",
+      "part": "word",
+      "speed": "slow",
+      "text": "town",
+      "path": "assets/audio/g5-w-town-word-slow-fb0bd7d5d6e57ccd.mp3",
+      "hash": "fb0bd7d5d6e57ccd"
+    },
+    {
+      "id": "g5-w-town",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like my town.",
+      "path": "assets/audio/g5-w-town-example-normal-6d3beb47092b4dc2.mp3",
+      "hash": "6d3beb47092b4dc2"
+    },
+    {
+      "id": "g5-w-town",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like my town.",
+      "path": "assets/audio/g5-w-town-example-slow-0cb4a4c6f1101013.mp3",
+      "hash": "0cb4a4c6f1101013"
+    },
+    {
+      "id": "g5-w-beach",
+      "part": "word",
+      "speed": "normal",
+      "text": "beach",
+      "path": "assets/audio/g5-w-beach-word-normal-108373c6d4548675.mp3",
+      "hash": "108373c6d4548675"
+    },
+    {
+      "id": "g5-w-beach",
+      "part": "word",
+      "speed": "slow",
+      "text": "beach",
+      "path": "assets/audio/g5-w-beach-word-slow-5da18c4be323e63c.mp3",
+      "hash": "5da18c4be323e63c"
+    },
+    {
+      "id": "g5-w-beach",
+      "part": "example",
+      "speed": "normal",
+      "text": "I go to the beach.",
+      "path": "assets/audio/g5-w-beach-example-normal-93424c70d65f27cf.mp3",
+      "hash": "93424c70d65f27cf"
+    },
+    {
+      "id": "g5-w-beach",
+      "part": "example",
+      "speed": "slow",
+      "text": "I go to the beach.",
+      "path": "assets/audio/g5-w-beach-example-slow-588c2375614f75fa.mp3",
+      "hash": "588c2375614f75fa"
+    },
+    {
+      "id": "g5-w-get-up",
+      "part": "word",
+      "speed": "normal",
+      "text": "get up",
+      "path": "assets/audio/g5-w-get-up-word-normal-b0fc1e4bc3a24ede.mp3",
+      "hash": "b0fc1e4bc3a24ede"
+    },
+    {
+      "id": "g5-w-get-up",
+      "part": "word",
+      "speed": "slow",
+      "text": "get up",
+      "path": "assets/audio/g5-w-get-up-word-slow-2e5a2545abce5eb4.mp3",
+      "hash": "2e5a2545abce5eb4"
+    },
+    {
+      "id": "g5-w-get-up",
+      "part": "example",
+      "speed": "normal",
+      "text": "I get up at seven.",
+      "path": "assets/audio/g5-w-get-up-example-normal-2a40a7d2ec11e559.mp3",
+      "hash": "2a40a7d2ec11e559"
+    },
+    {
+      "id": "g5-w-get-up",
+      "part": "example",
+      "speed": "slow",
+      "text": "I get up at seven.",
+      "path": "assets/audio/g5-w-get-up-example-slow-776fbebba0c90244.mp3",
+      "hash": "776fbebba0c90244"
+    },
+    {
+      "id": "g5-w-go",
+      "part": "word",
+      "speed": "normal",
+      "text": "go",
+      "path": "assets/audio/g5-w-go-word-normal-2ce03baeb6eb80c8.mp3",
+      "hash": "2ce03baeb6eb80c8"
+    },
+    {
+      "id": "g5-w-go",
+      "part": "word",
+      "speed": "slow",
+      "text": "go",
+      "path": "assets/audio/g5-w-go-word-slow-18aee0dcaf330174.mp3",
+      "hash": "18aee0dcaf330174"
+    },
+    {
+      "id": "g5-w-go",
+      "part": "example",
+      "speed": "normal",
+      "text": "I go to school.",
+      "path": "assets/audio/g5-w-go-example-normal-816fe3e1ed5385c9.mp3",
+      "hash": "816fe3e1ed5385c9"
+    },
+    {
+      "id": "g5-w-go",
+      "part": "example",
+      "speed": "slow",
+      "text": "I go to school.",
+      "path": "assets/audio/g5-w-go-example-slow-93595f2f0acae3b6.mp3",
+      "hash": "93595f2f0acae3b6"
+    },
+    {
+      "id": "g5-w-come",
+      "part": "word",
+      "speed": "normal",
+      "text": "come",
+      "path": "assets/audio/g5-w-come-word-normal-39e385be1567f15f.mp3",
+      "hash": "39e385be1567f15f"
+    },
+    {
+      "id": "g5-w-come",
+      "part": "word",
+      "speed": "slow",
+      "text": "come",
+      "path": "assets/audio/g5-w-come-word-slow-1806e511ebe8e977.mp3",
+      "hash": "1806e511ebe8e977"
+    },
+    {
+      "id": "g5-w-come",
+      "part": "example",
+      "speed": "normal",
+      "text": "Please come here.",
+      "path": "assets/audio/g5-w-come-example-normal-70af917cd87304a1.mp3",
+      "hash": "70af917cd87304a1"
+    },
+    {
+      "id": "g5-w-come",
+      "part": "example",
+      "speed": "slow",
+      "text": "Please come here.",
+      "path": "assets/audio/g5-w-come-example-slow-df830bd28fca6bdf.mp3",
+      "hash": "df830bd28fca6bdf"
+    },
+    {
+      "id": "g5-w-watch",
+      "part": "word",
+      "speed": "normal",
+      "text": "watch",
+      "path": "assets/audio/g5-w-watch-word-normal-e7876a497a4abcea.mp3",
+      "hash": "e7876a497a4abcea"
+    },
+    {
+      "id": "g5-w-watch",
+      "part": "word",
+      "speed": "slow",
+      "text": "watch",
+      "path": "assets/audio/g5-w-watch-word-slow-d0a2b9f63b4effa8.mp3",
+      "hash": "d0a2b9f63b4effa8"
+    },
+    {
+      "id": "g5-w-watch",
+      "part": "example",
+      "speed": "normal",
+      "text": "I watch TV.",
+      "path": "assets/audio/g5-w-watch-example-normal-3be65523e09e680d.mp3",
+      "hash": "3be65523e09e680d"
+    },
+    {
+      "id": "g5-w-watch",
+      "part": "example",
+      "speed": "slow",
+      "text": "I watch TV.",
+      "path": "assets/audio/g5-w-watch-example-slow-0f648b9777dc6b88.mp3",
+      "hash": "0f648b9777dc6b88"
+    },
+    {
+      "id": "g5-w-listen",
+      "part": "word",
+      "speed": "normal",
+      "text": "listen",
+      "path": "assets/audio/g5-w-listen-word-normal-f0d1563cb86a76dc.mp3",
+      "hash": "f0d1563cb86a76dc"
+    },
+    {
+      "id": "g5-w-listen",
+      "part": "word",
+      "speed": "slow",
+      "text": "listen",
+      "path": "assets/audio/g5-w-listen-word-slow-a9c866c9ae87d57f.mp3",
+      "hash": "a9c866c9ae87d57f"
+    },
+    {
+      "id": "g5-w-listen",
+      "part": "example",
+      "speed": "normal",
+      "text": "I listen to music.",
+      "path": "assets/audio/g5-w-listen-example-normal-9665a08869fd0860.mp3",
+      "hash": "9665a08869fd0860"
+    },
+    {
+      "id": "g5-w-listen",
+      "part": "example",
+      "speed": "slow",
+      "text": "I listen to music.",
+      "path": "assets/audio/g5-w-listen-example-slow-7d7e4da29f054e37.mp3",
+      "hash": "7d7e4da29f054e37"
+    },
+    {
+      "id": "g5-w-speak",
+      "part": "word",
+      "speed": "normal",
+      "text": "speak",
+      "path": "assets/audio/g5-w-speak-word-normal-27542872efa3c56a.mp3",
+      "hash": "27542872efa3c56a"
+    },
+    {
+      "id": "g5-w-speak",
+      "part": "word",
+      "speed": "slow",
+      "text": "speak",
+      "path": "assets/audio/g5-w-speak-word-slow-b6e3006795b8af97.mp3",
+      "hash": "b6e3006795b8af97"
+    },
+    {
+      "id": "g5-w-speak",
+      "part": "example",
+      "speed": "normal",
+      "text": "I speak English.",
+      "path": "assets/audio/g5-w-speak-example-normal-54fadb8cb0989389.mp3",
+      "hash": "54fadb8cb0989389"
+    },
+    {
+      "id": "g5-w-speak",
+      "part": "example",
+      "speed": "slow",
+      "text": "I speak English.",
+      "path": "assets/audio/g5-w-speak-example-slow-9c4e5c17f9a7f40f.mp3",
+      "hash": "9c4e5c17f9a7f40f"
+    },
+    {
+      "id": "g5-w-walk",
+      "part": "word",
+      "speed": "normal",
+      "text": "walk",
+      "path": "assets/audio/g5-w-walk-word-normal-53c9d6a91839ea55.mp3",
+      "hash": "53c9d6a91839ea55"
+    },
+    {
+      "id": "g5-w-walk",
+      "part": "word",
+      "speed": "slow",
+      "text": "walk",
+      "path": "assets/audio/g5-w-walk-word-slow-a4a4d2f39ea171a9.mp3",
+      "hash": "a4a4d2f39ea171a9"
+    },
+    {
+      "id": "g5-w-walk",
+      "part": "example",
+      "speed": "normal",
+      "text": "I walk to school.",
+      "path": "assets/audio/g5-w-walk-example-normal-28e2e4ded05d9efe.mp3",
+      "hash": "28e2e4ded05d9efe"
+    },
+    {
+      "id": "g5-w-walk",
+      "part": "example",
+      "speed": "slow",
+      "text": "I walk to school.",
+      "path": "assets/audio/g5-w-walk-example-slow-255ebbfbd2b7b18f.mp3",
+      "hash": "255ebbfbd2b7b18f"
+    },
+    {
+      "id": "g5-w-wash",
+      "part": "word",
+      "speed": "normal",
+      "text": "wash",
+      "path": "assets/audio/g5-w-wash-word-normal-6fa1f9d97722d872.mp3",
+      "hash": "6fa1f9d97722d872"
+    },
+    {
+      "id": "g5-w-wash",
+      "part": "word",
+      "speed": "slow",
+      "text": "wash",
+      "path": "assets/audio/g5-w-wash-word-slow-e6f49dccef47d946.mp3",
+      "hash": "e6f49dccef47d946"
+    },
+    {
+      "id": "g5-w-wash",
+      "part": "example",
+      "speed": "normal",
+      "text": "I wash my hands.",
+      "path": "assets/audio/g5-w-wash-example-normal-320ca0d9da46256d.mp3",
+      "hash": "320ca0d9da46256d"
+    },
+    {
+      "id": "g5-w-wash",
+      "part": "example",
+      "speed": "slow",
+      "text": "I wash my hands.",
+      "path": "assets/audio/g5-w-wash-example-slow-d156b5721a24e1c0.mp3",
+      "hash": "d156b5721a24e1c0"
+    },
+    {
+      "id": "g5-w-cook",
+      "part": "word",
+      "speed": "normal",
+      "text": "cook",
+      "path": "assets/audio/g5-w-cook-word-normal-4c06d5ed60b1bcca.mp3",
+      "hash": "4c06d5ed60b1bcca"
+    },
+    {
+      "id": "g5-w-cook",
+      "part": "word",
+      "speed": "slow",
+      "text": "cook",
+      "path": "assets/audio/g5-w-cook-word-slow-8e7d43324e748efb.mp3",
+      "hash": "8e7d43324e748efb"
+    },
+    {
+      "id": "g5-w-cook",
+      "part": "example",
+      "speed": "normal",
+      "text": "I cook with my father.",
+      "path": "assets/audio/g5-w-cook-example-normal-400329d197dcd07f.mp3",
+      "hash": "400329d197dcd07f"
+    },
+    {
+      "id": "g5-w-cook",
+      "part": "example",
+      "speed": "slow",
+      "text": "I cook with my father.",
+      "path": "assets/audio/g5-w-cook-example-slow-8e1cc6e73f21e622.mp3",
+      "hash": "8e1cc6e73f21e622"
+    },
+    {
+      "id": "g5-w-sleep",
+      "part": "word",
+      "speed": "normal",
+      "text": "sleep",
+      "path": "assets/audio/g5-w-sleep-word-normal-851796276df39fef.mp3",
+      "hash": "851796276df39fef"
+    },
+    {
+      "id": "g5-w-sleep",
+      "part": "word",
+      "speed": "slow",
+      "text": "sleep",
+      "path": "assets/audio/g5-w-sleep-word-slow-d327db74a699d214.mp3",
+      "hash": "d327db74a699d214"
+    },
+    {
+      "id": "g5-w-sleep",
+      "part": "example",
+      "speed": "normal",
+      "text": "I sleep in my room.",
+      "path": "assets/audio/g5-w-sleep-example-normal-c8a4aa95afd61efc.mp3",
+      "hash": "c8a4aa95afd61efc"
+    },
+    {
+      "id": "g5-w-sleep",
+      "part": "example",
+      "speed": "slow",
+      "text": "I sleep in my room.",
+      "path": "assets/audio/g5-w-sleep-example-slow-8d9e6fb48d4d75b5.mp3",
+      "hash": "8d9e6fb48d4d75b5"
+    },
+    {
+      "id": "g5-w-long",
+      "part": "word",
+      "speed": "normal",
+      "text": "long",
+      "path": "assets/audio/g5-w-long-word-normal-4fe6527bf7edce07.mp3",
+      "hash": "4fe6527bf7edce07"
+    },
+    {
+      "id": "g5-w-long",
+      "part": "word",
+      "speed": "slow",
+      "text": "long",
+      "path": "assets/audio/g5-w-long-word-slow-7d9a0f7cec6f3ada.mp3",
+      "hash": "7d9a0f7cec6f3ada"
+    },
+    {
+      "id": "g5-w-long",
+      "part": "example",
+      "speed": "normal",
+      "text": "This pencil is long.",
+      "path": "assets/audio/g5-w-long-example-normal-6d68ee56eee9ff11.mp3",
+      "hash": "6d68ee56eee9ff11"
+    },
+    {
+      "id": "g5-w-long",
+      "part": "example",
+      "speed": "slow",
+      "text": "This pencil is long.",
+      "path": "assets/audio/g5-w-long-example-slow-49d511c74a9ae0f2.mp3",
+      "hash": "49d511c74a9ae0f2"
+    },
+    {
+      "id": "g5-w-short",
+      "part": "word",
+      "speed": "normal",
+      "text": "short",
+      "path": "assets/audio/g5-w-short-word-normal-8df6b757afc72f59.mp3",
+      "hash": "8df6b757afc72f59"
+    },
+    {
+      "id": "g5-w-short",
+      "part": "word",
+      "speed": "slow",
+      "text": "short",
+      "path": "assets/audio/g5-w-short-word-slow-05bb3370982291d3.mp3",
+      "hash": "05bb3370982291d3"
+    },
+    {
+      "id": "g5-w-short",
+      "part": "example",
+      "speed": "normal",
+      "text": "This pencil is short.",
+      "path": "assets/audio/g5-w-short-example-normal-dd6d922b8c581828.mp3",
+      "hash": "dd6d922b8c581828"
+    },
+    {
+      "id": "g5-w-short",
+      "part": "example",
+      "speed": "slow",
+      "text": "This pencil is short.",
+      "path": "assets/audio/g5-w-short-example-slow-350e4468da99a447.mp3",
+      "hash": "350e4468da99a447"
+    },
+    {
+      "id": "g5-w-new",
+      "part": "word",
+      "speed": "normal",
+      "text": "new",
+      "path": "assets/audio/g5-w-new-word-normal-077e13cdfc2a1158.mp3",
+      "hash": "077e13cdfc2a1158"
+    },
+    {
+      "id": "g5-w-new",
+      "part": "word",
+      "speed": "slow",
+      "text": "new",
+      "path": "assets/audio/g5-w-new-word-slow-2c8026001f4b3b14.mp3",
+      "hash": "2c8026001f4b3b14"
+    },
+    {
+      "id": "g5-w-new",
+      "part": "example",
+      "speed": "normal",
+      "text": "This is my new bag.",
+      "path": "assets/audio/g5-w-new-example-normal-d68097e904e0ddbb.mp3",
+      "hash": "d68097e904e0ddbb"
+    },
+    {
+      "id": "g5-w-new",
+      "part": "example",
+      "speed": "slow",
+      "text": "This is my new bag.",
+      "path": "assets/audio/g5-w-new-example-slow-cb9a6c0b93072920.mp3",
+      "hash": "cb9a6c0b93072920"
+    },
+    {
+      "id": "g5-w-old",
+      "part": "word",
+      "speed": "normal",
+      "text": "old",
+      "path": "assets/audio/g5-w-old-word-normal-9be37316cc798fad.mp3",
+      "hash": "9be37316cc798fad"
+    },
+    {
+      "id": "g5-w-old",
+      "part": "word",
+      "speed": "slow",
+      "text": "old",
+      "path": "assets/audio/g5-w-old-word-slow-288096a80085c338.mp3",
+      "hash": "288096a80085c338"
+    },
+    {
+      "id": "g5-w-old",
+      "part": "example",
+      "speed": "normal",
+      "text": "This book is old.",
+      "path": "assets/audio/g5-w-old-example-normal-5b4b0d48a2827caa.mp3",
+      "hash": "5b4b0d48a2827caa"
+    },
+    {
+      "id": "g5-w-old",
+      "part": "example",
+      "speed": "slow",
+      "text": "This book is old.",
+      "path": "assets/audio/g5-w-old-example-slow-7506b782e6609f6c.mp3",
+      "hash": "7506b782e6609f6c"
+    },
+    {
+      "id": "g5-w-hot",
+      "part": "word",
+      "speed": "normal",
+      "text": "hot",
+      "path": "assets/audio/g5-w-hot-word-normal-c02e34c6bca62c26.mp3",
+      "hash": "c02e34c6bca62c26"
+    },
+    {
+      "id": "g5-w-hot",
+      "part": "word",
+      "speed": "slow",
+      "text": "hot",
+      "path": "assets/audio/g5-w-hot-word-slow-fa84d40914222881.mp3",
+      "hash": "fa84d40914222881"
+    },
+    {
+      "id": "g5-w-hot",
+      "part": "example",
+      "speed": "normal",
+      "text": "It is hot today.",
+      "path": "assets/audio/g5-w-hot-example-normal-14bce7e74b7ed0d3.mp3",
+      "hash": "14bce7e74b7ed0d3"
+    },
+    {
+      "id": "g5-w-hot",
+      "part": "example",
+      "speed": "slow",
+      "text": "It is hot today.",
+      "path": "assets/audio/g5-w-hot-example-slow-ee522305cd6d4dfb.mp3",
+      "hash": "ee522305cd6d4dfb"
+    },
+    {
+      "id": "g5-w-cold",
+      "part": "word",
+      "speed": "normal",
+      "text": "cold",
+      "path": "assets/audio/g5-w-cold-word-normal-fe8020dcbb0ecdff.mp3",
+      "hash": "fe8020dcbb0ecdff"
+    },
+    {
+      "id": "g5-w-cold",
+      "part": "word",
+      "speed": "slow",
+      "text": "cold",
+      "path": "assets/audio/g5-w-cold-word-slow-b51d7641cc3403f9.mp3",
+      "hash": "b51d7641cc3403f9"
+    },
+    {
+      "id": "g5-w-cold",
+      "part": "example",
+      "speed": "normal",
+      "text": "It is cold today.",
+      "path": "assets/audio/g5-w-cold-example-normal-1585dd32ae0d242b.mp3",
+      "hash": "1585dd32ae0d242b"
+    },
+    {
+      "id": "g5-w-cold",
+      "part": "example",
+      "speed": "slow",
+      "text": "It is cold today.",
+      "path": "assets/audio/g5-w-cold-example-slow-0de7cda34c25eb2a.mp3",
+      "hash": "0de7cda34c25eb2a"
+    },
+    {
+      "id": "g5-w-kind",
+      "part": "word",
+      "speed": "normal",
+      "text": "kind",
+      "path": "assets/audio/g5-w-kind-word-normal-40a0a883328b08a2.mp3",
+      "hash": "40a0a883328b08a2"
+    },
+    {
+      "id": "g5-w-kind",
+      "part": "word",
+      "speed": "slow",
+      "text": "kind",
+      "path": "assets/audio/g5-w-kind-word-slow-2300cd0f8dc4a50f.mp3",
+      "hash": "2300cd0f8dc4a50f"
+    },
+    {
+      "id": "g5-w-kind",
+      "part": "example",
+      "speed": "normal",
+      "text": "My teacher is kind.",
+      "path": "assets/audio/g5-w-kind-example-normal-9240cfa151db8e15.mp3",
+      "hash": "9240cfa151db8e15"
+    },
+    {
+      "id": "g5-w-kind",
+      "part": "example",
+      "speed": "slow",
+      "text": "My teacher is kind.",
+      "path": "assets/audio/g5-w-kind-example-slow-0e5f40fc8441d731.mp3",
+      "hash": "0e5f40fc8441d731"
+    },
+    {
+      "id": "g5-w-busy",
+      "part": "word",
+      "speed": "normal",
+      "text": "busy",
+      "path": "assets/audio/g5-w-busy-word-normal-c7bbc571d363e27a.mp3",
+      "hash": "c7bbc571d363e27a"
+    },
+    {
+      "id": "g5-w-busy",
+      "part": "word",
+      "speed": "slow",
+      "text": "busy",
+      "path": "assets/audio/g5-w-busy-word-slow-3ec3e75f4fd94265.mp3",
+      "hash": "3ec3e75f4fd94265"
+    },
+    {
+      "id": "g5-w-busy",
+      "part": "example",
+      "speed": "normal",
+      "text": "I am busy today.",
+      "path": "assets/audio/g5-w-busy-example-normal-653c7e569c3b5396.mp3",
+      "hash": "653c7e569c3b5396"
+    },
+    {
+      "id": "g5-w-busy",
+      "part": "example",
+      "speed": "slow",
+      "text": "I am busy today.",
+      "path": "assets/audio/g5-w-busy-example-slow-fc7e6f8de105bc3a.mp3",
+      "hash": "fc7e6f8de105bc3a"
+    },
+    {
+      "id": "g5-w-tired",
+      "part": "word",
+      "speed": "normal",
+      "text": "tired",
+      "path": "assets/audio/g5-w-tired-word-normal-4ebe3676b1b9dc55.mp3",
+      "hash": "4ebe3676b1b9dc55"
+    },
+    {
+      "id": "g5-w-tired",
+      "part": "word",
+      "speed": "slow",
+      "text": "tired",
+      "path": "assets/audio/g5-w-tired-word-slow-47fd0cb406078039.mp3",
+      "hash": "47fd0cb406078039"
+    },
+    {
+      "id": "g5-w-tired",
+      "part": "example",
+      "speed": "normal",
+      "text": "I am tired.",
+      "path": "assets/audio/g5-w-tired-example-normal-dd3502cde440364f.mp3",
+      "hash": "dd3502cde440364f"
+    },
+    {
+      "id": "g5-w-tired",
+      "part": "example",
+      "speed": "slow",
+      "text": "I am tired.",
+      "path": "assets/audio/g5-w-tired-example-slow-10160b792128cd53.mp3",
+      "hash": "10160b792128cd53"
+    },
+    {
+      "id": "g5-w-good",
+      "part": "word",
+      "speed": "normal",
+      "text": "good",
+      "path": "assets/audio/g5-w-good-word-normal-49c3ecea1994f0e1.mp3",
+      "hash": "49c3ecea1994f0e1"
+    },
+    {
+      "id": "g5-w-good",
+      "part": "word",
+      "speed": "slow",
+      "text": "good",
+      "path": "assets/audio/g5-w-good-word-slow-15afb4b81afe9d4b.mp3",
+      "hash": "15afb4b81afe9d4b"
+    },
+    {
+      "id": "g5-w-good",
+      "part": "example",
+      "speed": "normal",
+      "text": "This is a good book.",
+      "path": "assets/audio/g5-w-good-example-normal-bc5a900f7cf2afb3.mp3",
+      "hash": "bc5a900f7cf2afb3"
+    },
+    {
+      "id": "g5-w-good",
+      "part": "example",
+      "speed": "slow",
+      "text": "This is a good book.",
+      "path": "assets/audio/g5-w-good-example-slow-afb184e42a6b07e1.mp3",
+      "hash": "afb184e42a6b07e1"
+    },
+    {
+      "id": "g5-w-notebook",
+      "part": "word",
+      "speed": "normal",
+      "text": "notebook",
+      "path": "assets/audio/g5-w-notebook-word-normal-3b17a5d854ada2dc.mp3",
+      "hash": "3b17a5d854ada2dc"
+    },
+    {
+      "id": "g5-w-notebook",
+      "part": "word",
+      "speed": "slow",
+      "text": "notebook",
+      "path": "assets/audio/g5-w-notebook-word-slow-60a386e2c1b78e78.mp3",
+      "hash": "60a386e2c1b78e78"
+    },
+    {
+      "id": "g5-w-notebook",
+      "part": "example",
+      "speed": "normal",
+      "text": "This is my notebook.",
+      "path": "assets/audio/g5-w-notebook-example-normal-7065d3acae168a23.mp3",
+      "hash": "7065d3acae168a23"
+    },
+    {
+      "id": "g5-w-notebook",
+      "part": "example",
+      "speed": "slow",
+      "text": "This is my notebook.",
+      "path": "assets/audio/g5-w-notebook-example-slow-2fcb16003a1720a1.mp3",
+      "hash": "2fcb16003a1720a1"
+    },
+    {
+      "id": "g5-w-eraser",
+      "part": "word",
+      "speed": "normal",
+      "text": "eraser",
+      "path": "assets/audio/g5-w-eraser-word-normal-c493a588bbbbc3ea.mp3",
+      "hash": "c493a588bbbbc3ea"
+    },
+    {
+      "id": "g5-w-eraser",
+      "part": "word",
+      "speed": "slow",
+      "text": "eraser",
+      "path": "assets/audio/g5-w-eraser-word-slow-c116b6e78b8f34fa.mp3",
+      "hash": "c116b6e78b8f34fa"
+    },
+    {
+      "id": "g5-w-eraser",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have an eraser.",
+      "path": "assets/audio/g5-w-eraser-example-normal-a5b85626ec1cf777.mp3",
+      "hash": "a5b85626ec1cf777"
+    },
+    {
+      "id": "g5-w-eraser",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have an eraser.",
+      "path": "assets/audio/g5-w-eraser-example-slow-b656018e25739764.mp3",
+      "hash": "b656018e25739764"
+    },
+    {
+      "id": "g5-w-ruler",
+      "part": "word",
+      "speed": "normal",
+      "text": "ruler",
+      "path": "assets/audio/g5-w-ruler-word-normal-f7d617d605363eab.mp3",
+      "hash": "f7d617d605363eab"
+    },
+    {
+      "id": "g5-w-ruler",
+      "part": "word",
+      "speed": "slow",
+      "text": "ruler",
+      "path": "assets/audio/g5-w-ruler-word-slow-2f46f1d1efe3364f.mp3",
+      "hash": "2f46f1d1efe3364f"
+    },
+    {
+      "id": "g5-w-ruler",
+      "part": "example",
+      "speed": "normal",
+      "text": "This ruler is long.",
+      "path": "assets/audio/g5-w-ruler-example-normal-b55d2e5eb92d6950.mp3",
+      "hash": "b55d2e5eb92d6950"
+    },
+    {
+      "id": "g5-w-ruler",
+      "part": "example",
+      "speed": "slow",
+      "text": "This ruler is long.",
+      "path": "assets/audio/g5-w-ruler-example-slow-e68e0776f1cb5210.mp3",
+      "hash": "e68e0776f1cb5210"
+    },
+    {
+      "id": "g5-w-computer",
+      "part": "word",
+      "speed": "normal",
+      "text": "computer",
+      "path": "assets/audio/g5-w-computer-word-normal-37006e2fa5423798.mp3",
+      "hash": "37006e2fa5423798"
+    },
+    {
+      "id": "g5-w-computer",
+      "part": "word",
+      "speed": "slow",
+      "text": "computer",
+      "path": "assets/audio/g5-w-computer-word-slow-6348b8beb108a9c6.mp3",
+      "hash": "6348b8beb108a9c6"
+    },
+    {
+      "id": "g5-w-computer",
+      "part": "example",
+      "speed": "normal",
+      "text": "I use a computer.",
+      "path": "assets/audio/g5-w-computer-example-normal-273b7b189df99680.mp3",
+      "hash": "273b7b189df99680"
+    },
+    {
+      "id": "g5-w-computer",
+      "part": "example",
+      "speed": "slow",
+      "text": "I use a computer.",
+      "path": "assets/audio/g5-w-computer-example-slow-5a58024f1e3fad60.mp3",
+      "hash": "5a58024f1e3fad60"
+    },
+    {
+      "id": "g5-w-map",
+      "part": "word",
+      "speed": "normal",
+      "text": "map",
+      "path": "assets/audio/g5-w-map-word-normal-335d72ebb872044b.mp3",
+      "hash": "335d72ebb872044b"
+    },
+    {
+      "id": "g5-w-map",
+      "part": "word",
+      "speed": "slow",
+      "text": "map",
+      "path": "assets/audio/g5-w-map-word-slow-05c80258460cc223.mp3",
+      "hash": "05c80258460cc223"
+    },
+    {
+      "id": "g5-w-map",
+      "part": "example",
+      "speed": "normal",
+      "text": "This is a map of Japan.",
+      "path": "assets/audio/g5-w-map-example-normal-ca4606db7d4f638d.mp3",
+      "hash": "ca4606db7d4f638d"
+    },
+    {
+      "id": "g5-w-map",
+      "part": "example",
+      "speed": "slow",
+      "text": "This is a map of Japan.",
+      "path": "assets/audio/g5-w-map-example-slow-01b5efda5e848bb9.mp3",
+      "hash": "01b5efda5e848bb9"
+    },
+    {
+      "id": "g5-w-box",
+      "part": "word",
+      "speed": "normal",
+      "text": "box",
+      "path": "assets/audio/g5-w-box-word-normal-81df0672363d52de.mp3",
+      "hash": "81df0672363d52de"
+    },
+    {
+      "id": "g5-w-box",
+      "part": "word",
+      "speed": "slow",
+      "text": "box",
+      "path": "assets/audio/g5-w-box-word-slow-1d5f4e66da911847.mp3",
+      "hash": "1d5f4e66da911847"
+    },
+    {
+      "id": "g5-w-box",
+      "part": "example",
+      "speed": "normal",
+      "text": "The ball is in the box.",
+      "path": "assets/audio/g5-w-box-example-normal-8e48d7cdcfded3c6.mp3",
+      "hash": "8e48d7cdcfded3c6"
+    },
+    {
+      "id": "g5-w-box",
+      "part": "example",
+      "speed": "slow",
+      "text": "The ball is in the box.",
+      "path": "assets/audio/g5-w-box-example-slow-451558108c028faf.mp3",
+      "hash": "451558108c028faf"
+    },
+    {
+      "id": "g5-w-picture",
+      "part": "word",
+      "speed": "normal",
+      "text": "picture",
+      "path": "assets/audio/g5-w-picture-word-normal-2457ea6052f52dc0.mp3",
+      "hash": "2457ea6052f52dc0"
+    },
+    {
+      "id": "g5-w-picture",
+      "part": "word",
+      "speed": "slow",
+      "text": "picture",
+      "path": "assets/audio/g5-w-picture-word-slow-fb39545436d406d0.mp3",
+      "hash": "fb39545436d406d0"
+    },
+    {
+      "id": "g5-w-picture",
+      "part": "example",
+      "speed": "normal",
+      "text": "This is a picture of my dog.",
+      "path": "assets/audio/g5-w-picture-example-normal-7f9891107ce3d0c1.mp3",
+      "hash": "7f9891107ce3d0c1"
+    },
+    {
+      "id": "g5-w-picture",
+      "part": "example",
+      "speed": "slow",
+      "text": "This is a picture of my dog.",
+      "path": "assets/audio/g5-w-picture-example-slow-c538b6414404c517.mp3",
+      "hash": "c538b6414404c517"
+    },
+    {
+      "id": "g5-w-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "clock",
+      "path": "assets/audio/g5-w-clock-word-normal-eca344fd89e184da.mp3",
+      "hash": "eca344fd89e184da"
+    },
+    {
+      "id": "g5-w-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "clock",
+      "path": "assets/audio/g5-w-clock-word-slow-29c8f80bc09caef5.mp3",
+      "hash": "29c8f80bc09caef5"
+    },
+    {
+      "id": "g5-w-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock is on the wall.",
+      "path": "assets/audio/g5-w-clock-example-normal-a6a7c18e2e64b817.mp3",
+      "hash": "a6a7c18e2e64b817"
+    },
+    {
+      "id": "g5-w-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock is on the wall.",
+      "path": "assets/audio/g5-w-clock-example-slow-33768e411a98d525.mp3",
+      "hash": "33768e411a98d525"
+    },
+    {
+      "id": "g5-w-class",
+      "part": "word",
+      "speed": "normal",
+      "text": "class",
+      "path": "assets/audio/g5-w-class-word-normal-ada11eee3f19919c.mp3",
+      "hash": "ada11eee3f19919c"
+    },
+    {
+      "id": "g5-w-class",
+      "part": "word",
+      "speed": "slow",
+      "text": "class",
+      "path": "assets/audio/g5-w-class-word-slow-577299c0d1feb7c1.mp3",
+      "hash": "577299c0d1feb7c1"
+    },
+    {
+      "id": "g5-w-class",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like English class.",
+      "path": "assets/audio/g5-w-class-example-normal-0569401a0d23eec0.mp3",
+      "hash": "0569401a0d23eec0"
+    },
+    {
+      "id": "g5-w-class",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like English class.",
+      "path": "assets/audio/g5-w-class-example-slow-a789f2f1a94365b0.mp3",
+      "hash": "a789f2f1a94365b0"
+    },
+    {
+      "id": "g5-w-math",
+      "part": "word",
+      "speed": "normal",
+      "text": "math",
+      "path": "assets/audio/g5-w-math-word-normal-05cf8cee7352b8e4.mp3",
+      "hash": "05cf8cee7352b8e4"
+    },
+    {
+      "id": "g5-w-math",
+      "part": "word",
+      "speed": "slow",
+      "text": "math",
+      "path": "assets/audio/g5-w-math-word-slow-5b6aef105ab68b6d.mp3",
+      "hash": "5b6aef105ab68b6d"
+    },
+    {
+      "id": "g5-w-math",
+      "part": "example",
+      "speed": "normal",
+      "text": "I study math.",
+      "path": "assets/audio/g5-w-math-example-normal-a80ac57b29c0b7da.mp3",
+      "hash": "a80ac57b29c0b7da"
+    },
+    {
+      "id": "g5-w-math",
+      "part": "example",
+      "speed": "slow",
+      "text": "I study math.",
+      "path": "assets/audio/g5-w-math-example-slow-b054d29cab2b4de0.mp3",
+      "hash": "b054d29cab2b4de0"
+    },
+    {
+      "id": "g5-w-breakfast",
+      "part": "word",
+      "speed": "normal",
+      "text": "breakfast",
+      "path": "assets/audio/g5-w-breakfast-word-normal-6284faf0e51d747c.mp3",
+      "hash": "6284faf0e51d747c"
+    },
+    {
+      "id": "g5-w-breakfast",
+      "part": "word",
+      "speed": "slow",
+      "text": "breakfast",
+      "path": "assets/audio/g5-w-breakfast-word-slow-b298d4c0cc2506e7.mp3",
+      "hash": "b298d4c0cc2506e7"
+    },
+    {
+      "id": "g5-w-breakfast",
+      "part": "example",
+      "speed": "normal",
+      "text": "I eat breakfast at seven.",
+      "path": "assets/audio/g5-w-breakfast-example-normal-057054662dcd215f.mp3",
+      "hash": "057054662dcd215f"
+    },
+    {
+      "id": "g5-w-breakfast",
+      "part": "example",
+      "speed": "slow",
+      "text": "I eat breakfast at seven.",
+      "path": "assets/audio/g5-w-breakfast-example-slow-31ec7c6a6ec89901.mp3",
+      "hash": "31ec7c6a6ec89901"
+    },
+    {
+      "id": "g5-w-lunch",
+      "part": "word",
+      "speed": "normal",
+      "text": "lunch",
+      "path": "assets/audio/g5-w-lunch-word-normal-2468718571683106.mp3",
+      "hash": "2468718571683106"
+    },
+    {
+      "id": "g5-w-lunch",
+      "part": "word",
+      "speed": "slow",
+      "text": "lunch",
+      "path": "assets/audio/g5-w-lunch-word-slow-d3dc09789342367c.mp3",
+      "hash": "d3dc09789342367c"
+    },
+    {
+      "id": "g5-w-lunch",
+      "part": "example",
+      "speed": "normal",
+      "text": "I eat lunch at twelve.",
+      "path": "assets/audio/g5-w-lunch-example-normal-2beea451229d23db.mp3",
+      "hash": "2beea451229d23db"
+    },
+    {
+      "id": "g5-w-lunch",
+      "part": "example",
+      "speed": "slow",
+      "text": "I eat lunch at twelve.",
+      "path": "assets/audio/g5-w-lunch-example-slow-53dd539fb311c829.mp3",
+      "hash": "53dd539fb311c829"
+    },
+    {
+      "id": "g5-w-dinner",
+      "part": "word",
+      "speed": "normal",
+      "text": "dinner",
+      "path": "assets/audio/g5-w-dinner-word-normal-bbcbfe7aaa79930d.mp3",
+      "hash": "bbcbfe7aaa79930d"
+    },
+    {
+      "id": "g5-w-dinner",
+      "part": "word",
+      "speed": "slow",
+      "text": "dinner",
+      "path": "assets/audio/g5-w-dinner-word-slow-5bdccace7d48c58c.mp3",
+      "hash": "5bdccace7d48c58c"
+    },
+    {
+      "id": "g5-w-dinner",
+      "part": "example",
+      "speed": "normal",
+      "text": "I eat dinner with my family.",
+      "path": "assets/audio/g5-w-dinner-example-normal-ef0c53be7daa9575.mp3",
+      "hash": "ef0c53be7daa9575"
+    },
+    {
+      "id": "g5-w-dinner",
+      "part": "example",
+      "speed": "slow",
+      "text": "I eat dinner with my family.",
+      "path": "assets/audio/g5-w-dinner-example-slow-cea666e1093aa768.mp3",
+      "hash": "cea666e1093aa768"
+    },
+    {
+      "id": "g5-w-morning",
+      "part": "word",
+      "speed": "normal",
+      "text": "morning",
+      "path": "assets/audio/g5-w-morning-word-normal-0e069c035144fa19.mp3",
+      "hash": "0e069c035144fa19"
+    },
+    {
+      "id": "g5-w-morning",
+      "part": "word",
+      "speed": "slow",
+      "text": "morning",
+      "path": "assets/audio/g5-w-morning-word-slow-2feed6a85dca6e8c.mp3",
+      "hash": "2feed6a85dca6e8c"
+    },
+    {
+      "id": "g5-w-morning",
+      "part": "example",
+      "speed": "normal",
+      "text": "I study in the morning.",
+      "path": "assets/audio/g5-w-morning-example-normal-9bd650af8ca6a1fe.mp3",
+      "hash": "9bd650af8ca6a1fe"
+    },
+    {
+      "id": "g5-w-morning",
+      "part": "example",
+      "speed": "slow",
+      "text": "I study in the morning.",
+      "path": "assets/audio/g5-w-morning-example-slow-8e5d6cb08f86b821.mp3",
+      "hash": "8e5d6cb08f86b821"
+    },
+    {
+      "id": "g5-w-afternoon",
+      "part": "word",
+      "speed": "normal",
+      "text": "afternoon",
+      "path": "assets/audio/g5-w-afternoon-word-normal-433e812a2135120a.mp3",
+      "hash": "433e812a2135120a"
+    },
+    {
+      "id": "g5-w-afternoon",
+      "part": "word",
+      "speed": "slow",
+      "text": "afternoon",
+      "path": "assets/audio/g5-w-afternoon-word-slow-f0c2e081b2838701.mp3",
+      "hash": "f0c2e081b2838701"
+    },
+    {
+      "id": "g5-w-afternoon",
+      "part": "example",
+      "speed": "normal",
+      "text": "I play tennis in the afternoon.",
+      "path": "assets/audio/g5-w-afternoon-example-normal-a26487d0b7abfc98.mp3",
+      "hash": "a26487d0b7abfc98"
+    },
+    {
+      "id": "g5-w-afternoon",
+      "part": "example",
+      "speed": "slow",
+      "text": "I play tennis in the afternoon.",
+      "path": "assets/audio/g5-w-afternoon-example-slow-7c8d5cd3c964d8fd.mp3",
+      "hash": "7c8d5cd3c964d8fd"
+    },
+    {
+      "id": "g5-w-evening",
+      "part": "word",
+      "speed": "normal",
+      "text": "evening",
+      "path": "assets/audio/g5-w-evening-word-normal-994590bc55a052ac.mp3",
+      "hash": "994590bc55a052ac"
+    },
+    {
+      "id": "g5-w-evening",
+      "part": "word",
+      "speed": "slow",
+      "text": "evening",
+      "path": "assets/audio/g5-w-evening-word-slow-6d8912867d10768d.mp3",
+      "hash": "6d8912867d10768d"
+    },
+    {
+      "id": "g5-w-evening",
+      "part": "example",
+      "speed": "normal",
+      "text": "I read in the evening.",
+      "path": "assets/audio/g5-w-evening-example-normal-9e2f19aad460a7e6.mp3",
+      "hash": "9e2f19aad460a7e6"
+    },
+    {
+      "id": "g5-w-evening",
+      "part": "example",
+      "speed": "slow",
+      "text": "I read in the evening.",
+      "path": "assets/audio/g5-w-evening-example-slow-4904ac7ef10b2495.mp3",
+      "hash": "4904ac7ef10b2495"
+    },
+    {
+      "id": "g5-w-night",
+      "part": "word",
+      "speed": "normal",
+      "text": "night",
+      "path": "assets/audio/g5-w-night-word-normal-a59184efda7b2368.mp3",
+      "hash": "a59184efda7b2368"
+    },
+    {
+      "id": "g5-w-night",
+      "part": "word",
+      "speed": "slow",
+      "text": "night",
+      "path": "assets/audio/g5-w-night-word-slow-6803a028825857e8.mp3",
+      "hash": "6803a028825857e8"
+    },
+    {
+      "id": "g5-w-night",
+      "part": "example",
+      "speed": "normal",
+      "text": "I sleep at night.",
+      "path": "assets/audio/g5-w-night-example-normal-ccf05a762fcbcf52.mp3",
+      "hash": "ccf05a762fcbcf52"
+    },
+    {
+      "id": "g5-w-night",
+      "part": "example",
+      "speed": "slow",
+      "text": "I sleep at night.",
+      "path": "assets/audio/g5-w-night-example-slow-b49d9cfdc695778e.mp3",
+      "hash": "b49d9cfdc695778e"
+    },
+    {
+      "id": "g5-w-today",
+      "part": "word",
+      "speed": "normal",
+      "text": "today",
+      "path": "assets/audio/g5-w-today-word-normal-a4190071faa2e120.mp3",
+      "hash": "a4190071faa2e120"
+    },
+    {
+      "id": "g5-w-today",
+      "part": "word",
+      "speed": "slow",
+      "text": "today",
+      "path": "assets/audio/g5-w-today-word-slow-644a20874f27240e.mp3",
+      "hash": "644a20874f27240e"
+    },
+    {
+      "id": "g5-w-today",
+      "part": "example",
+      "speed": "normal",
+      "text": "I am happy today.",
+      "path": "assets/audio/g5-w-today-example-normal-1b0eba9d0a41d9bd.mp3",
+      "hash": "1b0eba9d0a41d9bd"
+    },
+    {
+      "id": "g5-w-today",
+      "part": "example",
+      "speed": "slow",
+      "text": "I am happy today.",
+      "path": "assets/audio/g5-w-today-example-slow-6928b822fdfc2e06.mp3",
+      "hash": "6928b822fdfc2e06"
+    },
+    {
+      "id": "g5-w-tomorrow",
+      "part": "word",
+      "speed": "normal",
+      "text": "tomorrow",
+      "path": "assets/audio/g5-w-tomorrow-word-normal-a3bdd08f93516ce3.mp3",
+      "hash": "a3bdd08f93516ce3"
+    },
+    {
+      "id": "g5-w-tomorrow",
+      "part": "word",
+      "speed": "slow",
+      "text": "tomorrow",
+      "path": "assets/audio/g5-w-tomorrow-word-slow-e773159660d1cd41.mp3",
+      "hash": "e773159660d1cd41"
+    },
+    {
+      "id": "g5-w-tomorrow",
+      "part": "example",
+      "speed": "normal",
+      "text": "See you tomorrow.",
+      "path": "assets/audio/g5-w-tomorrow-example-normal-720780d6be33ddb4.mp3",
+      "hash": "720780d6be33ddb4"
+    },
+    {
+      "id": "g5-w-tomorrow",
+      "part": "example",
+      "speed": "slow",
+      "text": "See you tomorrow.",
+      "path": "assets/audio/g5-w-tomorrow-example-slow-8f379519dc0b969b.mp3",
+      "hash": "8f379519dc0b969b"
+    },
+    {
+      "id": "g5-w-birthday",
+      "part": "word",
+      "speed": "normal",
+      "text": "birthday",
+      "path": "assets/audio/g5-w-birthday-word-normal-13a7bc973ca4e16a.mp3",
+      "hash": "13a7bc973ca4e16a"
+    },
+    {
+      "id": "g5-w-birthday",
+      "part": "word",
+      "speed": "slow",
+      "text": "birthday",
+      "path": "assets/audio/g5-w-birthday-word-slow-d48b7d8b14a51418.mp3",
+      "hash": "d48b7d8b14a51418"
+    },
+    {
+      "id": "g5-w-birthday",
+      "part": "example",
+      "speed": "normal",
+      "text": "When is your birthday?",
+      "path": "assets/audio/g5-w-birthday-example-normal-eccc71bd5003ac4d.mp3",
+      "hash": "eccc71bd5003ac4d"
+    },
+    {
+      "id": "g5-w-birthday",
+      "part": "example",
+      "speed": "slow",
+      "text": "When is your birthday?",
+      "path": "assets/audio/g5-w-birthday-example-slow-0a281f6c77945068.mp3",
+      "hash": "0a281f6c77945068"
+    },
+    {
+      "id": "g5-p-31",
+      "part": "word",
+      "speed": "normal",
+      "text": "Good afternoon.",
+      "path": "assets/audio/g5-p-31-word-normal-3ddc4c8140d3aa3e.mp3",
+      "hash": "3ddc4c8140d3aa3e"
+    },
+    {
+      "id": "g5-p-31",
+      "part": "word",
+      "speed": "slow",
+      "text": "Good afternoon.",
+      "path": "assets/audio/g5-p-31-word-slow-7b9ee6136b89fe36.mp3",
+      "hash": "7b9ee6136b89fe36"
+    },
+    {
+      "id": "g5-p-31",
+      "part": "example",
+      "speed": "normal",
+      "text": "Good afternoon.",
+      "path": "assets/audio/g5-p-31-example-normal-3ddc4c8140d3aa3e.mp3",
+      "hash": "3ddc4c8140d3aa3e"
+    },
+    {
+      "id": "g5-p-31",
+      "part": "example",
+      "speed": "slow",
+      "text": "Good afternoon.",
+      "path": "assets/audio/g5-p-31-example-slow-7b9ee6136b89fe36.mp3",
+      "hash": "7b9ee6136b89fe36"
+    },
+    {
+      "id": "g5-p-32",
+      "part": "word",
+      "speed": "normal",
+      "text": "Good evening.",
+      "path": "assets/audio/g5-p-32-word-normal-63776ca6a959250b.mp3",
+      "hash": "63776ca6a959250b"
+    },
+    {
+      "id": "g5-p-32",
+      "part": "word",
+      "speed": "slow",
+      "text": "Good evening.",
+      "path": "assets/audio/g5-p-32-word-slow-9098681a429f1120.mp3",
+      "hash": "9098681a429f1120"
+    },
+    {
+      "id": "g5-p-32",
+      "part": "example",
+      "speed": "normal",
+      "text": "Good evening.",
+      "path": "assets/audio/g5-p-32-example-normal-63776ca6a959250b.mp3",
+      "hash": "63776ca6a959250b"
+    },
+    {
+      "id": "g5-p-32",
+      "part": "example",
+      "speed": "slow",
+      "text": "Good evening.",
+      "path": "assets/audio/g5-p-32-example-slow-9098681a429f1120.mp3",
+      "hash": "9098681a429f1120"
+    },
+    {
+      "id": "g5-p-33",
+      "part": "word",
+      "speed": "normal",
+      "text": "Nice to meet you.",
+      "path": "assets/audio/g5-p-33-word-normal-81a7aa62808c90d6.mp3",
+      "hash": "81a7aa62808c90d6"
+    },
+    {
+      "id": "g5-p-33",
+      "part": "word",
+      "speed": "slow",
+      "text": "Nice to meet you.",
+      "path": "assets/audio/g5-p-33-word-slow-558336c197921763.mp3",
+      "hash": "558336c197921763"
+    },
+    {
+      "id": "g5-p-33",
+      "part": "example",
+      "speed": "normal",
+      "text": "Nice to meet you.",
+      "path": "assets/audio/g5-p-33-example-normal-81a7aa62808c90d6.mp3",
+      "hash": "81a7aa62808c90d6"
+    },
+    {
+      "id": "g5-p-33",
+      "part": "example",
+      "speed": "slow",
+      "text": "Nice to meet you.",
+      "path": "assets/audio/g5-p-33-example-slow-558336c197921763.mp3",
+      "hash": "558336c197921763"
+    },
+    {
+      "id": "g5-p-34",
+      "part": "word",
+      "speed": "normal",
+      "text": "See you tomorrow.",
+      "path": "assets/audio/g5-p-34-word-normal-720780d6be33ddb4.mp3",
+      "hash": "720780d6be33ddb4"
+    },
+    {
+      "id": "g5-p-34",
+      "part": "word",
+      "speed": "slow",
+      "text": "See you tomorrow.",
+      "path": "assets/audio/g5-p-34-word-slow-8f379519dc0b969b.mp3",
+      "hash": "8f379519dc0b969b"
+    },
+    {
+      "id": "g5-p-34",
+      "part": "example",
+      "speed": "normal",
+      "text": "See you tomorrow.",
+      "path": "assets/audio/g5-p-34-example-normal-720780d6be33ddb4.mp3",
+      "hash": "720780d6be33ddb4"
+    },
+    {
+      "id": "g5-p-34",
+      "part": "example",
+      "speed": "slow",
+      "text": "See you tomorrow.",
+      "path": "assets/audio/g5-p-34-example-slow-8f379519dc0b969b.mp3",
+      "hash": "8f379519dc0b969b"
+    },
+    {
+      "id": "g5-p-35",
+      "part": "word",
+      "speed": "normal",
+      "text": "How do you spell your name?",
+      "path": "assets/audio/g5-p-35-word-normal-6dc097b246c0e8fd.mp3",
+      "hash": "6dc097b246c0e8fd"
+    },
+    {
+      "id": "g5-p-35",
+      "part": "word",
+      "speed": "slow",
+      "text": "How do you spell your name?",
+      "path": "assets/audio/g5-p-35-word-slow-95a986b9b99fa0b4.mp3",
+      "hash": "95a986b9b99fa0b4"
+    },
+    {
+      "id": "g5-p-35",
+      "part": "example",
+      "speed": "normal",
+      "text": "How do you spell your name?",
+      "path": "assets/audio/g5-p-35-example-normal-6dc097b246c0e8fd.mp3",
+      "hash": "6dc097b246c0e8fd"
+    },
+    {
+      "id": "g5-p-35",
+      "part": "example",
+      "speed": "slow",
+      "text": "How do you spell your name?",
+      "path": "assets/audio/g5-p-35-example-slow-95a986b9b99fa0b4.mp3",
+      "hash": "95a986b9b99fa0b4"
+    },
+    {
+      "id": "g5-p-36",
+      "part": "word",
+      "speed": "normal",
+      "text": "What day is it today?",
+      "path": "assets/audio/g5-p-36-word-normal-27a298a7abaaedcf.mp3",
+      "hash": "27a298a7abaaedcf"
+    },
+    {
+      "id": "g5-p-36",
+      "part": "word",
+      "speed": "slow",
+      "text": "What day is it today?",
+      "path": "assets/audio/g5-p-36-word-slow-82835fca03a98531.mp3",
+      "hash": "82835fca03a98531"
+    },
+    {
+      "id": "g5-p-36",
+      "part": "example",
+      "speed": "normal",
+      "text": "What day is it today?",
+      "path": "assets/audio/g5-p-36-example-normal-27a298a7abaaedcf.mp3",
+      "hash": "27a298a7abaaedcf"
+    },
+    {
+      "id": "g5-p-36",
+      "part": "example",
+      "speed": "slow",
+      "text": "What day is it today?",
+      "path": "assets/audio/g5-p-36-example-slow-82835fca03a98531.mp3",
+      "hash": "82835fca03a98531"
+    },
+    {
+      "id": "g5-p-37",
+      "part": "word",
+      "speed": "normal",
+      "text": "It's Monday.",
+      "path": "assets/audio/g5-p-37-word-normal-4a1437cc372f37bf.mp3",
+      "hash": "4a1437cc372f37bf"
+    },
+    {
+      "id": "g5-p-37",
+      "part": "word",
+      "speed": "slow",
+      "text": "It's Monday.",
+      "path": "assets/audio/g5-p-37-word-slow-3dbbe126eb11cbf1.mp3",
+      "hash": "3dbbe126eb11cbf1"
+    },
+    {
+      "id": "g5-p-37",
+      "part": "example",
+      "speed": "normal",
+      "text": "It's Monday.",
+      "path": "assets/audio/g5-p-37-example-normal-4a1437cc372f37bf.mp3",
+      "hash": "4a1437cc372f37bf"
+    },
+    {
+      "id": "g5-p-37",
+      "part": "example",
+      "speed": "slow",
+      "text": "It's Monday.",
+      "path": "assets/audio/g5-p-37-example-slow-3dbbe126eb11cbf1.mp3",
+      "hash": "3dbbe126eb11cbf1"
+    },
+    {
+      "id": "g5-p-38",
+      "part": "word",
+      "speed": "normal",
+      "text": "When is your birthday?",
+      "path": "assets/audio/g5-p-38-word-normal-eccc71bd5003ac4d.mp3",
+      "hash": "eccc71bd5003ac4d"
+    },
+    {
+      "id": "g5-p-38",
+      "part": "word",
+      "speed": "slow",
+      "text": "When is your birthday?",
+      "path": "assets/audio/g5-p-38-word-slow-0a281f6c77945068.mp3",
+      "hash": "0a281f6c77945068"
+    },
+    {
+      "id": "g5-p-38",
+      "part": "example",
+      "speed": "normal",
+      "text": "When is your birthday?",
+      "path": "assets/audio/g5-p-38-example-normal-eccc71bd5003ac4d.mp3",
+      "hash": "eccc71bd5003ac4d"
+    },
+    {
+      "id": "g5-p-38",
+      "part": "example",
+      "speed": "slow",
+      "text": "When is your birthday?",
+      "path": "assets/audio/g5-p-38-example-slow-0a281f6c77945068.mp3",
+      "hash": "0a281f6c77945068"
+    },
+    {
+      "id": "g5-p-39",
+      "part": "word",
+      "speed": "normal",
+      "text": "My birthday is in May.",
+      "path": "assets/audio/g5-p-39-word-normal-1850b9a3cc8ac951.mp3",
+      "hash": "1850b9a3cc8ac951"
+    },
+    {
+      "id": "g5-p-39",
+      "part": "word",
+      "speed": "slow",
+      "text": "My birthday is in May.",
+      "path": "assets/audio/g5-p-39-word-slow-1d4e7c8b754b60ca.mp3",
+      "hash": "1d4e7c8b754b60ca"
+    },
+    {
+      "id": "g5-p-39",
+      "part": "example",
+      "speed": "normal",
+      "text": "My birthday is in May.",
+      "path": "assets/audio/g5-p-39-example-normal-1850b9a3cc8ac951.mp3",
+      "hash": "1850b9a3cc8ac951"
+    },
+    {
+      "id": "g5-p-39",
+      "part": "example",
+      "speed": "slow",
+      "text": "My birthday is in May.",
+      "path": "assets/audio/g5-p-39-example-slow-1d4e7c8b754b60ca.mp3",
+      "hash": "1d4e7c8b754b60ca"
+    },
+    {
+      "id": "g5-p-40",
+      "part": "word",
+      "speed": "normal",
+      "text": "How many books do you have?",
+      "path": "assets/audio/g5-p-40-word-normal-64671f6548397085.mp3",
+      "hash": "64671f6548397085"
+    },
+    {
+      "id": "g5-p-40",
+      "part": "word",
+      "speed": "slow",
+      "text": "How many books do you have?",
+      "path": "assets/audio/g5-p-40-word-slow-37c44308793d9a51.mp3",
+      "hash": "37c44308793d9a51"
+    },
+    {
+      "id": "g5-p-40",
+      "part": "example",
+      "speed": "normal",
+      "text": "How many books do you have?",
+      "path": "assets/audio/g5-p-40-example-normal-64671f6548397085.mp3",
+      "hash": "64671f6548397085"
+    },
+    {
+      "id": "g5-p-40",
+      "part": "example",
+      "speed": "slow",
+      "text": "How many books do you have?",
+      "path": "assets/audio/g5-p-40-example-slow-37c44308793d9a51.mp3",
+      "hash": "37c44308793d9a51"
+    },
+    {
+      "id": "g5-p-41",
+      "part": "word",
+      "speed": "normal",
+      "text": "I have three books.",
+      "path": "assets/audio/g5-p-41-word-normal-6f7d931923e95624.mp3",
+      "hash": "6f7d931923e95624"
+    },
+    {
+      "id": "g5-p-41",
+      "part": "word",
+      "speed": "slow",
+      "text": "I have three books.",
+      "path": "assets/audio/g5-p-41-word-slow-3f2cc61681f70ff7.mp3",
+      "hash": "3f2cc61681f70ff7"
+    },
+    {
+      "id": "g5-p-41",
+      "part": "example",
+      "speed": "normal",
+      "text": "I have three books.",
+      "path": "assets/audio/g5-p-41-example-normal-6f7d931923e95624.mp3",
+      "hash": "6f7d931923e95624"
+    },
+    {
+      "id": "g5-p-41",
+      "part": "example",
+      "speed": "slow",
+      "text": "I have three books.",
+      "path": "assets/audio/g5-p-41-example-slow-3f2cc61681f70ff7.mp3",
+      "hash": "3f2cc61681f70ff7"
+    },
+    {
+      "id": "g5-p-42",
+      "part": "word",
+      "speed": "normal",
+      "text": "What do you want?",
+      "path": "assets/audio/g5-p-42-word-normal-4223f7ea66ad27cf.mp3",
+      "hash": "4223f7ea66ad27cf"
+    },
+    {
+      "id": "g5-p-42",
+      "part": "word",
+      "speed": "slow",
+      "text": "What do you want?",
+      "path": "assets/audio/g5-p-42-word-slow-48228a7218d8f897.mp3",
+      "hash": "48228a7218d8f897"
+    },
+    {
+      "id": "g5-p-42",
+      "part": "example",
+      "speed": "normal",
+      "text": "What do you want?",
+      "path": "assets/audio/g5-p-42-example-normal-4223f7ea66ad27cf.mp3",
+      "hash": "4223f7ea66ad27cf"
+    },
+    {
+      "id": "g5-p-42",
+      "part": "example",
+      "speed": "slow",
+      "text": "What do you want?",
+      "path": "assets/audio/g5-p-42-example-slow-48228a7218d8f897.mp3",
+      "hash": "48228a7218d8f897"
+    },
+    {
+      "id": "g5-p-43",
+      "part": "word",
+      "speed": "normal",
+      "text": "I want some water.",
+      "path": "assets/audio/g5-p-43-word-normal-a54f1491e04e7c7d.mp3",
+      "hash": "a54f1491e04e7c7d"
+    },
+    {
+      "id": "g5-p-43",
+      "part": "word",
+      "speed": "slow",
+      "text": "I want some water.",
+      "path": "assets/audio/g5-p-43-word-slow-7f1a3279b1cf7381.mp3",
+      "hash": "7f1a3279b1cf7381"
+    },
+    {
+      "id": "g5-p-43",
+      "part": "example",
+      "speed": "normal",
+      "text": "I want some water.",
+      "path": "assets/audio/g5-p-43-example-normal-a54f1491e04e7c7d.mp3",
+      "hash": "a54f1491e04e7c7d"
+    },
+    {
+      "id": "g5-p-43",
+      "part": "example",
+      "speed": "slow",
+      "text": "I want some water.",
+      "path": "assets/audio/g5-p-43-example-slow-7f1a3279b1cf7381.mp3",
+      "hash": "7f1a3279b1cf7381"
+    },
+    {
+      "id": "g5-p-44",
+      "part": "word",
+      "speed": "normal",
+      "text": "Let's play soccer.",
+      "path": "assets/audio/g5-p-44-word-normal-1ec67afdd8972ac8.mp3",
+      "hash": "1ec67afdd8972ac8"
+    },
+    {
+      "id": "g5-p-44",
+      "part": "word",
+      "speed": "slow",
+      "text": "Let's play soccer.",
+      "path": "assets/audio/g5-p-44-word-slow-b34b9735fc5ea5d4.mp3",
+      "hash": "b34b9735fc5ea5d4"
+    },
+    {
+      "id": "g5-p-44",
+      "part": "example",
+      "speed": "normal",
+      "text": "Let's play soccer.",
+      "path": "assets/audio/g5-p-44-example-normal-1ec67afdd8972ac8.mp3",
+      "hash": "1ec67afdd8972ac8"
+    },
+    {
+      "id": "g5-p-44",
+      "part": "example",
+      "speed": "slow",
+      "text": "Let's play soccer.",
+      "path": "assets/audio/g5-p-44-example-slow-b34b9735fc5ea5d4.mp3",
+      "hash": "b34b9735fc5ea5d4"
+    },
+    {
+      "id": "g5-p-45",
+      "part": "word",
+      "speed": "normal",
+      "text": "That sounds good.",
+      "path": "assets/audio/g5-p-45-word-normal-d61411dcd414227f.mp3",
+      "hash": "d61411dcd414227f"
+    },
+    {
+      "id": "g5-p-45",
+      "part": "word",
+      "speed": "slow",
+      "text": "That sounds good.",
+      "path": "assets/audio/g5-p-45-word-slow-045e70ffa2900565.mp3",
+      "hash": "045e70ffa2900565"
+    },
+    {
+      "id": "g5-p-45",
+      "part": "example",
+      "speed": "normal",
+      "text": "That sounds good.",
+      "path": "assets/audio/g5-p-45-example-normal-d61411dcd414227f.mp3",
+      "hash": "d61411dcd414227f"
+    },
+    {
+      "id": "g5-p-45",
+      "part": "example",
+      "speed": "slow",
+      "text": "That sounds good.",
+      "path": "assets/audio/g5-p-45-example-slow-045e70ffa2900565.mp3",
+      "hash": "045e70ffa2900565"
+    },
+    {
+      "id": "g5-p-46",
+      "part": "word",
+      "speed": "normal",
+      "text": "Can I use your pen?",
+      "path": "assets/audio/g5-p-46-word-normal-2a67cf63de62b5a4.mp3",
+      "hash": "2a67cf63de62b5a4"
+    },
+    {
+      "id": "g5-p-46",
+      "part": "word",
+      "speed": "slow",
+      "text": "Can I use your pen?",
+      "path": "assets/audio/g5-p-46-word-slow-ca055c09f589676d.mp3",
+      "hash": "ca055c09f589676d"
+    },
+    {
+      "id": "g5-p-46",
+      "part": "example",
+      "speed": "normal",
+      "text": "Can I use your pen?",
+      "path": "assets/audio/g5-p-46-example-normal-2a67cf63de62b5a4.mp3",
+      "hash": "2a67cf63de62b5a4"
+    },
+    {
+      "id": "g5-p-46",
+      "part": "example",
+      "speed": "slow",
+      "text": "Can I use your pen?",
+      "path": "assets/audio/g5-p-46-example-slow-ca055c09f589676d.mp3",
+      "hash": "ca055c09f589676d"
+    },
+    {
+      "id": "g5-p-47",
+      "part": "word",
+      "speed": "normal",
+      "text": "Here you are.",
+      "path": "assets/audio/g5-p-47-word-normal-d3d1aa90617275b0.mp3",
+      "hash": "d3d1aa90617275b0"
+    },
+    {
+      "id": "g5-p-47",
+      "part": "word",
+      "speed": "slow",
+      "text": "Here you are.",
+      "path": "assets/audio/g5-p-47-word-slow-69c49d43dae70264.mp3",
+      "hash": "69c49d43dae70264"
+    },
+    {
+      "id": "g5-p-47",
+      "part": "example",
+      "speed": "normal",
+      "text": "Here you are.",
+      "path": "assets/audio/g5-p-47-example-normal-d3d1aa90617275b0.mp3",
+      "hash": "d3d1aa90617275b0"
+    },
+    {
+      "id": "g5-p-47",
+      "part": "example",
+      "speed": "slow",
+      "text": "Here you are.",
+      "path": "assets/audio/g5-p-47-example-slow-69c49d43dae70264.mp3",
+      "hash": "69c49d43dae70264"
+    },
+    {
+      "id": "g5-p-48",
+      "part": "word",
+      "speed": "normal",
+      "text": "Please close the door.",
+      "path": "assets/audio/g5-p-48-word-normal-0a3d6baf4d2e8cdb.mp3",
+      "hash": "0a3d6baf4d2e8cdb"
+    },
+    {
+      "id": "g5-p-48",
+      "part": "word",
+      "speed": "slow",
+      "text": "Please close the door.",
+      "path": "assets/audio/g5-p-48-word-slow-10e0ddc0cc8e8d85.mp3",
+      "hash": "10e0ddc0cc8e8d85"
+    },
+    {
+      "id": "g5-p-48",
+      "part": "example",
+      "speed": "normal",
+      "text": "Please close the door.",
+      "path": "assets/audio/g5-p-48-example-normal-0a3d6baf4d2e8cdb.mp3",
+      "hash": "0a3d6baf4d2e8cdb"
+    },
+    {
+      "id": "g5-p-48",
+      "part": "example",
+      "speed": "slow",
+      "text": "Please close the door.",
+      "path": "assets/audio/g5-p-48-example-slow-10e0ddc0cc8e8d85.mp3",
+      "hash": "10e0ddc0cc8e8d85"
+    },
+    {
+      "id": "g5-p-49",
+      "part": "word",
+      "speed": "normal",
+      "text": "I go to school by bus.",
+      "path": "assets/audio/g5-p-49-word-normal-a2fa8d465f5ee8a0.mp3",
+      "hash": "a2fa8d465f5ee8a0"
+    },
+    {
+      "id": "g5-p-49",
+      "part": "word",
+      "speed": "slow",
+      "text": "I go to school by bus.",
+      "path": "assets/audio/g5-p-49-word-slow-ba08455e88b12f91.mp3",
+      "hash": "ba08455e88b12f91"
+    },
+    {
+      "id": "g5-p-49",
+      "part": "example",
+      "speed": "normal",
+      "text": "I go to school by bus.",
+      "path": "assets/audio/g5-p-49-example-normal-a2fa8d465f5ee8a0.mp3",
+      "hash": "a2fa8d465f5ee8a0"
+    },
+    {
+      "id": "g5-p-49",
+      "part": "example",
+      "speed": "slow",
+      "text": "I go to school by bus.",
+      "path": "assets/audio/g5-p-49-example-slow-ba08455e88b12f91.mp3",
+      "hash": "ba08455e88b12f91"
+    },
+    {
+      "id": "g5-p-50",
+      "part": "word",
+      "speed": "normal",
+      "text": "What are you doing?",
+      "path": "assets/audio/g5-p-50-word-normal-8450af48f20a6666.mp3",
+      "hash": "8450af48f20a6666"
+    },
+    {
+      "id": "g5-p-50",
+      "part": "word",
+      "speed": "slow",
+      "text": "What are you doing?",
+      "path": "assets/audio/g5-p-50-word-slow-c42cfb30c5835ef5.mp3",
+      "hash": "c42cfb30c5835ef5"
+    },
+    {
+      "id": "g5-p-50",
+      "part": "example",
+      "speed": "normal",
+      "text": "What are you doing?",
+      "path": "assets/audio/g5-p-50-example-normal-8450af48f20a6666.mp3",
+      "hash": "8450af48f20a6666"
+    },
+    {
+      "id": "g5-p-50",
+      "part": "example",
+      "speed": "slow",
+      "text": "What are you doing?",
+      "path": "assets/audio/g5-p-50-example-slow-c42cfb30c5835ef5.mp3",
+      "hash": "c42cfb30c5835ef5"
     }
   ]
 }

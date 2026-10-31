@@ -648,5 +648,605 @@
     "id": "g5-p-30",
     "word": "I'm reading a book.",
     "example": "I'm reading a book."
+  },
+  {
+    "id": "g5-w-january",
+    "word": "January",
+    "example": "My birthday is in January."
+  },
+  {
+    "id": "g5-w-february",
+    "word": "February",
+    "example": "My birthday is in February."
+  },
+  {
+    "id": "g5-w-march",
+    "word": "March",
+    "example": "My birthday is in March."
+  },
+  {
+    "id": "g5-w-april",
+    "word": "April",
+    "example": "School starts in April."
+  },
+  {
+    "id": "g5-w-may",
+    "word": "May",
+    "example": "My birthday is in May."
+  },
+  {
+    "id": "g5-w-june",
+    "word": "June",
+    "example": "My birthday is in June."
+  },
+  {
+    "id": "g5-w-july",
+    "word": "July",
+    "example": "My birthday is in July."
+  },
+  {
+    "id": "g5-w-august",
+    "word": "August",
+    "example": "My birthday is in August."
+  },
+  {
+    "id": "g5-w-september",
+    "word": "September",
+    "example": "My birthday is in September."
+  },
+  {
+    "id": "g5-w-october",
+    "word": "October",
+    "example": "My birthday is in October."
+  },
+  {
+    "id": "g5-w-november",
+    "word": "November",
+    "example": "My birthday is in November."
+  },
+  {
+    "id": "g5-w-december",
+    "word": "December",
+    "example": "My birthday is in December."
+  },
+  {
+    "id": "g5-w-eleven",
+    "word": "eleven",
+    "example": "I have eleven pencils."
+  },
+  {
+    "id": "g5-w-twelve",
+    "word": "twelve",
+    "example": "I have twelve pencils."
+  },
+  {
+    "id": "g5-w-thirteen",
+    "word": "thirteen",
+    "example": "I have thirteen pencils."
+  },
+  {
+    "id": "g5-w-fourteen",
+    "word": "fourteen",
+    "example": "I have fourteen pencils."
+  },
+  {
+    "id": "g5-w-fifteen",
+    "word": "fifteen",
+    "example": "I have fifteen pencils."
+  },
+  {
+    "id": "g5-w-sixteen",
+    "word": "sixteen",
+    "example": "I have sixteen pencils."
+  },
+  {
+    "id": "g5-w-seventeen",
+    "word": "seventeen",
+    "example": "I have seventeen pencils."
+  },
+  {
+    "id": "g5-w-eighteen",
+    "word": "eighteen",
+    "example": "I have eighteen pencils."
+  },
+  {
+    "id": "g5-w-nineteen",
+    "word": "nineteen",
+    "example": "I have nineteen pencils."
+  },
+  {
+    "id": "g5-w-twenty",
+    "word": "twenty",
+    "example": "I have twenty pencils."
+  },
+  {
+    "id": "g5-w-sunny",
+    "word": "sunny",
+    "example": "It is sunny today."
+  },
+  {
+    "id": "g5-w-rainy",
+    "word": "rainy",
+    "example": "It is rainy today."
+  },
+  {
+    "id": "g5-w-cloudy",
+    "word": "cloudy",
+    "example": "It is cloudy today."
+  },
+  {
+    "id": "g5-w-snowy",
+    "word": "snowy",
+    "example": "It is snowy today."
+  },
+  {
+    "id": "g5-w-windy",
+    "word": "windy",
+    "example": "It is windy today."
+  },
+  {
+    "id": "g5-w-rain",
+    "word": "rain",
+    "example": "I like the rain."
+  },
+  {
+    "id": "g5-w-snow",
+    "word": "snow",
+    "example": "I like snow."
+  },
+  {
+    "id": "g5-w-fall",
+    "word": "fall",
+    "example": "I like fall."
+  },
+  {
+    "id": "g5-w-strawberry",
+    "word": "strawberry",
+    "example": "This strawberry is red."
+  },
+  {
+    "id": "g5-w-grape",
+    "word": "grape",
+    "example": "This grape is sweet."
+  },
+  {
+    "id": "g5-w-ice-cream",
+    "word": "ice cream",
+    "example": "I like ice cream."
+  },
+  {
+    "id": "g5-w-chocolate",
+    "word": "chocolate",
+    "example": "I like chocolate."
+  },
+  {
+    "id": "g5-w-cheese",
+    "word": "cheese",
+    "example": "I like cheese."
+  },
+  {
+    "id": "g5-w-juice",
+    "word": "juice",
+    "example": "I drink orange juice."
+  },
+  {
+    "id": "g5-w-tea",
+    "word": "tea",
+    "example": "My mother likes tea."
+  },
+  {
+    "id": "g5-w-soup",
+    "word": "soup",
+    "example": "This soup is hot."
+  },
+  {
+    "id": "g5-w-meat",
+    "word": "meat",
+    "example": "I eat meat."
+  },
+  {
+    "id": "g5-w-chicken",
+    "word": "chicken",
+    "example": "I like chicken."
+  },
+  {
+    "id": "g5-w-soccer",
+    "word": "soccer",
+    "example": "I play soccer."
+  },
+  {
+    "id": "g5-w-baseball",
+    "word": "baseball",
+    "example": "I like baseball."
+  },
+  {
+    "id": "g5-w-basketball",
+    "word": "basketball",
+    "example": "I play basketball."
+  },
+  {
+    "id": "g5-w-tennis",
+    "word": "tennis",
+    "example": "I play tennis."
+  },
+  {
+    "id": "g5-w-volleyball",
+    "word": "volleyball",
+    "example": "I play volleyball."
+  },
+  {
+    "id": "g5-w-badminton",
+    "word": "badminton",
+    "example": "I play badminton."
+  },
+  {
+    "id": "g5-w-sport",
+    "word": "sport",
+    "example": "What sport do you like?"
+  },
+  {
+    "id": "g5-w-music",
+    "word": "music",
+    "example": "I like music."
+  },
+  {
+    "id": "g5-w-piano",
+    "word": "piano",
+    "example": "I play the piano."
+  },
+  {
+    "id": "g5-w-guitar",
+    "word": "guitar",
+    "example": "I play the guitar."
+  },
+  {
+    "id": "g5-w-store",
+    "word": "store",
+    "example": "I go to the store."
+  },
+  {
+    "id": "g5-w-supermarket",
+    "word": "supermarket",
+    "example": "This supermarket is big."
+  },
+  {
+    "id": "g5-w-restaurant",
+    "word": "restaurant",
+    "example": "That restaurant is good."
+  },
+  {
+    "id": "g5-w-zoo",
+    "word": "zoo",
+    "example": "I see lions at the zoo."
+  },
+  {
+    "id": "g5-w-pool",
+    "word": "pool",
+    "example": "I swim in the pool."
+  },
+  {
+    "id": "g5-w-kitchen",
+    "word": "kitchen",
+    "example": "My father is in the kitchen."
+  },
+  {
+    "id": "g5-w-bathroom",
+    "word": "bathroom",
+    "example": "Where is the bathroom?"
+  },
+  {
+    "id": "g5-w-garden",
+    "word": "garden",
+    "example": "We have a small garden."
+  },
+  {
+    "id": "g5-w-town",
+    "word": "town",
+    "example": "I like my town."
+  },
+  {
+    "id": "g5-w-beach",
+    "word": "beach",
+    "example": "I go to the beach."
+  },
+  {
+    "id": "g5-w-get-up",
+    "word": "get up",
+    "example": "I get up at seven."
+  },
+  {
+    "id": "g5-w-go",
+    "word": "go",
+    "example": "I go to school."
+  },
+  {
+    "id": "g5-w-come",
+    "word": "come",
+    "example": "Please come here."
+  },
+  {
+    "id": "g5-w-watch",
+    "word": "watch",
+    "example": "I watch TV."
+  },
+  {
+    "id": "g5-w-listen",
+    "word": "listen",
+    "example": "I listen to music."
+  },
+  {
+    "id": "g5-w-speak",
+    "word": "speak",
+    "example": "I speak English."
+  },
+  {
+    "id": "g5-w-walk",
+    "word": "walk",
+    "example": "I walk to school."
+  },
+  {
+    "id": "g5-w-wash",
+    "word": "wash",
+    "example": "I wash my hands."
+  },
+  {
+    "id": "g5-w-cook",
+    "word": "cook",
+    "example": "I cook with my father."
+  },
+  {
+    "id": "g5-w-sleep",
+    "word": "sleep",
+    "example": "I sleep in my room."
+  },
+  {
+    "id": "g5-w-long",
+    "word": "long",
+    "example": "This pencil is long."
+  },
+  {
+    "id": "g5-w-short",
+    "word": "short",
+    "example": "This pencil is short."
+  },
+  {
+    "id": "g5-w-new",
+    "word": "new",
+    "example": "This is my new bag."
+  },
+  {
+    "id": "g5-w-old",
+    "word": "old",
+    "example": "This book is old."
+  },
+  {
+    "id": "g5-w-hot",
+    "word": "hot",
+    "example": "It is hot today."
+  },
+  {
+    "id": "g5-w-cold",
+    "word": "cold",
+    "example": "It is cold today."
+  },
+  {
+    "id": "g5-w-kind",
+    "word": "kind",
+    "example": "My teacher is kind."
+  },
+  {
+    "id": "g5-w-busy",
+    "word": "busy",
+    "example": "I am busy today."
+  },
+  {
+    "id": "g5-w-tired",
+    "word": "tired",
+    "example": "I am tired."
+  },
+  {
+    "id": "g5-w-good",
+    "word": "good",
+    "example": "This is a good book."
+  },
+  {
+    "id": "g5-w-notebook",
+    "word": "notebook",
+    "example": "This is my notebook."
+  },
+  {
+    "id": "g5-w-eraser",
+    "word": "eraser",
+    "example": "I have an eraser."
+  },
+  {
+    "id": "g5-w-ruler",
+    "word": "ruler",
+    "example": "This ruler is long."
+  },
+  {
+    "id": "g5-w-computer",
+    "word": "computer",
+    "example": "I use a computer."
+  },
+  {
+    "id": "g5-w-map",
+    "word": "map",
+    "example": "This is a map of Japan."
+  },
+  {
+    "id": "g5-w-box",
+    "word": "box",
+    "example": "The ball is in the box."
+  },
+  {
+    "id": "g5-w-picture",
+    "word": "picture",
+    "example": "This is a picture of my dog."
+  },
+  {
+    "id": "g5-w-clock",
+    "word": "clock",
+    "example": "The clock is on the wall."
+  },
+  {
+    "id": "g5-w-class",
+    "word": "class",
+    "example": "I like English class."
+  },
+  {
+    "id": "g5-w-math",
+    "word": "math",
+    "example": "I study math."
+  },
+  {
+    "id": "g5-w-breakfast",
+    "word": "breakfast",
+    "example": "I eat breakfast at seven."
+  },
+  {
+    "id": "g5-w-lunch",
+    "word": "lunch",
+    "example": "I eat lunch at twelve."
+  },
+  {
+    "id": "g5-w-dinner",
+    "word": "dinner",
+    "example": "I eat dinner with my family."
+  },
+  {
+    "id": "g5-w-morning",
+    "word": "morning",
+    "example": "I study in the morning."
+  },
+  {
+    "id": "g5-w-afternoon",
+    "word": "afternoon",
+    "example": "I play tennis in the afternoon."
+  },
+  {
+    "id": "g5-w-evening",
+    "word": "evening",
+    "example": "I read in the evening."
+  },
+  {
+    "id": "g5-w-night",
+    "word": "night",
+    "example": "I sleep at night."
+  },
+  {
+    "id": "g5-w-today",
+    "word": "today",
+    "example": "I am happy today."
+  },
+  {
+    "id": "g5-w-tomorrow",
+    "word": "tomorrow",
+    "example": "See you tomorrow."
+  },
+  {
+    "id": "g5-w-birthday",
+    "word": "birthday",
+    "example": "When is your birthday?"
+  },
+  {
+    "id": "g5-p-31",
+    "word": "Good afternoon.",
+    "example": "Good afternoon."
+  },
+  {
+    "id": "g5-p-32",
+    "word": "Good evening.",
+    "example": "Good evening."
+  },
+  {
+    "id": "g5-p-33",
+    "word": "Nice to meet you.",
+    "example": "Nice to meet you."
+  },
+  {
+    "id": "g5-p-34",
+    "word": "See you tomorrow.",
+    "example": "See you tomorrow."
+  },
+  {
+    "id": "g5-p-35",
+    "word": "How do you spell your name?",
+    "example": "How do you spell your name?"
+  },
+  {
+    "id": "g5-p-36",
+    "word": "What day is it today?",
+    "example": "What day is it today?"
+  },
+  {
+    "id": "g5-p-37",
+    "word": "It's Monday.",
+    "example": "It's Monday."
+  },
+  {
+    "id": "g5-p-38",
+    "word": "When is your birthday?",
+    "example": "When is your birthday?"
+  },
+  {
+    "id": "g5-p-39",
+    "word": "My birthday is in May.",
+    "example": "My birthday is in May."
+  },
+  {
+    "id": "g5-p-40",
+    "word": "How many books do you have?",
+    "example": "How many books do you have?"
+  },
+  {
+    "id": "g5-p-41",
+    "word": "I have three books.",
+    "example": "I have three books."
+  },
+  {
+    "id": "g5-p-42",
+    "word": "What do you want?",
+    "example": "What do you want?"
+  },
+  {
+    "id": "g5-p-43",
+    "word": "I want some water.",
+    "example": "I want some water."
+  },
+  {
+    "id": "g5-p-44",
+    "word": "Let's play soccer.",
+    "example": "Let's play soccer."
+  },
+  {
+    "id": "g5-p-45",
+    "word": "That sounds good.",
+    "example": "That sounds good."
+  },
+  {
+    "id": "g5-p-46",
+    "word": "Can I use your pen?",
+    "example": "Can I use your pen?"
+  },
+  {
+    "id": "g5-p-47",
+    "word": "Here you are.",
+    "example": "Here you are."
+  },
+  {
+    "id": "g5-p-48",
+    "word": "Please close the door.",
+    "example": "Please close the door."
+  },
+  {
+    "id": "g5-p-49",
+    "word": "I go to school by bus.",
+    "example": "I go to school by bus."
+  },
+  {
+    "id": "g5-p-50",
+    "word": "What are you doing?",
+    "example": "What are you doing?"
   }
 ]

@@ -1,6 +1,6 @@
 # English Stage — はじめての英検5級
 
-小学5年生向けの試用版。基本100語・30表現を収録。
+小学5年生向けの試用版。基本200語・50表現を収録。
 
 公開先： https://yggdrasilw-spec.github.io/english-stage/
 
@@ -15,8 +15,10 @@
 
 画像はしりとり既存配信先を参照します。巨大な辞書の読み込み・Gitへの画像追加・外部検索での補完は行いません。対応表は IMAGE_ADOPTIONS.json、音声台本は AUDIO_SCRIPT.json。
 
-音声：Google Cloud Text-to-Speech `en-US-Neural2-F` の米国英語。単語・例文それぞれを通常0.95・ゆっくり0.75の速度で事前生成し、合計520本のMP3を収録しています。APIは制作時のみ使用し、公開アプリやGitHub Actionsからは呼びません。認証情報をリポジトリに含めません。台本・声・各ファイルの対応は `dist/data/audio-manifest.json`、制作手順は `GOOGLE_TTS.md` にあります。
+音声：Google Cloud Text-to-Speech `en-US-Neural2-F` の米国英語。単語・例文それぞれを通常0.95・ゆっくり0.75の速度で事前生成し、合計1000本のMP3を収録しています。APIは制作時のみ使用し、公開アプリやGitHub Actionsからは呼びません。認証情報をリポジトリに含めません。台本・声・各ファイルの対応は `dist/data/audio-manifest.json`、制作手順は `GOOGLE_TTS.md` にあります。
 
 GitHub Pages：`main`へのpushで自動テストと教材・音声検証が通った後、`dist`を配信します。生成音声・画像については `THIRD_PARTY_NOTICES.md` を参照してください。
 
 未完了：本人3〜7日の試用、教材・画像・全音声の最終確認、スマホSafari/Chrome実機確認、オフライン/PWA対応、600語＋100表現への拡充、試験形式の練習。
+
+作業場所：`C:\Users\user\english-stage`（ユーザーフォルダ直下）。教材拡充1で100語＋20表現を追加。初版130項目のID・内容・音声を維持し、旧バックアップと復習予定を引き継ぎます。追加原稿は `scripts/grade5-expansion-01.json`。

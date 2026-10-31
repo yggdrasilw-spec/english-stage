@@ -421,5 +421,158 @@
     "sourceSheet": "sheets/2026-10-12-wave3-2.png",
     "sourceReview": "目視確認済み: 冬用の厚手のコート。",
     "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-strawberry",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-331.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "あかくてつぶつぶがあるあまいくだもの。",
+    "sourceSheet": "sheets/2026-10-11-common-2.png",
+    "sourceReview": "目視確認済み: 元シートのコマ内のみを抽出。必要な絵の欠けと隣コマ混入を修正。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-chocolate",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r4-word-3522.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "カカオ豆を加工して作る食べ物。甘いものや苦いものがある。",
+    "sourceSheet": "sheets/2026-10-12-wave7-16-r4.png",
+    "sourceReview": "目視確認済み: チョコレート（ちょこれーと）: カカオ豆を加工して作る食べ物。甘いものや苦いものがある。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-cheese",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r4-word-3547.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "牛や羊などの乳を固めて発酵させるなどして作る食品。",
+    "sourceSheet": "sheets/2026-10-12-wave7-16-r4.png",
+    "sourceReview": "目視確認済み: チーズ（ちーず）: 牛や羊などの乳を固めて発酵させるなどして作る食品。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-tea",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13000.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "茶の葉などから作る飲み物。",
+    "sourceSheet": "sheets/expansion1024h-sheet07-v2.png",
+    "sourceReview": "目視確認済み: お茶：茶の葉などから作る飲み物。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-piano",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4791.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "鍵盤を押して音を出す楽器。",
+    "sourceSheet": "sheets/2026-10-12-e-3.png",
+    "sourceReview": "目視確認済み: An upright piano with black and white keys and a small stool, no writing",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-guitar",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1654.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "弦を指ではじいて音を出す楽器。",
+    "sourceSheet": "sheets/2026-10-12-b-3.png",
+    "sourceReview": "目視確認済み: A wooden acoustic guitar with six strings and round sound hole",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-zoo",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-3937.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "いろいろな動物を飼い、人が見たり学んだりできる場所。",
+    "sourceSheet": "sheets/wave10-sheet-18.png",
+    "sourceReview": "目視確認済み: 動物園（どうぶつえん）: いろいろな動物を飼い、人が見たり学んだりできる場所。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-pool",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4990.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "水をためて泳ぐための設備。",
+    "sourceSheet": "sheets/2026-10-12-e-4.png",
+    "sourceReview": "目視確認済み: A rectangular swimming pool with blue water, ladder and lane rope, empty of people",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-kitchen",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave3-word-6263.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "りょうりをつくったり、さらをあらったりするばしょ。",
+    "sourceSheet": "sheets/2026-10-12-wave3-2.png",
+    "sourceReview": "目視確認済み: 台所の流し・調理台・コンロ。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-garden",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-4179.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "家の敷地内にある、建物の外の場所。花を育てたり遊んだりすることもある。",
+    "sourceSheet": "sheets/2026-10-12-wave4-5.png",
+    "sourceReview": "目視確認済み: 家の外の庭。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-notebook",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-4354.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "文字や絵を書き留めるための冊子。",
+    "sourceSheet": "sheets/2026-10-12-wave4-4.png",
+    "sourceReview": "目視確認済み: 書き込む罫線のあるノート。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-eraser",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-1895.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "鉛筆で書いた文字などをこすって消す文房具。",
+    "sourceSheet": "sheets/2026-10-12-wave5-4.png",
+    "sourceReview": "目視確認済み: 紙の汚れを消す消しゴム。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-ruler",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave3-word-6513.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "まっすぐなせんをひいたり、ながさをはかったりするときにつかうどうぐ。",
+    "sourceSheet": "sheets/2026-10-12-wave3-1.png",
+    "sourceReview": "目視確認済み: 三角定規と鉛筆・直線が見える。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-computer",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave11-safe-word-6502.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "決められた手順にしたがい、計算や、文字・画像などの情報の処理をする機械。",
+    "sourceSheet": "sheets/wave11-safe-sheet-26.png",
+    "sourceReview": "目視確認済み: コンピューター (こんぴゅーたー; ): 決められた手順にしたがい、計算や、文字・画像などの情報の処理をする機械。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-map",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r4-word-3438.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "土地や建物 道路などの位置を記号や線で表した図。",
+    "sourceSheet": "sheets/2026-10-12-wave7-15-r4.png",
+    "sourceReview": "目視確認済み: 地図（ちず）: 土地や建物 道路などの位置を記号や線で表した図。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-box",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-4400.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "物を入れるための入れ物。",
+    "sourceSheet": "sheets/2026-10-12-wave4-6.png",
+    "sourceReview": "目視確認済み: 四枚のふたを開いた段ボール箱。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-clock",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-d-word-3885.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "今の時刻や、たった時間を知らせる道具。はりで表すものや、数字で表すものがあります。",
+    "sourceSheet": "sheets/2026-10-12-d-3.png",
+    "sourceReview": "目視確認済み: A simple round wall clock with two clearly visible hands and plain tick marks, no digits",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
   }
 ]

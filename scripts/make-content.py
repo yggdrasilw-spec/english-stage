@@ -138,6 +138,7 @@ for theme,lines in groups.items():
   en,ja,ex,jex,reading=line.split('|'); cards.append(dict(id='g5-w-'+en.lower(),kind='word',theme=theme,en=en,ja=ja,example=ex,exampleJa=jex,reading=reading,explanation=f'{en} は「{ja}」という意味です。例文といっしょに確かめよう。'))
 for i,line in enumerate(phrases.splitlines()):
  en,ja,why=line.split('|'); cards.append(dict(id=f'g5-p-{i+1:02}',kind='phrase',theme='会話と表現',en=en,ja=ja,example=en,exampleJa=ja,reading='',explanation=why))
+cards.extend(json.loads((root/'scripts/grade5-expansion-01.json').read_text(encoding='utf-8')))
 manifest=json.loads(pathlib.Path('C:/Users/user/hiragana-ninshiki/assets/shiritori/manifest.json').read_text(encoding='utf-8'))
 adoptions=[]
 for c in cards:
