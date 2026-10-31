@@ -1,5 +1,8 @@
 export const screeningResult=(s,id)=>s.screening?.results?.[id]?.status;
 export const isKnown=(s,id)=>screeningResult(s,id)==='known';
+export function verifyScreening(s,id,quality,at=Date.now()){
+ if(isKnown(s,id)&&['wrong','guess'].includes(quality))setScreening(s,id,'unsure',at);
+}
 export function scanStats(cards,s){
  const checked=cards.filter(c=>screeningResult(s,c.id));
  return {total:cards.length,checked:checked.length,known:checked.filter(c=>isKnown(s,c.id)).length,remaining:cards.length-checked.length};

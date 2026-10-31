@@ -29,7 +29,7 @@ try{for(const width of [320,390,1280]){
   await p.waitForTimeout(60);
  }
  assert.equal(answers,5);await p.locator('#finish').waitFor();await p.screenshot({path:out+'/done-'+width+'.png',fullPage:true});
- await p.locator('#finish').click();await p.locator('#start').waitFor();await p.waitForTimeout(100);await p.goto(base+'#card/g5-w-apple');await p.locator('#known-toggle').click();await p.waitForFunction(()=>document.querySelector('#known-toggle')?.textContent.includes('学習から外す'));
+ await p.locator('#finish').click();await p.locator('#start').waitFor();await p.waitForTimeout(100);await p.goto(base+'#card/g5-w-apple');await p.locator('#known-toggle').click();await p.waitForFunction(()=>document.querySelector('#known-toggle')?.textContent.includes('初回説明を省く'));
  console.log('PASS',width,'screening/undo/reload, prompt/export, five-question reward, restore known word, responsive routes');await p.close();
  }
  const p=await browser.newPage();await p.goto(base+'#screen');await p.locator('[data-scan="known"]').waitFor();for(let i=0;i<20;i++){await p.locator('[data-scan="known"]').click();await p.waitForTimeout(50);}await p.locator('#scan-more').waitFor();assert((await p.locator('h1').innerText()).includes('20'));await p.locator('#scan-more').click();await p.locator('[data-scan="known"]').waitFor();console.log('PASS 20-item checkpoint and next block');

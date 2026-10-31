@@ -1,5 +1,5 @@
-import {updateProgress} from './scheduler.js';
-import {isKnown,setScreening} from './learning.js';
+import {updateProgress,dueTasks} from './scheduler.js';
+import {isKnown,setScreening,verifyScreening} from './learning.js';
 import * as audio from './audio.js';
 const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const modes={card:'カード',read:'英語 → 意味',recall:'意味 → 英語',listen:'音声 → 意味',match:'組み合わせ'};
@@ -7,27 +7,30 @@ let ctx,ui={},timer,undo=null,configure=false;
 const shuffle=a=>a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
 export function cleanupFast(){clearTimeout(timer);timer=null;}
 export function startFast(s,cards,mode='card',filter='all',theme='all'){
- const ids=cards.filter(c=>(theme==='all'||c.theme===theme)&&(filter==='all'||filter==='new'&&!isKnown(s,c.id)||filter==='weak'&&Object.values(s.progress[c.id]||{}).some(p=>p.lastQuality==='wrong'||p.lastQuality==='guess')||filter==='due'&&Object.values(s.progress[c.id]||{}).some(p=>p.due<=Date.now()))).map(c=>c.id);
+ const due=new Set(dueTasks(cards,s).map(t=>t.id));
+ const ids=cards.filter(c=>(theme==='all'||c.theme===theme)&&(filter==='all'||filter==='new'&&!isKnown(s,c.id)||filter==='weak'&&Object.values(s.progress[c.id]||{}).some(p=>p.lastQuality==='wrong'||p.lastQuality==='guess')||filter==='due'&&due.has(c.id))).map(c=>c.id);
  s.fast={ids,index:0,mode,filter,theme,checked:0,correct:0,known:0,feedback:null,auto:s.fast?.auto??true};ui={};undo=null;
 }
-function record(s,c,skill,quality){const now=Date.now();s.seen[c.id]||=now;s.progress[c.id]||={};s.progress[c.id][skill]=updateProgress(s.progress[c.id][skill],quality,now);s.history.push({id:c.id,skill,quality,at:now});}
+export function startReview(s,cards){const tasks=dueTasks(cards,s).slice(0,10);startFast(s,cards,tasks[0]?.skill||'read','due');s.fast.ids=tasks.map(t=>t.id);s.fast.tasks=tasks;}
+function record(s,c,skill,quality){const now=Date.now();verifyScreening(s,c.id,quality,now);s.seen[c.id]||=now;s.progress[c.id]||={};s.progress[c.id][skill]=updateProgress(s.progress[c.id][skill],quality,now);s.history.push({id:c.id,skill,quality,at:now});}
 function snapshot(){const s=ctx.state;undo={fast:structuredClone(s.fast),screening:structuredClone(s.screening),progress:structuredClone(s.progress),seen:structuredClone(s.seen),history:structuredClone(s.history)};}
 function next(f){f.index++;f.feedback=null;ui={};}
 function draw(){renderFast(ctx);}
 async function judge(c,selected){
  const {state,mutate}=ctx,f=state.fast;if(f.feedback)return;
  snapshot();const ok=selected===c.id;
- await mutate(s=>{const f=s.fast;record(s,c,f.mode,ok?'correct':'wrong');f.checked++;if(ok)f.correct++;f.feedback={ok,answer:c.ja,en:c.en};});
+ await mutate(s=>{const f=s.fast;record(s,c,s.fast.tasks?.[s.fast.index]?.skill||f.mode,ok?'correct':'wrong');f.checked++;if(ok)f.correct++;f.feedback={ok,answer:c.ja,en:c.en};});
  if(ok&&ctx.state.fast.auto){const at=ctx.state.fast.index;timer=setTimeout(()=>{if(location.hash==='#fast'&&ctx.state.fast.index===at&&ctx.state.fast.feedback)ctx.mutate(s=>next(s.fast));},320);}
 }
 export function renderFast(context){
  ctx=context;const {app,cards,state,mutate}=context;cleanupFast();
  if(!state.fast){app.innerHTML='<section class="narrow panel"><h1>カードを準備</h1><button id="fast-init" class="primary">はじめる</button></section>';app.querySelector('#fast-init').onclick=()=>mutate(s=>startFast(s,cards));return;}
  const f=state.fast,byId=new Map(cards.map(c=>[c.id,c])),c=byId.get(f.ids[f.index]);
- app.innerHTML=`<div class="fast-wrap"><div class="fast-top"><a href="#home">← 終える</a><span>${Math.min(f.index,f.ids.length)} / ${f.ids.length} <small>確認 ${f.checked}・わかる ${f.known}</small></span><button id="fast-undo" ${undo?'':'disabled'}>１つ戻す</button></div><div class="mode-tabs" aria-label="確認のしかた">${Object.entries(modes).map(([k,v])=>`<button data-mode="${k}" aria-pressed="${f.mode===k}">${v}</button>`).join('')}</div><details class="fast-config"><summary>対象・テーマ・進み方</summary><div class="fast-filters"><label>テーマ <select id="fast-theme"><option value="all">すべて</option>${[...new Set(cards.map(c=>c.theme))].map(t=>`<option ${t===f.theme?'selected':''}>${e(t)}</option>`).join('')}</select></label><label>対象 <select id="fast-filter">${Object.entries({all:'すべて',new:'「わかる」以外',weak:'まちがえた語',due:'復習の時期'}).map(([k,v])=>`<option value="${k}" ${k===f.filter?'selected':''}>${v}</option>`).join('')}</select></label><label><input id="fast-auto" type="checkbox" ${f.auto?'checked':''}>正解したら次へ</label></div></details><progress value="${f.index}" max="${f.ids.length||1}" aria-label="確認したカード"></progress><div id="fast-content"></div><div class="fast-bottom"><button id="fast-skip">今回は飛ばす →</button><button id="fast-mix">シャッフル</button><span id="fast-status" role="status" aria-live="polite"></span></div><details class="fast-help"><summary>操作のヒント</summary><small>「わかる」は自己申告。選択チェックの正解と分けて保存します。Space：めくる／次へ、→：わかる、←：あとで</small></details></div>`;
+ if(f.tasks?.[f.index])f.mode=f.tasks[f.index].skill;
+ app.innerHTML=`<div class="fast-wrap"><div class="fast-top"><a href="#home">← 終える</a><span>${Math.min(f.index,f.ids.length)} / ${f.ids.length} <small>確認 ${f.checked}・わかる ${f.known}</small></span><button id="fast-undo" ${undo?'':'disabled'}>１つ戻す</button></div><div class="mode-tabs" aria-label="確認のしかた">${Object.entries(modes).map(([k,v])=>`<button data-mode="${k}" aria-pressed="${f.mode===k}">${v}</button>`).join('')}</div><details class="fast-config"><summary>対象・テーマ・進み方</summary><div class="fast-filters"><label>テーマ <select id="fast-theme"><option value="all">すべて</option>${[...new Set(cards.map(c=>c.theme))].map(t=>`<option ${t===f.theme?'selected':''}>${e(t)}</option>`).join('')}</select></label><label>対象 <select id="fast-filter">${Object.entries({all:'すべて',new:'「わかる」以外',weak:'まちがえた語',due:'復習の時期'}).map(([k,v])=>`<option value="${k}" ${k===f.filter?'selected':''}>${v}</option>`).join('')}</select></label><label><input id="fast-auto" type="checkbox" ${f.auto?'checked':''}>正解したら次へ</label></div></details><progress value="${f.index}" max="${f.ids.length||1}" aria-label="確認したカード"></progress><div id="fast-content"></div><div class="fast-bottom"><button id="fast-skip">今回は飛ばす →</button><button id="fast-mix">シャッフル</button><span id="fast-status" role="status" aria-live="polite"></span></div><details class="fast-help"><summary>操作のヒント</summary><small>「わかる」は初回説明を省き、翌日以降に選択式で確認します。自己申告は正解とは別です。Space：めくる／次へ、→：わかる、←：あとで</small></details></div>`;
  const $=sel=>app.querySelector(sel),content=$('#fast-content');
  $('.fast-config').open=configure;$('.fast-config').ontoggle=ev=>{configure=ev.target.open;};
- app.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>mutate(s=>{s.fast.mode=b.dataset.mode;s.fast.feedback=null;ui={};undo=null;}));
+ app.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>mutate(s=>{delete s.fast.tasks;s.fast.mode=b.dataset.mode;s.fast.feedback=null;ui={};undo=null;}));
  $('#fast-theme').onchange=ev=>mutate(s=>startFast(s,cards,f.mode,f.filter,ev.target.value));
  $('#fast-filter').onchange=ev=>mutate(s=>startFast(s,cards,f.mode,ev.target.value,f.theme));
  $('#fast-auto').onchange=ev=>mutate(s=>{s.fast.auto=ev.target.checked;});

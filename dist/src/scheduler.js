@@ -21,15 +21,26 @@ export function updateProgress(old={},quality,now=Date.now()){
  return p;
 }
 export const skills=['read','listen','recall'];
+const nextDay=at=>{const d=new Date(at);d.setHours(24,0,0,0);return d.getTime();};
+export function knownChecks(card,state,now=Date.now()){
+ const at=state.screening.results[card.id].at,first=nextDay(at),records=state.progress[card.id]||{};
+ if(now<first)return [];
+ const latest=Math.max(0,...skills.map(k=>records[k]?.lastAt||0));
+ // One objective skill per known word per day, rather than three at once.
+ if(latest>=at&&dayKey(latest)===dayKey(now))return [];
+ const candidates=skills.map(skill=>{const p=records[skill];return {id:card.id,skill,due:p?Math.max(first,p.due):Math.max(first,latest>=at?nextDay(latest):first),priority:p?.lastQuality==='wrong'||p?.lastQuality==='guess'?0:!p?1:2};}).filter(t=>t.due<=now);
+ candidates.sort((a,b)=>a.priority-b.priority||a.due-b.due);
+ return candidates.slice(0,1).map(({priority,...task})=>task);
+}
 export function dueTasks(cards,state,now=Date.now()){
- return cards.filter(c=>!isKnown(state,c.id)).flatMap(c=>skills.flatMap(skill=>{
+ return cards.flatMap(c=>isKnown(state,c.id)?knownChecks(c,state,now):skills.flatMap(skill=>{
   const p=state.progress[c.id]?.[skill];return p&&p.due<=now?[{id:c.id,skill,due:p.due}]:[];
  })).sort((a,b)=>a.due-b.due);
 }
 export function plan(cards,state,mode='daily',now=Date.now()){
- cards=cards.filter(c=>!isKnown(state,c.id));
  if(mode==='quick')return plan(cards,state,'daily',now).slice(0,10);
  const tasks=dueTasks(cards,state,now).slice(0,12);
+ cards=cards.filter(c=>!isKnown(state,c.id));
  if(mode==='mistakes')return cards.flatMap(c=>skills.flatMap(skill=>{
   const p=state.progress[c.id]?.[skill];return p&&(p.lastQuality!=='correct'||(p.mistakes&&p.due<=now))?[{id:c.id,skill}]:[];
  })).slice(0,20);
