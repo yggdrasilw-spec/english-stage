@@ -1,3 +1,4 @@
+import {validKaruta} from './karuta-session.js';
 export const initial=()=>({schema:1,deckVersion:1,progress:{},seen:{},history:[],rewards:[],stars:0,settings:{newCount:5,sound:true,motion:true},session:null});
 let db;
 export async function open(){db=await new Promise((res,rej)=>{const r=indexedDB.open('english-stage',1);r.onupgradeneeded=()=>r.result.createObjectStore('state');r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error);});return read();}
@@ -29,6 +30,7 @@ export function validateBackup(b,ids){
   f.feedback=null;
   if(f.tasks&&(!Array.isArray(f.tasks)||f.tasks.length!==f.ids.length||f.tasks.length>10||f.tasks.some((t,i)=>!t||t.id!==f.ids[i]||!['read','listen','recall'].includes(t.skill)||!Number.isFinite(t.due))))throw Error('復習チェックの中断記録が壊れています。');
  }
+ if(s.karuta&&!validKaruta(s.karuta,ids))throw Error('かるたの中断記録が壊れています。');
  if(s.mock){
   const validRun=r=>r&&/^g5-m[123]$/.test(r.examId)&&['r','l','break'].includes(r.phase)&&Number.isInteger(r.index)&&r.index>=0&&r.index<25&&Number.isFinite(r.deadline)&&r.deadline>=0&&r.answers&&typeof r.answers==='object'&&!Array.isArray(r.answers)&&Object.keys(r.answers).length<=50&&Object.entries(r.answers).every(([k,v])=>new RegExp('^'+r.examId+'-(0[1-9]|[1-4][0-9]|50)$').test(k)&&Number.isInteger(v)&&v>=0&&v<=3)&&r.plays&&typeof r.plays==='object'&&Object.keys(r.plays).length<=25&&Object.entries(r.plays).every(([k,v])=>new RegExp('^'+r.examId+'-(2[6-9]|[34][0-9]|50)$').test(k)&&Number.isInteger(v)&&v>=0&&v<=2);
   if(!Array.isArray(s.mock.results)||s.mock.results.length>30||s.mock.results.some(r=>!validRun(r))||(s.mock.active&&!validRun(s.mock.active)))throw Error('実戦テストの記録が壊れています。');
