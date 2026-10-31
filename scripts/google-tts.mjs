@@ -20,7 +20,7 @@ const count=jobs.reduce((n,j)=>n+j.text.length,0);
 console.log(JSON.stringify({mode:execute?'generate':'dry-run',voice,project:project||'not selected',files:jobs.length,characters:count,estimatedUSDWithoutFreeTier:Number((count*16/1e6).toFixed(4)),note:'Estimate excludes other usage and retries; free-tier balance is not known.'},null,2));
 if(!execute){console.log('No API calls made. Use --project ID --sample --generate for a sample.');process.exit(0);}
 if(!project||!/^[a-z][a-z0-9-]{4,61}[a-z0-9]$/.test(project))throw Error('A valid --project is required.');
-const maxChars=Number(args.includes('--max-chars')?value('--max-chars'):20000);
+const maxChars=Number(args.includes('--max-chars')?value('--max-chars'):45000);
 if(!Number.isFinite(maxChars)||count>maxChars)throw Error('Character budget exceeded; generation stopped before API use.');
 const tokenFromGcloud=async()=>{
  const cmd=process.platform==='win32'?'powershell.exe':'gcloud';
@@ -35,7 +35,8 @@ if(!list.ok){const problem=await list.json().catch(()=>({}));console.error(JSON.
 if(!(await list.json()).voices?.some(v=>v.name===voice))throw Error('Requested voice unavailable.');
 await fs.mkdir(new URL('dist/assets/audio/',root),{recursive:true});
 let manifest={provider:'Google Cloud Text-to-Speech',voice,languageCode:'en-US',generatedAt:new Date().toISOString(),review:'未試聴',terms:'https://cloud.google.com/terms/',files:[]};
-for(const job of jobs){
+let nextJob=0;
+async function worker(){while(nextJob<jobs.length){const job=jobs[nextJob++];
  const out=new URL('dist/'+job.path,root);let cached=false;
  try{const stat=await fs.stat(out);cached=stat.size>100;}catch{}
  if(!cached){
@@ -46,7 +47,10 @@ for(const job of jobs){
  }
  manifest.files.push({id:job.id,part:job.part,speed:job.speed,text:job.text,path:job.path,hash:job.hash});
  console.log(`${job.id}/${job.part}/${job.speed}: ${cached?'cached':'created'}`);
- // Save a public, credential-free provenance record after every completed file.
- await fs.writeFile(new URL(sample?'dist/data/audio-sample.json':'dist/data/audio-manifest.json',root),JSON.stringify(manifest,null,2));
-}
+ // Publish the complete credential-free manifest only after all workers succeed.
+}}
+const results=await Promise.allSettled(Array.from({length:4},worker));
+const failed=results.find(r=>r.status==='rejected');if(failed)throw failed.reason;
+const order=new Map(jobs.map((j,i)=>[j.path,i]));manifest.files.sort((a,b)=>order.get(a.path)-order.get(b.path));
+await fs.writeFile(new URL(sample?'dist/data/audio-sample.json':'dist/data/audio-manifest.json',root),JSON.stringify(manifest,null,2));
 console.log('Generation complete. Listen and review before publishing.');

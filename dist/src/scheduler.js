@@ -1,3 +1,4 @@
+import {isKnown} from './learning.js';
 export const DAY=86400000;
 export const intervals=[1,3,7,14,30,60];
 export const dayKey=t=>new Date(t).toLocaleDateString('sv-SE');
@@ -21,11 +22,13 @@ export function updateProgress(old={},quality,now=Date.now()){
 }
 export const skills=['read','listen','recall'];
 export function dueTasks(cards,state,now=Date.now()){
- return cards.flatMap(c=>skills.flatMap(skill=>{
+ return cards.filter(c=>!isKnown(state,c.id)).flatMap(c=>skills.flatMap(skill=>{
   const p=state.progress[c.id]?.[skill];return p&&p.due<=now?[{id:c.id,skill,due:p.due}]:[];
  })).sort((a,b)=>a.due-b.due);
 }
 export function plan(cards,state,mode='daily',now=Date.now()){
+ cards=cards.filter(c=>!isKnown(state,c.id));
+ if(mode==='quick')return plan(cards,state,'daily',now).slice(0,10);
  const tasks=dueTasks(cards,state,now).slice(0,12);
  if(mode==='mistakes')return cards.flatMap(c=>skills.flatMap(skill=>{
   const p=state.progress[c.id]?.[skill];return p&&(p.lastQuality!=='correct'||(p.mistakes&&p.due<=now))?[{id:c.id,skill}]:[];

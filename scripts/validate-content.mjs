@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 const cards=JSON.parse(fs.readFileSync(new URL('../dist/data/grade5.json',import.meta.url)));
-assert.equal(cards.length,250);assert.equal(cards.filter(c=>c.kind==='word').length,200);assert.equal(cards.filter(c=>c.kind==='phrase').length,50);
+assert.equal(cards.length,830);assert.equal(cards.filter(c=>c.kind==='word').length,680);assert.equal(cards.filter(c=>c.kind==='phrase').length,150);
 assert.equal(new Set(cards.map(c=>c.id)).size,cards.length);
 assert.equal(new Set(cards.map(c=>c.en.toLowerCase())).size,cards.length);
 for(const c of cards){for(const k of ['id','en','ja','example','exampleJa','theme','explanation','source'])assert.ok(c[k],`${c.id}: ${k}`);
@@ -14,4 +14,4 @@ for(const c of cards)for(const part of ['word','example'])for(const speed of ['n
  const f=audio.files.find(f=>f.id===c.id&&f.part===part&&f.speed===speed);assert.ok(f,c.id+' '+part+' '+speed);assert.equal(f.text,part==='word'?c.en:c.example);
  assert.match(f.path,/^assets\/audio\/[a-z0-9-]+\.mp3$/);const b=fs.readFileSync(new URL('../dist/'+f.path,import.meta.url));assert.ok(b.length>100);assert.ok(b.toString('ascii',0,3)==='ID3'||(b[0]===255&&(b[1]&224)===224),'MP3 header');
 }
-console.log('PASS: 200 words, 50 phrases, unique IDs, examples, 1000 matching Neural2 MP3 files, trusted image references');
+console.log('PASS: 680 words, 150 phrases, unique IDs, examples, 3320 matching Neural2 MP3 files, trusted image references');

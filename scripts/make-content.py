@@ -157,3 +157,10 @@ for c in cards:
 (root/'IMAGE_ADOPTIONS.json').write_text(json.dumps(adoptions,ensure_ascii=False,indent=2),encoding='utf-8')
 (root/'AUDIO_SCRIPT.json').write_text(json.dumps([{'id':c['id'],'word':c['en'],'example':c['example']} for c in cards],ensure_ascii=False,indent=2),encoding='utf-8')
 print(f'{len(cards)} cards; {len(adoptions)} image references')
+
+# Keep the second expansion on repeatable content builds.
+extra=json.loads((root/'scripts/grade5-expansion-02.json').read_text(encoding='utf-8'))
+cards.extend(extra)
+(root/'dist/data/grade5.json').write_text(json.dumps(cards,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(root/'AUDIO_SCRIPT.json').write_text(json.dumps([{'id':c['id'],'word':c['en'],'example':c['example']} for c in cards],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(f'Complete deck: {len(cards)} cards')

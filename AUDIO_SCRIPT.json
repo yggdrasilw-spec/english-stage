@@ -1248,5 +1248,2905 @@
     "id": "g5-p-50",
     "word": "What are you doing?",
     "example": "What are you doing?"
+  },
+  {
+    "id": "g5-w-sandwich",
+    "word": "sandwich",
+    "example": "Look at the sandwich."
+  },
+  {
+    "id": "g5-w-hamburger",
+    "word": "hamburger",
+    "example": "Look at the hamburger."
+  },
+  {
+    "id": "g5-w-potato",
+    "word": "potato",
+    "example": "Look at the potato."
+  },
+  {
+    "id": "g5-w-tomato",
+    "word": "tomato",
+    "example": "Look at the tomato."
+  },
+  {
+    "id": "g5-w-carrot",
+    "word": "carrot",
+    "example": "Look at the carrot."
+  },
+  {
+    "id": "g5-w-onion",
+    "word": "onion",
+    "example": "Look at the onion."
+  },
+  {
+    "id": "g5-w-lemon",
+    "word": "lemon",
+    "example": "Look at the lemon."
+  },
+  {
+    "id": "g5-w-peach",
+    "word": "peach",
+    "example": "Look at the peach."
+  },
+  {
+    "id": "g5-w-melon",
+    "word": "melon",
+    "example": "Look at the melon."
+  },
+  {
+    "id": "g5-w-cookie",
+    "word": "cookie",
+    "example": "Look at the cookie."
+  },
+  {
+    "id": "g5-w-cup",
+    "word": "cup",
+    "example": "Look at the cup."
+  },
+  {
+    "id": "g5-w-glass",
+    "word": "glass",
+    "example": "Look at the glass."
+  },
+  {
+    "id": "g5-w-plate",
+    "word": "plate",
+    "example": "Look at the plate."
+  },
+  {
+    "id": "g5-w-spoon",
+    "word": "spoon",
+    "example": "Look at the spoon."
+  },
+  {
+    "id": "g5-w-fork",
+    "word": "fork",
+    "example": "Look at the fork."
+  },
+  {
+    "id": "g5-w-knife",
+    "word": "knife",
+    "example": "Look at the knife."
+  },
+  {
+    "id": "g5-w-bottle",
+    "word": "bottle",
+    "example": "Look at the bottle."
+  },
+  {
+    "id": "g5-w-basket",
+    "word": "basket",
+    "example": "Look at the basket."
+  },
+  {
+    "id": "g5-w-coin",
+    "word": "coin",
+    "example": "Look at the coin."
+  },
+  {
+    "id": "g5-w-menu",
+    "word": "menu",
+    "example": "Look at the menu."
+  },
+  {
+    "id": "g5-w-present",
+    "word": "present",
+    "example": "Look at the present."
+  },
+  {
+    "id": "g5-w-dollar",
+    "word": "dollar",
+    "example": "Look at the dollar."
+  },
+  {
+    "id": "g5-w-bear",
+    "word": "bear",
+    "example": "Look at the bear."
+  },
+  {
+    "id": "g5-w-tiger",
+    "word": "tiger",
+    "example": "Look at the tiger."
+  },
+  {
+    "id": "g5-w-fox",
+    "word": "fox",
+    "example": "Look at the fox."
+  },
+  {
+    "id": "g5-w-sheep",
+    "word": "sheep",
+    "example": "Look at the sheep."
+  },
+  {
+    "id": "g5-w-duck",
+    "word": "duck",
+    "example": "Look at the duck."
+  },
+  {
+    "id": "g5-w-mouse",
+    "word": "mouse",
+    "example": "Look at the mouse."
+  },
+  {
+    "id": "g5-w-turtle",
+    "word": "turtle",
+    "example": "Look at the turtle."
+  },
+  {
+    "id": "g5-w-snake",
+    "word": "snake",
+    "example": "Look at the snake."
+  },
+  {
+    "id": "g5-w-frog",
+    "word": "frog",
+    "example": "Look at the frog."
+  },
+  {
+    "id": "g5-w-butterfly",
+    "word": "butterfly",
+    "example": "Look at the butterfly."
+  },
+  {
+    "id": "g5-w-ant",
+    "word": "ant",
+    "example": "Look at the ant."
+  },
+  {
+    "id": "g5-w-bee",
+    "word": "bee",
+    "example": "Look at the bee."
+  },
+  {
+    "id": "g5-w-pet",
+    "word": "pet",
+    "example": "Look at the pet."
+  },
+  {
+    "id": "g5-w-flower",
+    "word": "flower",
+    "example": "Look at the flower."
+  },
+  {
+    "id": "g5-w-tree",
+    "word": "tree",
+    "example": "Look at the tree."
+  },
+  {
+    "id": "g5-w-leaf",
+    "word": "leaf",
+    "example": "Look at the leaf."
+  },
+  {
+    "id": "g5-w-river",
+    "word": "river",
+    "example": "Look at the river."
+  },
+  {
+    "id": "g5-w-lake",
+    "word": "lake",
+    "example": "Look at the lake."
+  },
+  {
+    "id": "g5-w-mountain",
+    "word": "mountain",
+    "example": "Look at the mountain."
+  },
+  {
+    "id": "g5-w-star",
+    "word": "star",
+    "example": "Look at the star."
+  },
+  {
+    "id": "g5-w-cloud",
+    "word": "cloud",
+    "example": "Look at the cloud."
+  },
+  {
+    "id": "g5-w-stone",
+    "word": "stone",
+    "example": "Look at the stone."
+  },
+  {
+    "id": "g5-w-island",
+    "word": "island",
+    "example": "Look at the island."
+  },
+  {
+    "id": "g5-w-pencil-case",
+    "word": "pencil case",
+    "example": "Look at the pencil case."
+  },
+  {
+    "id": "g5-w-textbook",
+    "word": "textbook",
+    "example": "Look at the textbook."
+  },
+  {
+    "id": "g5-w-dictionary",
+    "word": "dictionary",
+    "example": "Look at the dictionary."
+  },
+  {
+    "id": "g5-w-letter",
+    "word": "letter",
+    "example": "Look at the letter."
+  },
+  {
+    "id": "g5-w-stamp",
+    "word": "stamp",
+    "example": "Look at the stamp."
+  },
+  {
+    "id": "g5-w-postcard",
+    "word": "postcard",
+    "example": "Look at the postcard."
+  },
+  {
+    "id": "g5-w-calendar",
+    "word": "calendar",
+    "example": "Look at the calendar."
+  },
+  {
+    "id": "g5-w-camera",
+    "word": "camera",
+    "example": "Look at the camera."
+  },
+  {
+    "id": "g5-w-phone",
+    "word": "phone",
+    "example": "Look at the phone."
+  },
+  {
+    "id": "g5-w-key",
+    "word": "key",
+    "example": "Look at the key."
+  },
+  {
+    "id": "g5-w-umbrella",
+    "word": "umbrella",
+    "example": "Look at the umbrella."
+  },
+  {
+    "id": "g5-w-bicycle",
+    "word": "bicycle",
+    "example": "Look at the bicycle."
+  },
+  {
+    "id": "g5-w-bike",
+    "word": "bike",
+    "example": "Look at the bike."
+  },
+  {
+    "id": "g5-w-ball",
+    "word": "ball",
+    "example": "Look at the ball."
+  },
+  {
+    "id": "g5-w-bat",
+    "word": "bat",
+    "example": "Look at the bat."
+  },
+  {
+    "id": "g5-w-racket",
+    "word": "racket",
+    "example": "Look at the racket."
+  },
+  {
+    "id": "g5-w-game",
+    "word": "game",
+    "example": "Look at the game."
+  },
+  {
+    "id": "g5-w-toy",
+    "word": "toy",
+    "example": "Look at the toy."
+  },
+  {
+    "id": "g5-w-doll",
+    "word": "doll",
+    "example": "Look at the doll."
+  },
+  {
+    "id": "g5-w-robot",
+    "word": "robot",
+    "example": "Look at the robot."
+  },
+  {
+    "id": "g5-w-kite",
+    "word": "kite",
+    "example": "Look at the kite."
+  },
+  {
+    "id": "g5-w-model",
+    "word": "model",
+    "example": "Look at the model."
+  },
+  {
+    "id": "g5-w-ticket",
+    "word": "ticket",
+    "example": "Look at the ticket."
+  },
+  {
+    "id": "g5-w-test",
+    "word": "test",
+    "example": "Look at the test."
+  },
+  {
+    "id": "g5-w-question",
+    "word": "question",
+    "example": "Look at the question."
+  },
+  {
+    "id": "g5-w-answer",
+    "word": "answer",
+    "example": "Look at the answer."
+  },
+  {
+    "id": "g5-w-word",
+    "word": "word",
+    "example": "Look at the word."
+  },
+  {
+    "id": "g5-w-page",
+    "word": "page",
+    "example": "Look at the page."
+  },
+  {
+    "id": "g5-w-sentence",
+    "word": "sentence",
+    "example": "Look at the sentence."
+  },
+  {
+    "id": "g5-w-story",
+    "word": "story",
+    "example": "Look at the story."
+  },
+  {
+    "id": "g5-w-song",
+    "word": "song",
+    "example": "Look at the song."
+  },
+  {
+    "id": "g5-w-movie",
+    "word": "movie",
+    "example": "Look at the movie."
+  },
+  {
+    "id": "g5-w-cd",
+    "word": "CD",
+    "example": "Look at the cd."
+  },
+  {
+    "id": "g5-w-table",
+    "word": "table",
+    "example": "Look at the table."
+  },
+  {
+    "id": "g5-w-bed",
+    "word": "bed",
+    "example": "Look at the bed."
+  },
+  {
+    "id": "g5-w-sofa",
+    "word": "sofa",
+    "example": "Look at the sofa."
+  },
+  {
+    "id": "g5-w-tv",
+    "word": "TV",
+    "example": "Look at the tv."
+  },
+  {
+    "id": "g5-w-television",
+    "word": "television",
+    "example": "Look at the television."
+  },
+  {
+    "id": "g5-w-radio",
+    "word": "radio",
+    "example": "Look at the radio."
+  },
+  {
+    "id": "g5-w-lamp",
+    "word": "lamp",
+    "example": "Look at the lamp."
+  },
+  {
+    "id": "g5-w-mirror",
+    "word": "mirror",
+    "example": "Look at the mirror."
+  },
+  {
+    "id": "g5-w-desk-lamp",
+    "word": "desk lamp",
+    "example": "Look at the desk lamp."
+  },
+  {
+    "id": "g5-w-floor",
+    "word": "floor",
+    "example": "Look at the floor."
+  },
+  {
+    "id": "g5-w-wall",
+    "word": "wall",
+    "example": "Look at the wall."
+  },
+  {
+    "id": "g5-w-roof",
+    "word": "roof",
+    "example": "Look at the roof."
+  },
+  {
+    "id": "g5-w-gate",
+    "word": "gate",
+    "example": "Look at the gate."
+  },
+  {
+    "id": "g5-w-building",
+    "word": "building",
+    "example": "Look at the building."
+  },
+  {
+    "id": "g5-w-classroom",
+    "word": "classroom",
+    "example": "Look at the classroom."
+  },
+  {
+    "id": "g5-w-gym",
+    "word": "gym",
+    "example": "Look at the gym."
+  },
+  {
+    "id": "g5-w-office",
+    "word": "office",
+    "example": "Look at the office."
+  },
+  {
+    "id": "g5-w-post-office",
+    "word": "post office",
+    "example": "Look at the post office."
+  },
+  {
+    "id": "g5-w-bank",
+    "word": "bank",
+    "example": "Look at the bank."
+  },
+  {
+    "id": "g5-w-hotel",
+    "word": "hotel",
+    "example": "Look at the hotel."
+  },
+  {
+    "id": "g5-w-museum",
+    "word": "museum",
+    "example": "Look at the museum."
+  },
+  {
+    "id": "g5-w-airport",
+    "word": "airport",
+    "example": "Look at the airport."
+  },
+  {
+    "id": "g5-w-bus-stop",
+    "word": "bus stop",
+    "example": "Look at the bus stop."
+  },
+  {
+    "id": "g5-w-shop",
+    "word": "shop",
+    "example": "Look at the shop."
+  },
+  {
+    "id": "g5-w-bookstore",
+    "word": "bookstore",
+    "example": "Look at the bookstore."
+  },
+  {
+    "id": "g5-w-flower-shop",
+    "word": "flower shop",
+    "example": "Look at the flower shop."
+  },
+  {
+    "id": "g5-w-street",
+    "word": "street",
+    "example": "Look at the street."
+  },
+  {
+    "id": "g5-w-road",
+    "word": "road",
+    "example": "Look at the road."
+  },
+  {
+    "id": "g5-w-bridge",
+    "word": "bridge",
+    "example": "Look at the bridge."
+  },
+  {
+    "id": "g5-w-corner",
+    "word": "corner",
+    "example": "Look at the corner."
+  },
+  {
+    "id": "g5-w-farm",
+    "word": "farm",
+    "example": "Look at the farm."
+  },
+  {
+    "id": "g5-w-city",
+    "word": "city",
+    "example": "Look at the city."
+  },
+  {
+    "id": "g5-w-village",
+    "word": "village",
+    "example": "Look at the village."
+  },
+  {
+    "id": "g5-w-country",
+    "word": "country",
+    "example": "Look at the country."
+  },
+  {
+    "id": "g5-w-train",
+    "word": "train",
+    "example": "Look at the train."
+  },
+  {
+    "id": "g5-w-plane",
+    "word": "plane",
+    "example": "Look at the plane."
+  },
+  {
+    "id": "g5-w-ship",
+    "word": "ship",
+    "example": "Look at the ship."
+  },
+  {
+    "id": "g5-w-boat",
+    "word": "boat",
+    "example": "Look at the boat."
+  },
+  {
+    "id": "g5-w-truck",
+    "word": "truck",
+    "example": "Look at the truck."
+  },
+  {
+    "id": "g5-w-taxi",
+    "word": "taxi",
+    "example": "Look at the taxi."
+  },
+  {
+    "id": "g5-w-baby",
+    "word": "baby",
+    "example": "Look at the baby."
+  },
+  {
+    "id": "g5-w-child",
+    "word": "child",
+    "example": "Look at the child."
+  },
+  {
+    "id": "g5-w-man",
+    "word": "man",
+    "example": "Look at the man."
+  },
+  {
+    "id": "g5-w-woman",
+    "word": "woman",
+    "example": "Look at the woman."
+  },
+  {
+    "id": "g5-w-uncle",
+    "word": "uncle",
+    "example": "Look at the uncle."
+  },
+  {
+    "id": "g5-w-aunt",
+    "word": "aunt",
+    "example": "Look at the aunt."
+  },
+  {
+    "id": "g5-w-cousin",
+    "word": "cousin",
+    "example": "Look at the cousin."
+  },
+  {
+    "id": "g5-w-parent",
+    "word": "parent",
+    "example": "Look at the parent."
+  },
+  {
+    "id": "g5-w-doctor",
+    "word": "doctor",
+    "example": "Look at the doctor."
+  },
+  {
+    "id": "g5-w-nurse",
+    "word": "nurse",
+    "example": "Look at the nurse."
+  },
+  {
+    "id": "g5-w-dentist",
+    "word": "dentist",
+    "example": "Look at the dentist."
+  },
+  {
+    "id": "g5-w-farmer",
+    "word": "farmer",
+    "example": "Look at the farmer."
+  },
+  {
+    "id": "g5-w-driver",
+    "word": "driver",
+    "example": "Look at the driver."
+  },
+  {
+    "id": "g5-w-singer",
+    "word": "singer",
+    "example": "Look at the singer."
+  },
+  {
+    "id": "g5-w-player",
+    "word": "player",
+    "example": "Look at the player."
+  },
+  {
+    "id": "g5-w-police-officer",
+    "word": "police officer",
+    "example": "Look at the police officer."
+  },
+  {
+    "id": "g5-w-face",
+    "word": "face",
+    "example": "Look at the face."
+  },
+  {
+    "id": "g5-w-arm",
+    "word": "arm",
+    "example": "Look at the arm."
+  },
+  {
+    "id": "g5-w-leg",
+    "word": "leg",
+    "example": "Look at the leg."
+  },
+  {
+    "id": "g5-w-foot",
+    "word": "foot",
+    "example": "Look at the foot."
+  },
+  {
+    "id": "g5-w-finger",
+    "word": "finger",
+    "example": "Look at the finger."
+  },
+  {
+    "id": "g5-w-tooth",
+    "word": "tooth",
+    "example": "Look at the tooth."
+  },
+  {
+    "id": "g5-w-neck",
+    "word": "neck",
+    "example": "Look at the neck."
+  },
+  {
+    "id": "g5-w-knee",
+    "word": "knee",
+    "example": "Look at the knee."
+  },
+  {
+    "id": "g5-w-shoulder",
+    "word": "shoulder",
+    "example": "Look at the shoulder."
+  },
+  {
+    "id": "g5-w-cap",
+    "word": "cap",
+    "example": "Look at the cap."
+  },
+  {
+    "id": "g5-w-t-shirt",
+    "word": "T-shirt",
+    "example": "Look at the t-shirt."
+  },
+  {
+    "id": "g5-w-sweater",
+    "word": "sweater",
+    "example": "Look at the sweater."
+  },
+  {
+    "id": "g5-w-jacket",
+    "word": "jacket",
+    "example": "Look at the jacket."
+  },
+  {
+    "id": "g5-w-skirt",
+    "word": "skirt",
+    "example": "Look at the skirt."
+  },
+  {
+    "id": "g5-w-dress",
+    "word": "dress",
+    "example": "Look at the dress."
+  },
+  {
+    "id": "g5-w-sock",
+    "word": "sock",
+    "example": "Look at the sock."
+  },
+  {
+    "id": "g5-w-glove",
+    "word": "glove",
+    "example": "Look at the glove."
+  },
+  {
+    "id": "g5-w-boot",
+    "word": "boot",
+    "example": "Look at the boot."
+  },
+  {
+    "id": "g5-w-uniform",
+    "word": "uniform",
+    "example": "Look at the uniform."
+  },
+  {
+    "id": "g5-w-i",
+    "word": "I",
+    "example": "I am Yui."
+  },
+  {
+    "id": "g5-w-you",
+    "word": "you",
+    "example": "You are kind."
+  },
+  {
+    "id": "g5-w-he",
+    "word": "he",
+    "example": "He is my brother."
+  },
+  {
+    "id": "g5-w-she",
+    "word": "she",
+    "example": "She is my sister."
+  },
+  {
+    "id": "g5-w-it",
+    "word": "it",
+    "example": "It is a dog."
+  },
+  {
+    "id": "g5-w-we",
+    "word": "we",
+    "example": "We like music."
+  },
+  {
+    "id": "g5-w-they",
+    "word": "they",
+    "example": "They are students."
+  },
+  {
+    "id": "g5-w-my",
+    "word": "my",
+    "example": "This is my bag."
+  },
+  {
+    "id": "g5-w-your",
+    "word": "your",
+    "example": "Is this your pen?"
+  },
+  {
+    "id": "g5-w-his",
+    "word": "his",
+    "example": "His name is Tom."
+  },
+  {
+    "id": "g5-w-her",
+    "word": "her",
+    "example": "This is her book."
+  },
+  {
+    "id": "g5-w-our",
+    "word": "our",
+    "example": "This is our school."
+  },
+  {
+    "id": "g5-w-their",
+    "word": "their",
+    "example": "Their house is big."
+  },
+  {
+    "id": "g5-w-me",
+    "word": "me",
+    "example": "Please help me."
+  },
+  {
+    "id": "g5-w-him",
+    "word": "him",
+    "example": "I know him."
+  },
+  {
+    "id": "g5-w-us",
+    "word": "us",
+    "example": "Please join us."
+  },
+  {
+    "id": "g5-w-them",
+    "word": "them",
+    "example": "I like them."
+  },
+  {
+    "id": "g5-w-mine",
+    "word": "mine",
+    "example": "This pen is mine."
+  },
+  {
+    "id": "g5-w-yours",
+    "word": "yours",
+    "example": "Is this yours?"
+  },
+  {
+    "id": "g5-w-this",
+    "word": "this",
+    "example": "This is a cat."
+  },
+  {
+    "id": "g5-w-that",
+    "word": "that",
+    "example": "That is a dog."
+  },
+  {
+    "id": "g5-w-these",
+    "word": "these",
+    "example": "These are my books."
+  },
+  {
+    "id": "g5-w-those",
+    "word": "those",
+    "example": "Those are birds."
+  },
+  {
+    "id": "g5-w-who",
+    "word": "who",
+    "example": "Who is she?"
+  },
+  {
+    "id": "g5-w-what",
+    "word": "what",
+    "example": "What is this?"
+  },
+  {
+    "id": "g5-w-where",
+    "word": "where",
+    "example": "Where is my bag?"
+  },
+  {
+    "id": "g5-w-when",
+    "word": "when",
+    "example": "When is your birthday?"
+  },
+  {
+    "id": "g5-w-whose",
+    "word": "whose",
+    "example": "Whose bag is this?"
+  },
+  {
+    "id": "g5-w-which",
+    "word": "which",
+    "example": "Which bag is yours?"
+  },
+  {
+    "id": "g5-w-how",
+    "word": "how",
+    "example": "How are you?"
+  },
+  {
+    "id": "g5-w-why",
+    "word": "why",
+    "example": "Why do you like dogs?"
+  },
+  {
+    "id": "g5-w-a",
+    "word": "a",
+    "example": "I have a pen."
+  },
+  {
+    "id": "g5-w-an",
+    "word": "an",
+    "example": "I eat an apple."
+  },
+  {
+    "id": "g5-w-the",
+    "word": "the",
+    "example": "Open the door."
+  },
+  {
+    "id": "g5-w-am",
+    "word": "am",
+    "example": "I am happy."
+  },
+  {
+    "id": "g5-w-is",
+    "word": "is",
+    "example": "She is kind."
+  },
+  {
+    "id": "g5-w-are",
+    "word": "are",
+    "example": "We are students."
+  },
+  {
+    "id": "g5-w-be",
+    "word": "be",
+    "example": "Please be quiet."
+  },
+  {
+    "id": "g5-w-do",
+    "word": "do",
+    "example": "Do you like cats?"
+  },
+  {
+    "id": "g5-w-does",
+    "word": "does",
+    "example": "Does he play tennis?"
+  },
+  {
+    "id": "g5-w-can",
+    "word": "can",
+    "example": "I can swim."
+  },
+  {
+    "id": "g5-w-not",
+    "word": "not",
+    "example": "I am not tired."
+  },
+  {
+    "id": "g5-w-yes",
+    "word": "yes",
+    "example": "Yes, I do."
+  },
+  {
+    "id": "g5-w-no",
+    "word": "no",
+    "example": "No, I do not."
+  },
+  {
+    "id": "g5-w-please",
+    "word": "please",
+    "example": "Please sit down."
+  },
+  {
+    "id": "g5-w-and",
+    "word": "and",
+    "example": "I like cats and dogs."
+  },
+  {
+    "id": "g5-w-but",
+    "word": "but",
+    "example": "I am tired, but I am happy."
+  },
+  {
+    "id": "g5-w-or",
+    "word": "or",
+    "example": "Tea or milk?"
+  },
+  {
+    "id": "g5-w-because",
+    "word": "because",
+    "example": "I like summer because I can swim."
+  },
+  {
+    "id": "g5-w-in",
+    "word": "in",
+    "example": "The pen is in the box."
+  },
+  {
+    "id": "g5-w-on",
+    "word": "on",
+    "example": "The book is on the desk."
+  },
+  {
+    "id": "g5-w-under",
+    "word": "under",
+    "example": "The cat is under the chair."
+  },
+  {
+    "id": "g5-w-at",
+    "word": "at",
+    "example": "I get up at seven."
+  },
+  {
+    "id": "g5-w-to",
+    "word": "to",
+    "example": "I go to school."
+  },
+  {
+    "id": "g5-w-from",
+    "word": "from",
+    "example": "I am from Japan."
+  },
+  {
+    "id": "g5-w-with",
+    "word": "with",
+    "example": "I play with my sister."
+  },
+  {
+    "id": "g5-w-for",
+    "word": "for",
+    "example": "This is for you."
+  },
+  {
+    "id": "g5-w-of",
+    "word": "of",
+    "example": "This is a picture of my dog."
+  },
+  {
+    "id": "g5-w-by",
+    "word": "by",
+    "example": "I go by bus."
+  },
+  {
+    "id": "g5-w-about",
+    "word": "about",
+    "example": "Tell me about your school."
+  },
+  {
+    "id": "g5-w-near",
+    "word": "near",
+    "example": "The park is near my house."
+  },
+  {
+    "id": "g5-w-behind",
+    "word": "behind",
+    "example": "The dog is behind the tree."
+  },
+  {
+    "id": "g5-w-between",
+    "word": "between",
+    "example": "The ball is between the boxes."
+  },
+  {
+    "id": "g5-w-before",
+    "word": "before",
+    "example": "Wash your hands before dinner."
+  },
+  {
+    "id": "g5-w-after",
+    "word": "after",
+    "example": "I play after school."
+  },
+  {
+    "id": "g5-w-up",
+    "word": "up",
+    "example": "Look up."
+  },
+  {
+    "id": "g5-w-down",
+    "word": "down",
+    "example": "Sit down."
+  },
+  {
+    "id": "g5-w-out",
+    "word": "out",
+    "example": "Let's go out."
+  },
+  {
+    "id": "g5-w-here",
+    "word": "here",
+    "example": "Come here."
+  },
+  {
+    "id": "g5-w-there",
+    "word": "there",
+    "example": "My bag is there."
+  },
+  {
+    "id": "g5-w-some",
+    "word": "some",
+    "example": "I want some water."
+  },
+  {
+    "id": "g5-w-any",
+    "word": "any",
+    "example": "Do you have any pets?"
+  },
+  {
+    "id": "g5-w-many",
+    "word": "many",
+    "example": "I have many books."
+  },
+  {
+    "id": "g5-w-much",
+    "word": "much",
+    "example": "Thank you very much."
+  },
+  {
+    "id": "g5-w-all",
+    "word": "all",
+    "example": "All my friends like music."
+  },
+  {
+    "id": "g5-w-every",
+    "word": "every",
+    "example": "I read every day."
+  },
+  {
+    "id": "g5-w-each",
+    "word": "each",
+    "example": "Each student has a book."
+  },
+  {
+    "id": "g5-w-other",
+    "word": "other",
+    "example": "The other bag is blue."
+  },
+  {
+    "id": "g5-w-another",
+    "word": "another",
+    "example": "I want another apple."
+  },
+  {
+    "id": "g5-w-both",
+    "word": "both",
+    "example": "Both my sisters play tennis."
+  },
+  {
+    "id": "g5-w-have",
+    "word": "have",
+    "example": "I have a bike."
+  },
+  {
+    "id": "g5-w-has",
+    "word": "has",
+    "example": "She has a cat."
+  },
+  {
+    "id": "g5-w-like",
+    "word": "like",
+    "example": "I like apples."
+  },
+  {
+    "id": "g5-w-love",
+    "word": "love",
+    "example": "I love my family."
+  },
+  {
+    "id": "g5-w-want",
+    "word": "want",
+    "example": "I want a new bag."
+  },
+  {
+    "id": "g5-w-need",
+    "word": "need",
+    "example": "I need a pen."
+  },
+  {
+    "id": "g5-w-know",
+    "word": "know",
+    "example": "I know that song."
+  },
+  {
+    "id": "g5-w-think",
+    "word": "think",
+    "example": "I think it is good."
+  },
+  {
+    "id": "g5-w-understand",
+    "word": "understand",
+    "example": "I understand English."
+  },
+  {
+    "id": "g5-w-remember",
+    "word": "remember",
+    "example": "I remember your name."
+  },
+  {
+    "id": "g5-w-forget",
+    "word": "forget",
+    "example": "Don't forget your bag."
+  },
+  {
+    "id": "g5-w-see",
+    "word": "see",
+    "example": "I see a bird."
+  },
+  {
+    "id": "g5-w-look",
+    "word": "look",
+    "example": "Look at this picture."
+  },
+  {
+    "id": "g5-w-hear",
+    "word": "hear",
+    "example": "I can hear music."
+  },
+  {
+    "id": "g5-w-say",
+    "word": "say",
+    "example": "Please say your name."
+  },
+  {
+    "id": "g5-w-tell",
+    "word": "tell",
+    "example": "Tell me your name."
+  },
+  {
+    "id": "g5-w-talk",
+    "word": "talk",
+    "example": "I talk with my friends."
+  },
+  {
+    "id": "g5-w-ask",
+    "word": "ask",
+    "example": "Ask your teacher."
+  },
+  {
+    "id": "g5-w-help",
+    "word": "help",
+    "example": "Please help me."
+  },
+  {
+    "id": "g5-w-use",
+    "word": "use",
+    "example": "Can I use this pen?"
+  },
+  {
+    "id": "g5-w-make",
+    "word": "make",
+    "example": "I make lunch."
+  },
+  {
+    "id": "g5-w-take",
+    "word": "take",
+    "example": "Take this book."
+  },
+  {
+    "id": "g5-w-give",
+    "word": "give",
+    "example": "Give me the ball, please."
+  },
+  {
+    "id": "g5-w-get",
+    "word": "get",
+    "example": "I get a present."
+  },
+  {
+    "id": "g5-w-put",
+    "word": "put",
+    "example": "Put your book on the desk."
+  },
+  {
+    "id": "g5-w-bring",
+    "word": "bring",
+    "example": "Bring your notebook."
+  },
+  {
+    "id": "g5-w-buy",
+    "word": "buy",
+    "example": "I buy a book."
+  },
+  {
+    "id": "g5-w-open",
+    "word": "open",
+    "example": "Open your book."
+  },
+  {
+    "id": "g5-w-close",
+    "word": "close",
+    "example": "Close the door."
+  },
+  {
+    "id": "g5-w-start",
+    "word": "start",
+    "example": "Let's start the game."
+  },
+  {
+    "id": "g5-w-finish",
+    "word": "finish",
+    "example": "I finish my homework."
+  },
+  {
+    "id": "g5-w-stop",
+    "word": "stop",
+    "example": "Stop here, please."
+  },
+  {
+    "id": "g5-w-wait",
+    "word": "wait",
+    "example": "Please wait here."
+  },
+  {
+    "id": "g5-w-live",
+    "word": "live",
+    "example": "I live in Tokyo."
+  },
+  {
+    "id": "g5-w-work",
+    "word": "work",
+    "example": "My mother works here."
+  },
+  {
+    "id": "g5-w-teach",
+    "word": "teach",
+    "example": "He teaches English."
+  },
+  {
+    "id": "g5-w-learn",
+    "word": "learn",
+    "example": "I learn English."
+  },
+  {
+    "id": "g5-w-practice",
+    "word": "practice",
+    "example": "I practice the piano."
+  },
+  {
+    "id": "g5-w-draw",
+    "word": "draw",
+    "example": "I draw a cat."
+  },
+  {
+    "id": "g5-w-clean",
+    "word": "clean",
+    "example": "I clean my room."
+  },
+  {
+    "id": "g5-w-ride",
+    "word": "ride",
+    "example": "I ride my bike."
+  },
+  {
+    "id": "g5-w-drive",
+    "word": "drive",
+    "example": "My father drives a bus."
+  },
+  {
+    "id": "g5-w-fly",
+    "word": "fly",
+    "example": "Birds can fly."
+  },
+  {
+    "id": "g5-w-jump",
+    "word": "jump",
+    "example": "I can jump high."
+  },
+  {
+    "id": "g5-w-sit",
+    "word": "sit",
+    "example": "Please sit here."
+  },
+  {
+    "id": "g5-w-stand",
+    "word": "stand",
+    "example": "Please stand up."
+  },
+  {
+    "id": "g5-w-meet",
+    "word": "meet",
+    "example": "I meet my friends."
+  },
+  {
+    "id": "g5-w-visit",
+    "word": "visit",
+    "example": "I visit my grandmother."
+  },
+  {
+    "id": "g5-w-enjoy",
+    "word": "enjoy",
+    "example": "I enjoy music."
+  },
+  {
+    "id": "g5-w-stay",
+    "word": "stay",
+    "example": "I stay at home."
+  },
+  {
+    "id": "g5-w-leave",
+    "word": "leave",
+    "example": "I leave home at eight."
+  },
+  {
+    "id": "g5-w-arrive",
+    "word": "arrive",
+    "example": "We arrive at school at eight."
+  },
+  {
+    "id": "g5-w-return",
+    "word": "return",
+    "example": "I return home at five."
+  },
+  {
+    "id": "g5-w-carry",
+    "word": "carry",
+    "example": "I carry my bag."
+  },
+  {
+    "id": "g5-w-find",
+    "word": "find",
+    "example": "I can find my pen."
+  },
+  {
+    "id": "g5-w-try",
+    "word": "try",
+    "example": "Let's try this game."
+  },
+  {
+    "id": "g5-w-turn",
+    "word": "turn",
+    "example": "Turn right."
+  },
+  {
+    "id": "g5-w-call",
+    "word": "call",
+    "example": "Please call me."
+  },
+  {
+    "id": "g5-w-cut",
+    "word": "cut",
+    "example": "I cut the paper."
+  },
+  {
+    "id": "g5-w-catch",
+    "word": "catch",
+    "example": "Catch the ball."
+  },
+  {
+    "id": "g5-w-throw",
+    "word": "throw",
+    "example": "Throw the ball."
+  },
+  {
+    "id": "g5-w-kick",
+    "word": "kick",
+    "example": "I kick the ball."
+  },
+  {
+    "id": "g5-w-smile",
+    "word": "smile",
+    "example": "The baby smiles."
+  },
+  {
+    "id": "g5-w-cry",
+    "word": "cry",
+    "example": "The baby is crying."
+  },
+  {
+    "id": "g5-w-beautiful",
+    "word": "beautiful",
+    "example": "This flower is beautiful."
+  },
+  {
+    "id": "g5-w-cute",
+    "word": "cute",
+    "example": "Your cat is cute."
+  },
+  {
+    "id": "g5-w-nice",
+    "word": "nice",
+    "example": "This is a nice bag."
+  },
+  {
+    "id": "g5-w-great",
+    "word": "great",
+    "example": "That is a great idea."
+  },
+  {
+    "id": "g5-w-fine",
+    "word": "fine",
+    "example": "I am fine."
+  },
+  {
+    "id": "g5-w-bad",
+    "word": "bad",
+    "example": "That is a bad idea."
+  },
+  {
+    "id": "g5-w-sad",
+    "word": "sad",
+    "example": "I am sad."
+  },
+  {
+    "id": "g5-w-angry",
+    "word": "angry",
+    "example": "He is angry."
+  },
+  {
+    "id": "g5-w-sleepy",
+    "word": "sleepy",
+    "example": "I am sleepy."
+  },
+  {
+    "id": "g5-w-thirsty",
+    "word": "thirsty",
+    "example": "I am thirsty."
+  },
+  {
+    "id": "g5-w-sick",
+    "word": "sick",
+    "example": "I am sick."
+  },
+  {
+    "id": "g5-w-young",
+    "word": "young",
+    "example": "My teacher is young."
+  },
+  {
+    "id": "g5-w-tall",
+    "word": "tall",
+    "example": "He is tall."
+  },
+  {
+    "id": "g5-w-high",
+    "word": "high",
+    "example": "That mountain is high."
+  },
+  {
+    "id": "g5-w-low",
+    "word": "low",
+    "example": "This table is low."
+  },
+  {
+    "id": "g5-w-large",
+    "word": "large",
+    "example": "This room is large."
+  },
+  {
+    "id": "g5-w-little",
+    "word": "little",
+    "example": "Look at the little dog."
+  },
+  {
+    "id": "g5-w-fast",
+    "word": "fast",
+    "example": "He can run fast."
+  },
+  {
+    "id": "g5-w-slow",
+    "word": "slow",
+    "example": "This bus is slow."
+  },
+  {
+    "id": "g5-w-easy",
+    "word": "easy",
+    "example": "This question is easy."
+  },
+  {
+    "id": "g5-w-difficult",
+    "word": "difficult",
+    "example": "This question is difficult."
+  },
+  {
+    "id": "g5-w-interesting",
+    "word": "interesting",
+    "example": "This book is interesting."
+  },
+  {
+    "id": "g5-w-fun",
+    "word": "fun",
+    "example": "Soccer is fun."
+  },
+  {
+    "id": "g5-w-favorite",
+    "word": "favorite",
+    "example": "My favorite sport is tennis."
+  },
+  {
+    "id": "g5-w-delicious",
+    "word": "delicious",
+    "example": "This cake is delicious."
+  },
+  {
+    "id": "g5-w-sweet",
+    "word": "sweet",
+    "example": "This apple is sweet."
+  },
+  {
+    "id": "g5-w-warm",
+    "word": "warm",
+    "example": "It is warm today."
+  },
+  {
+    "id": "g5-w-cool",
+    "word": "cool",
+    "example": "It is cool today."
+  },
+  {
+    "id": "g5-w-right",
+    "word": "right",
+    "example": "Turn right."
+  },
+  {
+    "id": "g5-w-left",
+    "word": "left",
+    "example": "Turn left."
+  },
+  {
+    "id": "g5-w-wrong",
+    "word": "wrong",
+    "example": "That answer is wrong."
+  },
+  {
+    "id": "g5-w-early",
+    "word": "early",
+    "example": "I get up early."
+  },
+  {
+    "id": "g5-w-late",
+    "word": "late",
+    "example": "Don't be late."
+  },
+  {
+    "id": "g5-w-free",
+    "word": "free",
+    "example": "Are you free today?"
+  },
+  {
+    "id": "g5-w-full",
+    "word": "full",
+    "example": "The box is full."
+  },
+  {
+    "id": "g5-w-ready",
+    "word": "ready",
+    "example": "I am ready."
+  },
+  {
+    "id": "g5-w-quiet",
+    "word": "quiet",
+    "example": "Please be quiet."
+  },
+  {
+    "id": "g5-w-strong",
+    "word": "strong",
+    "example": "He is strong."
+  },
+  {
+    "id": "g5-w-safe",
+    "word": "safe",
+    "example": "This place is safe."
+  },
+  {
+    "id": "g5-w-dark",
+    "word": "dark",
+    "example": "This room is dark."
+  },
+  {
+    "id": "g5-w-bright",
+    "word": "bright",
+    "example": "This room is bright."
+  },
+  {
+    "id": "g5-w-brown",
+    "word": "brown",
+    "example": "My bag is brown."
+  },
+  {
+    "id": "g5-w-pink",
+    "word": "pink",
+    "example": "This flower is pink."
+  },
+  {
+    "id": "g5-w-purple",
+    "word": "purple",
+    "example": "This pen is purple."
+  },
+  {
+    "id": "g5-w-gray",
+    "word": "gray",
+    "example": "The cat is gray."
+  },
+  {
+    "id": "g5-w-very",
+    "word": "very",
+    "example": "It is very hot."
+  },
+  {
+    "id": "g5-w-well",
+    "word": "well",
+    "example": "She sings well."
+  },
+  {
+    "id": "g5-w-too",
+    "word": "too",
+    "example": "I like dogs, too."
+  },
+  {
+    "id": "g5-w-also",
+    "word": "also",
+    "example": "I also like cats."
+  },
+  {
+    "id": "g5-w-really",
+    "word": "really",
+    "example": "I really like music."
+  },
+  {
+    "id": "g5-w-always",
+    "word": "always",
+    "example": "I always eat breakfast."
+  },
+  {
+    "id": "g5-w-usually",
+    "word": "usually",
+    "example": "I usually walk to school."
+  },
+  {
+    "id": "g5-w-often",
+    "word": "often",
+    "example": "I often read books."
+  },
+  {
+    "id": "g5-w-sometimes",
+    "word": "sometimes",
+    "example": "I sometimes play tennis."
+  },
+  {
+    "id": "g5-w-never",
+    "word": "never",
+    "example": "I never drink coffee."
+  },
+  {
+    "id": "g5-w-now",
+    "word": "now",
+    "example": "I am studying now."
+  },
+  {
+    "id": "g5-w-again",
+    "word": "again",
+    "example": "Please say it again."
+  },
+  {
+    "id": "g5-w-together",
+    "word": "together",
+    "example": "Let's play together."
+  },
+  {
+    "id": "g5-w-only",
+    "word": "only",
+    "example": "I have only one pen."
+  },
+  {
+    "id": "g5-w-soon",
+    "word": "soon",
+    "example": "See you soon."
+  },
+  {
+    "id": "g5-w-away",
+    "word": "away",
+    "example": "The station is far away."
+  },
+  {
+    "id": "g5-w-home",
+    "word": "home",
+    "example": "I go home at four."
+  },
+  {
+    "id": "g5-w-outside",
+    "word": "outside",
+    "example": "Let's play outside."
+  },
+  {
+    "id": "g5-w-inside",
+    "word": "inside",
+    "example": "Please come inside."
+  },
+  {
+    "id": "g5-w-time",
+    "word": "time",
+    "example": "What time is it?"
+  },
+  {
+    "id": "g5-w-day",
+    "word": "day",
+    "example": "Have a nice day."
+  },
+  {
+    "id": "g5-w-week",
+    "word": "week",
+    "example": "I play tennis every week."
+  },
+  {
+    "id": "g5-w-month",
+    "word": "month",
+    "example": "My birthday is next month."
+  },
+  {
+    "id": "g5-w-year",
+    "word": "year",
+    "example": "I am ten years old."
+  },
+  {
+    "id": "g5-w-hour",
+    "word": "hour",
+    "example": "I study for an hour."
+  },
+  {
+    "id": "g5-w-minute",
+    "word": "minute",
+    "example": "Please wait ten minutes."
+  },
+  {
+    "id": "g5-w-second",
+    "word": "second",
+    "example": "Wait one second."
+  },
+  {
+    "id": "g5-w-weekend",
+    "word": "weekend",
+    "example": "I play soccer on weekends."
+  },
+  {
+    "id": "g5-w-holiday",
+    "word": "holiday",
+    "example": "Today is a holiday."
+  },
+  {
+    "id": "g5-w-vacation",
+    "word": "vacation",
+    "example": "I like summer vacation."
+  },
+  {
+    "id": "g5-w-yesterday",
+    "word": "yesterday",
+    "example": "It was sunny yesterday."
+  },
+  {
+    "id": "g5-w-tonight",
+    "word": "tonight",
+    "example": "I am at home tonight."
+  },
+  {
+    "id": "g5-w-next",
+    "word": "next",
+    "example": "See you next week."
+  },
+  {
+    "id": "g5-w-last",
+    "word": "last",
+    "example": "This is the last question."
+  },
+  {
+    "id": "g5-w-first",
+    "word": "first",
+    "example": "This is my first book."
+  },
+  {
+    "id": "g5-w-third",
+    "word": "third",
+    "example": "This is my third book."
+  },
+  {
+    "id": "g5-w-thirty",
+    "word": "thirty",
+    "example": "I have thirty books."
+  },
+  {
+    "id": "g5-w-forty",
+    "word": "forty",
+    "example": "My father is forty."
+  },
+  {
+    "id": "g5-w-fifty",
+    "word": "fifty",
+    "example": "I have fifty cards."
+  },
+  {
+    "id": "g5-w-sixty",
+    "word": "sixty",
+    "example": "An hour has sixty minutes."
+  },
+  {
+    "id": "g5-w-seventy",
+    "word": "seventy",
+    "example": "My grandmother is seventy."
+  },
+  {
+    "id": "g5-w-eighty",
+    "word": "eighty",
+    "example": "This pen is eighty yen."
+  },
+  {
+    "id": "g5-w-ninety",
+    "word": "ninety",
+    "example": "This book has ninety pages."
+  },
+  {
+    "id": "g5-w-hundred",
+    "word": "hundred",
+    "example": "This pen is one hundred yen."
+  },
+  {
+    "id": "g5-w-thousand",
+    "word": "thousand",
+    "example": "This bag is one thousand yen."
+  },
+  {
+    "id": "g5-w-zero",
+    "word": "zero",
+    "example": "The number is zero."
+  },
+  {
+    "id": "g5-w-half",
+    "word": "half",
+    "example": "I want half of the cake."
+  },
+  {
+    "id": "g5-w-yen",
+    "word": "yen",
+    "example": "This is one hundred yen."
+  },
+  {
+    "id": "g5-w-japan",
+    "word": "Japan",
+    "example": "I live in Japan."
+  },
+  {
+    "id": "g5-w-japanese",
+    "word": "Japanese",
+    "example": "I speak Japanese."
+  },
+  {
+    "id": "g5-w-america",
+    "word": "America",
+    "example": "My friend lives in America."
+  },
+  {
+    "id": "g5-w-american",
+    "word": "American",
+    "example": "He is American."
+  },
+  {
+    "id": "g5-w-canada",
+    "word": "Canada",
+    "example": "I am from Canada."
+  },
+  {
+    "id": "g5-w-australia",
+    "word": "Australia",
+    "example": "I live in Australia."
+  },
+  {
+    "id": "g5-w-china",
+    "word": "China",
+    "example": "My friend is from China."
+  },
+  {
+    "id": "g5-w-chinese",
+    "word": "Chinese",
+    "example": "She speaks Chinese."
+  },
+  {
+    "id": "g5-w-korea",
+    "word": "Korea",
+    "example": "My friend is from Korea."
+  },
+  {
+    "id": "g5-w-french",
+    "word": "French",
+    "example": "I study French."
+  },
+  {
+    "id": "g5-w-science",
+    "word": "science",
+    "example": "I like science."
+  },
+  {
+    "id": "g5-w-art",
+    "word": "art",
+    "example": "I like art."
+  },
+  {
+    "id": "g5-w-pe",
+    "word": "PE",
+    "example": "We have PE today."
+  },
+  {
+    "id": "g5-w-subject",
+    "word": "subject",
+    "example": "What subject do you like?"
+  },
+  {
+    "id": "g5-w-homework",
+    "word": "homework",
+    "example": "I do my homework."
+  },
+  {
+    "id": "g5-w-lesson",
+    "word": "lesson",
+    "example": "I have a piano lesson today."
+  },
+  {
+    "id": "g5-w-club",
+    "word": "club",
+    "example": "I am in the tennis club."
+  },
+  {
+    "id": "g5-w-team",
+    "word": "team",
+    "example": "This is our team."
+  },
+  {
+    "id": "g5-w-member",
+    "word": "member",
+    "example": "I am a member of this club."
+  },
+  {
+    "id": "g5-w-name",
+    "word": "name",
+    "example": "My name is Yui."
+  },
+  {
+    "id": "g5-w-age",
+    "word": "age",
+    "example": "We are the same age."
+  },
+  {
+    "id": "g5-w-number",
+    "word": "number",
+    "example": "What is your phone number?"
+  },
+  {
+    "id": "g5-w-color",
+    "word": "color",
+    "example": "What color do you like?"
+  },
+  {
+    "id": "g5-w-food",
+    "word": "food",
+    "example": "My favorite food is rice."
+  },
+  {
+    "id": "g5-w-fruit",
+    "word": "fruit",
+    "example": "I eat fruit every day."
+  },
+  {
+    "id": "g5-w-vegetable",
+    "word": "vegetable",
+    "example": "A carrot is a vegetable."
+  },
+  {
+    "id": "g5-w-coffee",
+    "word": "coffee",
+    "example": "My father drinks coffee."
+  },
+  {
+    "id": "g5-w-sugar",
+    "word": "sugar",
+    "example": "I want some sugar."
+  },
+  {
+    "id": "g5-w-salt",
+    "word": "salt",
+    "example": "Pass me the salt, please."
+  },
+  {
+    "id": "g5-w-butter",
+    "word": "butter",
+    "example": "I like bread with butter."
+  },
+  {
+    "id": "g5-w-beef",
+    "word": "beef",
+    "example": "I like beef."
+  },
+  {
+    "id": "g5-w-pork",
+    "word": "pork",
+    "example": "I eat pork."
+  },
+  {
+    "id": "g5-w-salad",
+    "word": "salad",
+    "example": "I eat salad for lunch."
+  },
+  {
+    "id": "g5-w-curry",
+    "word": "curry",
+    "example": "I like curry."
+  },
+  {
+    "id": "g5-w-pizza",
+    "word": "pizza",
+    "example": "Let's eat pizza."
+  },
+  {
+    "id": "g5-w-spaghetti",
+    "word": "spaghetti",
+    "example": "I like spaghetti."
+  },
+  {
+    "id": "g5-w-weather",
+    "word": "weather",
+    "example": "How is the weather?"
+  },
+  {
+    "id": "g5-w-sky",
+    "word": "sky",
+    "example": "The sky is blue."
+  },
+  {
+    "id": "g5-w-sun",
+    "word": "sun",
+    "example": "The sun is bright."
+  },
+  {
+    "id": "g5-w-moon",
+    "word": "moon",
+    "example": "Look at the moon."
+  },
+  {
+    "id": "g5-w-sea",
+    "word": "sea",
+    "example": "I can see the sea."
+  },
+  {
+    "id": "g5-w-air",
+    "word": "air",
+    "example": "We need air."
+  },
+  {
+    "id": "g5-w-grass",
+    "word": "grass",
+    "example": "The grass is green."
+  },
+  {
+    "id": "g5-w-hair",
+    "word": "hair",
+    "example": "Her hair is long."
+  },
+  {
+    "id": "g5-w-clothes",
+    "word": "clothes",
+    "example": "I wash my clothes."
+  },
+  {
+    "id": "g5-w-pants",
+    "word": "pants",
+    "example": "These pants are blue."
+  },
+  {
+    "id": "g5-w-shorts",
+    "word": "shorts",
+    "example": "I wear shorts in summer."
+  },
+  {
+    "id": "g5-w-shoes",
+    "word": "shoes",
+    "example": "My shoes are new."
+  },
+  {
+    "id": "g5-w-glasses",
+    "word": "glasses",
+    "example": "I wear glasses."
+  },
+  {
+    "id": "g5-w-people",
+    "word": "people",
+    "example": "Many people are in the park."
+  },
+  {
+    "id": "g5-w-children",
+    "word": "children",
+    "example": "The children are playing."
+  },
+  {
+    "id": "g5-w-feet",
+    "word": "feet",
+    "example": "Wash your feet."
+  },
+  {
+    "id": "g5-w-teeth",
+    "word": "teeth",
+    "example": "I brush my teeth."
+  },
+  {
+    "id": "g5-w-money",
+    "word": "money",
+    "example": "I need some money."
+  },
+  {
+    "id": "g5-w-paper",
+    "word": "paper",
+    "example": "I need some paper."
+  },
+  {
+    "id": "g5-w-news",
+    "word": "news",
+    "example": "That is good news."
+  },
+  {
+    "id": "g5-w-idea",
+    "word": "idea",
+    "example": "That is a good idea."
+  },
+  {
+    "id": "g5-w-thing",
+    "word": "thing",
+    "example": "What is that thing?"
+  },
+  {
+    "id": "g5-w-place",
+    "word": "place",
+    "example": "This is a nice place."
+  },
+  {
+    "id": "g5-w-life",
+    "word": "life",
+    "example": "I like my school life."
+  },
+  {
+    "id": "g5-w-trip",
+    "word": "trip",
+    "example": "Have a nice trip."
+  },
+  {
+    "id": "g5-w-party",
+    "word": "party",
+    "example": "Come to my party."
+  },
+  {
+    "id": "g5-w-picnic",
+    "word": "picnic",
+    "example": "Let's have a picnic."
+  },
+  {
+    "id": "g5-w-shopping",
+    "word": "shopping",
+    "example": "I go shopping on Sundays."
+  },
+  {
+    "id": "g5-w-swimming",
+    "word": "swimming",
+    "example": "I like swimming."
+  },
+  {
+    "id": "g5-w-running",
+    "word": "running",
+    "example": "I like running."
+  },
+  {
+    "id": "g5-w-fishing",
+    "word": "fishing",
+    "example": "I like fishing."
+  },
+  {
+    "id": "g5-w-tennis-court",
+    "word": "tennis court",
+    "example": "Let's go to the tennis court."
+  },
+  {
+    "id": "g5-w-wear",
+    "word": "wear",
+    "example": "I wear a uniform."
+  },
+  {
+    "id": "g5-w-brush",
+    "word": "brush",
+    "example": "I brush my teeth."
+  },
+  {
+    "id": "g5-w-take-a-bath",
+    "word": "take a bath",
+    "example": "I take a bath at night."
+  },
+  {
+    "id": "g5-w-go-to-bed",
+    "word": "go to bed",
+    "example": "I go to bed at nine."
+  },
+  {
+    "id": "g5-w-get-home",
+    "word": "get home",
+    "example": "I get home at five."
+  },
+  {
+    "id": "g5-w-have-lunch",
+    "word": "have lunch",
+    "example": "I have lunch at twelve."
+  },
+  {
+    "id": "g5-w-after-school",
+    "word": "after school",
+    "example": "I play soccer after school."
+  },
+  {
+    "id": "g5-w-every-day",
+    "word": "every day",
+    "example": "I read every day."
+  },
+  {
+    "id": "g5-w-on-foot",
+    "word": "on foot",
+    "example": "I go to school on foot."
+  },
+  {
+    "id": "g5-w-in-front-of",
+    "word": "in front of",
+    "example": "The bus is in front of the school."
+  },
+  {
+    "id": "g5-w-next-to",
+    "word": "next to",
+    "example": "I sit next to my friend."
+  },
+  {
+    "id": "g5-w-a-lot-of",
+    "word": "a lot of",
+    "example": "I have a lot of books."
+  },
+  {
+    "id": "g5-w-look-at",
+    "word": "look at",
+    "example": "Look at the sky."
+  },
+  {
+    "id": "g5-w-listen-to",
+    "word": "listen to",
+    "example": "I listen to music."
+  },
+  {
+    "id": "g5-w-be-from",
+    "word": "be from",
+    "example": "I am from Japan."
+  },
+  {
+    "id": "g5-w-be-good-at",
+    "word": "be good at",
+    "example": "I am good at tennis."
+  },
+  {
+    "id": "g5-w-want-to",
+    "word": "want to",
+    "example": "I want to play soccer."
+  },
+  {
+    "id": "g5-w-would-like",
+    "word": "would like",
+    "example": "I would like some water."
+  },
+  {
+    "id": "g5-w-how-much",
+    "word": "how much",
+    "example": "How much is this bag?"
+  },
+  {
+    "id": "g5-w-how-many",
+    "word": "how many",
+    "example": "How many books do you have?"
+  },
+  {
+    "id": "g5-w-how-old",
+    "word": "how old",
+    "example": "How old are you?"
+  },
+  {
+    "id": "g5-w-how-about",
+    "word": "how about",
+    "example": "How about you?"
+  },
+  {
+    "id": "g5-p-extra-i-m-from-japan",
+    "word": "I'm from Japan.",
+    "example": "I'm from Japan."
+  },
+  {
+    "id": "g5-p-extra-where-are-you-from",
+    "word": "Where are you from?",
+    "example": "Where are you from?"
+  },
+  {
+    "id": "g5-p-extra-i-live-in-tokyo",
+    "word": "I live in Tokyo.",
+    "example": "I live in Tokyo."
+  },
+  {
+    "id": "g5-p-extra-where-do-you-live",
+    "word": "Where do you live?",
+    "example": "Where do you live?"
+  },
+  {
+    "id": "g5-p-extra-who-is-that-boy",
+    "word": "Who is that boy?",
+    "example": "Who is that boy?"
+  },
+  {
+    "id": "g5-p-extra-he-is-my-brother",
+    "word": "He is my brother.",
+    "example": "He is my brother."
+  },
+  {
+    "id": "g5-p-extra-this-is-my-friend",
+    "word": "This is my friend.",
+    "example": "This is my friend."
+  },
+  {
+    "id": "g5-p-extra-is-this-your-book",
+    "word": "Is this your book?",
+    "example": "Is this your book?"
+  },
+  {
+    "id": "g5-p-extra-yes-it-is",
+    "word": "Yes, it is.",
+    "example": "Yes, it is."
+  },
+  {
+    "id": "g5-p-extra-no-it-isn-t",
+    "word": "No, it isn't.",
+    "example": "No, it isn't."
+  },
+  {
+    "id": "g5-p-extra-are-you-a-student",
+    "word": "Are you a student?",
+    "example": "Are you a student?"
+  },
+  {
+    "id": "g5-p-extra-yes-i-am",
+    "word": "Yes, I am.",
+    "example": "Yes, I am."
+  },
+  {
+    "id": "g5-p-extra-no-i-m-not",
+    "word": "No, I'm not.",
+    "example": "No, I'm not."
+  },
+  {
+    "id": "g5-p-extra-these-are-my-shoes",
+    "word": "These are my shoes.",
+    "example": "These are my shoes."
+  },
+  {
+    "id": "g5-p-extra-whose-pen-is-this",
+    "word": "Whose pen is this?",
+    "example": "Whose pen is this?"
+  },
+  {
+    "id": "g5-p-extra-it-s-mine",
+    "word": "It's mine.",
+    "example": "It's mine."
+  },
+  {
+    "id": "g5-p-extra-what-color-is-it",
+    "word": "What color is it?",
+    "example": "What color is it?"
+  },
+  {
+    "id": "g5-p-extra-it-s-blue",
+    "word": "It's blue.",
+    "example": "It's blue."
+  },
+  {
+    "id": "g5-p-extra-what-s-your-favorite-food",
+    "word": "What's your favorite food?",
+    "example": "What's your favorite food?"
+  },
+  {
+    "id": "g5-p-extra-my-favorite-food-is-curry",
+    "word": "My favorite food is curry.",
+    "example": "My favorite food is curry."
+  },
+  {
+    "id": "g5-p-extra-what-subject-do-you-like",
+    "word": "What subject do you like?",
+    "example": "What subject do you like?"
+  },
+  {
+    "id": "g5-p-extra-i-like-english",
+    "word": "I like English.",
+    "example": "I like English."
+  },
+  {
+    "id": "g5-p-extra-does-she-like-tennis",
+    "word": "Does she like tennis?",
+    "example": "Does she like tennis?"
+  },
+  {
+    "id": "g5-p-extra-yes-she-does",
+    "word": "Yes, she does.",
+    "example": "Yes, she does."
+  },
+  {
+    "id": "g5-p-extra-no-she-doesn-t",
+    "word": "No, she doesn't.",
+    "example": "No, she doesn't."
+  },
+  {
+    "id": "g5-p-extra-he-plays-soccer-every-day",
+    "word": "He plays soccer every day.",
+    "example": "He plays soccer every day."
+  },
+  {
+    "id": "g5-p-extra-she-doesn-t-play-the-piano",
+    "word": "She doesn't play the piano.",
+    "example": "She doesn't play the piano."
+  },
+  {
+    "id": "g5-p-extra-what-do-you-have-for-breakfast",
+    "word": "What do you have for breakfast?",
+    "example": "What do you have for breakfast?"
+  },
+  {
+    "id": "g5-p-extra-i-have-bread-and-milk",
+    "word": "I have bread and milk.",
+    "example": "I have bread and milk."
+  },
+  {
+    "id": "g5-p-extra-when-do-you-get-up",
+    "word": "When do you get up?",
+    "example": "When do you get up?"
+  },
+  {
+    "id": "g5-p-extra-i-get-up-at-seven",
+    "word": "I get up at seven.",
+    "example": "I get up at seven."
+  },
+  {
+    "id": "g5-p-extra-i-go-to-bed-at-nine",
+    "word": "I go to bed at nine.",
+    "example": "I go to bed at nine."
+  },
+  {
+    "id": "g5-p-extra-what-do-you-do-after-school",
+    "word": "What do you do after school?",
+    "example": "What do you do after school?"
+  },
+  {
+    "id": "g5-p-extra-i-do-my-homework-after-school",
+    "word": "I do my homework after school.",
+    "example": "I do my homework after school."
+  },
+  {
+    "id": "g5-p-extra-how-do-you-go-to-school",
+    "word": "How do you go to school?",
+    "example": "How do you go to school?"
+  },
+  {
+    "id": "g5-p-extra-i-walk-to-school",
+    "word": "I walk to school.",
+    "example": "I walk to school."
+  },
+  {
+    "id": "g5-p-extra-how-much-is-this",
+    "word": "How much is this?",
+    "example": "How much is this?"
+  },
+  {
+    "id": "g5-p-extra-it-s-five-hundred-yen",
+    "word": "It's five hundred yen.",
+    "example": "It's five hundred yen."
+  },
+  {
+    "id": "g5-p-extra-may-i-help-you",
+    "word": "May I help you?",
+    "example": "May I help you?"
+  },
+  {
+    "id": "g5-p-extra-i-d-like-this-one",
+    "word": "I'd like this one.",
+    "example": "I'd like this one."
+  },
+  {
+    "id": "g5-p-extra-anything-else",
+    "word": "Anything else?",
+    "example": "Anything else?"
+  },
+  {
+    "id": "g5-p-extra-no-thank-you",
+    "word": "No, thank you.",
+    "example": "No, thank you."
+  },
+  {
+    "id": "g5-p-extra-can-i-have-some-water",
+    "word": "Can I have some water?",
+    "example": "Can I have some water?"
+  },
+  {
+    "id": "g5-p-extra-you-re-welcome",
+    "word": "You're welcome.",
+    "example": "You're welcome."
+  },
+  {
+    "id": "g5-p-extra-i-m-hungry",
+    "word": "I'm hungry.",
+    "example": "I'm hungry."
+  },
+  {
+    "id": "g5-p-extra-i-m-thirsty",
+    "word": "I'm thirsty.",
+    "example": "I'm thirsty."
+  },
+  {
+    "id": "g5-p-extra-let-s-have-lunch",
+    "word": "Let's have lunch.",
+    "example": "Let's have lunch."
+  },
+  {
+    "id": "g5-p-extra-how-about-some-juice",
+    "word": "How about some juice?",
+    "example": "How about some juice?"
+  },
+  {
+    "id": "g5-p-extra-how-s-the-weather-today",
+    "word": "How's the weather today?",
+    "example": "How's the weather today?"
+  },
+  {
+    "id": "g5-p-extra-it-s-sunny-today",
+    "word": "It's sunny today.",
+    "example": "It's sunny today."
+  },
+  {
+    "id": "g5-p-extra-it-s-cold-in-winter",
+    "word": "It's cold in winter.",
+    "example": "It's cold in winter."
+  },
+  {
+    "id": "g5-p-extra-what-season-do-you-like",
+    "word": "What season do you like?",
+    "example": "What season do you like?"
+  },
+  {
+    "id": "g5-p-extra-i-like-summer",
+    "word": "I like summer.",
+    "example": "I like summer."
+  },
+  {
+    "id": "g5-p-extra-what-can-you-do",
+    "word": "What can you do?",
+    "example": "What can you do?"
+  },
+  {
+    "id": "g5-p-extra-i-can-play-the-piano",
+    "word": "I can play the piano.",
+    "example": "I can play the piano."
+  },
+  {
+    "id": "g5-p-extra-i-can-t-swim",
+    "word": "I can't swim.",
+    "example": "I can't swim."
+  },
+  {
+    "id": "g5-p-extra-yes-i-can",
+    "word": "Yes, I can.",
+    "example": "Yes, I can."
+  },
+  {
+    "id": "g5-p-extra-no-i-can-t",
+    "word": "No, I can't.",
+    "example": "No, I can't."
+  },
+  {
+    "id": "g5-p-extra-can-you-help-me",
+    "word": "Can you help me?",
+    "example": "Can you help me?"
+  },
+  {
+    "id": "g5-p-extra-sure",
+    "word": "Sure.",
+    "example": "Sure."
+  },
+  {
+    "id": "g5-p-extra-sorry-i-can-t",
+    "word": "Sorry, I can't.",
+    "example": "Sorry, I can't."
+  },
+  {
+    "id": "g5-p-extra-let-s-go-to-the-park",
+    "word": "Let's go to the park.",
+    "example": "Let's go to the park."
+  },
+  {
+    "id": "g5-p-extra-that-s-a-good-idea",
+    "word": "That's a good idea.",
+    "example": "That's a good idea."
+  },
+  {
+    "id": "g5-p-extra-sorry-i-m-busy",
+    "word": "Sorry, I'm busy.",
+    "example": "Sorry, I'm busy."
+  },
+  {
+    "id": "g5-p-extra-are-you-free-tomorrow",
+    "word": "Are you free tomorrow?",
+    "example": "Are you free tomorrow?"
+  },
+  {
+    "id": "g5-p-extra-please-come-in",
+    "word": "Please come in.",
+    "example": "Please come in."
+  },
+  {
+    "id": "g5-p-extra-please-sit-down",
+    "word": "Please sit down.",
+    "example": "Please sit down."
+  },
+  {
+    "id": "g5-p-extra-stand-up-please",
+    "word": "Stand up, please.",
+    "example": "Stand up, please."
+  },
+  {
+    "id": "g5-p-extra-don-t-run-here",
+    "word": "Don't run here.",
+    "example": "Don't run here."
+  },
+  {
+    "id": "g5-p-extra-be-careful",
+    "word": "Be careful.",
+    "example": "Be careful."
+  },
+  {
+    "id": "g5-p-extra-please-be-quiet",
+    "word": "Please be quiet.",
+    "example": "Please be quiet."
+  },
+  {
+    "id": "g5-p-extra-turn-right-at-the-corner",
+    "word": "Turn right at the corner.",
+    "example": "Turn right at the corner."
+  },
+  {
+    "id": "g5-p-extra-the-bank-is-next-to-the-station",
+    "word": "The bank is next to the station.",
+    "example": "The bank is next to the station."
+  },
+  {
+    "id": "g5-p-extra-where-is-the-post-office",
+    "word": "Where is the post office?",
+    "example": "Where is the post office?"
+  },
+  {
+    "id": "g5-p-extra-it-s-near-the-park",
+    "word": "It's near the park.",
+    "example": "It's near the park."
+  },
+  {
+    "id": "g5-p-extra-there-is-a-cat-under-the-table",
+    "word": "There is a cat under the table.",
+    "example": "There is a cat under the table."
+  },
+  {
+    "id": "g5-p-extra-there-are-three-books-on-the-desk",
+    "word": "There are three books on the desk.",
+    "example": "There are three books on the desk."
+  },
+  {
+    "id": "g5-p-extra-is-he-reading-a-book",
+    "word": "Is he reading a book?",
+    "example": "Is he reading a book?"
+  },
+  {
+    "id": "g5-p-extra-yes-he-is",
+    "word": "Yes, he is.",
+    "example": "Yes, he is."
+  },
+  {
+    "id": "g5-p-extra-no-he-isn-t",
+    "word": "No, he isn't.",
+    "example": "No, he isn't."
+  },
+  {
+    "id": "g5-p-extra-they-are-playing-soccer",
+    "word": "They are playing soccer.",
+    "example": "They are playing soccer."
+  },
+  {
+    "id": "g5-p-extra-i-m-not-watching-tv",
+    "word": "I'm not watching TV.",
+    "example": "I'm not watching TV."
+  },
+  {
+    "id": "g5-p-extra-what-is-she-doing",
+    "word": "What is she doing?",
+    "example": "What is she doing?"
+  },
+  {
+    "id": "g5-p-extra-she-is-cooking-dinner",
+    "word": "She is cooking dinner.",
+    "example": "She is cooking dinner."
+  },
+  {
+    "id": "g5-p-extra-i-want-to-be-a-teacher",
+    "word": "I want to be a teacher.",
+    "example": "I want to be a teacher."
+  },
+  {
+    "id": "g5-p-extra-i-like-playing-tennis",
+    "word": "I like playing tennis.",
+    "example": "I like playing tennis."
+  },
+  {
+    "id": "g5-p-extra-happy-birthday",
+    "word": "Happy birthday!",
+    "example": "Happy birthday!"
+  },
+  {
+    "id": "g5-p-extra-happy-new-year",
+    "word": "Happy New Year!",
+    "example": "Happy New Year!"
+  },
+  {
+    "id": "g5-p-extra-have-a-nice-day",
+    "word": "Have a nice day.",
+    "example": "Have a nice day."
+  },
+  {
+    "id": "g5-p-extra-have-a-good-time",
+    "word": "Have a good time.",
+    "example": "Have a good time."
+  },
+  {
+    "id": "g5-p-extra-see-you-later",
+    "word": "See you later.",
+    "example": "See you later."
+  },
+  {
+    "id": "g5-p-extra-take-care",
+    "word": "Take care.",
+    "example": "Take care."
+  },
+  {
+    "id": "g5-p-extra-are-you-ok",
+    "word": "Are you OK?",
+    "example": "Are you OK?"
+  },
+  {
+    "id": "g5-p-extra-i-m-tired",
+    "word": "I'm tired.",
+    "example": "I'm tired."
+  },
+  {
+    "id": "g5-p-extra-what-s-wrong",
+    "word": "What's wrong?",
+    "example": "What's wrong?"
+  },
+  {
+    "id": "g5-p-extra-one-more-time-please",
+    "word": "One more time, please.",
+    "example": "One more time, please."
+  },
+  {
+    "id": "g5-p-extra-please-speak-slowly",
+    "word": "Please speak slowly.",
+    "example": "Please speak slowly."
+  },
+  {
+    "id": "g5-p-extra-i-don-t-understand",
+    "word": "I don't understand.",
+    "example": "I don't understand."
+  },
+  {
+    "id": "g5-p-extra-how-do-you-say-this-in-english",
+    "word": "How do you say this in English?",
+    "example": "How do you say this in English?"
+  },
+  {
+    "id": "g5-p-extra-what-does-this-word-mean",
+    "word": "What does this word mean?",
+    "example": "What does this word mean?"
   }
 ]

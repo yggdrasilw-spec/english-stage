@@ -17,6 +17,12 @@ export function validateBackup(b,ids){
  if(Object.entries(s.seen).some(([id,t])=>!ids.has(id)||!Number.isFinite(t)))throw Error('学習記録が壊れています。');
  if(s.history.some(h=>!h||!ids.has(h.id)||!['read','listen','recall','self'].includes(h.skill)||!['correct','wrong','guess','self'].includes(h.quality)||!Number.isFinite(h.at)))throw Error('回答履歴が壊れています。');
  if(s.rewards.some(r=>typeof r!=='string'))throw Error('星の記録が壊れています。');
+ if(s.screening){
+  if(!s.screening.results||typeof s.screening.results!=='object'||Array.isArray(s.screening.results))throw Error('最初のチェックの形式が正しくありません。');
+  for(const [id,r] of Object.entries(s.screening.results))if(!ids.has(id)||!r||!['known','unsure','unknown'].includes(r.status)||!Number.isFinite(r.at))throw Error('最初のチェックの記録が壊れています。');
+  // Undo is temporary UI history; never trust imported commands.
+  s.screening={results:s.screening.results,undo:[]};
+ }
  // Do not restore an in-flight question from a different tab or content version.
  return {...s,session:null};
 }
