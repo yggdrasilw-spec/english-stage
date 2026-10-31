@@ -6,7 +6,7 @@ const server=http.createServer((req,res)=>{try{let u=decodeURIComponent(req.url.
 try{for(const width of [320,390,1280]){
  const p=await browser.newPage({viewport:{width,height:900}});p.on('pageerror',e=>errors.push(e.message));
  await p.goto(base);await p.locator('#start').waitFor();await p.locator('#sound').click();
- assert((await p.locator('.learning-overview').innerText()).includes('0 / 830'));
+ assert((await p.locator('.home-counts').innerText()).includes('0/830'));
  await p.goto(base+'#screen');await p.locator('#scan-reveal').waitFor();assert.equal(await p.locator('.card-ja').count(),0);
  await p.locator('[data-scan="known"]').click();await p.waitForFunction(()=>document.querySelector('.card-en')?.textContent==='banana');
  await p.reload();await p.locator('#scan-reveal').waitFor();assert.equal(await p.locator('.card-en').innerText(),'banana');
@@ -20,7 +20,7 @@ try{for(const width of [320,390,1280]){
  await p.locator('#copy-prompt').click();await p.waitForFunction(()=>document.querySelector('#copy-status')?.textContent.length>0);
  await p.screenshot({path:out+'/conversation-'+width+'.png',fullPage:true});
  for(const route of ['home','roadmap','progress','screen','settings']){await p.goto(base+'#'+route);await p.waitForTimeout(120);assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route+' '+width);await p.screenshot({path:out+'/'+route+'-'+width+'.png',fullPage:true});}
- await p.goto(base+'#home');await p.locator('#start').click();await p.locator('#understood').waitFor();assert.equal(await p.locator('.card-en').innerText(),'banana');
+ await p.goto(base+'#home');await p.locator('.compact-home > details > summary').click();await p.locator('#legacy-study').click();await p.locator('#understood').waitFor();assert.equal(await p.locator('.card-en').innerText(),'banana');
  let answers=0;for(let i=0;i<30;i++){
   if(await p.locator('#finish').count())break;
   if(await p.locator('#understood').count())await p.locator('#understood').click();

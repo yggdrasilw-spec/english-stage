@@ -23,6 +23,15 @@ export function validateBackup(b,ids){
   // Undo is temporary UI history; never trust imported commands.
   s.screening={results:s.screening.results,undo:[]};
  }
- // Do not restore an in-flight question from a different tab or content version.
+ if(s.fast){
+  const f=s.fast;
+  if(!Array.isArray(f.ids)||f.ids.length>ids.size||f.ids.some(id=>!ids.has(id))||!Number.isInteger(f.index)||f.index<0||f.index>f.ids.length||!['card','read','recall','listen','match'].includes(f.mode)||!['all','new','weak','due'].includes(f.filter)||typeof f.theme!=='string'||typeof f.auto!=='boolean'||!['checked','correct','known'].every(k=>Number.isSafeInteger(f[k])&&f[k]>=0))throw Error('カードの中断記録が壊れています。');
+  f.feedback=null;
+ }
+ if(s.mock){
+  const validRun=r=>r&&/^g5-m[123]$/.test(r.examId)&&['r','l','break'].includes(r.phase)&&Number.isInteger(r.index)&&r.index>=0&&r.index<25&&Number.isFinite(r.deadline)&&r.deadline>=0&&r.answers&&typeof r.answers==='object'&&!Array.isArray(r.answers)&&Object.keys(r.answers).length<=50&&Object.entries(r.answers).every(([k,v])=>new RegExp('^'+r.examId+'-(0[1-9]|[1-4][0-9]|50)$').test(k)&&Number.isInteger(v)&&v>=0&&v<=3)&&r.plays&&typeof r.plays==='object'&&Object.keys(r.plays).length<=25&&Object.entries(r.plays).every(([k,v])=>new RegExp('^'+r.examId+'-(2[6-9]|[34][0-9]|50)$').test(k)&&Number.isInteger(v)&&v>=0&&v<=2);
+  if(!Array.isArray(s.mock.results)||s.mock.results.length>30||s.mock.results.some(r=>!validRun(r))||(s.mock.active&&!validRun(s.mock.active)))throw Error('実戦テストの記録が壊れています。');
+ }
+ // Do not restore an in-flight legacy question from a different tab or content version.
  return {...s,session:null};
 }
