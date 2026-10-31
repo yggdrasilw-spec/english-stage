@@ -30,11 +30,8 @@
 .flash-sparkles{pointer-events:none;position:absolute;inset:0;display:grid;place-content:center;white-space:pre;text-align:center;line-height:1.7;font-size:48px;color:#bb7c12;opacity:0;text-shadow:0 0 12px #ffe39a}
 .leaving-known .flash-card{animation:card-graduate 420ms ease-in forwards}
 .leaving-known .flash-sparkles{animation:card-sparkle 420ms ease-out forwards}
-.leaving-next{animation:card-next 160ms ease-in forwards}.leaving-previous{animation:card-previous 160ms ease-in forwards}
-@keyframes card-graduate{0%,30%{transform:scale(1);opacity:1}100%{transform:translate(35px,-65px) rotate(10deg) scale(.75);opacity:0}}
+@keyframes card-graduate{0%,30%{transform:scale(1);opacity:1}100%{transform:translateY(-90px) scale(.75);opacity:0}}
 @keyframes card-sparkle{0%{opacity:0;transform:scale(.5)}35%{opacity:1}100%{opacity:0;transform:scale(1.3)}}
-@keyframes card-next{to{transform:translateX(-55px) rotate(-4deg);opacity:0}}
-@keyframes card-previous{to{transform:translateX(55px) rotate(4deg);opacity:0}}
 /* A quick hand-drawn circle and a few soft sparkles, with no blocking overlay. */
 .correct-mark{width:112px;height:88px;margin:-8px auto 2px;pointer-events:none}
 .correct-mark svg{width:100%;height:100%;overflow:visible}
@@ -51,3 +48,7 @@
 .flash-card:not(.is-flipped) .flash-back,.flash-card.is-flipped .flash-front{visibility:hidden}
 .flash-card .flash-face{margin:0;box-shadow:none}
 .flash-card img{pointer-events:none;-webkit-user-drag:none}
+
+.flash-stack{overflow:clip;overflow-clip-margin:14px}
+.flash-card{cursor:grab;will-change:transform}
+.flash-card.is-dragging{cursor:grabbing}

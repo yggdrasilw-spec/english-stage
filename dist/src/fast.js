@@ -1,4 +1,4 @@
-import {warmImages,bindFlash,animateCard} from './flashcards.js';
+import {warmImages,bindFlash,animateCard,enterCard} from './flashcards.js';
 import * as effects from './effects.js';
 import {updateProgress,dueTasks} from './scheduler.js';
 import {isKnown,setScreening,verifyScreening} from './learning.js';
@@ -43,13 +43,13 @@ export function renderFast(context){
  if(f.mode==='match'){renderMatch(content,f,byId,mutate);return;}
  if(f.mode==='card'){
   warmImages(f.ids.slice(Math.max(0,f.index-2),f.index+6).map(id=>byId.get(id)));
-  content.innerHTML=`<div class="flash-stack"><button id="fast-flip" class="flash-card flash-face ${ui.flipped?'is-flipped':''}" aria-label="${ui.flipped?'英語に戻す':'意味を表示'}" aria-pressed="${!!ui.flipped}"><span class="flash-inner"><span class="flash-side flash-front" ${ui.flipped?'inert aria-hidden="true"':''}><small>${e(c.theme)} · タップでめくる</small><span class="flash-word" lang="en-US">${e(c.en)}</span><span class="muted">意味を思い出してみよう</span></span><span class="flash-side flash-back" ${ui.flipped?'':'inert aria-hidden="true"'}><span class="card-ja">${e(c.ja)}</span><span lang="en-US">${e(c.en)}</span>${c.image?`<img src="${e(c.image.url)}" alt="" referrerpolicy="no-referrer">`:''}<span lang="en-US">${e(c.example)}</span><small>${e(c.exampleJa)}</small></span></span></button><span class="flash-sparkles" aria-hidden="true">✦ ✧ ✦<br>✧ ✓ ✧<br>✦ ✧ ✦</span></div><div class="actions"><button id="fast-prev" ${f.index===0?'disabled':''}>← 前のカード</button><button id="fast-forward" ${f.index+1>=f.ids.length?'disabled':''}>次のカード →</button></div><small>左スワイプで次へ・右スワイプで前へ</small><div class="actions fast-rating"><button id="fast-later">← あとで確認</button><button id="fast-known" class="primary">わかる →</button></div><div class="actions"><button id="fast-play">▶ 発音</button><button id="fast-slow">ゆっくり</button></div>`;
+  content.innerHTML=`<div class="flash-stack"><button id="fast-flip" class="flash-card flash-face ${ui.flipped?'is-flipped':''}" aria-label="${ui.flipped?'英語に戻す':'意味を表示'}" aria-pressed="${!!ui.flipped}"><span class="flash-inner"><span class="flash-side flash-front" ${ui.flipped?'inert aria-hidden="true"':''}><small>${e(c.theme)} · タップでめくる</small><span class="flash-word" lang="en-US">${e(c.en)}</span><span class="muted">意味を思い出してみよう</span></span><span class="flash-side flash-back" ${ui.flipped?'':'inert aria-hidden="true"'}><span class="card-ja">${e(c.ja)}</span><span lang="en-US">${e(c.en)}</span>${c.image?`<img src="${e(c.image.url)}" alt="" referrerpolicy="no-referrer">`:''}<span lang="en-US">${e(c.example)}</span><small>${e(c.exampleJa)}</small></span></span></button><span class="flash-sparkles" aria-hidden="true">✦ ✧ ✦<br>✧ ✓ ✧<br>✦ ✧ ✦</span></div><div class="actions"><button id="fast-prev" ${f.index===0?'disabled':''}>← 前のカード</button><button id="fast-forward" ${f.index+1>=f.ids.length?'disabled':''}>次のカード →</button></div><small>左スワイプで次へ・右スワイプで前へ</small><div class="actions fast-rating"><button id="fast-later">← あとで確認</button><button id="fast-known" class="primary">わかる ✓</button></div><div class="actions"><button id="fast-play">▶ 発音</button><button id="fast-slow">ゆっくり</button></div>`;
   const move=async direction=>{
-   if(acting||f.index+direction<0||f.index+direction>=f.ids.length)return;acting=true;audio.stop();effects.play('move',state.settings.sound);
+   if(acting||f.index+direction<0||f.index+direction>=f.ids.length)return false;acting=true;audio.stop();effects.play('move',state.settings.sound);
    const el=$('.flash-stack');await animateCard(el,direction>0?'next':'previous',state.settings.motion);if(!el.isConnected)return;
-   snapshot();await mutate(s=>{s.fast.index+=direction;s.fast.feedback=null;ui={};});
+   snapshot();await mutate(s=>{s.fast.index+=direction;s.fast.feedback=null;ui={};});enterCard(ctx.app.querySelector('.flash-stack'),direction,ctx.state.settings.motion);return true;
   };
-  bindFlash($('#fast-flip'),()=>{ui.flipped=!ui.flipped;effects.play('flip',state.settings.sound);return ui.flipped;},move,()=>acting);
+  bindFlash($('#fast-flip'),()=>{ui.flipped=!ui.flipped;effects.play('flip',state.settings.sound);return ui.flipped;},move,()=>acting,d=>f.index+d>=0&&f.index+d<f.ids.length);
   $('#fast-prev').onclick=()=>move(-1);$('#fast-forward').onclick=()=>move(1);
   for(const [id,status] of [['#fast-known','known'],['#fast-later','unsure']])$(id).onclick=async()=>{
    if(acting)return;acting=true;audio.stop();effects.play(status==='known'?'known':'move',state.settings.sound);

@@ -2,7 +2,7 @@ import {renderFast,startFast,startReview,cleanupFast} from './fast.js';
 import {renderExams,renderExam,renderResult,cleanupExam} from './exams.js';
 import {scanStats,setScreening,undoScreening,screeningResult,isKnown,verifyScreening,readiness,conversationPrompt} from './learning.js';
 import * as effects from './effects.js';
-import {warmImages,bindFlash,animateCard} from './flashcards.js';
+import {warmImages,bindFlash,animateCard,enterCard} from './flashcards.js';
 import * as storage from './storage.js';
 import {dayKey,skills,dueTasks,plan,updateProgress} from './scheduler.js';
 import {choices,enqueueRetry} from './quiz.js';
@@ -55,13 +55,13 @@ function screen(){
  bindAudio(c);
  let acting=false;
  const move=async direction=>{
-  if(acting||busy||position+direction<0||position+direction>=deck.length)return;
+  if(acting||busy||position+direction<0||position+direction>=deck.length)return false;
   acting=true;audio.stop();effects.play('move',state.settings.sound);
   const el=$('.flash-stack');await animateCard(el,direction>0?'next':'previous',state.settings.motion);
   if(!el.isConnected)return;
-  scanTarget=deck[position+direction].id;scanReveal=false;screen();
+  scanTarget=deck[position+direction].id;scanReveal=false;screen();enterCard($('.flash-stack'),direction,state.settings.motion);return true;
  };
- bindFlash($('#scan-reveal'),()=>{scanReveal=!scanReveal;effects.play('flip',state.settings.sound);return scanReveal;},move,()=>acting||busy);
+ bindFlash($('#scan-reveal'),()=>{scanReveal=!scanReveal;effects.play('flip',state.settings.sound);return scanReveal;},move,()=>acting||busy,d=>position+d>=0&&position+d<deck.length);
  $('#scan-prev').onclick=()=>move(-1);$('#scan-next').onclick=()=>move(1);
  document.querySelectorAll('[data-scan]').forEach(b=>b.onclick=async()=>{
   if(acting||busy)return;acting=true;audio.stop();
