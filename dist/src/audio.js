@@ -1,5 +1,10 @@
 let token=0,current=null,manifest=null;
-export async function init(){try{const r=await fetch('data/audio-manifest.json');if(r.ok){const m=await r.json();if(m.provider==='Google Cloud Text-to-Speech'&&m.files?.length)manifest=m;}}catch{}}
+let initializing=null;
+export function init(){
+ return initializing ||= (async()=>{const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),5000);
+  try{const r=await fetch('data/audio-manifest.json',{signal:controller.signal});if(r.ok){const m=await r.json();if(m.provider==='Google Cloud Text-to-Speech'&&m.files?.length)manifest=m;}}catch{}finally{clearTimeout(timer);}
+ })();
+}
 export function stop(){token++;if(current){current.pause();current=null;}window.speechSynthesis?.cancel();}
 export function availableVoices(){return window.speechSynthesis?.getVoices().filter(v=>v.lang.replace('_','-').toLowerCase()==='en-us')||[];}
 async function ready(){
@@ -8,7 +13,7 @@ async function ready(){
  await new Promise(resolve=>{const finish=()=>{clearTimeout(timer);speechSynthesis.removeEventListener('voiceschanged',finish);resolve();};const timer=setTimeout(finish,1500);speechSynthesis.addEventListener('voiceschanged',finish);});
 }
 export async function play(card,{example=false,slow=false}={}){
- stop();const mine=token;
+ stop();const mine=token;await init();if(mine!==token)return false;
  const file=manifest?.files.find(f=>f.id===card.id&&f.part===(example?'example':'word')&&f.speed===(slow?'slow':'normal'));
  if(file&&/^assets\/audio\/[a-z0-9-]+\.mp3$/.test(file.path)){
   current=new Audio(file.path);try{await current.play();return true;}catch{if(mine!==token)return false;throw Error('音声ファイルを再生できません。「もう一度」で再試行してください。');}

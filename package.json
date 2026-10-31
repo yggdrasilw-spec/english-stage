@@ -1,1 +1,11 @@
-{"name":"english-stage","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.mjs","validate":"node scripts/validate-content.mjs"}}
+{
+  "name": "english-stage",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/validate-content.mjs",
+    "release:entry": "node scripts/release-entry.mjs",
+    "validate:entry": "node scripts/release-entry.mjs --check"
+  }
+}
