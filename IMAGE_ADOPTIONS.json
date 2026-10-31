@@ -1,0 +1,425 @@
+[
+  {
+    "id": "g5-w-apple",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-5925.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "丸い実を食べる果物。",
+    "sourceSheet": "sheets/2026-10-11-common-4.png",
+    "sourceReview": "目視確認済み: 元シートのコマ内のみを抽出。必要な絵の欠けと隣コマ混入を修正。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-banana",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-4591.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "黄色い皮をむいて食べる、細長い果物。",
+    "sourceSheet": "sheets/clipping4-20261025-sheet01.png",
+    "sourceReview": "目視確認済み: バナナ。バナナの房の軸の見切れを修正。対象の輪郭全体・語義・共有先を確認。罫線実測により切り出し。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-bread",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4659.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "小麦粉などをこねて発酵させ、焼いた食品。",
+    "sourceSheet": "sheets/2026-10-12-e-2.png",
+    "sourceReview": "目視確認済み: A golden baked loaf of bread with two slices beside it",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-rice",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2391.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "炊いた米。また、朝食や夕食などの食事。",
+    "sourceSheet": "sheets/2026-10-12-c-1.png",
+    "sourceReview": "目視確認済み: A ceramic bowl heaped with cooked white rice, steam gently rising",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-milk",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1666.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "牛からしぼった乳。",
+    "sourceSheet": "sheets/2026-10-12-b-3.png",
+    "sourceReview": "目視確認済み: A glass of white cow milk beside a plain milk bottle with no label",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-water",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-5316.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "水素と酸素からできた、無色透明の液体。多くの生物に必要。",
+    "sourceSheet": "sheets/wave8-sheet-29.png",
+    "sourceReview": "目視確認済み: 水（みず）: 水素と酸素からできた、無色透明の液体。多くの生物に必要。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-egg",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-3382.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "鳥や虫などが産み 生き物の子が育つもとになるもの。",
+    "sourceSheet": "sheets/2026-10-11-common-3.png",
+    "sourceReview": "目視確認済み: 元シートのコマ内のみを抽出。必要な絵の欠けと隣コマ混入を修正。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-cake",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-11863.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "小麦粉や卵などを使って作る洋菓子。",
+    "sourceSheet": "sheets/expansion1024g-sheet37.png",
+    "sourceReview": "目視確認済み: ケーキ：小麦粉や卵などを使って作る洋菓子。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-fish",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-2489.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "えらで呼吸し、ひれを使って水中を泳ぐ動物。魚には海にすむものと川にすむものがいる。",
+    "sourceSheet": "sheets/2026-10-11-common-3.png",
+    "sourceReview": "目視確認済み: A realistic fish with gill cover and distinct fins swimming.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-dog",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-398.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "人といっしょに暮らすことが多い動物。",
+    "sourceSheet": "sheets/2026-10-11-common-2.png",
+    "sourceReview": "目視確認済み: A friendly dog sitting, realistic animal proportions.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-cat",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-4285.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "ネコ科の動物。人に飼われることも多い。",
+    "sourceSheet": "sheets/2026-10-11-common-4.png",
+    "sourceReview": "目視確認済み: A friendly domestic tabby cat sitting.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-bird",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-d-word-3934.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "羽毛におおわれた体と、くちばしがある生きもののなかま。空を飛べない鳥もいます。",
+    "sourceSheet": "sheets/2026-10-12-d-3.png",
+    "sourceReview": "目視確認済み: A small brown songbird perched on a branch with clear feathers beak and two legs",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-rabbit",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-510.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "みみがながくてぴょんぴょんはねるどうぶつ。",
+    "sourceSheet": "sheets/2026-10-11-common-4.png",
+    "sourceReview": "目視確認済み: A white rabbit with long upright ears.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-horse",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-570.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "人を乗せて速く走ることができる動物。",
+    "sourceSheet": "sheets/2026-10-11-common-2.png",
+    "sourceReview": "目視確認済み: 元シートのコマ内のみを抽出。必要な絵の欠けと隣コマ混入を修正。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-cow",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-512.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "モーと鳴き、ミルクをとれる動物。",
+    "sourceSheet": "sheets/2026-10-11-common-2.png",
+    "sourceReview": "目視確認済み: A dairy cow standing in a pasture, natural udder.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-pig",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4925.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "丸い鼻とくるんとしたしっぽを持ち、ブーブーと鳴く動物。牧場などで見られる。",
+    "sourceSheet": "sheets/2026-10-12-e-4.png",
+    "sourceReview": "目視確認済み: A friendly pink pig standing on grass, curly tail and small snout",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-elephant",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-3210.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "鼻が長く 大きな体を持つ哺乳類。",
+    "sourceSheet": "sheets/2026-10-12-wave7-32-r1.png",
+    "sourceReview": "目視確認済み: Adult female Asian elephant: grey skin, smaller rounded ears than African elephant, rounded head, four stout legs, long trunk with ONE fingerlike projection at tip, no tusks on depicted female.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-lion",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-f-word-5810.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "たてがみを持つ大型のネコ科動物。",
+    "sourceSheet": "sheets/2026-10-12-f-4.png",
+    "sourceReview": "目視確認済み: A friendly male lion with golden brown mane standing in full view.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-monkey",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-2654.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "手足で枝をつかみ、木登りが得意な動物のなかま。長いしっぽを持つ種類もいる。",
+    "sourceSheet": "sheets/2026-10-11-common-3.png",
+    "sourceReview": "目視確認済み: A Japanese macaque monkey with gray-brown fur and reddish bare face.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-book",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-5105.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "文字や絵などを紙に印刷し、綴じたもの。",
+    "sourceSheet": "sheets/2026-10-12-wave4-4.png",
+    "sourceReview": "目視確認済み: 絵とページのある開いた本。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-pen",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5041.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "インクなどで文字や絵を書く道具。",
+    "sourceSheet": "sheets/2026-10-12-wave7-25-r1.png",
+    "sourceReview": "目視確認済み: ペン（ぺん）: インクなどで文字や絵を書く道具。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-pencil",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-745.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "じをかくときにつかうほそながいどうぐ。",
+    "sourceSheet": "sheets/2026-10-12-wave5-4.png",
+    "sourceReview": "目視確認済み: 木の軸と黒鉛の芯のある鉛筆。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-desk",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-3608.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "勉強や仕事をするために物を置く台。",
+    "sourceSheet": "sheets/word-image-75-3.png",
+    "sourceReview": "目視確認済み: 机の注文に沿って構造・内容を修正。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-chair",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-a-word-291.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "人が座るための家具。",
+    "sourceSheet": "sheets/2026-10-12-a-3.png",
+    "sourceReview": "目視確認済み: A simple warm wooden chair, seat, backrest and four legs fully visible.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-bag",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-1128.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "本やノートなどを入れて持ち運ぶ袋。",
+    "sourceSheet": "sheets/2026-10-12-wave5-2.png",
+    "sourceReview": "目視確認済み: 持ち手と肩ひものある鞄。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-school",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1326.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "子どもなどが集まり、勉強や運動をするところ。",
+    "sourceSheet": "sheets/2026-10-12-b-1.png",
+    "sourceReview": "目視確認済み: A cheerful Japanese elementary school building with playground and entrance",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-teacher",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-3124.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "学校や幼稚園で、みんなにお勉強や優しさ、楽しい遊びを教えてくれる大好きな人のこと。",
+    "sourceSheet": "sheets/2026-10-12-wave7-13.png",
+    "sourceReview": "目視確認済み: 先生（せんせい）: 学校や幼稚園で、みんなにお勉強や優しさ、楽しい遊びを教えてくれる大好きな人のこと。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-house",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-200.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "人が住むための建物。",
+    "sourceSheet": "sheets/2026-10-11-common-2.png",
+    "sourceReview": "目視確認済み: A modest house with windows, front door and small garden.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-park",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-2070.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "みんなが遊んだり散歩したりできるように、すべり台や緑がある広い場所。",
+    "sourceSheet": "sheets/2026-10-12-wave5-6.png",
+    "sourceReview": "目視確認済み: すべり台やブランコとベンチがある公園。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-library",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/toshokan.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "本などを集め、人が読んだり借りたりできるようにしている場所。",
+    "sourceSheet": "sheets/2026-10-08-household-objects.png",
+    "sourceReview": "確認済み: A cozy neighborhood library reading corner。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-station",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-a-word-644.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "でんしゃがとまって人が乗り降りするところ。",
+    "sourceSheet": "sheets/2026-10-12-a-4.png",
+    "sourceReview": "目視確認済み: A railway station platform beside a stopped passenger train, tracks visible, no text.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-hospital",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-4749.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "病気やけがの診察・治療をする施設。",
+    "sourceSheet": "sheets/2026-10-12-wave4-5.png",
+    "sourceReview": "目視確認済み: 診療施設の建物と救急車で病院を表す。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-room",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-4983.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "建物の中を壁などで区切った空間。",
+    "sourceSheet": "sheets/2026-10-12-wave7-24.png",
+    "sourceReview": "目視確認済み: 部屋（へや）: 建物の中を壁などで区切った空間。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-door",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave3-word-6266.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "あけたりしめたりして、へやなどにでいりするための、とびら。",
+    "sourceSheet": "sheets/2026-10-12-wave3-2.png",
+    "sourceReview": "目視確認済み: 蝶番のあるドアと部屋への入口。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-window",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5237.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "外の光や風を取り入れたり、外を見たりするために建物の壁などに作る開口部。",
+    "sourceSheet": "sheets/2026-10-12-wave7-26-r1.png",
+    "sourceReview": "目視確認済み: 窓（まど）: 外の光や風を取り入れたり、外を見たりするために建物の壁などに作る開口部。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-car",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2895.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "エンジンなどの動力で道路を走る車。",
+    "sourceSheet": "sheets/2026-10-12-c-3.png",
+    "sourceReview": "目視確認済み: A generic compact red passenger car in three-quarter view, no logos",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-bus",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4576.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "多くの人を乗せて道路を走る自動車。",
+    "sourceSheet": "sheets/2026-10-12-e-1.png",
+    "sourceReview": "目視確認済み: A friendly full-size city bus, three-quarter view, blue and cream, many passenger windows, no writing",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-hand",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/te.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "うでの先にある、ものを持ったりさわったりする体の部分。",
+    "sourceSheet": "sheets/2026-10-08-actions.png",
+    "sourceReview": "確認済み: 友達とハイタッチする手。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-head",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-61.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "かみのけがはえていて、かんがえるからだの一部",
+    "sourceSheet": "sheets/wave8-sheet-01.png",
+    "sourceReview": "目視確認済み: 頭（あたま）: かみのけがはえていて、かんがえるからだの一部",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-eye",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-5436.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "光を感じ、物の形や色を見るための体の部分。",
+    "sourceSheet": "sheets/wave9-sheet-10.png",
+    "sourceReview": "目視確認済み: 目（め）: 光を感じ、物の形や色を見るための体の部分。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-ear",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-5363.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "音を聞き取るための体の部分。顔の左右にある。",
+    "sourceSheet": "sheets/wave9-sheet-09.png",
+    "sourceReview": "目視確認済み: 耳（みみ）: 音を聞き取るための体の部分。顔の左右にある。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-nose",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-4449.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "顔の中央にあり、呼吸やにおいを感じるために使う部分。",
+    "sourceSheet": "sheets/wave8-sheet-23.png",
+    "sourceReview": "目視確認済み: 鼻（はな）: 顔の中央にあり、呼吸やにおいを感じるために使う部分。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-mouth",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-1708.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "食べたり話したりするための、顔の部分。",
+    "sourceSheet": "sheets/wave8-sheet-09.png",
+    "sourceReview": "目視確認済み: 口（くち）: 食べたり話したりするための、顔の部分。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-hat",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-5116.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "頭にかぶるもの。日差しや寒さを防ぐためにも使う。",
+    "sourceSheet": "sheets/2026-10-12-wave4-2.png",
+    "sourceReview": "目視確認済み: つばのある帽子。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-shirt",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2820.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "上半身に着る衣服。",
+    "sourceSheet": "sheets/2026-10-12-c-3.png",
+    "sourceReview": "目視確認済み: A simple short-sleeved blue shirt on a hanger, complete shape",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-shoe",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1734.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "足を守るため、外を歩くときに履くもの。",
+    "sourceSheet": "sheets/2026-10-12-b-3.png",
+    "sourceReview": "目視確認済み: A pair of comfortable red children sneakers with laces",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  },
+  {
+    "id": "g5-w-coat",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave3-word-6277.png",
+    "credit": "AI生成イラスト",
+    "sourceMeaning": "そとへでるときに、さむさをふせぐために、ふくのうえからきるもの。",
+    "sourceSheet": "sheets/2026-10-12-wave3-2.png",
+    "sourceReview": "目視確認済み: 冬用の厚手のコート。",
+    "status": "参照元の目視確認記録と語義を照合／本アプリで再確認待ち"
+  }
+]

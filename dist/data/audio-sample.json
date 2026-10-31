@@ -1,0 +1,106 @@
+{
+  "provider": "Google Cloud Text-to-Speech",
+  "voice": "en-US-Neural2-F",
+  "languageCode": "en-US",
+  "generatedAt": "2026-10-31T11:56:58.664Z",
+  "review": "未試聴",
+  "terms": "https://cloud.google.com/terms/",
+  "files": [
+    {
+      "id": "g5-w-apple",
+      "part": "word",
+      "speed": "normal",
+      "text": "apple",
+      "path": "assets/audio/g5-w-apple-word-normal-b11114b17989343b.mp3",
+      "hash": "b11114b17989343b"
+    },
+    {
+      "id": "g5-w-apple",
+      "part": "word",
+      "speed": "slow",
+      "text": "apple",
+      "path": "assets/audio/g5-w-apple-word-slow-1809b7952deaa901.mp3",
+      "hash": "1809b7952deaa901"
+    },
+    {
+      "id": "g5-w-apple",
+      "part": "example",
+      "speed": "normal",
+      "text": "I like apples.",
+      "path": "assets/audio/g5-w-apple-example-normal-57e1d8cd479a99d7.mp3",
+      "hash": "57e1d8cd479a99d7"
+    },
+    {
+      "id": "g5-w-apple",
+      "part": "example",
+      "speed": "slow",
+      "text": "I like apples.",
+      "path": "assets/audio/g5-w-apple-example-slow-03bb71a06eb35779.mp3",
+      "hash": "03bb71a06eb35779"
+    },
+    {
+      "id": "g5-w-banana",
+      "part": "word",
+      "speed": "normal",
+      "text": "banana",
+      "path": "assets/audio/g5-w-banana-word-normal-a3798bdab1a22820.mp3",
+      "hash": "a3798bdab1a22820"
+    },
+    {
+      "id": "g5-w-banana",
+      "part": "word",
+      "speed": "slow",
+      "text": "banana",
+      "path": "assets/audio/g5-w-banana-word-slow-2a3334d04c8465b6.mp3",
+      "hash": "2a3334d04c8465b6"
+    },
+    {
+      "id": "g5-w-banana",
+      "part": "example",
+      "speed": "normal",
+      "text": "This is a banana.",
+      "path": "assets/audio/g5-w-banana-example-normal-89ce0772a7bd1256.mp3",
+      "hash": "89ce0772a7bd1256"
+    },
+    {
+      "id": "g5-w-banana",
+      "part": "example",
+      "speed": "slow",
+      "text": "This is a banana.",
+      "path": "assets/audio/g5-w-banana-example-slow-57621c059d9fd5c3.mp3",
+      "hash": "57621c059d9fd5c3"
+    },
+    {
+      "id": "g5-w-orange",
+      "part": "word",
+      "speed": "normal",
+      "text": "orange",
+      "path": "assets/audio/g5-w-orange-word-normal-8c55ace80b3897cd.mp3",
+      "hash": "8c55ace80b3897cd"
+    },
+    {
+      "id": "g5-w-orange",
+      "part": "word",
+      "speed": "slow",
+      "text": "orange",
+      "path": "assets/audio/g5-w-orange-word-slow-4044bc4c8f551b0a.mp3",
+      "hash": "4044bc4c8f551b0a"
+    },
+    {
+      "id": "g5-w-orange",
+      "part": "example",
+      "speed": "normal",
+      "text": "I eat an orange.",
+      "path": "assets/audio/g5-w-orange-example-normal-cafadb237b010cce.mp3",
+      "hash": "cafadb237b010cce"
+    },
+    {
+      "id": "g5-w-orange",
+      "part": "example",
+      "speed": "slow",
+      "text": "I eat an orange.",
+      "path": "assets/audio/g5-w-orange-example-slow-e8b75647bb4375f2.mp3",
+      "hash": "e8b75647bb4375f2"
+    }
+  ]
+}

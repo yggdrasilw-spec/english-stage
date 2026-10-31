@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+*.key
+*credentials*.json
+*service-account*.json
+work/
+.openai/local/
+.openai/
+STATUS.md
+IMPLEMENTATION_PLAN.md
