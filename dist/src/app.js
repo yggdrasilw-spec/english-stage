@@ -1,6 +1,6 @@
 import * as storage from './storage.js';
 import {dayKey,skills,dueTasks,plan,updateProgress} from './scheduler.js';
-import {choices} from './quiz.js';
+import {choices,enqueueRetry} from './quiz.js';
 import * as audio from './audio.js';
 const $=s=>document.querySelector(s),app=$('#app'),notice=$('#notice');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -43,13 +43,7 @@ function study(){
  else if(s.feedback){$('#next').onclick=()=>next(s);if($('#guess'))$('#guess').onclick=()=>markGuess(s,c,task);}
  else{document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>answer(b.dataset.choice===c.id?'correct':'wrong',s,task));$('#unknown').onclick=()=>answer('wrong',s,task);}
 }
-function retry(st,task){
- const s=st.session,key=task.id+':'+task.skill;
- if((s.tries[key]||0)>=3||s.tasks.slice(s.index+1).some(t=>t.id===task.id&&t.skill===task.skill))return;
- let insert=s.tasks.length,otherQuestions=0;
- for(let i=s.index+1;i<s.tasks.length;i++)if(!s.tasks[i].intro&&s.tasks[i].id!==task.id&&++otherQuestions===2){insert=i+1;break;}
- s.tasks.splice(insert,0,{id:task.id,skill:task.skill});
-}
+function retry(st,task){enqueueRetry(st.session,task);}
 async function answer(quality,s,task){audio.stop();await mutate(st=>{
  if(st.session?.id!==s.id||st.session.index!==s.index||st.session.feedback)return;
  const now=Date.now(),c=byId.get(task.id),p=st.progress[c.id]||{},old=p[task.skill],key=c.id+':'+task.skill;
@@ -80,4 +74,3 @@ function about(){app.innerHTML=`<div class="narrow panel"><h1>この教材につ
 function render(){audio.stop();$('#sound').textContent=state.settings.sound?'音声 ON':'音声 OFF';$('#sound').setAttribute('aria-pressed',state.settings.sound);document.body.classList.toggle('reduce-motion',!state.settings.motion);const route=location.hash.slice(1)||'home';if(route==='home')home();else if(route==='study')study();else if(route==='library'||route==='learned')library(route==='learned');else if(route.startsWith('card/'))detail(route.slice(5));else if(route==='progress')records();else if(route==='settings')settings();else if(route==='alphabet')alphabet();else if(route==='about')about();else home();document.querySelectorAll('img.picture').forEach(img=>img.onerror=()=>{img.replaceWith(Object.assign(document.createElement('p'),{textContent:'画像を読み込めません。英語と例文で確かめよう。'}));});autoAudio();}
 $('#sound').onclick=()=>mutate(s=>{s.settings.sound=!s.settings.sound;});window.addEventListener('hashchange',()=>{render();app.focus({preventScroll:true});window.scrollTo(0,0);});
 try{const response=await fetch('data/grade5.json');if(!response.ok)throw Error('教材の読み込みに失敗しました。再読み込みしてください。');cards=await response.json();byId=new Map(cards.map(c=>[c.id,c]));await audio.init();try{state=await storage.open();}catch{persistent=false;tell('端末に保存できないため一時モードです。設定からバックアップしてください。');}render();}catch(e){tell(e.message);app.innerHTML='<h1>教材を読み込めませんでした</h1><p>通信を確認し、ページを再読み込みしてください。</p>';}
-
