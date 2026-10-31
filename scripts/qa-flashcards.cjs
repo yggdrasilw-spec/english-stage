@@ -1,0 +1,40 @@
+const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
+const {chromium}=require('C:/Users/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root=path.resolve(__dirname,'..');fs.mkdirSync(path.join(root,'work/flash-qa'),{recursive:true});
+const server=http.createServer((req,res)=>{try{const f=path.join(root,'dist',req.url.split('?')[0]==='/'?'index.html':req.url.split('?')[0]);res.setHeader('Content-Type',({'.js':'text/javascript','.css':'text/css','.json':'application/json','.html':'text/html'})[path.extname(f)]||'application/octet-stream');res.end(fs.readFileSync(f));}catch{res.writeHead(404);res.end();}});
+(async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const browser=await chromium.launch({channel:'msedge',headless:true}),errors=[];
+try{for(const width of [390,320,1280]){
+ const p=await browser.newPage({viewport:{width,height:900}});p.on('pageerror',e=>errors.push(e.message));const requested=new Set();p.on('request',r=>requested.add(r.url()));
+ await p.goto(`http://127.0.0.1:${server.address().port}/#screen`);await p.locator('#scan-reveal').waitFor();
+ const nextImage=JSON.parse(fs.readFileSync(path.join(root,'dist/data/grade5.json')))[1].image.url;assert(requested.has(nextImage),'next card image requested before navigation');
+ const front=()=>p.locator('.flash-front .card-en').innerText(),first=await front();
+ assert.equal(await p.locator('#scan-prev').isDisabled(),true);
+ await p.locator('#scan-reveal').click();assert.equal(await p.locator('#scan-reveal').getAttribute('aria-pressed'),'true');
+ await p.waitForTimeout(250);assert(await p.locator('.flash-back').evaluate(e=>!e.inert));
+ await p.locator('#scan-reveal').click();assert.equal(await p.locator('#scan-reveal').getAttribute('aria-pressed'),'false');
+ async function swipe(dx,dy=0){const b=await p.locator('#scan-reveal').boundingBox(),x=b.x+b.width/2,y=b.y+b.height/2;await p.mouse.move(x,y);await p.mouse.down();await p.mouse.move(x+dx,y+dy,{steps:7});await p.mouse.up();await p.waitForTimeout(250);}
+ await swipe(-180);assert.notEqual(await front(),first);assert.equal(await p.locator('#scan-reveal').getAttribute('aria-pressed'),'false');
+ await swipe(180);assert.equal(await front(),first);
+ await swipe(5,100);assert.equal(await front(),first);assert.equal(await p.locator('#scan-reveal').getAttribute('aria-pressed'),'false');
+ await p.waitForTimeout(450);await p.locator('#scan-reveal').focus();await p.keyboard.press('ArrowRight');await p.waitForTimeout(200);assert.notEqual(await front(),first);
+ await p.locator('#scan-prev').click();await p.waitForTimeout(200);assert.equal(await front(),first);
+ await p.locator('[data-scan="known"]').evaluate(b=>{b.click();b.click();});await p.waitForTimeout(600);
+ assert.notEqual(await front(),first);assert((await p.locator('.deck-count').innerText()).includes('あと 829こ'));
+ await p.locator('#scan-undo').click();await p.waitForTimeout(120);assert.equal(await front(),first);assert((await p.locator('.deck-count').innerText()).includes('あと 830こ'));
+ await p.emulateMedia({reducedMotion:'reduce'});await p.locator('[data-scan="known"]').click();await p.waitForTimeout(150);assert.notEqual(await front(),first);
+ await p.reload();await p.locator('#scan-reveal').waitFor();assert.notEqual(await front(),first);assert((await p.locator('.deck-count').innerText()).includes('あと 829こ'));
+ assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await p.locator('#scan-reveal').click();await p.waitForTimeout(250);
+ await p.screenshot({path:`${root}/work/flash-qa/english-flash-${width}.png`,fullPage:true});
+ await p.goto(`http://127.0.0.1:${server.address().port}/#home`);await p.locator('#start').click();await p.locator('#fast-flip').waitFor();
+ const initial=await p.locator('.flash-word').innerText();await p.locator('#fast-flip').click();assert.equal(await p.locator('#fast-flip').getAttribute('aria-pressed'),'true');
+ async function fastSwipe(dx){const b=await p.locator('#fast-flip').boundingBox();dx=Math.sign(dx)*Math.min(Math.abs(dx),b.width*.32);const x=b.x+b.width/2,y=b.y+b.height/2;await p.mouse.move(x,y);await p.mouse.down();await p.mouse.move(x+dx,y,{steps:7});await p.mouse.up();await p.waitForTimeout(220);}
+ await fastSwipe(-180);assert.notEqual(await p.locator('.flash-word').innerText(),initial);await fastSwipe(180);assert.equal(await p.locator('.flash-word').innerText(),initial);
+ const size=await p.evaluate(async()=>(await (await import('./src/storage.js')).read()).fast.ids.length);await p.locator('#fast-known').click();await p.waitForTimeout(150);assert.equal(await p.evaluate(async()=>(await (await import('./src/storage.js')).read()).fast.ids.length),size-1);
+ await p.locator('#fast-undo').click();await p.waitForTimeout(120);assert.equal(await p.locator('.flash-word').innerText(),initial);
+ await p.locator('[data-mode=read]').click();await p.locator('.fast-config > summary').click();await p.locator('#fast-auto').uncheck();await p.waitForTimeout(100);
+ const answer=await p.evaluate(async()=>{const f=(await (await import('./src/storage.js')).read()).fast;return f.ids[f.index];});await p.locator(`[data-fast-answer="${answer}"]`).click();await p.locator('.correct-mark').waitFor();assert(await p.locator('#fast-next').isEnabled());
+ assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await p.screenshot({path:`${root}/work/flash-qa/fast-${width}.png`,fullPage:true});
+ console.log('PASS',width,'flip, swipe, vertical drag, keyboard, single removal, undo, persistence, reduced motion, width');await p.close();
+ }assert.deepEqual(errors,[]);
+}finally{await browser.close();server.close();}})().catch(e=>{console.error(e);server.close();process.exitCode=1;});

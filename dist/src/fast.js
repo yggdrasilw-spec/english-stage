@@ -1,9 +1,11 @@
+import {warmImages,bindFlash,animateCard} from './flashcards.js';
+import * as effects from './effects.js';
 import {updateProgress,dueTasks} from './scheduler.js';
 import {isKnown,setScreening,verifyScreening} from './learning.js';
 import * as audio from './audio.js';
 const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const modes={card:'カード',read:'英語 → 意味',recall:'意味 → 英語',listen:'音声 → 意味',match:'組み合わせ'};
-let ctx,ui={},timer,undo=null,configure=false;
+let ctx,ui={},timer,undo=null,configure=false,acting=false;
 const shuffle=a=>a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
 export function cleanupFast(){clearTimeout(timer);timer=null;}
 export function startFast(s,cards,mode='card',filter='all',theme='all'){
@@ -17,13 +19,13 @@ function snapshot(){const s=ctx.state;undo={fast:structuredClone(s.fast),screeni
 function next(f){f.index++;f.feedback=null;ui={};}
 function draw(){renderFast(ctx);}
 async function judge(c,selected){
- const {state,mutate}=ctx,f=state.fast;if(f.feedback)return;
+ const {state,mutate}=ctx,f=state.fast;if(f.feedback||acting)return;acting=true;audio.stop();effects.prepare(state.settings.sound);
  snapshot();const ok=selected===c.id;
- await mutate(s=>{const f=s.fast;record(s,c,s.fast.tasks?.[s.fast.index]?.skill||f.mode,ok?'correct':'wrong');f.checked++;if(ok)f.correct++;f.feedback={ok,answer:c.ja,en:c.en};});
+ await mutate(s=>{const f=s.fast;if(ok){effects.play('correct',s.settings.sound);ui.freshCorrect=true;}record(s,c,s.fast.tasks?.[s.fast.index]?.skill||f.mode,ok?'correct':'wrong');f.checked++;if(ok)f.correct++;f.feedback={ok,answer:c.ja,en:c.en};});
  if(ok&&ctx.state.fast.auto){const at=ctx.state.fast.index;timer=setTimeout(()=>{if(location.hash==='#fast'&&ctx.state.fast.index===at&&ctx.state.fast.feedback)ctx.mutate(s=>next(s.fast));},320);}
 }
 export function renderFast(context){
- ctx=context;const {app,cards,state,mutate}=context;cleanupFast();
+ ctx=context;acting=false;const {app,cards,state,mutate}=context;cleanupFast();
  if(!state.fast){app.innerHTML='<section class="narrow panel"><h1>カードを準備</h1><button id="fast-init" class="primary">はじめる</button></section>';app.querySelector('#fast-init').onclick=()=>mutate(s=>startFast(s,cards));return;}
  const f=state.fast,byId=new Map(cards.map(c=>[c.id,c])),c=byId.get(f.ids[f.index]);
  if(f.tasks?.[f.index])f.mode=f.tasks[f.index].skill;
@@ -40,18 +42,30 @@ export function renderFast(context){
  if(!c){content.innerHTML=`<section class="panel card"><h1>${f.ids.length?'ひと通り確認！':'この条件のカードはありません'}</h1><p>選択で確認 ${f.checked}回 · 正解 ${f.correct}回 · わかる ${f.known}こ</p><button class="primary" id="fast-again">もう一度</button> <a href="#exams">実戦テストへ</a></section>`;$('#fast-skip').disabled=true;$('#fast-again').onclick=()=>mutate(s=>startFast(s,cards,f.mode,f.filter,f.theme));return;}
  if(f.mode==='match'){renderMatch(content,f,byId,mutate);return;}
  if(f.mode==='card'){
-  content.innerHTML=`<button id="fast-flip" class="flash-face ${ui.flipped?'flipped':''}" aria-label="${ui.flipped?'英語に戻す':'意味を表示'}"><small>${e(c.theme)} · タップでめくる</small><span class="flash-word" lang="${ui.flipped?'ja':'en-US'}">${e(ui.flipped?c.ja:c.en)}</span>${ui.flipped?`<span lang="en-US">${e(c.en)}</span>${c.image?`<img src="${e(c.image.url)}" alt="" referrerpolicy="no-referrer">`:''}`:'<span class="muted">意味を思い出してみよう</span>'}</button><div class="actions fast-rating"><button id="fast-later">← あとで確認</button><button id="fast-known" class="primary">わかる →</button></div>${ui.flipped?`<details><summary>例文</summary><p lang="en-US">${e(c.example)}</p><p>${e(c.exampleJa)}</p></details>`:''}<div class="actions"><button id="fast-play">▶ 発音</button><button id="fast-slow">ゆっくり</button></div>`;
-  $('#fast-flip').onclick=()=>{ui.flipped=!ui.flipped;draw();};
-  for(const [id,status] of [['#fast-known','known'],['#fast-later','unsure']])$(id).onclick=()=>{snapshot();mutate(s=>{setScreening(s,c.id,status);s.seen[c.id]||=Date.now();if(status==='known')s.fast.known++;next(s.fast);});};
+  warmImages(f.ids.slice(Math.max(0,f.index-2),f.index+6).map(id=>byId.get(id)));
+  content.innerHTML=`<div class="flash-stack"><button id="fast-flip" class="flash-card flash-face ${ui.flipped?'is-flipped':''}" aria-label="${ui.flipped?'英語に戻す':'意味を表示'}" aria-pressed="${!!ui.flipped}"><span class="flash-inner"><span class="flash-side flash-front" ${ui.flipped?'inert aria-hidden="true"':''}><small>${e(c.theme)} · タップでめくる</small><span class="flash-word" lang="en-US">${e(c.en)}</span><span class="muted">意味を思い出してみよう</span></span><span class="flash-side flash-back" ${ui.flipped?'':'inert aria-hidden="true"'}><span class="card-ja">${e(c.ja)}</span><span lang="en-US">${e(c.en)}</span>${c.image?`<img src="${e(c.image.url)}" alt="" referrerpolicy="no-referrer">`:''}<span lang="en-US">${e(c.example)}</span><small>${e(c.exampleJa)}</small></span></span></button><span class="flash-sparkles" aria-hidden="true">✦ ✧ ✦<br>✧ ✓ ✧<br>✦ ✧ ✦</span></div><div class="actions"><button id="fast-prev" ${f.index===0?'disabled':''}>← 前のカード</button><button id="fast-forward" ${f.index+1>=f.ids.length?'disabled':''}>次のカード →</button></div><small>左スワイプで次へ・右スワイプで前へ</small><div class="actions fast-rating"><button id="fast-later">← あとで確認</button><button id="fast-known" class="primary">わかる →</button></div><div class="actions"><button id="fast-play">▶ 発音</button><button id="fast-slow">ゆっくり</button></div>`;
+  const move=async direction=>{
+   if(acting||f.index+direction<0||f.index+direction>=f.ids.length)return;acting=true;audio.stop();effects.play('move',state.settings.sound);
+   const el=$('.flash-stack');await animateCard(el,direction>0?'next':'previous',state.settings.motion);if(!el.isConnected)return;
+   snapshot();await mutate(s=>{s.fast.index+=direction;s.fast.feedback=null;ui={};});
+  };
+  bindFlash($('#fast-flip'),()=>{ui.flipped=!ui.flipped;effects.play('flip',state.settings.sound);return ui.flipped;},move,()=>acting);
+  $('#fast-prev').onclick=()=>move(-1);$('#fast-forward').onclick=()=>move(1);
+  for(const [id,status] of [['#fast-known','known'],['#fast-later','unsure']])$(id).onclick=async()=>{
+   if(acting)return;acting=true;audio.stop();effects.play(status==='known'?'known':'move',state.settings.sound);
+   const el=$('.flash-stack');await animateCard(el,status==='known'?'known':'next',state.settings.motion);if(!el.isConnected)return;
+   snapshot();await mutate(s=>{setScreening(s,c.id,status);s.seen[c.id]||=Date.now();if(status==='known'){s.fast.known++;s.fast.ids.splice(s.fast.index,1);s.fast.feedback=null;ui={};}else next(s.fast);});
+  };
  }else{
   const key=c.id+f.mode;if(ui.key!==key){const field=f.mode==='recall'?'en':'ja';const used=new Set([c[field]]);const candidates=shuffle(cards.filter(x=>x.id!==c.id&&x.kind===c.kind));const wrong=candidates.filter(x=>{if(used.has(x[field]))return false;used.add(x[field]);return true;}).slice(0,3);ui={key,options:shuffle([c,...wrong])};}
   const feedback=f.feedback;
-  content.innerHTML=`<section class="flash-face quiz-face"><small>${e(c.theme)}</small>${f.mode==='listen'?'<button id="fast-play" class="listen-big">▶ 聞く</button><button id="fast-slow">ゆっくり</button>':`<h1 class="flash-word" lang="${f.mode==='recall'?'ja':'en-US'}">${e(f.mode==='recall'?c.ja:c.en)}</h1>`}<div class="fast-options">${ui.options.map((x,i)=>`<button data-fast-answer="${x.id}" ${feedback?'disabled':''} ${feedback&&x.id===c.id?'class="right-answer"':''}>${i+1}. ${e(f.mode==='recall'?x.en:x.ja)}</button>`).join('')}</div>${feedback?`<div class="fast-feedback" role="status"><strong>${feedback.ok?'✓ 正解':'もう一度覚えよう'}</strong><p lang="en-US">${e(c.en)} <span lang="ja">＝ ${e(c.ja)}</span></p><button id="fast-next" class="primary">次へ →</button></div>`:''}</section>`;
+  content.innerHTML=`<section class="flash-face quiz-face"><small>${e(c.theme)}</small>${f.mode==='listen'?'<button id="fast-play" class="listen-big">▶ 聞く</button><button id="fast-slow">ゆっくり</button>':`<h1 class="flash-word" lang="${f.mode==='recall'?'ja':'en-US'}">${e(f.mode==='recall'?c.ja:c.en)}</h1>`}<div class="fast-options">${ui.options.map((x,i)=>`<button data-fast-answer="${x.id}" ${feedback?'disabled':''} ${feedback&&x.id===c.id?'class="right-answer"':''}>${i+1}. ${e(f.mode==='recall'?x.en:x.ja)}</button>`).join('')}</div>${feedback?`<div class="fast-feedback" role="status">${feedback.ok?effects.correctMark(ui.freshCorrect):''}<strong>${feedback.ok?'✓ 正解':'もう一度覚えよう'}</strong><p lang="en-US">${e(c.en)} <span lang="ja">＝ ${e(c.ja)}</span></p><button id="fast-next" class="primary">次へ →</button></div>`:''}</section>`;
+  ui.freshCorrect=false;
   app.querySelectorAll('[data-fast-answer]').forEach(b=>b.onclick=()=>judge(c,b.dataset.fastAnswer));
   if(feedback){$('#fast-next').onclick=()=>mutate(s=>next(s.fast));}
  }
- if($('#fast-play'))$('#fast-play').onclick=()=>audio.play(c).catch(context.tell);
- if($('#fast-slow'))$('#fast-slow').onclick=()=>audio.play(c,{slow:true}).catch(context.tell);
+ if($('#fast-play'))$('#fast-play').onclick=()=>{effects.stop();audio.play(c).catch(context.tell);};
+ if($('#fast-slow'))$('#fast-slow').onclick=()=>{effects.stop();audio.play(c,{slow:true}).catch(context.tell);};
 }
 function renderMatch(content,f,byId,mutate){
  const group=f.ids.slice(f.index,f.index+4).map(id=>byId.get(id)).filter(Boolean);
@@ -60,7 +74,7 @@ function renderMatch(content,f,byId,mutate){
  const key='match'+f.index;if(ui.key!==key)ui={key,left:shuffle(unique),right:shuffle(unique),done:[],selected:null,message:''};
  content.innerHTML=`<section class="panel"><h2>英語と意味を組み合わせよう</h2><div class="match-board"><div>${ui.left.map(c=>`<button data-left="${c.id}" ${ui.done.includes(c.id)?'disabled':''} aria-pressed="${ui.selected===c.id}" lang="en-US">${e(c.en)}</button>`).join('')}</div><div>${ui.right.map(c=>`<button data-right="${c.id}" ${ui.done.includes(c.id)?'disabled':''}>${e(c.ja)}</button>`).join('')}</div></div><p role="status">${e(ui.message)}</p>${ui.done.length===unique.length?'<button id="match-next" class="primary">次の組へ →</button>':''}</section>`;
  content.querySelectorAll('[data-left]').forEach(b=>b.onclick=()=>{ui.selected=b.dataset.left;draw();});
- content.querySelectorAll('[data-right]').forEach(b=>b.onclick=async()=>{if(!ui.selected||ctx.state.fast.feedback)return;const c=byId.get(ui.selected),ok=c.id===b.dataset.right;ui.message=ok?'✓ '+c.en+' ＝ '+c.ja:'もう一度。英語を選んでから意味を選ぼう。';if(ok)ui.done.push(c.id);ui.selected=null;await mutate(s=>{record(s,c,'read',ok?'correct':'wrong');s.fast.checked++;if(ok)s.fast.correct++;});});
+ content.querySelectorAll('[data-right]').forEach(b=>b.onclick=async()=>{if(!ui.selected||ctx.state.fast.feedback)return;const c=byId.get(ui.selected),ok=c.id===b.dataset.right;ui.message=ok?'✓ '+c.en+' ＝ '+c.ja:'もう一度。英語を選んでから意味を選ぼう。';if(ok){effects.play('correct',ctx.state.settings.sound);ui.done.push(c.id);}ui.selected=null;await mutate(s=>{record(s,c,'read',ok?'correct':'wrong');s.fast.checked++;if(ok)s.fast.correct++;});});
  if(content.querySelector('#match-next'))content.querySelector('#match-next').onclick=()=>mutate(s=>{s.fast.index+=group.length;ui={};});
 }
 document.addEventListener('keydown',ev=>{if(location.hash!=='#fast'||ev.repeat||/INPUT|SELECT|TEXTAREA|BUTTON|A/.test(ev.target.tagName))return;const ids={' ':'#fast-flip, #fast-next',ArrowRight:'#fast-known',ArrowLeft:'#fast-later','1':'[data-fast-answer]:nth-child(1)','2':'[data-fast-answer]:nth-child(2)','3':'[data-fast-answer]:nth-child(3)','4':'[data-fast-answer]:nth-child(4)'};const b=document.querySelector(ids[ev.key]||'none');if(b){ev.preventDefault();b.click();}});
