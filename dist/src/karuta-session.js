@@ -23,4 +23,3 @@ export function takeKaruta(run,id){
 export function validKaruta(k,ids){
  return !!k&&typeof k.theme==='string'&&['meaning','english'].includes(k.face)&&Number.isInteger(k.count)&&k.count>=4&&k.count<=40&&Array.isArray(k.ids)&&k.ids.length<=40&&new Set(k.ids).size===k.ids.length&&k.ids.every(id=>ids.has(id))&&Array.isArray(k.order)&&k.order.length===k.ids.length&&new Set(k.order).size===k.ids.length&&k.order.every(id=>k.ids.includes(id))&&Number.isInteger(k.index)&&k.index>=0&&k.index<=k.ids.length&&Number.isSafeInteger(k.mistakes)&&k.mistakes>=0&&Array.isArray(k.missed)&&k.missed.length<=k.ids.length&&k.missed.every(id=>k.ids.includes(id))&&typeof k.feedback==='string'&&k.feedback.length<=500;
 }
-
