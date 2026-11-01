@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "items": 977,
+  "addedItems": 76,
+  "sourceRows": 530,
+  "viewports": [
+    320,
+    390,
+    1280
+  ],
+  "allNewImagesDecodedPerViewport": 76,
+  "audioSamples": [
+    "doghouse",
+    "Ms.",
+    "orange (color)",
+    "into"
+  ],
+  "realDevice": false
+}

@@ -12,7 +12,7 @@ if(!/^en-US-Neural2-[A-J]$/.test(voice))throw Error('Specify a supported en-US-N
 let cards=JSON.parse(await fs.readFile(new URL('dist/data/grade5.json',root),'utf8'));if(sample)cards=cards.slice(0,3);
 const overrides=JSON.parse(await fs.readFile(new URL('audio-voice-overrides.json',root),'utf8'));
 const jobs=[];
-for(const c of cards)for(const [part,text] of [['word',c.en],['example',c.example]])for(const [speed,speakingRate] of [['normal',.95],['slow',.75]]){
+for(const c of cards)for(const [part,text] of [['word',c.audioText||c.en],['example',c.example]])for(const [speed,speakingRate] of [['normal',.95],['slow',.75]]){
  const jobVoice=voice===overrides.baseVoice?(overrides.entries.find(o=>o.id===c.id&&o.part===part)?.voice||voice):voice;
  const body={input:{text},voice:{languageCode:'en-US',name:jobVoice},audioConfig:{audioEncoding:'MP3',speakingRate}};
  const hash=crypto.createHash('sha256').update(JSON.stringify(body)).digest('hex').slice(0,16);

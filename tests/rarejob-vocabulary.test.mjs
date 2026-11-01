@@ -22,7 +22,7 @@ test('published learning content survives the supplement and all new cards enter
  const previous=[...read('tests/grade5-v2.json'),...read('scripts/grade5-expansion-02.json')];
  assert.equal(previous.length,830);
  for(const old of previous){const {image:_,...before}=old;const {image:__,...after}=cards.find(c=>c.id===old.id);assert.deepEqual(after,before);}
- assert.equal(extra.length,71);assert.equal(cards.length,previous.length+extra.length);
+ assert.equal(extra.length,71);assert.equal(cards.length,previous.length+extra.length+read('scripts/grade5-expansion-04.json').length);
  const state=initial(),ids=new Set(cards.map(c=>c.id));
  for(const c of previous)state.seen[c.id]=1;
  for(const c of extra){assert(plan([c],state).some(t=>t.id===c.id),c.id);state.seen[c.id]=2;}

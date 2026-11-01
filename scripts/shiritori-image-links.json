@@ -9644,6 +9644,446 @@
       "reason": "日本語の語義・類語を照合した対象画像。",
       "sourceCatalog": "hiragana-ninshiki/data/integrations/english-stage-20261101/asset-catalog.json",
       "sha256": "066e919dac050912df76267ca3816632fba0bf3b73573edb7c7cadb6bc6b7dde"
+    },
+    "g5-w-ph-comic": {
+      "english": "comic",
+      "japanese": "まんが",
+      "file": "wave7r3-word-5283.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "漫画",
+      "sourceMeaning": "絵を使って物語や情報を表した作品。",
+      "sourceSheet": "sheets/2026-10-12-wave7-27-r3.png",
+      "sourceReview": "目視確認済み: 漫画（まんが）: 絵を使って物語や情報を表した作品。 Draw a single clear concrete scene conveying this meaning."
+    },
+    "g5-w-ph-e-mail": {
+      "english": "e-mail",
+      "japanese": "電子メール",
+      "file": "expansion512c-word-8369.png",
+      "credit": "プログラム生成図",
+      "sourceWord": "電子メール",
+      "sourceMeaning": "ネットなどをつかって、ぶんしょうなどをあてさきにおくるしくみ。",
+      "sourceSheet": "sheets/expansion512c-diagram-word-8369.png",
+      "sourceReview": "目視確認済み: でんしの てがみを おくる"
+    },
+    "g5-w-ph-classmate": {
+      "english": "classmate",
+      "japanese": "同じクラスの人",
+      "file": "expansion1024h-word-13182.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "クラスメート",
+      "sourceMeaning": "同じクラスで学ぶ仲間。",
+      "sourceSheet": "sheets/expansion1024h-sheet18.png",
+      "sourceReview": "目視確認済み: クラスメート：同じクラスで学ぶ仲間。"
+    },
+    "g5-w-ph-cafeteria": {
+      "english": "cafeteria",
+      "japanese": "食堂",
+      "file": "wave9-word-6279.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "食堂",
+      "sourceMeaning": "しょくじをするためのへや。また、しょくじをだすみせ。",
+      "sourceSheet": "sheets/wave9-sheet-21.png",
+      "sourceReview": "目視確認済み: 食堂（しょくどう）: しょくじをするためのへや。また、しょくじをだすみせ。"
+    },
+    "g5-w-ph-ice": {
+      "english": "ice",
+      "japanese": "氷",
+      "file": "wave7r1-word-2174.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "氷",
+      "sourceMeaning": "水が凍って固体になったもの。",
+      "sourceSheet": "sheets/2026-10-12-wave7-08-r1.png",
+      "sourceReview": "目視確認済み: 氷（こおり）: 水が凍って固体になったもの。 Draw a single clear concrete scene conveying this meaning."
+    },
+    "g5-w-ph-football": {
+      "english": "football",
+      "japanese": "フットボール",
+      "file": "expansion1024f-word-10879.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "アメリカンフットボール",
+      "sourceMeaning": "楕円形のボールを持って進み、相手の陣地で得点をねらう球技。",
+      "sourceSheet": "sheets/expansion1024f-sheet17.png",
+      "sourceReview": "目視確認済み: アメリカンフットボール：楕円形のボールを持って進み、相手の陣地で得点をねらう球技。"
+    },
+    "g5-w-ph-rock": {
+      "english": "rock",
+      "japanese": "岩・ロック音楽",
+      "file": "common-word-447.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "岩",
+      "sourceMeaning": "とってもおおきないしのこと。",
+      "sourceSheet": "sheets/2026-10-11-common-2.png",
+      "sourceReview": "目視確認済み: 元シートのコマ内のみを抽出。必要な絵の欠けと隣コマ混入を修正。"
+    },
+    "g5-w-ph-flute": {
+      "english": "flute",
+      "japanese": "フルート",
+      "file": "wave9-word-6398.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "フルート",
+      "sourceMeaning": "横に構え、穴のふちに息を当てて音を出す、管の形の楽器。",
+      "sourceSheet": "sheets/wave9-sheet-27.png",
+      "sourceReview": "目視確認済み: フルート（ふるーと）: 横に構え、穴のふちに息を当てて音を出す、管の形の楽器。"
+    },
+    "g5-w-ph-case": {
+      "english": "case",
+      "japanese": "ケース・入れ物",
+      "file": "wave2-f-word-5493.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "眼鏡ケース",
+      "sourceMeaning": "眼鏡を入れて保管する入れ物。",
+      "sourceSheet": "sheets/2026-10-12-f-2.png",
+      "sourceReview": "目視確認済み: An open hard eyeglass storage case with a pair of folded glasses inside."
+    },
+    "g5-w-ph-package": {
+      "english": "package",
+      "japanese": "小包",
+      "file": "expansion1024g-word-11959.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "小包",
+      "sourceMeaning": "荷物を包んで送る郵便物など。",
+      "sourceSheet": "sheets/expansion1024g-sheet43.png",
+      "sourceReview": "目視確認済み: 小包：荷物を包んで送る郵便物など。"
+    },
+    "g5-w-ph-magazine": {
+      "english": "magazine",
+      "japanese": "雑誌",
+      "file": "wave7r3-word-2724.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "雑誌",
+      "sourceMeaning": "記事や写真などを載せて、定期的に発行する読み物。",
+      "sourceSheet": "sheets/2026-10-12-wave7-11-r3.png",
+      "sourceReview": "目視確認済み: 雑誌（ざっし）: 記事や写真などを載せて、定期的に発行する読み物。 Draw a single clear concrete scene conveying this meaning."
+    },
+    "g5-w-ph-soap": {
+      "english": "soap",
+      "japanese": "せっけん",
+      "file": "common-word-3111.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "石鹸",
+      "sourceMeaning": "体や物を洗うために使うもの。水といっしょに使って、油やよごれを落とす。",
+      "sourceSheet": "sheets/2026-10-11-common-3.png",
+      "sourceReview": "目視確認済み: 元シートのコマ内のみを抽出。必要な絵の欠けと隣コマ混入を修正。"
+    },
+    "g5-w-ph-towel": {
+      "english": "towel",
+      "japanese": "タオル",
+      "file": "wave3-word-6511.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "タオル",
+      "sourceMeaning": "てやからだをふいたり、みずをすいとったりする、やわらかいぬの。",
+      "sourceSheet": "sheets/2026-10-12-wave3-1.png",
+      "sourceReview": "目視確認済み: タオルの重なりと柔らかい繊維が見える。"
+    },
+    "g5-w-ph-chalk": {
+      "english": "chalk",
+      "japanese": "チョーク",
+      "file": "expansion1024h-word-13557.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "チョーク",
+      "sourceMeaning": "黒板などに書く白や色つきの棒状の道具。",
+      "sourceSheet": "sheets/expansion1024h-sheet42.png",
+      "sourceReview": "目視確認済み: チョーク：黒板などに書く白や色つきの棒状の道具。"
+    },
+    "g5-w-ph-ground": {
+      "english": "ground",
+      "japanese": "地面・運動場",
+      "file": "wave5-word-2128.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "校庭",
+      "sourceMeaning": "学校の敷地内にある、運動や遊びに使う場所。",
+      "sourceSheet": "sheets/2026-10-12-wave5-6.png",
+      "sourceReview": "目視確認済み: 運動用の広い校庭。"
+    },
+    "g5-w-ph-doghouse": {
+      "english": "doghouse",
+      "japanese": "犬小屋",
+      "file": "eiken-20261101-doghouse-word-76173.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "犬小屋",
+      "sourceMeaning": "犬のシェルターの役割を持つ小屋。",
+      "sourceSheet": "sheets/single-eiken-20261101-doghouse.png",
+      "sourceReview": "目視確認済み: 小さな木造犬小屋と入口の犬。建物全体・犬・屋根が収まり、語義に一致。"
+    },
+    "g5-w-ph-telephone": {
+      "english": "telephone",
+      "japanese": "電話",
+      "file": "wave2-d-word-3841.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "電話",
+      "sourceMeaning": "遠くにいる人と、声で話せる道具やしくみ。",
+      "sourceSheet": "sheets/word-image-75-2.png",
+      "sourceReview": "目視確認済み: 電話の注文に沿って構造・内容を修正。"
+    },
+    "g5-w-ph-poster": {
+      "english": "poster",
+      "japanese": "ポスター",
+      "file": "wave4-word-5138.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "ポスター",
+      "sourceMeaning": "知らせや広告などを伝えるために、壁などに貼る大きな紙。",
+      "sourceSheet": "sheets/2026-10-12-wave4-4.png",
+      "sourceReview": "目視確認済み: 壁に留めた大きな掲示用ポスター。"
+    },
+    "g5-w-ph-backpack": {
+      "english": "backpack",
+      "japanese": "リュックサック",
+      "file": "wave7-word-5876.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "リュック",
+      "sourceMeaning": "背中に背負う袋。",
+      "sourceSheet": "sheets/2026-10-12-wave7-31.png",
+      "sourceReview": "目視確認済み: リュック（りゅっく）: 背中に背負う袋。 Draw a single clear concrete scene conveying this meaning."
+    },
+    "g5-w-ph-police": {
+      "english": "police",
+      "japanese": "警察",
+      "file": "expansion1024h-word-13203.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "警察官",
+      "sourceMeaning": "町の安全を守ったり事件を調べたりする警察の人。",
+      "sourceSheet": "sheets/expansion1024h-sheet20.png",
+      "sourceReview": "目視確認済み: 警察官：町の安全を守ったり事件を調べたりする警察の人。"
+    },
+    "g5-w-ph-theater": {
+      "english": "theater",
+      "japanese": "劇場・映画館",
+      "file": "wave5-word-2022.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "劇場",
+      "sourceMeaning": "演劇や映画、コンサートを観客が席に座って見るための大きな建物。",
+      "sourceSheet": "sheets/2026-10-12-wave5-6.png",
+      "sourceReview": "目視確認済み: 舞台と幕と観客席のある劇場。"
+    },
+    "g5-w-ph-post": {
+      "english": "post",
+      "japanese": "郵便・郵便ポスト",
+      "file": "wave2-f-word-5715.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "郵便ポスト",
+      "sourceMeaning": "送る郵便物を入れる箱。",
+      "sourceSheet": "sheets/2026-10-12-f-4.png",
+      "sourceReview": "目視確認済み: A red Japanese roadside post box for posting letters, rectangular slot, no lettering or symbols."
+    },
+    "g5-w-ph-tower": {
+      "english": "tower",
+      "japanese": "塔・タワー",
+      "file": "wave7r4-word-3819.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "塔",
+      "sourceMeaning": "細長く、高く作られた建物。",
+      "sourceSheet": "sheets/2026-10-12-wave7-17-r4.png",
+      "sourceReview": "目視確認済み: 塔（とう）: 細長く、高く作られた建物。 Draw a single clear concrete scene conveying this meaning."
+    },
+    "g5-w-ph-bench": {
+      "english": "bench",
+      "japanese": "ベンチ",
+      "file": "wave7r1-word-5026.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "ベンチ",
+      "sourceMeaning": "何人かが並んで座れる長い椅子。",
+      "sourceSheet": "sheets/2026-10-12-wave7-25-r1.png",
+      "sourceReview": "目視確認済み: ベンチ（べんち）: 何人かが並んで座れる長い椅子。 Draw a single clear concrete scene conveying this meaning."
+    },
+    "g5-w-ph-softball": {
+      "english": "softball",
+      "japanese": "ソフトボール",
+      "file": "expansion1024f-word-10874.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "ソフトボール",
+      "sourceMeaning": "野球より大きいボールを使い、下手から投げる球技。",
+      "sourceSheet": "sheets/expansion1024f-sheet17.png",
+      "sourceReview": "目視確認済み: ソフトボール：野球より大きいボールを使い、下手から投げる球技。"
+    },
+    "g5-w-ph-pineapple": {
+      "english": "pineapple",
+      "japanese": "パイナップル",
+      "file": "wave2-e-word-4622.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "パイナップル",
+      "sourceMeaning": "硬い皮と葉の冠があり、甘酸っぱい果物。",
+      "sourceSheet": "sheets/2026-10-12-e-1.png",
+      "sourceReview": "目視確認済み: A whole pineapple with spiky green crown and one yellow cut ring"
+    },
+    "g5-w-ph-pumpkin": {
+      "english": "pumpkin",
+      "japanese": "かぼちゃ",
+      "file": "wave6-word-1144.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "カボチャ",
+      "sourceMeaning": "大きな実を食べる、つる性の野菜。",
+      "sourceSheet": "sheets/quality-20261025-sheet07.png",
+      "sourceReview": "目視確認済み: カボチャの被写体・場面を語義および共有先と照合。主要な対象・動作を確認し、隣コマの混入なし。罫線と薄い縁は実測除去。"
+    },
+    "g5-w-ph-cucumber": {
+      "english": "cucumber",
+      "japanese": "きゅうり",
+      "file": "wave2-b-word-1561.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "キュウリ",
+      "sourceMeaning": "細長くて緑色をした野菜。",
+      "sourceSheet": "sheets/2026-10-12-b-2.png",
+      "sourceReview": "目視確認済み: Two fresh long green cucumbers, one sliced to reveal pale green interior"
+    },
+    "g5-w-ph-cream": {
+      "english": "cream",
+      "japanese": "クリーム",
+      "file": "wave5-word-1778.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "クリーム",
+      "sourceMeaning": "牛乳から分けた、脂肪分の多い食品。",
+      "sourceSheet": "sheets/2026-10-12-wave5-1.png",
+      "sourceReview": "目視確認済み: 柔らかな白いクリーム。"
+    },
+    "g5-w-ph-pie": {
+      "english": "pie",
+      "japanese": "パイ",
+      "file": "wave2-e-word-4621.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "パイ",
+      "sourceMeaning": "生地で具を包んだり、上にのせたりして焼く料理。",
+      "sourceSheet": "sheets/2026-10-12-e-1.png",
+      "sourceReview": "目視確認済み: A golden lattice-top baked apple pie on a small plate, with one cut slice showing apple filling"
+    },
+    "g5-w-ph-dessert": {
+      "english": "dessert",
+      "japanese": "食後のデザート",
+      "file": "expansion1024h-word-13626.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "デザート",
+      "sourceMeaning": "食事のあとなどに食べる果物や甘いもの。",
+      "sourceSheet": "sheets/expansion1024h-sheet46.png",
+      "sourceReview": "目視確認済み: デザート：食事のあとなどに食べる果物や甘いもの。"
+    },
+    "g5-w-ph-ham": {
+      "english": "ham",
+      "japanese": "ハム",
+      "file": "wave4-word-4478.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "ハム",
+      "sourceMeaning": "豚肉を塩漬けなどにして加工した食品。",
+      "sourceSheet": "sheets/2026-10-12-wave4-6.png",
+      "sourceReview": "目視確認済み: 薄切りにしたハムと塊。"
+    },
+    "g5-w-ph-sushi": {
+      "english": "sushi",
+      "japanese": "すし",
+      "file": "wave2-c-word-2985.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "寿司",
+      "sourceMeaning": "酢飯を使った日本料理。魚介などをのせたり、具を包んだりする種類がある。",
+      "sourceSheet": "sheets/2026-10-12-c-4.png",
+      "sourceReview": "目視確認済み: A platter of recognizable nigiri sushi with white rice and fish toppings and two seaweed rolls"
+    },
+    "g5-w-ph-sausage": {
+      "english": "sausage",
+      "japanese": "ソーセージ",
+      "file": "expansion1024h-word-13391.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "ソーセージ",
+      "sourceMeaning": "ひき肉などを細長く詰めて作る食品。",
+      "sourceSheet": "sheets/expansion1024h-sheet32.png",
+      "sourceReview": "目視確認済み: ソーセージ：ひき肉などを細長く詰めて作る食品。"
+    },
+    "g5-w-ph-yogurt": {
+      "english": "yogurt",
+      "japanese": "ヨーグルト",
+      "file": "wave2-f-word-5805.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "ヨーグルト",
+      "sourceMeaning": "乳を乳酸菌で発酵させた食品。",
+      "sourceSheet": "sheets/2026-10-12-f-4.png",
+      "sourceReview": "目視確認済み: A bowl of plain white yogurt with spoon and a small strawberry beside it."
+    },
+    "g5-w-ph-lunchbox": {
+      "english": "lunchbox",
+      "japanese": "弁当箱",
+      "file": "wave7r1-word-5028.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "弁当箱",
+      "sourceMeaning": "弁当を入れて持ち運ぶ容器。",
+      "sourceSheet": "sheets/2026-10-12-wave7-25-r1.png",
+      "sourceReview": "目視確認済み: 弁当箱（べんとうばこ）: 弁当を入れて持ち運ぶ容器。 Draw a single clear concrete scene conveying this meaning."
+    },
+    "g5-w-ph-chopsticks": {
+      "english": "chopsticks",
+      "japanese": "箸",
+      "file": "wave4-word-4408.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "箸",
+      "sourceMeaning": "食べ物をはさんで口に運ぶ、二本一組の道具。",
+      "sourceSheet": "sheets/2026-10-12-wave4-3.png",
+      "sourceReview": "目視確認済み: 二本一組の箸。"
+    },
+    "g5-w-ph-concert": {
+      "english": "concert",
+      "japanese": "コンサート・音楽会",
+      "file": "expansion1024g-word-11990.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "コンサート",
+      "sourceMeaning": "音楽を演奏して聞いてもらう催し。",
+      "sourceSheet": "sheets/expansion1024g-sheet45-v2.png",
+      "sourceReview": "目視確認済み: コンサート：音楽を演奏して聞いてもらう催し。"
+    },
+    "g5-w-ph-band": {
+      "english": "band",
+      "japanese": "音楽のバンド",
+      "file": "expansion1024h-word-13657.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "バンド",
+      "sourceMeaning": "いっしょに音楽を演奏するグループ。",
+      "sourceSheet": "sheets/expansion1024h-sheet48.png",
+      "sourceReview": "目視確認済み: バンド：いっしょに音楽を演奏するグループ。"
+    },
+    "g5-w-ph-harmonica": {
+      "english": "harmonica",
+      "japanese": "ハーモニカ",
+      "file": "wave9-word-6397.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "ハーモニカ",
+      "sourceMeaning": "口に当てて、息を吹いたり吸ったりして音を出す、横に長い小さな楽器。",
+      "sourceSheet": "sheets/wave9-sheet-27.png",
+      "sourceReview": "目視確認済み: ハーモニカ（はーもにか）: 口に当てて、息を吹いたり吸ったりして音を出す、横に長い小さな楽器。"
+    },
+    "g5-w-ph-drum": {
+      "english": "drum",
+      "japanese": "太鼓・ドラム",
+      "file": "wave5-word-3231.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "太鼓",
+      "sourceMeaning": "胴に張った面を打ち鳴らす楽器。",
+      "sourceSheet": "sheets/2026-10-12-wave5-4.png",
+      "sourceReview": "目視確認済み: 革を張った胴と二本のばちのある太鼓。"
+    },
+    "g5-w-ph-violin": {
+      "english": "violin",
+      "japanese": "バイオリン",
+      "file": "wave7r1-word-4527.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "バイオリン",
+      "sourceMeaning": "弓で弦をこすって音を出す楽器。",
+      "sourceSheet": "sheets/2026-10-12-wave7-21-r1.png",
+      "sourceReview": "目視確認済み: バイオリン（ばいおりん）: 弓で弦をこすって音を出す楽器。 Draw a single clear concrete scene conveying this meaning."
+    },
+    "g5-w-ph-rose": {
+      "english": "rose",
+      "japanese": "バラ",
+      "file": "wave2-e-word-4598.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "バラ",
+      "sourceMeaning": "トゲのあるものが多い茎に、花を咲かせる植物。",
+      "sourceSheet": "sheets/2026-10-12-e-1.png",
+      "sourceReview": "目視確認済み: A blooming red rose with green leaves and small visible thorns on its stem"
+    },
+    "g5-w-ph-soft": {
+      "english": "soft",
+      "japanese": "やわらかい",
+      "file": "pillow.png",
+      "credit": "AI生成イラスト",
+      "sourceWord": "枕",
+      "sourceMeaning": "寝るときに頭の下に置く寝具。",
+      "sourceSheet": "sheets/2026-10-08-agent-home-actions.png",
+      "sourceReview": "目視確認済み: ベッドの上の柔らかな枕"
     }
   }
 }

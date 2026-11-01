@@ -4503,5 +4503,385 @@
     "id": "g5-w-rj-twelve-o-clock",
     "word": "twelve o'clock",
     "example": "The clock says twelve o'clock."
+  },
+  {
+    "id": "g5-w-ph-comic",
+    "word": "comic",
+    "example": "I read a comic after lunch."
+  },
+  {
+    "id": "g5-w-ph-e-mail",
+    "word": "e-mail",
+    "example": "I send an e-mail to my teacher."
+  },
+  {
+    "id": "g5-w-ph-date",
+    "word": "date",
+    "example": "Write the date here."
+  },
+  {
+    "id": "g5-w-ph-classmate",
+    "word": "classmate",
+    "example": "Ken is my classmate."
+  },
+  {
+    "id": "g5-w-ph-cafeteria",
+    "word": "cafeteria",
+    "example": "We eat lunch in the cafeteria."
+  },
+  {
+    "id": "g5-w-ph-ice",
+    "word": "ice",
+    "example": "There is ice in the glass."
+  },
+  {
+    "id": "g5-w-ph-football",
+    "word": "football",
+    "example": "We play football after school."
+  },
+  {
+    "id": "g5-w-ph-son",
+    "word": "son",
+    "example": "This is my son, Ben."
+  },
+  {
+    "id": "g5-w-ph-daughter",
+    "word": "daughter",
+    "example": "This is my daughter, Emma."
+  },
+  {
+    "id": "g5-w-ph-rock",
+    "word": "rock",
+    "example": "There is a big rock by the tree."
+  },
+  {
+    "id": "g5-w-ph-flute",
+    "word": "flute",
+    "example": "My sister plays the flute."
+  },
+  {
+    "id": "g5-w-ph-spanish",
+    "word": "Spanish",
+    "example": "My friend speaks Spanish."
+  },
+  {
+    "id": "g5-w-ph-meter",
+    "word": "meter",
+    "example": "This table is one meter long."
+  },
+  {
+    "id": "g5-w-ph-wonderful",
+    "word": "wonderful",
+    "example": "We had a wonderful day."
+  },
+  {
+    "id": "g5-w-ph-pretty",
+    "word": "pretty",
+    "example": "These flowers are pretty."
+  },
+  {
+    "id": "g5-w-ph-then",
+    "word": "then",
+    "example": "I do my homework, and then I play."
+  },
+  {
+    "id": "g5-w-ph-off",
+    "word": "off",
+    "example": "Take off your shoes here."
+  },
+  {
+    "id": "g5-w-ph-over",
+    "word": "over",
+    "example": "A bird flies over the house."
+  },
+  {
+    "id": "g5-w-ph-more",
+    "word": "more",
+    "example": "I want more water."
+  },
+  {
+    "id": "g5-w-ph-so",
+    "word": "so",
+    "example": "It is raining, so I stay home."
+  },
+  {
+    "id": "g5-w-ph-mr",
+    "word": "Mister",
+    "example": "Mr. Brown is our teacher."
+  },
+  {
+    "id": "g5-w-ph-ms",
+    "word": "Miz",
+    "example": "Ms. Green is our teacher."
+  },
+  {
+    "id": "g5-w-ph-mrs",
+    "word": "Missus",
+    "example": "Mrs. White lives near our school."
+  },
+  {
+    "id": "g5-w-ph-into",
+    "word": "into",
+    "example": "The cat goes into the box."
+  },
+  {
+    "id": "g5-w-ph-case",
+    "word": "case",
+    "example": "My glasses are in this case."
+  },
+  {
+    "id": "g5-w-ph-package",
+    "word": "package",
+    "example": "This package is for you."
+  },
+  {
+    "id": "g5-w-ph-magazine",
+    "word": "magazine",
+    "example": "My father reads a music magazine."
+  },
+  {
+    "id": "g5-w-ph-soap",
+    "word": "soap",
+    "example": "Wash your hands with soap."
+  },
+  {
+    "id": "g5-w-ph-towel",
+    "word": "towel",
+    "example": "I use a towel after swimming."
+  },
+  {
+    "id": "g5-w-ph-chalk",
+    "word": "chalk",
+    "example": "The teacher writes with chalk."
+  },
+  {
+    "id": "g5-w-ph-exam",
+    "word": "exam",
+    "example": "I have an English exam tomorrow."
+  },
+  {
+    "id": "g5-w-ph-ground",
+    "word": "ground",
+    "example": "We run on the school ground."
+  },
+  {
+    "id": "g5-w-ph-doghouse",
+    "word": "doghouse",
+    "example": "The dog is in its doghouse."
+  },
+  {
+    "id": "g5-w-ph-telephone",
+    "word": "telephone",
+    "example": "The telephone is on the desk."
+  },
+  {
+    "id": "g5-w-ph-poster",
+    "word": "poster",
+    "example": "There is a poster on the wall."
+  },
+  {
+    "id": "g5-w-ph-living",
+    "word": "living",
+    "example": "Living in this town is fun."
+  },
+  {
+    "id": "g5-w-ph-backpack",
+    "word": "backpack",
+    "example": "My books are in my backpack."
+  },
+  {
+    "id": "g5-w-ph-police",
+    "word": "police",
+    "example": "Call the police, please."
+  },
+  {
+    "id": "g5-w-ph-theater",
+    "word": "theater",
+    "example": "We go to the theater on Sunday."
+  },
+  {
+    "id": "g5-w-ph-post",
+    "word": "post",
+    "example": "Put the letter in the postbox."
+  },
+  {
+    "id": "g5-w-ph-tower",
+    "word": "tower",
+    "example": "That tower is very tall."
+  },
+  {
+    "id": "g5-w-ph-bench",
+    "word": "bench",
+    "example": "Let's sit on this bench."
+  },
+  {
+    "id": "g5-w-ph-softball",
+    "word": "softball",
+    "example": "We play softball at school."
+  },
+  {
+    "id": "g5-w-ph-pineapple",
+    "word": "pineapple",
+    "example": "I cut a pineapple."
+  },
+  {
+    "id": "g5-w-ph-pumpkin",
+    "word": "pumpkin",
+    "example": "We make pumpkin soup."
+  },
+  {
+    "id": "g5-w-ph-cucumber",
+    "word": "cucumber",
+    "example": "I put a cucumber in the salad."
+  },
+  {
+    "id": "g5-w-ph-cream",
+    "word": "cream",
+    "example": "Put some cream on the cake."
+  },
+  {
+    "id": "g5-w-ph-pie",
+    "word": "pie",
+    "example": "My mother makes an apple pie."
+  },
+  {
+    "id": "g5-w-ph-dessert",
+    "word": "dessert",
+    "example": "We have fruit for dessert."
+  },
+  {
+    "id": "g5-w-ph-ham",
+    "word": "ham",
+    "example": "I have a ham sandwich."
+  },
+  {
+    "id": "g5-w-ph-sushi",
+    "word": "sushi",
+    "example": "My family likes sushi."
+  },
+  {
+    "id": "g5-w-ph-sausage",
+    "word": "sausage",
+    "example": "I cook a sausage for breakfast."
+  },
+  {
+    "id": "g5-w-ph-yogurt",
+    "word": "yogurt",
+    "example": "I eat yogurt with fruit."
+  },
+  {
+    "id": "g5-w-ph-lunchbox",
+    "word": "lunchbox",
+    "example": "My lunchbox is blue."
+  },
+  {
+    "id": "g5-w-ph-chopsticks",
+    "word": "chopsticks",
+    "example": "I eat rice with chopsticks."
+  },
+  {
+    "id": "g5-w-ph-concert",
+    "word": "concert",
+    "example": "We go to a concert tonight."
+  },
+  {
+    "id": "g5-w-ph-band",
+    "word": "band",
+    "example": "My brother is in a band."
+  },
+  {
+    "id": "g5-w-ph-harmonica",
+    "word": "harmonica",
+    "example": "I can play the harmonica."
+  },
+  {
+    "id": "g5-w-ph-drum",
+    "word": "drum",
+    "example": "Ben plays the drum."
+  },
+  {
+    "id": "g5-w-ph-violin",
+    "word": "violin",
+    "example": "She plays the violin every day."
+  },
+  {
+    "id": "g5-w-ph-rose",
+    "word": "rose",
+    "example": "There is a red rose in the garden."
+  },
+  {
+    "id": "g5-w-ph-kilogram",
+    "word": "kilogram",
+    "example": "This bag weighs one kilogram."
+  },
+  {
+    "id": "g5-w-ph-centimeter",
+    "word": "centimeter",
+    "example": "This pencil is ten centimeters long."
+  },
+  {
+    "id": "g5-w-ph-cent",
+    "word": "cent",
+    "example": "This coin is one cent."
+  },
+  {
+    "id": "g5-w-ph-hi",
+    "word": "hi",
+    "example": "Hi, Ken! How are you?"
+  },
+  {
+    "id": "g5-w-ph-goodbye",
+    "word": "goodbye",
+    "example": "Goodbye, everyone. See you tomorrow."
+  },
+  {
+    "id": "g5-w-ph-bye",
+    "word": "bye",
+    "example": "Bye, Ken. See you soon."
+  },
+  {
+    "id": "g5-w-ph-hey",
+    "word": "hey",
+    "example": "Hey, Tom! Look at this."
+  },
+  {
+    "id": "g5-w-ph-final",
+    "word": "final",
+    "example": "This is the final question."
+  },
+  {
+    "id": "g5-w-ph-main",
+    "word": "main",
+    "example": "This is the main entrance."
+  },
+  {
+    "id": "g5-w-ph-soft",
+    "word": "soft",
+    "example": "This pillow is soft."
+  },
+  {
+    "id": "g5-w-ph-will",
+    "word": "will",
+    "example": "I will call you tomorrow."
+  },
+  {
+    "id": "g5-w-ph-welcome",
+    "word": "welcome",
+    "example": "Welcome to our school."
+  },
+  {
+    "id": "g5-w-ph-later",
+    "word": "later",
+    "example": "I will do my homework later."
+  },
+  {
+    "id": "g5-w-ph-thank",
+    "word": "thank",
+    "example": "I want to thank my teacher."
+  },
+  {
+    "id": "g5-w-ph-orange-color",
+    "word": "orange",
+    "example": "This bag is orange."
   }
 ]

@@ -1,3 +1,4 @@
+import {spokenWord} from './quiz.js';
 import {karutaPriority,karutaRecord,validKarutaTake} from './karuta-learning.js';
 const compare=(state,face,now,leastPracticed)=>(a,b)=>{
  if(!state)return 0;
@@ -14,7 +15,7 @@ export function karutaPool(cards,theme='all',face='meaning',state=null,now=Date.
   if(state&&!Number.isFinite(karutaPriority(state,c.id,face,now)))return false;
   if(theme!=='all'&&c.theme!==theme)return false;
   // Identical visible meanings or spoken English must never compete on one board.
-  const keys=['en:'+c.en.trim().toLowerCase(),...(face==='meaning'?['ja:'+c.ja.trim()]:[])];
+  const keys=['en:'+c.en.trim().toLowerCase(),'audio:'+spokenWord(c),...(face==='meaning'?['ja:'+c.ja.trim()]:[])];
   if(keys.some(k=>seen.has(k)))return false;
   keys.forEach(k=>seen.add(k));return true;
  });

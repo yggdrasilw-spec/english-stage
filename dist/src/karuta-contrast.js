@@ -1,5 +1,8 @@
 // Explanations describe the senses taught by this deck, not every dictionary sense.
 const groups=[
+ [['phone','telephone'],'どちらも「電話」。phone は telephone を短くした言い方だよ。音を聞き比べよう。',{}],
+ [['police officer','police'],'police officer は警察官１人。police は警察という組織や、警察の人たちをまとめた言い方だよ。',{
+  'police officer':'a police officer で「警察官１人」。',police:'警察という組織や人たち。１人を a police とは言わないよ。'}],
  [['snow','snowy'],'snow は雪そのもの。snowy は雪が降ったり、積もったりしているようすを表すよ。',{
   snow:'空から降ってくる「雪」の名前。',snowy:'「雪の降る・雪の多い」という、天気や場所のようす。'}],
  [['rain','rainy'],'rain は雨そのもの。rainy は雨が降るような天気を表すよ。',{

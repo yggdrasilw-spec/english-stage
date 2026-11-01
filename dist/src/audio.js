@@ -21,7 +21,7 @@ export async function play(card,{example=false,slow=false}={}){
  await ready();if(mine!==token)return false;
  const voices=availableVoices();const voice=voices.find(v=>v.localService)||voices[0];
  if(!voice)throw Error('米国英語（en-US）の音声が見つかりません。端末の英語音声を追加し、ページを開き直してください。聞く問題は「読んで練習に切り替える」を使えます。');
- const utterance=new SpeechSynthesisUtterance(example?card.example:card.en);utterance.voice=voice;utterance.lang='en-US';utterance.rate=slow?.7:.9;
+ const utterance=new SpeechSynthesisUtterance(example?card.example:(card.audioText||card.en));utterance.voice=voice;utterance.lang='en-US';utterance.rate=slow?.7:.9;
  utterance.onerror=e=>{if(mine===token&&!['canceled','interrupted'].includes(e.error))document.dispatchEvent(new CustomEvent('audio-error',{detail:'音声を再生できません。「もう一度」で再試行するか、読んで練習に切り替えてください。'}));};
  speechSynthesis.speak(utterance);return true;
 }

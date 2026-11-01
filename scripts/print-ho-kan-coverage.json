@@ -1,0 +1,5317 @@
+{
+  "schema": 1,
+  "sourceUrl": "https://desafiante.net/eiken-g5-tango-a/",
+  "pdfUrl": "https://desafiante.net/wp-content/uploads/2019/09/英検5級結合版-解答サンプル.pdf",
+  "checkedAt": "2026-11-01",
+  "pdfSha256": "648ed26419738354d40658f6dbb30bebc578b0a55c9059e287bf3d353aee29ea",
+  "referenceRows": 530,
+  "rankRows": {
+    "A": 415,
+    "B": 115
+  },
+  "addedItems": 76,
+  "rankingNote": "出典のA/B分類のみ。英検公式の重要度や、各語の実測出現頻度を意味しない。同一ランク内はPDFの掲載順。",
+  "entries": [
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 1,
+      "referenceEnglish": "cook",
+      "itemIds": [
+        "g5-w-cook"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 2,
+      "referenceEnglish": "know",
+      "itemIds": [
+        "g5-w-know"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 3,
+      "referenceEnglish": "watch",
+      "itemIds": [
+        "g5-w-watch"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 4,
+      "referenceEnglish": "open",
+      "itemIds": [
+        "g5-w-open"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 5,
+      "referenceEnglish": "sleep",
+      "itemIds": [
+        "g5-w-sleep"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 6,
+      "referenceEnglish": "run",
+      "itemIds": [
+        "g5-w-run"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 7,
+      "referenceEnglish": "speak",
+      "itemIds": [
+        "g5-w-speak"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 8,
+      "referenceEnglish": "look",
+      "itemIds": [
+        "g5-w-look"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 9,
+      "referenceEnglish": "play",
+      "itemIds": [
+        "g5-w-play"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 10,
+      "referenceEnglish": "swim",
+      "itemIds": [
+        "g5-w-swim"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 11,
+      "referenceEnglish": "have",
+      "itemIds": [
+        "g5-w-have"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 12,
+      "referenceEnglish": "eat",
+      "itemIds": [
+        "g5-w-eat"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 13,
+      "referenceEnglish": "like",
+      "itemIds": [
+        "g5-w-like"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 14,
+      "referenceEnglish": "make",
+      "itemIds": [
+        "g5-w-make"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 15,
+      "referenceEnglish": "come",
+      "itemIds": [
+        "g5-w-come"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 16,
+      "referenceEnglish": "use",
+      "itemIds": [
+        "g5-w-use"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 17,
+      "referenceEnglish": "buy",
+      "itemIds": [
+        "g5-w-buy"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 18,
+      "referenceEnglish": "go",
+      "itemIds": [
+        "g5-w-go"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 19,
+      "referenceEnglish": "live",
+      "itemIds": [
+        "g5-w-live"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 1,
+      "number": 20,
+      "referenceEnglish": "do",
+      "itemIds": [
+        "g5-w-do"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 1,
+      "referenceEnglish": "write",
+      "itemIds": [
+        "g5-w-write"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 2,
+      "referenceEnglish": "want",
+      "itemIds": [
+        "g5-w-want"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 3,
+      "referenceEnglish": "wash",
+      "itemIds": [
+        "g5-w-wash"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 4,
+      "referenceEnglish": "read",
+      "itemIds": [
+        "g5-w-read"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 5,
+      "referenceEnglish": "see",
+      "itemIds": [
+        "g5-w-see"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 6,
+      "referenceEnglish": "get",
+      "itemIds": [
+        "g5-w-get"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 7,
+      "referenceEnglish": "sit",
+      "itemIds": [
+        "g5-w-sit"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 8,
+      "referenceEnglish": "take",
+      "itemIds": [
+        "g5-w-take"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 9,
+      "referenceEnglish": "listen",
+      "itemIds": [
+        "g5-w-listen"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 10,
+      "referenceEnglish": "teach",
+      "itemIds": [
+        "g5-w-teach"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 11,
+      "referenceEnglish": "love",
+      "itemIds": [
+        "g5-w-love"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 12,
+      "referenceEnglish": "need",
+      "itemIds": [
+        "g5-w-need"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 13,
+      "referenceEnglish": "think",
+      "itemIds": [
+        "g5-w-think"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 14,
+      "referenceEnglish": "stand",
+      "itemIds": [
+        "g5-w-stand"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 15,
+      "referenceEnglish": "dance",
+      "itemIds": [
+        "g5-w-dance"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 16,
+      "referenceEnglish": "start",
+      "itemIds": [
+        "g5-w-start"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 17,
+      "referenceEnglish": "meet",
+      "itemIds": [
+        "g5-w-meet"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 18,
+      "referenceEnglish": "study",
+      "itemIds": [
+        "g5-w-study"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 19,
+      "referenceEnglish": "help",
+      "itemIds": [
+        "g5-w-help"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 2,
+      "number": 20,
+      "referenceEnglish": "drink",
+      "itemIds": [
+        "g5-w-drink"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 1,
+      "referenceEnglish": "wait",
+      "itemIds": [
+        "g5-w-wait"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 2,
+      "referenceEnglish": "close",
+      "itemIds": [
+        "g5-w-close"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 3,
+      "referenceEnglish": "ski",
+      "itemIds": [
+        "g5-w-rj-ski"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 4,
+      "referenceEnglish": "enjoy",
+      "itemIds": [
+        "g5-w-enjoy"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 5,
+      "referenceEnglish": "put",
+      "itemIds": [
+        "g5-w-put"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 6,
+      "referenceEnglish": "learn",
+      "itemIds": [
+        "g5-w-learn"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 7,
+      "referenceEnglish": "walk",
+      "itemIds": [
+        "g5-w-walk"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 8,
+      "referenceEnglish": "rain",
+      "itemIds": [
+        "g5-w-rain"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 9,
+      "referenceEnglish": "call",
+      "itemIds": [
+        "g5-w-call"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 10,
+      "referenceEnglish": "talk",
+      "itemIds": [
+        "g5-w-talk"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 11,
+      "referenceEnglish": "give",
+      "itemIds": [
+        "g5-w-give"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 12,
+      "referenceEnglish": "clean",
+      "itemIds": [
+        "g5-w-clean"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 13,
+      "referenceEnglish": "stop",
+      "itemIds": [
+        "g5-w-stop"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 14,
+      "referenceEnglish": "begin",
+      "itemIds": [
+        "g5-w-rj-begin"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 15,
+      "referenceEnglish": "work",
+      "itemIds": [
+        "g5-w-work"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 16,
+      "referenceEnglish": "smile",
+      "itemIds": [
+        "g5-w-smile"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 17,
+      "referenceEnglish": "brush",
+      "itemIds": [
+        "g5-w-brush"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 18,
+      "referenceEnglish": "practice",
+      "itemIds": [
+        "g5-w-practice"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 19,
+      "referenceEnglish": "camp",
+      "itemIds": [
+        "g5-w-rj-camp"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 3,
+      "number": 20,
+      "referenceEnglish": "sing",
+      "itemIds": [
+        "g5-w-sing"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 1,
+      "referenceEnglish": "box",
+      "itemIds": [
+        "g5-w-box"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 2,
+      "referenceEnglish": "house",
+      "itemIds": [
+        "g5-w-house"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 3,
+      "referenceEnglish": "letter",
+      "itemIds": [
+        "g5-w-letter"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 4,
+      "referenceEnglish": "bag",
+      "itemIds": [
+        "g5-w-bag"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 5,
+      "referenceEnglish": "hat",
+      "itemIds": [
+        "g5-w-hat"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 6,
+      "referenceEnglish": "book",
+      "itemIds": [
+        "g5-w-book"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 7,
+      "referenceEnglish": "newspaper",
+      "itemIds": [
+        "g5-w-rj-newspaper"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 8,
+      "referenceEnglish": "camera",
+      "itemIds": [
+        "g5-w-camera"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 9,
+      "referenceEnglish": "kitchen",
+      "itemIds": [
+        "g5-w-kitchen"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 10,
+      "referenceEnglish": "picture",
+      "itemIds": [
+        "g5-w-picture"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 11,
+      "referenceEnglish": "home",
+      "itemIds": [
+        "g5-w-home"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 12,
+      "referenceEnglish": "cap",
+      "itemIds": [
+        "g5-w-cap"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 13,
+      "referenceEnglish": "watch",
+      "itemIds": [
+        "g5-w-rj-a-watch"
+      ],
+      "note": "同じ綴りの動詞ではなく、既存の名詞カードに対応"
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 14,
+      "referenceEnglish": "window",
+      "itemIds": [
+        "g5-w-window"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 15,
+      "referenceEnglish": "cup",
+      "itemIds": [
+        "g5-w-cup"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 16,
+      "referenceEnglish": "garden",
+      "itemIds": [
+        "g5-w-garden"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 17,
+      "referenceEnglish": "bed",
+      "itemIds": [
+        "g5-w-bed"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 18,
+      "referenceEnglish": "table",
+      "itemIds": [
+        "g5-w-table"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 19,
+      "referenceEnglish": "door",
+      "itemIds": [
+        "g5-w-door"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 20,
+      "referenceEnglish": "comic",
+      "itemIds": [
+        "g5-w-ph-comic"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 21,
+      "referenceEnglish": "phone",
+      "itemIds": [
+        "g5-w-phone"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 22,
+      "referenceEnglish": "TV",
+      "itemIds": [
+        "g5-w-tv"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 23,
+      "referenceEnglish": "chair",
+      "itemIds": [
+        "g5-w-chair"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 24,
+      "referenceEnglish": "clock",
+      "itemIds": [
+        "g5-w-clock"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 4,
+      "number": 25,
+      "referenceEnglish": "room",
+      "itemIds": [
+        "g5-w-room"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 1,
+      "referenceEnglish": "e-mail",
+      "itemIds": [
+        "g5-w-ph-e-mail"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 2,
+      "referenceEnglish": "computer",
+      "itemIds": [
+        "g5-w-computer"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 3,
+      "referenceEnglish": "time",
+      "itemIds": [
+        "g5-w-time"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 4,
+      "referenceEnglish": "afternoon",
+      "itemIds": [
+        "g5-w-afternoon"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 5,
+      "referenceEnglish": "evening",
+      "itemIds": [
+        "g5-w-evening"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 6,
+      "referenceEnglish": "morning",
+      "itemIds": [
+        "g5-w-morning"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 7,
+      "referenceEnglish": "night",
+      "itemIds": [
+        "g5-w-night"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 8,
+      "referenceEnglish": "hour",
+      "itemIds": [
+        "g5-w-hour"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 9,
+      "referenceEnglish": "day",
+      "itemIds": [
+        "g5-w-day"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 10,
+      "referenceEnglish": "weekend",
+      "itemIds": [
+        "g5-w-weekend"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 11,
+      "referenceEnglish": "tomorrow",
+      "itemIds": [
+        "g5-w-tomorrow"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 12,
+      "referenceEnglish": "school",
+      "itemIds": [
+        "g5-w-school"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 13,
+      "referenceEnglish": "student",
+      "itemIds": [
+        "g5-w-student"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 14,
+      "referenceEnglish": "shirt",
+      "itemIds": [
+        "g5-w-shirt"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 15,
+      "referenceEnglish": "jacket",
+      "itemIds": [
+        "g5-w-jacket"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 16,
+      "referenceEnglish": "T-shirt",
+      "itemIds": [
+        "g5-w-t-shirt"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 17,
+      "referenceEnglish": "today",
+      "itemIds": [
+        "g5-w-today"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 18,
+      "referenceEnglish": "date",
+      "itemIds": [
+        "g5-w-ph-date"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 19,
+      "referenceEnglish": "year",
+      "itemIds": [
+        "g5-w-year"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 20,
+      "referenceEnglish": "second",
+      "itemIds": [
+        "g5-w-second"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 21,
+      "referenceEnglish": "week",
+      "itemIds": [
+        "g5-w-week"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 22,
+      "referenceEnglish": "name",
+      "itemIds": [
+        "g5-w-name"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 23,
+      "referenceEnglish": "homework",
+      "itemIds": [
+        "g5-w-homework"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 24,
+      "referenceEnglish": "class",
+      "itemIds": [
+        "g5-w-class"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 5,
+      "number": 25,
+      "referenceEnglish": "teacher",
+      "itemIds": [
+        "g5-w-teacher"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 1,
+      "referenceEnglish": "people",
+      "itemIds": [
+        "g5-w-people"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 2,
+      "referenceEnglish": "girl",
+      "itemIds": [
+        "g5-w-girl"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 3,
+      "referenceEnglish": "boy",
+      "itemIds": [
+        "g5-w-boy"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 4,
+      "referenceEnglish": "man",
+      "itemIds": [
+        "g5-w-man"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 5,
+      "referenceEnglish": "woman",
+      "itemIds": [
+        "g5-w-woman"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 6,
+      "referenceEnglish": "friend",
+      "itemIds": [
+        "g5-w-friend"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 7,
+      "referenceEnglish": "science",
+      "itemIds": [
+        "g5-w-science"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 8,
+      "referenceEnglish": "math",
+      "itemIds": [
+        "g5-w-math"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 9,
+      "referenceEnglish": "desk",
+      "itemIds": [
+        "g5-w-desk"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 10,
+      "referenceEnglish": "pen",
+      "itemIds": [
+        "g5-w-pen"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 11,
+      "referenceEnglish": "art",
+      "itemIds": [
+        "g5-w-art"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 12,
+      "referenceEnglish": "P.E.",
+      "itemIds": [
+        "g5-w-pe"
+      ],
+      "note": "略語のピリオドの有無"
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 13,
+      "referenceEnglish": "history",
+      "itemIds": [
+        "g5-w-rj-history"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 14,
+      "referenceEnglish": "pencil",
+      "itemIds": [
+        "g5-w-pencil"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 15,
+      "referenceEnglish": "notebook",
+      "itemIds": [
+        "g5-w-notebook"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 16,
+      "referenceEnglish": "classroom",
+      "itemIds": [
+        "g5-w-classroom"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 17,
+      "referenceEnglish": "club",
+      "itemIds": [
+        "g5-w-club"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 18,
+      "referenceEnglish": "classmate",
+      "itemIds": [
+        "g5-w-ph-classmate"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 19,
+      "referenceEnglish": "subject",
+      "itemIds": [
+        "g5-w-subject"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 20,
+      "referenceEnglish": "gym",
+      "itemIds": [
+        "g5-w-gym"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 21,
+      "referenceEnglish": "story",
+      "itemIds": [
+        "g5-w-story"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 22,
+      "referenceEnglish": "cafeteria",
+      "itemIds": [
+        "g5-w-ph-cafeteria"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 23,
+      "referenceEnglish": "number",
+      "itemIds": [
+        "g5-w-number"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 24,
+      "referenceEnglish": "test",
+      "itemIds": [
+        "g5-w-test"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 6,
+      "number": 25,
+      "referenceEnglish": "idea",
+      "itemIds": [
+        "g5-w-idea"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 1,
+      "referenceEnglish": "library",
+      "itemIds": [
+        "g5-w-library"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 2,
+      "referenceEnglish": "dinner",
+      "itemIds": [
+        "g5-w-dinner"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 3,
+      "referenceEnglish": "job",
+      "itemIds": [
+        "g5-w-rj-job"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 4,
+      "referenceEnglish": "place",
+      "itemIds": [
+        "g5-w-place"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 5,
+      "referenceEnglish": "hospital",
+      "itemIds": [
+        "g5-w-hospital"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 6,
+      "referenceEnglish": "officer",
+      "itemIds": [
+        "g5-w-rj-officer"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 7,
+      "referenceEnglish": "singer",
+      "itemIds": [
+        "g5-w-singer"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 8,
+      "referenceEnglish": "player",
+      "itemIds": [
+        "g5-w-player"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 9,
+      "referenceEnglish": "doctor",
+      "itemIds": [
+        "g5-w-doctor"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 10,
+      "referenceEnglish": "city",
+      "itemIds": [
+        "g5-w-city"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 11,
+      "referenceEnglish": "store",
+      "itemIds": [
+        "g5-w-store"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 12,
+      "referenceEnglish": "park",
+      "itemIds": [
+        "g5-w-park"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 13,
+      "referenceEnglish": "plane",
+      "itemIds": [
+        "g5-w-plane"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 14,
+      "referenceEnglish": "train",
+      "itemIds": [
+        "g5-w-train"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 15,
+      "referenceEnglish": "car",
+      "itemIds": [
+        "g5-w-car"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 16,
+      "referenceEnglish": "bus",
+      "itemIds": [
+        "g5-w-bus"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 17,
+      "referenceEnglish": "station",
+      "itemIds": [
+        "g5-w-station"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 18,
+      "referenceEnglish": "movie",
+      "itemIds": [
+        "g5-w-movie"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 19,
+      "referenceEnglish": "right",
+      "itemIds": [
+        "g5-w-right"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 20,
+      "referenceEnglish": "shopping",
+      "itemIds": [
+        "g5-w-shopping"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 21,
+      "referenceEnglish": "supermarket",
+      "itemIds": [
+        "g5-w-supermarket"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 22,
+      "referenceEnglish": "restaurant",
+      "itemIds": [
+        "g5-w-restaurant"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 23,
+      "referenceEnglish": "street",
+      "itemIds": [
+        "g5-w-street"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 24,
+      "referenceEnglish": "zoo",
+      "itemIds": [
+        "g5-w-zoo"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 7,
+      "number": 25,
+      "referenceEnglish": "bridge",
+      "itemIds": [
+        "g5-w-bridge"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 1,
+      "referenceEnglish": "coffee",
+      "itemIds": [
+        "g5-w-coffee"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 2,
+      "referenceEnglish": "juice",
+      "itemIds": [
+        "g5-w-juice"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 3,
+      "referenceEnglish": "tea",
+      "itemIds": [
+        "g5-w-tea"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 4,
+      "referenceEnglish": "milk",
+      "itemIds": [
+        "g5-w-milk"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 5,
+      "referenceEnglish": "breakfast",
+      "itemIds": [
+        "g5-w-breakfast"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 6,
+      "referenceEnglish": "lunch",
+      "itemIds": [
+        "g5-w-lunch"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 7,
+      "referenceEnglish": "ice",
+      "itemIds": [
+        "g5-w-ph-ice"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 8,
+      "referenceEnglish": "fruit",
+      "itemIds": [
+        "g5-w-fruit"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 9,
+      "referenceEnglish": "apple",
+      "itemIds": [
+        "g5-w-apple"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 10,
+      "referenceEnglish": "sandwich",
+      "itemIds": [
+        "g5-w-sandwich"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 11,
+      "referenceEnglish": "food",
+      "itemIds": [
+        "g5-w-food"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 12,
+      "referenceEnglish": "orange",
+      "itemIds": [
+        "g5-w-orange"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 13,
+      "referenceEnglish": "rice",
+      "itemIds": [
+        "g5-w-rice"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 14,
+      "referenceEnglish": "pizza",
+      "itemIds": [
+        "g5-w-pizza"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 15,
+      "referenceEnglish": "cookie",
+      "itemIds": [
+        "g5-w-cookie"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 16,
+      "referenceEnglish": "bread",
+      "itemIds": [
+        "g5-w-bread"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 17,
+      "referenceEnglish": "meat",
+      "itemIds": [
+        "g5-w-meat"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 18,
+      "referenceEnglish": "soup",
+      "itemIds": [
+        "g5-w-soup"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 19,
+      "referenceEnglish": "dish",
+      "itemIds": [
+        "g5-w-rj-dish"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 20,
+      "referenceEnglish": "egg",
+      "itemIds": [
+        "g5-w-egg"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 21,
+      "referenceEnglish": "sport",
+      "itemIds": [
+        "g5-w-sport"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 22,
+      "referenceEnglish": "soccer",
+      "itemIds": [
+        "g5-w-soccer"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 23,
+      "referenceEnglish": "basketball",
+      "itemIds": [
+        "g5-w-basketball"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 24,
+      "referenceEnglish": "baseball",
+      "itemIds": [
+        "g5-w-baseball"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 8,
+      "number": 25,
+      "referenceEnglish": "tennis",
+      "itemIds": [
+        "g5-w-tennis"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 1,
+      "referenceEnglish": "bike",
+      "itemIds": [
+        "g5-w-bike"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 2,
+      "referenceEnglish": "game",
+      "itemIds": [
+        "g5-w-game"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 3,
+      "referenceEnglish": "ball",
+      "itemIds": [
+        "g5-w-ball"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 4,
+      "referenceEnglish": "football",
+      "itemIds": [
+        "g5-w-ph-football"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 5,
+      "referenceEnglish": "volleyball",
+      "itemIds": [
+        "g5-w-volleyball"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 6,
+      "referenceEnglish": "racket",
+      "itemIds": [
+        "g5-w-racket"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 7,
+      "referenceEnglish": "team",
+      "itemIds": [
+        "g5-w-team"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 8,
+      "referenceEnglish": "bird",
+      "itemIds": [
+        "g5-w-bird"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 9,
+      "referenceEnglish": "cat",
+      "itemIds": [
+        "g5-w-cat"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 10,
+      "referenceEnglish": "dog",
+      "itemIds": [
+        "g5-w-dog"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 11,
+      "referenceEnglish": "animal",
+      "itemIds": [
+        "g5-w-rj-animal"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 12,
+      "referenceEnglish": "fish",
+      "itemIds": [
+        "g5-w-fish"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 13,
+      "referenceEnglish": "flower",
+      "itemIds": [
+        "g5-w-flower"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 14,
+      "referenceEnglish": "tree",
+      "itemIds": [
+        "g5-w-tree"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 15,
+      "referenceEnglish": "family",
+      "itemIds": [
+        "g5-w-family"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 16,
+      "referenceEnglish": "father",
+      "itemIds": [
+        "g5-w-father"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 17,
+      "referenceEnglish": "mother",
+      "itemIds": [
+        "g5-w-mother"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 18,
+      "referenceEnglish": "sister",
+      "itemIds": [
+        "g5-w-sister"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 19,
+      "referenceEnglish": "brother",
+      "itemIds": [
+        "g5-w-brother"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 20,
+      "referenceEnglish": "grandfather",
+      "itemIds": [
+        "g5-w-grandfather"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 21,
+      "referenceEnglish": "grandmother",
+      "itemIds": [
+        "g5-w-grandmother"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 22,
+      "referenceEnglish": "aunt",
+      "itemIds": [
+        "g5-w-aunt"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 23,
+      "referenceEnglish": "uncle",
+      "itemIds": [
+        "g5-w-uncle"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 24,
+      "referenceEnglish": "son",
+      "itemIds": [
+        "g5-w-ph-son"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 9,
+      "number": 25,
+      "referenceEnglish": "daughter",
+      "itemIds": [
+        "g5-w-ph-daughter"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 1,
+      "referenceEnglish": "snow",
+      "itemIds": [
+        "g5-w-snow"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 2,
+      "referenceEnglish": "mountain",
+      "itemIds": [
+        "g5-w-mountain"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 3,
+      "referenceEnglish": "river",
+      "itemIds": [
+        "g5-w-river"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 4,
+      "referenceEnglish": "water",
+      "itemIds": [
+        "g5-w-water"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 5,
+      "referenceEnglish": "weather",
+      "itemIds": [
+        "g5-w-weather"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 6,
+      "referenceEnglish": "music",
+      "itemIds": [
+        "g5-w-music"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 7,
+      "referenceEnglish": "rock",
+      "itemIds": [
+        "g5-w-ph-rock"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 8,
+      "referenceEnglish": "guitar",
+      "itemIds": [
+        "g5-w-guitar"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 9,
+      "referenceEnglish": "flute",
+      "itemIds": [
+        "g5-w-ph-flute"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 10,
+      "referenceEnglish": "piano",
+      "itemIds": [
+        "g5-w-piano"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 11,
+      "referenceEnglish": "song",
+      "itemIds": [
+        "g5-w-song"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 12,
+      "referenceEnglish": "CD",
+      "itemIds": [
+        "g5-w-cd"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 13,
+      "referenceEnglish": "coat",
+      "itemIds": [
+        "g5-w-coat"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 14,
+      "referenceEnglish": "coin",
+      "itemIds": [
+        "g5-w-coin"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 15,
+      "referenceEnglish": "diary",
+      "itemIds": [
+        "g5-w-rj-diary"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 16,
+      "referenceEnglish": "birthday",
+      "itemIds": [
+        "g5-w-birthday"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 17,
+      "referenceEnglish": "present",
+      "itemIds": [
+        "g5-w-present"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 18,
+      "referenceEnglish": "party",
+      "itemIds": [
+        "g5-w-party"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 19,
+      "referenceEnglish": "Wednesday",
+      "itemIds": [
+        "g5-w-wednesday"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 20,
+      "referenceEnglish": "Tuesday",
+      "itemIds": [
+        "g5-w-tuesday"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 21,
+      "referenceEnglish": "Saturday",
+      "itemIds": [
+        "g5-w-saturday"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 22,
+      "referenceEnglish": "Thursday",
+      "itemIds": [
+        "g5-w-thursday"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 23,
+      "referenceEnglish": "Monday",
+      "itemIds": [
+        "g5-w-monday"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 24,
+      "referenceEnglish": "Sunday",
+      "itemIds": [
+        "g5-w-sunday"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 10,
+      "number": 25,
+      "referenceEnglish": "Friday",
+      "itemIds": [
+        "g5-w-friday"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 1,
+      "referenceEnglish": "month",
+      "itemIds": [
+        "g5-w-month"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 2,
+      "referenceEnglish": "March",
+      "itemIds": [
+        "g5-w-march"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 3,
+      "referenceEnglish": "October",
+      "itemIds": [
+        "g5-w-october"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 4,
+      "referenceEnglish": "May",
+      "itemIds": [
+        "g5-w-may"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 5,
+      "referenceEnglish": "December",
+      "itemIds": [
+        "g5-w-december"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 6,
+      "referenceEnglish": "June",
+      "itemIds": [
+        "g5-w-june"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 7,
+      "referenceEnglish": "January",
+      "itemIds": [
+        "g5-w-january"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 8,
+      "referenceEnglish": "August",
+      "itemIds": [
+        "g5-w-august"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 9,
+      "referenceEnglish": "November",
+      "itemIds": [
+        "g5-w-november"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 10,
+      "referenceEnglish": "February",
+      "itemIds": [
+        "g5-w-february"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 11,
+      "referenceEnglish": "September",
+      "itemIds": [
+        "g5-w-september"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 12,
+      "referenceEnglish": "July",
+      "itemIds": [
+        "g5-w-july"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 13,
+      "referenceEnglish": "April",
+      "itemIds": [
+        "g5-w-april"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 14,
+      "referenceEnglish": "summer",
+      "itemIds": [
+        "g5-w-summer"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 15,
+      "referenceEnglish": "fall",
+      "itemIds": [
+        "g5-w-fall"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 16,
+      "referenceEnglish": "winter",
+      "itemIds": [
+        "g5-w-winter"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 17,
+      "referenceEnglish": "spring",
+      "itemIds": [
+        "g5-w-spring"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 18,
+      "referenceEnglish": "radio",
+      "itemIds": [
+        "g5-w-radio"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 19,
+      "referenceEnglish": "shoe",
+      "itemIds": [
+        "g5-w-shoe"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 20,
+      "referenceEnglish": "glass",
+      "itemIds": [
+        "g5-w-glass"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 21,
+      "referenceEnglish": "lesson",
+      "itemIds": [
+        "g5-w-lesson"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 22,
+      "referenceEnglish": "bicycle",
+      "itemIds": [
+        "g5-w-bicycle"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 23,
+      "referenceEnglish": "cake",
+      "itemIds": [
+        "g5-w-cake"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 24,
+      "referenceEnglish": "bookstore",
+      "itemIds": [
+        "g5-w-bookstore"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 11,
+      "number": 25,
+      "referenceEnglish": "eraser",
+      "itemIds": [
+        "g5-w-eraser"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 1,
+      "referenceEnglish": "color",
+      "itemIds": [
+        "g5-w-color"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 2,
+      "referenceEnglish": "brown",
+      "itemIds": [
+        "g5-w-brown"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 3,
+      "referenceEnglish": "red",
+      "itemIds": [
+        "g5-w-red"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 4,
+      "referenceEnglish": "orange",
+      "itemIds": [
+        "g5-w-ph-orange-color"
+      ],
+      "note": "果物とは別の色の語義"
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 5,
+      "referenceEnglish": "green",
+      "itemIds": [
+        "g5-w-green"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 6,
+      "referenceEnglish": "yellow",
+      "itemIds": [
+        "g5-w-yellow"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 7,
+      "referenceEnglish": "black",
+      "itemIds": [
+        "g5-w-black"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 8,
+      "referenceEnglish": "blue",
+      "itemIds": [
+        "g5-w-blue"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 9,
+      "referenceEnglish": "white",
+      "itemIds": [
+        "g5-w-white"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 10,
+      "referenceEnglish": "teeth",
+      "itemIds": [
+        "g5-w-teeth"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 11,
+      "referenceEnglish": "hand",
+      "itemIds": [
+        "g5-w-hand"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 12,
+      "referenceEnglish": "mouth",
+      "itemIds": [
+        "g5-w-mouth"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 13,
+      "referenceEnglish": "face",
+      "itemIds": [
+        "g5-w-face"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 14,
+      "referenceEnglish": "head",
+      "itemIds": [
+        "g5-w-head"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 15,
+      "referenceEnglish": "hair",
+      "itemIds": [
+        "g5-w-hair"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 16,
+      "referenceEnglish": "country",
+      "itemIds": [
+        "g5-w-country"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 17,
+      "referenceEnglish": "Japanese",
+      "itemIds": [
+        "g5-w-japanese"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 18,
+      "referenceEnglish": "English",
+      "itemIds": [
+        "g5-w-english"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 19,
+      "referenceEnglish": "Australia",
+      "itemIds": [
+        "g5-w-australia"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 20,
+      "referenceEnglish": "Canada",
+      "itemIds": [
+        "g5-w-canada"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 21,
+      "referenceEnglish": "American",
+      "itemIds": [
+        "g5-w-american"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 22,
+      "referenceEnglish": "Spanish",
+      "itemIds": [
+        "g5-w-ph-spanish"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 23,
+      "referenceEnglish": "Japan",
+      "itemIds": [
+        "g5-w-japan"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 24,
+      "referenceEnglish": "dollar",
+      "itemIds": [
+        "g5-w-dollar"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 12,
+      "number": 25,
+      "referenceEnglish": "meter",
+      "itemIds": [
+        "g5-w-ph-meter"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 1,
+      "referenceEnglish": "young",
+      "itemIds": [
+        "g5-w-young"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 2,
+      "referenceEnglish": "kind",
+      "itemIds": [
+        "g5-w-kind"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 3,
+      "referenceEnglish": "beautiful",
+      "itemIds": [
+        "g5-w-beautiful"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 4,
+      "referenceEnglish": "little",
+      "itemIds": [
+        "g5-w-little"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 5,
+      "referenceEnglish": "sleepy",
+      "itemIds": [
+        "g5-w-sleepy"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 6,
+      "referenceEnglish": "wonderful",
+      "itemIds": [
+        "g5-w-ph-wonderful"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 7,
+      "referenceEnglish": "hungry",
+      "itemIds": [
+        "g5-w-hungry"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 8,
+      "referenceEnglish": "next",
+      "itemIds": [
+        "g5-w-next"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 9,
+      "referenceEnglish": "small",
+      "itemIds": [
+        "g5-w-small"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 10,
+      "referenceEnglish": "great",
+      "itemIds": [
+        "g5-w-great"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 11,
+      "referenceEnglish": "snowy",
+      "itemIds": [
+        "g5-w-snowy"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 12,
+      "referenceEnglish": "too",
+      "itemIds": [
+        "g5-w-too"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 13,
+      "referenceEnglish": "pretty",
+      "itemIds": [
+        "g5-w-ph-pretty"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 14,
+      "referenceEnglish": "favorite",
+      "itemIds": [
+        "g5-w-favorite"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 15,
+      "referenceEnglish": "well",
+      "itemIds": [
+        "g5-w-well"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 16,
+      "referenceEnglish": "not",
+      "itemIds": [
+        "g5-w-not"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 17,
+      "referenceEnglish": "again",
+      "itemIds": [
+        "g5-w-again"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 18,
+      "referenceEnglish": "down",
+      "itemIds": [
+        "g5-w-down"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 19,
+      "referenceEnglish": "fast",
+      "itemIds": [
+        "g5-w-fast"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 13,
+      "number": 20,
+      "referenceEnglish": "busy",
+      "itemIds": [
+        "g5-w-busy"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 1,
+      "referenceEnglish": "nice",
+      "itemIds": [
+        "g5-w-nice"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 2,
+      "referenceEnglish": "new",
+      "itemIds": [
+        "g5-w-new"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 3,
+      "referenceEnglish": "old",
+      "itemIds": [
+        "g5-w-old"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 4,
+      "referenceEnglish": "pretty",
+      "itemIds": [
+        "g5-w-ph-pretty"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 5,
+      "referenceEnglish": "right",
+      "itemIds": [
+        "g5-w-right"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 6,
+      "referenceEnglish": "good",
+      "itemIds": [
+        "g5-w-good"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 7,
+      "referenceEnglish": "big",
+      "itemIds": [
+        "g5-w-big"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 8,
+      "referenceEnglish": "tall",
+      "itemIds": [
+        "g5-w-tall"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 9,
+      "referenceEnglish": "long",
+      "itemIds": [
+        "g5-w-long"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 10,
+      "referenceEnglish": "fine",
+      "itemIds": [
+        "g5-w-fine"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 11,
+      "referenceEnglish": "cold",
+      "itemIds": [
+        "g5-w-cold"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 12,
+      "referenceEnglish": "high",
+      "itemIds": [
+        "g5-w-high"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 13,
+      "referenceEnglish": "sunny",
+      "itemIds": [
+        "g5-w-sunny"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 14,
+      "referenceEnglish": "rainy",
+      "itemIds": [
+        "g5-w-rainy"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 15,
+      "referenceEnglish": "cloudy",
+      "itemIds": [
+        "g5-w-cloudy"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 16,
+      "referenceEnglish": "short",
+      "itemIds": [
+        "g5-w-short"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 17,
+      "referenceEnglish": "cute",
+      "itemIds": [
+        "g5-w-cute"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 18,
+      "referenceEnglish": "very",
+      "itemIds": [
+        "g5-w-very"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 19,
+      "referenceEnglish": "in",
+      "itemIds": [
+        "g5-w-in"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 14,
+      "number": 20,
+      "referenceEnglish": "happy",
+      "itemIds": [
+        "g5-w-happy"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 1,
+      "referenceEnglish": "there",
+      "itemIds": [
+        "g5-w-there"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 2,
+      "referenceEnglish": "usually",
+      "itemIds": [
+        "g5-w-usually"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 3,
+      "referenceEnglish": "often",
+      "itemIds": [
+        "g5-w-often"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 4,
+      "referenceEnglish": "up",
+      "itemIds": [
+        "g5-w-up"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 5,
+      "referenceEnglish": "second",
+      "itemIds": [
+        "g5-w-second"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 6,
+      "referenceEnglish": "also",
+      "itemIds": [
+        "g5-w-also"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 7,
+      "referenceEnglish": "always",
+      "itemIds": [
+        "g5-w-always"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 8,
+      "referenceEnglish": "then",
+      "itemIds": [
+        "g5-w-ph-then"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 9,
+      "referenceEnglish": "off",
+      "itemIds": [
+        "g5-w-ph-off"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 10,
+      "referenceEnglish": "really",
+      "itemIds": [
+        "g5-w-really"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 11,
+      "referenceEnglish": "sometimes",
+      "itemIds": [
+        "g5-w-sometimes"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 12,
+      "referenceEnglish": "last",
+      "itemIds": [
+        "g5-w-last"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 13,
+      "referenceEnglish": "here",
+      "itemIds": [
+        "g5-w-here"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 14,
+      "referenceEnglish": "out",
+      "itemIds": [
+        "g5-w-out"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 15,
+      "referenceEnglish": "over",
+      "itemIds": [
+        "g5-w-ph-over"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 16,
+      "referenceEnglish": "hot",
+      "itemIds": [
+        "g5-w-hot"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 17,
+      "referenceEnglish": "warm",
+      "itemIds": [
+        "g5-w-warm"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 18,
+      "referenceEnglish": "on",
+      "itemIds": [
+        "g5-w-on"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 19,
+      "referenceEnglish": "near",
+      "itemIds": [
+        "g5-w-near"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 15,
+      "number": 20,
+      "referenceEnglish": "now",
+      "itemIds": [
+        "g5-w-now"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 1,
+      "referenceEnglish": "I",
+      "itemIds": [
+        "g5-w-i"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 2,
+      "referenceEnglish": "my",
+      "itemIds": [
+        "g5-w-my"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 3,
+      "referenceEnglish": "me",
+      "itemIds": [
+        "g5-w-me"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 4,
+      "referenceEnglish": "mine",
+      "itemIds": [
+        "g5-w-mine"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 5,
+      "referenceEnglish": "you",
+      "itemIds": [
+        "g5-w-you"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 6,
+      "referenceEnglish": "your",
+      "itemIds": [
+        "g5-w-your"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 7,
+      "referenceEnglish": "yours",
+      "itemIds": [
+        "g5-w-yours"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 8,
+      "referenceEnglish": "he",
+      "itemIds": [
+        "g5-w-he"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 9,
+      "referenceEnglish": "his",
+      "itemIds": [
+        "g5-w-his"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 10,
+      "referenceEnglish": "him",
+      "itemIds": [
+        "g5-w-him"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 11,
+      "referenceEnglish": "she",
+      "itemIds": [
+        "g5-w-she"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 12,
+      "referenceEnglish": "her",
+      "itemIds": [
+        "g5-w-her"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 13,
+      "referenceEnglish": "hers",
+      "itemIds": [
+        "g5-w-rj-hers"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 14,
+      "referenceEnglish": "it",
+      "itemIds": [
+        "g5-w-it"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 15,
+      "referenceEnglish": "its",
+      "itemIds": [
+        "g5-w-rj-its"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 16,
+      "referenceEnglish": "we",
+      "itemIds": [
+        "g5-w-we"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 17,
+      "referenceEnglish": "our",
+      "itemIds": [
+        "g5-w-our"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 18,
+      "referenceEnglish": "us",
+      "itemIds": [
+        "g5-w-us"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 19,
+      "referenceEnglish": "ours",
+      "itemIds": [
+        "g5-w-rj-ours"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 20,
+      "referenceEnglish": "they",
+      "itemIds": [
+        "g5-w-they"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 21,
+      "referenceEnglish": "their",
+      "itemIds": [
+        "g5-w-their"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 22,
+      "referenceEnglish": "them",
+      "itemIds": [
+        "g5-w-them"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 23,
+      "referenceEnglish": "theirs",
+      "itemIds": [
+        "g5-w-rj-theirs"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 24,
+      "referenceEnglish": "before",
+      "itemIds": [
+        "g5-w-before"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 16,
+      "number": 25,
+      "referenceEnglish": "after",
+      "itemIds": [
+        "g5-w-after"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 1,
+      "referenceEnglish": "this",
+      "itemIds": [
+        "g5-w-this"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 2,
+      "referenceEnglish": "that",
+      "itemIds": [
+        "g5-w-that"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 3,
+      "referenceEnglish": "these",
+      "itemIds": [
+        "g5-w-these"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 4,
+      "referenceEnglish": "those",
+      "itemIds": [
+        "g5-w-those"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 5,
+      "referenceEnglish": "who",
+      "itemIds": [
+        "g5-w-who"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 6,
+      "referenceEnglish": "what",
+      "itemIds": [
+        "g5-w-what"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 7,
+      "referenceEnglish": "where",
+      "itemIds": [
+        "g5-w-where"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 8,
+      "referenceEnglish": "when",
+      "itemIds": [
+        "g5-w-when"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 9,
+      "referenceEnglish": "which",
+      "itemIds": [
+        "g5-w-which"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 10,
+      "referenceEnglish": "whose",
+      "itemIds": [
+        "g5-w-whose"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 11,
+      "referenceEnglish": "why",
+      "itemIds": [
+        "g5-w-why"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 12,
+      "referenceEnglish": "how",
+      "itemIds": [
+        "g5-w-how"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 13,
+      "referenceEnglish": "some",
+      "itemIds": [
+        "g5-w-some"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 14,
+      "referenceEnglish": "every",
+      "itemIds": [
+        "g5-w-every"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 15,
+      "referenceEnglish": "much",
+      "itemIds": [
+        "g5-w-much"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 16,
+      "referenceEnglish": "many",
+      "itemIds": [
+        "g5-w-many"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 17,
+      "referenceEnglish": "all",
+      "itemIds": [
+        "g5-w-all"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 18,
+      "referenceEnglish": "lot",
+      "itemIds": [
+        "g5-w-a-lot-of"
+      ],
+      "note": "PDF注記と同じ語句の既存カードで確認。lot 単独を「たくさんの」として教えない"
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 19,
+      "referenceEnglish": "any",
+      "itemIds": [
+        "g5-w-any"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 20,
+      "referenceEnglish": "more",
+      "itemIds": [
+        "g5-w-ph-more"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 21,
+      "referenceEnglish": "so",
+      "itemIds": [
+        "g5-w-ph-so"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 22,
+      "referenceEnglish": "can",
+      "itemIds": [
+        "g5-w-can"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 23,
+      "referenceEnglish": "Mr.",
+      "itemIds": [
+        "g5-w-ph-mr"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 24,
+      "referenceEnglish": "Ms.",
+      "itemIds": [
+        "g5-w-ph-ms"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 17,
+      "number": 25,
+      "referenceEnglish": "Mrs.",
+      "itemIds": [
+        "g5-w-ph-mrs"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 1,
+      "referenceEnglish": "in",
+      "itemIds": [
+        "g5-w-in"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 2,
+      "referenceEnglish": "after",
+      "itemIds": [
+        "g5-w-after"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 3,
+      "referenceEnglish": "by",
+      "itemIds": [
+        "g5-w-by"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 4,
+      "referenceEnglish": "to",
+      "itemIds": [
+        "g5-w-to"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 5,
+      "referenceEnglish": "at",
+      "itemIds": [
+        "g5-w-at"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 6,
+      "referenceEnglish": "of",
+      "itemIds": [
+        "g5-w-of"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 7,
+      "referenceEnglish": "about",
+      "itemIds": [
+        "g5-w-about"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 8,
+      "referenceEnglish": "for",
+      "itemIds": [
+        "g5-w-for"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 9,
+      "referenceEnglish": "with",
+      "itemIds": [
+        "g5-w-with"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 10,
+      "referenceEnglish": "on",
+      "itemIds": [
+        "g5-w-on"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 11,
+      "referenceEnglish": "from",
+      "itemIds": [
+        "g5-w-from"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 12,
+      "referenceEnglish": "under",
+      "itemIds": [
+        "g5-w-under"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 13,
+      "referenceEnglish": "and",
+      "itemIds": [
+        "g5-w-and"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 14,
+      "referenceEnglish": "before",
+      "itemIds": [
+        "g5-w-before"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 15,
+      "referenceEnglish": "into",
+      "itemIds": [
+        "g5-w-ph-into"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 16,
+      "referenceEnglish": "the",
+      "itemIds": [
+        "g5-w-the"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 17,
+      "referenceEnglish": "a, an",
+      "itemIds": [
+        "g5-w-a",
+        "g5-w-an"
+      ],
+      "note": "同一欄の a と an を両方対応"
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 18,
+      "referenceEnglish": "near",
+      "itemIds": [
+        "g5-w-near"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 19,
+      "referenceEnglish": "but",
+      "itemIds": [
+        "g5-w-but"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "A",
+      "page": 18,
+      "number": 20,
+      "referenceEnglish": "or",
+      "itemIds": [
+        "g5-w-or"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 1,
+      "referenceEnglish": "case",
+      "itemIds": [
+        "g5-w-ph-case"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 2,
+      "referenceEnglish": "package",
+      "itemIds": [
+        "g5-w-ph-package"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 3,
+      "referenceEnglish": "calendar",
+      "itemIds": [
+        "g5-w-calendar"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 4,
+      "referenceEnglish": "magazine",
+      "itemIds": [
+        "g5-w-ph-magazine"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 5,
+      "referenceEnglish": "basket",
+      "itemIds": [
+        "g5-w-basket"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 6,
+      "referenceEnglish": "soap",
+      "itemIds": [
+        "g5-w-ph-soap"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 7,
+      "referenceEnglish": "shower",
+      "itemIds": [
+        "g5-w-rj-shower"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 8,
+      "referenceEnglish": "bathroom",
+      "itemIds": [
+        "g5-w-bathroom"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 9,
+      "referenceEnglish": "towel",
+      "itemIds": [
+        "g5-w-ph-towel"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 10,
+      "referenceEnglish": "bedroom",
+      "itemIds": [
+        "g5-w-rj-bedroom"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 11,
+      "referenceEnglish": "pet",
+      "itemIds": [
+        "g5-w-pet"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 12,
+      "referenceEnglish": "postcard",
+      "itemIds": [
+        "g5-w-postcard"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 13,
+      "referenceEnglish": "wall",
+      "itemIds": [
+        "g5-w-wall"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 14,
+      "referenceEnglish": "dictionary",
+      "itemIds": [
+        "g5-w-dictionary"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 15,
+      "referenceEnglish": "ruler",
+      "itemIds": [
+        "g5-w-ruler"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 16,
+      "referenceEnglish": "chalk",
+      "itemIds": [
+        "g5-w-ph-chalk"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 17,
+      "referenceEnglish": "blackboard",
+      "itemIds": [
+        "g5-w-rj-blackboard"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 18,
+      "referenceEnglish": "textbook",
+      "itemIds": [
+        "g5-w-textbook"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 19,
+      "referenceEnglish": "page",
+      "itemIds": [
+        "g5-w-page"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 20,
+      "referenceEnglish": "exam",
+      "itemIds": [
+        "g5-w-ph-exam"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 21,
+      "referenceEnglish": "ground",
+      "itemIds": [
+        "g5-w-ph-ground"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 22,
+      "referenceEnglish": "pool",
+      "itemIds": [
+        "g5-w-pool"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 23,
+      "referenceEnglish": "doghouse",
+      "itemIds": [
+        "g5-w-ph-doghouse"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 24,
+      "referenceEnglish": "telephone",
+      "itemIds": [
+        "g5-w-ph-telephone"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 19,
+      "number": 25,
+      "referenceEnglish": "sofa",
+      "itemIds": [
+        "g5-w-sofa"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 1,
+      "referenceEnglish": "poster",
+      "itemIds": [
+        "g5-w-ph-poster"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 2,
+      "referenceEnglish": "living",
+      "itemIds": [
+        "g5-w-ph-living"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 3,
+      "referenceEnglish": "backpack",
+      "itemIds": [
+        "g5-w-ph-backpack"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 4,
+      "referenceEnglish": "skirt",
+      "itemIds": [
+        "g5-w-skirt"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 5,
+      "referenceEnglish": "worker",
+      "itemIds": [
+        "g5-w-rj-worker"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 6,
+      "referenceEnglish": "dancer",
+      "itemIds": [
+        "g5-w-rj-dancer"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 7,
+      "referenceEnglish": "waiter",
+      "itemIds": [
+        "g5-w-rj-waiter"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 8,
+      "referenceEnglish": "pilot",
+      "itemIds": [
+        "g5-w-rj-pilot"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 9,
+      "referenceEnglish": "driver",
+      "itemIds": [
+        "g5-w-driver"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 10,
+      "referenceEnglish": "pianist",
+      "itemIds": [
+        "g5-w-rj-pianist"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 11,
+      "referenceEnglish": "office",
+      "itemIds": [
+        "g5-w-office"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 12,
+      "referenceEnglish": "police",
+      "itemIds": [
+        "g5-w-ph-police"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 13,
+      "referenceEnglish": "ticket",
+      "itemIds": [
+        "g5-w-ticket"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 14,
+      "referenceEnglish": "theater",
+      "itemIds": [
+        "g5-w-ph-theater"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 15,
+      "referenceEnglish": "ship",
+      "itemIds": [
+        "g5-w-ship"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 16,
+      "referenceEnglish": "taxi",
+      "itemIds": [
+        "g5-w-taxi"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 17,
+      "referenceEnglish": "bank",
+      "itemIds": [
+        "g5-w-bank"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 18,
+      "referenceEnglish": "post",
+      "itemIds": [
+        "g5-w-ph-post"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 19,
+      "referenceEnglish": "airport",
+      "itemIds": [
+        "g5-w-airport"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 20,
+      "referenceEnglish": "tower",
+      "itemIds": [
+        "g5-w-ph-tower"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 21,
+      "referenceEnglish": "bench",
+      "itemIds": [
+        "g5-w-ph-bench"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 22,
+      "referenceEnglish": "badminton",
+      "itemIds": [
+        "g5-w-badminton"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 23,
+      "referenceEnglish": "softball",
+      "itemIds": [
+        "g5-w-ph-softball"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 24,
+      "referenceEnglish": "beach",
+      "itemIds": [
+        "g5-w-beach"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 20,
+      "number": 25,
+      "referenceEnglish": "French",
+      "itemIds": [
+        "g5-w-french"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 1,
+      "referenceEnglish": "peach",
+      "itemIds": [
+        "g5-w-peach"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 2,
+      "referenceEnglish": "pineapple",
+      "itemIds": [
+        "g5-w-ph-pineapple"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 3,
+      "referenceEnglish": "grape",
+      "itemIds": [
+        "g5-w-grape"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 4,
+      "referenceEnglish": "banana",
+      "itemIds": [
+        "g5-w-banana"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 5,
+      "referenceEnglish": "strawberry",
+      "itemIds": [
+        "g5-w-strawberry"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 6,
+      "referenceEnglish": "pumpkin",
+      "itemIds": [
+        "g5-w-ph-pumpkin"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 7,
+      "referenceEnglish": "potato",
+      "itemIds": [
+        "g5-w-potato"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 8,
+      "referenceEnglish": "carrot",
+      "itemIds": [
+        "g5-w-carrot"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 9,
+      "referenceEnglish": "cucumber",
+      "itemIds": [
+        "g5-w-ph-cucumber"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 10,
+      "referenceEnglish": "tomato",
+      "itemIds": [
+        "g5-w-tomato"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 11,
+      "referenceEnglish": "salad",
+      "itemIds": [
+        "g5-w-salad"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 12,
+      "referenceEnglish": "chocolate",
+      "itemIds": [
+        "g5-w-chocolate"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 13,
+      "referenceEnglish": "cream",
+      "itemIds": [
+        "g5-w-ph-cream"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 14,
+      "referenceEnglish": "pie",
+      "itemIds": [
+        "g5-w-ph-pie"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 15,
+      "referenceEnglish": "dessert",
+      "itemIds": [
+        "g5-w-ph-dessert"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 16,
+      "referenceEnglish": "ham",
+      "itemIds": [
+        "g5-w-ph-ham"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 17,
+      "referenceEnglish": "hamburger",
+      "itemIds": [
+        "g5-w-hamburger"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 18,
+      "referenceEnglish": "sushi",
+      "itemIds": [
+        "g5-w-ph-sushi"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 19,
+      "referenceEnglish": "spaghetti",
+      "itemIds": [
+        "g5-w-spaghetti"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 20,
+      "referenceEnglish": "sausage",
+      "itemIds": [
+        "g5-w-ph-sausage"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 21,
+      "referenceEnglish": "yogurt",
+      "itemIds": [
+        "g5-w-ph-yogurt"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 22,
+      "referenceEnglish": "plate",
+      "itemIds": [
+        "g5-w-plate"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 23,
+      "referenceEnglish": "lunchbox",
+      "itemIds": [
+        "g5-w-ph-lunchbox"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 24,
+      "referenceEnglish": "knife",
+      "itemIds": [
+        "g5-w-knife"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 21,
+      "number": 25,
+      "referenceEnglish": "chopstick(s)",
+      "itemIds": [
+        "g5-w-ph-chopsticks"
+      ],
+      "note": "ふつう使う複数形"
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 1,
+      "referenceEnglish": "monkey",
+      "itemIds": [
+        "g5-w-monkey"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 2,
+      "referenceEnglish": "butterfly",
+      "itemIds": [
+        "g5-w-butterfly"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 3,
+      "referenceEnglish": "rabbit",
+      "itemIds": [
+        "g5-w-rabbit"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 4,
+      "referenceEnglish": "purple",
+      "itemIds": [
+        "g5-w-purple"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 5,
+      "referenceEnglish": "pink",
+      "itemIds": [
+        "g5-w-pink"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 6,
+      "referenceEnglish": "concert",
+      "itemIds": [
+        "g5-w-ph-concert"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 7,
+      "referenceEnglish": "band",
+      "itemIds": [
+        "g5-w-ph-band"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 8,
+      "referenceEnglish": "harmonica",
+      "itemIds": [
+        "g5-w-ph-harmonica"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 9,
+      "referenceEnglish": "drum",
+      "itemIds": [
+        "g5-w-ph-drum"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 10,
+      "referenceEnglish": "violin",
+      "itemIds": [
+        "g5-w-ph-violin"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 11,
+      "referenceEnglish": "rose",
+      "itemIds": [
+        "g5-w-ph-rose"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 12,
+      "referenceEnglish": "kilogram",
+      "itemIds": [
+        "g5-w-ph-kilogram"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 13,
+      "referenceEnglish": "centimeter",
+      "itemIds": [
+        "g5-w-ph-centimeter"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 14,
+      "referenceEnglish": "sugar",
+      "itemIds": [
+        "g5-w-sugar"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 15,
+      "referenceEnglish": "cent",
+      "itemIds": [
+        "g5-w-ph-cent"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 16,
+      "referenceEnglish": "yen",
+      "itemIds": [
+        "g5-w-yen"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 17,
+      "referenceEnglish": "leg",
+      "itemIds": [
+        "g5-w-leg"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 18,
+      "referenceEnglish": "foot",
+      "itemIds": [
+        "g5-w-foot"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 19,
+      "referenceEnglish": "shoulder",
+      "itemIds": [
+        "g5-w-shoulder"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 22,
+      "number": 20,
+      "referenceEnglish": "finger",
+      "itemIds": [
+        "g5-w-finger"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 1,
+      "referenceEnglish": "hello",
+      "itemIds": [
+        "g5-p-01"
+      ],
+      "note": "既存のあいさつカード"
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 2,
+      "referenceEnglish": "high",
+      "itemIds": [
+        "g5-w-ph-hi"
+      ],
+      "note": "あいさつの意味と発音から hi の誤記と判断。高さの high と区別"
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 3,
+      "referenceEnglish": "goodbye",
+      "itemIds": [
+        "g5-w-ph-goodbye"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 4,
+      "referenceEnglish": "bye",
+      "itemIds": [
+        "g5-w-ph-bye"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 5,
+      "referenceEnglish": "please",
+      "itemIds": [
+        "g5-w-please"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 6,
+      "referenceEnglish": "hey",
+      "itemIds": [
+        "g5-w-ph-hey"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 7,
+      "referenceEnglish": "easy",
+      "itemIds": [
+        "g5-w-easy"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 8,
+      "referenceEnglish": "final",
+      "itemIds": [
+        "g5-w-ph-final"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 9,
+      "referenceEnglish": "main",
+      "itemIds": [
+        "g5-w-ph-main"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 10,
+      "referenceEnglish": "slow",
+      "itemIds": [
+        "g5-w-slow"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 11,
+      "referenceEnglish": "soft",
+      "itemIds": [
+        "g5-w-ph-soft"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 12,
+      "referenceEnglish": "sweet",
+      "itemIds": [
+        "g5-w-sweet"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 13,
+      "referenceEnglish": "windy",
+      "itemIds": [
+        "g5-w-windy"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 14,
+      "referenceEnglish": "ready",
+      "itemIds": [
+        "g5-w-ready"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 15,
+      "referenceEnglish": "will",
+      "itemIds": [
+        "g5-w-ph-will"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 16,
+      "referenceEnglish": "welcome",
+      "itemIds": [
+        "g5-w-ph-welcome"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 17,
+      "referenceEnglish": "sad",
+      "itemIds": [
+        "g5-w-sad"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 18,
+      "referenceEnglish": "later",
+      "itemIds": [
+        "g5-w-ph-later"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 19,
+      "referenceEnglish": "thank",
+      "itemIds": [
+        "g5-w-ph-thank"
+      ],
+      "note": ""
+    },
+    {
+      "rank": "B",
+      "page": 23,
+      "number": 20,
+      "referenceEnglish": "tonight",
+      "itemIds": [
+        "g5-w-tonight"
+      ],
+      "note": ""
+    }
+  ]
+}

@@ -7458,5 +7458,445 @@
     "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-rj-twelve-o-clock.png",
     "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：twelve o'clock／12時",
     "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-comic",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r3-word-5283.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "漫画",
+    "sourceMeaning": "絵を使って物語や情報を表した作品。",
+    "sourceSheet": "sheets/2026-10-12-wave7-27-r3.png",
+    "sourceReview": "目視確認済み: 漫画（まんが）: 絵を使って物語や情報を表した作品。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-e-mail",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512c-word-8369.png",
+    "credit": "プログラム生成図",
+    "sourceWord": "電子メール",
+    "sourceMeaning": "ネットなどをつかって、ぶんしょうなどをあてさきにおくるしくみ。",
+    "sourceSheet": "sheets/expansion512c-diagram-word-8369.png",
+    "sourceReview": "目視確認済み: でんしの てがみを おくる",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-classmate",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13182.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "クラスメート",
+    "sourceMeaning": "同じクラスで学ぶ仲間。",
+    "sourceSheet": "sheets/expansion1024h-sheet18.png",
+    "sourceReview": "目視確認済み: クラスメート：同じクラスで学ぶ仲間。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-cafeteria",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-6279.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "食堂",
+    "sourceMeaning": "しょくじをするためのへや。また、しょくじをだすみせ。",
+    "sourceSheet": "sheets/wave9-sheet-21.png",
+    "sourceReview": "目視確認済み: 食堂（しょくどう）: しょくじをするためのへや。また、しょくじをだすみせ。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-ice",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-2174.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "氷",
+    "sourceMeaning": "水が凍って固体になったもの。",
+    "sourceSheet": "sheets/2026-10-12-wave7-08-r1.png",
+    "sourceReview": "目視確認済み: 氷（こおり）: 水が凍って固体になったもの。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-football",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024f-word-10879.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "アメリカンフットボール",
+    "sourceMeaning": "楕円形のボールを持って進み、相手の陣地で得点をねらう球技。",
+    "sourceSheet": "sheets/expansion1024f-sheet17.png",
+    "sourceReview": "目視確認済み: アメリカンフットボール：楕円形のボールを持って進み、相手の陣地で得点をねらう球技。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-rock",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-447.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "岩",
+    "sourceMeaning": "とってもおおきないしのこと。",
+    "sourceSheet": "sheets/2026-10-11-common-2.png",
+    "sourceReview": "目視確認済み: 元シートのコマ内のみを抽出。必要な絵の欠けと隣コマ混入を修正。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-flute",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-6398.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "フルート",
+    "sourceMeaning": "横に構え、穴のふちに息を当てて音を出す、管の形の楽器。",
+    "sourceSheet": "sheets/wave9-sheet-27.png",
+    "sourceReview": "目視確認済み: フルート（ふるーと）: 横に構え、穴のふちに息を当てて音を出す、管の形の楽器。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-case",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-f-word-5493.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "眼鏡ケース",
+    "sourceMeaning": "眼鏡を入れて保管する入れ物。",
+    "sourceSheet": "sheets/2026-10-12-f-2.png",
+    "sourceReview": "目視確認済み: An open hard eyeglass storage case with a pair of folded glasses inside.",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-package",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-11959.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "小包",
+    "sourceMeaning": "荷物を包んで送る郵便物など。",
+    "sourceSheet": "sheets/expansion1024g-sheet43.png",
+    "sourceReview": "目視確認済み: 小包：荷物を包んで送る郵便物など。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-magazine",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r3-word-2724.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "雑誌",
+    "sourceMeaning": "記事や写真などを載せて、定期的に発行する読み物。",
+    "sourceSheet": "sheets/2026-10-12-wave7-11-r3.png",
+    "sourceReview": "目視確認済み: 雑誌（ざっし）: 記事や写真などを載せて、定期的に発行する読み物。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-soap",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-3111.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "石鹸",
+    "sourceMeaning": "体や物を洗うために使うもの。水といっしょに使って、油やよごれを落とす。",
+    "sourceSheet": "sheets/2026-10-11-common-3.png",
+    "sourceReview": "目視確認済み: 元シートのコマ内のみを抽出。必要な絵の欠けと隣コマ混入を修正。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-towel",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave3-word-6511.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "タオル",
+    "sourceMeaning": "てやからだをふいたり、みずをすいとったりする、やわらかいぬの。",
+    "sourceSheet": "sheets/2026-10-12-wave3-1.png",
+    "sourceReview": "目視確認済み: タオルの重なりと柔らかい繊維が見える。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-chalk",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13557.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "チョーク",
+    "sourceMeaning": "黒板などに書く白や色つきの棒状の道具。",
+    "sourceSheet": "sheets/expansion1024h-sheet42.png",
+    "sourceReview": "目視確認済み: チョーク：黒板などに書く白や色つきの棒状の道具。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-ground",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-2128.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "校庭",
+    "sourceMeaning": "学校の敷地内にある、運動や遊びに使う場所。",
+    "sourceSheet": "sheets/2026-10-12-wave5-6.png",
+    "sourceReview": "目視確認済み: 運動用の広い校庭。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-doghouse",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-doghouse-word-76173.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "犬小屋",
+    "sourceMeaning": "犬のシェルターの役割を持つ小屋。",
+    "sourceSheet": "sheets/single-eiken-20261101-doghouse.png",
+    "sourceReview": "目視確認済み: 小さな木造犬小屋と入口の犬。建物全体・犬・屋根が収まり、語義に一致。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-telephone",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-d-word-3841.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "電話",
+    "sourceMeaning": "遠くにいる人と、声で話せる道具やしくみ。",
+    "sourceSheet": "sheets/word-image-75-2.png",
+    "sourceReview": "目視確認済み: 電話の注文に沿って構造・内容を修正。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-poster",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-5138.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "ポスター",
+    "sourceMeaning": "知らせや広告などを伝えるために、壁などに貼る大きな紙。",
+    "sourceSheet": "sheets/2026-10-12-wave4-4.png",
+    "sourceReview": "目視確認済み: 壁に留めた大きな掲示用ポスター。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-backpack",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-5876.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "リュック",
+    "sourceMeaning": "背中に背負う袋。",
+    "sourceSheet": "sheets/2026-10-12-wave7-31.png",
+    "sourceReview": "目視確認済み: リュック（りゅっく）: 背中に背負う袋。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-police",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13203.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "警察官",
+    "sourceMeaning": "町の安全を守ったり事件を調べたりする警察の人。",
+    "sourceSheet": "sheets/expansion1024h-sheet20.png",
+    "sourceReview": "目視確認済み: 警察官：町の安全を守ったり事件を調べたりする警察の人。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-theater",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-2022.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "劇場",
+    "sourceMeaning": "演劇や映画、コンサートを観客が席に座って見るための大きな建物。",
+    "sourceSheet": "sheets/2026-10-12-wave5-6.png",
+    "sourceReview": "目視確認済み: 舞台と幕と観客席のある劇場。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-post",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-f-word-5715.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "郵便ポスト",
+    "sourceMeaning": "送る郵便物を入れる箱。",
+    "sourceSheet": "sheets/2026-10-12-f-4.png",
+    "sourceReview": "目視確認済み: A red Japanese roadside post box for posting letters, rectangular slot, no lettering or symbols.",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-tower",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r4-word-3819.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "塔",
+    "sourceMeaning": "細長く、高く作られた建物。",
+    "sourceSheet": "sheets/2026-10-12-wave7-17-r4.png",
+    "sourceReview": "目視確認済み: 塔（とう）: 細長く、高く作られた建物。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-bench",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5026.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "ベンチ",
+    "sourceMeaning": "何人かが並んで座れる長い椅子。",
+    "sourceSheet": "sheets/2026-10-12-wave7-25-r1.png",
+    "sourceReview": "目視確認済み: ベンチ（べんち）: 何人かが並んで座れる長い椅子。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-softball",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024f-word-10874.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "ソフトボール",
+    "sourceMeaning": "野球より大きいボールを使い、下手から投げる球技。",
+    "sourceSheet": "sheets/expansion1024f-sheet17.png",
+    "sourceReview": "目視確認済み: ソフトボール：野球より大きいボールを使い、下手から投げる球技。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-pineapple",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4622.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "パイナップル",
+    "sourceMeaning": "硬い皮と葉の冠があり、甘酸っぱい果物。",
+    "sourceSheet": "sheets/2026-10-12-e-1.png",
+    "sourceReview": "目視確認済み: A whole pineapple with spiky green crown and one yellow cut ring",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-pumpkin",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave6-word-1144.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "カボチャ",
+    "sourceMeaning": "大きな実を食べる、つる性の野菜。",
+    "sourceSheet": "sheets/quality-20261025-sheet07.png",
+    "sourceReview": "目視確認済み: カボチャの被写体・場面を語義および共有先と照合。主要な対象・動作を確認し、隣コマの混入なし。罫線と薄い縁は実測除去。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-cucumber",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1561.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "キュウリ",
+    "sourceMeaning": "細長くて緑色をした野菜。",
+    "sourceSheet": "sheets/2026-10-12-b-2.png",
+    "sourceReview": "目視確認済み: Two fresh long green cucumbers, one sliced to reveal pale green interior",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-cream",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-1778.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "クリーム",
+    "sourceMeaning": "牛乳から分けた、脂肪分の多い食品。",
+    "sourceSheet": "sheets/2026-10-12-wave5-1.png",
+    "sourceReview": "目視確認済み: 柔らかな白いクリーム。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-pie",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4621.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "パイ",
+    "sourceMeaning": "生地で具を包んだり、上にのせたりして焼く料理。",
+    "sourceSheet": "sheets/2026-10-12-e-1.png",
+    "sourceReview": "目視確認済み: A golden lattice-top baked apple pie on a small plate, with one cut slice showing apple filling",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-dessert",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13626.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "デザート",
+    "sourceMeaning": "食事のあとなどに食べる果物や甘いもの。",
+    "sourceSheet": "sheets/expansion1024h-sheet46.png",
+    "sourceReview": "目視確認済み: デザート：食事のあとなどに食べる果物や甘いもの。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-ham",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-4478.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "ハム",
+    "sourceMeaning": "豚肉を塩漬けなどにして加工した食品。",
+    "sourceSheet": "sheets/2026-10-12-wave4-6.png",
+    "sourceReview": "目視確認済み: 薄切りにしたハムと塊。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-sushi",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2985.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "寿司",
+    "sourceMeaning": "酢飯を使った日本料理。魚介などをのせたり、具を包んだりする種類がある。",
+    "sourceSheet": "sheets/2026-10-12-c-4.png",
+    "sourceReview": "目視確認済み: A platter of recognizable nigiri sushi with white rice and fish toppings and two seaweed rolls",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-sausage",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13391.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "ソーセージ",
+    "sourceMeaning": "ひき肉などを細長く詰めて作る食品。",
+    "sourceSheet": "sheets/expansion1024h-sheet32.png",
+    "sourceReview": "目視確認済み: ソーセージ：ひき肉などを細長く詰めて作る食品。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-yogurt",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-f-word-5805.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "ヨーグルト",
+    "sourceMeaning": "乳を乳酸菌で発酵させた食品。",
+    "sourceSheet": "sheets/2026-10-12-f-4.png",
+    "sourceReview": "目視確認済み: A bowl of plain white yogurt with spoon and a small strawberry beside it.",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-lunchbox",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5028.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "弁当箱",
+    "sourceMeaning": "弁当を入れて持ち運ぶ容器。",
+    "sourceSheet": "sheets/2026-10-12-wave7-25-r1.png",
+    "sourceReview": "目視確認済み: 弁当箱（べんとうばこ）: 弁当を入れて持ち運ぶ容器。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-chopsticks",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-4408.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "箸",
+    "sourceMeaning": "食べ物をはさんで口に運ぶ、二本一組の道具。",
+    "sourceSheet": "sheets/2026-10-12-wave4-3.png",
+    "sourceReview": "目視確認済み: 二本一組の箸。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-concert",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-11990.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "コンサート",
+    "sourceMeaning": "音楽を演奏して聞いてもらう催し。",
+    "sourceSheet": "sheets/expansion1024g-sheet45-v2.png",
+    "sourceReview": "目視確認済み: コンサート：音楽を演奏して聞いてもらう催し。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-band",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13657.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "バンド",
+    "sourceMeaning": "いっしょに音楽を演奏するグループ。",
+    "sourceSheet": "sheets/expansion1024h-sheet48.png",
+    "sourceReview": "目視確認済み: バンド：いっしょに音楽を演奏するグループ。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-harmonica",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-6397.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "ハーモニカ",
+    "sourceMeaning": "口に当てて、息を吹いたり吸ったりして音を出す、横に長い小さな楽器。",
+    "sourceSheet": "sheets/wave9-sheet-27.png",
+    "sourceReview": "目視確認済み: ハーモニカ（はーもにか）: 口に当てて、息を吹いたり吸ったりして音を出す、横に長い小さな楽器。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-drum",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-3231.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "太鼓",
+    "sourceMeaning": "胴に張った面を打ち鳴らす楽器。",
+    "sourceSheet": "sheets/2026-10-12-wave5-4.png",
+    "sourceReview": "目視確認済み: 革を張った胴と二本のばちのある太鼓。",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-violin",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-4527.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "バイオリン",
+    "sourceMeaning": "弓で弦をこすって音を出す楽器。",
+    "sourceSheet": "sheets/2026-10-12-wave7-21-r1.png",
+    "sourceReview": "目視確認済み: バイオリン（ばいおりん）: 弓で弦をこすって音を出す楽器。 Draw a single clear concrete scene conveying this meaning.",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-rose",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4598.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "バラ",
+    "sourceMeaning": "トゲのあるものが多い茎に、花を咲かせる植物。",
+    "sourceSheet": "sheets/2026-10-12-e-1.png",
+    "sourceReview": "目視確認済み: A blooming red rose with green leaves and small visible thorns on its stem",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-soft",
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/pillow.png",
+    "credit": "AI生成イラスト",
+    "sourceWord": "枕",
+    "sourceMeaning": "寝るときに頭の下に置く寝具。",
+    "sourceSheet": "sheets/2026-10-08-agent-home-actions.png",
+    "sourceReview": "目視確認済み: ベッドの上の柔らかな枕",
+    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
   }
 ]

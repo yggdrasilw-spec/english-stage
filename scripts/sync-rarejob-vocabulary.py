@@ -18,5 +18,5 @@ def sync():
     print(f'Vocabulary supplement: {len(extra)} items; total {len(cards)}')
     # Apply images after the complete deck exists, including newly added vocabulary.
     import runpy
-    runpy.run_path(str(ROOT/"scripts/sync-shiritori-images.py"))["sync"]()
+    runpy.run_path(str(ROOT/"scripts/sync-print-ho-kan-vocabulary.py"))["sync"]()
 if __name__=='__main__': sync()
