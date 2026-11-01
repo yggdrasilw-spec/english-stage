@@ -18,7 +18,7 @@ export function play(kind,enabled){
  stop();const mine=generation;
  const sound=()=>{
   if(mine!==generation||context.state!=='running'||document.hidden)return;
-  const notes={flip:[[740,0,.055]],move:[[520,0,.055]],known:[[880,0,.10],[1175,.065,.12],[1568,.13,.13]],correct:[[1047,0,.10],[1319,.06,.12],[1568,.12,.14]]}[kind];
+  const notes={wrong:[[330,0,.13],[262,.14,.18]],flip:[[740,0,.055]],move:[[520,0,.055]],known:[[880,0,.10],[1175,.065,.12],[1568,.13,.13]],correct:[[1047,0,.10],[1319,.06,.12],[1568,.12,.14]]}[kind];
   if(!notes)return;
   for(const [hz,delay,duration] of notes){
    const oscillator=context.createOscillator(),gain=context.createGain(),at=context.currentTime+delay;
