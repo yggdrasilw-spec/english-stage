@@ -1,0 +1,15 @@
+{
+  "baseVoice": "en-US-Neural2-F",
+  "entries": [
+    {
+      "id": "g5-w-cold",
+      "part": "word",
+      "voice": "en-US-Neural2-H"
+    },
+    {
+      "id": "g5-w-old",
+      "part": "word",
+      "voice": "en-US-Neural2-H"
+    }
+  ]
+}

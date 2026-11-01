@@ -10,9 +10,11 @@ const project=args.includes('--project')?value('--project'):process.env.GOOGLE_C
 const voice=args.includes('--voice')?value('--voice'):'en-US-Neural2-F';
 if(!/^en-US-Neural2-[A-J]$/.test(voice))throw Error('Specify a supported en-US-Neural2 voice.');
 let cards=JSON.parse(await fs.readFile(new URL('dist/data/grade5.json',root),'utf8'));if(sample)cards=cards.slice(0,3);
+const overrides=JSON.parse(await fs.readFile(new URL('audio-voice-overrides.json',root),'utf8'));
 const jobs=[];
 for(const c of cards)for(const [part,text] of [['word',c.en],['example',c.example]])for(const [speed,speakingRate] of [['normal',.95],['slow',.75]]){
- const body={input:{text},voice:{languageCode:'en-US',name:voice},audioConfig:{audioEncoding:'MP3',speakingRate}};
+ const jobVoice=voice===overrides.baseVoice?(overrides.entries.find(o=>o.id===c.id&&o.part===part)?.voice||voice):voice;
+ const body={input:{text},voice:{languageCode:'en-US',name:jobVoice},audioConfig:{audioEncoding:'MP3',speakingRate}};
  const hash=crypto.createHash('sha256').update(JSON.stringify(body)).digest('hex').slice(0,16);
  jobs.push({id:c.id,part,speed,text,body,hash,path:`assets/audio/${c.id}-${part}-${speed}-${hash}.mp3`});
 }
@@ -45,7 +47,7 @@ async function worker(){while(nextJob<jobs.length){const job=jobs[nextJob++];
   const data=await response.json();if(typeof data.audioContent!=='string')throw Error('Audio missing in API response.');
   const bytes=Buffer.from(data.audioContent,'base64');if(bytes.length<100)throw Error('Audio too short.');await fs.writeFile(out,bytes);
  }
- manifest.files.push({id:job.id,part:job.part,speed:job.speed,text:job.text,path:job.path,hash:job.hash});
+ manifest.files.push({id:job.id,part:job.part,speed:job.speed,text:job.text,path:job.path,hash:job.hash,...(job.body.voice.name!==voice?{voice:job.body.voice.name}:{})});
  console.log(`${job.id}/${job.part}/${job.speed}: ${cached?'cached':'created'}`);
  // Publish the complete credential-free manifest only after all workers succeed.
 }}

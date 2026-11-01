@@ -6507,16 +6507,20 @@
       "part": "word",
       "speed": "normal",
       "text": "old",
-      "path": "assets/audio/g5-w-old-word-normal-9be37316cc798fad.mp3",
-      "hash": "9be37316cc798fad"
+      "path": "assets/audio/g5-w-old-word-normal-7a7e38e6c643b791.mp3",
+      "hash": "7a7e38e6c643b791",
+      "voice": "en-US-Neural2-H",
+      "review": "ユーザー比較試聴で語末dを確認"
     },
     {
       "id": "g5-w-old",
       "part": "word",
       "speed": "slow",
       "text": "old",
-      "path": "assets/audio/g5-w-old-word-slow-288096a80085c338.mp3",
-      "hash": "288096a80085c338"
+      "path": "assets/audio/g5-w-old-word-slow-28a7e8dd2a47c4b0.mp3",
+      "hash": "28a7e8dd2a47c4b0",
+      "voice": "en-US-Neural2-H",
+      "review": "未試聴・Hで生成"
     },
     {
       "id": "g5-w-old",
@@ -6571,16 +6575,20 @@
       "part": "word",
       "speed": "normal",
       "text": "cold",
-      "path": "assets/audio/g5-w-cold-word-normal-fe8020dcbb0ecdff.mp3",
-      "hash": "fe8020dcbb0ecdff"
+      "path": "assets/audio/g5-w-cold-word-normal-8b4fd51aa95d8c8a.mp3",
+      "hash": "8b4fd51aa95d8c8a",
+      "voice": "en-US-Neural2-H",
+      "review": "ユーザー比較試聴で語末dを確認"
     },
     {
       "id": "g5-w-cold",
       "part": "word",
       "speed": "slow",
       "text": "cold",
-      "path": "assets/audio/g5-w-cold-word-slow-b51d7641cc3403f9.mp3",
-      "hash": "b51d7641cc3403f9"
+      "path": "assets/audio/g5-w-cold-word-slow-5e9f465446ec9d3b.mp3",
+      "hash": "5e9f465446ec9d3b",
+      "voice": "en-US-Neural2-H",
+      "review": "未試聴・Hで生成"
     },
     {
       "id": "g5-w-cold",
