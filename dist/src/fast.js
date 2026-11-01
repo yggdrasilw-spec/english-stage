@@ -1,3 +1,4 @@
+import {companionMilestone} from './companion-view.js';
 import {warmImages,bindFlash,animateCard,enterCard} from './flashcards.js';
 import * as effects from './effects.js';
 import {updateProgress,dueTasks} from './scheduler.js';
@@ -39,7 +40,7 @@ export function renderFast(context){
  $('#fast-undo').onclick=()=>{const saved=undo;undo=null;ui={};mutate(s=>Object.assign(s,saved));};
  $('#fast-skip').onclick=()=>{snapshot();mutate(s=>next(s.fast));};
  $('#fast-mix').onclick=()=>mutate(s=>{s.fast.ids=[...f.ids.slice(0,f.index),...shuffle(f.ids.slice(f.index))];s.fast.feedback=null;ui={};});
- if(!c){content.innerHTML=`<section class="panel card"><h1>${f.ids.length?'ひと通り確認！':'この条件のカードはありません'}</h1><p>選択で確認 ${f.checked}回 · 正解 ${f.correct}回 · わかる ${f.known}こ</p><button class="primary" id="fast-again">もう一度</button> <a href="#exams">実戦テストへ</a></section>`;$('#fast-skip').disabled=true;$('#fast-again').onclick=()=>mutate(s=>startFast(s,cards,f.mode,f.filter,f.theme));return;}
+ if(!c){content.innerHTML=`<section class="panel card"><h1>${f.ids.length?'ひと通り確認！':'この条件のカードはありません'}</h1>${companionMilestone(state)}<p>選択で確認 ${f.checked}回 · 正解 ${f.correct}回 · わかる ${f.known}こ</p><button class="primary" id="fast-again">もう一度</button> <a href="#exams">実戦テストへ</a></section>`;$('#fast-skip').disabled=true;$('#fast-again').onclick=()=>mutate(s=>startFast(s,cards,f.mode,f.filter,f.theme));return;}
  if(f.mode==='match'){renderMatch(content,f,byId,mutate);return;}
  if(f.mode==='card'){
   warmImages(f.ids.slice(Math.max(0,f.index-2),f.index+6).map(id=>byId.get(id)));

@@ -1,3 +1,4 @@
+import {validCompanion} from './companion.js';
 import {validKarutaLearning} from './karuta-learning.js';
 import {validKaruta} from './karuta-session.js';
 export const initial=()=>({schema:1,deckVersion:1,progress:{},seen:{},history:[],rewards:[],stars:0,settings:{newCount:5,sound:true,motion:true},session:null});
@@ -8,6 +9,7 @@ export function write(state){return new Promise((res,rej)=>{const tx=db.transact
 export function validateBackup(b,ids){
  if(!b||b.app!=='english-stage'||b.version!==1||!b.state||b.state.schema!==1)throw Error('このアプリのバックアップではありません。');
  const s=b.state;
+ if(s.companion!==undefined&&!validCompanion(s.companion))throw Error('着せ替えの記録が壊れています。');
  if(!s.progress||!s.seen||!Array.isArray(s.history)||!Array.isArray(s.rewards)||!Number.isSafeInteger(s.stars)||s.stars<0||s.stars>1000000||![3,5,10].includes(s.settings?.newCount)||typeof s.settings.sound!=='boolean'||typeof s.settings.motion!=='boolean')throw Error('記録の形式が正しくありません。');
  if(s.history.length>100000||s.rewards.length>100000)throw Error('記録が大きすぎます。');
  for(const [id,p] of Object.entries(s.progress)){
