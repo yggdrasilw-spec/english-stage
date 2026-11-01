@@ -22,4 +22,6 @@ ZiraなどOS音声で生成した音声ファイルは収録していません�
 
 ## コツコツの森の素材
 
-森の画像15点は https://github.com/yggdrasilw-spec/kotsukotsu の独自生成素材をWebPに縮小して利用。元リポジトリREADMEの権利放棄・無制限利用許諾に基づきます。Firebase等の外部機能は取り込んでいません。
+森の画像21点は https://github.com/yggdrasilw-spec/kotsukotsu の独自生成素材をWebPに縮小して利用。元リポジトリREADMEの権利放棄・無制限利用許諾に基づきます。Firebase等の外部機能は取り込んでいません。
+
+広がる森の演出（2026-11-01）：同リポジトリの `js/forest-expansion.js`、`js/forest-preview-landscape.js`、`js/camera.js` を移植。草地・小道・石を固定座標に配置し、SVGマスクの霧を900msで補間する元の方式を利用しています。英検アプリの水やり段階、ローカル素材のパス、モーション軽減、SVG IDの分離、画面破棄時の後処理に適合させました。元ファイルのSHA-256と採用先を `scripts/forest-source-adoption.json` に記録しています。

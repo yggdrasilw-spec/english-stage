@@ -1,0 +1,56 @@
+{
+  "repository": "https://github.com/yggdrasilw-spec/kotsukotsu",
+  "sourceCommit": "f11923a",
+  "adaptations": [
+    "Local WebP paths and normalized 45px world units",
+    "Unique SVG IDs, explicit renderer disposal",
+    "Watering progress replaces class points; no external service integration"
+  ],
+  "files": [
+    {
+      "source": "js/forest-preview-landscape.js",
+      "destination": "dist/src/forest-landscape.js",
+      "sourceSha256": "8ba1a5d33df959f167a7baebfa96143a43b12a34c07c3e993fef9484eff5c762"
+    },
+    {
+      "source": "js/forest-expansion.js",
+      "destination": "dist/src/forest-expansion.js",
+      "sourceSha256": "17d8682f1defc0ff6291d672c0cf86caefc94f6a684f487309afc314d453352d"
+    },
+    {
+      "source": "js/camera.js",
+      "destination": "dist/src/forest-camera.js",
+      "sourceSha256": "546a09c42487357e5c1ad4518f35c11cd9ce39aee20cd6dd4db6c968d5a6b814"
+    },
+    {
+      "source": "assets/grass-watercolor-v3.png",
+      "destination": "dist/assets/forest/grass-watercolor-v3.webp",
+      "sourceSha256": "9a7a43d6c2ce7e9bf5b4466351788911e296d27cfa7ddb3e2e2191e0a8a3dd52"
+    },
+    {
+      "source": "assets/rock_medium_01.png",
+      "destination": "dist/assets/forest/rock_medium_01.webp",
+      "sourceSha256": "2b19a66a9db681a17adec33e689653468aeb1360b5d70802650efc864a8c2599"
+    },
+    {
+      "source": "assets/rock_small_01.png",
+      "destination": "dist/assets/forest/rock_small_01.webp",
+      "sourceSha256": "1a7d05e874a9632c101a116120126b0a504584e542708a161b1bf70d6ed37b74"
+    },
+    {
+      "source": "assets/tree_oak_01.png",
+      "destination": "dist/assets/forest/tree_oak_01.webp",
+      "sourceSha256": "da7695c7061808f4f0e81ff644eefd1d74063eae9bf46763fc137841a7ff2123"
+    },
+    {
+      "source": "assets/butterfly_01.png",
+      "destination": "dist/assets/forest/butterfly_01.webp",
+      "sourceSha256": "b817e30b7d940796a9d8a6aa242ab24908888465b7959a97f846ff89301abdb3"
+    },
+    {
+      "source": "assets/bird_small_01.png",
+      "destination": "dist/assets/forest/bird_small_01.webp",
+      "sourceSha256": "9d20245ac983e8c93bfa027065012e91407a41b42a21c9a5085e3f985da6ae38"
+    }
+  ]
+}
