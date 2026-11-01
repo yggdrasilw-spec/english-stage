@@ -140,3 +140,39 @@
 .reduce-motion .forest-map-scene .forest-life,.reduce-motion .forest-map-scene .forest-arrival{animation:none}
 @media(prefers-reduced-motion:reduce){.forest-map-scene .forest-life,.forest-map-scene .forest-arrival{animation:none}}
 @media(max-width:360px){.forest-resident-list{grid-template-columns:repeat(3,minmax(0,1fr))}.forest-resident-list>div{font-size:.7rem;padding:6px}}
+
+/* Phone quiz: a stable next action, with optional detail outside the main loop. */
+.practice-details{width:100%;text-align:left;margin:14px 0}
+.practice-details summary{cursor:pointer;min-height:44px;display:list-item;align-content:center;color:var(--green)}
+.practice-details p{overflow-wrap:anywhere}
+.practice-actions{display:flex;justify-content:center;gap:10px;margin:18px 0;width:100%}
+[data-practice-focus]:focus,#fast-content:focus{outline:none}
+@media(max-width:700px){
+ .quiz-practice:has(.practice-actions){padding-bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+ .quiz-practice .practice-actions{position:fixed;z-index:15;bottom:0;left:0;right:0;width:auto;margin:0;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:#fffffff5;border-top:1px solid var(--line);box-shadow:0 -4px 18px #243d3910;gap:8px}
+ .quiz-practice .practice-actions button{min-height:54px;min-width:0;margin:0}
+ .quiz-practice .practice-actions .primary{flex:1}
+ .quiz-practice .practice-actions #guess{flex:0 1 45%;font-size:12px;padding:10px 8px}
+ .quiz-practice .mode-tabs{gap:5px;margin:8px 0}
+ .quiz-practice .mode-tabs button{font-size:12px;min-height:40px;padding:7px 9px}
+ .quiz-practice .fast-top{position:sticky;top:0;z-index:4;background:#f7f8f2;padding:6px 0;margin-bottom:8px}
+ .quiz-practice .forest-live{margin:6px 0;font-size:12px}
+ .quiz-practice .forest-live a{display:inline;margin-left:8px;font-size:11px}
+ .quiz-practice .quiz-face{padding:14px;gap:8px;min-height:0;margin:10px 0}
+ .quiz-practice .flash-word{font-size:28px;margin:4px 0}
+ .quiz-practice .fast-options{gap:8px;margin:8px 0}
+ .quiz-practice .fast-options button{min-height:48px;padding:10px 12px;font-size:15px;line-height:1.4;overflow-wrap:anywhere}
+ .quiz-practice .has-feedback>.fast-options,.quiz-practice .has-feedback>.flash-word,.quiz-practice .has-feedback>#fast-play,.quiz-practice .has-feedback>#fast-slow{display:none}
+ .quiz-practice .has-feedback .fast-feedback{margin:0;padding:12px}
+ .quiz-practice:has(.practice-actions) .fast-bottom,.quiz-practice:has(.practice-actions) .fast-help{display:none}
+ .quiz-practice .fast-feedback p{font-size:18px;margin:8px 0;overflow-wrap:anywhere}
+ .quiz-practice .practice-feedback{margin-top:8px;padding:14px}
+ .quiz-practice .practice-feedback .card-en{margin:8px 0;font-size:28px}
+ .quiz-practice .practice-feedback .card-ja{margin:8px 0;font-size:20px}
+ .quiz-practice .correct-mark{width:74px;height:54px;margin:0 auto 4px}
+ .quiz-practice .practice-details{margin:8px 0;font-size:14px}
+ .quiz-practice .practice-details summary{padding:6px 0}
+ .quiz-practice .level-up{font-size:16px;padding:8px;margin-bottom:8px}
+ .quiz-practice .listen-big{font-size:22px;min-height:56px}
+ .studying:has(.practice-actions) .celebration{bottom:calc(90px + env(safe-area-inset-bottom,0px))}
+}
