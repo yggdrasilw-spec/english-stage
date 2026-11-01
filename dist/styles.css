@@ -120,3 +120,23 @@
 .reduce-motion .forest-old-tree{display:none}
 @media(prefers-reduced-motion:reduce){.forest-map-scene .forest-new,.forest-old-tree,.forest-map-caption{animation:none}.forest-old-tree{display:none}}
 @media(max-width:360px){.forest-map-controls{right:5px;bottom:5px;gap:3px}.forest-map-controls button{min-width:42px;min-height:42px;padding:5px 7px;font-size:.65rem}.forest-map-caption{left:7px;top:7px;font-size:.65rem;padding:4px 7px}}
+
+.forest-map-scene .forest-life-air{animation:forest-visitor-hover 5.6s ease-in-out infinite}
+.forest-map-scene .forest-life-water{animation:forest-fish-drift 7s ease-in-out infinite}
+.forest-map-scene .forest-life-ambience{opacity:.75;animation:forest-lantern-glow 4.8s ease-in-out infinite;filter:none}
+.forest-map-scene .forest-life-sky{opacity:.88;filter:none}
+.forest-map-scene{width:100%;max-width:100%}
+.forest-map-scene::after{display:none}
+.forest-map-scene.is-growing .forest-arrival{animation:forest-visitor-arrive .8s ease-out both;transform-origin:50% 100%}
+.forest-map-scene .forest-arrival:not(.forest-life-ambience):not(.forest-life-sky){filter:drop-shadow(0 0 18px #ffe28dcc)}
+.forest-resident-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:12px 0 22px}
+.forest-resident-list>div{min-width:0;display:grid;justify-items:center;align-content:start;gap:4px;padding:8px;border:1px solid #d5dfc9;border-radius:12px;background:#fbfdf6;text-align:center;font-size:.75rem}
+.forest-resident-list img{width:100%;height:58px;object-fit:contain}
+.forest-resident-list>p{grid-column:1/-1;margin:0;font-size:.85rem}
+@keyframes forest-visitor-hover{0%,100%{translate:0 0;rotate:-2deg}50%{translate:6px -14px;rotate:2deg}}
+@keyframes forest-fish-drift{0%,100%{translate:0 0}50%{translate:20px -4px}}
+@keyframes forest-lantern-glow{0%,100%{opacity:.55}50%{opacity:.9}}
+@keyframes forest-visitor-arrive{0%,15%{opacity:0;scale:.55}75%{opacity:1;scale:1.06}100%{opacity:1;scale:1}}
+.reduce-motion .forest-map-scene .forest-life,.reduce-motion .forest-map-scene .forest-arrival{animation:none}
+@media(prefers-reduced-motion:reduce){.forest-map-scene .forest-life,.forest-map-scene .forest-arrival{animation:none}}
+@media(max-width:360px){.forest-resident-list{grid-template-columns:repeat(3,minmax(0,1fr))}.forest-resident-list>div{font-size:.7rem;padding:6px}}

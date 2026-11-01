@@ -51,6 +51,81 @@
       "source": "assets/bird_small_01.png",
       "destination": "dist/assets/forest/bird_small_01.webp",
       "sourceSha256": "9d20245ac983e8c93bfa027065012e91407a41b42a21c9a5085e3f985da6ae38"
+    },
+    {
+      "source": "assets/acorn_01.png",
+      "destination": "dist/assets/forest/acorn_01.webp",
+      "sourceSha256": "fbc1765315755862b29271519c08810c92290a089204c1dc39145e154e24f044"
+    },
+    {
+      "source": "assets/bee_01.png",
+      "destination": "dist/assets/forest/bee_01.webp",
+      "sourceSha256": "20ffafcfd73153ec949488d6347e6fb98de281a507a028ed45497963c95cb661"
+    },
+    {
+      "source": "assets/bench_01.png",
+      "destination": "dist/assets/forest/bench_01.webp",
+      "sourceSha256": "d7836fe5f4460ffa3d72c58ef32bb1aea079b100aafa2bb36200f1d4b29ae3a9"
+    },
+    {
+      "source": "assets/berry_01.png",
+      "destination": "dist/assets/forest/berry_01.webp",
+      "sourceSha256": "962c00723d152fa1e4830048adc5f191902a39372d5f4f73cbb402560e7becf9"
+    },
+    {
+      "source": "assets/campfire_01.png",
+      "destination": "dist/assets/forest/campfire_01.webp",
+      "sourceSha256": "c0ba6b9a8732bb9f6307bc5ac8ae2d97cad5f962aa67a96d6b76d4f4c0f9d7d0"
+    },
+    {
+      "source": "assets/dragonfly_01.png",
+      "destination": "dist/assets/forest/dragonfly_01.webp",
+      "sourceSha256": "3d473217af6ccbca4fcb2bee9221f151aefcf773e49af163f9a0f85d5969cba4"
+    },
+    {
+      "source": "assets/fish_small_01.png",
+      "destination": "dist/assets/forest/fish_small_01.webp",
+      "sourceSha256": "c5237f7e8390d3c443ae3c0b8cba879452ebb9564cdee2b5e535985df6b3fe3a"
+    },
+    {
+      "source": "assets/frog_01.png",
+      "destination": "dist/assets/forest/frog_01.webp",
+      "sourceSha256": "ce12410bf695036a63967932866717c281f43c40cc8cbb33164a941f024df285"
+    },
+    {
+      "source": "assets/glow_01.png",
+      "destination": "dist/assets/forest/glow_01.webp",
+      "sourceSha256": "ac963e2b322a93c0febebd8251ce3a90287ca908bb646c62537a5bcc84bd608c"
+    },
+    {
+      "source": "assets/leaf_01.png",
+      "destination": "dist/assets/forest/leaf_01.webp",
+      "sourceSha256": "5c78d0c7bb05b2b49dcab81a3f47a217e4d973ee2d78b22dbdfedae298b74638"
+    },
+    {
+      "source": "assets/mushroom_patch_01.png",
+      "destination": "dist/assets/forest/mushroom_patch_01.webp",
+      "sourceSha256": "46f96a231b09b85d1b30105436ea1478f94b60160ee16bfb96e8b96893fa6f53"
+    },
+    {
+      "source": "assets/pinecone_01.png",
+      "destination": "dist/assets/forest/pinecone_01.webp",
+      "sourceSha256": "6f16760b0f25218534c3890bb93c671496e1a4b49cb45586e65704e2a0c2eac0"
+    },
+    {
+      "source": "assets/rainbow_01.png",
+      "destination": "dist/assets/forest/rainbow_01.webp",
+      "sourceSha256": "4bbc9265cefaa4b95cbae20d6a6af17109a9386102bc7b988e839e361be20932"
+    },
+    {
+      "source": "assets/sparkle_small_01.png",
+      "destination": "dist/assets/forest/sparkle_small_01.webp",
+      "sourceSha256": "eb10d6c6f89ef2df627d6bb0ffc23140edc37968e51b7b5c798d8959553653db"
+    },
+    {
+      "source": "assets/stump_01.png",
+      "destination": "dist/assets/forest/stump_01.webp",
+      "sourceSha256": "cddcfe13ac165cbc837311512874fcc8ce7bcb2b60d473dffe4481c49ec3cdc0"
     }
   ]
 }
