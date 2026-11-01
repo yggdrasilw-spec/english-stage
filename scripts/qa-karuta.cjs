@@ -33,14 +33,14 @@ for(const width of [320,360,390,430,1280]){
  assert.equal(await p.locator('#karuta-feedback .karuta-result-symbol').innerText(),'○');assert.equal(await p.locator('.just-taken').count(),1);
  assert.equal(await p.locator('[data-karuta-card]:not(:disabled)').count(),0);
  await p.screenshot({path:path.join(out,`correct-${width}.png`)});await ready(p);
- const next=await saved(p);assert.equal(next.karuta.index,1);assert.equal(next.history.length,before.history.length);assert.deepEqual(next.progress,before.progress);
+ const next=await saved(p);assert.equal(next.karuta.index,1);assert.equal(next.history.length,before.history.length);assert.deepEqual(next.progress,before.progress);const evidence=next.karutaLearning[id].meaning;assert.equal(evidence.takes,1);assert.equal(evidence.mistakes,1);assert.equal(evidence.plays,2);assert.equal(evidence.slow,true);assert(evidence.lastMs>0);assert.equal(evidence.masteredUntil,0);
  assert.deepEqual(await position(),box);
  await p.locator('#karuta-stop').click();assert.equal(await p.locator('[data-karuta-card]:not(:disabled)').count(),0);assert(await p.evaluate(()=>window.qaAudio.paused));
- await p.reload();await p.locator('#karuta-play').waitFor();assert.equal((await saved(p)).karuta.index,1);assert.equal(await p.locator('.karuta-card.taken').count(),1);assert.equal(await p.locator('[data-karuta-card]:not(:disabled)').count(),0);
+ await p.reload();await p.locator('#karuta-play').waitFor();assert.equal((await saved(p)).karuta.index,1);assert.deepEqual((await saved(p)).karutaLearning,next.karutaLearning);assert.equal(await p.locator('.karuta-card.taken').count(),1);assert.equal(await p.locator('[data-karuta-card]:not(:disabled)').count(),0);
  await p.locator('.karuta-config summary').click();await p.locator('#karuta-theme').selectOption('動物');await p.locator('#karuta-count').fill('4');await p.locator('#karuta-face').selectOption('english');await p.locator('#karuta-config button[type=submit]').click();await ready(p);
  assert.equal(await p.locator('[data-karuta-card]').count(),4);assert.equal(await p.locator('.karuta-card img').count(),0);
  for(let i=0;i<4;i++){await ready(p);const s=await saved(p);await p.locator(`[data-karuta-card="${s.karuta.order[s.karuta.index]}"]`).click();if(i<3)await p.waitForFunction(i=>document.querySelectorAll('.karuta-card.taken').length===i+1,i);}
- await p.locator('#karuta-again').waitFor();assert((await p.locator('#karuta-game').innerText()).includes('4枚、とれたよ！'));
+ await p.locator('#karuta-again').waitFor();assert((await p.locator('#karuta-game').innerText()).includes('秒'));assert((await p.locator('#karuta-game').innerText()).includes('4枚、とれたよ！'));
  await p.locator('#karuta-again').click();await ready(p);assert.equal((await saved(p)).karuta.index,0);
  await p.locator('#sound').click();await p.locator('#karuta-play').click();assert((await p.locator('#karuta-feedback').innerText()).includes('音声 OFF'));assert.equal(await p.locator('[data-karuta-card]:not(:disabled)').count(),0);
  await p.locator('#sound').click();await p.locator('#karuta-play').click();await ready(p);
