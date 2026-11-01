@@ -6,6 +6,8 @@
     "test": "node --test tests/*.test.mjs",
     "validate": "node scripts/validate-content.mjs",
     "release:entry": "node scripts/release-entry.mjs",
-    "validate:entry": "node scripts/release-entry.mjs --check"
+    "validate:entry": "node scripts/release-entry.mjs --check",
+    "images:sync": "python scripts/sync-shiritori-images.py",
+    "images:check": "python scripts/sync-shiritori-images.py --check"
   }
 }

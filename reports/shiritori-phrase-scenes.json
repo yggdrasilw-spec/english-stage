@@ -1,0 +1,932 @@
+[
+  {
+    "id": "g5-p-01",
+    "en": "Hello.",
+    "ja": "こんにちは。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-02",
+    "en": "Good morning.",
+    "ja": "おはようございます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-03",
+    "en": "Good night.",
+    "ja": "おやすみなさい。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-04",
+    "en": "Thank you.",
+    "ja": "ありがとう。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-05",
+    "en": "You are welcome.",
+    "ja": "どういたしまして。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-06",
+    "en": "I'm sorry.",
+    "ja": "ごめんなさい。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-07",
+    "en": "Excuse me.",
+    "ja": "すみません。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-08",
+    "en": "See you.",
+    "ja": "またね。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-09",
+    "en": "My name is Yui.",
+    "ja": "わたしの名前はユイです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-10",
+    "en": "How are you?",
+    "ja": "元気ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-11",
+    "en": "I'm fine.",
+    "ja": "元気です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-12",
+    "en": "How old are you?",
+    "ja": "何歳ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-13",
+    "en": "I'm eleven.",
+    "ja": "わたしは11歳です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-14",
+    "en": "I like music.",
+    "ja": "わたしは音楽が好きです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-15",
+    "en": "Do you like soccer?",
+    "ja": "サッカーは好きですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-16",
+    "en": "Yes, I do.",
+    "ja": "はい、そうです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-17",
+    "en": "No, I don't.",
+    "ja": "いいえ、ちがいます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-18",
+    "en": "I don't like milk.",
+    "ja": "わたしは牛乳が好きではありません。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-19",
+    "en": "I can dance.",
+    "ja": "わたしは踊れます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-20",
+    "en": "Can you swim?",
+    "ja": "泳げますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-21",
+    "en": "What is this?",
+    "ja": "これは何ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-22",
+    "en": "It's a cat.",
+    "ja": "それは猫です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-23",
+    "en": "Where is my bag?",
+    "ja": "わたしのかばんはどこですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-24",
+    "en": "It's on the desk.",
+    "ja": "それは机の上にあります。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-25",
+    "en": "It's under the desk.",
+    "ja": "それは机の下にあります。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-26",
+    "en": "It's in the bag.",
+    "ja": "それはかばんの中にあります。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-27",
+    "en": "What time is it?",
+    "ja": "何時ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-28",
+    "en": "It's seven o'clock.",
+    "ja": "7時です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-29",
+    "en": "Please open your book.",
+    "ja": "本を開いてください。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-30",
+    "en": "I'm reading a book.",
+    "ja": "わたしは今、本を読んでいます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-31",
+    "en": "Good afternoon.",
+    "ja": "こんにちは（午後）。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-32",
+    "en": "Good evening.",
+    "ja": "こんばんは。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-33",
+    "en": "Nice to meet you.",
+    "ja": "はじめまして。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-34",
+    "en": "See you tomorrow.",
+    "ja": "また明日ね。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-35",
+    "en": "How do you spell your name?",
+    "ja": "あなたの名前はどうつづりますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-36",
+    "en": "What day is it today?",
+    "ja": "今日は何曜日ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-37",
+    "en": "It's Monday.",
+    "ja": "月曜日です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-38",
+    "en": "When is your birthday?",
+    "ja": "誕生日はいつですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-39",
+    "en": "My birthday is in May.",
+    "ja": "わたしの誕生日は5月です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-40",
+    "en": "How many books do you have?",
+    "ja": "本を何冊持っていますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-41",
+    "en": "I have three books.",
+    "ja": "わたしは本を3冊持っています。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-42",
+    "en": "What do you want?",
+    "ja": "何が欲しいですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-43",
+    "en": "I want some water.",
+    "ja": "わたしは水が欲しいです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-44",
+    "en": "Let's play soccer.",
+    "ja": "サッカーをしましょう。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-45",
+    "en": "That sounds good.",
+    "ja": "それはいいですね。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-46",
+    "en": "Can I use your pen?",
+    "ja": "あなたのペンを使ってもいいですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-47",
+    "en": "Here you are.",
+    "ja": "はい、どうぞ。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-48",
+    "en": "Please close the door.",
+    "ja": "ドアを閉めてください。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-49",
+    "en": "I go to school by bus.",
+    "ja": "わたしはバスで学校に行きます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-50",
+    "en": "What are you doing?",
+    "ja": "何をしているところですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-m-from-japan",
+    "en": "I'm from Japan.",
+    "ja": "日本出身です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-where-are-you-from",
+    "en": "Where are you from?",
+    "ja": "どこの出身ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-live-in-tokyo",
+    "en": "I live in Tokyo.",
+    "ja": "東京に住んでいます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-where-do-you-live",
+    "en": "Where do you live?",
+    "ja": "どこに住んでいますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-who-is-that-boy",
+    "en": "Who is that boy?",
+    "ja": "あの男の子はだれですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-he-is-my-brother",
+    "en": "He is my brother.",
+    "ja": "彼はわたしの兄（弟）です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-this-is-my-friend",
+    "en": "This is my friend.",
+    "ja": "こちらはわたしの友達です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-is-this-your-book",
+    "en": "Is this your book?",
+    "ja": "これはあなたの本ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-yes-it-is",
+    "en": "Yes, it is.",
+    "ja": "はい、そうです。（単数のものについて）",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-no-it-isn-t",
+    "en": "No, it isn't.",
+    "ja": "いいえ、違います。（単数のものについて）",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-are-you-a-student",
+    "en": "Are you a student?",
+    "ja": "あなたは生徒ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-yes-i-am",
+    "en": "Yes, I am.",
+    "ja": "はい、そうです。（自分について）",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-no-i-m-not",
+    "en": "No, I'm not.",
+    "ja": "いいえ、違います。（自分について）",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-these-are-my-shoes",
+    "en": "These are my shoes.",
+    "ja": "これらはわたしの靴です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-whose-pen-is-this",
+    "en": "Whose pen is this?",
+    "ja": "これはだれのペンですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-it-s-mine",
+    "en": "It's mine.",
+    "ja": "わたしのものです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-what-color-is-it",
+    "en": "What color is it?",
+    "ja": "それは何色ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-it-s-blue",
+    "en": "It's blue.",
+    "ja": "青色です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-what-s-your-favorite-food",
+    "en": "What's your favorite food?",
+    "ja": "いちばん好きな食べ物は何ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-my-favorite-food-is-curry",
+    "en": "My favorite food is curry.",
+    "ja": "いちばん好きな食べ物はカレーです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-what-subject-do-you-like",
+    "en": "What subject do you like?",
+    "ja": "どの教科が好きですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-like-english",
+    "en": "I like English.",
+    "ja": "英語が好きです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-does-she-like-tennis",
+    "en": "Does she like tennis?",
+    "ja": "彼女はテニスが好きですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-yes-she-does",
+    "en": "Yes, she does.",
+    "ja": "はい、彼女はそうです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-no-she-doesn-t",
+    "en": "No, she doesn't.",
+    "ja": "いいえ、彼女は違います。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-he-plays-soccer-every-day",
+    "en": "He plays soccer every day.",
+    "ja": "彼は毎日サッカーをします。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-she-doesn-t-play-the-piano",
+    "en": "She doesn't play the piano.",
+    "ja": "彼女はピアノを弾きません。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-what-do-you-have-for-breakfast",
+    "en": "What do you have for breakfast?",
+    "ja": "朝食に何を食べますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-have-bread-and-milk",
+    "en": "I have bread and milk.",
+    "ja": "パンと牛乳をとります。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-when-do-you-get-up",
+    "en": "When do you get up?",
+    "ja": "いつ起きますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-get-up-at-seven",
+    "en": "I get up at seven.",
+    "ja": "7時に起きます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-go-to-bed-at-nine",
+    "en": "I go to bed at nine.",
+    "ja": "9時に寝ます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-what-do-you-do-after-school",
+    "en": "What do you do after school?",
+    "ja": "放課後は何をしますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-do-my-homework-after-school",
+    "en": "I do my homework after school.",
+    "ja": "放課後に宿題をします。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-how-do-you-go-to-school",
+    "en": "How do you go to school?",
+    "ja": "どうやって学校に行きますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-walk-to-school",
+    "en": "I walk to school.",
+    "ja": "歩いて学校へ行きます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-how-much-is-this",
+    "en": "How much is this?",
+    "ja": "これはいくらですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-it-s-five-hundred-yen",
+    "en": "It's five hundred yen.",
+    "ja": "500円です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-may-i-help-you",
+    "en": "May I help you?",
+    "ja": "いらっしゃいませ。何かお探しですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-d-like-this-one",
+    "en": "I'd like this one.",
+    "ja": "これをいただきたいです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-anything-else",
+    "en": "Anything else?",
+    "ja": "ほかに何かありますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-no-thank-you",
+    "en": "No, thank you.",
+    "ja": "いいえ、結構です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-can-i-have-some-water",
+    "en": "Can I have some water?",
+    "ja": "水をもらえますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-you-re-welcome",
+    "en": "You're welcome.",
+    "ja": "どういたしまして。（短縮形）",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-m-hungry",
+    "en": "I'm hungry.",
+    "ja": "おなかがすいています。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-m-thirsty",
+    "en": "I'm thirsty.",
+    "ja": "喉が渇いています。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-let-s-have-lunch",
+    "en": "Let's have lunch.",
+    "ja": "昼食にしましょう。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-how-about-some-juice",
+    "en": "How about some juice?",
+    "ja": "ジュースはいかがですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-how-s-the-weather-today",
+    "en": "How's the weather today?",
+    "ja": "今日の天気はどうですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-it-s-sunny-today",
+    "en": "It's sunny today.",
+    "ja": "今日は晴れです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-it-s-cold-in-winter",
+    "en": "It's cold in winter.",
+    "ja": "冬は寒いです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-what-season-do-you-like",
+    "en": "What season do you like?",
+    "ja": "どの季節が好きですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-like-summer",
+    "en": "I like summer.",
+    "ja": "夏が好きです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-what-can-you-do",
+    "en": "What can you do?",
+    "ja": "何ができますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-can-play-the-piano",
+    "en": "I can play the piano.",
+    "ja": "ピアノが弾けます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-can-t-swim",
+    "en": "I can't swim.",
+    "ja": "泳げません。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-yes-i-can",
+    "en": "Yes, I can.",
+    "ja": "はい、できます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-no-i-can-t",
+    "en": "No, I can't.",
+    "ja": "いいえ、できません。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-can-you-help-me",
+    "en": "Can you help me?",
+    "ja": "手伝ってくれますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-sure",
+    "en": "Sure.",
+    "ja": "もちろんです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-sorry-i-can-t",
+    "en": "Sorry, I can't.",
+    "ja": "ごめんなさい、できません。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-let-s-go-to-the-park",
+    "en": "Let's go to the park.",
+    "ja": "公園へ行きましょう。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-that-s-a-good-idea",
+    "en": "That's a good idea.",
+    "ja": "それはよい考えです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-sorry-i-m-busy",
+    "en": "Sorry, I'm busy.",
+    "ja": "ごめんなさい、忙しいです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-are-you-free-tomorrow",
+    "en": "Are you free tomorrow?",
+    "ja": "明日は暇ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-please-come-in",
+    "en": "Please come in.",
+    "ja": "どうぞ入ってください。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-please-sit-down",
+    "en": "Please sit down.",
+    "ja": "座ってください。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-stand-up-please",
+    "en": "Stand up, please.",
+    "ja": "立ってください。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-don-t-run-here",
+    "en": "Don't run here.",
+    "ja": "ここでは走らないで。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-be-careful",
+    "en": "Be careful.",
+    "ja": "気をつけて。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-please-be-quiet",
+    "en": "Please be quiet.",
+    "ja": "静かにしてください。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-turn-right-at-the-corner",
+    "en": "Turn right at the corner.",
+    "ja": "角で右に曲がって。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-the-bank-is-next-to-the-station",
+    "en": "The bank is next to the station.",
+    "ja": "銀行は駅の隣です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-where-is-the-post-office",
+    "en": "Where is the post office?",
+    "ja": "郵便局はどこですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-it-s-near-the-park",
+    "en": "It's near the park.",
+    "ja": "公園の近くです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-there-is-a-cat-under-the-table",
+    "en": "There is a cat under the table.",
+    "ja": "テーブルの下に猫がいます。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-there-are-three-books-on-the-desk",
+    "en": "There are three books on the desk.",
+    "ja": "机の上に本が3冊あります。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-is-he-reading-a-book",
+    "en": "Is he reading a book?",
+    "ja": "彼は本を読んでいますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-yes-he-is",
+    "en": "Yes, he is.",
+    "ja": "はい、彼はそうしています。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-no-he-isn-t",
+    "en": "No, he isn't.",
+    "ja": "いいえ、彼はそうしていません。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-they-are-playing-soccer",
+    "en": "They are playing soccer.",
+    "ja": "彼らはサッカーをしています。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-m-not-watching-tv",
+    "en": "I'm not watching TV.",
+    "ja": "テレビを見ていません。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-what-is-she-doing",
+    "en": "What is she doing?",
+    "ja": "彼女は何をしていますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-she-is-cooking-dinner",
+    "en": "She is cooking dinner.",
+    "ja": "彼女は夕食を作っています。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-want-to-be-a-teacher",
+    "en": "I want to be a teacher.",
+    "ja": "先生になりたいです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-like-playing-tennis",
+    "en": "I like playing tennis.",
+    "ja": "テニスをするのが好きです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-happy-birthday",
+    "en": "Happy birthday!",
+    "ja": "お誕生日おめでとう。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-happy-new-year",
+    "en": "Happy New Year!",
+    "ja": "あけましておめでとう。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-have-a-nice-day",
+    "en": "Have a nice day.",
+    "ja": "よい1日を。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-have-a-good-time",
+    "en": "Have a good time.",
+    "ja": "楽しんできてね。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-see-you-later",
+    "en": "See you later.",
+    "ja": "またあとで。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-take-care",
+    "en": "Take care.",
+    "ja": "元気でね。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-are-you-ok",
+    "en": "Are you OK?",
+    "ja": "大丈夫ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-m-tired",
+    "en": "I'm tired.",
+    "ja": "疲れています。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-what-s-wrong",
+    "en": "What's wrong?",
+    "ja": "どうしたのですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-one-more-time-please",
+    "en": "One more time, please.",
+    "ja": "もう一度お願いします。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-please-speak-slowly",
+    "en": "Please speak slowly.",
+    "ja": "ゆっくり話してください。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-i-don-t-understand",
+    "en": "I don't understand.",
+    "ja": "わかりません。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-how-do-you-say-this-in-english",
+    "en": "How do you say this in English?",
+    "ja": "これは英語で何と言いますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-extra-what-does-this-word-mean",
+    "en": "What does this word mean?",
+    "ja": "この単語はどういう意味ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-rj-what-s-the-date-today",
+    "en": "What's the date today?",
+    "ja": "今日は何月何日ですか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-rj-how-do-you-get-to-the-station",
+    "en": "How do you get to the station?",
+    "ja": "駅へはどうやって行きますか。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-rj-this-bag-is-his",
+    "en": "This bag is his.",
+    "ja": "このかばんは彼のものです。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-rj-he-is-a-piano-player",
+    "en": "He is a piano player.",
+    "ja": "彼はピアノの演奏者です。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  },
+  {
+    "id": "g5-p-rj-please-ask-him-for-help",
+    "en": "Please ask him for help.",
+    "ja": "彼に助けをお願いしてください。",
+    "reason": "会話・文型全体に対応する場面図を別途検討。単語画像を無条件に流用しない。"
+  }
+]

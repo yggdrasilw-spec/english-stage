@@ -6,9 +6,14 @@ import {DAY,updateProgress,dueTasks} from '../dist/src/scheduler.js';
 import {choices} from '../dist/src/quiz.js';
 const cards=JSON.parse(fs.readFileSync(new URL('../dist/data/grade5.json',import.meta.url)));
 const original=JSON.parse(fs.readFileSync(new URL('./grade5-v1.json',import.meta.url)));
-test('all published IDs, meanings, examples and image mappings are preserved',()=>{
+test('published IDs, meanings, examples and existing image URLs are preserved',()=>{
  assert.equal(original.length,130);
- for(const old of original)assert.deepEqual(cards.find(c=>c.id===old.id),old);
+ for(const old of original){
+  const current=cards.find(c=>c.id===old.id);
+  const {image:oldImage,...oldContent}=old;const {image:currentImage,...currentContent}=current;
+  assert.deepEqual(currentContent,oldContent);
+  if(oldImage)assert.equal(currentImage.url,oldImage.url);
+ }
 });
 test('old backups keep their skill records and due dates after expansion',()=>{
  const state=initial(),at=new Date('2026-10-31T03:00:00Z').getTime();
