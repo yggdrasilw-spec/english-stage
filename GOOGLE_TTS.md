@@ -14,10 +14,10 @@ node scripts/google-tts.mjs
 node scripts/google-tts.mjs --project YOUR_PROJECT_ID --sample --generate
 ```
 
-本生成（全830項目、最大45,000文字のガード付き）：
+本生成（全901項目、最大50,000文字のガード付き）：
 
 ```powershell
-node scripts/google-tts.mjs --project YOUR_PROJECT_ID --generate
+node scripts/google-tts.mjs --project YOUR_PROJECT_ID --max-chars 50000 --generate
 ```
 
 APIは最大4並列で実行。失敗時も生成済みファイルを保持し、全件成功したときだけマニフェストを更新する。同じ台本・声・速度の完成ファイルは再利用する。全量のマニフェストができた後にアプリで利用できる。試聴用マニフェストは本番用とは分離する。生成音声はまだ試聴済みと扱わない。

@@ -1,6 +1,6 @@
 # English Stage — はじめての英検5級
 
-小学5年生向け。5級に向けた680語・語句＋150表現（830項目）を収録。全項目に例文・訳と4種類の米国英語MP3があります。カードをめくり、わかる語を1操作で飛ばし、4種類の対応チェックを連続して進めます。選択式の実戦テスト3回分（各50問）も利用できます。テーマ別の見通し、準備度、学習記録に応じたChatGPT会話用プロンプトを利用できます。詳細は [COMPLETION.md](COMPLETION.md) を参照。
+小学5年生向け。5級に向けた746語・語句＋155表現（901項目）を収録。全項目に例文・訳と4種類の米国英語MP3があります。カードをめくり、わかる語を1操作で飛ばし、4種類の対応チェックを連続して進めます。選択式の実戦テスト3回分（各50問）も利用できます。テーマ別の見通し、準備度、学習記録に応じたChatGPT会話用プロンプトを利用できます。詳細は [COMPLETION.md](COMPLETION.md) を参照。
 
 公開先： https://yggdrasilw-spec.github.io/english-stage/
 
@@ -15,7 +15,7 @@
 
 画像はしりとり既存配信先を参照します。巨大な辞書の読み込み・Gitへの画像追加・外部検索での補完は行いません。対応表は IMAGE_ADOPTIONS.json、音声台本は AUDIO_SCRIPT.json。
 
-音声：Google Cloud Text-to-Speech `en-US-Neural2-F` の米国英語。単語・例文それぞれを通常0.95・ゆっくり0.75の速度で事前生成し、合計3320本のMP3を収録しています。APIは制作時のみ使用し、公開アプリやGitHub Actionsからは呼びません。認証情報をリポジトリに含めません。台本・声・各ファイルの対応は `dist/data/audio-manifest.json`、制作手順は `GOOGLE_TTS.md` にあります。
+音声：Google Cloud Text-to-Speech `en-US-Neural2-F` の米国英語。単語・例文それぞれを通常0.95・ゆっくり0.75の速度で事前生成し、合計3604本のMP3を収録しています。APIは制作時のみ使用し、公開アプリやGitHub Actionsからは呼びません。認証情報をリポジトリに含めません。台本・声・各ファイルの対応は `dist/data/audio-manifest.json`、制作手順は `GOOGLE_TTS.md` にあります。
 
 GitHub Pages：`main`へのpushで自動テストと教材・音声検証が通った後、`dist`を配信します。生成音声・画像については `THIRD_PARTY_NOTICES.md` を参照してください。
 
@@ -65,3 +65,9 @@ GitHub Pages：`main`へのpushで自動テストと教材・音声検証が通�
 全JavaScriptモジュールとCSSに内容から計算した版番号を付け、古いキャッシュと新しいコードが混ざる起動エラーを防ぎます。コード変更後は `npm run release:entry`、公開前は `npm run validate:entry` を実行します。GitHub Actionsでも入口の整合を確認します。音声対応表はホーム表示を待たせず読み込み、遅延時も学習画面を開きます。モジュール読込失敗時は再試行ボタンを表示し、学習記録は消しません。
 
 `node scripts/qa-startup.cjs` で旧キャッシュによる起動エラーを再現し、新しい入口での復帰と学習記録の保持、音声読込の停止、モジュール読込失敗時の再試行表示を検証します。公開URLを引数に渡すと実際のホーム・カード・初回チェックの起動も確認できます。
+
+## 追加語彙（2026-11-01）
+
+[RareJob English Labの英検5級記事](https://www.rarejob.com/englishlab/column/20210918_02/)の語彙範囲を照合し、66語・語句と5表現を追加しました。表の305行すべてに対応する教材IDを `scripts/rarejob-coverage.json` に記録しています。綴り・分かち書きを補正し、訳・説明・例文は独自作成。既存項目のID・内容・学習履歴は維持します。追加内容は通常のカード・仕分け・選択問題・会話プロンプトで利用できます。
+
+追加原稿は `scripts/grade5-expansion-03.json`、反映は `python scripts/sync-rarejob-vocabulary.py`（再実行可能）。既存の教材生成手順からも反映されます。新規284本を含む3604本の音声を収録。全音声の人による試聴は未完了です。

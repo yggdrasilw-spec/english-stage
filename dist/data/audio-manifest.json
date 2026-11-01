@@ -2,7 +2,7 @@
   "provider": "Google Cloud Text-to-Speech",
   "voice": "en-US-Neural2-F",
   "languageCode": "en-US",
-  "generatedAt": "2026-10-31T13:37:23.088Z",
+  "generatedAt": "2026-10-31T22:58:43.144Z",
   "review": "未試聴",
   "terms": "https://cloud.google.com/terms/",
   "files": [
@@ -26565,6 +26565,2278 @@
       "text": "What does this word mean?",
       "path": "assets/audio/g5-p-extra-what-does-this-word-mean-example-slow-2248dd586dd55d83.mp3",
       "hash": "2248dd586dd55d83"
+    },
+    {
+      "id": "g5-w-rj-hers",
+      "part": "word",
+      "speed": "normal",
+      "text": "hers",
+      "path": "assets/audio/g5-w-rj-hers-word-normal-884f13ef5f8aa578.mp3",
+      "hash": "884f13ef5f8aa578"
+    },
+    {
+      "id": "g5-w-rj-hers",
+      "part": "word",
+      "speed": "slow",
+      "text": "hers",
+      "path": "assets/audio/g5-w-rj-hers-word-slow-7842ddd96c031701.mp3",
+      "hash": "7842ddd96c031701"
+    },
+    {
+      "id": "g5-w-rj-hers",
+      "part": "example",
+      "speed": "normal",
+      "text": "This red hat is hers.",
+      "path": "assets/audio/g5-w-rj-hers-example-normal-0ba38a2bb9d74db0.mp3",
+      "hash": "0ba38a2bb9d74db0"
+    },
+    {
+      "id": "g5-w-rj-hers",
+      "part": "example",
+      "speed": "slow",
+      "text": "This red hat is hers.",
+      "path": "assets/audio/g5-w-rj-hers-example-slow-26da4660e6a8c039.mp3",
+      "hash": "26da4660e6a8c039"
+    },
+    {
+      "id": "g5-w-rj-its",
+      "part": "word",
+      "speed": "normal",
+      "text": "its",
+      "path": "assets/audio/g5-w-rj-its-word-normal-07b2de9f33772620.mp3",
+      "hash": "07b2de9f33772620"
+    },
+    {
+      "id": "g5-w-rj-its",
+      "part": "word",
+      "speed": "slow",
+      "text": "its",
+      "path": "assets/audio/g5-w-rj-its-word-slow-fa64695633ed54ac.mp3",
+      "hash": "fa64695633ed54ac"
+    },
+    {
+      "id": "g5-w-rj-its",
+      "part": "example",
+      "speed": "normal",
+      "text": "The dog is eating its food.",
+      "path": "assets/audio/g5-w-rj-its-example-normal-dfe648a9c9b49e03.mp3",
+      "hash": "dfe648a9c9b49e03"
+    },
+    {
+      "id": "g5-w-rj-its",
+      "part": "example",
+      "speed": "slow",
+      "text": "The dog is eating its food.",
+      "path": "assets/audio/g5-w-rj-its-example-slow-26aa7633ac05393e.mp3",
+      "hash": "26aa7633ac05393e"
+    },
+    {
+      "id": "g5-w-rj-theirs",
+      "part": "word",
+      "speed": "normal",
+      "text": "theirs",
+      "path": "assets/audio/g5-w-rj-theirs-word-normal-b8581d6747adbf4e.mp3",
+      "hash": "b8581d6747adbf4e"
+    },
+    {
+      "id": "g5-w-rj-theirs",
+      "part": "word",
+      "speed": "slow",
+      "text": "theirs",
+      "path": "assets/audio/g5-w-rj-theirs-word-slow-bee8b9fc0e4ce99b.mp3",
+      "hash": "bee8b9fc0e4ce99b"
+    },
+    {
+      "id": "g5-w-rj-theirs",
+      "part": "example",
+      "speed": "normal",
+      "text": "These bikes are theirs.",
+      "path": "assets/audio/g5-w-rj-theirs-example-normal-8a7cad6fe33a1025.mp3",
+      "hash": "8a7cad6fe33a1025"
+    },
+    {
+      "id": "g5-w-rj-theirs",
+      "part": "example",
+      "speed": "slow",
+      "text": "These bikes are theirs.",
+      "path": "assets/audio/g5-w-rj-theirs-example-slow-b38637eab1158ba2.mp3",
+      "hash": "b38637eab1158ba2"
+    },
+    {
+      "id": "g5-w-rj-ours",
+      "part": "word",
+      "speed": "normal",
+      "text": "ours",
+      "path": "assets/audio/g5-w-rj-ours-word-normal-3328e12ea964ea0c.mp3",
+      "hash": "3328e12ea964ea0c"
+    },
+    {
+      "id": "g5-w-rj-ours",
+      "part": "word",
+      "speed": "slow",
+      "text": "ours",
+      "path": "assets/audio/g5-w-rj-ours-word-slow-34e3e69630f48d03.mp3",
+      "hash": "34e3e69630f48d03"
+    },
+    {
+      "id": "g5-w-rj-ours",
+      "part": "example",
+      "speed": "normal",
+      "text": "The small tent is ours.",
+      "path": "assets/audio/g5-w-rj-ours-example-normal-ac5f67143a1fe34a.mp3",
+      "hash": "ac5f67143a1fe34a"
+    },
+    {
+      "id": "g5-w-rj-ours",
+      "part": "example",
+      "speed": "slow",
+      "text": "The small tent is ours.",
+      "path": "assets/audio/g5-w-rj-ours-example-slow-5c9693d84d2a39fa.mp3",
+      "hash": "5c9693d84d2a39fa"
+    },
+    {
+      "id": "g5-w-rj-what-color",
+      "part": "word",
+      "speed": "normal",
+      "text": "what color",
+      "path": "assets/audio/g5-w-rj-what-color-word-normal-2b903abaf0af36ff.mp3",
+      "hash": "2b903abaf0af36ff"
+    },
+    {
+      "id": "g5-w-rj-what-color",
+      "part": "word",
+      "speed": "slow",
+      "text": "what color",
+      "path": "assets/audio/g5-w-rj-what-color-word-slow-09902588fcea3fa2.mp3",
+      "hash": "09902588fcea3fa2"
+    },
+    {
+      "id": "g5-w-rj-what-color",
+      "part": "example",
+      "speed": "normal",
+      "text": "What color is your bike?",
+      "path": "assets/audio/g5-w-rj-what-color-example-normal-ea89d8d10873effa.mp3",
+      "hash": "ea89d8d10873effa"
+    },
+    {
+      "id": "g5-w-rj-what-color",
+      "part": "example",
+      "speed": "slow",
+      "text": "What color is your bike?",
+      "path": "assets/audio/g5-w-rj-what-color-example-slow-82f9d5e29ed31214.mp3",
+      "hash": "82f9d5e29ed31214"
+    },
+    {
+      "id": "g5-w-rj-what-sports",
+      "part": "word",
+      "speed": "normal",
+      "text": "what sports",
+      "path": "assets/audio/g5-w-rj-what-sports-word-normal-66ae12958f0dfb3e.mp3",
+      "hash": "66ae12958f0dfb3e"
+    },
+    {
+      "id": "g5-w-rj-what-sports",
+      "part": "word",
+      "speed": "slow",
+      "text": "what sports",
+      "path": "assets/audio/g5-w-rj-what-sports-word-slow-372dcbdb7b0a4623.mp3",
+      "hash": "372dcbdb7b0a4623"
+    },
+    {
+      "id": "g5-w-rj-what-sports",
+      "part": "example",
+      "speed": "normal",
+      "text": "What sports do you play after school?",
+      "path": "assets/audio/g5-w-rj-what-sports-example-normal-4adad9b367333a94.mp3",
+      "hash": "4adad9b367333a94"
+    },
+    {
+      "id": "g5-w-rj-what-sports",
+      "part": "example",
+      "speed": "slow",
+      "text": "What sports do you play after school?",
+      "path": "assets/audio/g5-w-rj-what-sports-example-slow-fe3b41419c7b8064.mp3",
+      "hash": "fe3b41419c7b8064"
+    },
+    {
+      "id": "g5-w-rj-what-food",
+      "part": "word",
+      "speed": "normal",
+      "text": "what food",
+      "path": "assets/audio/g5-w-rj-what-food-word-normal-899fe68534b17f5e.mp3",
+      "hash": "899fe68534b17f5e"
+    },
+    {
+      "id": "g5-w-rj-what-food",
+      "part": "word",
+      "speed": "slow",
+      "text": "what food",
+      "path": "assets/audio/g5-w-rj-what-food-word-slow-24bb1dc545d43e37.mp3",
+      "hash": "24bb1dc545d43e37"
+    },
+    {
+      "id": "g5-w-rj-what-food",
+      "part": "example",
+      "speed": "normal",
+      "text": "What food do you want to try?",
+      "path": "assets/audio/g5-w-rj-what-food-example-normal-69e4be55e53ea2a8.mp3",
+      "hash": "69e4be55e53ea2a8"
+    },
+    {
+      "id": "g5-w-rj-what-food",
+      "part": "example",
+      "speed": "slow",
+      "text": "What food do you want to try?",
+      "path": "assets/audio/g5-w-rj-what-food-example-slow-57dc3a1f34b63777.mp3",
+      "hash": "57dc3a1f34b63777"
+    },
+    {
+      "id": "g5-w-rj-what-drink",
+      "part": "word",
+      "speed": "normal",
+      "text": "what drink",
+      "path": "assets/audio/g5-w-rj-what-drink-word-normal-70d8ce2ffbc38ab0.mp3",
+      "hash": "70d8ce2ffbc38ab0"
+    },
+    {
+      "id": "g5-w-rj-what-drink",
+      "part": "word",
+      "speed": "slow",
+      "text": "what drink",
+      "path": "assets/audio/g5-w-rj-what-drink-word-slow-0764b914225ff1de.mp3",
+      "hash": "0764b914225ff1de"
+    },
+    {
+      "id": "g5-w-rj-what-drink",
+      "part": "example",
+      "speed": "normal",
+      "text": "What drink do you want with lunch?",
+      "path": "assets/audio/g5-w-rj-what-drink-example-normal-15f837f226f0f6ef.mp3",
+      "hash": "15f837f226f0f6ef"
+    },
+    {
+      "id": "g5-w-rj-what-drink",
+      "part": "example",
+      "speed": "slow",
+      "text": "What drink do you want with lunch?",
+      "path": "assets/audio/g5-w-rj-what-drink-example-slow-d6f615972e1e5910.mp3",
+      "hash": "d6f615972e1e5910"
+    },
+    {
+      "id": "g5-w-rj-what-animal",
+      "part": "word",
+      "speed": "normal",
+      "text": "what animal",
+      "path": "assets/audio/g5-w-rj-what-animal-word-normal-d4e7f44544dff018.mp3",
+      "hash": "d4e7f44544dff018"
+    },
+    {
+      "id": "g5-w-rj-what-animal",
+      "part": "word",
+      "speed": "slow",
+      "text": "what animal",
+      "path": "assets/audio/g5-w-rj-what-animal-word-slow-339e3280050bb6aa.mp3",
+      "hash": "339e3280050bb6aa"
+    },
+    {
+      "id": "g5-w-rj-what-animal",
+      "part": "example",
+      "speed": "normal",
+      "text": "What animal has a long nose?",
+      "path": "assets/audio/g5-w-rj-what-animal-example-normal-66ac8afe025d4ada.mp3",
+      "hash": "66ac8afe025d4ada"
+    },
+    {
+      "id": "g5-w-rj-what-animal",
+      "part": "example",
+      "speed": "slow",
+      "text": "What animal has a long nose?",
+      "path": "assets/audio/g5-w-rj-what-animal-example-slow-75767beff27ed6ca.mp3",
+      "hash": "75767beff27ed6ca"
+    },
+    {
+      "id": "g5-w-rj-what-subject",
+      "part": "word",
+      "speed": "normal",
+      "text": "what subject",
+      "path": "assets/audio/g5-w-rj-what-subject-word-normal-ad3e3d6f6dcd2426.mp3",
+      "hash": "ad3e3d6f6dcd2426"
+    },
+    {
+      "id": "g5-w-rj-what-subject",
+      "part": "word",
+      "speed": "slow",
+      "text": "what subject",
+      "path": "assets/audio/g5-w-rj-what-subject-word-slow-b1f67c981c78d067.mp3",
+      "hash": "b1f67c981c78d067"
+    },
+    {
+      "id": "g5-w-rj-what-subject",
+      "part": "example",
+      "speed": "normal",
+      "text": "What subject do you study on Friday?",
+      "path": "assets/audio/g5-w-rj-what-subject-example-normal-2beba23b3e627235.mp3",
+      "hash": "2beba23b3e627235"
+    },
+    {
+      "id": "g5-w-rj-what-subject",
+      "part": "example",
+      "speed": "slow",
+      "text": "What subject do you study on Friday?",
+      "path": "assets/audio/g5-w-rj-what-subject-example-slow-7e966d04669b3633.mp3",
+      "hash": "7e966d04669b3633"
+    },
+    {
+      "id": "g5-w-rj-what-time",
+      "part": "word",
+      "speed": "normal",
+      "text": "what time",
+      "path": "assets/audio/g5-w-rj-what-time-word-normal-620de36029f28242.mp3",
+      "hash": "620de36029f28242"
+    },
+    {
+      "id": "g5-w-rj-what-time",
+      "part": "word",
+      "speed": "slow",
+      "text": "what time",
+      "path": "assets/audio/g5-w-rj-what-time-word-slow-6e38786806222b18.mp3",
+      "hash": "6e38786806222b18"
+    },
+    {
+      "id": "g5-w-rj-what-time",
+      "part": "example",
+      "speed": "normal",
+      "text": "What time does the shop open?",
+      "path": "assets/audio/g5-w-rj-what-time-example-normal-47a37482620fdb98.mp3",
+      "hash": "47a37482620fdb98"
+    },
+    {
+      "id": "g5-w-rj-what-time",
+      "part": "example",
+      "speed": "slow",
+      "text": "What time does the shop open?",
+      "path": "assets/audio/g5-w-rj-what-time-example-slow-5220f9099a608e99.mp3",
+      "hash": "5220f9099a608e99"
+    },
+    {
+      "id": "g5-w-rj-how-tall",
+      "part": "word",
+      "speed": "normal",
+      "text": "how tall",
+      "path": "assets/audio/g5-w-rj-how-tall-word-normal-764ad55d381445a9.mp3",
+      "hash": "764ad55d381445a9"
+    },
+    {
+      "id": "g5-w-rj-how-tall",
+      "part": "word",
+      "speed": "slow",
+      "text": "how tall",
+      "path": "assets/audio/g5-w-rj-how-tall-word-slow-6beba1d8406b84b4.mp3",
+      "hash": "6beba1d8406b84b4"
+    },
+    {
+      "id": "g5-w-rj-how-tall",
+      "part": "example",
+      "speed": "normal",
+      "text": "How tall is your brother?",
+      "path": "assets/audio/g5-w-rj-how-tall-example-normal-979cb70f54d99c7b.mp3",
+      "hash": "979cb70f54d99c7b"
+    },
+    {
+      "id": "g5-w-rj-how-tall",
+      "part": "example",
+      "speed": "slow",
+      "text": "How tall is your brother?",
+      "path": "assets/audio/g5-w-rj-how-tall-example-slow-38902cdc81dd63a2.mp3",
+      "hash": "38902cdc81dd63a2"
+    },
+    {
+      "id": "g5-w-rj-how-long",
+      "part": "word",
+      "speed": "normal",
+      "text": "how long",
+      "path": "assets/audio/g5-w-rj-how-long-word-normal-53057047d076909e.mp3",
+      "hash": "53057047d076909e"
+    },
+    {
+      "id": "g5-w-rj-how-long",
+      "part": "word",
+      "speed": "slow",
+      "text": "how long",
+      "path": "assets/audio/g5-w-rj-how-long-word-slow-4a7a89f1afc0efb7.mp3",
+      "hash": "4a7a89f1afc0efb7"
+    },
+    {
+      "id": "g5-w-rj-how-long",
+      "part": "example",
+      "speed": "normal",
+      "text": "How long is this bridge?",
+      "path": "assets/audio/g5-w-rj-how-long-example-normal-db516eaaf7a20274.mp3",
+      "hash": "db516eaaf7a20274"
+    },
+    {
+      "id": "g5-w-rj-how-long",
+      "part": "example",
+      "speed": "slow",
+      "text": "How long is this bridge?",
+      "path": "assets/audio/g5-w-rj-how-long-example-slow-d032acd6b791fea2.mp3",
+      "hash": "d032acd6b791fea2"
+    },
+    {
+      "id": "g5-w-rj-midnight",
+      "part": "word",
+      "speed": "normal",
+      "text": "midnight",
+      "path": "assets/audio/g5-w-rj-midnight-word-normal-ad93008a9eb08b91.mp3",
+      "hash": "ad93008a9eb08b91"
+    },
+    {
+      "id": "g5-w-rj-midnight",
+      "part": "word",
+      "speed": "slow",
+      "text": "midnight",
+      "path": "assets/audio/g5-w-rj-midnight-word-slow-96dc17dc46bf3652.mp3",
+      "hash": "96dc17dc46bf3652"
+    },
+    {
+      "id": "g5-w-rj-midnight",
+      "part": "example",
+      "speed": "normal",
+      "text": "We got home at midnight.",
+      "path": "assets/audio/g5-w-rj-midnight-example-normal-0cc8ffa8cda4bb67.mp3",
+      "hash": "0cc8ffa8cda4bb67"
+    },
+    {
+      "id": "g5-w-rj-midnight",
+      "part": "example",
+      "speed": "slow",
+      "text": "We got home at midnight.",
+      "path": "assets/audio/g5-w-rj-midnight-example-slow-62a068cfdafb2954.mp3",
+      "hash": "62a068cfdafb2954"
+    },
+    {
+      "id": "g5-w-rj-autumn",
+      "part": "word",
+      "speed": "normal",
+      "text": "autumn",
+      "path": "assets/audio/g5-w-rj-autumn-word-normal-0f03b5a26d7cb524.mp3",
+      "hash": "0f03b5a26d7cb524"
+    },
+    {
+      "id": "g5-w-rj-autumn",
+      "part": "word",
+      "speed": "slow",
+      "text": "autumn",
+      "path": "assets/audio/g5-w-rj-autumn-word-slow-d243000540aa5cef.mp3",
+      "hash": "d243000540aa5cef"
+    },
+    {
+      "id": "g5-w-rj-autumn",
+      "part": "example",
+      "speed": "normal",
+      "text": "The leaves are red in autumn.",
+      "path": "assets/audio/g5-w-rj-autumn-example-normal-9b88b7b7269fa60a.mp3",
+      "hash": "9b88b7b7269fa60a"
+    },
+    {
+      "id": "g5-w-rj-autumn",
+      "part": "example",
+      "speed": "slow",
+      "text": "The leaves are red in autumn.",
+      "path": "assets/audio/g5-w-rj-autumn-example-slow-e35a99df6d8a6821.mp3",
+      "hash": "e35a99df6d8a6821"
+    },
+    {
+      "id": "g5-w-rj-spain",
+      "part": "word",
+      "speed": "normal",
+      "text": "Spain",
+      "path": "assets/audio/g5-w-rj-spain-word-normal-1b69d4a7f3951e0c.mp3",
+      "hash": "1b69d4a7f3951e0c"
+    },
+    {
+      "id": "g5-w-rj-spain",
+      "part": "word",
+      "speed": "slow",
+      "text": "Spain",
+      "path": "assets/audio/g5-w-rj-spain-word-slow-df470d5bdfc2307a.mp3",
+      "hash": "df470d5bdfc2307a"
+    },
+    {
+      "id": "g5-w-rj-spain",
+      "part": "example",
+      "speed": "normal",
+      "text": "My friend lives in Spain.",
+      "path": "assets/audio/g5-w-rj-spain-example-normal-3ea4432c8514b4a5.mp3",
+      "hash": "3ea4432c8514b4a5"
+    },
+    {
+      "id": "g5-w-rj-spain",
+      "part": "example",
+      "speed": "slow",
+      "text": "My friend lives in Spain.",
+      "path": "assets/audio/g5-w-rj-spain-example-slow-729e313bce511966.mp3",
+      "hash": "729e313bce511966"
+    },
+    {
+      "id": "g5-w-rj-france",
+      "part": "word",
+      "speed": "normal",
+      "text": "France",
+      "path": "assets/audio/g5-w-rj-france-word-normal-03c5b6dbb13b2723.mp3",
+      "hash": "03c5b6dbb13b2723"
+    },
+    {
+      "id": "g5-w-rj-france",
+      "part": "word",
+      "speed": "slow",
+      "text": "France",
+      "path": "assets/audio/g5-w-rj-france-word-slow-b7decf5d7066d6ea.mp3",
+      "hash": "b7decf5d7066d6ea"
+    },
+    {
+      "id": "g5-w-rj-france",
+      "part": "example",
+      "speed": "normal",
+      "text": "My aunt is from France.",
+      "path": "assets/audio/g5-w-rj-france-example-normal-d1db9ccd4d3a5c2c.mp3",
+      "hash": "d1db9ccd4d3a5c2c"
+    },
+    {
+      "id": "g5-w-rj-france",
+      "part": "example",
+      "speed": "slow",
+      "text": "My aunt is from France.",
+      "path": "assets/audio/g5-w-rj-france-example-slow-5a39d6809f63ba52.mp3",
+      "hash": "5a39d6809f63ba52"
+    },
+    {
+      "id": "g5-w-rj-germany",
+      "part": "word",
+      "speed": "normal",
+      "text": "Germany",
+      "path": "assets/audio/g5-w-rj-germany-word-normal-d2d3825041e1e908.mp3",
+      "hash": "d2d3825041e1e908"
+    },
+    {
+      "id": "g5-w-rj-germany",
+      "part": "word",
+      "speed": "slow",
+      "text": "Germany",
+      "path": "assets/audio/g5-w-rj-germany-word-slow-a4f29d188632281f.mp3",
+      "hash": "a4f29d188632281f"
+    },
+    {
+      "id": "g5-w-rj-germany",
+      "part": "example",
+      "speed": "normal",
+      "text": "This train is from Germany.",
+      "path": "assets/audio/g5-w-rj-germany-example-normal-5ed1a76cd6fa660e.mp3",
+      "hash": "5ed1a76cd6fa660e"
+    },
+    {
+      "id": "g5-w-rj-germany",
+      "part": "example",
+      "speed": "slow",
+      "text": "This train is from Germany.",
+      "path": "assets/audio/g5-w-rj-germany-example-slow-9126cb583b5e5352.mp3",
+      "hash": "9126cb583b5e5352"
+    },
+    {
+      "id": "g5-w-rj-brazil",
+      "part": "word",
+      "speed": "normal",
+      "text": "Brazil",
+      "path": "assets/audio/g5-w-rj-brazil-word-normal-7cec8e9a806c98f6.mp3",
+      "hash": "7cec8e9a806c98f6"
+    },
+    {
+      "id": "g5-w-rj-brazil",
+      "part": "word",
+      "speed": "slow",
+      "text": "Brazil",
+      "path": "assets/audio/g5-w-rj-brazil-word-slow-c6595ac5916404c8.mp3",
+      "hash": "c6595ac5916404c8"
+    },
+    {
+      "id": "g5-w-rj-brazil",
+      "part": "example",
+      "speed": "normal",
+      "text": "My cousin lives in Brazil.",
+      "path": "assets/audio/g5-w-rj-brazil-example-normal-0465fc8fe4acdd85.mp3",
+      "hash": "0465fc8fe4acdd85"
+    },
+    {
+      "id": "g5-w-rj-brazil",
+      "part": "example",
+      "speed": "slow",
+      "text": "My cousin lives in Brazil.",
+      "path": "assets/audio/g5-w-rj-brazil-example-slow-fc0b6c4eb7855076.mp3",
+      "hash": "fc0b6c4eb7855076"
+    },
+    {
+      "id": "g5-w-rj-africa",
+      "part": "word",
+      "speed": "normal",
+      "text": "Africa",
+      "path": "assets/audio/g5-w-rj-africa-word-normal-cade8fb2214f526c.mp3",
+      "hash": "cade8fb2214f526c"
+    },
+    {
+      "id": "g5-w-rj-africa",
+      "part": "word",
+      "speed": "slow",
+      "text": "Africa",
+      "path": "assets/audio/g5-w-rj-africa-word-slow-8f904e0b013d3a47.mp3",
+      "hash": "8f904e0b013d3a47"
+    },
+    {
+      "id": "g5-w-rj-africa",
+      "part": "example",
+      "speed": "normal",
+      "text": "Kenya is in Africa.",
+      "path": "assets/audio/g5-w-rj-africa-example-normal-f01e657b9fbe0a46.mp3",
+      "hash": "f01e657b9fbe0a46"
+    },
+    {
+      "id": "g5-w-rj-africa",
+      "part": "example",
+      "speed": "slow",
+      "text": "Kenya is in Africa.",
+      "path": "assets/audio/g5-w-rj-africa-example-slow-24d11803a01f248e.mp3",
+      "hash": "24d11803a01f248e"
+    },
+    {
+      "id": "g5-w-rj-asia",
+      "part": "word",
+      "speed": "normal",
+      "text": "Asia",
+      "path": "assets/audio/g5-w-rj-asia-word-normal-8926bebd7f086dd2.mp3",
+      "hash": "8926bebd7f086dd2"
+    },
+    {
+      "id": "g5-w-rj-asia",
+      "part": "word",
+      "speed": "slow",
+      "text": "Asia",
+      "path": "assets/audio/g5-w-rj-asia-word-slow-f9f60c001194af43.mp3",
+      "hash": "f9f60c001194af43"
+    },
+    {
+      "id": "g5-w-rj-asia",
+      "part": "example",
+      "speed": "normal",
+      "text": "Japan is in Asia.",
+      "path": "assets/audio/g5-w-rj-asia-example-normal-b3e558a21244f47f.mp3",
+      "hash": "b3e558a21244f47f"
+    },
+    {
+      "id": "g5-w-rj-asia",
+      "part": "example",
+      "speed": "slow",
+      "text": "Japan is in Asia.",
+      "path": "assets/audio/g5-w-rj-asia-example-slow-eb1c3720075fada2.mp3",
+      "hash": "eb1c3720075fada2"
+    },
+    {
+      "id": "g5-w-rj-europe",
+      "part": "word",
+      "speed": "normal",
+      "text": "Europe",
+      "path": "assets/audio/g5-w-rj-europe-word-normal-a99ccb4f9b2c0c1d.mp3",
+      "hash": "a99ccb4f9b2c0c1d"
+    },
+    {
+      "id": "g5-w-rj-europe",
+      "part": "word",
+      "speed": "slow",
+      "text": "Europe",
+      "path": "assets/audio/g5-w-rj-europe-word-slow-dc888e4274ce6ea5.mp3",
+      "hash": "dc888e4274ce6ea5"
+    },
+    {
+      "id": "g5-w-rj-europe",
+      "part": "example",
+      "speed": "normal",
+      "text": "France is in Europe.",
+      "path": "assets/audio/g5-w-rj-europe-example-normal-981faab036cf79a6.mp3",
+      "hash": "981faab036cf79a6"
+    },
+    {
+      "id": "g5-w-rj-europe",
+      "part": "example",
+      "speed": "slow",
+      "text": "France is in Europe.",
+      "path": "assets/audio/g5-w-rj-europe-example-slow-2b3b6d461b97c27d.mp3",
+      "hash": "2b3b6d461b97c27d"
+    },
+    {
+      "id": "g5-w-rj-city-hall",
+      "part": "word",
+      "speed": "normal",
+      "text": "city hall",
+      "path": "assets/audio/g5-w-rj-city-hall-word-normal-59c2b0b958de07cf.mp3",
+      "hash": "59c2b0b958de07cf"
+    },
+    {
+      "id": "g5-w-rj-city-hall",
+      "part": "word",
+      "speed": "slow",
+      "text": "city hall",
+      "path": "assets/audio/g5-w-rj-city-hall-word-slow-c2011529e52aa75e.mp3",
+      "hash": "c2011529e52aa75e"
+    },
+    {
+      "id": "g5-w-rj-city-hall",
+      "part": "example",
+      "speed": "normal",
+      "text": "The bus stops near city hall.",
+      "path": "assets/audio/g5-w-rj-city-hall-example-normal-1e15836aab5075bc.mp3",
+      "hash": "1e15836aab5075bc"
+    },
+    {
+      "id": "g5-w-rj-city-hall",
+      "part": "example",
+      "speed": "slow",
+      "text": "The bus stops near city hall.",
+      "path": "assets/audio/g5-w-rj-city-hall-example-slow-4993be3845e88a6f.mp3",
+      "hash": "4993be3845e88a6f"
+    },
+    {
+      "id": "g5-w-rj-bedroom",
+      "part": "word",
+      "speed": "normal",
+      "text": "bedroom",
+      "path": "assets/audio/g5-w-rj-bedroom-word-normal-cbdbbf6710b9c2ff.mp3",
+      "hash": "cbdbbf6710b9c2ff"
+    },
+    {
+      "id": "g5-w-rj-bedroom",
+      "part": "word",
+      "speed": "slow",
+      "text": "bedroom",
+      "path": "assets/audio/g5-w-rj-bedroom-word-slow-7a231a16bec56a77.mp3",
+      "hash": "7a231a16bec56a77"
+    },
+    {
+      "id": "g5-w-rj-bedroom",
+      "part": "example",
+      "speed": "normal",
+      "text": "My bedroom has two windows.",
+      "path": "assets/audio/g5-w-rj-bedroom-example-normal-542f30a64d53a768.mp3",
+      "hash": "542f30a64d53a768"
+    },
+    {
+      "id": "g5-w-rj-bedroom",
+      "part": "example",
+      "speed": "slow",
+      "text": "My bedroom has two windows.",
+      "path": "assets/audio/g5-w-rj-bedroom-example-slow-5fa6c23c982191d7.mp3",
+      "hash": "5fa6c23c982191d7"
+    },
+    {
+      "id": "g5-w-rj-foggy",
+      "part": "word",
+      "speed": "normal",
+      "text": "foggy",
+      "path": "assets/audio/g5-w-rj-foggy-word-normal-b9e4284713ddedfd.mp3",
+      "hash": "b9e4284713ddedfd"
+    },
+    {
+      "id": "g5-w-rj-foggy",
+      "part": "word",
+      "speed": "slow",
+      "text": "foggy",
+      "path": "assets/audio/g5-w-rj-foggy-word-slow-4117f35dc03a8ade.mp3",
+      "hash": "4117f35dc03a8ade"
+    },
+    {
+      "id": "g5-w-rj-foggy",
+      "part": "example",
+      "speed": "normal",
+      "text": "It is foggy this morning.",
+      "path": "assets/audio/g5-w-rj-foggy-example-normal-becdfe8ed18ed876.mp3",
+      "hash": "becdfe8ed18ed876"
+    },
+    {
+      "id": "g5-w-rj-foggy",
+      "part": "example",
+      "speed": "slow",
+      "text": "It is foggy this morning.",
+      "path": "assets/audio/g5-w-rj-foggy-example-slow-3bfcab39a3eadb26.mp3",
+      "hash": "3bfcab39a3eadb26"
+    },
+    {
+      "id": "g5-w-rj-sunshine",
+      "part": "word",
+      "speed": "normal",
+      "text": "sunshine",
+      "path": "assets/audio/g5-w-rj-sunshine-word-normal-6c64eb0c721da0c7.mp3",
+      "hash": "6c64eb0c721da0c7"
+    },
+    {
+      "id": "g5-w-rj-sunshine",
+      "part": "word",
+      "speed": "slow",
+      "text": "sunshine",
+      "path": "assets/audio/g5-w-rj-sunshine-word-slow-bf32f6b48a41b025.mp3",
+      "hash": "bf32f6b48a41b025"
+    },
+    {
+      "id": "g5-w-rj-sunshine",
+      "part": "example",
+      "speed": "normal",
+      "text": "The cat is sleeping in the sunshine.",
+      "path": "assets/audio/g5-w-rj-sunshine-example-normal-0ed64f0f6a496eaa.mp3",
+      "hash": "0ed64f0f6a496eaa"
+    },
+    {
+      "id": "g5-w-rj-sunshine",
+      "part": "example",
+      "speed": "slow",
+      "text": "The cat is sleeping in the sunshine.",
+      "path": "assets/audio/g5-w-rj-sunshine-example-slow-6fbac54b637c5763.mp3",
+      "hash": "6fbac54b637c5763"
+    },
+    {
+      "id": "g5-w-rj-shower",
+      "part": "word",
+      "speed": "normal",
+      "text": "shower",
+      "path": "assets/audio/g5-w-rj-shower-word-normal-39d14c9a1ee351c8.mp3",
+      "hash": "39d14c9a1ee351c8"
+    },
+    {
+      "id": "g5-w-rj-shower",
+      "part": "word",
+      "speed": "slow",
+      "text": "shower",
+      "path": "assets/audio/g5-w-rj-shower-word-slow-1cd0ed9a6dab865a.mp3",
+      "hash": "1cd0ed9a6dab865a"
+    },
+    {
+      "id": "g5-w-rj-shower",
+      "part": "example",
+      "speed": "normal",
+      "text": "We had a shower this afternoon.",
+      "path": "assets/audio/g5-w-rj-shower-example-normal-02b224d54e5bbc68.mp3",
+      "hash": "02b224d54e5bbc68"
+    },
+    {
+      "id": "g5-w-rj-shower",
+      "part": "example",
+      "speed": "slow",
+      "text": "We had a shower this afternoon.",
+      "path": "assets/audio/g5-w-rj-shower-example-slow-bd4ef812a7af2a0e.mp3",
+      "hash": "bd4ef812a7af2a0e"
+    },
+    {
+      "id": "g5-w-rj-fog",
+      "part": "word",
+      "speed": "normal",
+      "text": "fog",
+      "path": "assets/audio/g5-w-rj-fog-word-normal-38150567ab9fea53.mp3",
+      "hash": "38150567ab9fea53"
+    },
+    {
+      "id": "g5-w-rj-fog",
+      "part": "word",
+      "speed": "slow",
+      "text": "fog",
+      "path": "assets/audio/g5-w-rj-fog-word-slow-a1ae43499e7dc031.mp3",
+      "hash": "a1ae43499e7dc031"
+    },
+    {
+      "id": "g5-w-rj-fog",
+      "part": "example",
+      "speed": "normal",
+      "text": "I cannot see the trees in the fog.",
+      "path": "assets/audio/g5-w-rj-fog-example-normal-b53299c2ef062b71.mp3",
+      "hash": "b53299c2ef062b71"
+    },
+    {
+      "id": "g5-w-rj-fog",
+      "part": "example",
+      "speed": "slow",
+      "text": "I cannot see the trees in the fog.",
+      "path": "assets/audio/g5-w-rj-fog-example-slow-1dec2e809f11fe81.mp3",
+      "hash": "1dec2e809f11fe81"
+    },
+    {
+      "id": "g5-w-rj-clear-up",
+      "part": "word",
+      "speed": "normal",
+      "text": "clear up",
+      "path": "assets/audio/g5-w-rj-clear-up-word-normal-02e4e8e69826be22.mp3",
+      "hash": "02e4e8e69826be22"
+    },
+    {
+      "id": "g5-w-rj-clear-up",
+      "part": "word",
+      "speed": "slow",
+      "text": "clear up",
+      "path": "assets/audio/g5-w-rj-clear-up-word-slow-73ed93fe5489fe0e.mp3",
+      "hash": "73ed93fe5489fe0e"
+    },
+    {
+      "id": "g5-w-rj-clear-up",
+      "part": "example",
+      "speed": "normal",
+      "text": "It will clear up this afternoon.",
+      "path": "assets/audio/g5-w-rj-clear-up-example-normal-ab0a5f619e59a766.mp3",
+      "hash": "ab0a5f619e59a766"
+    },
+    {
+      "id": "g5-w-rj-clear-up",
+      "part": "example",
+      "speed": "slow",
+      "text": "It will clear up this afternoon.",
+      "path": "assets/audio/g5-w-rj-clear-up-example-slow-5b1c241a915080cd.mp3",
+      "hash": "5b1c241a915080cd"
+    },
+    {
+      "id": "g5-w-rj-dancer",
+      "part": "word",
+      "speed": "normal",
+      "text": "dancer",
+      "path": "assets/audio/g5-w-rj-dancer-word-normal-9441ada78527ce0f.mp3",
+      "hash": "9441ada78527ce0f"
+    },
+    {
+      "id": "g5-w-rj-dancer",
+      "part": "word",
+      "speed": "slow",
+      "text": "dancer",
+      "path": "assets/audio/g5-w-rj-dancer-word-slow-c74720c33143b25e.mp3",
+      "hash": "c74720c33143b25e"
+    },
+    {
+      "id": "g5-w-rj-dancer",
+      "part": "example",
+      "speed": "normal",
+      "text": "My sister wants to be a dancer.",
+      "path": "assets/audio/g5-w-rj-dancer-example-normal-0cd0e6eed5801300.mp3",
+      "hash": "0cd0e6eed5801300"
+    },
+    {
+      "id": "g5-w-rj-dancer",
+      "part": "example",
+      "speed": "slow",
+      "text": "My sister wants to be a dancer.",
+      "path": "assets/audio/g5-w-rj-dancer-example-slow-6bb6eedbcc098659.mp3",
+      "hash": "6bb6eedbcc098659"
+    },
+    {
+      "id": "g5-w-rj-job",
+      "part": "word",
+      "speed": "normal",
+      "text": "job",
+      "path": "assets/audio/g5-w-rj-job-word-normal-d04e2e0f123b4c6f.mp3",
+      "hash": "d04e2e0f123b4c6f"
+    },
+    {
+      "id": "g5-w-rj-job",
+      "part": "word",
+      "speed": "slow",
+      "text": "job",
+      "path": "assets/audio/g5-w-rj-job-word-slow-4a5403d8a327bdad.mp3",
+      "hash": "4a5403d8a327bdad"
+    },
+    {
+      "id": "g5-w-rj-job",
+      "part": "example",
+      "speed": "normal",
+      "text": "My father likes his job.",
+      "path": "assets/audio/g5-w-rj-job-example-normal-cdcaac0a26d22214.mp3",
+      "hash": "cdcaac0a26d22214"
+    },
+    {
+      "id": "g5-w-rj-job",
+      "part": "example",
+      "speed": "slow",
+      "text": "My father likes his job.",
+      "path": "assets/audio/g5-w-rj-job-example-slow-d80614682565a221.mp3",
+      "hash": "d80614682565a221"
+    },
+    {
+      "id": "g5-w-rj-officer",
+      "part": "word",
+      "speed": "normal",
+      "text": "officer",
+      "path": "assets/audio/g5-w-rj-officer-word-normal-c4f89f4b8c16b6f0.mp3",
+      "hash": "c4f89f4b8c16b6f0"
+    },
+    {
+      "id": "g5-w-rj-officer",
+      "part": "word",
+      "speed": "slow",
+      "text": "officer",
+      "path": "assets/audio/g5-w-rj-officer-word-slow-9e884c341f71dd6f.mp3",
+      "hash": "9e884c341f71dd6f"
+    },
+    {
+      "id": "g5-w-rj-officer",
+      "part": "example",
+      "speed": "normal",
+      "text": "The police officer is helping a child.",
+      "path": "assets/audio/g5-w-rj-officer-example-normal-52918b648b729e02.mp3",
+      "hash": "52918b648b729e02"
+    },
+    {
+      "id": "g5-w-rj-officer",
+      "part": "example",
+      "speed": "slow",
+      "text": "The police officer is helping a child.",
+      "path": "assets/audio/g5-w-rj-officer-example-slow-bc304ae39a62cc3f.mp3",
+      "hash": "bc304ae39a62cc3f"
+    },
+    {
+      "id": "g5-w-rj-person",
+      "part": "word",
+      "speed": "normal",
+      "text": "person",
+      "path": "assets/audio/g5-w-rj-person-word-normal-84be8b00565ea171.mp3",
+      "hash": "84be8b00565ea171"
+    },
+    {
+      "id": "g5-w-rj-person",
+      "part": "word",
+      "speed": "slow",
+      "text": "person",
+      "path": "assets/audio/g5-w-rj-person-word-slow-e4bc5dce2c8db9f5.mp3",
+      "hash": "e4bc5dce2c8db9f5"
+    },
+    {
+      "id": "g5-w-rj-person",
+      "part": "example",
+      "speed": "normal",
+      "text": "One person is waiting at the door.",
+      "path": "assets/audio/g5-w-rj-person-example-normal-6e59692e02df1c96.mp3",
+      "hash": "6e59692e02df1c96"
+    },
+    {
+      "id": "g5-w-rj-person",
+      "part": "example",
+      "speed": "slow",
+      "text": "One person is waiting at the door.",
+      "path": "assets/audio/g5-w-rj-person-example-slow-aae345cbaaee9125.mp3",
+      "hash": "aae345cbaaee9125"
+    },
+    {
+      "id": "g5-w-rj-pianist",
+      "part": "word",
+      "speed": "normal",
+      "text": "pianist",
+      "path": "assets/audio/g5-w-rj-pianist-word-normal-aeb2d6b61874626f.mp3",
+      "hash": "aeb2d6b61874626f"
+    },
+    {
+      "id": "g5-w-rj-pianist",
+      "part": "word",
+      "speed": "slow",
+      "text": "pianist",
+      "path": "assets/audio/g5-w-rj-pianist-word-slow-452d6d7f4f5e232e.mp3",
+      "hash": "452d6d7f4f5e232e"
+    },
+    {
+      "id": "g5-w-rj-pianist",
+      "part": "example",
+      "speed": "normal",
+      "text": "The pianist plays beautiful music.",
+      "path": "assets/audio/g5-w-rj-pianist-example-normal-e3030ede86d28add.mp3",
+      "hash": "e3030ede86d28add"
+    },
+    {
+      "id": "g5-w-rj-pianist",
+      "part": "example",
+      "speed": "slow",
+      "text": "The pianist plays beautiful music.",
+      "path": "assets/audio/g5-w-rj-pianist-example-slow-bf56a09ac2a5d353.mp3",
+      "hash": "bf56a09ac2a5d353"
+    },
+    {
+      "id": "g5-w-rj-pilot",
+      "part": "word",
+      "speed": "normal",
+      "text": "pilot",
+      "path": "assets/audio/g5-w-rj-pilot-word-normal-40416c0cfa8fc738.mp3",
+      "hash": "40416c0cfa8fc738"
+    },
+    {
+      "id": "g5-w-rj-pilot",
+      "part": "word",
+      "speed": "slow",
+      "text": "pilot",
+      "path": "assets/audio/g5-w-rj-pilot-word-slow-a11f9e8911b1560f.mp3",
+      "hash": "a11f9e8911b1560f"
+    },
+    {
+      "id": "g5-w-rj-pilot",
+      "part": "example",
+      "speed": "normal",
+      "text": "The pilot is on the plane.",
+      "path": "assets/audio/g5-w-rj-pilot-example-normal-6da5296c209b471f.mp3",
+      "hash": "6da5296c209b471f"
+    },
+    {
+      "id": "g5-w-rj-pilot",
+      "part": "example",
+      "speed": "slow",
+      "text": "The pilot is on the plane.",
+      "path": "assets/audio/g5-w-rj-pilot-example-slow-b1f7abf270d11fa6.mp3",
+      "hash": "b1f7abf270d11fa6"
+    },
+    {
+      "id": "g5-w-rj-waiter",
+      "part": "word",
+      "speed": "normal",
+      "text": "waiter",
+      "path": "assets/audio/g5-w-rj-waiter-word-normal-434a169bcb43fa1f.mp3",
+      "hash": "434a169bcb43fa1f"
+    },
+    {
+      "id": "g5-w-rj-waiter",
+      "part": "word",
+      "speed": "slow",
+      "text": "waiter",
+      "path": "assets/audio/g5-w-rj-waiter-word-slow-f37375ef4cc35e6e.mp3",
+      "hash": "f37375ef4cc35e6e"
+    },
+    {
+      "id": "g5-w-rj-waiter",
+      "part": "example",
+      "speed": "normal",
+      "text": "The waiter brings us some water.",
+      "path": "assets/audio/g5-w-rj-waiter-example-normal-c865bd00b0e8a69b.mp3",
+      "hash": "c865bd00b0e8a69b"
+    },
+    {
+      "id": "g5-w-rj-waiter",
+      "part": "example",
+      "speed": "slow",
+      "text": "The waiter brings us some water.",
+      "path": "assets/audio/g5-w-rj-waiter-example-slow-376fa483ccfd53c5.mp3",
+      "hash": "376fa483ccfd53c5"
+    },
+    {
+      "id": "g5-w-rj-worker",
+      "part": "word",
+      "speed": "normal",
+      "text": "worker",
+      "path": "assets/audio/g5-w-rj-worker-word-normal-3973248412b7d4ce.mp3",
+      "hash": "3973248412b7d4ce"
+    },
+    {
+      "id": "g5-w-rj-worker",
+      "part": "word",
+      "speed": "slow",
+      "text": "worker",
+      "path": "assets/audio/g5-w-rj-worker-word-slow-649d078f3d186b61.mp3",
+      "hash": "649d078f3d186b61"
+    },
+    {
+      "id": "g5-w-rj-worker",
+      "part": "example",
+      "speed": "normal",
+      "text": "The worker opens the shop at nine.",
+      "path": "assets/audio/g5-w-rj-worker-example-normal-51f65b5c90d103a1.mp3",
+      "hash": "51f65b5c90d103a1"
+    },
+    {
+      "id": "g5-w-rj-worker",
+      "part": "example",
+      "speed": "slow",
+      "text": "The worker opens the shop at nine.",
+      "path": "assets/audio/g5-w-rj-worker-example-slow-6f4bb93388c01f76.mp3",
+      "hash": "6f4bb93388c01f76"
+    },
+    {
+      "id": "g5-w-rj-table-tennis",
+      "part": "word",
+      "speed": "normal",
+      "text": "table tennis",
+      "path": "assets/audio/g5-w-rj-table-tennis-word-normal-c778824be861b6eb.mp3",
+      "hash": "c778824be861b6eb"
+    },
+    {
+      "id": "g5-w-rj-table-tennis",
+      "part": "word",
+      "speed": "slow",
+      "text": "table tennis",
+      "path": "assets/audio/g5-w-rj-table-tennis-word-slow-f133dce55721e988.mp3",
+      "hash": "f133dce55721e988"
+    },
+    {
+      "id": "g5-w-rj-table-tennis",
+      "part": "example",
+      "speed": "normal",
+      "text": "We play table tennis in the gym.",
+      "path": "assets/audio/g5-w-rj-table-tennis-example-normal-6d53f5e26d5d3ffa.mp3",
+      "hash": "6d53f5e26d5d3ffa"
+    },
+    {
+      "id": "g5-w-rj-table-tennis",
+      "part": "example",
+      "speed": "slow",
+      "text": "We play table tennis in the gym.",
+      "path": "assets/audio/g5-w-rj-table-tennis-example-slow-fff3fb4ea1cc05a4.mp3",
+      "hash": "fff3fb4ea1cc05a4"
+    },
+    {
+      "id": "g5-w-rj-surfing",
+      "part": "word",
+      "speed": "normal",
+      "text": "surfing",
+      "path": "assets/audio/g5-w-rj-surfing-word-normal-15d6337964a28d6c.mp3",
+      "hash": "15d6337964a28d6c"
+    },
+    {
+      "id": "g5-w-rj-surfing",
+      "part": "word",
+      "speed": "slow",
+      "text": "surfing",
+      "path": "assets/audio/g5-w-rj-surfing-word-slow-fe6e00a6dddc19f4.mp3",
+      "hash": "fe6e00a6dddc19f4"
+    },
+    {
+      "id": "g5-w-rj-surfing",
+      "part": "example",
+      "speed": "normal",
+      "text": "My brother likes surfing in summer.",
+      "path": "assets/audio/g5-w-rj-surfing-example-normal-21ee22c4a1ad1451.mp3",
+      "hash": "21ee22c4a1ad1451"
+    },
+    {
+      "id": "g5-w-rj-surfing",
+      "part": "example",
+      "speed": "slow",
+      "text": "My brother likes surfing in summer.",
+      "path": "assets/audio/g5-w-rj-surfing-example-slow-cf4b86b54ea92f96.mp3",
+      "hash": "cf4b86b54ea92f96"
+    },
+    {
+      "id": "g5-w-rj-marathon",
+      "part": "word",
+      "speed": "normal",
+      "text": "marathon",
+      "path": "assets/audio/g5-w-rj-marathon-word-normal-fcdf1417ce0db687.mp3",
+      "hash": "fcdf1417ce0db687"
+    },
+    {
+      "id": "g5-w-rj-marathon",
+      "part": "word",
+      "speed": "slow",
+      "text": "marathon",
+      "path": "assets/audio/g5-w-rj-marathon-word-slow-5dcac9be9c63a0f5.mp3",
+      "hash": "5dcac9be9c63a0f5"
+    },
+    {
+      "id": "g5-w-rj-marathon",
+      "part": "example",
+      "speed": "normal",
+      "text": "My aunt runs in a marathon.",
+      "path": "assets/audio/g5-w-rj-marathon-example-normal-28809d44f8d8d4bd.mp3",
+      "hash": "28809d44f8d8d4bd"
+    },
+    {
+      "id": "g5-w-rj-marathon",
+      "part": "example",
+      "speed": "slow",
+      "text": "My aunt runs in a marathon.",
+      "path": "assets/audio/g5-w-rj-marathon-example-slow-3f6c9ca54922123d.mp3",
+      "hash": "3f6c9ca54922123d"
+    },
+    {
+      "id": "g5-w-rj-boxing",
+      "part": "word",
+      "speed": "normal",
+      "text": "boxing",
+      "path": "assets/audio/g5-w-rj-boxing-word-normal-ecc3c208bd8754bd.mp3",
+      "hash": "ecc3c208bd8754bd"
+    },
+    {
+      "id": "g5-w-rj-boxing",
+      "part": "word",
+      "speed": "slow",
+      "text": "boxing",
+      "path": "assets/audio/g5-w-rj-boxing-word-slow-11696ff7f62e8354.mp3",
+      "hash": "11696ff7f62e8354"
+    },
+    {
+      "id": "g5-w-rj-boxing",
+      "part": "example",
+      "speed": "normal",
+      "text": "He watches boxing on TV.",
+      "path": "assets/audio/g5-w-rj-boxing-example-normal-44eb9b3b052c8f3e.mp3",
+      "hash": "44eb9b3b052c8f3e"
+    },
+    {
+      "id": "g5-w-rj-boxing",
+      "part": "example",
+      "speed": "slow",
+      "text": "He watches boxing on TV.",
+      "path": "assets/audio/g5-w-rj-boxing-example-slow-a8af4bfc4bdf882b.mp3",
+      "hash": "a8af4bfc4bdf882b"
+    },
+    {
+      "id": "g5-w-rj-passport",
+      "part": "word",
+      "speed": "normal",
+      "text": "passport",
+      "path": "assets/audio/g5-w-rj-passport-word-normal-245ff658d0c6d8ce.mp3",
+      "hash": "245ff658d0c6d8ce"
+    },
+    {
+      "id": "g5-w-rj-passport",
+      "part": "word",
+      "speed": "slow",
+      "text": "passport",
+      "path": "assets/audio/g5-w-rj-passport-word-slow-7cc5a42f031ae4ed.mp3",
+      "hash": "7cc5a42f031ae4ed"
+    },
+    {
+      "id": "g5-w-rj-passport",
+      "part": "example",
+      "speed": "normal",
+      "text": "Please put your passport in your bag.",
+      "path": "assets/audio/g5-w-rj-passport-example-normal-66953cf8a7bfcda6.mp3",
+      "hash": "66953cf8a7bfcda6"
+    },
+    {
+      "id": "g5-w-rj-passport",
+      "part": "example",
+      "speed": "slow",
+      "text": "Please put your passport in your bag.",
+      "path": "assets/audio/g5-w-rj-passport-example-slow-63eab245cf1b9e3f.mp3",
+      "hash": "63eab245cf1b9e3f"
+    },
+    {
+      "id": "g5-w-rj-animal",
+      "part": "word",
+      "speed": "normal",
+      "text": "animal",
+      "path": "assets/audio/g5-w-rj-animal-word-normal-8c2b877d2e83d274.mp3",
+      "hash": "8c2b877d2e83d274"
+    },
+    {
+      "id": "g5-w-rj-animal",
+      "part": "word",
+      "speed": "slow",
+      "text": "animal",
+      "path": "assets/audio/g5-w-rj-animal-word-slow-4569105c0472cd6b.mp3",
+      "hash": "4569105c0472cd6b"
+    },
+    {
+      "id": "g5-w-rj-animal",
+      "part": "example",
+      "speed": "normal",
+      "text": "A rabbit is a small animal.",
+      "path": "assets/audio/g5-w-rj-animal-example-normal-f049aec2dc558186.mp3",
+      "hash": "f049aec2dc558186"
+    },
+    {
+      "id": "g5-w-rj-animal",
+      "part": "example",
+      "speed": "slow",
+      "text": "A rabbit is a small animal.",
+      "path": "assets/audio/g5-w-rj-animal-example-slow-69570f963d68a0f3.mp3",
+      "hash": "69570f963d68a0f3"
+    },
+    {
+      "id": "g5-w-rj-blackboard",
+      "part": "word",
+      "speed": "normal",
+      "text": "blackboard",
+      "path": "assets/audio/g5-w-rj-blackboard-word-normal-20983c3b0b83fba3.mp3",
+      "hash": "20983c3b0b83fba3"
+    },
+    {
+      "id": "g5-w-rj-blackboard",
+      "part": "word",
+      "speed": "slow",
+      "text": "blackboard",
+      "path": "assets/audio/g5-w-rj-blackboard-word-slow-ece4323e9d1b816e.mp3",
+      "hash": "ece4323e9d1b816e"
+    },
+    {
+      "id": "g5-w-rj-blackboard",
+      "part": "example",
+      "speed": "normal",
+      "text": "Our teacher writes on the blackboard.",
+      "path": "assets/audio/g5-w-rj-blackboard-example-normal-1d1c784e11d14040.mp3",
+      "hash": "1d1c784e11d14040"
+    },
+    {
+      "id": "g5-w-rj-blackboard",
+      "part": "example",
+      "speed": "slow",
+      "text": "Our teacher writes on the blackboard.",
+      "path": "assets/audio/g5-w-rj-blackboard-example-slow-acd34f547bdbea3e.mp3",
+      "hash": "acd34f547bdbea3e"
+    },
+    {
+      "id": "g5-w-rj-newspaper",
+      "part": "word",
+      "speed": "normal",
+      "text": "newspaper",
+      "path": "assets/audio/g5-w-rj-newspaper-word-normal-605c1248b1472df8.mp3",
+      "hash": "605c1248b1472df8"
+    },
+    {
+      "id": "g5-w-rj-newspaper",
+      "part": "word",
+      "speed": "slow",
+      "text": "newspaper",
+      "path": "assets/audio/g5-w-rj-newspaper-word-slow-2c41cfe539213a54.mp3",
+      "hash": "2c41cfe539213a54"
+    },
+    {
+      "id": "g5-w-rj-newspaper",
+      "part": "example",
+      "speed": "normal",
+      "text": "My mother reads the newspaper after breakfast.",
+      "path": "assets/audio/g5-w-rj-newspaper-example-normal-8b906a4ea7c1f8d7.mp3",
+      "hash": "8b906a4ea7c1f8d7"
+    },
+    {
+      "id": "g5-w-rj-newspaper",
+      "part": "example",
+      "speed": "slow",
+      "text": "My mother reads the newspaper after breakfast.",
+      "path": "assets/audio/g5-w-rj-newspaper-example-slow-3a815df82e1e9a1a.mp3",
+      "hash": "3a815df82e1e9a1a"
+    },
+    {
+      "id": "g5-w-rj-diary",
+      "part": "word",
+      "speed": "normal",
+      "text": "diary",
+      "path": "assets/audio/g5-w-rj-diary-word-normal-cb2ddf4b79614ee4.mp3",
+      "hash": "cb2ddf4b79614ee4"
+    },
+    {
+      "id": "g5-w-rj-diary",
+      "part": "word",
+      "speed": "slow",
+      "text": "diary",
+      "path": "assets/audio/g5-w-rj-diary-word-slow-6c9af3d3af0f4194.mp3",
+      "hash": "6c9af3d3af0f4194"
+    },
+    {
+      "id": "g5-w-rj-diary",
+      "part": "example",
+      "speed": "normal",
+      "text": "I write in my diary before bed.",
+      "path": "assets/audio/g5-w-rj-diary-example-normal-399a0d5053d8052a.mp3",
+      "hash": "399a0d5053d8052a"
+    },
+    {
+      "id": "g5-w-rj-diary",
+      "part": "example",
+      "speed": "slow",
+      "text": "I write in my diary before bed.",
+      "path": "assets/audio/g5-w-rj-diary-example-slow-efc2fe16502ba7e1.mp3",
+      "hash": "efc2fe16502ba7e1"
+    },
+    {
+      "id": "g5-w-rj-history",
+      "part": "word",
+      "speed": "normal",
+      "text": "history",
+      "path": "assets/audio/g5-w-rj-history-word-normal-a2752ee062b5f395.mp3",
+      "hash": "a2752ee062b5f395"
+    },
+    {
+      "id": "g5-w-rj-history",
+      "part": "word",
+      "speed": "slow",
+      "text": "history",
+      "path": "assets/audio/g5-w-rj-history-word-slow-e9926edfd425792d.mp3",
+      "hash": "e9926edfd425792d"
+    },
+    {
+      "id": "g5-w-rj-history",
+      "part": "example",
+      "speed": "normal",
+      "text": "We study the history of our town.",
+      "path": "assets/audio/g5-w-rj-history-example-normal-77f62e31c5c208dc.mp3",
+      "hash": "77f62e31c5c208dc"
+    },
+    {
+      "id": "g5-w-rj-history",
+      "part": "example",
+      "speed": "slow",
+      "text": "We study the history of our town.",
+      "path": "assets/audio/g5-w-rj-history-example-slow-83e225722e4bab30.mp3",
+      "hash": "83e225722e4bab30"
+    },
+    {
+      "id": "g5-w-rj-dish",
+      "part": "word",
+      "speed": "normal",
+      "text": "dish",
+      "path": "assets/audio/g5-w-rj-dish-word-normal-aa60eee6a27b8fd3.mp3",
+      "hash": "aa60eee6a27b8fd3"
+    },
+    {
+      "id": "g5-w-rj-dish",
+      "part": "word",
+      "speed": "slow",
+      "text": "dish",
+      "path": "assets/audio/g5-w-rj-dish-word-slow-7c9046a6793c316c.mp3",
+      "hash": "7c9046a6793c316c"
+    },
+    {
+      "id": "g5-w-rj-dish",
+      "part": "example",
+      "speed": "normal",
+      "text": "Put the bread on this dish.",
+      "path": "assets/audio/g5-w-rj-dish-example-normal-de188089dcc9e1f6.mp3",
+      "hash": "de188089dcc9e1f6"
+    },
+    {
+      "id": "g5-w-rj-dish",
+      "part": "example",
+      "speed": "slow",
+      "text": "Put the bread on this dish.",
+      "path": "assets/audio/g5-w-rj-dish-example-slow-4e9abd247b2ed3b9.mp3",
+      "hash": "4e9abd247b2ed3b9"
+    },
+    {
+      "id": "g5-w-rj-ski",
+      "part": "word",
+      "speed": "normal",
+      "text": "ski",
+      "path": "assets/audio/g5-w-rj-ski-word-normal-66df698d571acab7.mp3",
+      "hash": "66df698d571acab7"
+    },
+    {
+      "id": "g5-w-rj-ski",
+      "part": "word",
+      "speed": "slow",
+      "text": "ski",
+      "path": "assets/audio/g5-w-rj-ski-word-slow-382f2f9420f98a5a.mp3",
+      "hash": "382f2f9420f98a5a"
+    },
+    {
+      "id": "g5-w-rj-ski",
+      "part": "example",
+      "speed": "normal",
+      "text": "We ski in the mountains in winter.",
+      "path": "assets/audio/g5-w-rj-ski-example-normal-2b95b32f73b5c94a.mp3",
+      "hash": "2b95b32f73b5c94a"
+    },
+    {
+      "id": "g5-w-rj-ski",
+      "part": "example",
+      "speed": "slow",
+      "text": "We ski in the mountains in winter.",
+      "path": "assets/audio/g5-w-rj-ski-example-slow-9f28a13064d390fe.mp3",
+      "hash": "9f28a13064d390fe"
+    },
+    {
+      "id": "g5-w-rj-camp",
+      "part": "word",
+      "speed": "normal",
+      "text": "camp",
+      "path": "assets/audio/g5-w-rj-camp-word-normal-324b77e6bb4d7215.mp3",
+      "hash": "324b77e6bb4d7215"
+    },
+    {
+      "id": "g5-w-rj-camp",
+      "part": "word",
+      "speed": "slow",
+      "text": "camp",
+      "path": "assets/audio/g5-w-rj-camp-word-slow-02b6ecb8e86d7ae8.mp3",
+      "hash": "02b6ecb8e86d7ae8"
+    },
+    {
+      "id": "g5-w-rj-camp",
+      "part": "example",
+      "speed": "normal",
+      "text": "We camp by the lake in summer.",
+      "path": "assets/audio/g5-w-rj-camp-example-normal-d06c8f18ca766347.mp3",
+      "hash": "d06c8f18ca766347"
+    },
+    {
+      "id": "g5-w-rj-camp",
+      "part": "example",
+      "speed": "slow",
+      "text": "We camp by the lake in summer.",
+      "path": "assets/audio/g5-w-rj-camp-example-slow-9dd778b5327510e8.mp3",
+      "hash": "9dd778b5327510e8"
+    },
+    {
+      "id": "g5-w-rj-begin",
+      "part": "word",
+      "speed": "normal",
+      "text": "begin",
+      "path": "assets/audio/g5-w-rj-begin-word-normal-3559c02a96bbfda0.mp3",
+      "hash": "3559c02a96bbfda0"
+    },
+    {
+      "id": "g5-w-rj-begin",
+      "part": "word",
+      "speed": "slow",
+      "text": "begin",
+      "path": "assets/audio/g5-w-rj-begin-word-slow-71ee421a03811567.mp3",
+      "hash": "71ee421a03811567"
+    },
+    {
+      "id": "g5-w-rj-begin",
+      "part": "example",
+      "speed": "normal",
+      "text": "Our classes begin at nine.",
+      "path": "assets/audio/g5-w-rj-begin-example-normal-9a840fef4a960b80.mp3",
+      "hash": "9a840fef4a960b80"
+    },
+    {
+      "id": "g5-w-rj-begin",
+      "part": "example",
+      "speed": "slow",
+      "text": "Our classes begin at nine.",
+      "path": "assets/audio/g5-w-rj-begin-example-slow-f31674acd56866dd.mp3",
+      "hash": "f31674acd56866dd"
+    },
+    {
+      "id": "g5-w-rj-move",
+      "part": "word",
+      "speed": "normal",
+      "text": "move",
+      "path": "assets/audio/g5-w-rj-move-word-normal-3a56c0e54c30a863.mp3",
+      "hash": "3a56c0e54c30a863"
+    },
+    {
+      "id": "g5-w-rj-move",
+      "part": "word",
+      "speed": "slow",
+      "text": "move",
+      "path": "assets/audio/g5-w-rj-move-word-slow-d4726593f9e1de43.mp3",
+      "hash": "d4726593f9e1de43"
+    },
+    {
+      "id": "g5-w-rj-move",
+      "part": "example",
+      "speed": "normal",
+      "text": "Please move this chair to the window.",
+      "path": "assets/audio/g5-w-rj-move-example-normal-c9a2bda49be489c5.mp3",
+      "hash": "c9a2bda49be489c5"
+    },
+    {
+      "id": "g5-w-rj-move",
+      "part": "example",
+      "speed": "slow",
+      "text": "Please move this chair to the window.",
+      "path": "assets/audio/g5-w-rj-move-example-slow-12a68f93b55d774f.mp3",
+      "hash": "12a68f93b55d774f"
+    },
+    {
+      "id": "g5-w-rj-a-watch",
+      "part": "word",
+      "speed": "normal",
+      "text": "a watch",
+      "path": "assets/audio/g5-w-rj-a-watch-word-normal-4a2728cbf7686e34.mp3",
+      "hash": "4a2728cbf7686e34"
+    },
+    {
+      "id": "g5-w-rj-a-watch",
+      "part": "word",
+      "speed": "slow",
+      "text": "a watch",
+      "path": "assets/audio/g5-w-rj-a-watch-word-slow-db92fef493b46af7.mp3",
+      "hash": "db92fef493b46af7"
+    },
+    {
+      "id": "g5-w-rj-a-watch",
+      "part": "example",
+      "speed": "normal",
+      "text": "My uncle gave me a watch.",
+      "path": "assets/audio/g5-w-rj-a-watch-example-normal-3ad65b7ea475f068.mp3",
+      "hash": "3ad65b7ea475f068"
+    },
+    {
+      "id": "g5-w-rj-a-watch",
+      "part": "example",
+      "speed": "slow",
+      "text": "My uncle gave me a watch.",
+      "path": "assets/audio/g5-w-rj-a-watch-example-slow-8e8aa333c2cab0a2.mp3",
+      "hash": "8e8aa333c2cab0a2"
+    },
+    {
+      "id": "g5-w-rj-a-drink",
+      "part": "word",
+      "speed": "normal",
+      "text": "a drink",
+      "path": "assets/audio/g5-w-rj-a-drink-word-normal-20e9cbc1f59f2d15.mp3",
+      "hash": "20e9cbc1f59f2d15"
+    },
+    {
+      "id": "g5-w-rj-a-drink",
+      "part": "word",
+      "speed": "slow",
+      "text": "a drink",
+      "path": "assets/audio/g5-w-rj-a-drink-word-slow-ffa9631aa70b66be.mp3",
+      "hash": "ffa9631aa70b66be"
+    },
+    {
+      "id": "g5-w-rj-a-drink",
+      "part": "example",
+      "speed": "normal",
+      "text": "Would you like a hot drink?",
+      "path": "assets/audio/g5-w-rj-a-drink-example-normal-d99ab58f234e6ae8.mp3",
+      "hash": "d99ab58f234e6ae8"
+    },
+    {
+      "id": "g5-w-rj-a-drink",
+      "part": "example",
+      "speed": "slow",
+      "text": "Would you like a hot drink?",
+      "path": "assets/audio/g5-w-rj-a-drink-example-slow-ddc89927d60a276e.mp3",
+      "hash": "ddc89927d60a276e"
+    },
+    {
+      "id": "g5-p-rj-what-s-the-date-today",
+      "part": "word",
+      "speed": "normal",
+      "text": "What's the date today?",
+      "path": "assets/audio/g5-p-rj-what-s-the-date-today-word-normal-1c411e2bf2f843a1.mp3",
+      "hash": "1c411e2bf2f843a1"
+    },
+    {
+      "id": "g5-p-rj-what-s-the-date-today",
+      "part": "word",
+      "speed": "slow",
+      "text": "What's the date today?",
+      "path": "assets/audio/g5-p-rj-what-s-the-date-today-word-slow-ad7ddd1ad806f12d.mp3",
+      "hash": "ad7ddd1ad806f12d"
+    },
+    {
+      "id": "g5-p-rj-what-s-the-date-today",
+      "part": "example",
+      "speed": "normal",
+      "text": "What's the date today?",
+      "path": "assets/audio/g5-p-rj-what-s-the-date-today-example-normal-1c411e2bf2f843a1.mp3",
+      "hash": "1c411e2bf2f843a1"
+    },
+    {
+      "id": "g5-p-rj-what-s-the-date-today",
+      "part": "example",
+      "speed": "slow",
+      "text": "What's the date today?",
+      "path": "assets/audio/g5-p-rj-what-s-the-date-today-example-slow-ad7ddd1ad806f12d.mp3",
+      "hash": "ad7ddd1ad806f12d"
+    },
+    {
+      "id": "g5-p-rj-how-do-you-get-to-the-station",
+      "part": "word",
+      "speed": "normal",
+      "text": "How do you get to the station?",
+      "path": "assets/audio/g5-p-rj-how-do-you-get-to-the-station-word-normal-919ebeeb28550bdd.mp3",
+      "hash": "919ebeeb28550bdd"
+    },
+    {
+      "id": "g5-p-rj-how-do-you-get-to-the-station",
+      "part": "word",
+      "speed": "slow",
+      "text": "How do you get to the station?",
+      "path": "assets/audio/g5-p-rj-how-do-you-get-to-the-station-word-slow-0f08276add7a3b7b.mp3",
+      "hash": "0f08276add7a3b7b"
+    },
+    {
+      "id": "g5-p-rj-how-do-you-get-to-the-station",
+      "part": "example",
+      "speed": "normal",
+      "text": "How do you get to the station?",
+      "path": "assets/audio/g5-p-rj-how-do-you-get-to-the-station-example-normal-919ebeeb28550bdd.mp3",
+      "hash": "919ebeeb28550bdd"
+    },
+    {
+      "id": "g5-p-rj-how-do-you-get-to-the-station",
+      "part": "example",
+      "speed": "slow",
+      "text": "How do you get to the station?",
+      "path": "assets/audio/g5-p-rj-how-do-you-get-to-the-station-example-slow-0f08276add7a3b7b.mp3",
+      "hash": "0f08276add7a3b7b"
+    },
+    {
+      "id": "g5-p-rj-this-bag-is-his",
+      "part": "word",
+      "speed": "normal",
+      "text": "This bag is his.",
+      "path": "assets/audio/g5-p-rj-this-bag-is-his-word-normal-deca5b6fab8bfc01.mp3",
+      "hash": "deca5b6fab8bfc01"
+    },
+    {
+      "id": "g5-p-rj-this-bag-is-his",
+      "part": "word",
+      "speed": "slow",
+      "text": "This bag is his.",
+      "path": "assets/audio/g5-p-rj-this-bag-is-his-word-slow-cb042dc758fc0695.mp3",
+      "hash": "cb042dc758fc0695"
+    },
+    {
+      "id": "g5-p-rj-this-bag-is-his",
+      "part": "example",
+      "speed": "normal",
+      "text": "This bag is his.",
+      "path": "assets/audio/g5-p-rj-this-bag-is-his-example-normal-deca5b6fab8bfc01.mp3",
+      "hash": "deca5b6fab8bfc01"
+    },
+    {
+      "id": "g5-p-rj-this-bag-is-his",
+      "part": "example",
+      "speed": "slow",
+      "text": "This bag is his.",
+      "path": "assets/audio/g5-p-rj-this-bag-is-his-example-slow-cb042dc758fc0695.mp3",
+      "hash": "cb042dc758fc0695"
+    },
+    {
+      "id": "g5-p-rj-he-is-a-piano-player",
+      "part": "word",
+      "speed": "normal",
+      "text": "He is a piano player.",
+      "path": "assets/audio/g5-p-rj-he-is-a-piano-player-word-normal-dc616bb27343a159.mp3",
+      "hash": "dc616bb27343a159"
+    },
+    {
+      "id": "g5-p-rj-he-is-a-piano-player",
+      "part": "word",
+      "speed": "slow",
+      "text": "He is a piano player.",
+      "path": "assets/audio/g5-p-rj-he-is-a-piano-player-word-slow-75695415735adfff.mp3",
+      "hash": "75695415735adfff"
+    },
+    {
+      "id": "g5-p-rj-he-is-a-piano-player",
+      "part": "example",
+      "speed": "normal",
+      "text": "He is a piano player.",
+      "path": "assets/audio/g5-p-rj-he-is-a-piano-player-example-normal-dc616bb27343a159.mp3",
+      "hash": "dc616bb27343a159"
+    },
+    {
+      "id": "g5-p-rj-he-is-a-piano-player",
+      "part": "example",
+      "speed": "slow",
+      "text": "He is a piano player.",
+      "path": "assets/audio/g5-p-rj-he-is-a-piano-player-example-slow-75695415735adfff.mp3",
+      "hash": "75695415735adfff"
+    },
+    {
+      "id": "g5-p-rj-please-ask-him-for-help",
+      "part": "word",
+      "speed": "normal",
+      "text": "Please ask him for help.",
+      "path": "assets/audio/g5-p-rj-please-ask-him-for-help-word-normal-d7ac745d71c52930.mp3",
+      "hash": "d7ac745d71c52930"
+    },
+    {
+      "id": "g5-p-rj-please-ask-him-for-help",
+      "part": "word",
+      "speed": "slow",
+      "text": "Please ask him for help.",
+      "path": "assets/audio/g5-p-rj-please-ask-him-for-help-word-slow-d35f337e78b0988c.mp3",
+      "hash": "d35f337e78b0988c"
+    },
+    {
+      "id": "g5-p-rj-please-ask-him-for-help",
+      "part": "example",
+      "speed": "normal",
+      "text": "Please ask him for help.",
+      "path": "assets/audio/g5-p-rj-please-ask-him-for-help-example-normal-d7ac745d71c52930.mp3",
+      "hash": "d7ac745d71c52930"
+    },
+    {
+      "id": "g5-p-rj-please-ask-him-for-help",
+      "part": "example",
+      "speed": "slow",
+      "text": "Please ask him for help.",
+      "path": "assets/audio/g5-p-rj-please-ask-him-for-help-example-slow-d35f337e78b0988c.mp3",
+      "hash": "d35f337e78b0988c"
+    },
+    {
+      "id": "g5-w-rj-one-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "one o'clock",
+      "path": "assets/audio/g5-w-rj-one-o-clock-word-normal-a4ab3948484e0ec7.mp3",
+      "hash": "a4ab3948484e0ec7"
+    },
+    {
+      "id": "g5-w-rj-one-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "one o'clock",
+      "path": "assets/audio/g5-w-rj-one-o-clock-word-slow-c38b2c2e42bf90c7.mp3",
+      "hash": "c38b2c2e42bf90c7"
+    },
+    {
+      "id": "g5-w-rj-one-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says one o'clock.",
+      "path": "assets/audio/g5-w-rj-one-o-clock-example-normal-a56a77856c05eabf.mp3",
+      "hash": "a56a77856c05eabf"
+    },
+    {
+      "id": "g5-w-rj-one-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says one o'clock.",
+      "path": "assets/audio/g5-w-rj-one-o-clock-example-slow-2a8c9c481f729112.mp3",
+      "hash": "2a8c9c481f729112"
+    },
+    {
+      "id": "g5-w-rj-two-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "two o'clock",
+      "path": "assets/audio/g5-w-rj-two-o-clock-word-normal-4f50d879d549fd81.mp3",
+      "hash": "4f50d879d549fd81"
+    },
+    {
+      "id": "g5-w-rj-two-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "two o'clock",
+      "path": "assets/audio/g5-w-rj-two-o-clock-word-slow-dd5edba333dec23c.mp3",
+      "hash": "dd5edba333dec23c"
+    },
+    {
+      "id": "g5-w-rj-two-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says two o'clock.",
+      "path": "assets/audio/g5-w-rj-two-o-clock-example-normal-0826ef290f697521.mp3",
+      "hash": "0826ef290f697521"
+    },
+    {
+      "id": "g5-w-rj-two-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says two o'clock.",
+      "path": "assets/audio/g5-w-rj-two-o-clock-example-slow-a42adacad5c45b35.mp3",
+      "hash": "a42adacad5c45b35"
+    },
+    {
+      "id": "g5-w-rj-three-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "three o'clock",
+      "path": "assets/audio/g5-w-rj-three-o-clock-word-normal-8225a7101f5e07e2.mp3",
+      "hash": "8225a7101f5e07e2"
+    },
+    {
+      "id": "g5-w-rj-three-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "three o'clock",
+      "path": "assets/audio/g5-w-rj-three-o-clock-word-slow-45e0907fe38421b0.mp3",
+      "hash": "45e0907fe38421b0"
+    },
+    {
+      "id": "g5-w-rj-three-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says three o'clock.",
+      "path": "assets/audio/g5-w-rj-three-o-clock-example-normal-bf57a55f939fb16a.mp3",
+      "hash": "bf57a55f939fb16a"
+    },
+    {
+      "id": "g5-w-rj-three-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says three o'clock.",
+      "path": "assets/audio/g5-w-rj-three-o-clock-example-slow-9668bb0879ced440.mp3",
+      "hash": "9668bb0879ced440"
+    },
+    {
+      "id": "g5-w-rj-four-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "four o'clock",
+      "path": "assets/audio/g5-w-rj-four-o-clock-word-normal-a887f6fd70862ffb.mp3",
+      "hash": "a887f6fd70862ffb"
+    },
+    {
+      "id": "g5-w-rj-four-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "four o'clock",
+      "path": "assets/audio/g5-w-rj-four-o-clock-word-slow-d6c7aa00ebc48da7.mp3",
+      "hash": "d6c7aa00ebc48da7"
+    },
+    {
+      "id": "g5-w-rj-four-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says four o'clock.",
+      "path": "assets/audio/g5-w-rj-four-o-clock-example-normal-632cb2b34d5d33a2.mp3",
+      "hash": "632cb2b34d5d33a2"
+    },
+    {
+      "id": "g5-w-rj-four-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says four o'clock.",
+      "path": "assets/audio/g5-w-rj-four-o-clock-example-slow-7935fb0eca515dcb.mp3",
+      "hash": "7935fb0eca515dcb"
+    },
+    {
+      "id": "g5-w-rj-five-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "five o'clock",
+      "path": "assets/audio/g5-w-rj-five-o-clock-word-normal-9893a46b82b4efcb.mp3",
+      "hash": "9893a46b82b4efcb"
+    },
+    {
+      "id": "g5-w-rj-five-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "five o'clock",
+      "path": "assets/audio/g5-w-rj-five-o-clock-word-slow-4f81fb01bb6f36f7.mp3",
+      "hash": "4f81fb01bb6f36f7"
+    },
+    {
+      "id": "g5-w-rj-five-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says five o'clock.",
+      "path": "assets/audio/g5-w-rj-five-o-clock-example-normal-2d22ac99b631e132.mp3",
+      "hash": "2d22ac99b631e132"
+    },
+    {
+      "id": "g5-w-rj-five-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says five o'clock.",
+      "path": "assets/audio/g5-w-rj-five-o-clock-example-slow-7c8433e3b87a06ac.mp3",
+      "hash": "7c8433e3b87a06ac"
+    },
+    {
+      "id": "g5-w-rj-six-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "six o'clock",
+      "path": "assets/audio/g5-w-rj-six-o-clock-word-normal-7837bfa60abd7bfb.mp3",
+      "hash": "7837bfa60abd7bfb"
+    },
+    {
+      "id": "g5-w-rj-six-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "six o'clock",
+      "path": "assets/audio/g5-w-rj-six-o-clock-word-slow-5014d7eeedf1b6e8.mp3",
+      "hash": "5014d7eeedf1b6e8"
+    },
+    {
+      "id": "g5-w-rj-six-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says six o'clock.",
+      "path": "assets/audio/g5-w-rj-six-o-clock-example-normal-b8bfa27c31d60ba8.mp3",
+      "hash": "b8bfa27c31d60ba8"
+    },
+    {
+      "id": "g5-w-rj-six-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says six o'clock.",
+      "path": "assets/audio/g5-w-rj-six-o-clock-example-slow-1688a7631a62b13e.mp3",
+      "hash": "1688a7631a62b13e"
+    },
+    {
+      "id": "g5-w-rj-seven-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "seven o'clock",
+      "path": "assets/audio/g5-w-rj-seven-o-clock-word-normal-380562d4a933c70b.mp3",
+      "hash": "380562d4a933c70b"
+    },
+    {
+      "id": "g5-w-rj-seven-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "seven o'clock",
+      "path": "assets/audio/g5-w-rj-seven-o-clock-word-slow-21a260eaa9d8560b.mp3",
+      "hash": "21a260eaa9d8560b"
+    },
+    {
+      "id": "g5-w-rj-seven-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says seven o'clock.",
+      "path": "assets/audio/g5-w-rj-seven-o-clock-example-normal-502a006bf9240054.mp3",
+      "hash": "502a006bf9240054"
+    },
+    {
+      "id": "g5-w-rj-seven-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says seven o'clock.",
+      "path": "assets/audio/g5-w-rj-seven-o-clock-example-slow-d6fb4d9c37c42b4d.mp3",
+      "hash": "d6fb4d9c37c42b4d"
+    },
+    {
+      "id": "g5-w-rj-eight-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "eight o'clock",
+      "path": "assets/audio/g5-w-rj-eight-o-clock-word-normal-8c6c7bae6ef7bc89.mp3",
+      "hash": "8c6c7bae6ef7bc89"
+    },
+    {
+      "id": "g5-w-rj-eight-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "eight o'clock",
+      "path": "assets/audio/g5-w-rj-eight-o-clock-word-slow-c388c73e57b8e5e5.mp3",
+      "hash": "c388c73e57b8e5e5"
+    },
+    {
+      "id": "g5-w-rj-eight-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says eight o'clock.",
+      "path": "assets/audio/g5-w-rj-eight-o-clock-example-normal-6d73719396a1c504.mp3",
+      "hash": "6d73719396a1c504"
+    },
+    {
+      "id": "g5-w-rj-eight-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says eight o'clock.",
+      "path": "assets/audio/g5-w-rj-eight-o-clock-example-slow-5595385362649ff9.mp3",
+      "hash": "5595385362649ff9"
+    },
+    {
+      "id": "g5-w-rj-nine-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "nine o'clock",
+      "path": "assets/audio/g5-w-rj-nine-o-clock-word-normal-f7127dfe28471988.mp3",
+      "hash": "f7127dfe28471988"
+    },
+    {
+      "id": "g5-w-rj-nine-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "nine o'clock",
+      "path": "assets/audio/g5-w-rj-nine-o-clock-word-slow-3081f311966d7fb0.mp3",
+      "hash": "3081f311966d7fb0"
+    },
+    {
+      "id": "g5-w-rj-nine-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says nine o'clock.",
+      "path": "assets/audio/g5-w-rj-nine-o-clock-example-normal-f5f9afccae06661f.mp3",
+      "hash": "f5f9afccae06661f"
+    },
+    {
+      "id": "g5-w-rj-nine-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says nine o'clock.",
+      "path": "assets/audio/g5-w-rj-nine-o-clock-example-slow-e02074554f931cbc.mp3",
+      "hash": "e02074554f931cbc"
+    },
+    {
+      "id": "g5-w-rj-ten-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "ten o'clock",
+      "path": "assets/audio/g5-w-rj-ten-o-clock-word-normal-9aa254883fe5a5d5.mp3",
+      "hash": "9aa254883fe5a5d5"
+    },
+    {
+      "id": "g5-w-rj-ten-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "ten o'clock",
+      "path": "assets/audio/g5-w-rj-ten-o-clock-word-slow-2385adabe3001297.mp3",
+      "hash": "2385adabe3001297"
+    },
+    {
+      "id": "g5-w-rj-ten-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says ten o'clock.",
+      "path": "assets/audio/g5-w-rj-ten-o-clock-example-normal-6869a4113924007c.mp3",
+      "hash": "6869a4113924007c"
+    },
+    {
+      "id": "g5-w-rj-ten-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says ten o'clock.",
+      "path": "assets/audio/g5-w-rj-ten-o-clock-example-slow-d088167336faf6e0.mp3",
+      "hash": "d088167336faf6e0"
+    },
+    {
+      "id": "g5-w-rj-eleven-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "eleven o'clock",
+      "path": "assets/audio/g5-w-rj-eleven-o-clock-word-normal-c71eacda83821628.mp3",
+      "hash": "c71eacda83821628"
+    },
+    {
+      "id": "g5-w-rj-eleven-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "eleven o'clock",
+      "path": "assets/audio/g5-w-rj-eleven-o-clock-word-slow-bae6091c7cc98986.mp3",
+      "hash": "bae6091c7cc98986"
+    },
+    {
+      "id": "g5-w-rj-eleven-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says eleven o'clock.",
+      "path": "assets/audio/g5-w-rj-eleven-o-clock-example-normal-0da102f8b92741af.mp3",
+      "hash": "0da102f8b92741af"
+    },
+    {
+      "id": "g5-w-rj-eleven-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says eleven o'clock.",
+      "path": "assets/audio/g5-w-rj-eleven-o-clock-example-slow-ecc9a748e9d91823.mp3",
+      "hash": "ecc9a748e9d91823"
+    },
+    {
+      "id": "g5-w-rj-twelve-o-clock",
+      "part": "word",
+      "speed": "normal",
+      "text": "twelve o'clock",
+      "path": "assets/audio/g5-w-rj-twelve-o-clock-word-normal-4a72ec0f5961ec61.mp3",
+      "hash": "4a72ec0f5961ec61"
+    },
+    {
+      "id": "g5-w-rj-twelve-o-clock",
+      "part": "word",
+      "speed": "slow",
+      "text": "twelve o'clock",
+      "path": "assets/audio/g5-w-rj-twelve-o-clock-word-slow-a033199735e2c624.mp3",
+      "hash": "a033199735e2c624"
+    },
+    {
+      "id": "g5-w-rj-twelve-o-clock",
+      "part": "example",
+      "speed": "normal",
+      "text": "The clock says twelve o'clock.",
+      "path": "assets/audio/g5-w-rj-twelve-o-clock-example-normal-dbd3d80bf70216a8.mp3",
+      "hash": "dbd3d80bf70216a8"
+    },
+    {
+      "id": "g5-w-rj-twelve-o-clock",
+      "part": "example",
+      "speed": "slow",
+      "text": "The clock says twelve o'clock.",
+      "path": "assets/audio/g5-w-rj-twelve-o-clock-example-slow-11cbccf17fabf25f.mp3",
+      "hash": "11cbccf17fabf25f"
     }
   ]
 }

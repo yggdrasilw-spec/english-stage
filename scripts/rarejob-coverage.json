@@ -1,0 +1,2450 @@
+{
+  "source": "https://www.rarejob.com/englishlab/column/20210918_02/",
+  "checkedAt": "2026-11-01",
+  "referenceRows": 305,
+  "addedItems": 71,
+  "entries": [
+    {
+      "row": 1,
+      "referenceEnglish": "I",
+      "itemIds": [
+        "g5-w-i"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 2,
+      "referenceEnglish": "my",
+      "itemIds": [
+        "g5-w-my"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 3,
+      "referenceEnglish": "me",
+      "itemIds": [
+        "g5-w-me"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 4,
+      "referenceEnglish": "mine",
+      "itemIds": [
+        "g5-w-mine"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 5,
+      "referenceEnglish": "you",
+      "itemIds": [
+        "g5-w-you"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 6,
+      "referenceEnglish": "your",
+      "itemIds": [
+        "g5-w-your"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 7,
+      "referenceEnglish": "you",
+      "itemIds": [
+        "g5-w-you"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 8,
+      "referenceEnglish": "yours",
+      "itemIds": [
+        "g5-w-yours"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 9,
+      "referenceEnglish": "you",
+      "itemIds": [
+        "g5-w-you"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 10,
+      "referenceEnglish": "your",
+      "itemIds": [
+        "g5-w-your"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 11,
+      "referenceEnglish": "you",
+      "itemIds": [
+        "g5-w-you"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 12,
+      "referenceEnglish": "yours",
+      "itemIds": [
+        "g5-w-yours"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 13,
+      "referenceEnglish": "he",
+      "itemIds": [
+        "g5-w-he"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 14,
+      "referenceEnglish": "his",
+      "itemIds": [
+        "g5-w-his"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 15,
+      "referenceEnglish": "him",
+      "itemIds": [
+        "g5-w-him"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 16,
+      "referenceEnglish": "his",
+      "itemIds": [
+        "g5-p-rj-this-bag-is-his"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 17,
+      "referenceEnglish": "she",
+      "itemIds": [
+        "g5-w-she"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 18,
+      "referenceEnglish": "her",
+      "itemIds": [
+        "g5-w-her"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 19,
+      "referenceEnglish": "her",
+      "itemIds": [
+        "g5-w-her"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 20,
+      "referenceEnglish": "hers",
+      "itemIds": [
+        "g5-w-rj-hers"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 21,
+      "referenceEnglish": "It",
+      "itemIds": [
+        "g5-w-it"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 22,
+      "referenceEnglish": "its",
+      "itemIds": [
+        "g5-w-rj-its"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 23,
+      "referenceEnglish": "it",
+      "itemIds": [
+        "g5-w-it"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 24,
+      "referenceEnglish": "they",
+      "itemIds": [
+        "g5-w-they"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 25,
+      "referenceEnglish": "their",
+      "itemIds": [
+        "g5-w-their"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 26,
+      "referenceEnglish": "them",
+      "itemIds": [
+        "g5-w-them"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 27,
+      "referenceEnglish": "theirs",
+      "itemIds": [
+        "g5-w-rj-theirs"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 28,
+      "referenceEnglish": "we",
+      "itemIds": [
+        "g5-w-we"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 29,
+      "referenceEnglish": "our",
+      "itemIds": [
+        "g5-w-our"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 30,
+      "referenceEnglish": "us",
+      "itemIds": [
+        "g5-w-us"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 31,
+      "referenceEnglish": "ours",
+      "itemIds": [
+        "g5-w-rj-ours"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 32,
+      "referenceEnglish": "what",
+      "itemIds": [
+        "g5-w-what"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 33,
+      "referenceEnglish": "what color",
+      "itemIds": [
+        "g5-w-rj-what-color"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 34,
+      "referenceEnglish": "what sports",
+      "itemIds": [
+        "g5-w-rj-what-sports"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 35,
+      "referenceEnglish": "what food",
+      "itemIds": [
+        "g5-w-rj-what-food"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 36,
+      "referenceEnglish": "what drink",
+      "itemIds": [
+        "g5-w-rj-what-drink"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 37,
+      "referenceEnglish": "what animal",
+      "itemIds": [
+        "g5-w-rj-what-animal"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 38,
+      "referenceEnglish": "what subject",
+      "itemIds": [
+        "g5-w-rj-what-subject"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 39,
+      "referenceEnglish": "what time",
+      "itemIds": [
+        "g5-w-rj-what-time"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 40,
+      "referenceEnglish": "What day (of the week)is it today?",
+      "itemIds": [
+        "g5-p-36"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 41,
+      "referenceEnglish": "What’s the date today?",
+      "itemIds": [
+        "g5-p-rj-what-s-the-date-today"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 42,
+      "referenceEnglish": "What’s your favorite ～?",
+      "itemIds": [
+        "g5-p-extra-what-s-your-favorite-food"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 43,
+      "referenceEnglish": "where",
+      "itemIds": [
+        "g5-w-where"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 44,
+      "referenceEnglish": "when",
+      "itemIds": [
+        "g5-w-when"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 45,
+      "referenceEnglish": "who",
+      "itemIds": [
+        "g5-w-who"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 46,
+      "referenceEnglish": "whose",
+      "itemIds": [
+        "g5-w-whose"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 47,
+      "referenceEnglish": "which",
+      "itemIds": [
+        "g5-w-which"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 48,
+      "referenceEnglish": "how",
+      "itemIds": [
+        "g5-w-how"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 49,
+      "referenceEnglish": "How do you get to～?",
+      "itemIds": [
+        "g5-p-rj-how-do-you-get-to-the-station"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 50,
+      "referenceEnglish": "How are you?",
+      "itemIds": [
+        "g5-p-10"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 51,
+      "referenceEnglish": "how old",
+      "itemIds": [
+        "g5-w-how-old"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 52,
+      "referenceEnglish": "how much",
+      "itemIds": [
+        "g5-w-how-much"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 53,
+      "referenceEnglish": "How many?",
+      "itemIds": [
+        "g5-w-how-many"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 54,
+      "referenceEnglish": "How about～?",
+      "itemIds": [
+        "g5-w-how-about"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 55,
+      "referenceEnglish": "how tall",
+      "itemIds": [
+        "g5-w-rj-how-tall"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 56,
+      "referenceEnglish": "how long",
+      "itemIds": [
+        "g5-w-rj-how-long"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 57,
+      "referenceEnglish": "one o’clock",
+      "itemIds": [
+        "g5-w-rj-one-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 58,
+      "referenceEnglish": "two o’clock",
+      "itemIds": [
+        "g5-w-rj-two-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 59,
+      "referenceEnglish": "three o’clock",
+      "itemIds": [
+        "g5-w-rj-three-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 60,
+      "referenceEnglish": "four o’clock",
+      "itemIds": [
+        "g5-w-rj-four-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 61,
+      "referenceEnglish": "five o’clock",
+      "itemIds": [
+        "g5-w-rj-five-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 62,
+      "referenceEnglish": "six o’clock",
+      "itemIds": [
+        "g5-w-rj-six-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 63,
+      "referenceEnglish": "seven o’clock",
+      "itemIds": [
+        "g5-w-rj-seven-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 64,
+      "referenceEnglish": "eight o’clock",
+      "itemIds": [
+        "g5-w-rj-eight-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 65,
+      "referenceEnglish": "nine o’clock",
+      "itemIds": [
+        "g5-w-rj-nine-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 66,
+      "referenceEnglish": "ten o’clock",
+      "itemIds": [
+        "g5-w-rj-ten-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 67,
+      "referenceEnglish": "eleven o’clock",
+      "itemIds": [
+        "g5-w-rj-eleven-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 68,
+      "referenceEnglish": "twelve o’clock",
+      "itemIds": [
+        "g5-w-rj-twelve-o-clock"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 69,
+      "referenceEnglish": "minute",
+      "itemIds": [
+        "g5-w-minute"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 70,
+      "referenceEnglish": "hour",
+      "itemIds": [
+        "g5-w-hour"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 71,
+      "referenceEnglish": "day",
+      "itemIds": [
+        "g5-w-day"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 72,
+      "referenceEnglish": "week",
+      "itemIds": [
+        "g5-w-week"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 73,
+      "referenceEnglish": "month",
+      "itemIds": [
+        "g5-w-month"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 74,
+      "referenceEnglish": "year",
+      "itemIds": [
+        "g5-w-year"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 75,
+      "referenceEnglish": "today",
+      "itemIds": [
+        "g5-w-today"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 76,
+      "referenceEnglish": "weekend",
+      "itemIds": [
+        "g5-w-weekend"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 77,
+      "referenceEnglish": "morning",
+      "itemIds": [
+        "g5-w-morning"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 78,
+      "referenceEnglish": "afternoon",
+      "itemIds": [
+        "g5-w-afternoon"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 79,
+      "referenceEnglish": "evening",
+      "itemIds": [
+        "g5-w-evening"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 80,
+      "referenceEnglish": "night",
+      "itemIds": [
+        "g5-w-night"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 81,
+      "referenceEnglish": "midnight",
+      "itemIds": [
+        "g5-w-rj-midnight"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 82,
+      "referenceEnglish": "birthday",
+      "itemIds": [
+        "g5-w-birthday"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 83,
+      "referenceEnglish": "Monday",
+      "itemIds": [
+        "g5-w-monday"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 84,
+      "referenceEnglish": "Tuesday",
+      "itemIds": [
+        "g5-w-tuesday"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 85,
+      "referenceEnglish": "Wednesday",
+      "itemIds": [
+        "g5-w-wednesday"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 86,
+      "referenceEnglish": "Thursday",
+      "itemIds": [
+        "g5-w-thursday"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 87,
+      "referenceEnglish": "Friday",
+      "itemIds": [
+        "g5-w-friday"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 88,
+      "referenceEnglish": "Saturday",
+      "itemIds": [
+        "g5-w-saturday"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 89,
+      "referenceEnglish": "Sunday",
+      "itemIds": [
+        "g5-w-sunday"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 90,
+      "referenceEnglish": "January",
+      "itemIds": [
+        "g5-w-january"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 91,
+      "referenceEnglish": "February",
+      "itemIds": [
+        "g5-w-february"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 92,
+      "referenceEnglish": "March",
+      "itemIds": [
+        "g5-w-march"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 93,
+      "referenceEnglish": "April",
+      "itemIds": [
+        "g5-w-april"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 94,
+      "referenceEnglish": "May",
+      "itemIds": [
+        "g5-w-may"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 95,
+      "referenceEnglish": "June",
+      "itemIds": [
+        "g5-w-june"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 96,
+      "referenceEnglish": "July",
+      "itemIds": [
+        "g5-w-july"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 97,
+      "referenceEnglish": "August",
+      "itemIds": [
+        "g5-w-august"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 98,
+      "referenceEnglish": "September",
+      "itemIds": [
+        "g5-w-september"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 99,
+      "referenceEnglish": "October",
+      "itemIds": [
+        "g5-w-october"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 100,
+      "referenceEnglish": "November",
+      "itemIds": [
+        "g5-w-november"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 101,
+      "referenceEnglish": "December",
+      "itemIds": [
+        "g5-w-december"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 102,
+      "referenceEnglish": "spring",
+      "itemIds": [
+        "g5-w-spring"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 103,
+      "referenceEnglish": "summer",
+      "itemIds": [
+        "g5-w-summer"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 104,
+      "referenceEnglish": "automn",
+      "itemIds": [
+        "g5-w-rj-autumn"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 105,
+      "referenceEnglish": "fall",
+      "itemIds": [
+        "g5-w-fall"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 106,
+      "referenceEnglish": "winter",
+      "itemIds": [
+        "g5-w-winter"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 107,
+      "referenceEnglish": "Japan",
+      "itemIds": [
+        "g5-w-japan"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 108,
+      "referenceEnglish": "America",
+      "itemIds": [
+        "g5-w-america"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 109,
+      "referenceEnglish": "Canada",
+      "itemIds": [
+        "g5-w-canada"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 110,
+      "referenceEnglish": "Australia",
+      "itemIds": [
+        "g5-w-australia"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 111,
+      "referenceEnglish": "Spain",
+      "itemIds": [
+        "g5-w-rj-spain"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 112,
+      "referenceEnglish": "China",
+      "itemIds": [
+        "g5-w-china"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 113,
+      "referenceEnglish": "France",
+      "itemIds": [
+        "g5-w-rj-france"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 114,
+      "referenceEnglish": "Germany",
+      "itemIds": [
+        "g5-w-rj-germany"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 115,
+      "referenceEnglish": "Brazil",
+      "itemIds": [
+        "g5-w-rj-brazil"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 116,
+      "referenceEnglish": "country",
+      "itemIds": [
+        "g5-w-country"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 117,
+      "referenceEnglish": "Africa",
+      "itemIds": [
+        "g5-w-rj-africa"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 118,
+      "referenceEnglish": "Asia",
+      "itemIds": [
+        "g5-w-rj-asia"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 119,
+      "referenceEnglish": "Europe",
+      "itemIds": [
+        "g5-w-rj-europe"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 120,
+      "referenceEnglish": "place",
+      "itemIds": [
+        "g5-w-place"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 121,
+      "referenceEnglish": "station",
+      "itemIds": [
+        "g5-w-station"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 122,
+      "referenceEnglish": "airport",
+      "itemIds": [
+        "g5-w-airport"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 123,
+      "referenceEnglish": "park",
+      "itemIds": [
+        "g5-w-park"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 124,
+      "referenceEnglish": "cityhall",
+      "itemIds": [
+        "g5-w-rj-city-hall"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 125,
+      "referenceEnglish": "hospital",
+      "itemIds": [
+        "g5-w-hospital"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 126,
+      "referenceEnglish": "post office",
+      "itemIds": [
+        "g5-w-post-office"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 127,
+      "referenceEnglish": "store",
+      "itemIds": [
+        "g5-w-store"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 128,
+      "referenceEnglish": "supermarket",
+      "itemIds": [
+        "g5-w-supermarket"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 129,
+      "referenceEnglish": "mountain",
+      "itemIds": [
+        "g5-w-mountain"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 130,
+      "referenceEnglish": "sea",
+      "itemIds": [
+        "g5-w-sea"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 131,
+      "referenceEnglish": "restaurant",
+      "itemIds": [
+        "g5-w-restaurant"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 132,
+      "referenceEnglish": "home",
+      "itemIds": [
+        "g5-w-home"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 133,
+      "referenceEnglish": "house",
+      "itemIds": [
+        "g5-w-house"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 134,
+      "referenceEnglish": "room",
+      "itemIds": [
+        "g5-w-room"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 135,
+      "referenceEnglish": "bedroom",
+      "itemIds": [
+        "g5-w-rj-bedroom"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 136,
+      "referenceEnglish": "kitchen",
+      "itemIds": [
+        "g5-w-kitchen"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 137,
+      "referenceEnglish": "bathroom",
+      "itemIds": [
+        "g5-w-bathroom"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 138,
+      "referenceEnglish": "classroom",
+      "itemIds": [
+        "g5-w-classroom"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 139,
+      "referenceEnglish": "gym",
+      "itemIds": [
+        "g5-w-gym"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 140,
+      "referenceEnglish": "sunny",
+      "itemIds": [
+        "g5-w-sunny"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 141,
+      "referenceEnglish": "cloudy",
+      "itemIds": [
+        "g5-w-cloudy"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 142,
+      "referenceEnglish": "rainy",
+      "itemIds": [
+        "g5-w-rainy"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 143,
+      "referenceEnglish": "snowy",
+      "itemIds": [
+        "g5-w-snowy"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 144,
+      "referenceEnglish": "foggy",
+      "itemIds": [
+        "g5-w-rj-foggy"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 145,
+      "referenceEnglish": "windy",
+      "itemIds": [
+        "g5-w-windy"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 146,
+      "referenceEnglish": "sunshine",
+      "itemIds": [
+        "g5-w-rj-sunshine"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 147,
+      "referenceEnglish": "thesun",
+      "itemIds": [
+        "g5-w-sun"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 148,
+      "referenceEnglish": "cloud",
+      "itemIds": [
+        "g5-w-cloud"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 149,
+      "referenceEnglish": "rain",
+      "itemIds": [
+        "g5-w-rain"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 150,
+      "referenceEnglish": "shower",
+      "itemIds": [
+        "g5-w-rj-shower"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 151,
+      "referenceEnglish": "snow",
+      "itemIds": [
+        "g5-w-snow"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 152,
+      "referenceEnglish": "fog",
+      "itemIds": [
+        "g5-w-rj-fog"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 153,
+      "referenceEnglish": "clearup",
+      "itemIds": [
+        "g5-w-rj-clear-up"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 154,
+      "referenceEnglish": "boy",
+      "itemIds": [
+        "g5-w-boy"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 155,
+      "referenceEnglish": "children",
+      "itemIds": [
+        "g5-w-children"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 156,
+      "referenceEnglish": "dancer",
+      "itemIds": [
+        "g5-w-rj-dancer"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 157,
+      "referenceEnglish": "driver",
+      "itemIds": [
+        "g5-w-driver"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 158,
+      "referenceEnglish": "doctor",
+      "itemIds": [
+        "g5-w-doctor"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 159,
+      "referenceEnglish": "friend",
+      "itemIds": [
+        "g5-w-friend"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 160,
+      "referenceEnglish": "girl",
+      "itemIds": [
+        "g5-w-girl"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 161,
+      "referenceEnglish": "job",
+      "itemIds": [
+        "g5-w-rj-job"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 162,
+      "referenceEnglish": "man",
+      "itemIds": [
+        "g5-w-man"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 163,
+      "referenceEnglish": "officer",
+      "itemIds": [
+        "g5-w-rj-officer"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 164,
+      "referenceEnglish": "parent",
+      "itemIds": [
+        "g5-w-parent"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 165,
+      "referenceEnglish": "brother",
+      "itemIds": [
+        "g5-w-brother"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 166,
+      "referenceEnglish": "sister",
+      "itemIds": [
+        "g5-w-sister"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 167,
+      "referenceEnglish": "grandfather",
+      "itemIds": [
+        "g5-w-grandfather"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 168,
+      "referenceEnglish": "grandmother",
+      "itemIds": [
+        "g5-w-grandmother"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 169,
+      "referenceEnglish": "cousin",
+      "itemIds": [
+        "g5-w-cousin"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 170,
+      "referenceEnglish": "person",
+      "itemIds": [
+        "g5-w-rj-person"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 171,
+      "referenceEnglish": "people",
+      "itemIds": [
+        "g5-w-people"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 172,
+      "referenceEnglish": "pianist",
+      "itemIds": [
+        "g5-w-rj-pianist"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 173,
+      "referenceEnglish": "pilot",
+      "itemIds": [
+        "g5-w-rj-pilot"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 174,
+      "referenceEnglish": "player",
+      "itemIds": [
+        "g5-w-player",
+        "g5-p-rj-he-is-a-piano-player"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 175,
+      "referenceEnglish": "singer",
+      "itemIds": [
+        "g5-w-singer"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 176,
+      "referenceEnglish": "waiter",
+      "itemIds": [
+        "g5-w-rj-waiter"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 177,
+      "referenceEnglish": "woman",
+      "itemIds": [
+        "g5-w-woman"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 178,
+      "referenceEnglish": "worker",
+      "itemIds": [
+        "g5-w-rj-worker"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 179,
+      "referenceEnglish": "basketball",
+      "itemIds": [
+        "g5-w-basketball"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 180,
+      "referenceEnglish": "tennis",
+      "itemIds": [
+        "g5-w-tennis"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 181,
+      "referenceEnglish": "baseball",
+      "itemIds": [
+        "g5-w-baseball"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 182,
+      "referenceEnglish": "soccer",
+      "itemIds": [
+        "g5-w-soccer"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 183,
+      "referenceEnglish": "badminton",
+      "itemIds": [
+        "g5-w-badminton"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 184,
+      "referenceEnglish": "tabletennis",
+      "itemIds": [
+        "g5-w-rj-table-tennis"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 185,
+      "referenceEnglish": "surfing",
+      "itemIds": [
+        "g5-w-rj-surfing"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 186,
+      "referenceEnglish": "swimming",
+      "itemIds": [
+        "g5-w-swimming"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 187,
+      "referenceEnglish": "marathon",
+      "itemIds": [
+        "g5-w-rj-marathon"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 188,
+      "referenceEnglish": "boxing",
+      "itemIds": [
+        "g5-w-rj-boxing"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 189,
+      "referenceEnglish": "dinner",
+      "itemIds": [
+        "g5-w-dinner"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 190,
+      "referenceEnglish": "month",
+      "itemIds": [
+        "g5-w-month"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 191,
+      "referenceEnglish": "color",
+      "itemIds": [
+        "g5-w-color"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 192,
+      "referenceEnglish": "family",
+      "itemIds": [
+        "g5-w-family"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 193,
+      "referenceEnglish": "flower",
+      "itemIds": [
+        "g5-w-flower"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 194,
+      "referenceEnglish": "test",
+      "itemIds": [
+        "g5-w-test"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 195,
+      "referenceEnglish": "fruit",
+      "itemIds": [
+        "g5-w-fruit"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 196,
+      "referenceEnglish": "drink",
+      "itemIds": [
+        "g5-w-rj-a-drink"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 197,
+      "referenceEnglish": "name",
+      "itemIds": [
+        "g5-w-name"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 198,
+      "referenceEnglish": "dictionary",
+      "itemIds": [
+        "g5-w-dictionary"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 199,
+      "referenceEnglish": "passport",
+      "itemIds": [
+        "g5-w-rj-passport"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 200,
+      "referenceEnglish": "homework",
+      "itemIds": [
+        "g5-w-homework"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 201,
+      "referenceEnglish": "food",
+      "itemIds": [
+        "g5-w-food"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 202,
+      "referenceEnglish": "animal",
+      "itemIds": [
+        "g5-w-rj-animal"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 203,
+      "referenceEnglish": "box",
+      "itemIds": [
+        "g5-w-box"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 204,
+      "referenceEnglish": "watch",
+      "itemIds": [
+        "g5-w-rj-a-watch"
+      ],
+      "alignment": "corrected spelling/spacing or concrete pattern"
+    },
+    {
+      "row": 205,
+      "referenceEnglish": "blackboard",
+      "itemIds": [
+        "g5-w-rj-blackboard"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 206,
+      "referenceEnglish": "tea",
+      "itemIds": [
+        "g5-w-tea"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 207,
+      "referenceEnglish": "calendar",
+      "itemIds": [
+        "g5-w-calendar"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 208,
+      "referenceEnglish": "shoes",
+      "itemIds": [
+        "g5-w-shoes"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 209,
+      "referenceEnglish": "umbrella",
+      "itemIds": [
+        "g5-w-umbrella"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 210,
+      "referenceEnglish": "newspaper",
+      "itemIds": [
+        "g5-w-rj-newspaper"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 211,
+      "referenceEnglish": "window",
+      "itemIds": [
+        "g5-w-window"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 212,
+      "referenceEnglish": "hair",
+      "itemIds": [
+        "g5-w-hair"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 213,
+      "referenceEnglish": "diary",
+      "itemIds": [
+        "g5-w-rj-diary"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 214,
+      "referenceEnglish": "letter",
+      "itemIds": [
+        "g5-w-letter"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 215,
+      "referenceEnglish": "wall",
+      "itemIds": [
+        "g5-w-wall"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 216,
+      "referenceEnglish": "bird",
+      "itemIds": [
+        "g5-w-bird"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 217,
+      "referenceEnglish": "doll",
+      "itemIds": [
+        "g5-w-doll"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 218,
+      "referenceEnglish": "grape",
+      "itemIds": [
+        "g5-w-grape"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 219,
+      "referenceEnglish": "camera",
+      "itemIds": [
+        "g5-w-camera"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 220,
+      "referenceEnglish": "mouth",
+      "itemIds": [
+        "g5-w-mouth"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 221,
+      "referenceEnglish": "coin",
+      "itemIds": [
+        "g5-w-coin"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 222,
+      "referenceEnglish": "song",
+      "itemIds": [
+        "g5-w-song"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 223,
+      "referenceEnglish": "music",
+      "itemIds": [
+        "g5-w-music"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 224,
+      "referenceEnglish": "garden",
+      "itemIds": [
+        "g5-w-garden"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 225,
+      "referenceEnglish": "idea",
+      "itemIds": [
+        "g5-w-idea"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 226,
+      "referenceEnglish": "club",
+      "itemIds": [
+        "g5-w-club"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 227,
+      "referenceEnglish": "art",
+      "itemIds": [
+        "g5-w-art"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 228,
+      "referenceEnglish": "number",
+      "itemIds": [
+        "g5-w-number"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 229,
+      "referenceEnglish": "history",
+      "itemIds": [
+        "g5-w-rj-history"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 230,
+      "referenceEnglish": "story",
+      "itemIds": [
+        "g5-w-story"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 231,
+      "referenceEnglish": "subject",
+      "itemIds": [
+        "g5-w-subject"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 232,
+      "referenceEnglish": "plane",
+      "itemIds": [
+        "g5-w-plane"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 233,
+      "referenceEnglish": "bread",
+      "itemIds": [
+        "g5-w-bread"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 234,
+      "referenceEnglish": "dish",
+      "itemIds": [
+        "g5-w-rj-dish"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 235,
+      "referenceEnglish": "tree",
+      "itemIds": [
+        "g5-w-tree"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 236,
+      "referenceEnglish": "fish",
+      "itemIds": [
+        "g5-w-fish"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 237,
+      "referenceEnglish": "like",
+      "itemIds": [
+        "g5-w-like"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 238,
+      "referenceEnglish": "have",
+      "itemIds": [
+        "g5-w-have"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 239,
+      "referenceEnglish": "go",
+      "itemIds": [
+        "g5-w-go"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 240,
+      "referenceEnglish": "play",
+      "itemIds": [
+        "g5-w-play"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 241,
+      "referenceEnglish": "watch",
+      "itemIds": [
+        "g5-w-watch"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 242,
+      "referenceEnglish": "want",
+      "itemIds": [
+        "g5-w-want"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 243,
+      "referenceEnglish": "eat",
+      "itemIds": [
+        "g5-w-eat"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 244,
+      "referenceEnglish": "read",
+      "itemIds": [
+        "g5-w-read"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 245,
+      "referenceEnglish": "see",
+      "itemIds": [
+        "g5-w-see"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 246,
+      "referenceEnglish": "make",
+      "itemIds": [
+        "g5-w-make"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 247,
+      "referenceEnglish": "come",
+      "itemIds": [
+        "g5-w-come"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 248,
+      "referenceEnglish": "study",
+      "itemIds": [
+        "g5-w-study"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 249,
+      "referenceEnglish": "get",
+      "itemIds": [
+        "g5-w-get"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 250,
+      "referenceEnglish": "take",
+      "itemIds": [
+        "g5-w-take"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 251,
+      "referenceEnglish": "write",
+      "itemIds": [
+        "g5-w-write"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 252,
+      "referenceEnglish": "work",
+      "itemIds": [
+        "g5-w-work"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 253,
+      "referenceEnglish": "use",
+      "itemIds": [
+        "g5-w-use"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 254,
+      "referenceEnglish": "drink",
+      "itemIds": [
+        "g5-w-drink"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 255,
+      "referenceEnglish": "wash",
+      "itemIds": [
+        "g5-w-wash"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 256,
+      "referenceEnglish": "cook",
+      "itemIds": [
+        "g5-w-cook"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 257,
+      "referenceEnglish": "speak",
+      "itemIds": [
+        "g5-w-speak"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 258,
+      "referenceEnglish": "run",
+      "itemIds": [
+        "g5-w-run"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 259,
+      "referenceEnglish": "sleep",
+      "itemIds": [
+        "g5-w-sleep"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 260,
+      "referenceEnglish": "buy",
+      "itemIds": [
+        "g5-w-buy"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 261,
+      "referenceEnglish": "open",
+      "itemIds": [
+        "g5-w-open"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 262,
+      "referenceEnglish": "swim",
+      "itemIds": [
+        "g5-w-swim"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 263,
+      "referenceEnglish": "listen",
+      "itemIds": [
+        "g5-w-listen"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 264,
+      "referenceEnglish": "look",
+      "itemIds": [
+        "g5-w-look"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 265,
+      "referenceEnglish": "sing",
+      "itemIds": [
+        "g5-w-sing"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 266,
+      "referenceEnglish": "know",
+      "itemIds": [
+        "g5-w-know"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 267,
+      "referenceEnglish": "sit",
+      "itemIds": [
+        "g5-w-sit"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 268,
+      "referenceEnglish": "clean",
+      "itemIds": [
+        "g5-w-clean"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 269,
+      "referenceEnglish": "help",
+      "itemIds": [
+        "g5-w-help"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 270,
+      "referenceEnglish": "meet",
+      "itemIds": [
+        "g5-w-meet"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 271,
+      "referenceEnglish": "walk",
+      "itemIds": [
+        "g5-w-walk"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 272,
+      "referenceEnglish": "ski",
+      "itemIds": [
+        "g5-w-rj-ski"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 273,
+      "referenceEnglish": "start",
+      "itemIds": [
+        "g5-w-start"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 274,
+      "referenceEnglish": "talk",
+      "itemIds": [
+        "g5-w-talk"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 275,
+      "referenceEnglish": "teach",
+      "itemIds": [
+        "g5-w-teach"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 276,
+      "referenceEnglish": "do",
+      "itemIds": [
+        "g5-w-do"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 277,
+      "referenceEnglish": "think",
+      "itemIds": [
+        "g5-w-think"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 278,
+      "referenceEnglish": "need",
+      "itemIds": [
+        "g5-w-need"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 279,
+      "referenceEnglish": "close",
+      "itemIds": [
+        "g5-w-close"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 280,
+      "referenceEnglish": "give",
+      "itemIds": [
+        "g5-w-give"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 281,
+      "referenceEnglish": "stop",
+      "itemIds": [
+        "g5-w-stop"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 282,
+      "referenceEnglish": "dance",
+      "itemIds": [
+        "g5-w-dance"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 283,
+      "referenceEnglish": "love",
+      "itemIds": [
+        "g5-w-love"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 284,
+      "referenceEnglish": "live",
+      "itemIds": [
+        "g5-w-live"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 285,
+      "referenceEnglish": "stand",
+      "itemIds": [
+        "g5-w-stand"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 286,
+      "referenceEnglish": "wait",
+      "itemIds": [
+        "g5-w-wait"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 287,
+      "referenceEnglish": "put",
+      "itemIds": [
+        "g5-w-put"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 288,
+      "referenceEnglish": "brush",
+      "itemIds": [
+        "g5-w-brush"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 289,
+      "referenceEnglish": "ride",
+      "itemIds": [
+        "g5-w-ride"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 290,
+      "referenceEnglish": "camp",
+      "itemIds": [
+        "g5-w-rj-camp"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 291,
+      "referenceEnglish": "learn",
+      "itemIds": [
+        "g5-w-learn"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 292,
+      "referenceEnglish": "smile",
+      "itemIds": [
+        "g5-w-smile"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 293,
+      "referenceEnglish": "begin",
+      "itemIds": [
+        "g5-w-rj-begin"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 294,
+      "referenceEnglish": "enjoy",
+      "itemIds": [
+        "g5-w-enjoy"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 295,
+      "referenceEnglish": "practice",
+      "itemIds": [
+        "g5-w-practice"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 296,
+      "referenceEnglish": "drive",
+      "itemIds": [
+        "g5-w-drive"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 297,
+      "referenceEnglish": "ask",
+      "itemIds": [
+        "g5-w-ask",
+        "g5-p-rj-please-ask-him-for-help"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 298,
+      "referenceEnglish": "tell",
+      "itemIds": [
+        "g5-w-tell"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 299,
+      "referenceEnglish": "fly",
+      "itemIds": [
+        "g5-w-fly"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 300,
+      "referenceEnglish": "jump",
+      "itemIds": [
+        "g5-w-jump"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 301,
+      "referenceEnglish": "stay",
+      "itemIds": [
+        "g5-w-stay"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 302,
+      "referenceEnglish": "move",
+      "itemIds": [
+        "g5-w-rj-move"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 303,
+      "referenceEnglish": "turn",
+      "itemIds": [
+        "g5-w-turn"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 304,
+      "referenceEnglish": "visit",
+      "itemIds": [
+        "g5-w-visit"
+      ],
+      "alignment": "same headword"
+    },
+    {
+      "row": 305,
+      "referenceEnglish": "try",
+      "itemIds": [
+        "g5-w-try"
+      ],
+      "alignment": "same headword"
+    }
+  ]
+}

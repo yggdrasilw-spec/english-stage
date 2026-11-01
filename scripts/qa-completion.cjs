@@ -6,8 +6,8 @@ const server=http.createServer((req,res)=>{try{let u=decodeURIComponent(req.url.
 try{for(const width of [320,390,1280]){
  const p=await browser.newPage({viewport:{width,height:900}});p.on('pageerror',e=>errors.push(e.message));
  await p.goto(base);await p.locator('#start').waitFor();await p.locator('#sound').click();
- assert((await p.locator('.home-counts').innerText()).includes('0/830'));
- await p.goto(base+'#screen');await p.locator('#scan-reveal').waitFor();assert.equal(await p.locator('.card-ja').count(),0);
+ assert((await p.locator('.home-counts').innerText()).includes('0/'+JSON.parse(fs.readFileSync(path.join(root,'dist/data/grade5.json'))).length));
+ await p.goto(base+'#screen');await p.locator('#scan-reveal').waitFor();assert.equal(await p.locator('.flash-back').getAttribute('aria-hidden'),'true');
  await p.locator('[data-scan="known"]').click();await p.waitForFunction(()=>document.querySelector('.card-en')?.textContent==='banana');
  await p.reload();await p.locator('#scan-reveal').waitFor();assert.equal(await p.locator('.card-en').innerText(),'banana');
  await p.locator('#scan-undo').click();await p.waitForFunction(()=>document.querySelector('.card-en')?.textContent==='apple');

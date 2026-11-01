@@ -164,3 +164,7 @@ cards.extend(extra)
 (root/'dist/data/grade5.json').write_text(json.dumps(cards,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (root/'AUDIO_SCRIPT.json').write_text(json.dumps([{'id':c['id'],'word':c['en'],'example':c['example']} for c in cards],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(f'Complete deck: {len(cards)} cards')
+
+# Preserve the independently authored RareJob vocabulary supplement.
+import runpy
+runpy.run_path(str(root/"scripts/sync-rarejob-vocabulary.py"))["sync"]()

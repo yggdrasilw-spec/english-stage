@@ -4148,5 +4148,360 @@
     "id": "g5-p-extra-what-does-this-word-mean",
     "word": "What does this word mean?",
     "example": "What does this word mean?"
+  },
+  {
+    "id": "g5-w-rj-hers",
+    "word": "hers",
+    "example": "This red hat is hers."
+  },
+  {
+    "id": "g5-w-rj-its",
+    "word": "its",
+    "example": "The dog is eating its food."
+  },
+  {
+    "id": "g5-w-rj-theirs",
+    "word": "theirs",
+    "example": "These bikes are theirs."
+  },
+  {
+    "id": "g5-w-rj-ours",
+    "word": "ours",
+    "example": "The small tent is ours."
+  },
+  {
+    "id": "g5-w-rj-what-color",
+    "word": "what color",
+    "example": "What color is your bike?"
+  },
+  {
+    "id": "g5-w-rj-what-sports",
+    "word": "what sports",
+    "example": "What sports do you play after school?"
+  },
+  {
+    "id": "g5-w-rj-what-food",
+    "word": "what food",
+    "example": "What food do you want to try?"
+  },
+  {
+    "id": "g5-w-rj-what-drink",
+    "word": "what drink",
+    "example": "What drink do you want with lunch?"
+  },
+  {
+    "id": "g5-w-rj-what-animal",
+    "word": "what animal",
+    "example": "What animal has a long nose?"
+  },
+  {
+    "id": "g5-w-rj-what-subject",
+    "word": "what subject",
+    "example": "What subject do you study on Friday?"
+  },
+  {
+    "id": "g5-w-rj-what-time",
+    "word": "what time",
+    "example": "What time does the shop open?"
+  },
+  {
+    "id": "g5-w-rj-how-tall",
+    "word": "how tall",
+    "example": "How tall is your brother?"
+  },
+  {
+    "id": "g5-w-rj-how-long",
+    "word": "how long",
+    "example": "How long is this bridge?"
+  },
+  {
+    "id": "g5-w-rj-midnight",
+    "word": "midnight",
+    "example": "We got home at midnight."
+  },
+  {
+    "id": "g5-w-rj-autumn",
+    "word": "autumn",
+    "example": "The leaves are red in autumn."
+  },
+  {
+    "id": "g5-w-rj-spain",
+    "word": "Spain",
+    "example": "My friend lives in Spain."
+  },
+  {
+    "id": "g5-w-rj-france",
+    "word": "France",
+    "example": "My aunt is from France."
+  },
+  {
+    "id": "g5-w-rj-germany",
+    "word": "Germany",
+    "example": "This train is from Germany."
+  },
+  {
+    "id": "g5-w-rj-brazil",
+    "word": "Brazil",
+    "example": "My cousin lives in Brazil."
+  },
+  {
+    "id": "g5-w-rj-africa",
+    "word": "Africa",
+    "example": "Kenya is in Africa."
+  },
+  {
+    "id": "g5-w-rj-asia",
+    "word": "Asia",
+    "example": "Japan is in Asia."
+  },
+  {
+    "id": "g5-w-rj-europe",
+    "word": "Europe",
+    "example": "France is in Europe."
+  },
+  {
+    "id": "g5-w-rj-city-hall",
+    "word": "city hall",
+    "example": "The bus stops near city hall."
+  },
+  {
+    "id": "g5-w-rj-bedroom",
+    "word": "bedroom",
+    "example": "My bedroom has two windows."
+  },
+  {
+    "id": "g5-w-rj-foggy",
+    "word": "foggy",
+    "example": "It is foggy this morning."
+  },
+  {
+    "id": "g5-w-rj-sunshine",
+    "word": "sunshine",
+    "example": "The cat is sleeping in the sunshine."
+  },
+  {
+    "id": "g5-w-rj-shower",
+    "word": "shower",
+    "example": "We had a shower this afternoon."
+  },
+  {
+    "id": "g5-w-rj-fog",
+    "word": "fog",
+    "example": "I cannot see the trees in the fog."
+  },
+  {
+    "id": "g5-w-rj-clear-up",
+    "word": "clear up",
+    "example": "It will clear up this afternoon."
+  },
+  {
+    "id": "g5-w-rj-dancer",
+    "word": "dancer",
+    "example": "My sister wants to be a dancer."
+  },
+  {
+    "id": "g5-w-rj-job",
+    "word": "job",
+    "example": "My father likes his job."
+  },
+  {
+    "id": "g5-w-rj-officer",
+    "word": "officer",
+    "example": "The police officer is helping a child."
+  },
+  {
+    "id": "g5-w-rj-person",
+    "word": "person",
+    "example": "One person is waiting at the door."
+  },
+  {
+    "id": "g5-w-rj-pianist",
+    "word": "pianist",
+    "example": "The pianist plays beautiful music."
+  },
+  {
+    "id": "g5-w-rj-pilot",
+    "word": "pilot",
+    "example": "The pilot is on the plane."
+  },
+  {
+    "id": "g5-w-rj-waiter",
+    "word": "waiter",
+    "example": "The waiter brings us some water."
+  },
+  {
+    "id": "g5-w-rj-worker",
+    "word": "worker",
+    "example": "The worker opens the shop at nine."
+  },
+  {
+    "id": "g5-w-rj-table-tennis",
+    "word": "table tennis",
+    "example": "We play table tennis in the gym."
+  },
+  {
+    "id": "g5-w-rj-surfing",
+    "word": "surfing",
+    "example": "My brother likes surfing in summer."
+  },
+  {
+    "id": "g5-w-rj-marathon",
+    "word": "marathon",
+    "example": "My aunt runs in a marathon."
+  },
+  {
+    "id": "g5-w-rj-boxing",
+    "word": "boxing",
+    "example": "He watches boxing on TV."
+  },
+  {
+    "id": "g5-w-rj-passport",
+    "word": "passport",
+    "example": "Please put your passport in your bag."
+  },
+  {
+    "id": "g5-w-rj-animal",
+    "word": "animal",
+    "example": "A rabbit is a small animal."
+  },
+  {
+    "id": "g5-w-rj-blackboard",
+    "word": "blackboard",
+    "example": "Our teacher writes on the blackboard."
+  },
+  {
+    "id": "g5-w-rj-newspaper",
+    "word": "newspaper",
+    "example": "My mother reads the newspaper after breakfast."
+  },
+  {
+    "id": "g5-w-rj-diary",
+    "word": "diary",
+    "example": "I write in my diary before bed."
+  },
+  {
+    "id": "g5-w-rj-history",
+    "word": "history",
+    "example": "We study the history of our town."
+  },
+  {
+    "id": "g5-w-rj-dish",
+    "word": "dish",
+    "example": "Put the bread on this dish."
+  },
+  {
+    "id": "g5-w-rj-ski",
+    "word": "ski",
+    "example": "We ski in the mountains in winter."
+  },
+  {
+    "id": "g5-w-rj-camp",
+    "word": "camp",
+    "example": "We camp by the lake in summer."
+  },
+  {
+    "id": "g5-w-rj-begin",
+    "word": "begin",
+    "example": "Our classes begin at nine."
+  },
+  {
+    "id": "g5-w-rj-move",
+    "word": "move",
+    "example": "Please move this chair to the window."
+  },
+  {
+    "id": "g5-w-rj-a-watch",
+    "word": "a watch",
+    "example": "My uncle gave me a watch."
+  },
+  {
+    "id": "g5-w-rj-a-drink",
+    "word": "a drink",
+    "example": "Would you like a hot drink?"
+  },
+  {
+    "id": "g5-p-rj-what-s-the-date-today",
+    "word": "What's the date today?",
+    "example": "What's the date today?"
+  },
+  {
+    "id": "g5-p-rj-how-do-you-get-to-the-station",
+    "word": "How do you get to the station?",
+    "example": "How do you get to the station?"
+  },
+  {
+    "id": "g5-p-rj-this-bag-is-his",
+    "word": "This bag is his.",
+    "example": "This bag is his."
+  },
+  {
+    "id": "g5-p-rj-he-is-a-piano-player",
+    "word": "He is a piano player.",
+    "example": "He is a piano player."
+  },
+  {
+    "id": "g5-p-rj-please-ask-him-for-help",
+    "word": "Please ask him for help.",
+    "example": "Please ask him for help."
+  },
+  {
+    "id": "g5-w-rj-one-o-clock",
+    "word": "one o'clock",
+    "example": "The clock says one o'clock."
+  },
+  {
+    "id": "g5-w-rj-two-o-clock",
+    "word": "two o'clock",
+    "example": "The clock says two o'clock."
+  },
+  {
+    "id": "g5-w-rj-three-o-clock",
+    "word": "three o'clock",
+    "example": "The clock says three o'clock."
+  },
+  {
+    "id": "g5-w-rj-four-o-clock",
+    "word": "four o'clock",
+    "example": "The clock says four o'clock."
+  },
+  {
+    "id": "g5-w-rj-five-o-clock",
+    "word": "five o'clock",
+    "example": "The clock says five o'clock."
+  },
+  {
+    "id": "g5-w-rj-six-o-clock",
+    "word": "six o'clock",
+    "example": "The clock says six o'clock."
+  },
+  {
+    "id": "g5-w-rj-seven-o-clock",
+    "word": "seven o'clock",
+    "example": "The clock says seven o'clock."
+  },
+  {
+    "id": "g5-w-rj-eight-o-clock",
+    "word": "eight o'clock",
+    "example": "The clock says eight o'clock."
+  },
+  {
+    "id": "g5-w-rj-nine-o-clock",
+    "word": "nine o'clock",
+    "example": "The clock says nine o'clock."
+  },
+  {
+    "id": "g5-w-rj-ten-o-clock",
+    "word": "ten o'clock",
+    "example": "The clock says ten o'clock."
+  },
+  {
+    "id": "g5-w-rj-eleven-o-clock",
+    "word": "eleven o'clock",
+    "example": "The clock says eleven o'clock."
+  },
+  {
+    "id": "g5-w-rj-twelve-o-clock",
+    "word": "twelve o'clock",
+    "example": "The clock says twelve o'clock."
   }
 ]
