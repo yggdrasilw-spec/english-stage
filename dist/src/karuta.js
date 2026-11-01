@@ -1,12 +1,13 @@
 import * as audio from './audio.js';
 import * as effects from './effects.js';
+import {karutaContrast} from './karuta-contrast.js';
 
 const targetLabel=r=>r.en+' · '+r.ja;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 import {karutaPool,createKaruta,takeKaruta,validKaruta} from './karuta-session.js';
 
-let generation=0,heard=null,auto=false,acting=false,feedback=null,nextTimer=null;
-export function cleanupKaruta(){generation++;clearTimeout(nextTimer);heard=null;auto=false;acting=false;feedback=null;effects.stop();}
+let generation=0,heard=null,auto=false,acting=false,feedback=null,nextTimer=null,lastComparison=null;
+export function cleanupKaruta(){generation++;clearTimeout(nextTimer);heard=null;auto=false;acting=false;feedback=null;lastComparison=null;effects.stop();}
 export function renderKaruta({app,cards,state,mutate,tell}){
  ++generation;clearTimeout(nextTimer);acting=false;heard=null;
  const result=feedback;feedback=null;
@@ -42,6 +43,26 @@ export function renderKaruta({app,cards,state,mutate,tell}){
   auto=correct;
   await mutate(s=>{if(s.karuta?.order[s.karuta.index]!==target.id)return;if(takeKaruta(s.karuta,id))s.karuta.feedback=`とれた！ ${target.en} · ${target.ja}`;});
  });
+ const key=run.ids.join('|');
+ if(result?.correct||lastComparison&&(lastComparison.key!==key||lastComparison.target!==target.id||lastComparison.mistakes!==run.mistakes))lastComparison=null;
+ const chosen=result&&!result.correct?byId.get(result.id):byId.get(lastComparison?.id),contrast=karutaContrast(target,chosen);
+ if(contrast){
+  lastComparison={key,target:target.id,mistakes:run.mistakes,id:chosen.id};
+  const dialog=document.createElement('dialog');dialog.className='karuta-contrast';dialog.setAttribute('aria-labelledby','karuta-contrast-title');
+  const row=(c,note,label,key)=>`<section class="karuta-contrast-word"><small>${label}</small><h3><span lang="en">${esc(c.en)}</span> <span>${esc(c.ja)}</span></h3><p>${esc(note)}</p><p class="karuta-contrast-example"><span lang="en">${esc(c.example)}</span><br>${esc(c.exampleJa)}</p><button type="button" data-contrast-audio="${key}" aria-label="${esc(c.en)}の音を聞く">▶ ${esc(c.en)} を聞く</button></section>`;
+  dialog.innerHTML=`<div class="karuta-contrast-body"><h2 id="karuta-contrast-title">ふたつのことばをくらべよう</h2>${contrast.sharedImage?'<p class="muted">同じ絵で、まぎらわしいね。</p>':''}<p class="karuta-contrast-tip">${esc(contrast.note)}</p>${row(target,contrast.targetNote,'聞こえたのは','target')}${row(chosen,contrast.chosenNote,'選んだのは','chosen')}</div><div class="karuta-contrast-actions"><p id="karuta-contrast-status" role="status"></p><button type="button" id="karuta-contrast-stop">■ 停止</button><button type="button" class="primary" id="karuta-contrast-back" autofocus>聞き直して、札を探す</button></div>`;
+  game.append(dialog);
+  const reopen=document.createElement('button');reopen.id='karuta-compare';reopen.textContent='さっきの２語をくらべる';reopen.onclick=()=>{generation++;audio.stop();effects.stop();heard=null;lock(true);dialog.returnValue='';dialog.showModal();};
+  game.querySelector('.karuta-toolbar').append(reopen);
+  dialog.querySelectorAll('[data-contrast-audio]').forEach(b=>b.onclick=()=>{
+   if(!state.settings.sound){dialog.querySelector('#karuta-contrast-status').textContent='音声 OFF です。説明を閉じて、上の音声ボタンで ON にできます。';return;}
+   effects.stop();audio.play(b.dataset.contrastAudio==='target'?target:chosen).catch(e=>{if(dialog.isConnected)dialog.querySelector('#karuta-contrast-status').textContent=e.message;});
+  });
+  dialog.querySelector('#karuta-contrast-stop').onclick=()=>{audio.stop();effects.stop();};
+  dialog.querySelector('#karuta-contrast-back').onclick=()=>dialog.close('retry');
+  dialog.addEventListener('close',()=>{audio.stop();if(!app.contains(game))return;$('#karuta-play').focus({preventScroll:true});if(dialog.returnValue==='retry')void play(false);});
+  if(result&&!result.correct)dialog.showModal();
+ }
  app.querySelectorAll('.karuta-card img').forEach(img=>img.onerror=()=>{img.style.visibility='hidden';});
  if(auto){auto=false;const mine=generation;nextTimer=setTimeout(()=>{if(mine===generation&&app.contains(game)&&!document.hidden)void play(false);},result?950:0);}
 }

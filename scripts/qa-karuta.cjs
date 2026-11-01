@@ -23,7 +23,7 @@ for(const width of [320,360,390,430,1280]){
  assert(await p.locator('.karuta-toolbar').evaluate(e=>Math.abs(e.getBoundingClientRect().top)<2));
  await p.evaluate(()=>scrollTo(0,0));
  await p.screenshot({path:path.join(out,`board-${width}.png`),fullPage:true});
- const before=await saved(p),k=before.karuta,id=k.order[0],wrong=k.order[1];const position=()=>p.locator(`[data-karuta-card="${id}"]`).evaluate(el=>({x:el.offsetLeft,y:el.offsetTop,width:el.offsetWidth,height:el.offsetHeight}));const box=await position();
+ const before=await saved(p),k=before.karuta,id=k.order[0],wrong=await p.evaluate(async({k,id})=>{const {karutaContrast}=await import('./src/karuta-contrast.js'),cards=await fetch('data/grade5.json').then(r=>r.json()),target=cards.find(c=>c.id===id);return k.order.slice(1).find(other=>!karutaContrast(target,cards.find(c=>c.id===other)));},{k,id});const position=()=>p.locator(`[data-karuta-card="${id}"]`).evaluate(el=>({x:el.offsetLeft,y:el.offsetTop,width:el.offsetWidth,height:el.offsetHeight}));const box=await position();
  await p.locator(`[data-karuta-card="${wrong}"]`).click();await p.waitForFunction(()=>document.querySelector('#karuta-feedback')?.textContent.includes('おてつき'));
  assert.equal((await saved(p)).karuta.index,0);assert.equal((await saved(p)).karuta.mistakes,1);
  assert.equal(await p.locator('.just-wrong').count(),1);assert.equal(await p.locator('#karuta-feedback .karuta-result-symbol').innerText(),'×');
