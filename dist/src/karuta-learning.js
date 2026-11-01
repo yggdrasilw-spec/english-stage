@@ -1,3 +1,4 @@
+import {recordForest} from './forest.js';
 // Karuta evidence stays separate from test readiness and XP.
 const DAY=86400000;
 const day=at=>new Date(at+9*3600000).toISOString().slice(0,10);
@@ -9,6 +10,7 @@ export function recordKarutaResult(state,run,id,evidence,at=Date.now()){
  const old=karutaRecord(state,id,run.face),previous=old?.lastTake?{...old.lastTake}:null,first=!(old?.takes>0);
  const r=recordKaruta(state,id,run.face,evidence,at);
  if(evidence.correct){
+  recordForest(state,{skill:'listen',recovered:(run.errors?.[id]||0)>0},at);
   const current={ms:evidence.ms,plays:evidence.plays,slow:evidence.slow,choices:evidence.choices,mistakes:run.errors?.[id]??(run.missed.includes(id)?1:0),comparable:evidence.comparable===true};
   r.lastTake=current;run.results||={};run.results[id]={previous,current,first};
  }

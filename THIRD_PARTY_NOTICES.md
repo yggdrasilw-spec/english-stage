@@ -19,3 +19,7 @@ ZiraなどOS音声で生成した音声ファイルは収録していません�
 150問は英検公式の公開構成を参考にした独自問題です。公式の問題文・画像・音源の転載ではありません。補助イラストは本アプリで描いたSVGです。75問の米国英語MP3はGoogle Cloud Text-to-Speech（en-US-Neural2-D/F）で制作しました。公式試験の録音ではありません。出典・再生成手順はFAST_EXAMS.mdを参照してください。
 
 語彙範囲の追加照合（2026-11-01）：RareJob English Lab「英検5級の重要単語リスト305語！おすすめ単語教材も」 https://www.rarejob.com/englishlab/column/20210918_02/ 。記事の語彙・表現を照合の参考とし、綴りと語義を確認しました。記事本文や訳の一括転載ではなく、追加の訳・説明・例文は独自に作成しています。記事の表記 automn は autumn、cityhall は city hall、clearup は clear up、tabletennis は table tennis とし、thesun は既存の sun に対応付けました。
+
+## コツコツの森の素材
+
+森の画像15点は https://github.com/yggdrasilw-spec/kotsukotsu の独自生成素材をWebPに縮小して利用。元リポジトリREADMEの権利放棄・無制限利用許諾に基づきます。Firebase等の外部機能は取り込んでいません。
