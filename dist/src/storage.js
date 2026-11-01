@@ -31,7 +31,7 @@ export function validateBackup(b,ids){
  }
  if(s.fast){
   const f=s.fast;
-  if(f.order!==undefined&&!['original','importance','alphabetical'].includes(f.order))throw Error('カードの並び順が正しくありません。');
+  if(f.order!==undefined&&!['random','original','importance','alphabetical'].includes(f.order))throw Error('カードの並び順が正しくありません。');
   if(!Array.isArray(f.ids)||f.ids.length>ids.size||f.ids.some(id=>!ids.has(id))||!Number.isInteger(f.index)||f.index<0||f.index>f.ids.length||!['card','read','recall','listen','match'].includes(f.mode)||!['all','new','weak','due'].includes(f.filter)||typeof f.theme!=='string'||typeof f.auto!=='boolean'||!['checked','correct','known'].every(k=>Number.isSafeInteger(f[k])&&f[k]>=0))throw Error('カードの中断記録が壊れています。');
   if(f.forestCredits!==undefined&&(!Array.isArray(f.forestCredits)||f.forestCredits.length>ids.size*2||f.forestCredits.some(k=>typeof k!=='string'||!/^\d+:/.test(k)||!ids.has(k.slice(k.indexOf(':')+1)))))throw Error('水の確認記録が壊れています。');
   f.feedback=null;
