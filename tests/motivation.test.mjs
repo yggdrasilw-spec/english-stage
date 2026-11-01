@@ -18,10 +18,10 @@ test('visit claim is idempotent, seven visits award ten stars, skipped days do n
  const s=initial();for(let i=0;i<7;i++){const at=t+i*2*86400000;assert.equal(claimVisit(s,at),i===6?10:3);assert.equal(claimVisit(s,at),0);}
  assert.equal(s.stars,28);assert.equal(journey(s,t).xp,0);assert.equal(journey(s,t).days.size,0);
 });
-test('quests award once across reloads; repeat answers do not complete five-task quest',()=>{
+test('missions retain progress without granting extra daily stars',()=>{
  const s=initial();for(let i=0;i<5;i++)answer(s,'w');settleQuests(s,t);settleQuests(s,t);
- assert.equal(s.stars,2);for(let i=1;i<5;i++)answer(s,'w'+i);answer(s,'w','listen');answer(s,'w','recall');
- settleQuests(s,t);assert.equal(s.stars,10);settleQuests(structuredClone(s),t);assert.equal(s.stars,10);
+ assert.equal(s.stars,0);assert.equal(journey(s,t).quests[1].value,1);for(let i=1;i<5;i++)answer(s,'w'+i);answer(s,'w','listen');answer(s,'w','recall');
+ settleQuests(s,t);assert.equal(s.stars,0);assert(journey(s,t).quests.every(q=>q.value>=q.goal));settleQuests(structuredClone(s),t);assert.equal(s.stars,0);
 });
 test('streak allows today pending, resets after a gap, keeps historical badge',()=>{
  const s=initial();for(let i=1;i<=3;i++)answer(s,'w','read',t-i*86400000);
@@ -32,6 +32,6 @@ test('streak allows today pending, resets after a gap, keeps historical badge',(
 test('reward tokens survive backup and old backups derive progress without migration',()=>{
  const s=initial();answer(s,'w');claimVisit(s,t);settleQuests(s,t);
  const restored=validateBackup({app:'english-stage',version:1,state:s},new Set(['w']));
- assert.equal(claimVisit(restored,t),0);settleQuests(restored,t);assert.equal(restored.stars,5);
+ assert.equal(claimVisit(restored,t),0);settleQuests(restored,t);assert.equal(restored.stars,3);
  assert.equal(journey(restored,t).xp,10);assert.equal(journey(initial(),t).level,1);
 });

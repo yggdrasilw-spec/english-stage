@@ -28,8 +28,8 @@ test('visits cross month boundaries, survive gaps and backup reload, and never c
  }
  assert.equal(s.stars,31);assert.equal(journey(s).xp,0);assert.deepEqual(s.history,[]);
 });
-test('practice and visit stars share wallet but spending cannot re-award a quest',()=>{
+test('only daily visits grant stars and learning cannot refund purchases',()=>{
  const s=initial(),at=Date.now();claimVisit(s,at);s.history.push({id:'apple',skill:'read',quality:'wrong',at});settleQuests(s,at);
- assert.equal(s.stars,5);claimVisit(s,at+86400000);dress(s,'outfit','glasses');assert.equal(s.stars,2);
- settleQuests(s,at);assert.equal(s.stars,2);assert.equal(journey(s,at).xp,10);
+ assert.equal(s.stars,3);claimVisit(s,at+86400000);dress(s,'outfit','glasses');assert.equal(s.stars,0);
+ settleQuests(s,at);assert.equal(s.stars,0);assert.equal(journey(s,at).xp,10);
 });

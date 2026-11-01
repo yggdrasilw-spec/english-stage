@@ -7,7 +7,7 @@ try{
  for(const width of [320,390,430,1280]){
   const page=await browser.newPage({viewport:{width,height:900}});page.on('pageerror',e=>errors.push(e.message));
   await page.goto(base);await page.locator('#start').waitFor();await page.locator('#companion-stage .km').waitFor();
-  assert(await page.locator('#start').boundingBox().then(b=>b.y+b.height<900));
+  assert(await page.locator('[data-forest-start="read"]').first().boundingBox().then(b=>b.y+b.height<900));
   await page.locator('#companion-touch').click();assert.match(await page.locator('#companion-message').innerText(),/Hello/);
   await page.locator('#home-visit').click();await page.locator('#home-visit').waitFor({state:'detached'});
   await page.locator('a[href="#companion"]').first().click();await page.locator('#claim-visit').waitFor();assert(await page.locator('#claim-visit').isDisabled());assert.equal(await page.locator('.visit-stamp.received').count(),1);

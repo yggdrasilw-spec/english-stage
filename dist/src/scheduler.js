@@ -1,7 +1,7 @@
 import {isKnown} from './learning.js';
 export const DAY=86400000;
 export const intervals=[1,3,7,14,30,60];
-export const dayKey=t=>new Date(t).toLocaleDateString('sv-SE');
+export const dayKey=t=>new Date(t).toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'});
 export function updateProgress(old={},quality,now=Date.now()){
  const p={stage:0,days:[],attempts:0,correct:0,mistakes:0,...old};
  const prior=p.lastAt||0, same=prior&&dayKey(prior)===dayKey(now);

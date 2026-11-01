@@ -11,9 +11,9 @@ export function journey(state,now=Date.now()){
  let streak=0,offset=days.has(today)?0:1;
  while(days.has(daysBefore(now,offset++)))streak++;
  const tasks=new Set(daily.map(taskKey)).size,types=new Set(daily.map(h=>h.skill)).size;
- const quests=[{id:'start',icon:'☀',title:'まずは1問',detail:'答えを確かめるだけでも一歩',value:Math.min(tasks,1),goal:1,stars:2},
-  {id:'five',icon:'✎',title:'5問にチャレンジ',detail:'違うことば・技能で5問練習',value:Math.min(tasks,5),goal:5,stars:3},
-  {id:'skills',icon:'♫',title:'3つの力を使おう',detail:'読む・聞く・日本語から英語',value:types,goal:3,stars:5}];
+ const quests=[{id:'start',icon:'☀',title:'まずは1問',detail:'答えを確かめるだけでも一歩',value:Math.min(tasks,1),goal:1},
+  {id:'five',icon:'✎',title:'5問にチャレンジ',detail:'違うことば・技能で5問練習',value:Math.min(tasks,5),goal:5},
+  {id:'skills',icon:'♫',title:'3つの力を使おう',detail:'読む・聞く・日本語から英語',value:types,goal:3}];
  const learned=Object.values(state.progress).filter(p=>skills.some(k=>p[k]?.correct>0)).length;
  const badges=[{icon:'🌱',title:'はじめの一歩',detail:'はじめて問題に挑戦',unlocked:history.length>0},
   {icon:'🔥',title:'3日つづいた！',detail:'3日連続で学習',unlocked:[...days].some(d=>[1,2].every(n=>days.has(daysBefore(new Date(d+'T12:00:00'),n))))},
@@ -25,7 +25,7 @@ export function journey(state,now=Date.now()){
 }
 export function settleQuests(state,now=Date.now()){
  for(const q of journey(state,now).quests){const key=`quest:${dayKey(now)}:${q.id}`;
-  if(q.value>=q.goal&&!state.rewards.includes(key)){state.rewards.push(key);state.stars+=q.stars;}
+  if(q.value>=q.goal&&!state.rewards.includes(key)){state.rewards.push(key);}
  }
 }
 export function claimVisit(state,now=Date.now()){
