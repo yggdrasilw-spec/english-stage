@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "checkedAt": "2026-10-31",
+  "version": 2,
+  "checkedAt": "2026-11-01",
   "notice": "公式の出題構成を参考にした独自問題。公式過去問の転載ではありません。",
   "sources": [
     {
@@ -363,8 +363,36 @@
           "answer": 1,
           "explanation": "好きなスポーツなのでtennis。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "What sport do you like?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: What sport do you like?\n1. At the library.\n2. I like tennis.\n3. It is nine.",
-          "audio": "assets/audio/exam-g5-m1-26-3944c0bee6b4d530.mp3"
+          "audio": "assets/audio/exam-g5-m1-26-196abaa559d29599.mp3"
         },
         {
           "id": "g5-m1-27",
@@ -378,8 +406,36 @@
           "answer": 0,
           "explanation": "Canへの応答。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"160\" r=\"32\" fill=\"none\" stroke=\"#315d57\" stroke-width=\"5\"/><circle cx=\"260\" cy=\"160\" r=\"32\" fill=\"none\" stroke=\"#315d57\" stroke-width=\"5\"/><path d=\"M100 160L145 110L180 160H100L130 95M180 160L235 100L260 160M225 100H250\" stroke=\"#b77a40\" stroke-width=\"5\" fill=\"none\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Can you ride a bike?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Can you ride a bike?\n1. Yes, I can.\n2. It is red.\n3. On Friday.",
-          "audio": "assets/audio/exam-g5-m1-27-c69e64b7824e7527.mp3"
+          "audio": "assets/audio/exam-g5-m1-27-2a28ef54dad4b381.mp3"
         },
         {
           "id": "g5-m1-28",
@@ -393,8 +449,36 @@
           "answer": 1,
           "explanation": "姉妹の人数を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "How many sisters do you have?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: How many sisters do you have?\n1. She is fine.\n2. I have two.\n3. It is sunny.",
-          "audio": "assets/audio/exam-g5-m1-28-1600b0b361da798c.mp3"
+          "audio": "assets/audio/exam-g5-m1-28-2f4cd438d01093fa.mp3"
         },
         {
           "id": "g5-m1-29",
@@ -408,8 +492,36 @@
           "answer": 0,
           "explanation": "場所を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Where is the library?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Where is the library?\n1. Next to the school.\n2. I read books.\n3. It is my bag.",
-          "audio": "assets/audio/exam-g5-m1-29-447c2f61a47f4a6c.mp3"
+          "audio": "assets/audio/exam-g5-m1-29-9fda4c55033c5be9.mp3"
         },
         {
           "id": "g5-m1-30",
@@ -423,8 +535,36 @@
           "answer": 0,
           "explanation": "Do youへの応答。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Do you like milk?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Do you like milk?\n1. Yes, I do.\n2. Yes, she is.\n3. Yes, he can.",
-          "audio": "assets/audio/exam-g5-m1-30-99fcbbc6a47063a4.mp3"
+          "audio": "assets/audio/exam-g5-m1-30-c76d4acf26ceb256.mp3"
         },
         {
           "id": "g5-m1-31",
@@ -438,8 +578,36 @@
           "answer": 0,
           "explanation": "起床時刻を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "What time do you get up?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: What time do you get up?\n1. At six thirty.\n2. It is blue.\n3. In the park.",
-          "audio": "assets/audio/exam-g5-m1-31-77a688becb359afa.mp3"
+          "audio": "assets/audio/exam-g5-m1-31-6623b396fd77674a.mp3"
         },
         {
           "id": "g5-m1-32",
@@ -453,8 +621,36 @@
           "answer": 0,
           "explanation": "誰かを答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Who is that boy?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Who is that boy?\n1. He is my brother.\n2. It is small.\n3. On the table.",
-          "audio": "assets/audio/exam-g5-m1-32-bcf24b63ba4ace9d.mp3"
+          "audio": "assets/audio/exam-g5-m1-32-090d2c28cb779567.mp3"
         },
         {
           "id": "g5-m1-33",
@@ -468,8 +664,36 @@
           "answer": 2,
           "explanation": "値段を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "How much is this notebook?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: How much is this notebook?\n1. She is kind.\n2. Three cats.\n3. Two dollars.",
-          "audio": "assets/audio/exam-g5-m1-33-62f95e2f0e68f88f.mp3"
+          "audio": "assets/audio/exam-g5-m1-33-ff080b6dae7ea0b8.mp3"
         },
         {
           "id": "g5-m1-34",
@@ -483,8 +707,36 @@
           "answer": 2,
           "explanation": "Are youへの応答。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Are you hungry?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Are you hungry?\n1. Yes, she does.\n2. Yes, I do.\n3. Yes, I am.",
-          "audio": "assets/audio/exam-g5-m1-34-845e8528b177d5c9.mp3"
+          "audio": "assets/audio/exam-g5-m1-34-cbdbcddb70ac26ae.mp3"
         },
         {
           "id": "g5-m1-35",
@@ -498,8 +750,36 @@
           "answer": 0,
           "explanation": "誘いを受ける応答。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Let us go to the park."
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Let us go to the park.\n1. Good idea.\n2. I am ten.\n3. It is mine.",
-          "audio": "assets/audio/exam-g5-m1-35-fb3380e4b84bdb51.mp3"
+          "audio": "assets/audio/exam-g5-m1-35-fcb71e49b769af96.mp3"
         },
         {
           "id": "g5-m1-36",
@@ -513,8 +793,37 @@
           ],
           "answer": 0,
           "explanation": "MondayではなくSaturdayと言っています。",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Do you play tennis on Monday?"
+              },
+              {
+                "speaker": "B",
+                "text": "No, I play on Saturday."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "When does the girl play tennis?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
           "script": "A: Do you play tennis on Monday? B: No, I play on Saturday.\nWhen does the girl play tennis?",
-          "audio": "assets/audio/exam-g5-m1-36-43eea0312db7ad09.mp3"
+          "audio": "assets/audio/exam-g5-m1-36-1b8aac0e99ddecf3.mp3"
         },
         {
           "id": "g5-m1-37",
@@ -528,8 +837,37 @@
           ],
           "answer": 0,
           "explanation": "自分のイヌはwhite。",
-          "script": "A: Is that your dog? B: No. My dog is white. That dog is black.\nWhat color is the boy's dog?",
-          "audio": "assets/audio/exam-g5-m1-37-a8d0017b2e23441f.mp3"
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Is that your dog?"
+              },
+              {
+                "speaker": "B",
+                "text": "No. My dog is white. That dog is black."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "What color is the girl's dog?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
+          "script": "A: Is that your dog? B: No. My dog is white. That dog is black.\nWhat color is the girl's dog?",
+          "audio": "assets/audio/exam-g5-m1-37-5c5a1b69e87a40b4.mp3"
         },
         {
           "id": "g5-m1-38",
@@ -543,8 +881,37 @@
           ],
           "answer": 0,
           "explanation": "昼食にsandwichを希望しています。",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "What do you want for lunch?"
+              },
+              {
+                "speaker": "B",
+                "text": "A sandwich, please."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "What does the girl want?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
           "script": "A: What do you want for lunch? B: A sandwich, please.\nWhat does the girl want?",
-          "audio": "assets/audio/exam-g5-m1-38-41b851b505e93223.mp3"
+          "audio": "assets/audio/exam-g5-m1-38-e561083cb8a7e1e3.mp3"
         },
         {
           "id": "g5-m1-39",
@@ -552,14 +919,43 @@
           "prompt": "会話を聞いて質問に答えよう。",
           "options": [
             "By bus.",
-            "He walks.",
+            "She walks.",
             "By bike.",
             "By train."
           ],
           "answer": 1,
           "explanation": "walkは歩いて行くこと。",
-          "script": "A: How do you go to school? B: I walk with my sister.\nHow does the boy go to school?",
-          "audio": "assets/audio/exam-g5-m1-39-6e334081b118ff6c.mp3"
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "How do you go to school?"
+              },
+              {
+                "speaker": "B",
+                "text": "I walk with my sister."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "How does the girl go to school?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
+          "script": "A: How do you go to school? B: I walk with my sister.\nHow does the girl go to school?",
+          "audio": "assets/audio/exam-g5-m1-39-a0aef2f43306d913.mp3"
         },
         {
           "id": "g5-m1-40",
@@ -573,8 +969,37 @@
           ],
           "answer": 3,
           "explanation": "kitchenを聞き取ります。",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Where is your mother?"
+              },
+              {
+                "speaker": "B",
+                "text": "She is in the kitchen."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "Where is the girl's mother?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
           "script": "A: Where is your mother? B: She is in the kitchen.\nWhere is the girl's mother?",
-          "audio": "assets/audio/exam-g5-m1-40-e6f368732f53820c.mp3"
+          "audio": "assets/audio/exam-g5-m1-40-34a62d68ddd6a48d.mp3"
         },
         {
           "id": "g5-m1-41",
@@ -588,6 +1013,10 @@
           "answer": 2,
           "explanation": "本を開いて読んでいる絵。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M130 95L180 105L230 95V140L180 150L130 140Z\" fill=\"#e4b451\" stroke=\"#785c29\" stroke-width=\"3\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The boy is swimming.\n2. The boy is cooking.\n3. The boy is reading a book.",
           "audio": "assets/audio/exam-g5-m1-41-cfb032378af9c5b1.mp3"
         },
@@ -603,6 +1032,10 @@
           "answer": 1,
           "explanation": "ラケットでテニスをしている絵。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><ellipse cx=\"255\" cy=\"90\" rx=\"20\" ry=\"28\" fill=\"none\" stroke=\"#b66b4a\" stroke-width=\"5\"/><path d=\"M225 110L247 110\" stroke=\"#b66b4a\" stroke-width=\"6\"/><circle cx=\"292\" cy=\"78\" r=\"9\" fill=\"#dcc74d\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The girl is eating.\n2. The girl is playing tennis.\n3. The girl is sleeping.",
           "audio": "assets/audio/exam-g5-m1-42-22e0db16a59f3e55.mp3"
         },
@@ -618,6 +1051,10 @@
           "answer": 0,
           "explanation": "足元にサッカーボール。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"243\" cy=\"181\" r=\"20\" fill=\"white\" stroke=\"#315d57\" stroke-width=\"3\"/><path d=\"M243 168L255 177L250 191H236L231 177Z\" fill=\"#315d57\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The boy is playing soccer.\n2. The boy is reading.\n3. The boy is singing.",
           "audio": "assets/audio/exam-g5-m1-43-5920e5404200425f.mp3"
         },
@@ -633,6 +1070,10 @@
           "answer": 2,
           "explanation": "ベッドで眠っている絵。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><rect x=\"70\" y=\"100\" width=\"230\" height=\"60\" rx=\"10\" fill=\"#e5bf67\"/><circle cx=\"108\" cy=\"92\" r=\"22\" fill=\"#ecc5a0\"/><path d=\"M100 90H113\" stroke=\"#315d57\" stroke-width=\"3\"/><rect x=\"135\" y=\"73\" width=\"150\" height=\"64\" rx=\"16\" fill=\"#91b4bd\"/><path d=\"M75 160V190M295 160V190\" stroke=\"#315d57\" stroke-width=\"8\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The girl is playing tennis.\n2. The girl is running.\n3. The girl is sleeping.",
           "audio": "assets/audio/exam-g5-m1-44-647f50143a847d5e.mp3"
         },
@@ -648,6 +1089,10 @@
           "answer": 2,
           "explanation": "雲から雨が降っています。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><path d=\"M95 85Q75 40 120 45Q140 10 180 43Q230 22 245 65Q295 65 270 100H105Z\" fill=\"#93aeb4\"/><path d=\"M110 125L96 158\" stroke=\"#468da4\" stroke-width=\"6\"/><path d=\"M155 125L141 158\" stroke=\"#468da4\" stroke-width=\"6\"/><path d=\"M200 125L186 158\" stroke=\"#468da4\" stroke-width=\"6\"/><path d=\"M245 125L231 158\" stroke=\"#468da4\" stroke-width=\"6\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. It is snowing.\n2. It is sunny.\n3. It is raining.",
           "audio": "assets/audio/exam-g5-m1-45-38d0eaad14ad07d1.mp3"
         },
@@ -663,6 +1108,10 @@
           "answer": 2,
           "explanation": "太陽が出ています。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"105\" r=\"42\" fill=\"#eabc43\"/><path d=\"M180 35V15\" transform=\"rotate(0 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(45 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(90 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(135 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(180 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(225 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(270 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(315 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. It is snowing.\n2. It is raining.\n3. It is sunny.",
           "audio": "assets/audio/exam-g5-m1-46-d4a09ee7894813e4.mp3"
         },
@@ -678,6 +1127,10 @@
           "answer": 1,
           "explanation": "りんごは3個。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"100\" cy=\"112\" r=\"27\" fill=\"#cf6652\"/><path d=\"M100 85V70\" stroke=\"#547248\" stroke-width=\"5\"/><circle cx=\"175\" cy=\"112\" r=\"27\" fill=\"#cf6652\"/><path d=\"M175 85V70\" stroke=\"#547248\" stroke-width=\"5\"/><circle cx=\"250\" cy=\"112\" r=\"27\" fill=\"#cf6652\"/><path d=\"M250 85V70\" stroke=\"#547248\" stroke-width=\"5\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. There are two apples.\n2. There are three apples.\n3. There is one apple.",
           "audio": "assets/audio/exam-g5-m1-47-ce400cbc3aa0be29.mp3"
         },
@@ -693,6 +1146,10 @@
           "answer": 0,
           "explanation": "ボールは机の下。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><path d=\"M75 90H285M100 90V195M260 90V195\" stroke=\"#8b6842\" stroke-width=\"12\"/><circle cx=\"180\" cy=\"166\" r=\"22\" fill=\"#e5b449\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The ball is under the table.\n2. The ball is on the table.\n3. The ball is in the box.",
           "audio": "assets/audio/exam-g5-m1-48-30fa55a932a84385.mp3"
         },
@@ -708,6 +1165,10 @@
           "answer": 1,
           "explanation": "ボールは机の上。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><path d=\"M75 115H285M100 115V200M260 115V200\" stroke=\"#8b6842\" stroke-width=\"12\"/><circle cx=\"180\" cy=\"86\" r=\"22\" fill=\"#e5b449\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The ball is under the table.\n2. The ball is on the table.\n3. The ball is in the bag.",
           "audio": "assets/audio/exam-g5-m1-49-9f369c17c2d83264.mp3"
         },
@@ -723,6 +1184,10 @@
           "answer": 0,
           "explanation": "ネコは箱の中。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><rect x=\"90\" y=\"90\" width=\"180\" height=\"105\" fill=\"#cda578\"/><path d=\"M140 90V45L165 60Q180 52 195 60L220 45V90Z\" fill=\"#e9dbbd\" stroke=\"#776c51\" stroke-width=\"3\"/><circle cx=\"166\" cy=\"76\" r=\"3\"/><circle cx=\"198\" cy=\"76\" r=\"3\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The cat is in the box.\n2. The cat is on the bed.\n3. The cat is under the chair.",
           "audio": "assets/audio/exam-g5-m1-50-3d04e4cad93db255.mp3"
         }
@@ -1074,8 +1539,36 @@
           "answer": 1,
           "explanation": "好きな動物を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "What animal do you like?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: What animal do you like?\n1. At eight.\n2. I like horses.\n3. It is Monday.",
-          "audio": "assets/audio/exam-g5-m2-26-822457d04bb67749.mp3"
+          "audio": "assets/audio/exam-g5-m2-26-80defd4f12044ec1.mp3"
         },
         {
           "id": "g5-m2-27",
@@ -1089,8 +1582,36 @@
           "answer": 2,
           "explanation": "Is thisへの応答。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Is this your pencil?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Is this your pencil?\n1. Yes, I do.\n2. Yes, she can.\n3. Yes, it is.",
-          "audio": "assets/audio/exam-g5-m2-27-844a2e9553e38d44.mp3"
+          "audio": "assets/audio/exam-g5-m2-27-7f61f245d734009f.mp3"
         },
         {
           "id": "g5-m2-28",
@@ -1104,8 +1625,36 @@
           "answer": 2,
           "explanation": "誕生月を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "When is your birthday?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: When is your birthday?\n1. In my bag.\n2. It is green.\n3. In September.",
-          "audio": "assets/audio/exam-g5-m2-28-b1c262983c4728ae.mp3"
+          "audio": "assets/audio/exam-g5-m2-28-fa9d74a1a2142405.mp3"
         },
         {
           "id": "g5-m2-29",
@@ -1119,8 +1668,36 @@
           "answer": 2,
           "explanation": "場所を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Where do you play soccer?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Where do you play soccer?\n1. I like apples.\n2. It is seven.\n3. In the park.",
-          "audio": "assets/audio/exam-g5-m2-29-0f8dc5772fff4cb3.mp3"
+          "audio": "assets/audio/exam-g5-m2-29-9428bb3d7ffc51fc.mp3"
         },
         {
           "id": "g5-m2-30",
@@ -1134,8 +1711,36 @@
           "answer": 1,
           "explanation": "Does heへの応答。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Does your father cook?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Does your father cook?\n1. Yes, it is.\n2. Yes, he does.\n3. Yes, I am.",
-          "audio": "assets/audio/exam-g5-m2-30-092d22ce7337c8ba.mp3"
+          "audio": "assets/audio/exam-g5-m2-30-cf1b149eea154099.mp3"
         },
         {
           "id": "g5-m2-31",
@@ -1149,8 +1754,36 @@
           "answer": 0,
           "explanation": "今していることを答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "What are you doing?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: What are you doing?\n1. I am reading.\n2. I have a cat.\n3. I am twelve.",
-          "audio": "assets/audio/exam-g5-m2-31-1150095e9778a045.mp3"
+          "audio": "assets/audio/exam-g5-m2-31-3d59c2b5b94662bf.mp3"
         },
         {
           "id": "g5-m2-32",
@@ -1164,8 +1797,36 @@
           "answer": 2,
           "explanation": "年齢を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "How old is your sister?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: How old is your sister?\n1. She is at home.\n2. She likes music.\n3. She is eight.",
-          "audio": "assets/audio/exam-g5-m2-32-94789195bac09f21.mp3"
+          "audio": "assets/audio/exam-g5-m2-32-a35ebaa7cfd325dc.mp3"
         },
         {
           "id": "g5-m2-33",
@@ -1179,8 +1840,36 @@
           "answer": 2,
           "explanation": "飲み物の申し出を断る表現。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Would you like some juice?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Would you like some juice?\n1. No, I cannot.\n2. No, she is not.\n3. No, thank you.",
-          "audio": "assets/audio/exam-g5-m2-33-4727b152b1bf9aca.mp3"
+          "audio": "assets/audio/exam-g5-m2-33-7bc7e36ae26734fe.mp3"
         },
         {
           "id": "g5-m2-34",
@@ -1194,8 +1883,36 @@
           "answer": 2,
           "explanation": "色を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"160\" r=\"32\" fill=\"none\" stroke=\"#315d57\" stroke-width=\"5\"/><circle cx=\"260\" cy=\"160\" r=\"32\" fill=\"none\" stroke=\"#315d57\" stroke-width=\"5\"/><path d=\"M100 160L145 110L180 160H100L130 95M180 160L235 100L260 160M225 100H250\" stroke=\"#b77a40\" stroke-width=\"5\" fill=\"none\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "What color is your bike?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: What color is your bike?\n1. It is Sunday.\n2. It is in May.\n3. It is white.",
-          "audio": "assets/audio/exam-g5-m2-34-c0277a8bb11fdab2.mp3"
+          "audio": "assets/audio/exam-g5-m2-34-a9f4092b073c834f.mp3"
         },
         {
           "id": "g5-m2-35",
@@ -1209,8 +1926,36 @@
           "answer": 1,
           "explanation": "許可を求める問いへの応答。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "May I open the window?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: May I open the window?\n1. I have three.\n2. Yes, please.\n3. She is my aunt.",
-          "audio": "assets/audio/exam-g5-m2-35-6b08f93dfa95bbb6.mp3"
+          "audio": "assets/audio/exam-g5-m2-35-41931d4085e15262.mp3"
         },
         {
           "id": "g5-m2-36",
@@ -1224,8 +1969,37 @@
           ],
           "answer": 0,
           "explanation": "ネコはtwo。",
-          "script": "A: Do you have three cats? B: No, I have two cats and one dog.\nHow many cats does the boy have?",
-          "audio": "assets/audio/exam-g5-m2-36-7b7e5b707f4ea715.mp3"
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Do you have three cats?"
+              },
+              {
+                "speaker": "B",
+                "text": "No, I have two cats and one dog."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "How many cats does the girl have?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
+          "script": "A: Do you have three cats? B: No, I have two cats and one dog.\nHow many cats does the girl have?",
+          "audio": "assets/audio/exam-g5-m2-36-257400a6affb92f8.mp3"
         },
         {
           "id": "g5-m2-37",
@@ -1239,8 +2013,37 @@
           ],
           "answer": 0,
           "explanation": "夕食時刻はseven。",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "What time do you eat dinner?"
+              },
+              {
+                "speaker": "B",
+                "text": "At seven."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "What time does the girl eat dinner?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
           "script": "A: What time do you eat dinner? B: At seven.\nWhat time does the girl eat dinner?",
-          "audio": "assets/audio/exam-g5-m2-37-eb7f1b6b9be4ce71.mp3"
+          "audio": "assets/audio/exam-g5-m2-37-09191c6c8c7bd9b8.mp3"
         },
         {
           "id": "g5-m2-38",
@@ -1254,8 +2057,37 @@
           ],
           "answer": 2,
           "explanation": "favoriteとして挙げたbasketball。",
-          "script": "A: Do you like soccer? B: Yes, but my favorite sport is basketball.\nWhat is the boy's favorite sport?",
-          "audio": "assets/audio/exam-g5-m2-38-03e7c097bdfe90fc.mp3"
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Do you like soccer?"
+              },
+              {
+                "speaker": "B",
+                "text": "Yes, but my favorite sport is basketball."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "What is the girl's favorite sport?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
+          "script": "A: Do you like soccer? B: Yes, but my favorite sport is basketball.\nWhat is the girl's favorite sport?",
+          "audio": "assets/audio/exam-g5-m2-38-2709601428d4638e.mp3"
         },
         {
           "id": "g5-m2-39",
@@ -1269,8 +2101,37 @@
           ],
           "answer": 1,
           "explanation": "かばんの位置はon the chair。",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Where is my bag?"
+              },
+              {
+                "speaker": "B",
+                "text": "It is on the chair, next to your coat."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "Where is the bag?",
+              "subjectSpeaker": null,
+              "evidenceTurn": null
+            }
+          },
           "script": "A: Where is my bag? B: It is on the chair, next to your coat.\nWhere is the bag?",
-          "audio": "assets/audio/exam-g5-m2-39-cb37489da6462c3f.mp3"
+          "audio": "assets/audio/exam-g5-m2-39-3c1ae97e8e6c8bb6.mp3"
         },
         {
           "id": "g5-m2-40",
@@ -1284,8 +2145,37 @@
           ],
           "answer": 2,
           "explanation": "できるのはskate。",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Can your sister swim?"
+              },
+              {
+                "speaker": "B",
+                "text": "No, but she can skate."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "What can the girl's sister do?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
           "script": "A: Can your sister swim? B: No, but she can skate.\nWhat can the girl's sister do?",
-          "audio": "assets/audio/exam-g5-m2-40-7607ca776f723145.mp3"
+          "audio": "assets/audio/exam-g5-m2-40-2890dba0b509c63b.mp3"
         },
         {
           "id": "g5-m2-41",
@@ -1299,6 +2189,10 @@
           "answer": 1,
           "explanation": "音符があり歌っている絵。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"240\" y=\"80\" font-size=\"55\" fill=\"#bc7b42\">♪</text></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The boy is reading.\n2. The boy is singing.\n3. The boy is sleeping.",
           "audio": "assets/audio/exam-g5-m2-41-80c835bd6abed581.mp3"
         },
@@ -1314,6 +2208,10 @@
           "answer": 0,
           "explanation": "自転車に乗っている絵。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"160\" r=\"32\" fill=\"none\" stroke=\"#315d57\" stroke-width=\"5\"/><circle cx=\"260\" cy=\"160\" r=\"32\" fill=\"none\" stroke=\"#315d57\" stroke-width=\"5\"/><path d=\"M100 160L145 110L180 160H100L130 95M180 160L235 100L260 160M225 100H250\" stroke=\"#b77a40\" stroke-width=\"5\" fill=\"none\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The girl is riding a bike.\n2. The girl is swimming.\n3. The girl is cooking.",
           "audio": "assets/audio/exam-g5-m2-42-f850618589bbb616.mp3"
         },
@@ -1329,6 +2227,10 @@
           "answer": 0,
           "explanation": "本を読んでいます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M130 95L180 105L230 95V140L180 150L130 140Z\" fill=\"#e4b451\" stroke=\"#785c29\" stroke-width=\"3\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The girl is reading.\n2. The girl is running.\n3. The girl is dancing.",
           "audio": "assets/audio/exam-g5-m2-43-0fd82f014f110248.mp3"
         },
@@ -1344,6 +2246,10 @@
           "answer": 0,
           "explanation": "ベッドで眠っています。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><rect x=\"70\" y=\"100\" width=\"230\" height=\"60\" rx=\"10\" fill=\"#e5bf67\"/><circle cx=\"108\" cy=\"92\" r=\"22\" fill=\"#ecc5a0\"/><path d=\"M100 90H113\" stroke=\"#315d57\" stroke-width=\"3\"/><rect x=\"135\" y=\"73\" width=\"150\" height=\"64\" rx=\"16\" fill=\"#91b4bd\"/><path d=\"M75 160V190M295 160V190\" stroke=\"#315d57\" stroke-width=\"8\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The boy is sleeping.\n2. The boy is eating.\n3. The boy is singing.",
           "audio": "assets/audio/exam-g5-m2-44-74952f201c808afb.mp3"
         },
@@ -1359,6 +2265,10 @@
           "answer": 1,
           "explanation": "りんごは1個。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"100\" cy=\"112\" r=\"27\" fill=\"#cf6652\"/><path d=\"M100 85V70\" stroke=\"#547248\" stroke-width=\"5\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. There are two apples.\n2. There is one apple.\n3. There are three apples.",
           "audio": "assets/audio/exam-g5-m2-45-ca595061874382c7.mp3"
         },
@@ -1374,6 +2284,10 @@
           "answer": 0,
           "explanation": "太陽の出た天気。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"105\" r=\"42\" fill=\"#eabc43\"/><path d=\"M180 35V15\" transform=\"rotate(0 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(45 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(90 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(135 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(180 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(225 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(270 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/><path d=\"M180 35V15\" transform=\"rotate(315 180 105)\" stroke=\"#eabc43\" stroke-width=\"7\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. It is sunny today.\n2. It is raining today.\n3. It is snowing today.",
           "audio": "assets/audio/exam-g5-m2-46-4994d997f9bc85df.mp3"
         },
@@ -1389,6 +2303,10 @@
           "answer": 1,
           "explanation": "机の上にボール。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><path d=\"M75 115H285M100 115V200M260 115V200\" stroke=\"#8b6842\" stroke-width=\"12\"/><circle cx=\"180\" cy=\"86\" r=\"22\" fill=\"#e5b449\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. There is a cat on the table.\n2. There is a ball on the table.\n3. There is a ball under the table.",
           "audio": "assets/audio/exam-g5-m2-47-6efe2530632e0e28.mp3"
         },
@@ -1404,6 +2322,10 @@
           "answer": 1,
           "explanation": "箱の中にネコ。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><rect x=\"90\" y=\"90\" width=\"180\" height=\"105\" fill=\"#cda578\"/><path d=\"M140 90V45L165 60Q180 52 195 60L220 45V90Z\" fill=\"#e9dbbd\" stroke=\"#776c51\" stroke-width=\"3\"/><circle cx=\"166\" cy=\"76\" r=\"3\"/><circle cx=\"198\" cy=\"76\" r=\"3\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. There is a dog in the box.\n2. There is a cat in the box.\n3. There is a cat under the box.",
           "audio": "assets/audio/exam-g5-m2-48-387fd61793c96183.mp3"
         },
@@ -1419,6 +2341,10 @@
           "answer": 1,
           "explanation": "雨の天気。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><path d=\"M95 85Q75 40 120 45Q140 10 180 43Q230 22 245 65Q295 65 270 100H105Z\" fill=\"#93aeb4\"/><path d=\"M110 125L96 158\" stroke=\"#468da4\" stroke-width=\"6\"/><path d=\"M155 125L141 158\" stroke=\"#468da4\" stroke-width=\"6\"/><path d=\"M200 125L186 158\" stroke=\"#468da4\" stroke-width=\"6\"/><path d=\"M245 125L231 158\" stroke=\"#468da4\" stroke-width=\"6\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. It is sunny today.\n2. It is rainy today.\n3. It is snowy today.",
           "audio": "assets/audio/exam-g5-m2-49-5b2929caeaca8c50.mp3"
         },
@@ -1434,6 +2360,10 @@
           "answer": 0,
           "explanation": "ラケットでテニス。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><ellipse cx=\"255\" cy=\"90\" rx=\"20\" ry=\"28\" fill=\"none\" stroke=\"#b66b4a\" stroke-width=\"5\"/><path d=\"M225 110L247 110\" stroke=\"#b66b4a\" stroke-width=\"6\"/><circle cx=\"292\" cy=\"78\" r=\"9\" fill=\"#dcc74d\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The boy is playing tennis.\n2. The boy is reading a book.\n3. The boy is playing soccer.",
           "audio": "assets/audio/exam-g5-m2-50-284da065b8822ccc.mp3"
         }
@@ -1785,8 +2715,36 @@
           "answer": 2,
           "explanation": "好きな教科を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "What subject do you like?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: What subject do you like?\n1. On the chair.\n2. I have two.\n3. I like math.",
-          "audio": "assets/audio/exam-g5-m3-26-821c4c8150fd6c1a.mp3"
+          "audio": "assets/audio/exam-g5-m3-26-0c20994c0bb98e11.mp3"
         },
         {
           "id": "g5-m3-27",
@@ -1800,8 +2758,36 @@
           "answer": 0,
           "explanation": "Can your sisterへの応答。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"240\" y=\"80\" font-size=\"55\" fill=\"#bc7b42\">♪</text></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Can your sister sing?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Can your sister sing?\n1. Yes, she can.\n2. Yes, he does.\n3. Yes, I am.",
-          "audio": "assets/audio/exam-g5-m3-27-b82d569b7ffdb882.mp3"
+          "audio": "assets/audio/exam-g5-m3-27-64e6131f8359e257.mp3"
         },
         {
           "id": "g5-m3-28",
@@ -1815,8 +2801,36 @@
           "answer": 2,
           "explanation": "場所を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Where is your dog?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Where is your dog?\n1. It is Friday.\n2. I am fine.\n3. Under the table.",
-          "audio": "assets/audio/exam-g5-m3-28-9bde016499025155.mp3"
+          "audio": "assets/audio/exam-g5-m3-28-1bccc7c5fee21eed.mp3"
         },
         {
           "id": "g5-m3-29",
@@ -1830,8 +2844,36 @@
           "answer": 0,
           "explanation": "曜日を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "What day is it today?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: What day is it today?\n1. It is Tuesday.\n2. It is my pen.\n3. It is hot.",
-          "audio": "assets/audio/exam-g5-m3-29-198ce23997ac4ab0.mp3"
+          "audio": "assets/audio/exam-g5-m3-29-9269be2c43fa0664.mp3"
         },
         {
           "id": "g5-m3-30",
@@ -1845,8 +2887,36 @@
           "answer": 0,
           "explanation": "本の数を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "How many books do you have?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: How many books do you have?\n1. I have four.\n2. I am a student.\n3. It is red.",
-          "audio": "assets/audio/exam-g5-m3-30-3cde40d4dcd0d948.mp3"
+          "audio": "assets/audio/exam-g5-m3-30-864f03bffac30bca.mp3"
         },
         {
           "id": "g5-m3-31",
@@ -1860,8 +2930,36 @@
           "answer": 2,
           "explanation": "Do youへの応答。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Do you walk to school?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Do you walk to school?\n1. Yes, she is.\n2. Yes, he can.\n3. Yes, I do.",
-          "audio": "assets/audio/exam-g5-m3-31-80f703b409d17e1e.mp3"
+          "audio": "assets/audio/exam-g5-m3-31-c56a2e5dbb476f85.mp3"
         },
         {
           "id": "g5-m3-32",
@@ -1875,8 +2973,36 @@
           "answer": 2,
           "explanation": "持ち主を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Whose cap is this?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Whose cap is this?\n1. It is windy.\n2. At nine.\n3. It is my cap.",
-          "audio": "assets/audio/exam-g5-m3-32-699e6aafb820cf45.mp3"
+          "audio": "assets/audio/exam-g5-m3-32-c51a2c5d5f004a19.mp3"
         },
         {
           "id": "g5-m3-33",
@@ -1890,8 +3016,36 @@
           "answer": 0,
           "explanation": "天気を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "How is the weather there?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: How is the weather there?\n1. It is cloudy.\n2. I am ten.\n3. It is mine.",
-          "audio": "assets/audio/exam-g5-m3-33-f2760ad325b0cd47.mp3"
+          "audio": "assets/audio/exam-g5-m3-33-0411c5d212962d56.mp3"
         },
         {
           "id": "g5-m3-34",
@@ -1905,8 +3059,36 @@
           "answer": 0,
           "explanation": "昼食にほしい物を答えます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "What do you want for lunch?"
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: What do you want for lunch?\n1. A sandwich, please.\n2. At the station.\n3. It is Saturday.",
-          "audio": "assets/audio/exam-g5-m3-34-2c99bed4229dbaaf.mp3"
+          "audio": "assets/audio/exam-g5-m3-34-8eb43ce57d22e621.mp3"
         },
         {
           "id": "g5-m3-35",
@@ -1920,8 +3102,36 @@
           "answer": 2,
           "explanation": "お礼への応答。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M65 195H295\" stroke=\"#b8c9b5\" stroke-width=\"4\"/></svg>",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Hello."
+              },
+              {
+                "speaker": "B",
+                "text": "Hello."
+              },
+              {
+                "speaker": "A",
+                "text": "Thank you for the present."
+              }
+            ],
+            "responseSpeaker": "B"
+          },
           "script": "A: Hello. B: Hello. A: Thank you for the present.\n1. I am hungry.\n2. Good morning.\n3. You are welcome.",
-          "audio": "assets/audio/exam-g5-m3-35-da5fe64521335849.mp3"
+          "audio": "assets/audio/exam-g5-m3-35-c6fffabb1e777581.mp3"
         },
         {
           "id": "g5-m3-36",
@@ -1935,8 +3145,37 @@
           ],
           "answer": 0,
           "explanation": "Juneを否定してJulyと答えています。",
-          "script": "A: Is your birthday in June? B: No, it is in July.\nWhen is the boy's birthday?",
-          "audio": "assets/audio/exam-g5-m3-36-abe554e0831db4ae.mp3"
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Is your birthday in June?"
+              },
+              {
+                "speaker": "B",
+                "text": "No, it is in July."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "When is the girl's birthday?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
+          "script": "A: Is your birthday in June? B: No, it is in July.\nWhen is the girl's birthday?",
+          "audio": "assets/audio/exam-g5-m3-36-1c84735875ce7454.mp3"
         },
         {
           "id": "g5-m3-37",
@@ -1950,8 +3189,37 @@
           ],
           "answer": 2,
           "explanation": "朝食で飲むmilk。",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "What do you drink at breakfast?"
+              },
+              {
+                "speaker": "B",
+                "text": "I drink milk."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "What does the girl drink?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
           "script": "A: What do you drink at breakfast? B: I drink milk.\nWhat does the girl drink?",
-          "audio": "assets/audio/exam-g5-m3-37-d8064789054920b9.mp3"
+          "audio": "assets/audio/exam-g5-m3-37-6825417107f3a499.mp3"
         },
         {
           "id": "g5-m3-38",
@@ -1965,8 +3233,37 @@
           ],
           "answer": 3,
           "explanation": "父の職業はteacher。",
-          "script": "A: Is your father a doctor? B: No. He is a teacher.\nWhat does the boy's father do?",
-          "audio": "assets/audio/exam-g5-m3-38-c94a87c504a6f825.mp3"
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Is your father a doctor?"
+              },
+              {
+                "speaker": "B",
+                "text": "No. He is a teacher."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "What does the girl's father do?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
+          "script": "A: Is your father a doctor? B: No. He is a teacher.\nWhat does the girl's father do?",
+          "audio": "assets/audio/exam-g5-m3-38-faae7222d00b78d3.mp3"
         },
         {
           "id": "g5-m3-39",
@@ -1980,8 +3277,37 @@
           ],
           "answer": 2,
           "explanation": "雨なので家で読書を提案しています。",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "Let us go to the park."
+              },
+              {
+                "speaker": "B",
+                "text": "Sorry. It is raining. Let us read books at home."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "What does the girl want to do?",
+              "subjectSpeaker": "B",
+              "evidenceTurn": 1
+            }
+          },
           "script": "A: Let us go to the park. B: Sorry. It is raining. Let us read books at home.\nWhat does the girl want to do?",
-          "audio": "assets/audio/exam-g5-m3-39-c3fdc3b97000cc03.mp3"
+          "audio": "assets/audio/exam-g5-m3-39-3e90f67db260843d.mp3"
         },
         {
           "id": "g5-m3-40",
@@ -1995,8 +3321,37 @@
           ],
           "answer": 1,
           "explanation": "尋ねられた青いペンはthree。",
+          "listening": {
+            "kind": "dialogue",
+            "speakers": {
+              "A": {
+                "voice": "en-US-Neural2-D",
+                "gender": "male"
+              },
+              "B": {
+                "voice": "en-US-Neural2-F",
+                "gender": "female"
+              }
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "How much is this blue pen?"
+              },
+              {
+                "speaker": "B",
+                "text": "Three dollars. The red one is two dollars."
+              }
+            ],
+            "narratorVoice": "en-US-Neural2-H",
+            "question": {
+              "text": "How much is the blue pen?",
+              "subjectSpeaker": null,
+              "evidenceTurn": null
+            }
+          },
           "script": "A: How much is this blue pen? B: Three dollars. The red one is two dollars.\nHow much is the blue pen?",
-          "audio": "assets/audio/exam-g5-m3-40-6de8f610c5572d6a.mp3"
+          "audio": "assets/audio/exam-g5-m3-40-22b062283e1d74a4.mp3"
         },
         {
           "id": "g5-m3-41",
@@ -2010,6 +3365,10 @@
           "answer": 0,
           "explanation": "足元のサッカーボール。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"243\" cy=\"181\" r=\"20\" fill=\"white\" stroke=\"#315d57\" stroke-width=\"3\"/><path d=\"M243 168L255 177L250 191H236L231 177Z\" fill=\"#315d57\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The girl is playing soccer.\n2. The girl is playing tennis.\n3. The girl is cooking.",
           "audio": "assets/audio/exam-g5-m3-41-2164ad98e1cfbfa1.mp3"
         },
@@ -2025,6 +3384,10 @@
           "answer": 1,
           "explanation": "開いた本を持っています。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M130 95L180 105L230 95V140L180 150L130 140Z\" fill=\"#e4b451\" stroke=\"#785c29\" stroke-width=\"3\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The boy has a guitar.\n2. The boy has an open book.\n3. The boy has a ball.",
           "audio": "assets/audio/exam-g5-m3-42-37e0e8ddb2c3b68f.mp3"
         },
@@ -2040,6 +3403,10 @@
           "answer": 0,
           "explanation": "りんごは2個。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"100\" cy=\"112\" r=\"27\" fill=\"#cf6652\"/><path d=\"M100 85V70\" stroke=\"#547248\" stroke-width=\"5\"/><circle cx=\"175\" cy=\"112\" r=\"27\" fill=\"#cf6652\"/><path d=\"M175 85V70\" stroke=\"#547248\" stroke-width=\"5\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. There are two apples.\n2. There is one apple.\n3. There are three apples.",
           "audio": "assets/audio/exam-g5-m3-43-ca595061874382c7.mp3"
         },
@@ -2055,6 +3422,10 @@
           "answer": 2,
           "explanation": "机の下のボール。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><path d=\"M75 90H285M100 90V195M260 90V195\" stroke=\"#8b6842\" stroke-width=\"12\"/><circle cx=\"180\" cy=\"166\" r=\"22\" fill=\"#e5b449\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. There is a ball on the table.\n2. There is a book under the table.\n3. There is a ball under the table.",
           "audio": "assets/audio/exam-g5-m3-44-56c04b852f3ad6fa.mp3"
         },
@@ -2070,6 +3441,10 @@
           "answer": 0,
           "explanation": "箱の中のネコ。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><rect x=\"90\" y=\"90\" width=\"180\" height=\"105\" fill=\"#cda578\"/><path d=\"M140 90V45L165 60Q180 52 195 60L220 45V90Z\" fill=\"#e9dbbd\" stroke=\"#776c51\" stroke-width=\"3\"/><circle cx=\"166\" cy=\"76\" r=\"3\"/><circle cx=\"198\" cy=\"76\" r=\"3\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. A cat is in a box.\n2. A cat is on a chair.\n3. A dog is in a box.",
           "audio": "assets/audio/exam-g5-m3-45-c183b4803632af2a.mp3"
         },
@@ -2085,6 +3460,10 @@
           "answer": 1,
           "explanation": "歌っている絵。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"240\" y=\"80\" font-size=\"55\" fill=\"#bc7b42\">♪</text></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The girl is reading.\n2. The girl is singing.\n3. The girl is sleeping.",
           "audio": "assets/audio/exam-g5-m3-46-79b77223b838994c.mp3"
         },
@@ -2100,6 +3479,10 @@
           "answer": 0,
           "explanation": "自転車に乗っています。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"160\" r=\"32\" fill=\"none\" stroke=\"#315d57\" stroke-width=\"5\"/><circle cx=\"260\" cy=\"160\" r=\"32\" fill=\"none\" stroke=\"#315d57\" stroke-width=\"5\"/><path d=\"M100 160L145 110L180 160H100L130 95M180 160L235 100L260 160M225 100H250\" stroke=\"#b77a40\" stroke-width=\"5\" fill=\"none\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The boy is riding a bike.\n2. The boy is playing baseball.\n3. The boy is swimming.",
           "audio": "assets/audio/exam-g5-m3-47-085155559b0af2fa.mp3"
         },
@@ -2115,6 +3498,10 @@
           "answer": 2,
           "explanation": "雨が降っています。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><path d=\"M95 85Q75 40 120 45Q140 10 180 43Q230 22 245 65Q295 65 270 100H105Z\" fill=\"#93aeb4\"/><path d=\"M110 125L96 158\" stroke=\"#468da4\" stroke-width=\"6\"/><path d=\"M155 125L141 158\" stroke=\"#468da4\" stroke-width=\"6\"/><path d=\"M200 125L186 158\" stroke=\"#468da4\" stroke-width=\"6\"/><path d=\"M245 125L231 158\" stroke=\"#468da4\" stroke-width=\"6\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. It is snowing now.\n2. It is sunny now.\n3. It is raining now.",
           "audio": "assets/audio/exam-g5-m3-48-6316b1060277f495.mp3"
         },
@@ -2130,6 +3517,10 @@
           "answer": 1,
           "explanation": "ベッドの中にいます。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><rect x=\"70\" y=\"100\" width=\"230\" height=\"60\" rx=\"10\" fill=\"#e5bf67\"/><circle cx=\"108\" cy=\"92\" r=\"22\" fill=\"#ecc5a0\"/><path d=\"M100 90H113\" stroke=\"#315d57\" stroke-width=\"3\"/><rect x=\"135\" y=\"73\" width=\"150\" height=\"64\" rx=\"16\" fill=\"#91b4bd\"/><path d=\"M75 160V190M295 160V190\" stroke=\"#315d57\" stroke-width=\"8\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The girl is in the kitchen.\n2. The girl is in bed.\n3. The girl is in the park.",
           "audio": "assets/audio/exam-g5-m3-49-91153efa2d113b85.mp3"
         },
@@ -2145,6 +3536,10 @@
           "answer": 1,
           "explanation": "テニスラケットを持っています。",
           "scene": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"問題のイラスト\"><rect width=\"360\" height=\"220\" rx=\"20\" fill=\"#edf2e8\"/><circle cx=\"180\" cy=\"45\" r=\"20\" fill=\"#ecc5a0\"/><path d=\"M180 65V130M180 85L135 110M180 85L225 110M180 130L150 185M180 130L210 185\" stroke=\"#315d57\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/><ellipse cx=\"255\" cy=\"90\" rx=\"20\" ry=\"28\" fill=\"none\" stroke=\"#b66b4a\" stroke-width=\"5\"/><path d=\"M225 110L247 110\" stroke=\"#b66b4a\" stroke-width=\"6\"/><circle cx=\"292\" cy=\"78\" r=\"9\" fill=\"#dcc74d\"/></svg>",
+          "listening": {
+            "kind": "statements",
+            "voice": "en-US-Neural2-F"
+          },
           "script": "1. The girl has a cup.\n2. The girl has a tennis racket.\n3. The girl has a book.",
           "audio": "assets/audio/exam-g5-m3-50-a0103410e69b81f7.mp3"
         }

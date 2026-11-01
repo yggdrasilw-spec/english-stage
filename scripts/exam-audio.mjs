@@ -2,17 +2,11 @@
 import fs from 'node:fs/promises';
 import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
-import crypto from 'node:crypto';
+import {buildExamAudio} from './exam-audio-plan.mjs';
 const exec=promisify(execFile),root=new URL('../',import.meta.url);
 const data=JSON.parse(await fs.readFile(new URL('dist/data/mock-exams.json',root),'utf8'));
-const escape=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const jobs=data.exams.flatMap(ex=>ex.questions.filter(q=>q.script).map(q=>{
- const parts=q.script.split(/([AB]:)/);let voice='en-US-Neural2-F';
- const ssml='<speak>'+parts.map(p=>{if(p==='A:'){voice='en-US-Neural2-D';return '';}if(p==='B:'){voice='en-US-Neural2-F';return '';}if(!p.trim())return '';return '<voice name="'+voice+'">'+escape(p.trim()).replace(/\n/g,'<break time="900ms"/>')+'</voice><break time="600ms"/>';}).join('')+'<break time="3000ms"/></speak>';
- const body={input:{ssml},voice:{languageCode:'en-US',name:'en-US-Neural2-F'},audioConfig:{audioEncoding:'MP3',speakingRate:.88}};
- const hash=crypto.createHash('sha256').update(JSON.stringify(body)).digest('hex').slice(0,16);
- q.audio=`assets/audio/exam-${q.id}-${hash}.mp3`;
- return {q,body};
+ const plan=buildExamAudio(q);q.audio=plan.path;return {q,body:plan.body};
 }));
 const count=jobs.reduce((n,x)=>n+x.q.script.length,0);if(count>18000)throw Error('Character budget exceeded');
 console.log(JSON.stringify({questions:jobs.length,characters:count}));
@@ -28,4 +22,4 @@ async function worker(){while(index<jobs.length){const {q,body}=jobs[index++],pa
 }}
 const results=await Promise.allSettled([worker(),worker(),worker()]);const failed=results.find(x=>x.status==='rejected');if(failed)throw failed.reason;
 await fs.writeFile(new URL('dist/data/mock-exams.json',root),JSON.stringify(data,null,2)+'\n');
-console.log('Saved all 75 question audio references.');
+console.log('Saved all '+jobs.length+' question audio references.');

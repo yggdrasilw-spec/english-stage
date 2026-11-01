@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
+import {buildExamAudio} from './exam-audio-plan.mjs';
 const cards=JSON.parse(fs.readFileSync(new URL('../dist/data/grade5.json',import.meta.url)));
 assert.equal(cards.length,901);assert.equal(cards.filter(c=>c.kind==='word').length,746);assert.equal(cards.filter(c=>c.kind==='phrase').length,155);
 assert.equal(new Set(cards.map(c=>c.id)).size,cards.length);
@@ -17,3 +18,11 @@ for(const c of cards)for(const part of ['word','example'])for(const speed of ['n
  assert.match(f.path,/^assets\/audio\/[a-z0-9-]+\.mp3$/);const b=fs.readFileSync(new URL('../dist/'+f.path,import.meta.url));assert.ok(b.length>100);assert.ok(b.toString('ascii',0,3)==='ID3'||(b[0]===255&&(b[1]&224)===224),'MP3 header');
 }
 console.log('PASS: 746 words, 155 phrases, unique IDs, examples, 3604 matching Neural2 MP3 files, trusted image references');
+const exams=JSON.parse(fs.readFileSync(new URL('../dist/data/mock-exams.json',import.meta.url)));
+let listeningCount=0;
+for(const exam of exams.exams)for(const q of exam.questions)if(q.script){
+ const plan=buildExamAudio(q);assert.equal(q.audio,plan.path,q.id+' audio request is stale');
+ const b=fs.readFileSync(new URL('../dist/'+q.audio,import.meta.url));assert.ok(b.length>1000);
+ assert.ok(b.toString('ascii',0,3)==='ID3'||(b[0]===255&&(b[1]&224)===224),'Exam MP3 header');listeningCount++;
+}
+assert.equal(listeningCount,75);console.log('PASS: 75 listening plans, speaker/question consistency, matching request hashes and MP3 files');
