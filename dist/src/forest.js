@@ -1,4 +1,4 @@
-import {dayKey} from './scheduler.js';
+const dayKey=t=>new Date(t).toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'});
 export const ROUND_SIZE=5,AREA_ROUNDS=20;
 export const decorations=[{id:'flower_small_01',name:'小さな花',rounds:1},{id:'mushroom_small_01',name:'きのこ',rounds:3},{id:'lantern_01',name:'ランタン',rounds:6}];
 export function forestState(s){return s.forest||={version:1,total:0,flowers:0,day:'',today:0,skills:[],decor:{}};}
