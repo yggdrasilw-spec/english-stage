@@ -7,7 +7,7 @@ assert.equal(new Set(cards.map(c=>c.id)).size,cards.length);
 assert.equal(new Set(cards.map(c=>c.en.toLowerCase())).size,cards.length);
 for(const c of cards){for(const k of ['id','en','ja','example','exampleJa','theme','explanation','source'])assert.ok(c[k],`${c.id}: ${k}`);
  assert.equal(c.audioMode,'google-neural2');assert.equal(c.audioText,({'Mr.':'Mister','Ms.':'Miz','Mrs.':'Missus','orange (color)':'orange'})[c.en]||c.en);assert.equal(c.exampleAudioText,c.example);
- if(c.image){assert.ok(c.image.url.startsWith('https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/')||/^assets\/vocabulary\/g5-w-ph-[a-z-]+\.svg$/.test(c.image.url));if(c.image.url.startsWith('assets/'))assert.ok(fs.existsSync(new URL('../dist/'+c.image.url,import.meta.url)));}
+ if(c.image){assert.ok(c.image.url.startsWith('https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/')||/^assets\/vocabulary\/g5-w-(?:ph-[a-z-]+|tooth|teeth)\.svg$/.test(c.image.url));if(c.image.url.startsWith('assets/'))assert.ok(fs.existsSync(new URL('../dist/'+c.image.url,import.meta.url)));}
 }
 const overrides=JSON.parse(fs.readFileSync(new URL('../audio-voice-overrides.json',import.meta.url)));
 const audio=JSON.parse(fs.readFileSync(new URL('../dist/data/audio-manifest.json',import.meta.url)));

@@ -1,5 +1,6 @@
 // Explanations describe the senses taught by this deck, not every dictionary sense.
 const groups=[
+ [['tooth','teeth'],'tooth は歯１本。２本以上は teeth。s をつけるのではなく、形が変わるよ。',{tooth:'a tooth / one tooth で歯１本。',teeth:'two teeth / my teeth。歯を磨くときは I brush my teeth. と言うよ。'}],
  [['phone','telephone'],'どちらも「電話」。phone は telephone を短くした言い方だよ。音を聞き比べよう。',{}],
  [['police officer','police'],'police officer は警察官１人。police は警察という組織や、警察の人たちをまとめた言い方だよ。',{
   'police officer':'a police officer で「警察官１人」。',police:'警察という組織や人たち。１人を a police とは言わないよ。'}],

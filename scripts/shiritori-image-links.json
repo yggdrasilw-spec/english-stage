@@ -3254,16 +3254,16 @@
       "reason": "日本語の語義・表記・登録済み類語を照合"
     },
     "g5-w-tooth": {
-      "file": "wave8-word-4358.png",
       "english": "tooth",
-      "japanese": "歯",
+      "japanese": "歯（1本）",
       "matchedTerm": "歯",
-      "sourceWord": "歯",
-      "sourceMeaning": "食べ物をかみくだくために口の中にある、かたい部分。",
-      "credit": "AI生成イラスト",
-      "sourceSheet": "sheets/wave8-sheet-22.png",
-      "sourceReview": "目視確認済み: 歯（は）: 食べ物をかみくだくために口の中にある、かたい部分。",
-      "reason": "日本語の語義・表記・登録済み類語を照合"
+      "sourceWord": "歯（1本）",
+      "sourceMeaning": "歯を1本だけ描いた単数形の学習図。",
+      "credit": "本アプリ独自の学習図（SVG）",
+      "sourceSheet": null,
+      "sourceReview": "単数は1本、複数は3本。形と本数をSVGソースと表示で確認。",
+      "reason": "日本語の語義・表記・登録済み類語を照合",
+      "localFile": "assets/vocabulary/g5-w-tooth.svg"
     },
     "g5-w-neck": {
       "file": "wave8-word-1732.png",
@@ -8442,18 +8442,18 @@
       "sha256": "332a45c912023ec0067bf5f8006f12f4b8aff5c30e9fca3349cd8e1d895e65e4"
     },
     "g5-w-teeth": {
-      "file": "eiken-20261101-teeth-word-87728.png",
       "english": "teeth",
-      "japanese": "歯（複数）",
-      "sourceWord": "歯並び",
-      "sourceMeaning": "口の中に複数の歯が並んでいるようす。",
-      "credit": "AI生成イラスト",
-      "sourceSheet": "sheets/eiken-20261101-sheet03.png",
-      "sourceReview": "目視確認済み：コマ順・被写体・単複・語義と一致。 対象：teeth／歯（複数）",
+      "japanese": "歯（2本以上）",
+      "sourceWord": "歯（2本以上）",
+      "sourceMeaning": "歯を3本並べた複数形の学習図。",
+      "credit": "本アプリ独自の学習図（SVG）",
+      "sourceSheet": null,
+      "sourceReview": "単数は1本、複数は3本。形と本数をSVGソースと表示で確認。",
       "matchedTerm": "歯並び",
       "reason": "日本語の語義・類語を照合した対象画像。",
       "sourceCatalog": "hiragana-ninshiki/data/integrations/english-stage-20261101/asset-catalog.json",
-      "sha256": "5aba0bf5aa76c52bba9cd1fc23112b6b5aa5735440db62c4988e4f9ad36aa6ba"
+      "sha256": "5aba0bf5aa76c52bba9cd1fc23112b6b5aa5735440db62c4988e4f9ad36aa6ba",
+      "localFile": "assets/vocabulary/g5-w-teeth.svg"
     },
     "g5-w-news": {
       "file": "expansion1024g-word-12187.png",

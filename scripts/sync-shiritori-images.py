@@ -17,8 +17,12 @@ def sync(check=False):
         if c['id'] not in links: continue
         link = links[c['id']]
         assert c['en']==link['english'] and c['ja']==link['japanese'], c['id']+' changed meaning'
-        assert '/' not in link['file'] and '..' not in link['file']
-        c['image'] = {'url':BASE+link['file'], 'credit':link['credit'],
+        if 'localFile' in link:
+            assert link['localFile'] in ['assets/vocabulary/g5-w-tooth.svg','assets/vocabulary/g5-w-teeth.svg']
+            assert (ROOT/'dist'/link['localFile']).is_file()
+        else:
+            assert '/' not in link['file'] and '..' not in link['file']
+        c['image'] = {'url':link.get('localFile') or BASE+link['file'], 'credit':link['credit'],
             'sourceWord':link['sourceWord'], 'sourceMeaning':link['sourceMeaning'],
             'sourceSheet':link.get('sourceSheet'), 'sourceReview':link['sourceReview']}
         adoptions.append({'id':c['id'],**c['image'],'status':'日本語の語義・登録済み類語と参照元の確認記録を照合'})

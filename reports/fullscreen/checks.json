@@ -1,0 +1,103 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "height": 568,
+      "touchDrag": true,
+      "pinch": true,
+      "water": true,
+      "menu": true,
+      "rotation": true,
+      "reload": true,
+      "scrollRestored": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "touchDrag": true,
+      "pinch": true,
+      "water": true,
+      "menu": true,
+      "rotation": true,
+      "reload": true,
+      "scrollRestored": true
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "touchDrag": true,
+      "pinch": true,
+      "water": true,
+      "menu": true,
+      "rotation": true,
+      "reload": true,
+      "scrollRestored": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "touchDrag": true,
+      "pinch": true,
+      "water": true,
+      "menu": true,
+      "rotation": true,
+      "reload": true,
+      "scrollRestored": true
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "touchDrag": true,
+      "pinch": true,
+      "water": true,
+      "menu": true,
+      "rotation": true,
+      "reload": true,
+      "scrollRestored": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "touchDrag": true,
+      "pinch": true,
+      "water": true,
+      "menu": true,
+      "rotation": true,
+      "reload": true,
+      "scrollRestored": true
+    }
+  ],
+  "playback": [
+    {
+      "en": "tooth",
+      "speed": "normal",
+      "text": "The baby has one tooth."
+    },
+    {
+      "en": "tooth",
+      "speed": "slow",
+      "text": "The baby has one tooth."
+    },
+    {
+      "en": "sandwich",
+      "speed": "normal",
+      "text": "I eat a sandwich for lunch."
+    },
+    {
+      "en": "sandwich",
+      "speed": "slow",
+      "text": "I eat a sandwich for lunch."
+    },
+    {
+      "en": "city",
+      "speed": "normal",
+      "text": "Does your sister live in this city?"
+    },
+    {
+      "en": "city",
+      "speed": "slow",
+      "text": "Does your sister live in this city?"
+    }
+  ],
+  "errors": []
+}

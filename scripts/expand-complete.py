@@ -606,6 +606,10 @@ for row in phrases.splitlines():
 (root/'scripts/grade5-expansion-02.json').write_text(json.dumps(deck[len(base):],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('words',sum(c['kind']=='word' for c in deck),'phrases',sum(c['kind']=='phrase' for c in deck))
 
+# Apply the reviewed examples before supplement and image consistency checks.
+import runpy
+runpy.run_path(str(root/"scripts/sync-reviewed-examples.py"))["sync"]()
+
 # Preserve the independently authored RareJob vocabulary supplement.
 import runpy
 runpy.run_path(str(root/"scripts/sync-rarejob-vocabulary.py"))["sync"]()

@@ -31,9 +31,14 @@ test('source ranks precede other entries and work with filters without mutating 
  const filtered=cards.filter(c=>c.theme==='食べ物');assert.equal(sortVocabulary(filtered).length,filtered.length);
  const alpha=sortVocabulary(cards,'alphabetical');assert.equal(new Set(alpha.map(c=>c.id)).size,cards.length);
 });
-test('all 901 published cards survive unchanged and new illustrated cards enter planning and backup restore',()=>{
+test('all 901 published IDs and unreviewed fields survive corrections; new cards enter planning and backup restore',()=>{
  const previous=read('tests/grade5-v3.json');assert.equal(previous.length,901);assert.equal(extra.length,76);assert.equal(cards.length,977);
- for(const c of previous)assert.deepEqual(by.get(c.id),c);
+ const corrected=new Set(fs.readFileSync(new URL('../scripts/reviewed-examples.txt',import.meta.url),'utf8').trim().split(/\r?\n/).map(row=>row.split('|')[0]).concat('teeth'));
+ const revised=new Set(['example','exampleJa','exampleAudioText','explanation','revision','grammarPoints']);
+ for(const c of previous){const current=by.get(c.id);if(!corrected.has(c.en)){assert.deepEqual(current,c);continue;}
+  const allowed=new Set([...revised,...(['tooth','teeth'].includes(c.en)?['ja','image']:[])]),keep=o=>Object.fromEntries(Object.entries(o).filter(([k])=>!allowed.has(k)));
+  assert.deepEqual(keep(current),keep(c));
+ }
  const state=initial();
  for(const c of extra){
   assert(c.image?.url,c.id);assert(c.example&&c.exampleJa&&c.explanation);assert(plan([c],state).some(t=>t.id===c.id));

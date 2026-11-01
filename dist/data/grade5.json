@@ -6405,12 +6405,12 @@
     "theme": "食べ物と買い物",
     "en": "sandwich",
     "ja": "サンドイッチ",
-    "example": "Look at the sandwich.",
-    "exampleJa": "そのサンドイッチを見て。",
+    "example": "I eat a sandwich for lunch.",
+    "exampleJa": "昼食にサンドイッチを食べます。",
     "reading": "",
-    "explanation": "sandwich：サンドイッチ。例文の場面で使ってみよう。",
+    "explanation": "sandwich：サンドイッチ。学ぶ表現：食事・現在形。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6424,7 +6424,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "sandwich",
-    "exampleAudioText": "Look at the sandwich."
+    "exampleAudioText": "I eat a sandwich for lunch.",
+    "grammarPoints": [
+      "食事",
+      "現在形"
+    ]
   },
   {
     "id": "g5-w-hamburger",
@@ -6432,12 +6436,12 @@
     "theme": "食べ物と買い物",
     "en": "hamburger",
     "ja": "ハンバーガー",
-    "example": "Look at the hamburger.",
-    "exampleJa": "そのハンバーガーを見て。",
+    "example": "Do you want a hamburger?",
+    "exampleJa": "ハンバーガーがほしいですか。",
     "reading": "",
-    "explanation": "hamburger：ハンバーガー。例文の場面で使ってみよう。",
+    "explanation": "hamburger：ハンバーガー。学ぶ表現：希望・疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6451,7 +6455,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "hamburger",
-    "exampleAudioText": "Look at the hamburger."
+    "exampleAudioText": "Do you want a hamburger?",
+    "grammarPoints": [
+      "希望",
+      "疑問文"
+    ]
   },
   {
     "id": "g5-w-potato",
@@ -6459,12 +6467,12 @@
     "theme": "食べ物と買い物",
     "en": "potato",
     "ja": "じゃがいも",
-    "example": "Look at the potato.",
-    "exampleJa": "そのじゃがいもを見て。",
+    "example": "This potato is big.",
+    "exampleJa": "このジャガイモは大きいです。",
     "reading": "",
-    "explanation": "potato：じゃがいも。例文の場面で使ってみよう。",
+    "explanation": "potato：じゃがいも。学ぶ表現：be動詞・形容詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6478,7 +6486,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "potato",
-    "exampleAudioText": "Look at the potato."
+    "exampleAudioText": "This potato is big.",
+    "grammarPoints": [
+      "be動詞",
+      "形容詞"
+    ]
   },
   {
     "id": "g5-w-tomato",
@@ -6486,12 +6498,12 @@
     "theme": "食べ物と買い物",
     "en": "tomato",
     "ja": "トマト",
-    "example": "Look at the tomato.",
-    "exampleJa": "そのトマトを見て。",
+    "example": "She likes tomatoes.",
+    "exampleJa": "彼女はトマトが好きです。",
     "reading": "",
-    "explanation": "tomato：トマト。例文の場面で使ってみよう。",
+    "explanation": "tomato：トマト。学ぶ表現：三人称単数・複数。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6505,7 +6517,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "tomato",
-    "exampleAudioText": "Look at the tomato."
+    "exampleAudioText": "She likes tomatoes.",
+    "grammarPoints": [
+      "三人称単数",
+      "複数"
+    ]
   },
   {
     "id": "g5-w-carrot",
@@ -6513,12 +6529,12 @@
     "theme": "食べ物と買い物",
     "en": "carrot",
     "ja": "にんじん",
-    "example": "Look at the carrot.",
-    "exampleJa": "そのにんじんを見て。",
+    "example": "The rabbit is eating a carrot.",
+    "exampleJa": "ウサギがニンジンを食べています。",
     "reading": "",
-    "explanation": "carrot：にんじん。例文の場面で使ってみよう。",
+    "explanation": "carrot：にんじん。学ぶ表現：現在進行形。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6532,7 +6548,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "carrot",
-    "exampleAudioText": "Look at the carrot."
+    "exampleAudioText": "The rabbit is eating a carrot.",
+    "grammarPoints": [
+      "現在進行形"
+    ]
   },
   {
     "id": "g5-w-onion",
@@ -6540,12 +6559,12 @@
     "theme": "食べ物と買い物",
     "en": "onion",
     "ja": "玉ねぎ",
-    "example": "Look at the onion.",
-    "exampleJa": "その玉ねぎを見て。",
+    "example": "There is an onion in the bag.",
+    "exampleJa": "袋にタマネギが1個あります。",
     "reading": "",
-    "explanation": "onion：玉ねぎ。例文の場面で使ってみよう。",
+    "explanation": "onion：玉ねぎ。学ぶ表現：存在・冠詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6559,7 +6578,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "onion",
-    "exampleAudioText": "Look at the onion."
+    "exampleAudioText": "There is an onion in the bag.",
+    "grammarPoints": [
+      "存在",
+      "冠詞"
+    ]
   },
   {
     "id": "g5-w-lemon",
@@ -6567,12 +6590,12 @@
     "theme": "食べ物と買い物",
     "en": "lemon",
     "ja": "レモン",
-    "example": "Look at the lemon.",
-    "exampleJa": "そのレモンを見て。",
+    "example": "This lemon is yellow.",
+    "exampleJa": "このレモンは黄色です。",
     "reading": "",
-    "explanation": "lemon：レモン。例文の場面で使ってみよう。",
+    "explanation": "lemon：レモン。学ぶ表現：色・be動詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6586,7 +6609,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "lemon",
-    "exampleAudioText": "Look at the lemon."
+    "exampleAudioText": "This lemon is yellow.",
+    "grammarPoints": [
+      "色",
+      "be動詞"
+    ]
   },
   {
     "id": "g5-w-peach",
@@ -6594,12 +6621,12 @@
     "theme": "食べ物と買い物",
     "en": "peach",
     "ja": "桃",
-    "example": "Look at the peach.",
-    "exampleJa": "その桃を見て。",
+    "example": "How many peaches do you have?",
+    "exampleJa": "桃をいくつ持っていますか。",
     "reading": "",
-    "explanation": "peach：桃。例文の場面で使ってみよう。",
+    "explanation": "peach：桃。学ぶ表現：数・疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6613,7 +6640,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "peach",
-    "exampleAudioText": "Look at the peach."
+    "exampleAudioText": "How many peaches do you have?",
+    "grammarPoints": [
+      "数",
+      "疑問文"
+    ]
   },
   {
     "id": "g5-w-melon",
@@ -6621,12 +6652,12 @@
     "theme": "食べ物と買い物",
     "en": "melon",
     "ja": "メロン",
-    "example": "Look at the melon.",
-    "exampleJa": "そのメロンを見て。",
+    "example": "Let's eat this melon.",
+    "exampleJa": "このメロンを食べましょう。",
     "reading": "",
-    "explanation": "melon：メロン。例文の場面で使ってみよう。",
+    "explanation": "melon：メロン。学ぶ表現：勧誘。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6640,7 +6671,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "melon",
-    "exampleAudioText": "Look at the melon."
+    "exampleAudioText": "Let's eat this melon.",
+    "grammarPoints": [
+      "勧誘"
+    ]
   },
   {
     "id": "g5-w-cookie",
@@ -6648,12 +6682,12 @@
     "theme": "食べ物と買い物",
     "en": "cookie",
     "ja": "クッキー",
-    "example": "Look at the cookie.",
-    "exampleJa": "そのクッキーを見て。",
+    "example": "Can I have a cookie, please?",
+    "exampleJa": "クッキーを1枚もらえますか。",
     "reading": "",
-    "explanation": "cookie：クッキー。例文の場面で使ってみよう。",
+    "explanation": "cookie：クッキー。学ぶ表現：依頼。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6667,7 +6701,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "cookie",
-    "exampleAudioText": "Look at the cookie."
+    "exampleAudioText": "Can I have a cookie, please?",
+    "grammarPoints": [
+      "依頼"
+    ]
   },
   {
     "id": "g5-w-cup",
@@ -6675,12 +6712,12 @@
     "theme": "食べ物と買い物",
     "en": "cup",
     "ja": "カップ",
-    "example": "Look at the cup.",
-    "exampleJa": "そのカップを見て。",
+    "example": "This is my cup.",
+    "exampleJa": "これは私のカップです。",
     "reading": "",
-    "explanation": "cup：カップ。例文の場面で使ってみよう。",
+    "explanation": "cup：カップ。学ぶ表現：所有・指示語。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6694,7 +6731,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "cup",
-    "exampleAudioText": "Look at the cup."
+    "exampleAudioText": "This is my cup.",
+    "grammarPoints": [
+      "所有",
+      "指示語"
+    ]
   },
   {
     "id": "g5-w-glass",
@@ -6702,12 +6743,12 @@
     "theme": "食べ物と買い物",
     "en": "glass",
     "ja": "コップ",
-    "example": "Look at the glass.",
-    "exampleJa": "そのコップを見て。",
+    "example": "There is some water in the glass.",
+    "exampleJa": "そのグラスには水が入っています。",
     "reading": "",
-    "explanation": "glass：コップ。例文の場面で使ってみよう。",
+    "explanation": "glass：コップ。学ぶ表現：存在・不可算名詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6721,7 +6762,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "glass",
-    "exampleAudioText": "Look at the glass."
+    "exampleAudioText": "There is some water in the glass.",
+    "grammarPoints": [
+      "存在",
+      "不可算名詞"
+    ]
   },
   {
     "id": "g5-w-plate",
@@ -6729,12 +6774,12 @@
     "theme": "食べ物と買い物",
     "en": "plate",
     "ja": "皿",
-    "example": "Look at the plate.",
-    "exampleJa": "その皿を見て。",
+    "example": "Please put the bread on this plate.",
+    "exampleJa": "この皿にパンを置いてください。",
     "reading": "",
-    "explanation": "plate：皿。例文の場面で使ってみよう。",
+    "explanation": "plate：皿。学ぶ表現：依頼・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6748,7 +6793,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "plate",
-    "exampleAudioText": "Look at the plate."
+    "exampleAudioText": "Please put the bread on this plate.",
+    "grammarPoints": [
+      "依頼",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-spoon",
@@ -6756,12 +6805,12 @@
     "theme": "食べ物と買い物",
     "en": "spoon",
     "ja": "スプーン",
-    "example": "Look at the spoon.",
-    "exampleJa": "そのスプーンを見て。",
+    "example": "I eat soup with a spoon.",
+    "exampleJa": "スプーンでスープを飲みます。",
     "reading": "",
-    "explanation": "spoon：スプーン。例文の場面で使ってみよう。",
+    "explanation": "spoon：スプーン。学ぶ表現：道具のwith。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6775,7 +6824,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "spoon",
-    "exampleAudioText": "Look at the spoon."
+    "exampleAudioText": "I eat soup with a spoon.",
+    "grammarPoints": [
+      "道具のwith"
+    ]
   },
   {
     "id": "g5-w-fork",
@@ -6783,12 +6835,12 @@
     "theme": "食べ物と買い物",
     "en": "fork",
     "ja": "フォーク",
-    "example": "Look at the fork.",
-    "exampleJa": "そのフォークを見て。",
+    "example": "Do you need a fork?",
+    "exampleJa": "フォークが必要ですか。",
     "reading": "",
-    "explanation": "fork：フォーク。例文の場面で使ってみよう。",
+    "explanation": "fork：フォーク。学ぶ表現：一般動詞の疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6802,7 +6854,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "fork",
-    "exampleAudioText": "Look at the fork."
+    "exampleAudioText": "Do you need a fork?",
+    "grammarPoints": [
+      "一般動詞の疑問文"
+    ]
   },
   {
     "id": "g5-w-knife",
@@ -6810,12 +6865,12 @@
     "theme": "食べ物と買い物",
     "en": "knife",
     "ja": "ナイフ",
-    "example": "Look at the knife.",
-    "exampleJa": "そのナイフを見て。",
+    "example": "This knife is small.",
+    "exampleJa": "このナイフは小さいです。",
     "reading": "",
-    "explanation": "knife：ナイフ。例文の場面で使ってみよう。",
+    "explanation": "knife：ナイフ。学ぶ表現：be動詞・形容詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6829,7 +6884,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "knife",
-    "exampleAudioText": "Look at the knife."
+    "exampleAudioText": "This knife is small.",
+    "grammarPoints": [
+      "be動詞",
+      "形容詞"
+    ]
   },
   {
     "id": "g5-w-bottle",
@@ -6837,12 +6896,12 @@
     "theme": "食べ物と買い物",
     "en": "bottle",
     "ja": "瓶",
-    "example": "Look at the bottle.",
-    "exampleJa": "その瓶を見て。",
+    "example": "Is this your bottle?",
+    "exampleJa": "これはあなたのボトルですか。",
     "reading": "",
-    "explanation": "bottle：瓶。例文の場面で使ってみよう。",
+    "explanation": "bottle：瓶。学ぶ表現：be動詞の疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6856,7 +6915,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "bottle",
-    "exampleAudioText": "Look at the bottle."
+    "exampleAudioText": "Is this your bottle?",
+    "grammarPoints": [
+      "be動詞の疑問文"
+    ]
   },
   {
     "id": "g5-w-basket",
@@ -6864,12 +6926,12 @@
     "theme": "食べ物と買い物",
     "en": "basket",
     "ja": "かご",
-    "example": "Look at the basket.",
-    "exampleJa": "そのかごを見て。",
+    "example": "The apples are in the basket.",
+    "exampleJa": "リンゴはかごの中にあります。",
     "reading": "",
-    "explanation": "basket：かご。例文の場面で使ってみよう。",
+    "explanation": "basket：かご。学ぶ表現：場所・複数。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6883,7 +6945,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "basket",
-    "exampleAudioText": "Look at the basket."
+    "exampleAudioText": "The apples are in the basket.",
+    "grammarPoints": [
+      "場所",
+      "複数"
+    ]
   },
   {
     "id": "g5-w-coin",
@@ -6891,12 +6957,12 @@
     "theme": "食べ物と買い物",
     "en": "coin",
     "ja": "硬貨",
-    "example": "Look at the coin.",
-    "exampleJa": "その硬貨を見て。",
+    "example": "I have a coin in my pocket.",
+    "exampleJa": "ポケットに硬貨が1枚あります。",
     "reading": "",
-    "explanation": "coin：硬貨。例文の場面で使ってみよう。",
+    "explanation": "coin：硬貨。学ぶ表現：所有・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6910,7 +6976,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "coin",
-    "exampleAudioText": "Look at the coin."
+    "exampleAudioText": "I have a coin in my pocket.",
+    "grammarPoints": [
+      "所有",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-menu",
@@ -6918,12 +6988,12 @@
     "theme": "食べ物と買い物",
     "en": "menu",
     "ja": "メニュー",
-    "example": "Look at the menu.",
-    "exampleJa": "そのメニューを見て。",
+    "example": "Can I see the menu, please?",
+    "exampleJa": "メニューを見せてもらえますか。",
     "reading": "",
-    "explanation": "menu：メニュー。例文の場面で使ってみよう。",
+    "explanation": "menu：メニュー。学ぶ表現：依頼。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6937,7 +7007,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "menu",
-    "exampleAudioText": "Look at the menu."
+    "exampleAudioText": "Can I see the menu, please?",
+    "grammarPoints": [
+      "依頼"
+    ]
   },
   {
     "id": "g5-w-present",
@@ -6945,12 +7018,12 @@
     "theme": "食べ物と買い物",
     "en": "present",
     "ja": "贈り物",
-    "example": "Look at the present.",
-    "exampleJa": "その贈り物を見て。",
+    "example": "This present is for you.",
+    "exampleJa": "このプレゼントはあなたにあげるものです。",
     "reading": "",
-    "explanation": "present：贈り物。例文の場面で使ってみよう。",
+    "explanation": "present：贈り物。学ぶ表現：相手を表すfor。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6964,7 +7037,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "present",
-    "exampleAudioText": "Look at the present."
+    "exampleAudioText": "This present is for you.",
+    "grammarPoints": [
+      "相手を表すfor"
+    ]
   },
   {
     "id": "g5-w-dollar",
@@ -6972,12 +7048,12 @@
     "theme": "食べ物と買い物",
     "en": "dollar",
     "ja": "ドル（通貨単位）",
-    "example": "Look at the dollar.",
-    "exampleJa": "そのドルを見て。",
+    "example": "This pen is one dollar.",
+    "exampleJa": "このペンは1ドルです。",
     "reading": "",
-    "explanation": "dollar：ドル（通貨単位）。例文の場面で使ってみよう。",
+    "explanation": "dollar：ドル（通貨単位）。学ぶ表現：値段。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -6991,7 +7067,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "dollar",
-    "exampleAudioText": "Look at the dollar."
+    "exampleAudioText": "This pen is one dollar.",
+    "grammarPoints": [
+      "値段"
+    ]
   },
   {
     "id": "g5-w-bear",
@@ -6999,12 +7078,12 @@
     "theme": "動物と自然",
     "en": "bear",
     "ja": "熊",
-    "example": "Look at the bear.",
-    "exampleJa": "その熊を見て。",
+    "example": "Can a bear swim?",
+    "exampleJa": "クマは泳げますか。",
     "reading": "",
-    "explanation": "bear：熊。例文の場面で使ってみよう。",
+    "explanation": "bear：熊。学ぶ表現：能力・疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7018,7 +7097,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "bear",
-    "exampleAudioText": "Look at the bear."
+    "exampleAudioText": "Can a bear swim?",
+    "grammarPoints": [
+      "能力",
+      "疑問文"
+    ]
   },
   {
     "id": "g5-w-tiger",
@@ -7026,12 +7109,12 @@
     "theme": "動物と自然",
     "en": "tiger",
     "ja": "虎",
-    "example": "Look at the tiger.",
-    "exampleJa": "その虎を見て。",
+    "example": "The tiger is sleeping.",
+    "exampleJa": "そのトラは眠っています。",
     "reading": "",
-    "explanation": "tiger：虎。例文の場面で使ってみよう。",
+    "explanation": "tiger：虎。学ぶ表現：現在進行形。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7045,7 +7128,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "tiger",
-    "exampleAudioText": "Look at the tiger."
+    "exampleAudioText": "The tiger is sleeping.",
+    "grammarPoints": [
+      "現在進行形"
+    ]
   },
   {
     "id": "g5-w-fox",
@@ -7053,12 +7139,12 @@
     "theme": "動物と自然",
     "en": "fox",
     "ja": "きつね",
-    "example": "Look at the fox.",
-    "exampleJa": "そのきつねを見て。",
+    "example": "That fox has a long tail.",
+    "exampleJa": "あのキツネは長いしっぽを持っています。",
     "reading": "",
-    "explanation": "fox：きつね。例文の場面で使ってみよう。",
+    "explanation": "fox：きつね。学ぶ表現：has・形容詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7072,7 +7158,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "fox",
-    "exampleAudioText": "Look at the fox."
+    "exampleAudioText": "That fox has a long tail.",
+    "grammarPoints": [
+      "has",
+      "形容詞"
+    ]
   },
   {
     "id": "g5-w-sheep",
@@ -7080,12 +7170,12 @@
     "theme": "動物と自然",
     "en": "sheep",
     "ja": "羊",
-    "example": "Look at the sheep.",
-    "exampleJa": "その羊を見て。",
+    "example": "There are three sheep on the farm.",
+    "exampleJa": "農場に羊が3頭います。",
     "reading": "",
-    "explanation": "sheep：羊。例文の場面で使ってみよう。",
+    "explanation": "sheep：羊。学ぶ表現：存在・単複同形。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7099,7 +7189,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "sheep",
-    "exampleAudioText": "Look at the sheep."
+    "exampleAudioText": "There are three sheep on the farm.",
+    "grammarPoints": [
+      "存在",
+      "単複同形"
+    ]
   },
   {
     "id": "g5-w-duck",
@@ -7107,12 +7201,12 @@
     "theme": "動物と自然",
     "en": "duck",
     "ja": "あひる",
-    "example": "Look at the duck.",
-    "exampleJa": "そのあひるを見て。",
+    "example": "The duck is in the water.",
+    "exampleJa": "そのアヒルは水の中にいます。",
     "reading": "",
-    "explanation": "duck：あひる。例文の場面で使ってみよう。",
+    "explanation": "duck：あひる。学ぶ表現：場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7126,7 +7220,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "duck",
-    "exampleAudioText": "Look at the duck."
+    "exampleAudioText": "The duck is in the water.",
+    "grammarPoints": [
+      "場所"
+    ]
   },
   {
     "id": "g5-w-mouse",
@@ -7134,12 +7231,12 @@
     "theme": "動物と自然",
     "en": "mouse",
     "ja": "ねずみ",
-    "example": "Look at the mouse.",
-    "exampleJa": "そのねずみを見て。",
+    "example": "A mouse is under the desk.",
+    "exampleJa": "ネズミが机の下にいます。",
     "reading": "",
-    "explanation": "mouse：ねずみ。例文の場面で使ってみよう。",
+    "explanation": "mouse：ねずみ。学ぶ表現：場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7153,7 +7250,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "mouse",
-    "exampleAudioText": "Look at the mouse."
+    "exampleAudioText": "A mouse is under the desk.",
+    "grammarPoints": [
+      "場所"
+    ]
   },
   {
     "id": "g5-w-turtle",
@@ -7161,12 +7261,12 @@
     "theme": "動物と自然",
     "en": "turtle",
     "ja": "亀",
-    "example": "Look at the turtle.",
-    "exampleJa": "その亀を見て。",
+    "example": "This turtle can swim.",
+    "exampleJa": "このカメは泳げます。",
     "reading": "",
-    "explanation": "turtle：亀。例文の場面で使ってみよう。",
+    "explanation": "turtle：亀。学ぶ表現：能力。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7180,7 +7280,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "turtle",
-    "exampleAudioText": "Look at the turtle."
+    "exampleAudioText": "This turtle can swim.",
+    "grammarPoints": [
+      "能力"
+    ]
   },
   {
     "id": "g5-w-snake",
@@ -7188,12 +7291,12 @@
     "theme": "動物と自然",
     "en": "snake",
     "ja": "蛇",
-    "example": "Look at the snake.",
-    "exampleJa": "その蛇を見て。",
+    "example": "That snake is very long.",
+    "exampleJa": "あのヘビはとても長いです。",
     "reading": "",
-    "explanation": "snake：蛇。例文の場面で使ってみよう。",
+    "explanation": "snake：蛇。学ぶ表現：程度の副詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7207,7 +7310,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "snake",
-    "exampleAudioText": "Look at the snake."
+    "exampleAudioText": "That snake is very long.",
+    "grammarPoints": [
+      "程度の副詞"
+    ]
   },
   {
     "id": "g5-w-frog",
@@ -7215,12 +7321,12 @@
     "theme": "動物と自然",
     "en": "frog",
     "ja": "蛙",
-    "example": "Look at the frog.",
-    "exampleJa": "その蛙を見て。",
+    "example": "The frog can jump.",
+    "exampleJa": "そのカエルは跳べます。",
     "reading": "",
-    "explanation": "frog：蛙。例文の場面で使ってみよう。",
+    "explanation": "frog：蛙。学ぶ表現：能力。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7234,7 +7340,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "frog",
-    "exampleAudioText": "Look at the frog."
+    "exampleAudioText": "The frog can jump.",
+    "grammarPoints": [
+      "能力"
+    ]
   },
   {
     "id": "g5-w-butterfly",
@@ -7242,12 +7351,12 @@
     "theme": "動物と自然",
     "en": "butterfly",
     "ja": "蝶",
-    "example": "Look at the butterfly.",
-    "exampleJa": "その蝶を見て。",
+    "example": "A butterfly is on the flower.",
+    "exampleJa": "チョウが花にとまっています。",
     "reading": "",
-    "explanation": "butterfly：蝶。例文の場面で使ってみよう。",
+    "explanation": "butterfly：蝶。学ぶ表現：場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7261,7 +7370,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "butterfly",
-    "exampleAudioText": "Look at the butterfly."
+    "exampleAudioText": "A butterfly is on the flower.",
+    "grammarPoints": [
+      "場所"
+    ]
   },
   {
     "id": "g5-w-ant",
@@ -7269,12 +7381,12 @@
     "theme": "動物と自然",
     "en": "ant",
     "ja": "蟻",
-    "example": "Look at the ant.",
-    "exampleJa": "その蟻を見て。",
+    "example": "An ant is carrying food.",
+    "exampleJa": "アリが食べ物を運んでいます。",
     "reading": "",
-    "explanation": "ant：蟻。例文の場面で使ってみよう。",
+    "explanation": "ant：蟻。学ぶ表現：現在進行形・冠詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7288,7 +7400,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "ant",
-    "exampleAudioText": "Look at the ant."
+    "exampleAudioText": "An ant is carrying food.",
+    "grammarPoints": [
+      "現在進行形",
+      "冠詞"
+    ]
   },
   {
     "id": "g5-w-bee",
@@ -7296,12 +7412,12 @@
     "theme": "動物と自然",
     "en": "bee",
     "ja": "蜂",
-    "example": "Look at the bee.",
-    "exampleJa": "その蜂を見て。",
+    "example": "The bee is near the flower.",
+    "exampleJa": "そのハチは花の近くにいます。",
     "reading": "",
-    "explanation": "bee：蜂。例文の場面で使ってみよう。",
+    "explanation": "bee：蜂。学ぶ表現：場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7315,7 +7431,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "bee",
-    "exampleAudioText": "Look at the bee."
+    "exampleAudioText": "The bee is near the flower.",
+    "grammarPoints": [
+      "場所"
+    ]
   },
   {
     "id": "g5-w-pet",
@@ -7323,12 +7442,12 @@
     "theme": "動物と自然",
     "en": "pet",
     "ja": "ペット",
-    "example": "Look at the pet.",
-    "exampleJa": "そのペットを見て。",
+    "example": "Do you have a pet?",
+    "exampleJa": "ペットを飼っていますか。",
     "reading": "",
-    "explanation": "pet：ペット。例文の場面で使ってみよう。",
+    "explanation": "pet：ペット。学ぶ表現：一般動詞の疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7342,7 +7461,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "pet",
-    "exampleAudioText": "Look at the pet."
+    "exampleAudioText": "Do you have a pet?",
+    "grammarPoints": [
+      "一般動詞の疑問文"
+    ]
   },
   {
     "id": "g5-w-flower",
@@ -7350,12 +7472,12 @@
     "theme": "動物と自然",
     "en": "flower",
     "ja": "花",
-    "example": "Look at the flower.",
-    "exampleJa": "その花を見て。",
+    "example": "These flowers are for my mother.",
+    "exampleJa": "この花々は母にあげるものです。",
     "reading": "",
-    "explanation": "flower：花。例文の場面で使ってみよう。",
+    "explanation": "flower：花。学ぶ表現：指示語・複数。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7369,7 +7491,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "flower",
-    "exampleAudioText": "Look at the flower."
+    "exampleAudioText": "These flowers are for my mother.",
+    "grammarPoints": [
+      "指示語",
+      "複数"
+    ]
   },
   {
     "id": "g5-w-tree",
@@ -7377,12 +7503,12 @@
     "theme": "動物と自然",
     "en": "tree",
     "ja": "木",
-    "example": "Look at the tree.",
-    "exampleJa": "その木を見て。",
+    "example": "There is a bird in the tree.",
+    "exampleJa": "木に鳥が1羽います。",
     "reading": "",
-    "explanation": "tree：木。例文の場面で使ってみよう。",
+    "explanation": "tree：木。学ぶ表現：存在・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7396,7 +7522,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "tree",
-    "exampleAudioText": "Look at the tree."
+    "exampleAudioText": "There is a bird in the tree.",
+    "grammarPoints": [
+      "存在",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-leaf",
@@ -7404,12 +7534,12 @@
     "theme": "動物と自然",
     "en": "leaf",
     "ja": "葉",
-    "example": "Look at the leaf.",
-    "exampleJa": "その葉を見て。",
+    "example": "This leaf is green.",
+    "exampleJa": "この葉は緑色です。",
     "reading": "",
-    "explanation": "leaf：葉。例文の場面で使ってみよう。",
+    "explanation": "leaf：葉。学ぶ表現：色。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7423,7 +7553,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "leaf",
-    "exampleAudioText": "Look at the leaf."
+    "exampleAudioText": "This leaf is green.",
+    "grammarPoints": [
+      "色"
+    ]
   },
   {
     "id": "g5-w-river",
@@ -7431,12 +7564,12 @@
     "theme": "動物と自然",
     "en": "river",
     "ja": "川",
-    "example": "Look at the river.",
-    "exampleJa": "その川を見て。",
+    "example": "We don't swim in this river.",
+    "exampleJa": "私たちはこの川では泳ぎません。",
     "reading": "",
-    "explanation": "river：川。例文の場面で使ってみよう。",
+    "explanation": "river：川。学ぶ表現：一般動詞の否定文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7450,7 +7583,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "river",
-    "exampleAudioText": "Look at the river."
+    "exampleAudioText": "We don't swim in this river.",
+    "grammarPoints": [
+      "一般動詞の否定文"
+    ]
   },
   {
     "id": "g5-w-lake",
@@ -7458,12 +7594,12 @@
     "theme": "動物と自然",
     "en": "lake",
     "ja": "湖",
-    "example": "Look at the lake.",
-    "exampleJa": "その湖を見て。",
+    "example": "Is there a lake near your school?",
+    "exampleJa": "あなたの学校の近くに湖はありますか。",
     "reading": "",
-    "explanation": "lake：湖。例文の場面で使ってみよう。",
+    "explanation": "lake：湖。学ぶ表現：存在の疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7477,7 +7613,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "lake",
-    "exampleAudioText": "Look at the lake."
+    "exampleAudioText": "Is there a lake near your school?",
+    "grammarPoints": [
+      "存在の疑問文"
+    ]
   },
   {
     "id": "g5-w-mountain",
@@ -7485,12 +7624,12 @@
     "theme": "動物と自然",
     "en": "mountain",
     "ja": "山",
-    "example": "Look at the mountain.",
-    "exampleJa": "その山を見て。",
+    "example": "We can see a mountain from here.",
+    "exampleJa": "ここから山が見えます。",
     "reading": "",
-    "explanation": "mountain：山。例文の場面で使ってみよう。",
+    "explanation": "mountain：山。学ぶ表現：can・起点のfrom。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7504,7 +7643,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "mountain",
-    "exampleAudioText": "Look at the mountain."
+    "exampleAudioText": "We can see a mountain from here.",
+    "grammarPoints": [
+      "can",
+      "起点のfrom"
+    ]
   },
   {
     "id": "g5-w-star",
@@ -7512,12 +7655,12 @@
     "theme": "動物と自然",
     "en": "star",
     "ja": "星",
-    "example": "Look at the star.",
-    "exampleJa": "その星を見て。",
+    "example": "How many stars can you see?",
+    "exampleJa": "星がいくつ見えますか。",
     "reading": "",
-    "explanation": "star：星。例文の場面で使ってみよう。",
+    "explanation": "star：星。学ぶ表現：数・can。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7531,7 +7674,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "star",
-    "exampleAudioText": "Look at the star."
+    "exampleAudioText": "How many stars can you see?",
+    "grammarPoints": [
+      "数",
+      "can"
+    ]
   },
   {
     "id": "g5-w-cloud",
@@ -7539,12 +7686,12 @@
     "theme": "動物と自然",
     "en": "cloud",
     "ja": "雲",
-    "example": "Look at the cloud.",
-    "exampleJa": "その雲を見て。",
+    "example": "That cloud looks like a dog.",
+    "exampleJa": "あの雲はイヌのように見えます。",
     "reading": "",
-    "explanation": "cloud：雲。例文の場面で使ってみよう。",
+    "explanation": "cloud：雲。学ぶ表現：様子・三人称単数。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7558,7 +7705,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "cloud",
-    "exampleAudioText": "Look at the cloud."
+    "exampleAudioText": "That cloud looks like a dog.",
+    "grammarPoints": [
+      "様子",
+      "三人称単数"
+    ]
   },
   {
     "id": "g5-w-stone",
@@ -7566,12 +7717,12 @@
     "theme": "動物と自然",
     "en": "stone",
     "ja": "石",
-    "example": "Look at the stone.",
-    "exampleJa": "その石を見て。",
+    "example": "There is a small stone in my shoe.",
+    "exampleJa": "靴の中に小さな石があります。",
     "reading": "",
-    "explanation": "stone：石。例文の場面で使ってみよう。",
+    "explanation": "stone：石。学ぶ表現：存在・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7585,7 +7736,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "stone",
-    "exampleAudioText": "Look at the stone."
+    "exampleAudioText": "There is a small stone in my shoe.",
+    "grammarPoints": [
+      "存在",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-island",
@@ -7593,12 +7748,12 @@
     "theme": "動物と自然",
     "en": "island",
     "ja": "島",
-    "example": "Look at the island.",
-    "exampleJa": "その島を見て。",
+    "example": "My friend lives on an island.",
+    "exampleJa": "友達は島に住んでいます。",
     "reading": "",
-    "explanation": "island：島。例文の場面で使ってみよう。",
+    "explanation": "island：島。学ぶ表現：三人称単数・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7612,7 +7767,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "island",
-    "exampleAudioText": "Look at the island."
+    "exampleAudioText": "My friend lives on an island.",
+    "grammarPoints": [
+      "三人称単数",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-pencil-case",
@@ -7620,12 +7779,12 @@
     "theme": "学校と持ち物",
     "en": "pencil case",
     "ja": "筆箱",
-    "example": "Look at the pencil case.",
-    "exampleJa": "その筆箱を見て。",
+    "example": "Where is my pencil case?",
+    "exampleJa": "私の筆箱はどこですか。",
     "reading": "",
-    "explanation": "pencil case：筆箱。例文の場面で使ってみよう。",
+    "explanation": "pencil case：筆箱。学ぶ表現：Where。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7639,7 +7798,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "pencil case",
-    "exampleAudioText": "Look at the pencil case."
+    "exampleAudioText": "Where is my pencil case?",
+    "grammarPoints": [
+      "Where"
+    ]
   },
   {
     "id": "g5-w-textbook",
@@ -7647,12 +7809,12 @@
     "theme": "学校と持ち物",
     "en": "textbook",
     "ja": "教科書",
-    "example": "Look at the textbook.",
-    "exampleJa": "その教科書を見て。",
+    "example": "Please open your textbook.",
+    "exampleJa": "教科書を開いてください。",
     "reading": "",
-    "explanation": "textbook：教科書。例文の場面で使ってみよう。",
+    "explanation": "textbook：教科書。学ぶ表現：依頼・命令文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7666,7 +7828,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "textbook",
-    "exampleAudioText": "Look at the textbook."
+    "exampleAudioText": "Please open your textbook.",
+    "grammarPoints": [
+      "依頼",
+      "命令文"
+    ]
   },
   {
     "id": "g5-w-dictionary",
@@ -7674,12 +7840,12 @@
     "theme": "学校と持ち物",
     "en": "dictionary",
     "ja": "辞書",
-    "example": "Look at the dictionary.",
-    "exampleJa": "その辞書を見て。",
+    "example": "I use this dictionary at school.",
+    "exampleJa": "学校でこの辞書を使います。",
     "reading": "",
-    "explanation": "dictionary：辞書。例文の場面で使ってみよう。",
+    "explanation": "dictionary：辞書。学ぶ表現：現在形・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7693,7 +7859,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "dictionary",
-    "exampleAudioText": "Look at the dictionary."
+    "exampleAudioText": "I use this dictionary at school.",
+    "grammarPoints": [
+      "現在形",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-letter",
@@ -7701,12 +7871,12 @@
     "theme": "学校と持ち物",
     "en": "letter",
     "ja": "手紙",
-    "example": "Look at the letter.",
-    "exampleJa": "その手紙を見て。",
+    "example": "She is writing a letter.",
+    "exampleJa": "彼女は手紙を書いています。",
     "reading": "",
-    "explanation": "letter：手紙。例文の場面で使ってみよう。",
+    "explanation": "letter：手紙。学ぶ表現：現在進行形。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7720,7 +7890,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "letter",
-    "exampleAudioText": "Look at the letter."
+    "exampleAudioText": "She is writing a letter.",
+    "grammarPoints": [
+      "現在進行形"
+    ]
   },
   {
     "id": "g5-w-stamp",
@@ -7728,12 +7901,12 @@
     "theme": "学校と持ち物",
     "en": "stamp",
     "ja": "切手",
-    "example": "Look at the stamp.",
-    "exampleJa": "その切手を見て。",
+    "example": "I need a stamp for this letter.",
+    "exampleJa": "この手紙に切手が必要です。",
     "reading": "",
-    "explanation": "stamp：切手。例文の場面で使ってみよう。",
+    "explanation": "stamp：切手。学ぶ表現：用途のfor。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7747,7 +7920,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "stamp",
-    "exampleAudioText": "Look at the stamp."
+    "exampleAudioText": "I need a stamp for this letter.",
+    "grammarPoints": [
+      "用途のfor"
+    ]
   },
   {
     "id": "g5-w-postcard",
@@ -7755,12 +7931,12 @@
     "theme": "学校と持ち物",
     "en": "postcard",
     "ja": "はがき",
-    "example": "Look at the postcard.",
-    "exampleJa": "そのはがきを見て。",
+    "example": "This postcard is from my uncle.",
+    "exampleJa": "この絵はがきはおじから届いたものです。",
     "reading": "",
-    "explanation": "postcard：はがき。例文の場面で使ってみよう。",
+    "explanation": "postcard：はがき。学ぶ表現：起点のfrom。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7774,7 +7950,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "postcard",
-    "exampleAudioText": "Look at the postcard."
+    "exampleAudioText": "This postcard is from my uncle.",
+    "grammarPoints": [
+      "起点のfrom"
+    ]
   },
   {
     "id": "g5-w-calendar",
@@ -7782,12 +7961,12 @@
     "theme": "学校と持ち物",
     "en": "calendar",
     "ja": "カレンダー",
-    "example": "Look at the calendar.",
-    "exampleJa": "そのカレンダーを見て。",
+    "example": "The calendar is on the wall.",
+    "exampleJa": "カレンダーは壁にかかっています。",
     "reading": "",
-    "explanation": "calendar：カレンダー。例文の場面で使ってみよう。",
+    "explanation": "calendar：カレンダー。学ぶ表現：場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7801,7 +7980,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "calendar",
-    "exampleAudioText": "Look at the calendar."
+    "exampleAudioText": "The calendar is on the wall.",
+    "grammarPoints": [
+      "場所"
+    ]
   },
   {
     "id": "g5-w-camera",
@@ -7809,12 +7991,12 @@
     "theme": "学校と持ち物",
     "en": "camera",
     "ja": "カメラ",
-    "example": "Look at the camera.",
-    "exampleJa": "そのカメラを見て。",
+    "example": "Can you use this camera?",
+    "exampleJa": "このカメラを使えますか。",
     "reading": "",
-    "explanation": "camera：カメラ。例文の場面で使ってみよう。",
+    "explanation": "camera：カメラ。学ぶ表現：能力・疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7828,7 +8010,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "camera",
-    "exampleAudioText": "Look at the camera."
+    "exampleAudioText": "Can you use this camera?",
+    "grammarPoints": [
+      "能力",
+      "疑問文"
+    ]
   },
   {
     "id": "g5-w-phone",
@@ -7836,12 +8022,12 @@
     "theme": "学校と持ち物",
     "en": "phone",
     "ja": "電話",
-    "example": "Look at the phone.",
-    "exampleJa": "その電話を見て。",
+    "example": "Please don't use your phone here.",
+    "exampleJa": "ここでは電話を使わないでください。",
     "reading": "",
-    "explanation": "phone：電話。例文の場面で使ってみよう。",
+    "explanation": "phone：電話。学ぶ表現：否定の命令文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7855,7 +8041,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "phone",
-    "exampleAudioText": "Look at the phone."
+    "exampleAudioText": "Please don't use your phone here.",
+    "grammarPoints": [
+      "否定の命令文"
+    ]
   },
   {
     "id": "g5-w-key",
@@ -7863,12 +8052,12 @@
     "theme": "学校と持ち物",
     "en": "key",
     "ja": "鍵",
-    "example": "Look at the key.",
-    "exampleJa": "その鍵を見て。",
+    "example": "Is this key yours?",
+    "exampleJa": "この鍵はあなたのものですか。",
     "reading": "",
-    "explanation": "key：鍵。例文の場面で使ってみよう。",
+    "explanation": "key：鍵。学ぶ表現：所有代名詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7882,7 +8071,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "key",
-    "exampleAudioText": "Look at the key."
+    "exampleAudioText": "Is this key yours?",
+    "grammarPoints": [
+      "所有代名詞"
+    ]
   },
   {
     "id": "g5-w-umbrella",
@@ -7890,12 +8082,12 @@
     "theme": "学校と持ち物",
     "en": "umbrella",
     "ja": "傘",
-    "example": "Look at the umbrella.",
-    "exampleJa": "その傘を見て。",
+    "example": "I don't have an umbrella.",
+    "exampleJa": "傘を持っていません。",
     "reading": "",
-    "explanation": "umbrella：傘。例文の場面で使ってみよう。",
+    "explanation": "umbrella：傘。学ぶ表現：否定文・冠詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7909,7 +8101,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "umbrella",
-    "exampleAudioText": "Look at the umbrella."
+    "exampleAudioText": "I don't have an umbrella.",
+    "grammarPoints": [
+      "否定文",
+      "冠詞"
+    ]
   },
   {
     "id": "g5-w-bicycle",
@@ -7917,12 +8113,12 @@
     "theme": "学校と持ち物",
     "en": "bicycle",
     "ja": "自転車",
-    "example": "Look at the bicycle.",
-    "exampleJa": "その自転車を見て。",
+    "example": "He goes to school by bicycle.",
+    "exampleJa": "彼は自転車で学校に行きます。",
     "reading": "",
-    "explanation": "bicycle：自転車。例文の場面で使ってみよう。",
+    "explanation": "bicycle：自転車。学ぶ表現：交通手段・三人称単数。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7936,7 +8132,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "bicycle",
-    "exampleAudioText": "Look at the bicycle."
+    "exampleAudioText": "He goes to school by bicycle.",
+    "grammarPoints": [
+      "交通手段",
+      "三人称単数"
+    ]
   },
   {
     "id": "g5-w-bike",
@@ -7944,12 +8144,12 @@
     "theme": "学校と持ち物",
     "en": "bike",
     "ja": "自転車（くだけた言い方）",
-    "example": "Look at the bike.",
-    "exampleJa": "その自転車を見て。",
+    "example": "Whose bike is this?",
+    "exampleJa": "これは誰の自転車ですか。",
     "reading": "",
-    "explanation": "bike：自転車（くだけた言い方）。例文の場面で使ってみよう。",
+    "explanation": "bike：自転車（くだけた言い方）。学ぶ表現：Whose。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7963,7 +8163,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "bike",
-    "exampleAudioText": "Look at the bike."
+    "exampleAudioText": "Whose bike is this?",
+    "grammarPoints": [
+      "Whose"
+    ]
   },
   {
     "id": "g5-w-ball",
@@ -7971,12 +8174,12 @@
     "theme": "学校と持ち物",
     "en": "ball",
     "ja": "ボール",
-    "example": "Look at the ball.",
-    "exampleJa": "そのボールを見て。",
+    "example": "The ball is between the boxes.",
+    "exampleJa": "ボールは箱と箱の間にあります。",
     "reading": "",
-    "explanation": "ball：ボール。例文の場面で使ってみよう。",
+    "explanation": "ball：ボール。学ぶ表現：場所・between。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -7990,7 +8193,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "ball",
-    "exampleAudioText": "Look at the ball."
+    "exampleAudioText": "The ball is between the boxes.",
+    "grammarPoints": [
+      "場所",
+      "between"
+    ]
   },
   {
     "id": "g5-w-bat",
@@ -7998,12 +8205,12 @@
     "theme": "学校と持ち物",
     "en": "bat",
     "ja": "バット",
-    "example": "Look at the bat.",
-    "exampleJa": "そのバットを見て。",
+    "example": "This is my brother's bat.",
+    "exampleJa": "これは兄のバットです。",
     "reading": "",
-    "explanation": "bat：バット。例文の場面で使ってみよう。",
+    "explanation": "bat：バット。学ぶ表現：所有格。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8017,7 +8224,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "bat",
-    "exampleAudioText": "Look at the bat."
+    "exampleAudioText": "This is my brother's bat.",
+    "grammarPoints": [
+      "所有格"
+    ]
   },
   {
     "id": "g5-w-racket",
@@ -8025,12 +8235,12 @@
     "theme": "学校と持ち物",
     "en": "racket",
     "ja": "ラケット",
-    "example": "Look at the racket.",
-    "exampleJa": "そのラケットを見て。",
+    "example": "Do you have a tennis racket?",
+    "exampleJa": "テニスのラケットを持っていますか。",
     "reading": "",
-    "explanation": "racket：ラケット。例文の場面で使ってみよう。",
+    "explanation": "racket：ラケット。学ぶ表現：一般動詞の疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8044,7 +8254,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "racket",
-    "exampleAudioText": "Look at the racket."
+    "exampleAudioText": "Do you have a tennis racket?",
+    "grammarPoints": [
+      "一般動詞の疑問文"
+    ]
   },
   {
     "id": "g5-w-game",
@@ -8052,12 +8265,12 @@
     "theme": "学校と持ち物",
     "en": "game",
     "ja": "ゲーム",
-    "example": "Look at the game.",
-    "exampleJa": "そのゲームを見て。",
+    "example": "Let's play a game after lunch.",
+    "exampleJa": "昼食のあとでゲームをしましょう。",
     "reading": "",
-    "explanation": "game：ゲーム。例文の場面で使ってみよう。",
+    "explanation": "game：ゲーム。学ぶ表現：勧誘・時間。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8071,7 +8284,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "game",
-    "exampleAudioText": "Look at the game."
+    "exampleAudioText": "Let's play a game after lunch.",
+    "grammarPoints": [
+      "勧誘",
+      "時間"
+    ]
   },
   {
     "id": "g5-w-toy",
@@ -8079,12 +8296,12 @@
     "theme": "学校と持ち物",
     "en": "toy",
     "ja": "おもちゃ",
-    "example": "Look at the toy.",
-    "exampleJa": "そのおもちゃを見て。",
+    "example": "This toy is for my little sister.",
+    "exampleJa": "このおもちゃは妹にあげるものです。",
     "reading": "",
-    "explanation": "toy：おもちゃ。例文の場面で使ってみよう。",
+    "explanation": "toy：おもちゃ。学ぶ表現：相手を表すfor。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8098,7 +8315,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "toy",
-    "exampleAudioText": "Look at the toy."
+    "exampleAudioText": "This toy is for my little sister.",
+    "grammarPoints": [
+      "相手を表すfor"
+    ]
   },
   {
     "id": "g5-w-doll",
@@ -8106,12 +8326,12 @@
     "theme": "学校と持ち物",
     "en": "doll",
     "ja": "人形",
-    "example": "Look at the doll.",
-    "exampleJa": "その人形を見て。",
+    "example": "Her doll has blue eyes.",
+    "exampleJa": "彼女の人形は青い目をしています。",
     "reading": "",
-    "explanation": "doll：人形。例文の場面で使ってみよう。",
+    "explanation": "doll：人形。学ぶ表現：has・所有。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8125,7 +8345,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "doll",
-    "exampleAudioText": "Look at the doll."
+    "exampleAudioText": "Her doll has blue eyes.",
+    "grammarPoints": [
+      "has",
+      "所有"
+    ]
   },
   {
     "id": "g5-w-robot",
@@ -8133,12 +8357,12 @@
     "theme": "学校と持ち物",
     "en": "robot",
     "ja": "ロボット",
-    "example": "Look at the robot.",
-    "exampleJa": "そのロボットを見て。",
+    "example": "Can this robot walk?",
+    "exampleJa": "このロボットは歩けますか。",
     "reading": "",
-    "explanation": "robot：ロボット。例文の場面で使ってみよう。",
+    "explanation": "robot：ロボット。学ぶ表現：能力・疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8152,7 +8376,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "robot",
-    "exampleAudioText": "Look at the robot."
+    "exampleAudioText": "Can this robot walk?",
+    "grammarPoints": [
+      "能力",
+      "疑問文"
+    ]
   },
   {
     "id": "g5-w-kite",
@@ -8160,12 +8388,12 @@
     "theme": "学校と持ち物",
     "en": "kite",
     "ja": "凧",
-    "example": "Look at the kite.",
-    "exampleJa": "その凧を見て。",
+    "example": "They are flying a kite in the park.",
+    "exampleJa": "彼らは公園でたこを揚げています。",
     "reading": "",
-    "explanation": "kite：凧。例文の場面で使ってみよう。",
+    "explanation": "kite：凧。学ぶ表現：現在進行形。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8179,7 +8407,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "kite",
-    "exampleAudioText": "Look at the kite."
+    "exampleAudioText": "They are flying a kite in the park.",
+    "grammarPoints": [
+      "現在進行形"
+    ]
   },
   {
     "id": "g5-w-model",
@@ -8187,12 +8418,12 @@
     "theme": "学校と持ち物",
     "en": "model",
     "ja": "模型",
-    "example": "Look at the model.",
-    "exampleJa": "その模型を見て。",
+    "example": "He is making a model plane.",
+    "exampleJa": "彼は模型の飛行機を作っています。",
     "reading": "",
-    "explanation": "model：模型。例文の場面で使ってみよう。",
+    "explanation": "model：模型。学ぶ表現：現在進行形。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8206,7 +8437,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "model",
-    "exampleAudioText": "Look at the model."
+    "exampleAudioText": "He is making a model plane.",
+    "grammarPoints": [
+      "現在進行形"
+    ]
   },
   {
     "id": "g5-w-ticket",
@@ -8214,12 +8448,12 @@
     "theme": "学校と持ち物",
     "en": "ticket",
     "ja": "切符",
-    "example": "Look at the ticket.",
-    "exampleJa": "その切符を見て。",
+    "example": "How much is a ticket?",
+    "exampleJa": "切符は1枚いくらですか。",
     "reading": "",
-    "explanation": "ticket：切符。例文の場面で使ってみよう。",
+    "explanation": "ticket：切符。学ぶ表現：値段の疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8233,7 +8467,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "ticket",
-    "exampleAudioText": "Look at the ticket."
+    "exampleAudioText": "How much is a ticket?",
+    "grammarPoints": [
+      "値段の疑問文"
+    ]
   },
   {
     "id": "g5-w-test",
@@ -8241,12 +8478,12 @@
     "theme": "学校と持ち物",
     "en": "test",
     "ja": "テスト",
-    "example": "Look at the test.",
-    "exampleJa": "そのテストを見て。",
+    "example": "We have an English test on Monday.",
+    "exampleJa": "月曜日に英語のテストがあります。",
     "reading": "",
-    "explanation": "test：テスト。例文の場面で使ってみよう。",
+    "explanation": "test：テスト。学ぶ表現：曜日・時間。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8260,7 +8497,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "test",
-    "exampleAudioText": "Look at the test."
+    "exampleAudioText": "We have an English test on Monday.",
+    "grammarPoints": [
+      "曜日",
+      "時間"
+    ]
   },
   {
     "id": "g5-w-question",
@@ -8268,12 +8509,12 @@
     "theme": "学校と持ち物",
     "en": "question",
     "ja": "質問",
-    "example": "Look at the question.",
-    "exampleJa": "その質問を見て。",
+    "example": "Do you have a question?",
+    "exampleJa": "質問はありますか。",
     "reading": "",
-    "explanation": "question：質問。例文の場面で使ってみよう。",
+    "explanation": "question：質問。学ぶ表現：一般動詞の疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8287,7 +8528,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "question",
-    "exampleAudioText": "Look at the question."
+    "exampleAudioText": "Do you have a question?",
+    "grammarPoints": [
+      "一般動詞の疑問文"
+    ]
   },
   {
     "id": "g5-w-answer",
@@ -8295,12 +8539,12 @@
     "theme": "学校と持ち物",
     "en": "answer",
     "ja": "答え",
-    "example": "Look at the answer.",
-    "exampleJa": "その答えを見て。",
+    "example": "I don't know the answer.",
+    "exampleJa": "答えが分かりません。",
     "reading": "",
-    "explanation": "answer：答え。例文の場面で使ってみよう。",
+    "explanation": "answer：答え。学ぶ表現：一般動詞の否定文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8314,7 +8558,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "answer",
-    "exampleAudioText": "Look at the answer."
+    "exampleAudioText": "I don't know the answer.",
+    "grammarPoints": [
+      "一般動詞の否定文"
+    ]
   },
   {
     "id": "g5-w-word",
@@ -8322,12 +8569,12 @@
     "theme": "学校と持ち物",
     "en": "word",
     "ja": "単語",
-    "example": "Look at the word.",
-    "exampleJa": "その単語を見て。",
+    "example": "What does this word mean?",
+    "exampleJa": "この単語はどういう意味ですか。",
     "reading": "",
-    "explanation": "word：単語。例文の場面で使ってみよう。",
+    "explanation": "word：単語。学ぶ表現：What・does。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8341,7 +8588,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "word",
-    "exampleAudioText": "Look at the word."
+    "exampleAudioText": "What does this word mean?",
+    "grammarPoints": [
+      "What",
+      "does"
+    ]
   },
   {
     "id": "g5-w-page",
@@ -8349,12 +8600,12 @@
     "theme": "学校と持ち物",
     "en": "page",
     "ja": "ページ",
-    "example": "Look at the page.",
-    "exampleJa": "そのページを見て。",
+    "example": "Please read this page.",
+    "exampleJa": "このページを読んでください。",
     "reading": "",
-    "explanation": "page：ページ。例文の場面で使ってみよう。",
+    "explanation": "page：ページ。学ぶ表現：依頼・命令文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8368,7 +8619,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "page",
-    "exampleAudioText": "Look at the page."
+    "exampleAudioText": "Please read this page.",
+    "grammarPoints": [
+      "依頼",
+      "命令文"
+    ]
   },
   {
     "id": "g5-w-sentence",
@@ -8376,12 +8631,12 @@
     "theme": "学校と持ち物",
     "en": "sentence",
     "ja": "文",
-    "example": "Look at the sentence.",
-    "exampleJa": "その文を見て。",
+    "example": "Can you read this sentence?",
+    "exampleJa": "この文を読めますか。",
     "reading": "",
-    "explanation": "sentence：文。例文の場面で使ってみよう。",
+    "explanation": "sentence：文。学ぶ表現：能力・疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8395,7 +8650,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "sentence",
-    "exampleAudioText": "Look at the sentence."
+    "exampleAudioText": "Can you read this sentence?",
+    "grammarPoints": [
+      "能力",
+      "疑問文"
+    ]
   },
   {
     "id": "g5-w-story",
@@ -8403,12 +8662,12 @@
     "theme": "学校と持ち物",
     "en": "story",
     "ja": "物語",
-    "example": "Look at the story.",
-    "exampleJa": "その物語を見て。",
+    "example": "My father reads me a story at night.",
+    "exampleJa": "父は夜に私にお話を読んでくれます。",
     "reading": "",
-    "explanation": "story：物語。例文の場面で使ってみよう。",
+    "explanation": "story：物語。学ぶ表現：三人称単数・授与。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8422,7 +8681,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "story",
-    "exampleAudioText": "Look at the story."
+    "exampleAudioText": "My father reads me a story at night.",
+    "grammarPoints": [
+      "三人称単数",
+      "授与"
+    ]
   },
   {
     "id": "g5-w-song",
@@ -8430,12 +8693,12 @@
     "theme": "学校と持ち物",
     "en": "song",
     "ja": "歌",
-    "example": "Look at the song.",
-    "exampleJa": "その歌を見て。",
+    "example": "Let's sing this song together.",
+    "exampleJa": "この歌を一緒に歌いましょう。",
     "reading": "",
-    "explanation": "song：歌。例文の場面で使ってみよう。",
+    "explanation": "song：歌。学ぶ表現：勧誘。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8449,7 +8712,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "song",
-    "exampleAudioText": "Look at the song."
+    "exampleAudioText": "Let's sing this song together.",
+    "grammarPoints": [
+      "勧誘"
+    ]
   },
   {
     "id": "g5-w-movie",
@@ -8457,12 +8723,12 @@
     "theme": "学校と持ち物",
     "en": "movie",
     "ja": "映画",
-    "example": "Look at the movie.",
-    "exampleJa": "その映画を見て。",
+    "example": "What is your favorite movie?",
+    "exampleJa": "お気に入りの映画は何ですか。",
     "reading": "",
-    "explanation": "movie：映画。例文の場面で使ってみよう。",
+    "explanation": "movie：映画。学ぶ表現：What。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8476,7 +8742,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "movie",
-    "exampleAudioText": "Look at the movie."
+    "exampleAudioText": "What is your favorite movie?",
+    "grammarPoints": [
+      "What"
+    ]
   },
   {
     "id": "g5-w-cd",
@@ -8484,12 +8753,12 @@
     "theme": "学校と持ち物",
     "en": "CD",
     "ja": "CD",
-    "example": "Look at the cd.",
-    "exampleJa": "そのCDを見て。",
+    "example": "This CD is hers.",
+    "exampleJa": "このCDは彼女のものです。",
     "reading": "",
-    "explanation": "CD：CD。例文の場面で使ってみよう。",
+    "explanation": "CD：CD。学ぶ表現：所有代名詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8503,7 +8772,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "CD",
-    "exampleAudioText": "Look at the cd."
+    "exampleAudioText": "This CD is hers.",
+    "grammarPoints": [
+      "所有代名詞"
+    ]
   },
   {
     "id": "g5-w-table",
@@ -8511,12 +8783,12 @@
     "theme": "家と町",
     "en": "table",
     "ja": "テーブル",
-    "example": "Look at the table.",
-    "exampleJa": "そのテーブルを見て。",
+    "example": "The cat is under the table.",
+    "exampleJa": "ネコはテーブルの下にいます。",
     "reading": "",
-    "explanation": "table：テーブル。例文の場面で使ってみよう。",
+    "explanation": "table：テーブル。学ぶ表現：場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8530,7 +8802,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "table",
-    "exampleAudioText": "Look at the table."
+    "exampleAudioText": "The cat is under the table.",
+    "grammarPoints": [
+      "場所"
+    ]
   },
   {
     "id": "g5-w-bed",
@@ -8538,12 +8813,12 @@
     "theme": "家と町",
     "en": "bed",
     "ja": "ベッド",
-    "example": "Look at the bed.",
-    "exampleJa": "そのベッドを見て。",
+    "example": "I go to bed at nine.",
+    "exampleJa": "9時に寝ます。",
     "reading": "",
-    "explanation": "bed：ベッド。例文の場面で使ってみよう。",
+    "explanation": "bed：ベッド。学ぶ表現：時刻・習慣。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8557,7 +8832,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "bed",
-    "exampleAudioText": "Look at the bed."
+    "exampleAudioText": "I go to bed at nine.",
+    "grammarPoints": [
+      "時刻",
+      "習慣"
+    ]
   },
   {
     "id": "g5-w-sofa",
@@ -8565,12 +8844,12 @@
     "theme": "家と町",
     "en": "sofa",
     "ja": "ソファ",
-    "example": "Look at the sofa.",
-    "exampleJa": "そのソファを見て。",
+    "example": "My mother is sitting on the sofa.",
+    "exampleJa": "母はソファーに座っています。",
     "reading": "",
-    "explanation": "sofa：ソファ。例文の場面で使ってみよう。",
+    "explanation": "sofa：ソファ。学ぶ表現：現在進行形。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8584,7 +8863,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "sofa",
-    "exampleAudioText": "Look at the sofa."
+    "exampleAudioText": "My mother is sitting on the sofa.",
+    "grammarPoints": [
+      "現在進行形"
+    ]
   },
   {
     "id": "g5-w-tv",
@@ -8592,12 +8874,12 @@
     "theme": "家と町",
     "en": "TV",
     "ja": "テレビ",
-    "example": "Look at the tv.",
-    "exampleJa": "そのテレビを見て。",
+    "example": "I watch TV after dinner.",
+    "exampleJa": "夕食のあとでテレビを見ます。",
     "reading": "",
-    "explanation": "TV：テレビ。例文の場面で使ってみよう。",
+    "explanation": "TV：テレビ。学ぶ表現：習慣・時間。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8611,7 +8893,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "TV",
-    "exampleAudioText": "Look at the tv."
+    "exampleAudioText": "I watch TV after dinner.",
+    "grammarPoints": [
+      "習慣",
+      "時間"
+    ]
   },
   {
     "id": "g5-w-television",
@@ -8619,12 +8905,12 @@
     "theme": "家と町",
     "en": "television",
     "ja": "テレビ（正式な言い方）",
-    "example": "Look at the television.",
-    "exampleJa": "そのテレビを見て。",
+    "example": "We don't watch television in the morning.",
+    "exampleJa": "私たちは朝にテレビを見ません。",
     "reading": "",
-    "explanation": "television：テレビ（正式な言い方）。例文の場面で使ってみよう。",
+    "explanation": "television：テレビ（正式な言い方）。学ぶ表現：否定文・時間。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8638,7 +8924,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "television",
-    "exampleAudioText": "Look at the television."
+    "exampleAudioText": "We don't watch television in the morning.",
+    "grammarPoints": [
+      "否定文",
+      "時間"
+    ]
   },
   {
     "id": "g5-w-radio",
@@ -8646,12 +8936,12 @@
     "theme": "家と町",
     "en": "radio",
     "ja": "ラジオ",
-    "example": "Look at the radio.",
-    "exampleJa": "そのラジオを見て。",
+    "example": "My grandfather listens to the radio.",
+    "exampleJa": "祖父はラジオを聞きます。",
     "reading": "",
-    "explanation": "radio：ラジオ。例文の場面で使ってみよう。",
+    "explanation": "radio：ラジオ。学ぶ表現：三人称単数・listen to。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8665,7 +8955,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "radio",
-    "exampleAudioText": "Look at the radio."
+    "exampleAudioText": "My grandfather listens to the radio.",
+    "grammarPoints": [
+      "三人称単数",
+      "listen to"
+    ]
   },
   {
     "id": "g5-w-lamp",
@@ -8673,12 +8967,12 @@
     "theme": "家と町",
     "en": "lamp",
     "ja": "ランプ",
-    "example": "Look at the lamp.",
-    "exampleJa": "そのランプを見て。",
+    "example": "Please turn on the lamp.",
+    "exampleJa": "ランプをつけてください。",
     "reading": "",
-    "explanation": "lamp：ランプ。例文の場面で使ってみよう。",
+    "explanation": "lamp：ランプ。学ぶ表現：依頼・句動詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8692,7 +8986,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "lamp",
-    "exampleAudioText": "Look at the lamp."
+    "exampleAudioText": "Please turn on the lamp.",
+    "grammarPoints": [
+      "依頼",
+      "句動詞"
+    ]
   },
   {
     "id": "g5-w-mirror",
@@ -8700,12 +8998,12 @@
     "theme": "家と町",
     "en": "mirror",
     "ja": "鏡",
-    "example": "Look at the mirror.",
-    "exampleJa": "その鏡を見て。",
+    "example": "There is a mirror in my room.",
+    "exampleJa": "私の部屋には鏡があります。",
     "reading": "",
-    "explanation": "mirror：鏡。例文の場面で使ってみよう。",
+    "explanation": "mirror：鏡。学ぶ表現：存在。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8719,7 +9017,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "mirror",
-    "exampleAudioText": "Look at the mirror."
+    "exampleAudioText": "There is a mirror in my room.",
+    "grammarPoints": [
+      "存在"
+    ]
   },
   {
     "id": "g5-w-desk-lamp",
@@ -8727,12 +9028,12 @@
     "theme": "家と町",
     "en": "desk lamp",
     "ja": "電気スタンド",
-    "example": "Look at the desk lamp.",
-    "exampleJa": "その電気スタンドを見て。",
+    "example": "This desk lamp is new.",
+    "exampleJa": "この電気スタンドは新しいです。",
     "reading": "",
-    "explanation": "desk lamp：電気スタンド。例文の場面で使ってみよう。",
+    "explanation": "desk lamp：電気スタンド。学ぶ表現：be動詞・形容詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8746,7 +9047,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "desk lamp",
-    "exampleAudioText": "Look at the desk lamp."
+    "exampleAudioText": "This desk lamp is new.",
+    "grammarPoints": [
+      "be動詞",
+      "形容詞"
+    ]
   },
   {
     "id": "g5-w-floor",
@@ -8754,12 +9059,12 @@
     "theme": "家と町",
     "en": "floor",
     "ja": "床",
-    "example": "Look at the floor.",
-    "exampleJa": "その床を見て。",
+    "example": "Please put your bag on the floor.",
+    "exampleJa": "床にかばんを置いてください。",
     "reading": "",
-    "explanation": "floor：床。例文の場面で使ってみよう。",
+    "explanation": "floor：床。学ぶ表現：依頼・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8773,7 +9078,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "floor",
-    "exampleAudioText": "Look at the floor."
+    "exampleAudioText": "Please put your bag on the floor.",
+    "grammarPoints": [
+      "依頼",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-wall",
@@ -8781,12 +9090,12 @@
     "theme": "家と町",
     "en": "wall",
     "ja": "壁",
-    "example": "Look at the wall.",
-    "exampleJa": "その壁を見て。",
+    "example": "There is a clock on the wall.",
+    "exampleJa": "壁に時計があります。",
     "reading": "",
-    "explanation": "wall：壁。例文の場面で使ってみよう。",
+    "explanation": "wall：壁。学ぶ表現：存在・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8800,7 +9109,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "wall",
-    "exampleAudioText": "Look at the wall."
+    "exampleAudioText": "There is a clock on the wall.",
+    "grammarPoints": [
+      "存在",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-roof",
@@ -8808,12 +9121,12 @@
     "theme": "家と町",
     "en": "roof",
     "ja": "屋根",
-    "example": "Look at the roof.",
-    "exampleJa": "その屋根を見て。",
+    "example": "The roof of this house is red.",
+    "exampleJa": "この家の屋根は赤いです。",
     "reading": "",
-    "explanation": "roof：屋根。例文の場面で使ってみよう。",
+    "explanation": "roof：屋根。学ぶ表現：所属のof。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8827,7 +9140,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "roof",
-    "exampleAudioText": "Look at the roof."
+    "exampleAudioText": "The roof of this house is red.",
+    "grammarPoints": [
+      "所属のof"
+    ]
   },
   {
     "id": "g5-w-gate",
@@ -8835,12 +9151,12 @@
     "theme": "家と町",
     "en": "gate",
     "ja": "門",
-    "example": "Look at the gate.",
-    "exampleJa": "その門を見て。",
+    "example": "Let's meet at the school gate.",
+    "exampleJa": "学校の門で会いましょう。",
     "reading": "",
-    "explanation": "gate：門。例文の場面で使ってみよう。",
+    "explanation": "gate：門。学ぶ表現：勧誘・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8854,7 +9170,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "gate",
-    "exampleAudioText": "Look at the gate."
+    "exampleAudioText": "Let's meet at the school gate.",
+    "grammarPoints": [
+      "勧誘",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-building",
@@ -8862,12 +9182,12 @@
     "theme": "家と町",
     "en": "building",
     "ja": "建物",
-    "example": "Look at the building.",
-    "exampleJa": "その建物を見て。",
+    "example": "That tall building is a hospital.",
+    "exampleJa": "あの高い建物は病院です。",
     "reading": "",
-    "explanation": "building：建物。例文の場面で使ってみよう。",
+    "explanation": "building：建物。学ぶ表現：指示語・形容詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8881,7 +9201,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "building",
-    "exampleAudioText": "Look at the building."
+    "exampleAudioText": "That tall building is a hospital.",
+    "grammarPoints": [
+      "指示語",
+      "形容詞"
+    ]
   },
   {
     "id": "g5-w-classroom",
@@ -8889,12 +9213,12 @@
     "theme": "家と町",
     "en": "classroom",
     "ja": "教室",
-    "example": "Look at the classroom.",
-    "exampleJa": "その教室を見て。",
+    "example": "Our classroom is on the second floor.",
+    "exampleJa": "私たちの教室は2階にあります。",
     "reading": "",
-    "explanation": "classroom：教室。例文の場面で使ってみよう。",
+    "explanation": "classroom：教室。学ぶ表現：序数・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8908,7 +9232,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "classroom",
-    "exampleAudioText": "Look at the classroom."
+    "exampleAudioText": "Our classroom is on the second floor.",
+    "grammarPoints": [
+      "序数",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-gym",
@@ -8916,12 +9244,12 @@
     "theme": "家と町",
     "en": "gym",
     "ja": "体育館",
-    "example": "Look at the gym.",
-    "exampleJa": "その体育館を見て。",
+    "example": "We play basketball in the gym.",
+    "exampleJa": "私たちは体育館でバスケットボールをします。",
     "reading": "",
-    "explanation": "gym：体育館。例文の場面で使ってみよう。",
+    "explanation": "gym：体育館。学ぶ表現：現在形・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8935,7 +9263,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "gym",
-    "exampleAudioText": "Look at the gym."
+    "exampleAudioText": "We play basketball in the gym.",
+    "grammarPoints": [
+      "現在形",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-office",
@@ -8943,12 +9275,12 @@
     "theme": "家と町",
     "en": "office",
     "ja": "事務所",
-    "example": "Look at the office.",
-    "exampleJa": "その事務所を見て。",
+    "example": "My father works in an office.",
+    "exampleJa": "父は事務所で働いています。",
     "reading": "",
-    "explanation": "office：事務所。例文の場面で使ってみよう。",
+    "explanation": "office：事務所。学ぶ表現：三人称単数・冠詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8962,7 +9294,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "office",
-    "exampleAudioText": "Look at the office."
+    "exampleAudioText": "My father works in an office.",
+    "grammarPoints": [
+      "三人称単数",
+      "冠詞"
+    ]
   },
   {
     "id": "g5-w-post-office",
@@ -8970,12 +9306,12 @@
     "theme": "家と町",
     "en": "post office",
     "ja": "郵便局",
-    "example": "Look at the post office.",
-    "exampleJa": "その郵便局を見て。",
+    "example": "Where is the post office?",
+    "exampleJa": "郵便局はどこですか。",
     "reading": "",
-    "explanation": "post office：郵便局。例文の場面で使ってみよう。",
+    "explanation": "post office：郵便局。学ぶ表現：Where。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -8989,7 +9325,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "post office",
-    "exampleAudioText": "Look at the post office."
+    "exampleAudioText": "Where is the post office?",
+    "grammarPoints": [
+      "Where"
+    ]
   },
   {
     "id": "g5-w-bank",
@@ -8997,12 +9336,12 @@
     "theme": "家と町",
     "en": "bank",
     "ja": "銀行",
-    "example": "Look at the bank.",
-    "exampleJa": "その銀行を見て。",
+    "example": "The bank is next to the station.",
+    "exampleJa": "銀行は駅の隣にあります。",
     "reading": "",
-    "explanation": "bank：銀行。例文の場面で使ってみよう。",
+    "explanation": "bank：銀行。学ぶ表現：場所・next to。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9016,7 +9355,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "bank",
-    "exampleAudioText": "Look at the bank."
+    "exampleAudioText": "The bank is next to the station.",
+    "grammarPoints": [
+      "場所",
+      "next to"
+    ]
   },
   {
     "id": "g5-w-hotel",
@@ -9024,12 +9367,12 @@
     "theme": "家と町",
     "en": "hotel",
     "ja": "ホテル",
-    "example": "Look at the hotel.",
-    "exampleJa": "そのホテルを見て。",
+    "example": "Is that a hotel?",
+    "exampleJa": "あれはホテルですか。",
     "reading": "",
-    "explanation": "hotel：ホテル。例文の場面で使ってみよう。",
+    "explanation": "hotel：ホテル。学ぶ表現：be動詞の疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9043,7 +9386,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "hotel",
-    "exampleAudioText": "Look at the hotel."
+    "exampleAudioText": "Is that a hotel?",
+    "grammarPoints": [
+      "be動詞の疑問文"
+    ]
   },
   {
     "id": "g5-w-museum",
@@ -9051,12 +9397,12 @@
     "theme": "家と町",
     "en": "museum",
     "ja": "博物館",
-    "example": "Look at the museum.",
-    "exampleJa": "その博物館を見て。",
+    "example": "The museum is open on Sunday.",
+    "exampleJa": "その博物館は日曜日に開いています。",
     "reading": "",
-    "explanation": "museum：博物館。例文の場面で使ってみよう。",
+    "explanation": "museum：博物館。学ぶ表現：曜日・状態。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9070,7 +9416,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "museum",
-    "exampleAudioText": "Look at the museum."
+    "exampleAudioText": "The museum is open on Sunday.",
+    "grammarPoints": [
+      "曜日",
+      "状態"
+    ]
   },
   {
     "id": "g5-w-airport",
@@ -9078,12 +9428,12 @@
     "theme": "家と町",
     "en": "airport",
     "ja": "空港",
-    "example": "Look at the airport.",
-    "exampleJa": "その空港を見て。",
+    "example": "How do you get to the airport?",
+    "exampleJa": "空港へはどうやって行きますか。",
     "reading": "",
-    "explanation": "airport：空港。例文の場面で使ってみよう。",
+    "explanation": "airport：空港。学ぶ表現：How・移動。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9097,7 +9447,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "airport",
-    "exampleAudioText": "Look at the airport."
+    "exampleAudioText": "How do you get to the airport?",
+    "grammarPoints": [
+      "How",
+      "移動"
+    ]
   },
   {
     "id": "g5-w-bus-stop",
@@ -9105,12 +9459,12 @@
     "theme": "家と町",
     "en": "bus stop",
     "ja": "バス停",
-    "example": "Look at the bus stop.",
-    "exampleJa": "そのバス停を見て。",
+    "example": "Please wait at the bus stop.",
+    "exampleJa": "バス停で待っていてください。",
     "reading": "",
-    "explanation": "bus stop：バス停。例文の場面で使ってみよう。",
+    "explanation": "bus stop：バス停。学ぶ表現：依頼・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9124,7 +9478,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "bus stop",
-    "exampleAudioText": "Look at the bus stop."
+    "exampleAudioText": "Please wait at the bus stop.",
+    "grammarPoints": [
+      "依頼",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-shop",
@@ -9132,12 +9490,12 @@
     "theme": "家と町",
     "en": "shop",
     "ja": "店",
-    "example": "Look at the shop.",
-    "exampleJa": "その店を見て。",
+    "example": "This shop opens at ten.",
+    "exampleJa": "この店は10時に開きます。",
     "reading": "",
-    "explanation": "shop：店。例文の場面で使ってみよう。",
+    "explanation": "shop：店。学ぶ表現：三人称単数・時刻。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9151,7 +9509,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "shop",
-    "exampleAudioText": "Look at the shop."
+    "exampleAudioText": "This shop opens at ten.",
+    "grammarPoints": [
+      "三人称単数",
+      "時刻"
+    ]
   },
   {
     "id": "g5-w-bookstore",
@@ -9159,12 +9521,12 @@
     "theme": "家と町",
     "en": "bookstore",
     "ja": "本屋",
-    "example": "Look at the bookstore.",
-    "exampleJa": "その本屋を見て。",
+    "example": "There is a bookstore near my house.",
+    "exampleJa": "家の近くに本屋があります。",
     "reading": "",
-    "explanation": "bookstore：本屋。例文の場面で使ってみよう。",
+    "explanation": "bookstore：本屋。学ぶ表現：存在・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9178,7 +9540,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "bookstore",
-    "exampleAudioText": "Look at the bookstore."
+    "exampleAudioText": "There is a bookstore near my house.",
+    "grammarPoints": [
+      "存在",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-flower-shop",
@@ -9186,12 +9552,12 @@
     "theme": "家と町",
     "en": "flower shop",
     "ja": "花屋",
-    "example": "Look at the flower shop.",
-    "exampleJa": "その花屋を見て。",
+    "example": "My aunt works at a flower shop.",
+    "exampleJa": "おばは花屋で働いています。",
     "reading": "",
-    "explanation": "flower shop：花屋。例文の場面で使ってみよう。",
+    "explanation": "flower shop：花屋。学ぶ表現：三人称単数・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9205,7 +9571,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "flower shop",
-    "exampleAudioText": "Look at the flower shop."
+    "exampleAudioText": "My aunt works at a flower shop.",
+    "grammarPoints": [
+      "三人称単数",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-street",
@@ -9213,12 +9583,12 @@
     "theme": "家と町",
     "en": "street",
     "ja": "通り",
-    "example": "Look at the street.",
-    "exampleJa": "その通りを見て。",
+    "example": "Don't play in the street.",
+    "exampleJa": "通りで遊ばないでください。",
     "reading": "",
-    "explanation": "street：通り。例文の場面で使ってみよう。",
+    "explanation": "street：通り。学ぶ表現：否定の命令文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9232,7 +9602,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "street",
-    "exampleAudioText": "Look at the street."
+    "exampleAudioText": "Don't play in the street.",
+    "grammarPoints": [
+      "否定の命令文"
+    ]
   },
   {
     "id": "g5-w-road",
@@ -9240,12 +9613,12 @@
     "theme": "家と町",
     "en": "road",
     "ja": "道路",
-    "example": "Look at the road.",
-    "exampleJa": "その道路を見て。",
+    "example": "This road goes to the park.",
+    "exampleJa": "この道は公園へ通じています。",
     "reading": "",
-    "explanation": "road：道路。例文の場面で使ってみよう。",
+    "explanation": "road：道路。学ぶ表現：三人称単数・方向。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9259,7 +9632,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "road",
-    "exampleAudioText": "Look at the road."
+    "exampleAudioText": "This road goes to the park.",
+    "grammarPoints": [
+      "三人称単数",
+      "方向"
+    ]
   },
   {
     "id": "g5-w-bridge",
@@ -9267,12 +9644,12 @@
     "theme": "家と町",
     "en": "bridge",
     "ja": "橋",
-    "example": "Look at the bridge.",
-    "exampleJa": "その橋を見て。",
+    "example": "There is a bridge over the river.",
+    "exampleJa": "川に橋がかかっています。",
     "reading": "",
-    "explanation": "bridge：橋。例文の場面で使ってみよう。",
+    "explanation": "bridge：橋。学ぶ表現：存在・over。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9286,7 +9663,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "bridge",
-    "exampleAudioText": "Look at the bridge."
+    "exampleAudioText": "There is a bridge over the river.",
+    "grammarPoints": [
+      "存在",
+      "over"
+    ]
   },
   {
     "id": "g5-w-corner",
@@ -9294,12 +9675,12 @@
     "theme": "家と町",
     "en": "corner",
     "ja": "角",
-    "example": "Look at the corner.",
-    "exampleJa": "その角を見て。",
+    "example": "Turn right at the corner.",
+    "exampleJa": "角で右に曲がってください。",
     "reading": "",
-    "explanation": "corner：角。例文の場面で使ってみよう。",
+    "explanation": "corner：角。学ぶ表現：道案内。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9313,7 +9694,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "corner",
-    "exampleAudioText": "Look at the corner."
+    "exampleAudioText": "Turn right at the corner.",
+    "grammarPoints": [
+      "道案内"
+    ]
   },
   {
     "id": "g5-w-farm",
@@ -9321,12 +9705,12 @@
     "theme": "家と町",
     "en": "farm",
     "ja": "農場",
-    "example": "Look at the farm.",
-    "exampleJa": "その農場を見て。",
+    "example": "My uncle has a farm.",
+    "exampleJa": "おじは農場を持っています。",
     "reading": "",
-    "explanation": "farm：農場。例文の場面で使ってみよう。",
+    "explanation": "farm：農場。学ぶ表現：has。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9340,7 +9724,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "farm",
-    "exampleAudioText": "Look at the farm."
+    "exampleAudioText": "My uncle has a farm.",
+    "grammarPoints": [
+      "has"
+    ]
   },
   {
     "id": "g5-w-city",
@@ -9348,12 +9735,12 @@
     "theme": "家と町",
     "en": "city",
     "ja": "都市",
-    "example": "Look at the city.",
-    "exampleJa": "その都市を見て。",
+    "example": "Does your sister live in this city?",
+    "exampleJa": "あなたのお姉さんはこの市に住んでいますか。",
     "reading": "",
-    "explanation": "city：都市。例文の場面で使ってみよう。",
+    "explanation": "city：都市。学ぶ表現：doesの疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9367,7 +9754,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "city",
-    "exampleAudioText": "Look at the city."
+    "exampleAudioText": "Does your sister live in this city?",
+    "grammarPoints": [
+      "doesの疑問文"
+    ]
   },
   {
     "id": "g5-w-village",
@@ -9375,12 +9765,12 @@
     "theme": "家と町",
     "en": "village",
     "ja": "村",
-    "example": "Look at the village.",
-    "exampleJa": "その村を見て。",
+    "example": "My grandmother lives in a small village.",
+    "exampleJa": "祖母は小さな村に住んでいます。",
     "reading": "",
-    "explanation": "village：村。例文の場面で使ってみよう。",
+    "explanation": "village：村。学ぶ表現：三人称単数・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9394,7 +9784,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "village",
-    "exampleAudioText": "Look at the village."
+    "exampleAudioText": "My grandmother lives in a small village.",
+    "grammarPoints": [
+      "三人称単数",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-country",
@@ -9402,12 +9796,12 @@
     "theme": "家と町",
     "en": "country",
     "ja": "国",
-    "example": "Look at the country.",
-    "exampleJa": "その国を見て。",
+    "example": "What country are you from?",
+    "exampleJa": "あなたはどの国の出身ですか。",
     "reading": "",
-    "explanation": "country：国。例文の場面で使ってみよう。",
+    "explanation": "country：国。学ぶ表現：What・出身。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9421,7 +9815,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "country",
-    "exampleAudioText": "Look at the country."
+    "exampleAudioText": "What country are you from?",
+    "grammarPoints": [
+      "What",
+      "出身"
+    ]
   },
   {
     "id": "g5-w-train",
@@ -9429,12 +9827,12 @@
     "theme": "家と町",
     "en": "train",
     "ja": "電車",
-    "example": "Look at the train.",
-    "exampleJa": "その電車を見て。",
+    "example": "What time does the train leave?",
+    "exampleJa": "電車は何時に出発しますか。",
     "reading": "",
-    "explanation": "train：電車。例文の場面で使ってみよう。",
+    "explanation": "train：電車。学ぶ表現：時刻の疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9448,7 +9846,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "train",
-    "exampleAudioText": "Look at the train."
+    "exampleAudioText": "What time does the train leave?",
+    "grammarPoints": [
+      "時刻の疑問文"
+    ]
   },
   {
     "id": "g5-w-plane",
@@ -9456,12 +9857,12 @@
     "theme": "家と町",
     "en": "plane",
     "ja": "飛行機",
-    "example": "Look at the plane.",
-    "exampleJa": "その飛行機を見て。",
+    "example": "The plane is flying over the sea.",
+    "exampleJa": "飛行機が海の上を飛んでいます。",
     "reading": "",
-    "explanation": "plane：飛行機。例文の場面で使ってみよう。",
+    "explanation": "plane：飛行機。学ぶ表現：現在進行形・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9475,7 +9876,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "plane",
-    "exampleAudioText": "Look at the plane."
+    "exampleAudioText": "The plane is flying over the sea.",
+    "grammarPoints": [
+      "現在進行形",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-ship",
@@ -9483,12 +9888,12 @@
     "theme": "家と町",
     "en": "ship",
     "ja": "船",
-    "example": "Look at the ship.",
-    "exampleJa": "その船を見て。",
+    "example": "That ship is very big.",
+    "exampleJa": "あの船はとても大きいです。",
     "reading": "",
-    "explanation": "ship：船。例文の場面で使ってみよう。",
+    "explanation": "ship：船。学ぶ表現：程度の副詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9502,7 +9907,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "ship",
-    "exampleAudioText": "Look at the ship."
+    "exampleAudioText": "That ship is very big.",
+    "grammarPoints": [
+      "程度の副詞"
+    ]
   },
   {
     "id": "g5-w-boat",
@@ -9510,12 +9918,12 @@
     "theme": "家と町",
     "en": "boat",
     "ja": "小舟",
-    "example": "Look at the boat.",
-    "exampleJa": "その小舟を見て。",
+    "example": "There are two people in the boat.",
+    "exampleJa": "ボートに2人乗っています。",
     "reading": "",
-    "explanation": "boat：小舟。例文の場面で使ってみよう。",
+    "explanation": "boat：小舟。学ぶ表現：存在・不規則複数。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9529,7 +9937,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "boat",
-    "exampleAudioText": "Look at the boat."
+    "exampleAudioText": "There are two people in the boat.",
+    "grammarPoints": [
+      "存在",
+      "不規則複数"
+    ]
   },
   {
     "id": "g5-w-truck",
@@ -9537,12 +9949,12 @@
     "theme": "家と町",
     "en": "truck",
     "ja": "トラック",
-    "example": "Look at the truck.",
-    "exampleJa": "そのトラックを見て。",
+    "example": "My father drives a truck.",
+    "exampleJa": "父はトラックを運転します。",
     "reading": "",
-    "explanation": "truck：トラック。例文の場面で使ってみよう。",
+    "explanation": "truck：トラック。学ぶ表現：三人称単数。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9556,7 +9968,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "truck",
-    "exampleAudioText": "Look at the truck."
+    "exampleAudioText": "My father drives a truck.",
+    "grammarPoints": [
+      "三人称単数"
+    ]
   },
   {
     "id": "g5-w-taxi",
@@ -9564,12 +9979,12 @@
     "theme": "家と町",
     "en": "taxi",
     "ja": "タクシー",
-    "example": "Look at the taxi.",
-    "exampleJa": "そのタクシーを見て。",
+    "example": "Let's take a taxi to the station.",
+    "exampleJa": "駅までタクシーで行きましょう。",
     "reading": "",
-    "explanation": "taxi：タクシー。例文の場面で使ってみよう。",
+    "explanation": "taxi：タクシー。学ぶ表現：勧誘・移動。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9583,7 +9998,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "taxi",
-    "exampleAudioText": "Look at the taxi."
+    "exampleAudioText": "Let's take a taxi to the station.",
+    "grammarPoints": [
+      "勧誘",
+      "移動"
+    ]
   },
   {
     "id": "g5-w-baby",
@@ -9591,12 +10010,12 @@
     "theme": "人と体と服",
     "en": "baby",
     "ja": "赤ちゃん",
-    "example": "Look at the baby.",
-    "exampleJa": "その赤ちゃんを見て。",
+    "example": "The baby is sleeping now.",
+    "exampleJa": "赤ちゃんは今眠っています。",
     "reading": "",
-    "explanation": "baby：赤ちゃん。例文の場面で使ってみよう。",
+    "explanation": "baby：赤ちゃん。学ぶ表現：現在進行形。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9610,7 +10029,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "baby",
-    "exampleAudioText": "Look at the baby."
+    "exampleAudioText": "The baby is sleeping now.",
+    "grammarPoints": [
+      "現在進行形"
+    ]
   },
   {
     "id": "g5-w-child",
@@ -9618,12 +10040,12 @@
     "theme": "人と体と服",
     "en": "child",
     "ja": "子ども",
-    "example": "Look at the child.",
-    "exampleJa": "その子どもを見て。",
+    "example": "That child is my brother.",
+    "exampleJa": "あの子供は私の弟です。",
     "reading": "",
-    "explanation": "child：子ども。例文の場面で使ってみよう。",
+    "explanation": "child：子ども。学ぶ表現：指示語・家族。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9637,7 +10059,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "child",
-    "exampleAudioText": "Look at the child."
+    "exampleAudioText": "That child is my brother.",
+    "grammarPoints": [
+      "指示語",
+      "家族"
+    ]
   },
   {
     "id": "g5-w-man",
@@ -9645,12 +10071,12 @@
     "theme": "人と体と服",
     "en": "man",
     "ja": "男性",
-    "example": "Look at the man.",
-    "exampleJa": "その男性を見て。",
+    "example": "Who is that man?",
+    "exampleJa": "あの男の人は誰ですか。",
     "reading": "",
-    "explanation": "man：男性。例文の場面で使ってみよう。",
+    "explanation": "man：男性。学ぶ表現：Who。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9664,7 +10090,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "man",
-    "exampleAudioText": "Look at the man."
+    "exampleAudioText": "Who is that man?",
+    "grammarPoints": [
+      "Who"
+    ]
   },
   {
     "id": "g5-w-woman",
@@ -9672,12 +10101,12 @@
     "theme": "人と体と服",
     "en": "woman",
     "ja": "女性",
-    "example": "Look at the woman.",
-    "exampleJa": "その女性を見て。",
+    "example": "The woman is our English teacher.",
+    "exampleJa": "その女の人は私たちの英語の先生です。",
     "reading": "",
-    "explanation": "woman：女性。例文の場面で使ってみよう。",
+    "explanation": "woman：女性。学ぶ表現：be動詞・所有。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9691,7 +10120,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "woman",
-    "exampleAudioText": "Look at the woman."
+    "exampleAudioText": "The woman is our English teacher.",
+    "grammarPoints": [
+      "be動詞",
+      "所有"
+    ]
   },
   {
     "id": "g5-w-uncle",
@@ -9699,12 +10132,12 @@
     "theme": "人と体と服",
     "en": "uncle",
     "ja": "おじ",
-    "example": "Look at the uncle.",
-    "exampleJa": "そのおじを見て。",
+    "example": "My uncle can cook well.",
+    "exampleJa": "おじは料理が上手です。",
     "reading": "",
-    "explanation": "uncle：おじ。例文の場面で使ってみよう。",
+    "explanation": "uncle：おじ。学ぶ表現：能力・副詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9718,7 +10151,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "uncle",
-    "exampleAudioText": "Look at the uncle."
+    "exampleAudioText": "My uncle can cook well.",
+    "grammarPoints": [
+      "能力",
+      "副詞"
+    ]
   },
   {
     "id": "g5-w-aunt",
@@ -9726,12 +10163,12 @@
     "theme": "人と体と服",
     "en": "aunt",
     "ja": "おば",
-    "example": "Look at the aunt.",
-    "exampleJa": "そのおばを見て。",
+    "example": "My aunt doesn't like coffee.",
+    "exampleJa": "おばはコーヒーが好きではありません。",
     "reading": "",
-    "explanation": "aunt：おば。例文の場面で使ってみよう。",
+    "explanation": "aunt：おば。学ぶ表現：doesn'tの否定文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9745,7 +10182,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "aunt",
-    "exampleAudioText": "Look at the aunt."
+    "exampleAudioText": "My aunt doesn't like coffee.",
+    "grammarPoints": [
+      "doesn'tの否定文"
+    ]
   },
   {
     "id": "g5-w-cousin",
@@ -9753,12 +10193,12 @@
     "theme": "人と体と服",
     "en": "cousin",
     "ja": "いとこ",
-    "example": "Look at the cousin.",
-    "exampleJa": "そのいとこを見て。",
+    "example": "I play tennis with my cousin.",
+    "exampleJa": "いとことテニスをします。",
     "reading": "",
-    "explanation": "cousin：いとこ。例文の場面で使ってみよう。",
+    "explanation": "cousin：いとこ。学ぶ表現：相手を表すwith。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9772,7 +10212,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "cousin",
-    "exampleAudioText": "Look at the cousin."
+    "exampleAudioText": "I play tennis with my cousin.",
+    "grammarPoints": [
+      "相手を表すwith"
+    ]
   },
   {
     "id": "g5-w-parent",
@@ -9780,12 +10223,12 @@
     "theme": "人と体と服",
     "en": "parent",
     "ja": "親",
-    "example": "Look at the parent.",
-    "exampleJa": "その親を見て。",
+    "example": "Please come with a parent.",
+    "exampleJa": "保護者の方と一緒に来てください。",
     "reading": "",
-    "explanation": "parent：親。例文の場面で使ってみよう。",
+    "explanation": "parent：親。学ぶ表現：依頼・with。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9799,7 +10242,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "parent",
-    "exampleAudioText": "Look at the parent."
+    "exampleAudioText": "Please come with a parent.",
+    "grammarPoints": [
+      "依頼",
+      "with"
+    ]
   },
   {
     "id": "g5-w-doctor",
@@ -9807,12 +10254,12 @@
     "theme": "人と体と服",
     "en": "doctor",
     "ja": "医者",
-    "example": "Look at the doctor.",
-    "exampleJa": "その医者を見て。",
+    "example": "My mother is a doctor.",
+    "exampleJa": "母は医者です。",
     "reading": "",
-    "explanation": "doctor：医者。例文の場面で使ってみよう。",
+    "explanation": "doctor：医者。学ぶ表現：職業。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9826,7 +10273,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "doctor",
-    "exampleAudioText": "Look at the doctor."
+    "exampleAudioText": "My mother is a doctor.",
+    "grammarPoints": [
+      "職業"
+    ]
   },
   {
     "id": "g5-w-nurse",
@@ -9834,12 +10284,12 @@
     "theme": "人と体と服",
     "en": "nurse",
     "ja": "看護師",
-    "example": "Look at the nurse.",
-    "exampleJa": "その看護師を見て。",
+    "example": "Is your sister a nurse?",
+    "exampleJa": "あなたのお姉さんは看護師ですか。",
     "reading": "",
-    "explanation": "nurse：看護師。例文の場面で使ってみよう。",
+    "explanation": "nurse：看護師。学ぶ表現：be動詞の疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9853,7 +10303,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "nurse",
-    "exampleAudioText": "Look at the nurse."
+    "exampleAudioText": "Is your sister a nurse?",
+    "grammarPoints": [
+      "be動詞の疑問文"
+    ]
   },
   {
     "id": "g5-w-dentist",
@@ -9861,12 +10314,12 @@
     "theme": "人と体と服",
     "en": "dentist",
     "ja": "歯医者",
-    "example": "Look at the dentist.",
-    "exampleJa": "その歯医者を見て。",
+    "example": "I want to be a dentist.",
+    "exampleJa": "歯医者になりたいです。",
     "reading": "",
-    "explanation": "dentist：歯医者。例文の場面で使ってみよう。",
+    "explanation": "dentist：歯医者。学ぶ表現：want to。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9880,7 +10333,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "dentist",
-    "exampleAudioText": "Look at the dentist."
+    "exampleAudioText": "I want to be a dentist.",
+    "grammarPoints": [
+      "want to"
+    ]
   },
   {
     "id": "g5-w-farmer",
@@ -9888,12 +10344,12 @@
     "theme": "人と体と服",
     "en": "farmer",
     "ja": "農家の人",
-    "example": "Look at the farmer.",
-    "exampleJa": "その農家の人を見て。",
+    "example": "The farmer grows carrots.",
+    "exampleJa": "その農家の人はニンジンを育てています。",
     "reading": "",
-    "explanation": "farmer：農家の人。例文の場面で使ってみよう。",
+    "explanation": "farmer：農家の人。学ぶ表現：三人称単数・複数。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9907,7 +10363,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "farmer",
-    "exampleAudioText": "Look at the farmer."
+    "exampleAudioText": "The farmer grows carrots.",
+    "grammarPoints": [
+      "三人称単数",
+      "複数"
+    ]
   },
   {
     "id": "g5-w-driver",
@@ -9915,12 +10375,12 @@
     "theme": "人と体と服",
     "en": "driver",
     "ja": "運転手",
-    "example": "Look at the driver.",
-    "exampleJa": "その運転手を見て。",
+    "example": "The bus driver is kind.",
+    "exampleJa": "そのバスの運転手は親切です。",
     "reading": "",
-    "explanation": "driver：運転手。例文の場面で使ってみよう。",
+    "explanation": "driver：運転手。学ぶ表現：be動詞・形容詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9934,7 +10394,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "driver",
-    "exampleAudioText": "Look at the driver."
+    "exampleAudioText": "The bus driver is kind.",
+    "grammarPoints": [
+      "be動詞",
+      "形容詞"
+    ]
   },
   {
     "id": "g5-w-singer",
@@ -9942,12 +10406,12 @@
     "theme": "人と体と服",
     "en": "singer",
     "ja": "歌手",
-    "example": "Look at the singer.",
-    "exampleJa": "その歌手を見て。",
+    "example": "Who is your favorite singer?",
+    "exampleJa": "好きな歌手は誰ですか。",
     "reading": "",
-    "explanation": "singer：歌手。例文の場面で使ってみよう。",
+    "explanation": "singer：歌手。学ぶ表現：Who。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9961,7 +10425,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "singer",
-    "exampleAudioText": "Look at the singer."
+    "exampleAudioText": "Who is your favorite singer?",
+    "grammarPoints": [
+      "Who"
+    ]
   },
   {
     "id": "g5-w-player",
@@ -9969,12 +10436,12 @@
     "theme": "人と体と服",
     "en": "player",
     "ja": "選手",
-    "example": "Look at the player.",
-    "exampleJa": "その選手を見て。",
+    "example": "He is a good soccer player.",
+    "exampleJa": "彼は上手なサッカー選手です。",
     "reading": "",
-    "explanation": "player：選手。例文の場面で使ってみよう。",
+    "explanation": "player：選手。学ぶ表現：職業・形容詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -9988,7 +10455,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "player",
-    "exampleAudioText": "Look at the player."
+    "exampleAudioText": "He is a good soccer player.",
+    "grammarPoints": [
+      "職業",
+      "形容詞"
+    ]
   },
   {
     "id": "g5-w-police-officer",
@@ -9996,12 +10467,12 @@
     "theme": "人と体と服",
     "en": "police officer",
     "ja": "警察官",
-    "example": "Look at the police officer.",
-    "exampleJa": "その警察官を見て。",
+    "example": "That police officer is my uncle.",
+    "exampleJa": "あの警察官は私のおじです。",
     "reading": "",
-    "explanation": "police officer：警察官。例文の場面で使ってみよう。",
+    "explanation": "police officer：警察官。学ぶ表現：指示語・職業。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10015,7 +10486,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "police officer",
-    "exampleAudioText": "Look at the police officer."
+    "exampleAudioText": "That police officer is my uncle.",
+    "grammarPoints": [
+      "指示語",
+      "職業"
+    ]
   },
   {
     "id": "g5-w-face",
@@ -10023,12 +10498,12 @@
     "theme": "人と体と服",
     "en": "face",
     "ja": "顔",
-    "example": "Look at the face.",
-    "exampleJa": "その顔を見て。",
+    "example": "Please wash your face.",
+    "exampleJa": "顔を洗ってください。",
     "reading": "",
-    "explanation": "face：顔。例文の場面で使ってみよう。",
+    "explanation": "face：顔。学ぶ表現：依頼・所有。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10042,7 +10517,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "face",
-    "exampleAudioText": "Look at the face."
+    "exampleAudioText": "Please wash your face.",
+    "grammarPoints": [
+      "依頼",
+      "所有"
+    ]
   },
   {
     "id": "g5-w-arm",
@@ -10050,12 +10529,12 @@
     "theme": "人と体と服",
     "en": "arm",
     "ja": "腕",
-    "example": "Look at the arm.",
-    "exampleJa": "その腕を見て。",
+    "example": "He has long arms.",
+    "exampleJa": "彼は腕が長いです。",
     "reading": "",
-    "explanation": "arm：腕。例文の場面で使ってみよう。",
+    "explanation": "arm：腕。学ぶ表現：has・複数。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10069,7 +10548,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "arm",
-    "exampleAudioText": "Look at the arm."
+    "exampleAudioText": "He has long arms.",
+    "grammarPoints": [
+      "has",
+      "複数"
+    ]
   },
   {
     "id": "g5-w-leg",
@@ -10077,12 +10560,12 @@
     "theme": "人と体と服",
     "en": "leg",
     "ja": "脚",
-    "example": "Look at the leg.",
-    "exampleJa": "その脚を見て。",
+    "example": "The dog has short legs.",
+    "exampleJa": "そのイヌは足が短いです。",
     "reading": "",
-    "explanation": "leg：脚。例文の場面で使ってみよう。",
+    "explanation": "leg：脚。学ぶ表現：has・複数。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10096,7 +10579,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "leg",
-    "exampleAudioText": "Look at the leg."
+    "exampleAudioText": "The dog has short legs.",
+    "grammarPoints": [
+      "has",
+      "複数"
+    ]
   },
   {
     "id": "g5-w-foot",
@@ -10104,12 +10591,12 @@
     "theme": "人と体と服",
     "en": "foot",
     "ja": "足（足首から先）",
-    "example": "Look at the foot.",
-    "exampleJa": "その足を見て。",
+    "example": "My left foot is in the water.",
+    "exampleJa": "私の左足が水の中に入っています。",
     "reading": "",
-    "explanation": "foot：足（足首から先）。例文の場面で使ってみよう。",
+    "explanation": "foot：足（足首から先）。学ぶ表現：単数・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10123,7 +10610,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "foot",
-    "exampleAudioText": "Look at the foot."
+    "exampleAudioText": "My left foot is in the water.",
+    "grammarPoints": [
+      "単数",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-finger",
@@ -10131,12 +10622,12 @@
     "theme": "人と体と服",
     "en": "finger",
     "ja": "指",
-    "example": "Look at the finger.",
-    "exampleJa": "その指を見て。",
+    "example": "How many fingers can you see?",
+    "exampleJa": "指が何本見えますか。",
     "reading": "",
-    "explanation": "finger：指。例文の場面で使ってみよう。",
+    "explanation": "finger：指。学ぶ表現：数・can。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10150,34 +10641,42 @@
     },
     "audioMode": "google-neural2",
     "audioText": "finger",
-    "exampleAudioText": "Look at the finger."
+    "exampleAudioText": "How many fingers can you see?",
+    "grammarPoints": [
+      "数",
+      "can"
+    ]
   },
   {
     "id": "g5-w-tooth",
     "kind": "word",
     "theme": "人と体と服",
     "en": "tooth",
-    "ja": "歯",
-    "example": "Look at the tooth.",
-    "exampleJa": "その歯を見て。",
+    "ja": "歯（1本）",
+    "example": "The baby has one tooth.",
+    "exampleJa": "その赤ちゃんには歯が1本生えています。",
     "reading": "",
-    "explanation": "tooth：歯。例文の場面で使ってみよう。",
+    "explanation": "tooth は歯1本。one tooth / a tooth と言うよ。2本以上は teeth に形が変わり、two teeth / my teeth と言います。tooths にはしません。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
     "image": {
-      "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-4358.png",
-      "credit": "AI生成イラスト",
-      "sourceWord": "歯",
-      "sourceMeaning": "食べ物をかみくだくために口の中にある、かたい部分。",
-      "sourceSheet": "sheets/wave8-sheet-22.png",
-      "sourceReview": "目視確認済み: 歯（は）: 食べ物をかみくだくために口の中にある、かたい部分。"
+      "url": "assets/vocabulary/g5-w-tooth.svg",
+      "credit": "本アプリ独自の学習図（SVG）",
+      "sourceWord": "歯（1本）",
+      "sourceMeaning": "歯を1本だけ描いた単数形の学習図。",
+      "sourceSheet": null,
+      "sourceReview": "単数は1本、複数は3本。形と本数をSVGソースと表示で確認。"
     },
     "audioMode": "google-neural2",
     "audioText": "tooth",
-    "exampleAudioText": "Look at the tooth."
+    "exampleAudioText": "The baby has one tooth.",
+    "grammarPoints": [
+      "単数",
+      "has"
+    ]
   },
   {
     "id": "g5-w-neck",
@@ -10185,12 +10684,12 @@
     "theme": "人と体と服",
     "en": "neck",
     "ja": "首",
-    "example": "Look at the neck.",
-    "exampleJa": "その首を見て。",
+    "example": "The giraffe has a long neck.",
+    "exampleJa": "キリンは首が長いです。",
     "reading": "",
-    "explanation": "neck：首。例文の場面で使ってみよう。",
+    "explanation": "neck：首。学ぶ表現：has・形容詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10204,7 +10703,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "neck",
-    "exampleAudioText": "Look at the neck."
+    "exampleAudioText": "The giraffe has a long neck.",
+    "grammarPoints": [
+      "has",
+      "形容詞"
+    ]
   },
   {
     "id": "g5-w-knee",
@@ -10212,12 +10715,12 @@
     "theme": "人と体と服",
     "en": "knee",
     "ja": "膝",
-    "example": "Look at the knee.",
-    "exampleJa": "その膝を見て。",
+    "example": "My knee is under the desk.",
+    "exampleJa": "私のひざは机の下にあります。",
     "reading": "",
-    "explanation": "knee：膝。例文の場面で使ってみよう。",
+    "explanation": "knee：膝。学ぶ表現：単数・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10231,7 +10734,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "knee",
-    "exampleAudioText": "Look at the knee."
+    "exampleAudioText": "My knee is under the desk.",
+    "grammarPoints": [
+      "単数",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-shoulder",
@@ -10239,12 +10746,12 @@
     "theme": "人と体と服",
     "en": "shoulder",
     "ja": "肩",
-    "example": "Look at the shoulder.",
-    "exampleJa": "その肩を見て。",
+    "example": "The bag is on my shoulder.",
+    "exampleJa": "かばんは私の肩にかかっています。",
     "reading": "",
-    "explanation": "shoulder：肩。例文の場面で使ってみよう。",
+    "explanation": "shoulder：肩。学ぶ表現：所有・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10258,7 +10765,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "shoulder",
-    "exampleAudioText": "Look at the shoulder."
+    "exampleAudioText": "The bag is on my shoulder.",
+    "grammarPoints": [
+      "所有",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-cap",
@@ -10266,12 +10777,12 @@
     "theme": "人と体と服",
     "en": "cap",
     "ja": "つばのある帽子",
-    "example": "Look at the cap.",
-    "exampleJa": "そのつばのある帽子を見て。",
+    "example": "Whose cap is this?",
+    "exampleJa": "これは誰の帽子ですか。",
     "reading": "",
-    "explanation": "cap：つばのある帽子。例文の場面で使ってみよう。",
+    "explanation": "cap：つばのある帽子。学ぶ表現：Whose。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10285,7 +10796,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "cap",
-    "exampleAudioText": "Look at the cap."
+    "exampleAudioText": "Whose cap is this?",
+    "grammarPoints": [
+      "Whose"
+    ]
   },
   {
     "id": "g5-w-t-shirt",
@@ -10293,12 +10807,12 @@
     "theme": "人と体と服",
     "en": "T-shirt",
     "ja": "Tシャツ",
-    "example": "Look at the t-shirt.",
-    "exampleJa": "そのTシャツを見て。",
+    "example": "This T-shirt is too small for me.",
+    "exampleJa": "このTシャツは私には小さすぎます。",
     "reading": "",
-    "explanation": "T-shirt：Tシャツ。例文の場面で使ってみよう。",
+    "explanation": "T-shirt：Tシャツ。学ぶ表現：程度のtoo。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10312,7 +10826,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "T-shirt",
-    "exampleAudioText": "Look at the t-shirt."
+    "exampleAudioText": "This T-shirt is too small for me.",
+    "grammarPoints": [
+      "程度のtoo"
+    ]
   },
   {
     "id": "g5-w-sweater",
@@ -10320,12 +10837,12 @@
     "theme": "人と体と服",
     "en": "sweater",
     "ja": "セーター",
-    "example": "Look at the sweater.",
-    "exampleJa": "そのセーターを見て。",
+    "example": "She is wearing a red sweater.",
+    "exampleJa": "彼女は赤いセーターを着ています。",
     "reading": "",
-    "explanation": "sweater：セーター。例文の場面で使ってみよう。",
+    "explanation": "sweater：セーター。学ぶ表現：現在進行形。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10339,7 +10856,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "sweater",
-    "exampleAudioText": "Look at the sweater."
+    "exampleAudioText": "She is wearing a red sweater.",
+    "grammarPoints": [
+      "現在進行形"
+    ]
   },
   {
     "id": "g5-w-jacket",
@@ -10347,12 +10867,12 @@
     "theme": "人と体と服",
     "en": "jacket",
     "ja": "ジャケット",
-    "example": "Look at the jacket.",
-    "exampleJa": "そのジャケットを見て。",
+    "example": "Please put on your jacket.",
+    "exampleJa": "上着を着てください。",
     "reading": "",
-    "explanation": "jacket：ジャケット。例文の場面で使ってみよう。",
+    "explanation": "jacket：ジャケット。学ぶ表現：依頼・句動詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10366,7 +10886,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "jacket",
-    "exampleAudioText": "Look at the jacket."
+    "exampleAudioText": "Please put on your jacket.",
+    "grammarPoints": [
+      "依頼",
+      "句動詞"
+    ]
   },
   {
     "id": "g5-w-skirt",
@@ -10374,12 +10898,12 @@
     "theme": "人と体と服",
     "en": "skirt",
     "ja": "スカート",
-    "example": "Look at the skirt.",
-    "exampleJa": "そのスカートを見て。",
+    "example": "How much is this skirt?",
+    "exampleJa": "このスカートはいくらですか。",
     "reading": "",
-    "explanation": "skirt：スカート。例文の場面で使ってみよう。",
+    "explanation": "skirt：スカート。学ぶ表現：値段の疑問文。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10393,7 +10917,10 @@
     },
     "audioMode": "google-neural2",
     "audioText": "skirt",
-    "exampleAudioText": "Look at the skirt."
+    "exampleAudioText": "How much is this skirt?",
+    "grammarPoints": [
+      "値段の疑問文"
+    ]
   },
   {
     "id": "g5-w-dress",
@@ -10401,12 +10928,12 @@
     "theme": "人と体と服",
     "en": "dress",
     "ja": "ワンピース",
-    "example": "Look at the dress.",
-    "exampleJa": "そのワンピースを見て。",
+    "example": "Her dress is blue and white.",
+    "exampleJa": "彼女のワンピースは青と白です。",
     "reading": "",
-    "explanation": "dress：ワンピース。例文の場面で使ってみよう。",
+    "explanation": "dress：ワンピース。学ぶ表現：色・接続詞。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10420,7 +10947,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "dress",
-    "exampleAudioText": "Look at the dress."
+    "exampleAudioText": "Her dress is blue and white.",
+    "grammarPoints": [
+      "色",
+      "接続詞"
+    ]
   },
   {
     "id": "g5-w-sock",
@@ -10428,12 +10959,12 @@
     "theme": "人と体と服",
     "en": "sock",
     "ja": "靴下",
-    "example": "Look at the sock.",
-    "exampleJa": "その靴下を見て。",
+    "example": "Where is my other sock?",
+    "exampleJa": "もう片方の靴下はどこですか。",
     "reading": "",
-    "explanation": "sock：靴下。例文の場面で使ってみよう。",
+    "explanation": "sock：靴下。学ぶ表現：Where・単数。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10447,7 +10978,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "sock",
-    "exampleAudioText": "Look at the sock."
+    "exampleAudioText": "Where is my other sock?",
+    "grammarPoints": [
+      "Where",
+      "単数"
+    ]
   },
   {
     "id": "g5-w-glove",
@@ -10455,12 +10990,12 @@
     "theme": "人と体と服",
     "en": "glove",
     "ja": "手袋",
-    "example": "Look at the glove.",
-    "exampleJa": "その手袋を見て。",
+    "example": "This glove is for my right hand.",
+    "exampleJa": "この手袋は右手用です。",
     "reading": "",
-    "explanation": "glove：手袋。例文の場面で使ってみよう。",
+    "explanation": "glove：手袋。学ぶ表現：単数・用途。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10474,7 +11009,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "glove",
-    "exampleAudioText": "Look at the glove."
+    "exampleAudioText": "This glove is for my right hand.",
+    "grammarPoints": [
+      "単数",
+      "用途"
+    ]
   },
   {
     "id": "g5-w-boot",
@@ -10482,12 +11021,12 @@
     "theme": "人と体と服",
     "en": "boot",
     "ja": "ブーツ",
-    "example": "Look at the boot.",
-    "exampleJa": "そのブーツを見て。",
+    "example": "There is a stone in my boot.",
+    "exampleJa": "私のブーツの片方に石が入っています。",
     "reading": "",
-    "explanation": "boot：ブーツ。例文の場面で使ってみよう。",
+    "explanation": "boot：ブーツ。学ぶ表現：単数・存在。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10501,7 +11040,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "boot",
-    "exampleAudioText": "Look at the boot."
+    "exampleAudioText": "There is a stone in my boot.",
+    "grammarPoints": [
+      "単数",
+      "存在"
+    ]
   },
   {
     "id": "g5-w-uniform",
@@ -10509,12 +11052,12 @@
     "theme": "人と体と服",
     "en": "uniform",
     "ja": "制服",
-    "example": "Look at the uniform.",
-    "exampleJa": "その制服を見て。",
+    "example": "We wear a uniform at school.",
+    "exampleJa": "私たちは学校で制服を着ます。",
     "reading": "",
-    "explanation": "uniform：制服。例文の場面で使ってみよう。",
+    "explanation": "uniform：制服。学ぶ表現：習慣・場所。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
@@ -10528,7 +11071,11 @@
     },
     "audioMode": "google-neural2",
     "audioText": "uniform",
-    "exampleAudioText": "Look at the uniform."
+    "exampleAudioText": "We wear a uniform at school.",
+    "grammarPoints": [
+      "習慣",
+      "場所"
+    ]
   },
   {
     "id": "g5-w-i",
@@ -18338,27 +18885,31 @@
     "kind": "word",
     "theme": "生活と時間",
     "en": "teeth",
-    "ja": "歯（複数）",
+    "ja": "歯（2本以上）",
     "example": "I brush my teeth.",
     "exampleJa": "歯を磨きます。",
     "reading": "",
-    "explanation": "teeth：歯（複数）。例文の場面で使ってみよう。",
+    "explanation": "teeth は tooth の複数形。歯をまとめて言うときは my teeth。I brush my teeth. は「歯を磨きます」。1本なら a tooth / one tooth と言います。",
     "grade": 5,
-    "revision": 2,
+    "revision": 3,
     "prerequisites": [],
     "source": "独自教材／範囲参照: https://www.eiken.or.jp/eiken/exam/grade_5/",
     "review": "独自に作成・本人試用待ち",
     "image": {
-      "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-teeth-word-87728.png",
-      "credit": "AI生成イラスト",
-      "sourceWord": "歯並び",
-      "sourceMeaning": "口の中に複数の歯が並んでいるようす。",
-      "sourceSheet": "sheets/eiken-20261101-sheet03.png",
-      "sourceReview": "目視確認済み：コマ順・被写体・単複・語義と一致。 対象：teeth／歯（複数）"
+      "url": "assets/vocabulary/g5-w-teeth.svg",
+      "credit": "本アプリ独自の学習図（SVG）",
+      "sourceWord": "歯（2本以上）",
+      "sourceMeaning": "歯を3本並べた複数形の学習図。",
+      "sourceSheet": null,
+      "sourceReview": "単数は1本、複数は3本。形と本数をSVGソースと表示で確認。"
     },
     "audioMode": "google-neural2",
     "audioText": "teeth",
-    "exampleAudioText": "I brush my teeth."
+    "exampleAudioText": "I brush my teeth.",
+    "grammarPoints": [
+      "不規則複数",
+      "習慣"
+    ]
   },
   {
     "id": "g5-w-money",

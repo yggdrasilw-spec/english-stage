@@ -10,7 +10,7 @@ test('reviewed image links cover the published cards with matching senses and pr
  for(const [id,link] of Object.entries(links)){
   const c=cards.find(c=>c.id===id);
   assert.equal(c.en,link.english);assert.equal(c.ja,link.japanese);
-  assert.equal(c.image.url,'https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/'+link.file);
+  assert.equal(c.image.url,link.localFile||'https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/'+link.file);
   assert.ok(c.image.sourceReview);assert.equal(c.image.sourceMeaning,link.sourceMeaning);
   assert.equal(adoptions.find(a=>a.id===id).url,c.image.url);
  }

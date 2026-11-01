@@ -3391,12 +3391,12 @@
   },
   {
     "id": "g5-w-tooth",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-4358.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "歯",
-    "sourceMeaning": "食べ物をかみくだくために口の中にある、かたい部分。",
-    "sourceSheet": "sheets/wave8-sheet-22.png",
-    "sourceReview": "目視確認済み: 歯（は）: 食べ物をかみくだくために口の中にある、かたい部分。",
+    "url": "assets/vocabulary/g5-w-tooth.svg",
+    "credit": "本アプリ独自の学習図（SVG）",
+    "sourceWord": "歯（1本）",
+    "sourceMeaning": "歯を1本だけ描いた単数形の学習図。",
+    "sourceSheet": null,
+    "sourceReview": "単数は1本、複数は3本。形と本数をSVGソースと表示で確認。",
     "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
   },
   {
@@ -6421,12 +6421,12 @@
   },
   {
     "id": "g5-w-teeth",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-teeth-word-87728.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "歯並び",
-    "sourceMeaning": "口の中に複数の歯が並んでいるようす。",
-    "sourceSheet": "sheets/eiken-20261101-sheet03.png",
-    "sourceReview": "目視確認済み：コマ順・被写体・単複・語義と一致。 対象：teeth／歯（複数）",
+    "url": "assets/vocabulary/g5-w-teeth.svg",
+    "credit": "本アプリ独自の学習図（SVG）",
+    "sourceWord": "歯（2本以上）",
+    "sourceMeaning": "歯を3本並べた複数形の学習図。",
+    "sourceSheet": null,
+    "sourceReview": "単数は1本、複数は3本。形と本数をSVGソースと表示で確認。",
     "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
   },
   {

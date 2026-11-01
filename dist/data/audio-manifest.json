@@ -2,7 +2,7 @@
   "provider": "Google Cloud Text-to-Speech",
   "voice": "en-US-Neural2-F",
   "languageCode": "en-US",
-  "generatedAt": "2026-11-01T12:33:45.110Z",
+  "generatedAt": "2026-11-01T14:18:46.305Z",
   "review": "未試聴",
   "terms": "https://cloud.google.com/terms/",
   "files": [
@@ -8030,17 +8030,17 @@
       "id": "g5-w-sandwich",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the sandwich.",
-      "path": "assets/audio/g5-w-sandwich-example-normal-5bf3f26235513da3.mp3",
-      "hash": "5bf3f26235513da3"
+      "text": "I eat a sandwich for lunch.",
+      "path": "assets/audio/g5-w-sandwich-example-normal-27e8122416cd5124.mp3",
+      "hash": "27e8122416cd5124"
     },
     {
       "id": "g5-w-sandwich",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the sandwich.",
-      "path": "assets/audio/g5-w-sandwich-example-slow-a4ed0fa8a3add7a2.mp3",
-      "hash": "a4ed0fa8a3add7a2"
+      "text": "I eat a sandwich for lunch.",
+      "path": "assets/audio/g5-w-sandwich-example-slow-a95a00b673c87c56.mp3",
+      "hash": "a95a00b673c87c56"
     },
     {
       "id": "g5-w-hamburger",
@@ -8062,17 +8062,17 @@
       "id": "g5-w-hamburger",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the hamburger.",
-      "path": "assets/audio/g5-w-hamburger-example-normal-d5bf3ac561281dc7.mp3",
-      "hash": "d5bf3ac561281dc7"
+      "text": "Do you want a hamburger?",
+      "path": "assets/audio/g5-w-hamburger-example-normal-58399277e3aad17c.mp3",
+      "hash": "58399277e3aad17c"
     },
     {
       "id": "g5-w-hamburger",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the hamburger.",
-      "path": "assets/audio/g5-w-hamburger-example-slow-9f0c65621764dc63.mp3",
-      "hash": "9f0c65621764dc63"
+      "text": "Do you want a hamburger?",
+      "path": "assets/audio/g5-w-hamburger-example-slow-4c5119865b652bf4.mp3",
+      "hash": "4c5119865b652bf4"
     },
     {
       "id": "g5-w-potato",
@@ -8094,17 +8094,17 @@
       "id": "g5-w-potato",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the potato.",
-      "path": "assets/audio/g5-w-potato-example-normal-227164901cc74aea.mp3",
-      "hash": "227164901cc74aea"
+      "text": "This potato is big.",
+      "path": "assets/audio/g5-w-potato-example-normal-5d75b3a5b35ec0b1.mp3",
+      "hash": "5d75b3a5b35ec0b1"
     },
     {
       "id": "g5-w-potato",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the potato.",
-      "path": "assets/audio/g5-w-potato-example-slow-b15138933fcf762e.mp3",
-      "hash": "b15138933fcf762e"
+      "text": "This potato is big.",
+      "path": "assets/audio/g5-w-potato-example-slow-dfd794e2b4183584.mp3",
+      "hash": "dfd794e2b4183584"
     },
     {
       "id": "g5-w-tomato",
@@ -8126,17 +8126,17 @@
       "id": "g5-w-tomato",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the tomato.",
-      "path": "assets/audio/g5-w-tomato-example-normal-9ffb0a1f9514d8d8.mp3",
-      "hash": "9ffb0a1f9514d8d8"
+      "text": "She likes tomatoes.",
+      "path": "assets/audio/g5-w-tomato-example-normal-e94e9c9112c199c1.mp3",
+      "hash": "e94e9c9112c199c1"
     },
     {
       "id": "g5-w-tomato",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the tomato.",
-      "path": "assets/audio/g5-w-tomato-example-slow-93e4874c5e489e0a.mp3",
-      "hash": "93e4874c5e489e0a"
+      "text": "She likes tomatoes.",
+      "path": "assets/audio/g5-w-tomato-example-slow-adf49007359953fc.mp3",
+      "hash": "adf49007359953fc"
     },
     {
       "id": "g5-w-carrot",
@@ -8158,17 +8158,17 @@
       "id": "g5-w-carrot",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the carrot.",
-      "path": "assets/audio/g5-w-carrot-example-normal-e55e4b2e2674973b.mp3",
-      "hash": "e55e4b2e2674973b"
+      "text": "The rabbit is eating a carrot.",
+      "path": "assets/audio/g5-w-carrot-example-normal-a7a90cb6269e9b50.mp3",
+      "hash": "a7a90cb6269e9b50"
     },
     {
       "id": "g5-w-carrot",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the carrot.",
-      "path": "assets/audio/g5-w-carrot-example-slow-63659bd068956555.mp3",
-      "hash": "63659bd068956555"
+      "text": "The rabbit is eating a carrot.",
+      "path": "assets/audio/g5-w-carrot-example-slow-6d2a85cd86639a38.mp3",
+      "hash": "6d2a85cd86639a38"
     },
     {
       "id": "g5-w-onion",
@@ -8190,17 +8190,17 @@
       "id": "g5-w-onion",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the onion.",
-      "path": "assets/audio/g5-w-onion-example-normal-94aecfaf03f6d962.mp3",
-      "hash": "94aecfaf03f6d962"
+      "text": "There is an onion in the bag.",
+      "path": "assets/audio/g5-w-onion-example-normal-cc14e699e21e1972.mp3",
+      "hash": "cc14e699e21e1972"
     },
     {
       "id": "g5-w-onion",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the onion.",
-      "path": "assets/audio/g5-w-onion-example-slow-21a0926da711cfd0.mp3",
-      "hash": "21a0926da711cfd0"
+      "text": "There is an onion in the bag.",
+      "path": "assets/audio/g5-w-onion-example-slow-0adbcaa4222b1d04.mp3",
+      "hash": "0adbcaa4222b1d04"
     },
     {
       "id": "g5-w-lemon",
@@ -8222,17 +8222,17 @@
       "id": "g5-w-lemon",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the lemon.",
-      "path": "assets/audio/g5-w-lemon-example-normal-3780f2f2fa970df0.mp3",
-      "hash": "3780f2f2fa970df0"
+      "text": "This lemon is yellow.",
+      "path": "assets/audio/g5-w-lemon-example-normal-669c3fccea86911f.mp3",
+      "hash": "669c3fccea86911f"
     },
     {
       "id": "g5-w-lemon",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the lemon.",
-      "path": "assets/audio/g5-w-lemon-example-slow-2e30cd7ab8c79887.mp3",
-      "hash": "2e30cd7ab8c79887"
+      "text": "This lemon is yellow.",
+      "path": "assets/audio/g5-w-lemon-example-slow-1553c402f0a7ac08.mp3",
+      "hash": "1553c402f0a7ac08"
     },
     {
       "id": "g5-w-peach",
@@ -8254,17 +8254,17 @@
       "id": "g5-w-peach",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the peach.",
-      "path": "assets/audio/g5-w-peach-example-normal-7b9c0b482792920a.mp3",
-      "hash": "7b9c0b482792920a"
+      "text": "How many peaches do you have?",
+      "path": "assets/audio/g5-w-peach-example-normal-cee07237cd799bfe.mp3",
+      "hash": "cee07237cd799bfe"
     },
     {
       "id": "g5-w-peach",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the peach.",
-      "path": "assets/audio/g5-w-peach-example-slow-84af0fbe1e2d0afb.mp3",
-      "hash": "84af0fbe1e2d0afb"
+      "text": "How many peaches do you have?",
+      "path": "assets/audio/g5-w-peach-example-slow-b4bc53970a0dfafe.mp3",
+      "hash": "b4bc53970a0dfafe"
     },
     {
       "id": "g5-w-melon",
@@ -8286,17 +8286,17 @@
       "id": "g5-w-melon",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the melon.",
-      "path": "assets/audio/g5-w-melon-example-normal-135bb711223e2c48.mp3",
-      "hash": "135bb711223e2c48"
+      "text": "Let's eat this melon.",
+      "path": "assets/audio/g5-w-melon-example-normal-1c6b82b65a086adb.mp3",
+      "hash": "1c6b82b65a086adb"
     },
     {
       "id": "g5-w-melon",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the melon.",
-      "path": "assets/audio/g5-w-melon-example-slow-55499160e3f745bf.mp3",
-      "hash": "55499160e3f745bf"
+      "text": "Let's eat this melon.",
+      "path": "assets/audio/g5-w-melon-example-slow-0fcdea9e8617e7b9.mp3",
+      "hash": "0fcdea9e8617e7b9"
     },
     {
       "id": "g5-w-cookie",
@@ -8318,17 +8318,17 @@
       "id": "g5-w-cookie",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the cookie.",
-      "path": "assets/audio/g5-w-cookie-example-normal-c09153e5c6df3d7c.mp3",
-      "hash": "c09153e5c6df3d7c"
+      "text": "Can I have a cookie, please?",
+      "path": "assets/audio/g5-w-cookie-example-normal-000254169bf01bff.mp3",
+      "hash": "000254169bf01bff"
     },
     {
       "id": "g5-w-cookie",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the cookie.",
-      "path": "assets/audio/g5-w-cookie-example-slow-4bf1a2056f0992fe.mp3",
-      "hash": "4bf1a2056f0992fe"
+      "text": "Can I have a cookie, please?",
+      "path": "assets/audio/g5-w-cookie-example-slow-e90a9c3ebfd3196b.mp3",
+      "hash": "e90a9c3ebfd3196b"
     },
     {
       "id": "g5-w-cup",
@@ -8350,17 +8350,17 @@
       "id": "g5-w-cup",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the cup.",
-      "path": "assets/audio/g5-w-cup-example-normal-4655fc5cb7625f37.mp3",
-      "hash": "4655fc5cb7625f37"
+      "text": "This is my cup.",
+      "path": "assets/audio/g5-w-cup-example-normal-86c833db1aacc6bf.mp3",
+      "hash": "86c833db1aacc6bf"
     },
     {
       "id": "g5-w-cup",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the cup.",
-      "path": "assets/audio/g5-w-cup-example-slow-f06d45832337f84b.mp3",
-      "hash": "f06d45832337f84b"
+      "text": "This is my cup.",
+      "path": "assets/audio/g5-w-cup-example-slow-66a27bc28716c544.mp3",
+      "hash": "66a27bc28716c544"
     },
     {
       "id": "g5-w-glass",
@@ -8382,17 +8382,17 @@
       "id": "g5-w-glass",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the glass.",
-      "path": "assets/audio/g5-w-glass-example-normal-cd6f870949460606.mp3",
-      "hash": "cd6f870949460606"
+      "text": "There is some water in the glass.",
+      "path": "assets/audio/g5-w-glass-example-normal-932e2a05535d7bf7.mp3",
+      "hash": "932e2a05535d7bf7"
     },
     {
       "id": "g5-w-glass",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the glass.",
-      "path": "assets/audio/g5-w-glass-example-slow-4140365fd053576e.mp3",
-      "hash": "4140365fd053576e"
+      "text": "There is some water in the glass.",
+      "path": "assets/audio/g5-w-glass-example-slow-6b33b8988dfd27d7.mp3",
+      "hash": "6b33b8988dfd27d7"
     },
     {
       "id": "g5-w-plate",
@@ -8414,17 +8414,17 @@
       "id": "g5-w-plate",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the plate.",
-      "path": "assets/audio/g5-w-plate-example-normal-f5c1bccf0cef8abc.mp3",
-      "hash": "f5c1bccf0cef8abc"
+      "text": "Please put the bread on this plate.",
+      "path": "assets/audio/g5-w-plate-example-normal-127c5ff983bb6677.mp3",
+      "hash": "127c5ff983bb6677"
     },
     {
       "id": "g5-w-plate",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the plate.",
-      "path": "assets/audio/g5-w-plate-example-slow-f48ef51e890c0f84.mp3",
-      "hash": "f48ef51e890c0f84"
+      "text": "Please put the bread on this plate.",
+      "path": "assets/audio/g5-w-plate-example-slow-30bd202cfc3fe954.mp3",
+      "hash": "30bd202cfc3fe954"
     },
     {
       "id": "g5-w-spoon",
@@ -8446,17 +8446,17 @@
       "id": "g5-w-spoon",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the spoon.",
-      "path": "assets/audio/g5-w-spoon-example-normal-aabfc47f04c25822.mp3",
-      "hash": "aabfc47f04c25822"
+      "text": "I eat soup with a spoon.",
+      "path": "assets/audio/g5-w-spoon-example-normal-4e48a6190241048e.mp3",
+      "hash": "4e48a6190241048e"
     },
     {
       "id": "g5-w-spoon",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the spoon.",
-      "path": "assets/audio/g5-w-spoon-example-slow-e9c9a6105b00c0eb.mp3",
-      "hash": "e9c9a6105b00c0eb"
+      "text": "I eat soup with a spoon.",
+      "path": "assets/audio/g5-w-spoon-example-slow-d6a744b29314e593.mp3",
+      "hash": "d6a744b29314e593"
     },
     {
       "id": "g5-w-fork",
@@ -8478,17 +8478,17 @@
       "id": "g5-w-fork",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the fork.",
-      "path": "assets/audio/g5-w-fork-example-normal-4e673a09893d460b.mp3",
-      "hash": "4e673a09893d460b"
+      "text": "Do you need a fork?",
+      "path": "assets/audio/g5-w-fork-example-normal-9cc22fddec825ea5.mp3",
+      "hash": "9cc22fddec825ea5"
     },
     {
       "id": "g5-w-fork",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the fork.",
-      "path": "assets/audio/g5-w-fork-example-slow-c36721167b78aab4.mp3",
-      "hash": "c36721167b78aab4"
+      "text": "Do you need a fork?",
+      "path": "assets/audio/g5-w-fork-example-slow-5459028c9c7e4977.mp3",
+      "hash": "5459028c9c7e4977"
     },
     {
       "id": "g5-w-knife",
@@ -8510,17 +8510,17 @@
       "id": "g5-w-knife",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the knife.",
-      "path": "assets/audio/g5-w-knife-example-normal-46bba6d4c3b3299c.mp3",
-      "hash": "46bba6d4c3b3299c"
+      "text": "This knife is small.",
+      "path": "assets/audio/g5-w-knife-example-normal-917e37f3836d32c0.mp3",
+      "hash": "917e37f3836d32c0"
     },
     {
       "id": "g5-w-knife",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the knife.",
-      "path": "assets/audio/g5-w-knife-example-slow-1fa36dfbb85fe2e3.mp3",
-      "hash": "1fa36dfbb85fe2e3"
+      "text": "This knife is small.",
+      "path": "assets/audio/g5-w-knife-example-slow-003b698f33a663f5.mp3",
+      "hash": "003b698f33a663f5"
     },
     {
       "id": "g5-w-bottle",
@@ -8542,17 +8542,17 @@
       "id": "g5-w-bottle",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the bottle.",
-      "path": "assets/audio/g5-w-bottle-example-normal-a3ff3e92dc4ad96a.mp3",
-      "hash": "a3ff3e92dc4ad96a"
+      "text": "Is this your bottle?",
+      "path": "assets/audio/g5-w-bottle-example-normal-a70175453c11c618.mp3",
+      "hash": "a70175453c11c618"
     },
     {
       "id": "g5-w-bottle",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the bottle.",
-      "path": "assets/audio/g5-w-bottle-example-slow-551577218c8b66da.mp3",
-      "hash": "551577218c8b66da"
+      "text": "Is this your bottle?",
+      "path": "assets/audio/g5-w-bottle-example-slow-05b9229fee33500e.mp3",
+      "hash": "05b9229fee33500e"
     },
     {
       "id": "g5-w-basket",
@@ -8574,17 +8574,17 @@
       "id": "g5-w-basket",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the basket.",
-      "path": "assets/audio/g5-w-basket-example-normal-aa4781019bc5b559.mp3",
-      "hash": "aa4781019bc5b559"
+      "text": "The apples are in the basket.",
+      "path": "assets/audio/g5-w-basket-example-normal-5e2f64d3bf9b1147.mp3",
+      "hash": "5e2f64d3bf9b1147"
     },
     {
       "id": "g5-w-basket",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the basket.",
-      "path": "assets/audio/g5-w-basket-example-slow-4d7f1793cd3ba8f9.mp3",
-      "hash": "4d7f1793cd3ba8f9"
+      "text": "The apples are in the basket.",
+      "path": "assets/audio/g5-w-basket-example-slow-1bcbb79c8dff9a9c.mp3",
+      "hash": "1bcbb79c8dff9a9c"
     },
     {
       "id": "g5-w-coin",
@@ -8606,17 +8606,17 @@
       "id": "g5-w-coin",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the coin.",
-      "path": "assets/audio/g5-w-coin-example-normal-0b818cd0a99e66a0.mp3",
-      "hash": "0b818cd0a99e66a0"
+      "text": "I have a coin in my pocket.",
+      "path": "assets/audio/g5-w-coin-example-normal-37ccef8edfc83bdf.mp3",
+      "hash": "37ccef8edfc83bdf"
     },
     {
       "id": "g5-w-coin",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the coin.",
-      "path": "assets/audio/g5-w-coin-example-slow-ebdd2f79381cb17d.mp3",
-      "hash": "ebdd2f79381cb17d"
+      "text": "I have a coin in my pocket.",
+      "path": "assets/audio/g5-w-coin-example-slow-467564b98e086b22.mp3",
+      "hash": "467564b98e086b22"
     },
     {
       "id": "g5-w-menu",
@@ -8638,17 +8638,17 @@
       "id": "g5-w-menu",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the menu.",
-      "path": "assets/audio/g5-w-menu-example-normal-0ce88a5894b4d131.mp3",
-      "hash": "0ce88a5894b4d131"
+      "text": "Can I see the menu, please?",
+      "path": "assets/audio/g5-w-menu-example-normal-16de33619a729f8b.mp3",
+      "hash": "16de33619a729f8b"
     },
     {
       "id": "g5-w-menu",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the menu.",
-      "path": "assets/audio/g5-w-menu-example-slow-abaaad34742d0319.mp3",
-      "hash": "abaaad34742d0319"
+      "text": "Can I see the menu, please?",
+      "path": "assets/audio/g5-w-menu-example-slow-4a633c629db88efc.mp3",
+      "hash": "4a633c629db88efc"
     },
     {
       "id": "g5-w-present",
@@ -8670,17 +8670,17 @@
       "id": "g5-w-present",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the present.",
-      "path": "assets/audio/g5-w-present-example-normal-b65dac1c5fd2e2e2.mp3",
-      "hash": "b65dac1c5fd2e2e2"
+      "text": "This present is for you.",
+      "path": "assets/audio/g5-w-present-example-normal-3fda692bdb351a63.mp3",
+      "hash": "3fda692bdb351a63"
     },
     {
       "id": "g5-w-present",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the present.",
-      "path": "assets/audio/g5-w-present-example-slow-be7f72cfa71944c2.mp3",
-      "hash": "be7f72cfa71944c2"
+      "text": "This present is for you.",
+      "path": "assets/audio/g5-w-present-example-slow-1ae99734bbe6e213.mp3",
+      "hash": "1ae99734bbe6e213"
     },
     {
       "id": "g5-w-dollar",
@@ -8702,17 +8702,17 @@
       "id": "g5-w-dollar",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the dollar.",
-      "path": "assets/audio/g5-w-dollar-example-normal-bce4ba371a579ec7.mp3",
-      "hash": "bce4ba371a579ec7"
+      "text": "This pen is one dollar.",
+      "path": "assets/audio/g5-w-dollar-example-normal-22623e20fbfe6c51.mp3",
+      "hash": "22623e20fbfe6c51"
     },
     {
       "id": "g5-w-dollar",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the dollar.",
-      "path": "assets/audio/g5-w-dollar-example-slow-d65d848bc11aba91.mp3",
-      "hash": "d65d848bc11aba91"
+      "text": "This pen is one dollar.",
+      "path": "assets/audio/g5-w-dollar-example-slow-9afccb10df4b734a.mp3",
+      "hash": "9afccb10df4b734a"
     },
     {
       "id": "g5-w-bear",
@@ -8734,17 +8734,17 @@
       "id": "g5-w-bear",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the bear.",
-      "path": "assets/audio/g5-w-bear-example-normal-9e8b707653133a0c.mp3",
-      "hash": "9e8b707653133a0c"
+      "text": "Can a bear swim?",
+      "path": "assets/audio/g5-w-bear-example-normal-047608618642bba2.mp3",
+      "hash": "047608618642bba2"
     },
     {
       "id": "g5-w-bear",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the bear.",
-      "path": "assets/audio/g5-w-bear-example-slow-9ff894bfef4b9cf4.mp3",
-      "hash": "9ff894bfef4b9cf4"
+      "text": "Can a bear swim?",
+      "path": "assets/audio/g5-w-bear-example-slow-173cdab4ff5c89d9.mp3",
+      "hash": "173cdab4ff5c89d9"
     },
     {
       "id": "g5-w-tiger",
@@ -8766,17 +8766,17 @@
       "id": "g5-w-tiger",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the tiger.",
-      "path": "assets/audio/g5-w-tiger-example-normal-1303d2007ea012af.mp3",
-      "hash": "1303d2007ea012af"
+      "text": "The tiger is sleeping.",
+      "path": "assets/audio/g5-w-tiger-example-normal-0f60d81f57e76232.mp3",
+      "hash": "0f60d81f57e76232"
     },
     {
       "id": "g5-w-tiger",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the tiger.",
-      "path": "assets/audio/g5-w-tiger-example-slow-d5c17d3d597d71e2.mp3",
-      "hash": "d5c17d3d597d71e2"
+      "text": "The tiger is sleeping.",
+      "path": "assets/audio/g5-w-tiger-example-slow-cba3ef0a05e59f14.mp3",
+      "hash": "cba3ef0a05e59f14"
     },
     {
       "id": "g5-w-fox",
@@ -8798,17 +8798,17 @@
       "id": "g5-w-fox",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the fox.",
-      "path": "assets/audio/g5-w-fox-example-normal-08a8530e2bf6f0f4.mp3",
-      "hash": "08a8530e2bf6f0f4"
+      "text": "That fox has a long tail.",
+      "path": "assets/audio/g5-w-fox-example-normal-a96ae56051da5b8e.mp3",
+      "hash": "a96ae56051da5b8e"
     },
     {
       "id": "g5-w-fox",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the fox.",
-      "path": "assets/audio/g5-w-fox-example-slow-878c631a2853aa2f.mp3",
-      "hash": "878c631a2853aa2f"
+      "text": "That fox has a long tail.",
+      "path": "assets/audio/g5-w-fox-example-slow-c5058f8c53f1fe56.mp3",
+      "hash": "c5058f8c53f1fe56"
     },
     {
       "id": "g5-w-sheep",
@@ -8830,17 +8830,17 @@
       "id": "g5-w-sheep",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the sheep.",
-      "path": "assets/audio/g5-w-sheep-example-normal-aeb8efa0c2578c1a.mp3",
-      "hash": "aeb8efa0c2578c1a"
+      "text": "There are three sheep on the farm.",
+      "path": "assets/audio/g5-w-sheep-example-normal-a148fdaf6a05781d.mp3",
+      "hash": "a148fdaf6a05781d"
     },
     {
       "id": "g5-w-sheep",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the sheep.",
-      "path": "assets/audio/g5-w-sheep-example-slow-eb3d786d76488b0e.mp3",
-      "hash": "eb3d786d76488b0e"
+      "text": "There are three sheep on the farm.",
+      "path": "assets/audio/g5-w-sheep-example-slow-9283c57703d316eb.mp3",
+      "hash": "9283c57703d316eb"
     },
     {
       "id": "g5-w-duck",
@@ -8862,17 +8862,17 @@
       "id": "g5-w-duck",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the duck.",
-      "path": "assets/audio/g5-w-duck-example-normal-f167ec4959856a09.mp3",
-      "hash": "f167ec4959856a09"
+      "text": "The duck is in the water.",
+      "path": "assets/audio/g5-w-duck-example-normal-8ad380c8d5338d37.mp3",
+      "hash": "8ad380c8d5338d37"
     },
     {
       "id": "g5-w-duck",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the duck.",
-      "path": "assets/audio/g5-w-duck-example-slow-5578c171cfe0a662.mp3",
-      "hash": "5578c171cfe0a662"
+      "text": "The duck is in the water.",
+      "path": "assets/audio/g5-w-duck-example-slow-38ba01a9803d8fe8.mp3",
+      "hash": "38ba01a9803d8fe8"
     },
     {
       "id": "g5-w-mouse",
@@ -8894,17 +8894,17 @@
       "id": "g5-w-mouse",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the mouse.",
-      "path": "assets/audio/g5-w-mouse-example-normal-9616aa71727875a3.mp3",
-      "hash": "9616aa71727875a3"
+      "text": "A mouse is under the desk.",
+      "path": "assets/audio/g5-w-mouse-example-normal-036a77dd2ea3ff46.mp3",
+      "hash": "036a77dd2ea3ff46"
     },
     {
       "id": "g5-w-mouse",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the mouse.",
-      "path": "assets/audio/g5-w-mouse-example-slow-3f48b239eecf02c5.mp3",
-      "hash": "3f48b239eecf02c5"
+      "text": "A mouse is under the desk.",
+      "path": "assets/audio/g5-w-mouse-example-slow-0a2b87a548c65e39.mp3",
+      "hash": "0a2b87a548c65e39"
     },
     {
       "id": "g5-w-turtle",
@@ -8926,17 +8926,17 @@
       "id": "g5-w-turtle",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the turtle.",
-      "path": "assets/audio/g5-w-turtle-example-normal-06a4fb33b8416546.mp3",
-      "hash": "06a4fb33b8416546"
+      "text": "This turtle can swim.",
+      "path": "assets/audio/g5-w-turtle-example-normal-55df3ab199fe77d1.mp3",
+      "hash": "55df3ab199fe77d1"
     },
     {
       "id": "g5-w-turtle",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the turtle.",
-      "path": "assets/audio/g5-w-turtle-example-slow-c2166a63c3757151.mp3",
-      "hash": "c2166a63c3757151"
+      "text": "This turtle can swim.",
+      "path": "assets/audio/g5-w-turtle-example-slow-601436cc9f6628e3.mp3",
+      "hash": "601436cc9f6628e3"
     },
     {
       "id": "g5-w-snake",
@@ -8958,17 +8958,17 @@
       "id": "g5-w-snake",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the snake.",
-      "path": "assets/audio/g5-w-snake-example-normal-39e7ecf6393361f1.mp3",
-      "hash": "39e7ecf6393361f1"
+      "text": "That snake is very long.",
+      "path": "assets/audio/g5-w-snake-example-normal-364bc9d0cbafe783.mp3",
+      "hash": "364bc9d0cbafe783"
     },
     {
       "id": "g5-w-snake",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the snake.",
-      "path": "assets/audio/g5-w-snake-example-slow-bf2a959ec498167c.mp3",
-      "hash": "bf2a959ec498167c"
+      "text": "That snake is very long.",
+      "path": "assets/audio/g5-w-snake-example-slow-ac552cde6a3c1046.mp3",
+      "hash": "ac552cde6a3c1046"
     },
     {
       "id": "g5-w-frog",
@@ -8990,17 +8990,17 @@
       "id": "g5-w-frog",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the frog.",
-      "path": "assets/audio/g5-w-frog-example-normal-af22e00911e8ef19.mp3",
-      "hash": "af22e00911e8ef19"
+      "text": "The frog can jump.",
+      "path": "assets/audio/g5-w-frog-example-normal-c64c9e96761c0f86.mp3",
+      "hash": "c64c9e96761c0f86"
     },
     {
       "id": "g5-w-frog",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the frog.",
-      "path": "assets/audio/g5-w-frog-example-slow-f10dbb2ae1b64b0f.mp3",
-      "hash": "f10dbb2ae1b64b0f"
+      "text": "The frog can jump.",
+      "path": "assets/audio/g5-w-frog-example-slow-929b6bdfa39fbab4.mp3",
+      "hash": "929b6bdfa39fbab4"
     },
     {
       "id": "g5-w-butterfly",
@@ -9022,17 +9022,17 @@
       "id": "g5-w-butterfly",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the butterfly.",
-      "path": "assets/audio/g5-w-butterfly-example-normal-12129f759543e46b.mp3",
-      "hash": "12129f759543e46b"
+      "text": "A butterfly is on the flower.",
+      "path": "assets/audio/g5-w-butterfly-example-normal-976351c184a897ba.mp3",
+      "hash": "976351c184a897ba"
     },
     {
       "id": "g5-w-butterfly",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the butterfly.",
-      "path": "assets/audio/g5-w-butterfly-example-slow-daa4e470f08cb425.mp3",
-      "hash": "daa4e470f08cb425"
+      "text": "A butterfly is on the flower.",
+      "path": "assets/audio/g5-w-butterfly-example-slow-36b1594ffd875b82.mp3",
+      "hash": "36b1594ffd875b82"
     },
     {
       "id": "g5-w-ant",
@@ -9054,17 +9054,17 @@
       "id": "g5-w-ant",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the ant.",
-      "path": "assets/audio/g5-w-ant-example-normal-f688c6126cea68d1.mp3",
-      "hash": "f688c6126cea68d1"
+      "text": "An ant is carrying food.",
+      "path": "assets/audio/g5-w-ant-example-normal-203c9a2c8bf18a48.mp3",
+      "hash": "203c9a2c8bf18a48"
     },
     {
       "id": "g5-w-ant",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the ant.",
-      "path": "assets/audio/g5-w-ant-example-slow-5114916841ad719b.mp3",
-      "hash": "5114916841ad719b"
+      "text": "An ant is carrying food.",
+      "path": "assets/audio/g5-w-ant-example-slow-bee145dc8bc783a9.mp3",
+      "hash": "bee145dc8bc783a9"
     },
     {
       "id": "g5-w-bee",
@@ -9086,17 +9086,17 @@
       "id": "g5-w-bee",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the bee.",
-      "path": "assets/audio/g5-w-bee-example-normal-a168a3df763784bf.mp3",
-      "hash": "a168a3df763784bf"
+      "text": "The bee is near the flower.",
+      "path": "assets/audio/g5-w-bee-example-normal-9f263b9f193a8718.mp3",
+      "hash": "9f263b9f193a8718"
     },
     {
       "id": "g5-w-bee",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the bee.",
-      "path": "assets/audio/g5-w-bee-example-slow-802a09aff5e3fbcf.mp3",
-      "hash": "802a09aff5e3fbcf"
+      "text": "The bee is near the flower.",
+      "path": "assets/audio/g5-w-bee-example-slow-f66d462e7dfe2790.mp3",
+      "hash": "f66d462e7dfe2790"
     },
     {
       "id": "g5-w-pet",
@@ -9118,17 +9118,17 @@
       "id": "g5-w-pet",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the pet.",
-      "path": "assets/audio/g5-w-pet-example-normal-5db1c51ab429ba23.mp3",
-      "hash": "5db1c51ab429ba23"
+      "text": "Do you have a pet?",
+      "path": "assets/audio/g5-w-pet-example-normal-0bd1eb1ced1a6398.mp3",
+      "hash": "0bd1eb1ced1a6398"
     },
     {
       "id": "g5-w-pet",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the pet.",
-      "path": "assets/audio/g5-w-pet-example-slow-cdd8eaa0dcdc58b1.mp3",
-      "hash": "cdd8eaa0dcdc58b1"
+      "text": "Do you have a pet?",
+      "path": "assets/audio/g5-w-pet-example-slow-8e4b17a8585b7430.mp3",
+      "hash": "8e4b17a8585b7430"
     },
     {
       "id": "g5-w-flower",
@@ -9150,17 +9150,17 @@
       "id": "g5-w-flower",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the flower.",
-      "path": "assets/audio/g5-w-flower-example-normal-05adb80d08846a38.mp3",
-      "hash": "05adb80d08846a38"
+      "text": "These flowers are for my mother.",
+      "path": "assets/audio/g5-w-flower-example-normal-d9b9a35fd9afc01a.mp3",
+      "hash": "d9b9a35fd9afc01a"
     },
     {
       "id": "g5-w-flower",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the flower.",
-      "path": "assets/audio/g5-w-flower-example-slow-3a2b23bc230d07ec.mp3",
-      "hash": "3a2b23bc230d07ec"
+      "text": "These flowers are for my mother.",
+      "path": "assets/audio/g5-w-flower-example-slow-126367c7805e10d0.mp3",
+      "hash": "126367c7805e10d0"
     },
     {
       "id": "g5-w-tree",
@@ -9182,17 +9182,17 @@
       "id": "g5-w-tree",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the tree.",
-      "path": "assets/audio/g5-w-tree-example-normal-2076582c6e9e6df5.mp3",
-      "hash": "2076582c6e9e6df5"
+      "text": "There is a bird in the tree.",
+      "path": "assets/audio/g5-w-tree-example-normal-0d8592d95ab4ebab.mp3",
+      "hash": "0d8592d95ab4ebab"
     },
     {
       "id": "g5-w-tree",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the tree.",
-      "path": "assets/audio/g5-w-tree-example-slow-60e49bb435beae8a.mp3",
-      "hash": "60e49bb435beae8a"
+      "text": "There is a bird in the tree.",
+      "path": "assets/audio/g5-w-tree-example-slow-6c52150f51d3cf33.mp3",
+      "hash": "6c52150f51d3cf33"
     },
     {
       "id": "g5-w-leaf",
@@ -9214,17 +9214,17 @@
       "id": "g5-w-leaf",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the leaf.",
-      "path": "assets/audio/g5-w-leaf-example-normal-2694a305d5c6f803.mp3",
-      "hash": "2694a305d5c6f803"
+      "text": "This leaf is green.",
+      "path": "assets/audio/g5-w-leaf-example-normal-d98f4525327e6433.mp3",
+      "hash": "d98f4525327e6433"
     },
     {
       "id": "g5-w-leaf",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the leaf.",
-      "path": "assets/audio/g5-w-leaf-example-slow-b1764a17712fe478.mp3",
-      "hash": "b1764a17712fe478"
+      "text": "This leaf is green.",
+      "path": "assets/audio/g5-w-leaf-example-slow-691bb7ec09f236e0.mp3",
+      "hash": "691bb7ec09f236e0"
     },
     {
       "id": "g5-w-river",
@@ -9246,17 +9246,17 @@
       "id": "g5-w-river",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the river.",
-      "path": "assets/audio/g5-w-river-example-normal-47619e1237d2ae22.mp3",
-      "hash": "47619e1237d2ae22"
+      "text": "We don't swim in this river.",
+      "path": "assets/audio/g5-w-river-example-normal-f6f8ef4e2cfb112d.mp3",
+      "hash": "f6f8ef4e2cfb112d"
     },
     {
       "id": "g5-w-river",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the river.",
-      "path": "assets/audio/g5-w-river-example-slow-f0c3c6fdac1280f5.mp3",
-      "hash": "f0c3c6fdac1280f5"
+      "text": "We don't swim in this river.",
+      "path": "assets/audio/g5-w-river-example-slow-d3970ca75fecc6ae.mp3",
+      "hash": "d3970ca75fecc6ae"
     },
     {
       "id": "g5-w-lake",
@@ -9278,17 +9278,17 @@
       "id": "g5-w-lake",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the lake.",
-      "path": "assets/audio/g5-w-lake-example-normal-211a50a846207529.mp3",
-      "hash": "211a50a846207529"
+      "text": "Is there a lake near your school?",
+      "path": "assets/audio/g5-w-lake-example-normal-198d99237b3b8efb.mp3",
+      "hash": "198d99237b3b8efb"
     },
     {
       "id": "g5-w-lake",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the lake.",
-      "path": "assets/audio/g5-w-lake-example-slow-ebf97ce1e044ad50.mp3",
-      "hash": "ebf97ce1e044ad50"
+      "text": "Is there a lake near your school?",
+      "path": "assets/audio/g5-w-lake-example-slow-a68d8265b293a573.mp3",
+      "hash": "a68d8265b293a573"
     },
     {
       "id": "g5-w-mountain",
@@ -9310,17 +9310,17 @@
       "id": "g5-w-mountain",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the mountain.",
-      "path": "assets/audio/g5-w-mountain-example-normal-7865d544465f09e3.mp3",
-      "hash": "7865d544465f09e3"
+      "text": "We can see a mountain from here.",
+      "path": "assets/audio/g5-w-mountain-example-normal-83042c4c3511837a.mp3",
+      "hash": "83042c4c3511837a"
     },
     {
       "id": "g5-w-mountain",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the mountain.",
-      "path": "assets/audio/g5-w-mountain-example-slow-c7470800b11fe2c6.mp3",
-      "hash": "c7470800b11fe2c6"
+      "text": "We can see a mountain from here.",
+      "path": "assets/audio/g5-w-mountain-example-slow-56105f267659b3d5.mp3",
+      "hash": "56105f267659b3d5"
     },
     {
       "id": "g5-w-star",
@@ -9342,17 +9342,17 @@
       "id": "g5-w-star",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the star.",
-      "path": "assets/audio/g5-w-star-example-normal-f18e54f595953986.mp3",
-      "hash": "f18e54f595953986"
+      "text": "How many stars can you see?",
+      "path": "assets/audio/g5-w-star-example-normal-27b4397cf1e7014b.mp3",
+      "hash": "27b4397cf1e7014b"
     },
     {
       "id": "g5-w-star",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the star.",
-      "path": "assets/audio/g5-w-star-example-slow-93c5e1f35e572548.mp3",
-      "hash": "93c5e1f35e572548"
+      "text": "How many stars can you see?",
+      "path": "assets/audio/g5-w-star-example-slow-8c9360a6cbefd22a.mp3",
+      "hash": "8c9360a6cbefd22a"
     },
     {
       "id": "g5-w-cloud",
@@ -9374,17 +9374,17 @@
       "id": "g5-w-cloud",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the cloud.",
-      "path": "assets/audio/g5-w-cloud-example-normal-ef28f7a65d48f768.mp3",
-      "hash": "ef28f7a65d48f768"
+      "text": "That cloud looks like a dog.",
+      "path": "assets/audio/g5-w-cloud-example-normal-29dab164ef29ff45.mp3",
+      "hash": "29dab164ef29ff45"
     },
     {
       "id": "g5-w-cloud",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the cloud.",
-      "path": "assets/audio/g5-w-cloud-example-slow-7d35755c392b5bb6.mp3",
-      "hash": "7d35755c392b5bb6"
+      "text": "That cloud looks like a dog.",
+      "path": "assets/audio/g5-w-cloud-example-slow-1bf3229168527e42.mp3",
+      "hash": "1bf3229168527e42"
     },
     {
       "id": "g5-w-stone",
@@ -9406,17 +9406,17 @@
       "id": "g5-w-stone",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the stone.",
-      "path": "assets/audio/g5-w-stone-example-normal-05ca01c2e9595efe.mp3",
-      "hash": "05ca01c2e9595efe"
+      "text": "There is a small stone in my shoe.",
+      "path": "assets/audio/g5-w-stone-example-normal-cfee4e44beffef43.mp3",
+      "hash": "cfee4e44beffef43"
     },
     {
       "id": "g5-w-stone",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the stone.",
-      "path": "assets/audio/g5-w-stone-example-slow-e2604ac9ba21b317.mp3",
-      "hash": "e2604ac9ba21b317"
+      "text": "There is a small stone in my shoe.",
+      "path": "assets/audio/g5-w-stone-example-slow-d8086aaaa1fa6d73.mp3",
+      "hash": "d8086aaaa1fa6d73"
     },
     {
       "id": "g5-w-island",
@@ -9438,17 +9438,17 @@
       "id": "g5-w-island",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the island.",
-      "path": "assets/audio/g5-w-island-example-normal-6b6104c1f66b1818.mp3",
-      "hash": "6b6104c1f66b1818"
+      "text": "My friend lives on an island.",
+      "path": "assets/audio/g5-w-island-example-normal-0ddba46d5a7f569a.mp3",
+      "hash": "0ddba46d5a7f569a"
     },
     {
       "id": "g5-w-island",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the island.",
-      "path": "assets/audio/g5-w-island-example-slow-cf29e8e5d5246fd4.mp3",
-      "hash": "cf29e8e5d5246fd4"
+      "text": "My friend lives on an island.",
+      "path": "assets/audio/g5-w-island-example-slow-3111b8bd8cf85b4b.mp3",
+      "hash": "3111b8bd8cf85b4b"
     },
     {
       "id": "g5-w-pencil-case",
@@ -9470,17 +9470,17 @@
       "id": "g5-w-pencil-case",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the pencil case.",
-      "path": "assets/audio/g5-w-pencil-case-example-normal-13d7498fb9bcb8b2.mp3",
-      "hash": "13d7498fb9bcb8b2"
+      "text": "Where is my pencil case?",
+      "path": "assets/audio/g5-w-pencil-case-example-normal-8e4300e0035a222e.mp3",
+      "hash": "8e4300e0035a222e"
     },
     {
       "id": "g5-w-pencil-case",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the pencil case.",
-      "path": "assets/audio/g5-w-pencil-case-example-slow-4888f24811eab26b.mp3",
-      "hash": "4888f24811eab26b"
+      "text": "Where is my pencil case?",
+      "path": "assets/audio/g5-w-pencil-case-example-slow-400395c9312a775d.mp3",
+      "hash": "400395c9312a775d"
     },
     {
       "id": "g5-w-textbook",
@@ -9502,17 +9502,17 @@
       "id": "g5-w-textbook",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the textbook.",
-      "path": "assets/audio/g5-w-textbook-example-normal-594a862a2b454014.mp3",
-      "hash": "594a862a2b454014"
+      "text": "Please open your textbook.",
+      "path": "assets/audio/g5-w-textbook-example-normal-ca66f81ed8f5ef56.mp3",
+      "hash": "ca66f81ed8f5ef56"
     },
     {
       "id": "g5-w-textbook",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the textbook.",
-      "path": "assets/audio/g5-w-textbook-example-slow-fb01f62c4cac8a15.mp3",
-      "hash": "fb01f62c4cac8a15"
+      "text": "Please open your textbook.",
+      "path": "assets/audio/g5-w-textbook-example-slow-9aeeaaf16a1ee81a.mp3",
+      "hash": "9aeeaaf16a1ee81a"
     },
     {
       "id": "g5-w-dictionary",
@@ -9534,17 +9534,17 @@
       "id": "g5-w-dictionary",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the dictionary.",
-      "path": "assets/audio/g5-w-dictionary-example-normal-fc161bcdcbd3e94f.mp3",
-      "hash": "fc161bcdcbd3e94f"
+      "text": "I use this dictionary at school.",
+      "path": "assets/audio/g5-w-dictionary-example-normal-3013fe244dc6cd56.mp3",
+      "hash": "3013fe244dc6cd56"
     },
     {
       "id": "g5-w-dictionary",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the dictionary.",
-      "path": "assets/audio/g5-w-dictionary-example-slow-c773a6b3ed7b0abe.mp3",
-      "hash": "c773a6b3ed7b0abe"
+      "text": "I use this dictionary at school.",
+      "path": "assets/audio/g5-w-dictionary-example-slow-d9415cbf26fafb97.mp3",
+      "hash": "d9415cbf26fafb97"
     },
     {
       "id": "g5-w-letter",
@@ -9566,17 +9566,17 @@
       "id": "g5-w-letter",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the letter.",
-      "path": "assets/audio/g5-w-letter-example-normal-d67f93a899c553df.mp3",
-      "hash": "d67f93a899c553df"
+      "text": "She is writing a letter.",
+      "path": "assets/audio/g5-w-letter-example-normal-034a1ce02000eff2.mp3",
+      "hash": "034a1ce02000eff2"
     },
     {
       "id": "g5-w-letter",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the letter.",
-      "path": "assets/audio/g5-w-letter-example-slow-85654f48665baa6e.mp3",
-      "hash": "85654f48665baa6e"
+      "text": "She is writing a letter.",
+      "path": "assets/audio/g5-w-letter-example-slow-e9e3b63385521fc9.mp3",
+      "hash": "e9e3b63385521fc9"
     },
     {
       "id": "g5-w-stamp",
@@ -9598,17 +9598,17 @@
       "id": "g5-w-stamp",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the stamp.",
-      "path": "assets/audio/g5-w-stamp-example-normal-e96d7bc629f2c01e.mp3",
-      "hash": "e96d7bc629f2c01e"
+      "text": "I need a stamp for this letter.",
+      "path": "assets/audio/g5-w-stamp-example-normal-f94693a71ebb6023.mp3",
+      "hash": "f94693a71ebb6023"
     },
     {
       "id": "g5-w-stamp",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the stamp.",
-      "path": "assets/audio/g5-w-stamp-example-slow-bed4dea805fa3873.mp3",
-      "hash": "bed4dea805fa3873"
+      "text": "I need a stamp for this letter.",
+      "path": "assets/audio/g5-w-stamp-example-slow-e1e5670ce3ca1268.mp3",
+      "hash": "e1e5670ce3ca1268"
     },
     {
       "id": "g5-w-postcard",
@@ -9630,17 +9630,17 @@
       "id": "g5-w-postcard",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the postcard.",
-      "path": "assets/audio/g5-w-postcard-example-normal-cdd196f597264aec.mp3",
-      "hash": "cdd196f597264aec"
+      "text": "This postcard is from my uncle.",
+      "path": "assets/audio/g5-w-postcard-example-normal-4928bde755038284.mp3",
+      "hash": "4928bde755038284"
     },
     {
       "id": "g5-w-postcard",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the postcard.",
-      "path": "assets/audio/g5-w-postcard-example-slow-755fd2f11d83a513.mp3",
-      "hash": "755fd2f11d83a513"
+      "text": "This postcard is from my uncle.",
+      "path": "assets/audio/g5-w-postcard-example-slow-bd6dbba498ce19a6.mp3",
+      "hash": "bd6dbba498ce19a6"
     },
     {
       "id": "g5-w-calendar",
@@ -9662,17 +9662,17 @@
       "id": "g5-w-calendar",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the calendar.",
-      "path": "assets/audio/g5-w-calendar-example-normal-97b31840c3f32477.mp3",
-      "hash": "97b31840c3f32477"
+      "text": "The calendar is on the wall.",
+      "path": "assets/audio/g5-w-calendar-example-normal-5577dd3c14ac360b.mp3",
+      "hash": "5577dd3c14ac360b"
     },
     {
       "id": "g5-w-calendar",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the calendar.",
-      "path": "assets/audio/g5-w-calendar-example-slow-87a180e8ff87b3ff.mp3",
-      "hash": "87a180e8ff87b3ff"
+      "text": "The calendar is on the wall.",
+      "path": "assets/audio/g5-w-calendar-example-slow-08ea04b5bdf5bed0.mp3",
+      "hash": "08ea04b5bdf5bed0"
     },
     {
       "id": "g5-w-camera",
@@ -9694,17 +9694,17 @@
       "id": "g5-w-camera",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the camera.",
-      "path": "assets/audio/g5-w-camera-example-normal-dd218378c056b6e3.mp3",
-      "hash": "dd218378c056b6e3"
+      "text": "Can you use this camera?",
+      "path": "assets/audio/g5-w-camera-example-normal-135a07c42f5df467.mp3",
+      "hash": "135a07c42f5df467"
     },
     {
       "id": "g5-w-camera",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the camera.",
-      "path": "assets/audio/g5-w-camera-example-slow-68fdb31f2417e2d1.mp3",
-      "hash": "68fdb31f2417e2d1"
+      "text": "Can you use this camera?",
+      "path": "assets/audio/g5-w-camera-example-slow-0dc10f542267e5f9.mp3",
+      "hash": "0dc10f542267e5f9"
     },
     {
       "id": "g5-w-phone",
@@ -9726,17 +9726,17 @@
       "id": "g5-w-phone",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the phone.",
-      "path": "assets/audio/g5-w-phone-example-normal-9a7063c8e4b908ea.mp3",
-      "hash": "9a7063c8e4b908ea"
+      "text": "Please don't use your phone here.",
+      "path": "assets/audio/g5-w-phone-example-normal-a41cc646d6e6214b.mp3",
+      "hash": "a41cc646d6e6214b"
     },
     {
       "id": "g5-w-phone",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the phone.",
-      "path": "assets/audio/g5-w-phone-example-slow-340a99d46a05fb5c.mp3",
-      "hash": "340a99d46a05fb5c"
+      "text": "Please don't use your phone here.",
+      "path": "assets/audio/g5-w-phone-example-slow-ad16a71b5724b51e.mp3",
+      "hash": "ad16a71b5724b51e"
     },
     {
       "id": "g5-w-key",
@@ -9758,17 +9758,17 @@
       "id": "g5-w-key",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the key.",
-      "path": "assets/audio/g5-w-key-example-normal-7dddc8eeed459e76.mp3",
-      "hash": "7dddc8eeed459e76"
+      "text": "Is this key yours?",
+      "path": "assets/audio/g5-w-key-example-normal-7cb6e5da44f36c9d.mp3",
+      "hash": "7cb6e5da44f36c9d"
     },
     {
       "id": "g5-w-key",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the key.",
-      "path": "assets/audio/g5-w-key-example-slow-3afd3c9667998f8c.mp3",
-      "hash": "3afd3c9667998f8c"
+      "text": "Is this key yours?",
+      "path": "assets/audio/g5-w-key-example-slow-c66f214097d20a56.mp3",
+      "hash": "c66f214097d20a56"
     },
     {
       "id": "g5-w-umbrella",
@@ -9790,17 +9790,17 @@
       "id": "g5-w-umbrella",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the umbrella.",
-      "path": "assets/audio/g5-w-umbrella-example-normal-24b69755e2f3167d.mp3",
-      "hash": "24b69755e2f3167d"
+      "text": "I don't have an umbrella.",
+      "path": "assets/audio/g5-w-umbrella-example-normal-d742d0a3d1d9f4c6.mp3",
+      "hash": "d742d0a3d1d9f4c6"
     },
     {
       "id": "g5-w-umbrella",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the umbrella.",
-      "path": "assets/audio/g5-w-umbrella-example-slow-a67a0740ffeddff6.mp3",
-      "hash": "a67a0740ffeddff6"
+      "text": "I don't have an umbrella.",
+      "path": "assets/audio/g5-w-umbrella-example-slow-3ca246b783453284.mp3",
+      "hash": "3ca246b783453284"
     },
     {
       "id": "g5-w-bicycle",
@@ -9822,17 +9822,17 @@
       "id": "g5-w-bicycle",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the bicycle.",
-      "path": "assets/audio/g5-w-bicycle-example-normal-56562de6b2fc3307.mp3",
-      "hash": "56562de6b2fc3307"
+      "text": "He goes to school by bicycle.",
+      "path": "assets/audio/g5-w-bicycle-example-normal-7788deeb7db615b2.mp3",
+      "hash": "7788deeb7db615b2"
     },
     {
       "id": "g5-w-bicycle",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the bicycle.",
-      "path": "assets/audio/g5-w-bicycle-example-slow-094ac477d2719e95.mp3",
-      "hash": "094ac477d2719e95"
+      "text": "He goes to school by bicycle.",
+      "path": "assets/audio/g5-w-bicycle-example-slow-e9f670d5b0c2fe4e.mp3",
+      "hash": "e9f670d5b0c2fe4e"
     },
     {
       "id": "g5-w-bike",
@@ -9854,17 +9854,17 @@
       "id": "g5-w-bike",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the bike.",
-      "path": "assets/audio/g5-w-bike-example-normal-947ff2b8b646b254.mp3",
-      "hash": "947ff2b8b646b254"
+      "text": "Whose bike is this?",
+      "path": "assets/audio/g5-w-bike-example-normal-f6a812e2492140b0.mp3",
+      "hash": "f6a812e2492140b0"
     },
     {
       "id": "g5-w-bike",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the bike.",
-      "path": "assets/audio/g5-w-bike-example-slow-1228ce813f222499.mp3",
-      "hash": "1228ce813f222499"
+      "text": "Whose bike is this?",
+      "path": "assets/audio/g5-w-bike-example-slow-9471609a6a486225.mp3",
+      "hash": "9471609a6a486225"
     },
     {
       "id": "g5-w-ball",
@@ -9886,17 +9886,17 @@
       "id": "g5-w-ball",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the ball.",
-      "path": "assets/audio/g5-w-ball-example-normal-fb77682dad32da91.mp3",
-      "hash": "fb77682dad32da91"
+      "text": "The ball is between the boxes.",
+      "path": "assets/audio/g5-w-ball-example-normal-a11913be08c20680.mp3",
+      "hash": "a11913be08c20680"
     },
     {
       "id": "g5-w-ball",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the ball.",
-      "path": "assets/audio/g5-w-ball-example-slow-a8da436d3f20e2a2.mp3",
-      "hash": "a8da436d3f20e2a2"
+      "text": "The ball is between the boxes.",
+      "path": "assets/audio/g5-w-ball-example-slow-decf91868430afef.mp3",
+      "hash": "decf91868430afef"
     },
     {
       "id": "g5-w-bat",
@@ -9918,17 +9918,17 @@
       "id": "g5-w-bat",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the bat.",
-      "path": "assets/audio/g5-w-bat-example-normal-039b7a44f8750d23.mp3",
-      "hash": "039b7a44f8750d23"
+      "text": "This is my brother's bat.",
+      "path": "assets/audio/g5-w-bat-example-normal-d1afb044b4845a8a.mp3",
+      "hash": "d1afb044b4845a8a"
     },
     {
       "id": "g5-w-bat",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the bat.",
-      "path": "assets/audio/g5-w-bat-example-slow-7f1eb8f98759e887.mp3",
-      "hash": "7f1eb8f98759e887"
+      "text": "This is my brother's bat.",
+      "path": "assets/audio/g5-w-bat-example-slow-3a20d13537d3fba5.mp3",
+      "hash": "3a20d13537d3fba5"
     },
     {
       "id": "g5-w-racket",
@@ -9950,17 +9950,17 @@
       "id": "g5-w-racket",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the racket.",
-      "path": "assets/audio/g5-w-racket-example-normal-1ae8698968b8ebbe.mp3",
-      "hash": "1ae8698968b8ebbe"
+      "text": "Do you have a tennis racket?",
+      "path": "assets/audio/g5-w-racket-example-normal-0146ba05d31190b3.mp3",
+      "hash": "0146ba05d31190b3"
     },
     {
       "id": "g5-w-racket",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the racket.",
-      "path": "assets/audio/g5-w-racket-example-slow-7d7802bfc27bb506.mp3",
-      "hash": "7d7802bfc27bb506"
+      "text": "Do you have a tennis racket?",
+      "path": "assets/audio/g5-w-racket-example-slow-b4a5f651c6a4ed0a.mp3",
+      "hash": "b4a5f651c6a4ed0a"
     },
     {
       "id": "g5-w-game",
@@ -9982,17 +9982,17 @@
       "id": "g5-w-game",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the game.",
-      "path": "assets/audio/g5-w-game-example-normal-e4b90e6e7bc4216c.mp3",
-      "hash": "e4b90e6e7bc4216c"
+      "text": "Let's play a game after lunch.",
+      "path": "assets/audio/g5-w-game-example-normal-3079ce8da5a4dd03.mp3",
+      "hash": "3079ce8da5a4dd03"
     },
     {
       "id": "g5-w-game",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the game.",
-      "path": "assets/audio/g5-w-game-example-slow-64c12319c1f5eab9.mp3",
-      "hash": "64c12319c1f5eab9"
+      "text": "Let's play a game after lunch.",
+      "path": "assets/audio/g5-w-game-example-slow-1194951e35a957a5.mp3",
+      "hash": "1194951e35a957a5"
     },
     {
       "id": "g5-w-toy",
@@ -10014,17 +10014,17 @@
       "id": "g5-w-toy",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the toy.",
-      "path": "assets/audio/g5-w-toy-example-normal-8b6ecab3a83ea500.mp3",
-      "hash": "8b6ecab3a83ea500"
+      "text": "This toy is for my little sister.",
+      "path": "assets/audio/g5-w-toy-example-normal-ec01e3b509450430.mp3",
+      "hash": "ec01e3b509450430"
     },
     {
       "id": "g5-w-toy",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the toy.",
-      "path": "assets/audio/g5-w-toy-example-slow-a34cc1fb8a6cad8d.mp3",
-      "hash": "a34cc1fb8a6cad8d"
+      "text": "This toy is for my little sister.",
+      "path": "assets/audio/g5-w-toy-example-slow-5246d6e750bbfb0f.mp3",
+      "hash": "5246d6e750bbfb0f"
     },
     {
       "id": "g5-w-doll",
@@ -10046,17 +10046,17 @@
       "id": "g5-w-doll",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the doll.",
-      "path": "assets/audio/g5-w-doll-example-normal-47e7ae3db961b02b.mp3",
-      "hash": "47e7ae3db961b02b"
+      "text": "Her doll has blue eyes.",
+      "path": "assets/audio/g5-w-doll-example-normal-4b631db0fdf1f76e.mp3",
+      "hash": "4b631db0fdf1f76e"
     },
     {
       "id": "g5-w-doll",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the doll.",
-      "path": "assets/audio/g5-w-doll-example-slow-990c01bdfd3a7eaf.mp3",
-      "hash": "990c01bdfd3a7eaf"
+      "text": "Her doll has blue eyes.",
+      "path": "assets/audio/g5-w-doll-example-slow-02662bfa0394e4fb.mp3",
+      "hash": "02662bfa0394e4fb"
     },
     {
       "id": "g5-w-robot",
@@ -10078,17 +10078,17 @@
       "id": "g5-w-robot",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the robot.",
-      "path": "assets/audio/g5-w-robot-example-normal-221704bc1a1f5415.mp3",
-      "hash": "221704bc1a1f5415"
+      "text": "Can this robot walk?",
+      "path": "assets/audio/g5-w-robot-example-normal-db91d2c806c542e6.mp3",
+      "hash": "db91d2c806c542e6"
     },
     {
       "id": "g5-w-robot",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the robot.",
-      "path": "assets/audio/g5-w-robot-example-slow-c5b3972f8fade158.mp3",
-      "hash": "c5b3972f8fade158"
+      "text": "Can this robot walk?",
+      "path": "assets/audio/g5-w-robot-example-slow-97a5174f6fb455fe.mp3",
+      "hash": "97a5174f6fb455fe"
     },
     {
       "id": "g5-w-kite",
@@ -10110,17 +10110,17 @@
       "id": "g5-w-kite",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the kite.",
-      "path": "assets/audio/g5-w-kite-example-normal-9a87d8cca98d87e3.mp3",
-      "hash": "9a87d8cca98d87e3"
+      "text": "They are flying a kite in the park.",
+      "path": "assets/audio/g5-w-kite-example-normal-3678dda6957882fa.mp3",
+      "hash": "3678dda6957882fa"
     },
     {
       "id": "g5-w-kite",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the kite.",
-      "path": "assets/audio/g5-w-kite-example-slow-ca9542fb328131f1.mp3",
-      "hash": "ca9542fb328131f1"
+      "text": "They are flying a kite in the park.",
+      "path": "assets/audio/g5-w-kite-example-slow-c729bcfc01df9f80.mp3",
+      "hash": "c729bcfc01df9f80"
     },
     {
       "id": "g5-w-model",
@@ -10142,17 +10142,17 @@
       "id": "g5-w-model",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the model.",
-      "path": "assets/audio/g5-w-model-example-normal-fc124970945f6c53.mp3",
-      "hash": "fc124970945f6c53"
+      "text": "He is making a model plane.",
+      "path": "assets/audio/g5-w-model-example-normal-1b9fc047fa85cdd5.mp3",
+      "hash": "1b9fc047fa85cdd5"
     },
     {
       "id": "g5-w-model",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the model.",
-      "path": "assets/audio/g5-w-model-example-slow-f9752c02ba7a961a.mp3",
-      "hash": "f9752c02ba7a961a"
+      "text": "He is making a model plane.",
+      "path": "assets/audio/g5-w-model-example-slow-eae11a909f1b77ca.mp3",
+      "hash": "eae11a909f1b77ca"
     },
     {
       "id": "g5-w-ticket",
@@ -10174,17 +10174,17 @@
       "id": "g5-w-ticket",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the ticket.",
-      "path": "assets/audio/g5-w-ticket-example-normal-d9497a9742950586.mp3",
-      "hash": "d9497a9742950586"
+      "text": "How much is a ticket?",
+      "path": "assets/audio/g5-w-ticket-example-normal-68dc3fcec0aa5801.mp3",
+      "hash": "68dc3fcec0aa5801"
     },
     {
       "id": "g5-w-ticket",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the ticket.",
-      "path": "assets/audio/g5-w-ticket-example-slow-61490fea20354b97.mp3",
-      "hash": "61490fea20354b97"
+      "text": "How much is a ticket?",
+      "path": "assets/audio/g5-w-ticket-example-slow-150d3071e2ca9bca.mp3",
+      "hash": "150d3071e2ca9bca"
     },
     {
       "id": "g5-w-test",
@@ -10206,17 +10206,17 @@
       "id": "g5-w-test",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the test.",
-      "path": "assets/audio/g5-w-test-example-normal-40ef16adbf2d5f61.mp3",
-      "hash": "40ef16adbf2d5f61"
+      "text": "We have an English test on Monday.",
+      "path": "assets/audio/g5-w-test-example-normal-81d571a421f2af9d.mp3",
+      "hash": "81d571a421f2af9d"
     },
     {
       "id": "g5-w-test",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the test.",
-      "path": "assets/audio/g5-w-test-example-slow-9ceb45ec1487d15c.mp3",
-      "hash": "9ceb45ec1487d15c"
+      "text": "We have an English test on Monday.",
+      "path": "assets/audio/g5-w-test-example-slow-ebf81bcb23cea508.mp3",
+      "hash": "ebf81bcb23cea508"
     },
     {
       "id": "g5-w-question",
@@ -10238,17 +10238,17 @@
       "id": "g5-w-question",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the question.",
-      "path": "assets/audio/g5-w-question-example-normal-4d2f3d7a667911dc.mp3",
-      "hash": "4d2f3d7a667911dc"
+      "text": "Do you have a question?",
+      "path": "assets/audio/g5-w-question-example-normal-79d4e44375c537be.mp3",
+      "hash": "79d4e44375c537be"
     },
     {
       "id": "g5-w-question",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the question.",
-      "path": "assets/audio/g5-w-question-example-slow-6609ff890bbb69a4.mp3",
-      "hash": "6609ff890bbb69a4"
+      "text": "Do you have a question?",
+      "path": "assets/audio/g5-w-question-example-slow-e1446c3fe6ee1416.mp3",
+      "hash": "e1446c3fe6ee1416"
     },
     {
       "id": "g5-w-answer",
@@ -10270,17 +10270,17 @@
       "id": "g5-w-answer",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the answer.",
-      "path": "assets/audio/g5-w-answer-example-normal-373c4b9711fcadef.mp3",
-      "hash": "373c4b9711fcadef"
+      "text": "I don't know the answer.",
+      "path": "assets/audio/g5-w-answer-example-normal-712fc119c1474149.mp3",
+      "hash": "712fc119c1474149"
     },
     {
       "id": "g5-w-answer",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the answer.",
-      "path": "assets/audio/g5-w-answer-example-slow-47f6b21507a2731f.mp3",
-      "hash": "47f6b21507a2731f"
+      "text": "I don't know the answer.",
+      "path": "assets/audio/g5-w-answer-example-slow-f463c2e0442c4001.mp3",
+      "hash": "f463c2e0442c4001"
     },
     {
       "id": "g5-w-word",
@@ -10302,17 +10302,17 @@
       "id": "g5-w-word",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the word.",
-      "path": "assets/audio/g5-w-word-example-normal-a23125a1ab2af518.mp3",
-      "hash": "a23125a1ab2af518"
+      "text": "What does this word mean?",
+      "path": "assets/audio/g5-w-word-example-normal-0562d90524408d17.mp3",
+      "hash": "0562d90524408d17"
     },
     {
       "id": "g5-w-word",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the word.",
-      "path": "assets/audio/g5-w-word-example-slow-870cb28a6378842b.mp3",
-      "hash": "870cb28a6378842b"
+      "text": "What does this word mean?",
+      "path": "assets/audio/g5-w-word-example-slow-2248dd586dd55d83.mp3",
+      "hash": "2248dd586dd55d83"
     },
     {
       "id": "g5-w-page",
@@ -10334,17 +10334,17 @@
       "id": "g5-w-page",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the page.",
-      "path": "assets/audio/g5-w-page-example-normal-7da06a96264cb856.mp3",
-      "hash": "7da06a96264cb856"
+      "text": "Please read this page.",
+      "path": "assets/audio/g5-w-page-example-normal-5f2f0bb73e1783aa.mp3",
+      "hash": "5f2f0bb73e1783aa"
     },
     {
       "id": "g5-w-page",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the page.",
-      "path": "assets/audio/g5-w-page-example-slow-a7aa6d793835e6b3.mp3",
-      "hash": "a7aa6d793835e6b3"
+      "text": "Please read this page.",
+      "path": "assets/audio/g5-w-page-example-slow-a1eae6301fe2351e.mp3",
+      "hash": "a1eae6301fe2351e"
     },
     {
       "id": "g5-w-sentence",
@@ -10366,17 +10366,17 @@
       "id": "g5-w-sentence",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the sentence.",
-      "path": "assets/audio/g5-w-sentence-example-normal-87167fdca6e8b729.mp3",
-      "hash": "87167fdca6e8b729"
+      "text": "Can you read this sentence?",
+      "path": "assets/audio/g5-w-sentence-example-normal-472b21c03ad246a1.mp3",
+      "hash": "472b21c03ad246a1"
     },
     {
       "id": "g5-w-sentence",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the sentence.",
-      "path": "assets/audio/g5-w-sentence-example-slow-ed0d0d3a56252513.mp3",
-      "hash": "ed0d0d3a56252513"
+      "text": "Can you read this sentence?",
+      "path": "assets/audio/g5-w-sentence-example-slow-bc087d16ee71239c.mp3",
+      "hash": "bc087d16ee71239c"
     },
     {
       "id": "g5-w-story",
@@ -10398,17 +10398,17 @@
       "id": "g5-w-story",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the story.",
-      "path": "assets/audio/g5-w-story-example-normal-15dbeef4d4a01044.mp3",
-      "hash": "15dbeef4d4a01044"
+      "text": "My father reads me a story at night.",
+      "path": "assets/audio/g5-w-story-example-normal-f24a5f6ae9a32dee.mp3",
+      "hash": "f24a5f6ae9a32dee"
     },
     {
       "id": "g5-w-story",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the story.",
-      "path": "assets/audio/g5-w-story-example-slow-d420a9bed96a04c7.mp3",
-      "hash": "d420a9bed96a04c7"
+      "text": "My father reads me a story at night.",
+      "path": "assets/audio/g5-w-story-example-slow-144ca253303f7389.mp3",
+      "hash": "144ca253303f7389"
     },
     {
       "id": "g5-w-song",
@@ -10430,17 +10430,17 @@
       "id": "g5-w-song",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the song.",
-      "path": "assets/audio/g5-w-song-example-normal-437f43452259cb14.mp3",
-      "hash": "437f43452259cb14"
+      "text": "Let's sing this song together.",
+      "path": "assets/audio/g5-w-song-example-normal-8bd24d787cc77e8c.mp3",
+      "hash": "8bd24d787cc77e8c"
     },
     {
       "id": "g5-w-song",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the song.",
-      "path": "assets/audio/g5-w-song-example-slow-c3378ef7bf07ae3a.mp3",
-      "hash": "c3378ef7bf07ae3a"
+      "text": "Let's sing this song together.",
+      "path": "assets/audio/g5-w-song-example-slow-65ca3bec8e622b2d.mp3",
+      "hash": "65ca3bec8e622b2d"
     },
     {
       "id": "g5-w-movie",
@@ -10462,17 +10462,17 @@
       "id": "g5-w-movie",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the movie.",
-      "path": "assets/audio/g5-w-movie-example-normal-d5b4fd9954f18580.mp3",
-      "hash": "d5b4fd9954f18580"
+      "text": "What is your favorite movie?",
+      "path": "assets/audio/g5-w-movie-example-normal-a6cc3ee3f9b91585.mp3",
+      "hash": "a6cc3ee3f9b91585"
     },
     {
       "id": "g5-w-movie",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the movie.",
-      "path": "assets/audio/g5-w-movie-example-slow-c34262c9f86808db.mp3",
-      "hash": "c34262c9f86808db"
+      "text": "What is your favorite movie?",
+      "path": "assets/audio/g5-w-movie-example-slow-f9485caeead3b732.mp3",
+      "hash": "f9485caeead3b732"
     },
     {
       "id": "g5-w-cd",
@@ -10494,17 +10494,17 @@
       "id": "g5-w-cd",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the cd.",
-      "path": "assets/audio/g5-w-cd-example-normal-ccc4abedcde71c69.mp3",
-      "hash": "ccc4abedcde71c69"
+      "text": "This CD is hers.",
+      "path": "assets/audio/g5-w-cd-example-normal-339522aca5a15673.mp3",
+      "hash": "339522aca5a15673"
     },
     {
       "id": "g5-w-cd",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the cd.",
-      "path": "assets/audio/g5-w-cd-example-slow-f68e2cad564546a2.mp3",
-      "hash": "f68e2cad564546a2"
+      "text": "This CD is hers.",
+      "path": "assets/audio/g5-w-cd-example-slow-ac86f0294dc411bc.mp3",
+      "hash": "ac86f0294dc411bc"
     },
     {
       "id": "g5-w-table",
@@ -10526,17 +10526,17 @@
       "id": "g5-w-table",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the table.",
-      "path": "assets/audio/g5-w-table-example-normal-e363d39513af30a3.mp3",
-      "hash": "e363d39513af30a3"
+      "text": "The cat is under the table.",
+      "path": "assets/audio/g5-w-table-example-normal-2f58fd7746bbd4ba.mp3",
+      "hash": "2f58fd7746bbd4ba"
     },
     {
       "id": "g5-w-table",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the table.",
-      "path": "assets/audio/g5-w-table-example-slow-11699263fccb71bf.mp3",
-      "hash": "11699263fccb71bf"
+      "text": "The cat is under the table.",
+      "path": "assets/audio/g5-w-table-example-slow-eae7921b42ed04fa.mp3",
+      "hash": "eae7921b42ed04fa"
     },
     {
       "id": "g5-w-bed",
@@ -10558,17 +10558,17 @@
       "id": "g5-w-bed",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the bed.",
-      "path": "assets/audio/g5-w-bed-example-normal-718de35cbf19cbc1.mp3",
-      "hash": "718de35cbf19cbc1"
+      "text": "I go to bed at nine.",
+      "path": "assets/audio/g5-w-bed-example-normal-e845a6626c5af7a0.mp3",
+      "hash": "e845a6626c5af7a0"
     },
     {
       "id": "g5-w-bed",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the bed.",
-      "path": "assets/audio/g5-w-bed-example-slow-7d34b514405012cf.mp3",
-      "hash": "7d34b514405012cf"
+      "text": "I go to bed at nine.",
+      "path": "assets/audio/g5-w-bed-example-slow-d711fb10995c86aa.mp3",
+      "hash": "d711fb10995c86aa"
     },
     {
       "id": "g5-w-sofa",
@@ -10590,17 +10590,17 @@
       "id": "g5-w-sofa",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the sofa.",
-      "path": "assets/audio/g5-w-sofa-example-normal-51086f5fe8662d46.mp3",
-      "hash": "51086f5fe8662d46"
+      "text": "My mother is sitting on the sofa.",
+      "path": "assets/audio/g5-w-sofa-example-normal-6ced97d083e39e64.mp3",
+      "hash": "6ced97d083e39e64"
     },
     {
       "id": "g5-w-sofa",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the sofa.",
-      "path": "assets/audio/g5-w-sofa-example-slow-e3f4ee6d142f8470.mp3",
-      "hash": "e3f4ee6d142f8470"
+      "text": "My mother is sitting on the sofa.",
+      "path": "assets/audio/g5-w-sofa-example-slow-57c0b8aa52fea618.mp3",
+      "hash": "57c0b8aa52fea618"
     },
     {
       "id": "g5-w-tv",
@@ -10622,17 +10622,17 @@
       "id": "g5-w-tv",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the tv.",
-      "path": "assets/audio/g5-w-tv-example-normal-c443750ce9b3d66f.mp3",
-      "hash": "c443750ce9b3d66f"
+      "text": "I watch TV after dinner.",
+      "path": "assets/audio/g5-w-tv-example-normal-c4a4a0969eae11e8.mp3",
+      "hash": "c4a4a0969eae11e8"
     },
     {
       "id": "g5-w-tv",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the tv.",
-      "path": "assets/audio/g5-w-tv-example-slow-2ab54bcd7ce88c1e.mp3",
-      "hash": "2ab54bcd7ce88c1e"
+      "text": "I watch TV after dinner.",
+      "path": "assets/audio/g5-w-tv-example-slow-034d834147100d94.mp3",
+      "hash": "034d834147100d94"
     },
     {
       "id": "g5-w-television",
@@ -10654,17 +10654,17 @@
       "id": "g5-w-television",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the television.",
-      "path": "assets/audio/g5-w-television-example-normal-44df5afe8accc504.mp3",
-      "hash": "44df5afe8accc504"
+      "text": "We don't watch television in the morning.",
+      "path": "assets/audio/g5-w-television-example-normal-9e5501fac2927721.mp3",
+      "hash": "9e5501fac2927721"
     },
     {
       "id": "g5-w-television",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the television.",
-      "path": "assets/audio/g5-w-television-example-slow-2fe502b6ba83d1e4.mp3",
-      "hash": "2fe502b6ba83d1e4"
+      "text": "We don't watch television in the morning.",
+      "path": "assets/audio/g5-w-television-example-slow-8689bec1ef1a875e.mp3",
+      "hash": "8689bec1ef1a875e"
     },
     {
       "id": "g5-w-radio",
@@ -10686,17 +10686,17 @@
       "id": "g5-w-radio",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the radio.",
-      "path": "assets/audio/g5-w-radio-example-normal-8a37591924a2c4a9.mp3",
-      "hash": "8a37591924a2c4a9"
+      "text": "My grandfather listens to the radio.",
+      "path": "assets/audio/g5-w-radio-example-normal-f9254a260671291f.mp3",
+      "hash": "f9254a260671291f"
     },
     {
       "id": "g5-w-radio",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the radio.",
-      "path": "assets/audio/g5-w-radio-example-slow-cd17f53b191140eb.mp3",
-      "hash": "cd17f53b191140eb"
+      "text": "My grandfather listens to the radio.",
+      "path": "assets/audio/g5-w-radio-example-slow-9010b4686c00650f.mp3",
+      "hash": "9010b4686c00650f"
     },
     {
       "id": "g5-w-lamp",
@@ -10718,17 +10718,17 @@
       "id": "g5-w-lamp",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the lamp.",
-      "path": "assets/audio/g5-w-lamp-example-normal-5bd91d612cc85dc4.mp3",
-      "hash": "5bd91d612cc85dc4"
+      "text": "Please turn on the lamp.",
+      "path": "assets/audio/g5-w-lamp-example-normal-211ac1de21d97a77.mp3",
+      "hash": "211ac1de21d97a77"
     },
     {
       "id": "g5-w-lamp",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the lamp.",
-      "path": "assets/audio/g5-w-lamp-example-slow-f7fa49e979f9e84c.mp3",
-      "hash": "f7fa49e979f9e84c"
+      "text": "Please turn on the lamp.",
+      "path": "assets/audio/g5-w-lamp-example-slow-f17b1df5370efc6f.mp3",
+      "hash": "f17b1df5370efc6f"
     },
     {
       "id": "g5-w-mirror",
@@ -10750,17 +10750,17 @@
       "id": "g5-w-mirror",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the mirror.",
-      "path": "assets/audio/g5-w-mirror-example-normal-013ca0dcd04d60db.mp3",
-      "hash": "013ca0dcd04d60db"
+      "text": "There is a mirror in my room.",
+      "path": "assets/audio/g5-w-mirror-example-normal-ce865daa8fd15b1c.mp3",
+      "hash": "ce865daa8fd15b1c"
     },
     {
       "id": "g5-w-mirror",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the mirror.",
-      "path": "assets/audio/g5-w-mirror-example-slow-679734ac12ce79ff.mp3",
-      "hash": "679734ac12ce79ff"
+      "text": "There is a mirror in my room.",
+      "path": "assets/audio/g5-w-mirror-example-slow-954c9e1ab24cab7b.mp3",
+      "hash": "954c9e1ab24cab7b"
     },
     {
       "id": "g5-w-desk-lamp",
@@ -10782,17 +10782,17 @@
       "id": "g5-w-desk-lamp",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the desk lamp.",
-      "path": "assets/audio/g5-w-desk-lamp-example-normal-a17f85a87fd97142.mp3",
-      "hash": "a17f85a87fd97142"
+      "text": "This desk lamp is new.",
+      "path": "assets/audio/g5-w-desk-lamp-example-normal-bee601c6a13fcc50.mp3",
+      "hash": "bee601c6a13fcc50"
     },
     {
       "id": "g5-w-desk-lamp",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the desk lamp.",
-      "path": "assets/audio/g5-w-desk-lamp-example-slow-7516d9d55df0463e.mp3",
-      "hash": "7516d9d55df0463e"
+      "text": "This desk lamp is new.",
+      "path": "assets/audio/g5-w-desk-lamp-example-slow-a74b5588d20c19c3.mp3",
+      "hash": "a74b5588d20c19c3"
     },
     {
       "id": "g5-w-floor",
@@ -10814,17 +10814,17 @@
       "id": "g5-w-floor",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the floor.",
-      "path": "assets/audio/g5-w-floor-example-normal-fc479e9d400db3fa.mp3",
-      "hash": "fc479e9d400db3fa"
+      "text": "Please put your bag on the floor.",
+      "path": "assets/audio/g5-w-floor-example-normal-54a8191bb93eaecc.mp3",
+      "hash": "54a8191bb93eaecc"
     },
     {
       "id": "g5-w-floor",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the floor.",
-      "path": "assets/audio/g5-w-floor-example-slow-8ff848f6a93758f1.mp3",
-      "hash": "8ff848f6a93758f1"
+      "text": "Please put your bag on the floor.",
+      "path": "assets/audio/g5-w-floor-example-slow-ace2f94cea6d98e7.mp3",
+      "hash": "ace2f94cea6d98e7"
     },
     {
       "id": "g5-w-wall",
@@ -10846,17 +10846,17 @@
       "id": "g5-w-wall",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the wall.",
-      "path": "assets/audio/g5-w-wall-example-normal-d44cb1b0f97ad469.mp3",
-      "hash": "d44cb1b0f97ad469"
+      "text": "There is a clock on the wall.",
+      "path": "assets/audio/g5-w-wall-example-normal-b8dfe0f2a9918b94.mp3",
+      "hash": "b8dfe0f2a9918b94"
     },
     {
       "id": "g5-w-wall",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the wall.",
-      "path": "assets/audio/g5-w-wall-example-slow-4b785de98ba6d6a8.mp3",
-      "hash": "4b785de98ba6d6a8"
+      "text": "There is a clock on the wall.",
+      "path": "assets/audio/g5-w-wall-example-slow-d0da218f21258538.mp3",
+      "hash": "d0da218f21258538"
     },
     {
       "id": "g5-w-roof",
@@ -10878,17 +10878,17 @@
       "id": "g5-w-roof",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the roof.",
-      "path": "assets/audio/g5-w-roof-example-normal-db6b9d4ac2e9d69a.mp3",
-      "hash": "db6b9d4ac2e9d69a"
+      "text": "The roof of this house is red.",
+      "path": "assets/audio/g5-w-roof-example-normal-121f0c264ec06853.mp3",
+      "hash": "121f0c264ec06853"
     },
     {
       "id": "g5-w-roof",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the roof.",
-      "path": "assets/audio/g5-w-roof-example-slow-56662b8946400535.mp3",
-      "hash": "56662b8946400535"
+      "text": "The roof of this house is red.",
+      "path": "assets/audio/g5-w-roof-example-slow-a93d00956ac3dde1.mp3",
+      "hash": "a93d00956ac3dde1"
     },
     {
       "id": "g5-w-gate",
@@ -10910,17 +10910,17 @@
       "id": "g5-w-gate",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the gate.",
-      "path": "assets/audio/g5-w-gate-example-normal-08a8d1ccf27976f8.mp3",
-      "hash": "08a8d1ccf27976f8"
+      "text": "Let's meet at the school gate.",
+      "path": "assets/audio/g5-w-gate-example-normal-b15be4f58e6e7f14.mp3",
+      "hash": "b15be4f58e6e7f14"
     },
     {
       "id": "g5-w-gate",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the gate.",
-      "path": "assets/audio/g5-w-gate-example-slow-ded73bb7bf2d2e7b.mp3",
-      "hash": "ded73bb7bf2d2e7b"
+      "text": "Let's meet at the school gate.",
+      "path": "assets/audio/g5-w-gate-example-slow-10123952f13a0557.mp3",
+      "hash": "10123952f13a0557"
     },
     {
       "id": "g5-w-building",
@@ -10942,17 +10942,17 @@
       "id": "g5-w-building",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the building.",
-      "path": "assets/audio/g5-w-building-example-normal-7e44664f85318f5d.mp3",
-      "hash": "7e44664f85318f5d"
+      "text": "That tall building is a hospital.",
+      "path": "assets/audio/g5-w-building-example-normal-e1706d01680af76f.mp3",
+      "hash": "e1706d01680af76f"
     },
     {
       "id": "g5-w-building",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the building.",
-      "path": "assets/audio/g5-w-building-example-slow-d76d4b23b2451728.mp3",
-      "hash": "d76d4b23b2451728"
+      "text": "That tall building is a hospital.",
+      "path": "assets/audio/g5-w-building-example-slow-e02db309ea2da6a5.mp3",
+      "hash": "e02db309ea2da6a5"
     },
     {
       "id": "g5-w-classroom",
@@ -10974,17 +10974,17 @@
       "id": "g5-w-classroom",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the classroom.",
-      "path": "assets/audio/g5-w-classroom-example-normal-8a4b83e5010aa830.mp3",
-      "hash": "8a4b83e5010aa830"
+      "text": "Our classroom is on the second floor.",
+      "path": "assets/audio/g5-w-classroom-example-normal-15cc9c1cb75feaaa.mp3",
+      "hash": "15cc9c1cb75feaaa"
     },
     {
       "id": "g5-w-classroom",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the classroom.",
-      "path": "assets/audio/g5-w-classroom-example-slow-704a295b7e7735ed.mp3",
-      "hash": "704a295b7e7735ed"
+      "text": "Our classroom is on the second floor.",
+      "path": "assets/audio/g5-w-classroom-example-slow-77d4187ebe604015.mp3",
+      "hash": "77d4187ebe604015"
     },
     {
       "id": "g5-w-gym",
@@ -11006,17 +11006,17 @@
       "id": "g5-w-gym",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the gym.",
-      "path": "assets/audio/g5-w-gym-example-normal-0982b82997d05574.mp3",
-      "hash": "0982b82997d05574"
+      "text": "We play basketball in the gym.",
+      "path": "assets/audio/g5-w-gym-example-normal-afdee464700be6a2.mp3",
+      "hash": "afdee464700be6a2"
     },
     {
       "id": "g5-w-gym",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the gym.",
-      "path": "assets/audio/g5-w-gym-example-slow-9fd09013172649b5.mp3",
-      "hash": "9fd09013172649b5"
+      "text": "We play basketball in the gym.",
+      "path": "assets/audio/g5-w-gym-example-slow-03d247d7fb3389af.mp3",
+      "hash": "03d247d7fb3389af"
     },
     {
       "id": "g5-w-office",
@@ -11038,17 +11038,17 @@
       "id": "g5-w-office",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the office.",
-      "path": "assets/audio/g5-w-office-example-normal-be58a58fd1fd389e.mp3",
-      "hash": "be58a58fd1fd389e"
+      "text": "My father works in an office.",
+      "path": "assets/audio/g5-w-office-example-normal-c254c1b1a1a7cb5e.mp3",
+      "hash": "c254c1b1a1a7cb5e"
     },
     {
       "id": "g5-w-office",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the office.",
-      "path": "assets/audio/g5-w-office-example-slow-97f4f093856f17b7.mp3",
-      "hash": "97f4f093856f17b7"
+      "text": "My father works in an office.",
+      "path": "assets/audio/g5-w-office-example-slow-4d0c7e5f4752cb49.mp3",
+      "hash": "4d0c7e5f4752cb49"
     },
     {
       "id": "g5-w-post-office",
@@ -11070,17 +11070,17 @@
       "id": "g5-w-post-office",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the post office.",
-      "path": "assets/audio/g5-w-post-office-example-normal-594c6711f540b640.mp3",
-      "hash": "594c6711f540b640"
+      "text": "Where is the post office?",
+      "path": "assets/audio/g5-w-post-office-example-normal-b4b131fc0ddf611e.mp3",
+      "hash": "b4b131fc0ddf611e"
     },
     {
       "id": "g5-w-post-office",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the post office.",
-      "path": "assets/audio/g5-w-post-office-example-slow-2878c51e4a0b9b93.mp3",
-      "hash": "2878c51e4a0b9b93"
+      "text": "Where is the post office?",
+      "path": "assets/audio/g5-w-post-office-example-slow-436cb6bca7c7ef44.mp3",
+      "hash": "436cb6bca7c7ef44"
     },
     {
       "id": "g5-w-bank",
@@ -11102,17 +11102,17 @@
       "id": "g5-w-bank",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the bank.",
-      "path": "assets/audio/g5-w-bank-example-normal-c2ff316b90be8f7f.mp3",
-      "hash": "c2ff316b90be8f7f"
+      "text": "The bank is next to the station.",
+      "path": "assets/audio/g5-w-bank-example-normal-4a07c5e756bcb0a5.mp3",
+      "hash": "4a07c5e756bcb0a5"
     },
     {
       "id": "g5-w-bank",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the bank.",
-      "path": "assets/audio/g5-w-bank-example-slow-282cfaa28e555716.mp3",
-      "hash": "282cfaa28e555716"
+      "text": "The bank is next to the station.",
+      "path": "assets/audio/g5-w-bank-example-slow-4cb5cbf29c53ee98.mp3",
+      "hash": "4cb5cbf29c53ee98"
     },
     {
       "id": "g5-w-hotel",
@@ -11134,17 +11134,17 @@
       "id": "g5-w-hotel",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the hotel.",
-      "path": "assets/audio/g5-w-hotel-example-normal-868f3673418f624d.mp3",
-      "hash": "868f3673418f624d"
+      "text": "Is that a hotel?",
+      "path": "assets/audio/g5-w-hotel-example-normal-ae796303a0c45e54.mp3",
+      "hash": "ae796303a0c45e54"
     },
     {
       "id": "g5-w-hotel",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the hotel.",
-      "path": "assets/audio/g5-w-hotel-example-slow-83a0ed03fd7ac14c.mp3",
-      "hash": "83a0ed03fd7ac14c"
+      "text": "Is that a hotel?",
+      "path": "assets/audio/g5-w-hotel-example-slow-94c41b7a3eb90df7.mp3",
+      "hash": "94c41b7a3eb90df7"
     },
     {
       "id": "g5-w-museum",
@@ -11166,17 +11166,17 @@
       "id": "g5-w-museum",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the museum.",
-      "path": "assets/audio/g5-w-museum-example-normal-672be3e4d9579596.mp3",
-      "hash": "672be3e4d9579596"
+      "text": "The museum is open on Sunday.",
+      "path": "assets/audio/g5-w-museum-example-normal-b73eb92df1b1a6d6.mp3",
+      "hash": "b73eb92df1b1a6d6"
     },
     {
       "id": "g5-w-museum",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the museum.",
-      "path": "assets/audio/g5-w-museum-example-slow-ef0ce8079af45188.mp3",
-      "hash": "ef0ce8079af45188"
+      "text": "The museum is open on Sunday.",
+      "path": "assets/audio/g5-w-museum-example-slow-a7cfeedf33fa143d.mp3",
+      "hash": "a7cfeedf33fa143d"
     },
     {
       "id": "g5-w-airport",
@@ -11198,17 +11198,17 @@
       "id": "g5-w-airport",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the airport.",
-      "path": "assets/audio/g5-w-airport-example-normal-b73f44701907dafc.mp3",
-      "hash": "b73f44701907dafc"
+      "text": "How do you get to the airport?",
+      "path": "assets/audio/g5-w-airport-example-normal-556ea5deafc5ae32.mp3",
+      "hash": "556ea5deafc5ae32"
     },
     {
       "id": "g5-w-airport",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the airport.",
-      "path": "assets/audio/g5-w-airport-example-slow-2c529635f42ddc80.mp3",
-      "hash": "2c529635f42ddc80"
+      "text": "How do you get to the airport?",
+      "path": "assets/audio/g5-w-airport-example-slow-e30790b6e9a7c2c3.mp3",
+      "hash": "e30790b6e9a7c2c3"
     },
     {
       "id": "g5-w-bus-stop",
@@ -11230,17 +11230,17 @@
       "id": "g5-w-bus-stop",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the bus stop.",
-      "path": "assets/audio/g5-w-bus-stop-example-normal-d62c02b1f4f0a7b3.mp3",
-      "hash": "d62c02b1f4f0a7b3"
+      "text": "Please wait at the bus stop.",
+      "path": "assets/audio/g5-w-bus-stop-example-normal-8844142258d4b4d1.mp3",
+      "hash": "8844142258d4b4d1"
     },
     {
       "id": "g5-w-bus-stop",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the bus stop.",
-      "path": "assets/audio/g5-w-bus-stop-example-slow-4281a87737198e6d.mp3",
-      "hash": "4281a87737198e6d"
+      "text": "Please wait at the bus stop.",
+      "path": "assets/audio/g5-w-bus-stop-example-slow-d1154e12296645b3.mp3",
+      "hash": "d1154e12296645b3"
     },
     {
       "id": "g5-w-shop",
@@ -11262,17 +11262,17 @@
       "id": "g5-w-shop",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the shop.",
-      "path": "assets/audio/g5-w-shop-example-normal-0eb810389f36b9fd.mp3",
-      "hash": "0eb810389f36b9fd"
+      "text": "This shop opens at ten.",
+      "path": "assets/audio/g5-w-shop-example-normal-745ebebc7e3b041a.mp3",
+      "hash": "745ebebc7e3b041a"
     },
     {
       "id": "g5-w-shop",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the shop.",
-      "path": "assets/audio/g5-w-shop-example-slow-257dca206ab99ac3.mp3",
-      "hash": "257dca206ab99ac3"
+      "text": "This shop opens at ten.",
+      "path": "assets/audio/g5-w-shop-example-slow-cf5cdc2b9c47bccd.mp3",
+      "hash": "cf5cdc2b9c47bccd"
     },
     {
       "id": "g5-w-bookstore",
@@ -11294,17 +11294,17 @@
       "id": "g5-w-bookstore",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the bookstore.",
-      "path": "assets/audio/g5-w-bookstore-example-normal-1a77f27edfe9e2ee.mp3",
-      "hash": "1a77f27edfe9e2ee"
+      "text": "There is a bookstore near my house.",
+      "path": "assets/audio/g5-w-bookstore-example-normal-c0f3658a6f1bbbde.mp3",
+      "hash": "c0f3658a6f1bbbde"
     },
     {
       "id": "g5-w-bookstore",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the bookstore.",
-      "path": "assets/audio/g5-w-bookstore-example-slow-1e073b312f0f26c3.mp3",
-      "hash": "1e073b312f0f26c3"
+      "text": "There is a bookstore near my house.",
+      "path": "assets/audio/g5-w-bookstore-example-slow-d74a0b194c6748c0.mp3",
+      "hash": "d74a0b194c6748c0"
     },
     {
       "id": "g5-w-flower-shop",
@@ -11326,17 +11326,17 @@
       "id": "g5-w-flower-shop",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the flower shop.",
-      "path": "assets/audio/g5-w-flower-shop-example-normal-275c8dfe872842f8.mp3",
-      "hash": "275c8dfe872842f8"
+      "text": "My aunt works at a flower shop.",
+      "path": "assets/audio/g5-w-flower-shop-example-normal-7f626d61c2085ab6.mp3",
+      "hash": "7f626d61c2085ab6"
     },
     {
       "id": "g5-w-flower-shop",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the flower shop.",
-      "path": "assets/audio/g5-w-flower-shop-example-slow-24b1691a9c6f4cc7.mp3",
-      "hash": "24b1691a9c6f4cc7"
+      "text": "My aunt works at a flower shop.",
+      "path": "assets/audio/g5-w-flower-shop-example-slow-f3b37db4a364e6b9.mp3",
+      "hash": "f3b37db4a364e6b9"
     },
     {
       "id": "g5-w-street",
@@ -11358,17 +11358,17 @@
       "id": "g5-w-street",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the street.",
-      "path": "assets/audio/g5-w-street-example-normal-8e0e80388f90f00b.mp3",
-      "hash": "8e0e80388f90f00b"
+      "text": "Don't play in the street.",
+      "path": "assets/audio/g5-w-street-example-normal-43e50c97c0a5fc11.mp3",
+      "hash": "43e50c97c0a5fc11"
     },
     {
       "id": "g5-w-street",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the street.",
-      "path": "assets/audio/g5-w-street-example-slow-79d7e07ca54cdb4c.mp3",
-      "hash": "79d7e07ca54cdb4c"
+      "text": "Don't play in the street.",
+      "path": "assets/audio/g5-w-street-example-slow-33437e1fab71f5ba.mp3",
+      "hash": "33437e1fab71f5ba"
     },
     {
       "id": "g5-w-road",
@@ -11390,17 +11390,17 @@
       "id": "g5-w-road",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the road.",
-      "path": "assets/audio/g5-w-road-example-normal-f0e1181aeb60bea3.mp3",
-      "hash": "f0e1181aeb60bea3"
+      "text": "This road goes to the park.",
+      "path": "assets/audio/g5-w-road-example-normal-e7f176e25a12265a.mp3",
+      "hash": "e7f176e25a12265a"
     },
     {
       "id": "g5-w-road",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the road.",
-      "path": "assets/audio/g5-w-road-example-slow-f6bb7d553f350304.mp3",
-      "hash": "f6bb7d553f350304"
+      "text": "This road goes to the park.",
+      "path": "assets/audio/g5-w-road-example-slow-b584059219f3fad4.mp3",
+      "hash": "b584059219f3fad4"
     },
     {
       "id": "g5-w-bridge",
@@ -11422,17 +11422,17 @@
       "id": "g5-w-bridge",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the bridge.",
-      "path": "assets/audio/g5-w-bridge-example-normal-788cb68189b39d04.mp3",
-      "hash": "788cb68189b39d04"
+      "text": "There is a bridge over the river.",
+      "path": "assets/audio/g5-w-bridge-example-normal-85c28967a8cc0095.mp3",
+      "hash": "85c28967a8cc0095"
     },
     {
       "id": "g5-w-bridge",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the bridge.",
-      "path": "assets/audio/g5-w-bridge-example-slow-77d44092ee217759.mp3",
-      "hash": "77d44092ee217759"
+      "text": "There is a bridge over the river.",
+      "path": "assets/audio/g5-w-bridge-example-slow-a3aaa8dfab970591.mp3",
+      "hash": "a3aaa8dfab970591"
     },
     {
       "id": "g5-w-corner",
@@ -11454,17 +11454,17 @@
       "id": "g5-w-corner",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the corner.",
-      "path": "assets/audio/g5-w-corner-example-normal-c4a1f043245ff60c.mp3",
-      "hash": "c4a1f043245ff60c"
+      "text": "Turn right at the corner.",
+      "path": "assets/audio/g5-w-corner-example-normal-377ee3fb4b8b37e1.mp3",
+      "hash": "377ee3fb4b8b37e1"
     },
     {
       "id": "g5-w-corner",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the corner.",
-      "path": "assets/audio/g5-w-corner-example-slow-f1e78879e2cae868.mp3",
-      "hash": "f1e78879e2cae868"
+      "text": "Turn right at the corner.",
+      "path": "assets/audio/g5-w-corner-example-slow-09d89bf838c2e571.mp3",
+      "hash": "09d89bf838c2e571"
     },
     {
       "id": "g5-w-farm",
@@ -11486,17 +11486,17 @@
       "id": "g5-w-farm",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the farm.",
-      "path": "assets/audio/g5-w-farm-example-normal-394856947409ac94.mp3",
-      "hash": "394856947409ac94"
+      "text": "My uncle has a farm.",
+      "path": "assets/audio/g5-w-farm-example-normal-f443b15e8e59a049.mp3",
+      "hash": "f443b15e8e59a049"
     },
     {
       "id": "g5-w-farm",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the farm.",
-      "path": "assets/audio/g5-w-farm-example-slow-9d52f23d48d5b595.mp3",
-      "hash": "9d52f23d48d5b595"
+      "text": "My uncle has a farm.",
+      "path": "assets/audio/g5-w-farm-example-slow-3a4d532e96da8865.mp3",
+      "hash": "3a4d532e96da8865"
     },
     {
       "id": "g5-w-city",
@@ -11518,17 +11518,17 @@
       "id": "g5-w-city",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the city.",
-      "path": "assets/audio/g5-w-city-example-normal-217b323728603d5e.mp3",
-      "hash": "217b323728603d5e"
+      "text": "Does your sister live in this city?",
+      "path": "assets/audio/g5-w-city-example-normal-bff0f72be7a2ef03.mp3",
+      "hash": "bff0f72be7a2ef03"
     },
     {
       "id": "g5-w-city",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the city.",
-      "path": "assets/audio/g5-w-city-example-slow-9e6487d21f4f3d1d.mp3",
-      "hash": "9e6487d21f4f3d1d"
+      "text": "Does your sister live in this city?",
+      "path": "assets/audio/g5-w-city-example-slow-208536fcaad16b05.mp3",
+      "hash": "208536fcaad16b05"
     },
     {
       "id": "g5-w-village",
@@ -11550,17 +11550,17 @@
       "id": "g5-w-village",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the village.",
-      "path": "assets/audio/g5-w-village-example-normal-dd60c1b8ade29d11.mp3",
-      "hash": "dd60c1b8ade29d11"
+      "text": "My grandmother lives in a small village.",
+      "path": "assets/audio/g5-w-village-example-normal-6830ec229c2d085c.mp3",
+      "hash": "6830ec229c2d085c"
     },
     {
       "id": "g5-w-village",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the village.",
-      "path": "assets/audio/g5-w-village-example-slow-bf61d0225f5a71a8.mp3",
-      "hash": "bf61d0225f5a71a8"
+      "text": "My grandmother lives in a small village.",
+      "path": "assets/audio/g5-w-village-example-slow-dbbaffc4f2b70f9f.mp3",
+      "hash": "dbbaffc4f2b70f9f"
     },
     {
       "id": "g5-w-country",
@@ -11582,17 +11582,17 @@
       "id": "g5-w-country",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the country.",
-      "path": "assets/audio/g5-w-country-example-normal-78e434df7eaec5af.mp3",
-      "hash": "78e434df7eaec5af"
+      "text": "What country are you from?",
+      "path": "assets/audio/g5-w-country-example-normal-ee4b03b4c2dd5361.mp3",
+      "hash": "ee4b03b4c2dd5361"
     },
     {
       "id": "g5-w-country",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the country.",
-      "path": "assets/audio/g5-w-country-example-slow-43407f12cd3d4404.mp3",
-      "hash": "43407f12cd3d4404"
+      "text": "What country are you from?",
+      "path": "assets/audio/g5-w-country-example-slow-7d88ff1796d4c017.mp3",
+      "hash": "7d88ff1796d4c017"
     },
     {
       "id": "g5-w-train",
@@ -11614,17 +11614,17 @@
       "id": "g5-w-train",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the train.",
-      "path": "assets/audio/g5-w-train-example-normal-17e655c0ca182210.mp3",
-      "hash": "17e655c0ca182210"
+      "text": "What time does the train leave?",
+      "path": "assets/audio/g5-w-train-example-normal-c9edd047cfe6b331.mp3",
+      "hash": "c9edd047cfe6b331"
     },
     {
       "id": "g5-w-train",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the train.",
-      "path": "assets/audio/g5-w-train-example-slow-d29c067f56e79a75.mp3",
-      "hash": "d29c067f56e79a75"
+      "text": "What time does the train leave?",
+      "path": "assets/audio/g5-w-train-example-slow-129bfdefa8511f96.mp3",
+      "hash": "129bfdefa8511f96"
     },
     {
       "id": "g5-w-plane",
@@ -11646,17 +11646,17 @@
       "id": "g5-w-plane",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the plane.",
-      "path": "assets/audio/g5-w-plane-example-normal-009814428ce4f0d6.mp3",
-      "hash": "009814428ce4f0d6"
+      "text": "The plane is flying over the sea.",
+      "path": "assets/audio/g5-w-plane-example-normal-8bae11025de35837.mp3",
+      "hash": "8bae11025de35837"
     },
     {
       "id": "g5-w-plane",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the plane.",
-      "path": "assets/audio/g5-w-plane-example-slow-39374ab4a86b8ebc.mp3",
-      "hash": "39374ab4a86b8ebc"
+      "text": "The plane is flying over the sea.",
+      "path": "assets/audio/g5-w-plane-example-slow-e08e3d8b1b60ab69.mp3",
+      "hash": "e08e3d8b1b60ab69"
     },
     {
       "id": "g5-w-ship",
@@ -11678,17 +11678,17 @@
       "id": "g5-w-ship",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the ship.",
-      "path": "assets/audio/g5-w-ship-example-normal-261c5675baf719c7.mp3",
-      "hash": "261c5675baf719c7"
+      "text": "That ship is very big.",
+      "path": "assets/audio/g5-w-ship-example-normal-378c613be901dffd.mp3",
+      "hash": "378c613be901dffd"
     },
     {
       "id": "g5-w-ship",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the ship.",
-      "path": "assets/audio/g5-w-ship-example-slow-50a52c1e9e19bf04.mp3",
-      "hash": "50a52c1e9e19bf04"
+      "text": "That ship is very big.",
+      "path": "assets/audio/g5-w-ship-example-slow-d5849d38d4d6f23a.mp3",
+      "hash": "d5849d38d4d6f23a"
     },
     {
       "id": "g5-w-boat",
@@ -11710,17 +11710,17 @@
       "id": "g5-w-boat",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the boat.",
-      "path": "assets/audio/g5-w-boat-example-normal-8d20ba6959f43d51.mp3",
-      "hash": "8d20ba6959f43d51"
+      "text": "There are two people in the boat.",
+      "path": "assets/audio/g5-w-boat-example-normal-8cde9a565e04805c.mp3",
+      "hash": "8cde9a565e04805c"
     },
     {
       "id": "g5-w-boat",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the boat.",
-      "path": "assets/audio/g5-w-boat-example-slow-78bdd46402583cf1.mp3",
-      "hash": "78bdd46402583cf1"
+      "text": "There are two people in the boat.",
+      "path": "assets/audio/g5-w-boat-example-slow-9f59ea424e702c79.mp3",
+      "hash": "9f59ea424e702c79"
     },
     {
       "id": "g5-w-truck",
@@ -11742,17 +11742,17 @@
       "id": "g5-w-truck",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the truck.",
-      "path": "assets/audio/g5-w-truck-example-normal-e9d753924c1132c4.mp3",
-      "hash": "e9d753924c1132c4"
+      "text": "My father drives a truck.",
+      "path": "assets/audio/g5-w-truck-example-normal-d57cd0a6b7cdd007.mp3",
+      "hash": "d57cd0a6b7cdd007"
     },
     {
       "id": "g5-w-truck",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the truck.",
-      "path": "assets/audio/g5-w-truck-example-slow-0c614141a6e1e6b5.mp3",
-      "hash": "0c614141a6e1e6b5"
+      "text": "My father drives a truck.",
+      "path": "assets/audio/g5-w-truck-example-slow-b7e2eea68b8ddfea.mp3",
+      "hash": "b7e2eea68b8ddfea"
     },
     {
       "id": "g5-w-taxi",
@@ -11774,17 +11774,17 @@
       "id": "g5-w-taxi",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the taxi.",
-      "path": "assets/audio/g5-w-taxi-example-normal-addb123b6f53589d.mp3",
-      "hash": "addb123b6f53589d"
+      "text": "Let's take a taxi to the station.",
+      "path": "assets/audio/g5-w-taxi-example-normal-502ce4babb10fba7.mp3",
+      "hash": "502ce4babb10fba7"
     },
     {
       "id": "g5-w-taxi",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the taxi.",
-      "path": "assets/audio/g5-w-taxi-example-slow-140699a55929162a.mp3",
-      "hash": "140699a55929162a"
+      "text": "Let's take a taxi to the station.",
+      "path": "assets/audio/g5-w-taxi-example-slow-bbbd3d178d4b0ded.mp3",
+      "hash": "bbbd3d178d4b0ded"
     },
     {
       "id": "g5-w-baby",
@@ -11806,17 +11806,17 @@
       "id": "g5-w-baby",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the baby.",
-      "path": "assets/audio/g5-w-baby-example-normal-e176bf4162ac0e43.mp3",
-      "hash": "e176bf4162ac0e43"
+      "text": "The baby is sleeping now.",
+      "path": "assets/audio/g5-w-baby-example-normal-6a2fc7b4cb87c018.mp3",
+      "hash": "6a2fc7b4cb87c018"
     },
     {
       "id": "g5-w-baby",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the baby.",
-      "path": "assets/audio/g5-w-baby-example-slow-b875d35c63a43c05.mp3",
-      "hash": "b875d35c63a43c05"
+      "text": "The baby is sleeping now.",
+      "path": "assets/audio/g5-w-baby-example-slow-59442414475e3de2.mp3",
+      "hash": "59442414475e3de2"
     },
     {
       "id": "g5-w-child",
@@ -11838,17 +11838,17 @@
       "id": "g5-w-child",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the child.",
-      "path": "assets/audio/g5-w-child-example-normal-b183197a184fd761.mp3",
-      "hash": "b183197a184fd761"
+      "text": "That child is my brother.",
+      "path": "assets/audio/g5-w-child-example-normal-2205669290e9fb26.mp3",
+      "hash": "2205669290e9fb26"
     },
     {
       "id": "g5-w-child",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the child.",
-      "path": "assets/audio/g5-w-child-example-slow-482e25207c1f22a2.mp3",
-      "hash": "482e25207c1f22a2"
+      "text": "That child is my brother.",
+      "path": "assets/audio/g5-w-child-example-slow-a9a61a8da4ecf933.mp3",
+      "hash": "a9a61a8da4ecf933"
     },
     {
       "id": "g5-w-man",
@@ -11870,17 +11870,17 @@
       "id": "g5-w-man",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the man.",
-      "path": "assets/audio/g5-w-man-example-normal-48f1ae3bb73d1df1.mp3",
-      "hash": "48f1ae3bb73d1df1"
+      "text": "Who is that man?",
+      "path": "assets/audio/g5-w-man-example-normal-0b0a79e8eaff9a75.mp3",
+      "hash": "0b0a79e8eaff9a75"
     },
     {
       "id": "g5-w-man",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the man.",
-      "path": "assets/audio/g5-w-man-example-slow-58a46e95efbccede.mp3",
-      "hash": "58a46e95efbccede"
+      "text": "Who is that man?",
+      "path": "assets/audio/g5-w-man-example-slow-893e96030d162861.mp3",
+      "hash": "893e96030d162861"
     },
     {
       "id": "g5-w-woman",
@@ -11902,17 +11902,17 @@
       "id": "g5-w-woman",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the woman.",
-      "path": "assets/audio/g5-w-woman-example-normal-58274dc2a36802ca.mp3",
-      "hash": "58274dc2a36802ca"
+      "text": "The woman is our English teacher.",
+      "path": "assets/audio/g5-w-woman-example-normal-871c29e28e654396.mp3",
+      "hash": "871c29e28e654396"
     },
     {
       "id": "g5-w-woman",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the woman.",
-      "path": "assets/audio/g5-w-woman-example-slow-6427403eec15ab03.mp3",
-      "hash": "6427403eec15ab03"
+      "text": "The woman is our English teacher.",
+      "path": "assets/audio/g5-w-woman-example-slow-ff43629ffce878ba.mp3",
+      "hash": "ff43629ffce878ba"
     },
     {
       "id": "g5-w-uncle",
@@ -11934,17 +11934,17 @@
       "id": "g5-w-uncle",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the uncle.",
-      "path": "assets/audio/g5-w-uncle-example-normal-adcfb1a20562afd3.mp3",
-      "hash": "adcfb1a20562afd3"
+      "text": "My uncle can cook well.",
+      "path": "assets/audio/g5-w-uncle-example-normal-6549383ecc6c9217.mp3",
+      "hash": "6549383ecc6c9217"
     },
     {
       "id": "g5-w-uncle",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the uncle.",
-      "path": "assets/audio/g5-w-uncle-example-slow-6ba6377b161a3f2b.mp3",
-      "hash": "6ba6377b161a3f2b"
+      "text": "My uncle can cook well.",
+      "path": "assets/audio/g5-w-uncle-example-slow-32af87d0c84c867d.mp3",
+      "hash": "32af87d0c84c867d"
     },
     {
       "id": "g5-w-aunt",
@@ -11966,17 +11966,17 @@
       "id": "g5-w-aunt",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the aunt.",
-      "path": "assets/audio/g5-w-aunt-example-normal-274c3b6a41d03b6f.mp3",
-      "hash": "274c3b6a41d03b6f"
+      "text": "My aunt doesn't like coffee.",
+      "path": "assets/audio/g5-w-aunt-example-normal-bd562ed4222b8b9e.mp3",
+      "hash": "bd562ed4222b8b9e"
     },
     {
       "id": "g5-w-aunt",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the aunt.",
-      "path": "assets/audio/g5-w-aunt-example-slow-3d7274aa0ba2651c.mp3",
-      "hash": "3d7274aa0ba2651c"
+      "text": "My aunt doesn't like coffee.",
+      "path": "assets/audio/g5-w-aunt-example-slow-ea922527cf76ce26.mp3",
+      "hash": "ea922527cf76ce26"
     },
     {
       "id": "g5-w-cousin",
@@ -11998,17 +11998,17 @@
       "id": "g5-w-cousin",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the cousin.",
-      "path": "assets/audio/g5-w-cousin-example-normal-d417956f21655999.mp3",
-      "hash": "d417956f21655999"
+      "text": "I play tennis with my cousin.",
+      "path": "assets/audio/g5-w-cousin-example-normal-f780d0058d3013c1.mp3",
+      "hash": "f780d0058d3013c1"
     },
     {
       "id": "g5-w-cousin",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the cousin.",
-      "path": "assets/audio/g5-w-cousin-example-slow-4d0c774c6dd20099.mp3",
-      "hash": "4d0c774c6dd20099"
+      "text": "I play tennis with my cousin.",
+      "path": "assets/audio/g5-w-cousin-example-slow-2d2fc39a58836bc1.mp3",
+      "hash": "2d2fc39a58836bc1"
     },
     {
       "id": "g5-w-parent",
@@ -12030,17 +12030,17 @@
       "id": "g5-w-parent",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the parent.",
-      "path": "assets/audio/g5-w-parent-example-normal-da6c3c7b18bbce12.mp3",
-      "hash": "da6c3c7b18bbce12"
+      "text": "Please come with a parent.",
+      "path": "assets/audio/g5-w-parent-example-normal-ca49409e2aed76fb.mp3",
+      "hash": "ca49409e2aed76fb"
     },
     {
       "id": "g5-w-parent",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the parent.",
-      "path": "assets/audio/g5-w-parent-example-slow-18ba471635458e8d.mp3",
-      "hash": "18ba471635458e8d"
+      "text": "Please come with a parent.",
+      "path": "assets/audio/g5-w-parent-example-slow-eaedd022bc2c6cee.mp3",
+      "hash": "eaedd022bc2c6cee"
     },
     {
       "id": "g5-w-doctor",
@@ -12062,17 +12062,17 @@
       "id": "g5-w-doctor",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the doctor.",
-      "path": "assets/audio/g5-w-doctor-example-normal-8ad117dd4e4fabbc.mp3",
-      "hash": "8ad117dd4e4fabbc"
+      "text": "My mother is a doctor.",
+      "path": "assets/audio/g5-w-doctor-example-normal-1ae5266016269e98.mp3",
+      "hash": "1ae5266016269e98"
     },
     {
       "id": "g5-w-doctor",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the doctor.",
-      "path": "assets/audio/g5-w-doctor-example-slow-3cbab649cf567826.mp3",
-      "hash": "3cbab649cf567826"
+      "text": "My mother is a doctor.",
+      "path": "assets/audio/g5-w-doctor-example-slow-24efa5422f3dc141.mp3",
+      "hash": "24efa5422f3dc141"
     },
     {
       "id": "g5-w-nurse",
@@ -12094,17 +12094,17 @@
       "id": "g5-w-nurse",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the nurse.",
-      "path": "assets/audio/g5-w-nurse-example-normal-8a6b80b54f76c3cd.mp3",
-      "hash": "8a6b80b54f76c3cd"
+      "text": "Is your sister a nurse?",
+      "path": "assets/audio/g5-w-nurse-example-normal-1e92e6f83b7a3254.mp3",
+      "hash": "1e92e6f83b7a3254"
     },
     {
       "id": "g5-w-nurse",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the nurse.",
-      "path": "assets/audio/g5-w-nurse-example-slow-3009dcd1cb20c8a3.mp3",
-      "hash": "3009dcd1cb20c8a3"
+      "text": "Is your sister a nurse?",
+      "path": "assets/audio/g5-w-nurse-example-slow-beb10c9a855d7e0e.mp3",
+      "hash": "beb10c9a855d7e0e"
     },
     {
       "id": "g5-w-dentist",
@@ -12126,17 +12126,17 @@
       "id": "g5-w-dentist",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the dentist.",
-      "path": "assets/audio/g5-w-dentist-example-normal-b74229a5f36d6704.mp3",
-      "hash": "b74229a5f36d6704"
+      "text": "I want to be a dentist.",
+      "path": "assets/audio/g5-w-dentist-example-normal-6a61bb40ad35306a.mp3",
+      "hash": "6a61bb40ad35306a"
     },
     {
       "id": "g5-w-dentist",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the dentist.",
-      "path": "assets/audio/g5-w-dentist-example-slow-5cee1482ce2633c7.mp3",
-      "hash": "5cee1482ce2633c7"
+      "text": "I want to be a dentist.",
+      "path": "assets/audio/g5-w-dentist-example-slow-242de4ffac9753d1.mp3",
+      "hash": "242de4ffac9753d1"
     },
     {
       "id": "g5-w-farmer",
@@ -12158,17 +12158,17 @@
       "id": "g5-w-farmer",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the farmer.",
-      "path": "assets/audio/g5-w-farmer-example-normal-477e23d8c913201b.mp3",
-      "hash": "477e23d8c913201b"
+      "text": "The farmer grows carrots.",
+      "path": "assets/audio/g5-w-farmer-example-normal-23b0838695ab10a0.mp3",
+      "hash": "23b0838695ab10a0"
     },
     {
       "id": "g5-w-farmer",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the farmer.",
-      "path": "assets/audio/g5-w-farmer-example-slow-3b581bc31bb3f8fe.mp3",
-      "hash": "3b581bc31bb3f8fe"
+      "text": "The farmer grows carrots.",
+      "path": "assets/audio/g5-w-farmer-example-slow-d133cade3da66c20.mp3",
+      "hash": "d133cade3da66c20"
     },
     {
       "id": "g5-w-driver",
@@ -12190,17 +12190,17 @@
       "id": "g5-w-driver",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the driver.",
-      "path": "assets/audio/g5-w-driver-example-normal-c5f3e220e9ef269c.mp3",
-      "hash": "c5f3e220e9ef269c"
+      "text": "The bus driver is kind.",
+      "path": "assets/audio/g5-w-driver-example-normal-49a6573e3e076f9e.mp3",
+      "hash": "49a6573e3e076f9e"
     },
     {
       "id": "g5-w-driver",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the driver.",
-      "path": "assets/audio/g5-w-driver-example-slow-35d79b19dd8b3d86.mp3",
-      "hash": "35d79b19dd8b3d86"
+      "text": "The bus driver is kind.",
+      "path": "assets/audio/g5-w-driver-example-slow-032f35c26f1c5c6a.mp3",
+      "hash": "032f35c26f1c5c6a"
     },
     {
       "id": "g5-w-singer",
@@ -12222,17 +12222,17 @@
       "id": "g5-w-singer",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the singer.",
-      "path": "assets/audio/g5-w-singer-example-normal-a95aca56ad5da4b1.mp3",
-      "hash": "a95aca56ad5da4b1"
+      "text": "Who is your favorite singer?",
+      "path": "assets/audio/g5-w-singer-example-normal-625e207d0a8bba41.mp3",
+      "hash": "625e207d0a8bba41"
     },
     {
       "id": "g5-w-singer",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the singer.",
-      "path": "assets/audio/g5-w-singer-example-slow-2272f6d0a77b5781.mp3",
-      "hash": "2272f6d0a77b5781"
+      "text": "Who is your favorite singer?",
+      "path": "assets/audio/g5-w-singer-example-slow-4866c7fe26aead33.mp3",
+      "hash": "4866c7fe26aead33"
     },
     {
       "id": "g5-w-player",
@@ -12254,17 +12254,17 @@
       "id": "g5-w-player",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the player.",
-      "path": "assets/audio/g5-w-player-example-normal-d220098d96f1fa07.mp3",
-      "hash": "d220098d96f1fa07"
+      "text": "He is a good soccer player.",
+      "path": "assets/audio/g5-w-player-example-normal-ea8cf047c1945acc.mp3",
+      "hash": "ea8cf047c1945acc"
     },
     {
       "id": "g5-w-player",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the player.",
-      "path": "assets/audio/g5-w-player-example-slow-46b1fc6960390be6.mp3",
-      "hash": "46b1fc6960390be6"
+      "text": "He is a good soccer player.",
+      "path": "assets/audio/g5-w-player-example-slow-aa9b0d69b0d96ced.mp3",
+      "hash": "aa9b0d69b0d96ced"
     },
     {
       "id": "g5-w-police-officer",
@@ -12286,17 +12286,17 @@
       "id": "g5-w-police-officer",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the police officer.",
-      "path": "assets/audio/g5-w-police-officer-example-normal-f4489d6c264d248e.mp3",
-      "hash": "f4489d6c264d248e"
+      "text": "That police officer is my uncle.",
+      "path": "assets/audio/g5-w-police-officer-example-normal-18d4dda5388436ef.mp3",
+      "hash": "18d4dda5388436ef"
     },
     {
       "id": "g5-w-police-officer",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the police officer.",
-      "path": "assets/audio/g5-w-police-officer-example-slow-6f40cdc727d55894.mp3",
-      "hash": "6f40cdc727d55894"
+      "text": "That police officer is my uncle.",
+      "path": "assets/audio/g5-w-police-officer-example-slow-ca743c1ffb5b7ef4.mp3",
+      "hash": "ca743c1ffb5b7ef4"
     },
     {
       "id": "g5-w-face",
@@ -12318,17 +12318,17 @@
       "id": "g5-w-face",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the face.",
-      "path": "assets/audio/g5-w-face-example-normal-a1fbd6485534503d.mp3",
-      "hash": "a1fbd6485534503d"
+      "text": "Please wash your face.",
+      "path": "assets/audio/g5-w-face-example-normal-b25fd61cb1f0653d.mp3",
+      "hash": "b25fd61cb1f0653d"
     },
     {
       "id": "g5-w-face",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the face.",
-      "path": "assets/audio/g5-w-face-example-slow-be269886eea9fd0b.mp3",
-      "hash": "be269886eea9fd0b"
+      "text": "Please wash your face.",
+      "path": "assets/audio/g5-w-face-example-slow-d08e6a908f9825ce.mp3",
+      "hash": "d08e6a908f9825ce"
     },
     {
       "id": "g5-w-arm",
@@ -12350,17 +12350,17 @@
       "id": "g5-w-arm",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the arm.",
-      "path": "assets/audio/g5-w-arm-example-normal-694321916dec0c66.mp3",
-      "hash": "694321916dec0c66"
+      "text": "He has long arms.",
+      "path": "assets/audio/g5-w-arm-example-normal-22f5df44595f3e1a.mp3",
+      "hash": "22f5df44595f3e1a"
     },
     {
       "id": "g5-w-arm",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the arm.",
-      "path": "assets/audio/g5-w-arm-example-slow-34c3e62ef7b5c317.mp3",
-      "hash": "34c3e62ef7b5c317"
+      "text": "He has long arms.",
+      "path": "assets/audio/g5-w-arm-example-slow-5ffea382340cc5df.mp3",
+      "hash": "5ffea382340cc5df"
     },
     {
       "id": "g5-w-leg",
@@ -12382,17 +12382,17 @@
       "id": "g5-w-leg",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the leg.",
-      "path": "assets/audio/g5-w-leg-example-normal-52abb870380eb527.mp3",
-      "hash": "52abb870380eb527"
+      "text": "The dog has short legs.",
+      "path": "assets/audio/g5-w-leg-example-normal-c7365a514b92d757.mp3",
+      "hash": "c7365a514b92d757"
     },
     {
       "id": "g5-w-leg",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the leg.",
-      "path": "assets/audio/g5-w-leg-example-slow-d129637ee39d5ad1.mp3",
-      "hash": "d129637ee39d5ad1"
+      "text": "The dog has short legs.",
+      "path": "assets/audio/g5-w-leg-example-slow-e04c98e0e0340ab2.mp3",
+      "hash": "e04c98e0e0340ab2"
     },
     {
       "id": "g5-w-foot",
@@ -12414,17 +12414,17 @@
       "id": "g5-w-foot",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the foot.",
-      "path": "assets/audio/g5-w-foot-example-normal-a2d1b3e890b219b4.mp3",
-      "hash": "a2d1b3e890b219b4"
+      "text": "My left foot is in the water.",
+      "path": "assets/audio/g5-w-foot-example-normal-766257eddfc72a81.mp3",
+      "hash": "766257eddfc72a81"
     },
     {
       "id": "g5-w-foot",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the foot.",
-      "path": "assets/audio/g5-w-foot-example-slow-8078f4b5ace485e6.mp3",
-      "hash": "8078f4b5ace485e6"
+      "text": "My left foot is in the water.",
+      "path": "assets/audio/g5-w-foot-example-slow-4d11142a04bf232b.mp3",
+      "hash": "4d11142a04bf232b"
     },
     {
       "id": "g5-w-finger",
@@ -12446,17 +12446,17 @@
       "id": "g5-w-finger",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the finger.",
-      "path": "assets/audio/g5-w-finger-example-normal-73acb57ef52644b1.mp3",
-      "hash": "73acb57ef52644b1"
+      "text": "How many fingers can you see?",
+      "path": "assets/audio/g5-w-finger-example-normal-e884c00d183794a6.mp3",
+      "hash": "e884c00d183794a6"
     },
     {
       "id": "g5-w-finger",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the finger.",
-      "path": "assets/audio/g5-w-finger-example-slow-dc351e653a0f7103.mp3",
-      "hash": "dc351e653a0f7103"
+      "text": "How many fingers can you see?",
+      "path": "assets/audio/g5-w-finger-example-slow-ca0e58679f164c05.mp3",
+      "hash": "ca0e58679f164c05"
     },
     {
       "id": "g5-w-tooth",
@@ -12478,17 +12478,17 @@
       "id": "g5-w-tooth",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the tooth.",
-      "path": "assets/audio/g5-w-tooth-example-normal-1386f2c00fb94577.mp3",
-      "hash": "1386f2c00fb94577"
+      "text": "The baby has one tooth.",
+      "path": "assets/audio/g5-w-tooth-example-normal-172f4f5cc9c25a96.mp3",
+      "hash": "172f4f5cc9c25a96"
     },
     {
       "id": "g5-w-tooth",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the tooth.",
-      "path": "assets/audio/g5-w-tooth-example-slow-e276e9dfc85b1ae1.mp3",
-      "hash": "e276e9dfc85b1ae1"
+      "text": "The baby has one tooth.",
+      "path": "assets/audio/g5-w-tooth-example-slow-a2a8b7a82d659124.mp3",
+      "hash": "a2a8b7a82d659124"
     },
     {
       "id": "g5-w-neck",
@@ -12510,17 +12510,17 @@
       "id": "g5-w-neck",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the neck.",
-      "path": "assets/audio/g5-w-neck-example-normal-cf92ed72dd98b36f.mp3",
-      "hash": "cf92ed72dd98b36f"
+      "text": "The giraffe has a long neck.",
+      "path": "assets/audio/g5-w-neck-example-normal-441da38c33d07208.mp3",
+      "hash": "441da38c33d07208"
     },
     {
       "id": "g5-w-neck",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the neck.",
-      "path": "assets/audio/g5-w-neck-example-slow-38f2d559ef3f7642.mp3",
-      "hash": "38f2d559ef3f7642"
+      "text": "The giraffe has a long neck.",
+      "path": "assets/audio/g5-w-neck-example-slow-94d0719dc1719557.mp3",
+      "hash": "94d0719dc1719557"
     },
     {
       "id": "g5-w-knee",
@@ -12542,17 +12542,17 @@
       "id": "g5-w-knee",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the knee.",
-      "path": "assets/audio/g5-w-knee-example-normal-799e851d77627771.mp3",
-      "hash": "799e851d77627771"
+      "text": "My knee is under the desk.",
+      "path": "assets/audio/g5-w-knee-example-normal-d54095b3b9728c34.mp3",
+      "hash": "d54095b3b9728c34"
     },
     {
       "id": "g5-w-knee",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the knee.",
-      "path": "assets/audio/g5-w-knee-example-slow-8d2a79704277f44f.mp3",
-      "hash": "8d2a79704277f44f"
+      "text": "My knee is under the desk.",
+      "path": "assets/audio/g5-w-knee-example-slow-b5cef84dcb0b2392.mp3",
+      "hash": "b5cef84dcb0b2392"
     },
     {
       "id": "g5-w-shoulder",
@@ -12574,17 +12574,17 @@
       "id": "g5-w-shoulder",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the shoulder.",
-      "path": "assets/audio/g5-w-shoulder-example-normal-14a76aae54dc6aa0.mp3",
-      "hash": "14a76aae54dc6aa0"
+      "text": "The bag is on my shoulder.",
+      "path": "assets/audio/g5-w-shoulder-example-normal-43c7dde2e6b24a7d.mp3",
+      "hash": "43c7dde2e6b24a7d"
     },
     {
       "id": "g5-w-shoulder",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the shoulder.",
-      "path": "assets/audio/g5-w-shoulder-example-slow-bf1d7a1611b3ec20.mp3",
-      "hash": "bf1d7a1611b3ec20"
+      "text": "The bag is on my shoulder.",
+      "path": "assets/audio/g5-w-shoulder-example-slow-b6e67adc39ac9621.mp3",
+      "hash": "b6e67adc39ac9621"
     },
     {
       "id": "g5-w-cap",
@@ -12606,17 +12606,17 @@
       "id": "g5-w-cap",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the cap.",
-      "path": "assets/audio/g5-w-cap-example-normal-16d5f8f88264c95b.mp3",
-      "hash": "16d5f8f88264c95b"
+      "text": "Whose cap is this?",
+      "path": "assets/audio/g5-w-cap-example-normal-b1d78ad7cce06843.mp3",
+      "hash": "b1d78ad7cce06843"
     },
     {
       "id": "g5-w-cap",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the cap.",
-      "path": "assets/audio/g5-w-cap-example-slow-41463a4c28ba93f3.mp3",
-      "hash": "41463a4c28ba93f3"
+      "text": "Whose cap is this?",
+      "path": "assets/audio/g5-w-cap-example-slow-eb3e729450ba9b37.mp3",
+      "hash": "eb3e729450ba9b37"
     },
     {
       "id": "g5-w-t-shirt",
@@ -12638,17 +12638,17 @@
       "id": "g5-w-t-shirt",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the t-shirt.",
-      "path": "assets/audio/g5-w-t-shirt-example-normal-73d6d38d4ab83d5e.mp3",
-      "hash": "73d6d38d4ab83d5e"
+      "text": "This T-shirt is too small for me.",
+      "path": "assets/audio/g5-w-t-shirt-example-normal-a3dcf938feb15d7e.mp3",
+      "hash": "a3dcf938feb15d7e"
     },
     {
       "id": "g5-w-t-shirt",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the t-shirt.",
-      "path": "assets/audio/g5-w-t-shirt-example-slow-c15efdf9d9733ac0.mp3",
-      "hash": "c15efdf9d9733ac0"
+      "text": "This T-shirt is too small for me.",
+      "path": "assets/audio/g5-w-t-shirt-example-slow-a95dd0b31f14c429.mp3",
+      "hash": "a95dd0b31f14c429"
     },
     {
       "id": "g5-w-sweater",
@@ -12670,17 +12670,17 @@
       "id": "g5-w-sweater",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the sweater.",
-      "path": "assets/audio/g5-w-sweater-example-normal-fb853d8a76f9150b.mp3",
-      "hash": "fb853d8a76f9150b"
+      "text": "She is wearing a red sweater.",
+      "path": "assets/audio/g5-w-sweater-example-normal-914610d07bc20895.mp3",
+      "hash": "914610d07bc20895"
     },
     {
       "id": "g5-w-sweater",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the sweater.",
-      "path": "assets/audio/g5-w-sweater-example-slow-37880382e22b2d9e.mp3",
-      "hash": "37880382e22b2d9e"
+      "text": "She is wearing a red sweater.",
+      "path": "assets/audio/g5-w-sweater-example-slow-1c21b269997d712c.mp3",
+      "hash": "1c21b269997d712c"
     },
     {
       "id": "g5-w-jacket",
@@ -12702,17 +12702,17 @@
       "id": "g5-w-jacket",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the jacket.",
-      "path": "assets/audio/g5-w-jacket-example-normal-d53da1ff9ea17f56.mp3",
-      "hash": "d53da1ff9ea17f56"
+      "text": "Please put on your jacket.",
+      "path": "assets/audio/g5-w-jacket-example-normal-bf0365432136abf6.mp3",
+      "hash": "bf0365432136abf6"
     },
     {
       "id": "g5-w-jacket",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the jacket.",
-      "path": "assets/audio/g5-w-jacket-example-slow-76c363a638dfa994.mp3",
-      "hash": "76c363a638dfa994"
+      "text": "Please put on your jacket.",
+      "path": "assets/audio/g5-w-jacket-example-slow-87e1ebe7a053d76d.mp3",
+      "hash": "87e1ebe7a053d76d"
     },
     {
       "id": "g5-w-skirt",
@@ -12734,17 +12734,17 @@
       "id": "g5-w-skirt",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the skirt.",
-      "path": "assets/audio/g5-w-skirt-example-normal-8e95d241fecef13a.mp3",
-      "hash": "8e95d241fecef13a"
+      "text": "How much is this skirt?",
+      "path": "assets/audio/g5-w-skirt-example-normal-a09f6925fb1b0c24.mp3",
+      "hash": "a09f6925fb1b0c24"
     },
     {
       "id": "g5-w-skirt",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the skirt.",
-      "path": "assets/audio/g5-w-skirt-example-slow-77c440a427c43ba3.mp3",
-      "hash": "77c440a427c43ba3"
+      "text": "How much is this skirt?",
+      "path": "assets/audio/g5-w-skirt-example-slow-9117d84ef1134200.mp3",
+      "hash": "9117d84ef1134200"
     },
     {
       "id": "g5-w-dress",
@@ -12766,17 +12766,17 @@
       "id": "g5-w-dress",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the dress.",
-      "path": "assets/audio/g5-w-dress-example-normal-3b233ca2d713c890.mp3",
-      "hash": "3b233ca2d713c890"
+      "text": "Her dress is blue and white.",
+      "path": "assets/audio/g5-w-dress-example-normal-0be1bc7b7c8df08a.mp3",
+      "hash": "0be1bc7b7c8df08a"
     },
     {
       "id": "g5-w-dress",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the dress.",
-      "path": "assets/audio/g5-w-dress-example-slow-cee0c00cecb1bd8f.mp3",
-      "hash": "cee0c00cecb1bd8f"
+      "text": "Her dress is blue and white.",
+      "path": "assets/audio/g5-w-dress-example-slow-7074b33eb3720d17.mp3",
+      "hash": "7074b33eb3720d17"
     },
     {
       "id": "g5-w-sock",
@@ -12798,17 +12798,17 @@
       "id": "g5-w-sock",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the sock.",
-      "path": "assets/audio/g5-w-sock-example-normal-96c8c8bf9f69e62d.mp3",
-      "hash": "96c8c8bf9f69e62d"
+      "text": "Where is my other sock?",
+      "path": "assets/audio/g5-w-sock-example-normal-eb29a64887be5ac0.mp3",
+      "hash": "eb29a64887be5ac0"
     },
     {
       "id": "g5-w-sock",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the sock.",
-      "path": "assets/audio/g5-w-sock-example-slow-dd1ba7147426000c.mp3",
-      "hash": "dd1ba7147426000c"
+      "text": "Where is my other sock?",
+      "path": "assets/audio/g5-w-sock-example-slow-b2c19beef6e0c809.mp3",
+      "hash": "b2c19beef6e0c809"
     },
     {
       "id": "g5-w-glove",
@@ -12830,17 +12830,17 @@
       "id": "g5-w-glove",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the glove.",
-      "path": "assets/audio/g5-w-glove-example-normal-f2fede16ce7ffc3f.mp3",
-      "hash": "f2fede16ce7ffc3f"
+      "text": "This glove is for my right hand.",
+      "path": "assets/audio/g5-w-glove-example-normal-114336fd5db86ba3.mp3",
+      "hash": "114336fd5db86ba3"
     },
     {
       "id": "g5-w-glove",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the glove.",
-      "path": "assets/audio/g5-w-glove-example-slow-a70c45539b5c8222.mp3",
-      "hash": "a70c45539b5c8222"
+      "text": "This glove is for my right hand.",
+      "path": "assets/audio/g5-w-glove-example-slow-3dde85b16dbb2670.mp3",
+      "hash": "3dde85b16dbb2670"
     },
     {
       "id": "g5-w-boot",
@@ -12862,17 +12862,17 @@
       "id": "g5-w-boot",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the boot.",
-      "path": "assets/audio/g5-w-boot-example-normal-9d09444c750908be.mp3",
-      "hash": "9d09444c750908be"
+      "text": "There is a stone in my boot.",
+      "path": "assets/audio/g5-w-boot-example-normal-c52ccd548c79b893.mp3",
+      "hash": "c52ccd548c79b893"
     },
     {
       "id": "g5-w-boot",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the boot.",
-      "path": "assets/audio/g5-w-boot-example-slow-1fc957dc32abc022.mp3",
-      "hash": "1fc957dc32abc022"
+      "text": "There is a stone in my boot.",
+      "path": "assets/audio/g5-w-boot-example-slow-10e38cdb2460df7f.mp3",
+      "hash": "10e38cdb2460df7f"
     },
     {
       "id": "g5-w-uniform",
@@ -12894,17 +12894,17 @@
       "id": "g5-w-uniform",
       "part": "example",
       "speed": "normal",
-      "text": "Look at the uniform.",
-      "path": "assets/audio/g5-w-uniform-example-normal-51317b7851be50e8.mp3",
-      "hash": "51317b7851be50e8"
+      "text": "We wear a uniform at school.",
+      "path": "assets/audio/g5-w-uniform-example-normal-6418d1f7a882bbc1.mp3",
+      "hash": "6418d1f7a882bbc1"
     },
     {
       "id": "g5-w-uniform",
       "part": "example",
       "speed": "slow",
-      "text": "Look at the uniform.",
-      "path": "assets/audio/g5-w-uniform-example-slow-80df9d52cec558d4.mp3",
-      "hash": "80df9d52cec558d4"
+      "text": "We wear a uniform at school.",
+      "path": "assets/audio/g5-w-uniform-example-slow-36f134351fa4f860.mp3",
+      "hash": "36f134351fa4f860"
     },
     {
       "id": "g5-w-i",

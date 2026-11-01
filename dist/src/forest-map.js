@@ -41,10 +41,11 @@ function mount(root,motion){
  }else finish();
  const changedMotion=()=>{if(calm()){clearTimeout(delay);progress=fogProgress(local);expansion.settle();root.dataset.fogProgress=String(progress);apply();}};
  media.addEventListener('change',changedMotion);
- let drag=null;
- const down=e=>{if(!interactive||e.target.closest('button')||e.button!==0)return;drag={id:e.pointerId,x:e.clientX,y:e.clientY};root.setPointerCapture(e.pointerId);};
- const move=e=>{if(!drag||drag.id!==e.pointerId)return;camera.panBy(e.clientX-drag.x,e.clientY-drag.y);drag.x=e.clientX;drag.y=e.clientY;apply();};
- const up=()=>{drag=null;};
+ const pointers=new Map();let gesture=null;
+ const snapshot=()=>{const p=[...pointers.values()];if(!p.length)return null;const a=p[0],b=p[1];return b?{x:(a.x+b.x)/2,y:(a.y+b.y)/2,d:Math.hypot(a.x-b.x,a.y-b.y)}:{x:a.x,y:a.y,d:0};};
+ const down=e=>{if(!interactive||e.target.closest('button')||e.button!==0)return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});gesture=snapshot();root.setPointerCapture(e.pointerId);};
+ const move=e=>{if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});const next=snapshot();camera.panBy(next.x-gesture.x,next.y-gesture.y);if(next.d&&gesture.d){const r=root.getBoundingClientRect();camera.setZoom(camera.zoom*next.d/gesture.d,{x:next.x-r.left,y:next.y-r.top});}gesture=next;apply();};
+ const up=e=>{pointers.delete(e.pointerId);gesture=snapshot();};
  const zoom=(factor,anchor)=>{camera.setZoom(camera.zoom*factor,anchor||{x:camera.viewportWidth/2,y:camera.viewportHeight/2});apply();};
  const wheel=e=>{if(!interactive||!e.ctrlKey)return;e.preventDefault();const r=root.getBoundingClientRect();zoom(e.deltaY<0?1.12:1/1.12,{x:e.clientX-r.left,y:e.clientY-r.top});};
  const keydown=e=>{

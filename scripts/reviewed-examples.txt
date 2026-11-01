@@ -1,0 +1,153 @@
+sandwich|I eat a sandwich for lunch.|昼食にサンドイッチを食べます。|食事・現在形
+hamburger|Do you want a hamburger?|ハンバーガーがほしいですか。|希望・疑問文
+potato|This potato is big.|このジャガイモは大きいです。|be動詞・形容詞
+tomato|She likes tomatoes.|彼女はトマトが好きです。|三人称単数・複数
+carrot|The rabbit is eating a carrot.|ウサギがニンジンを食べています。|現在進行形
+onion|There is an onion in the bag.|袋にタマネギが1個あります。|存在・冠詞
+lemon|This lemon is yellow.|このレモンは黄色です。|色・be動詞
+peach|How many peaches do you have?|桃をいくつ持っていますか。|数・疑問文
+melon|Let's eat this melon.|このメロンを食べましょう。|勧誘
+cookie|Can I have a cookie, please?|クッキーを1枚もらえますか。|依頼
+cup|This is my cup.|これは私のカップです。|所有・指示語
+glass|There is some water in the glass.|そのグラスには水が入っています。|存在・不可算名詞
+plate|Please put the bread on this plate.|この皿にパンを置いてください。|依頼・場所
+spoon|I eat soup with a spoon.|スプーンでスープを飲みます。|道具のwith
+fork|Do you need a fork?|フォークが必要ですか。|一般動詞の疑問文
+knife|This knife is small.|このナイフは小さいです。|be動詞・形容詞
+bottle|Is this your bottle?|これはあなたのボトルですか。|be動詞の疑問文
+basket|The apples are in the basket.|リンゴはかごの中にあります。|場所・複数
+coin|I have a coin in my pocket.|ポケットに硬貨が1枚あります。|所有・場所
+menu|Can I see the menu, please?|メニューを見せてもらえますか。|依頼
+present|This present is for you.|このプレゼントはあなたにあげるものです。|相手を表すfor
+dollar|This pen is one dollar.|このペンは1ドルです。|値段
+bear|Can a bear swim?|クマは泳げますか。|能力・疑問文
+tiger|The tiger is sleeping.|そのトラは眠っています。|現在進行形
+fox|That fox has a long tail.|あのキツネは長いしっぽを持っています。|has・形容詞
+sheep|There are three sheep on the farm.|農場に羊が3頭います。|存在・単複同形
+duck|The duck is in the water.|そのアヒルは水の中にいます。|場所
+mouse|A mouse is under the desk.|ネズミが机の下にいます。|場所
+turtle|This turtle can swim.|このカメは泳げます。|能力
+snake|That snake is very long.|あのヘビはとても長いです。|程度の副詞
+frog|The frog can jump.|そのカエルは跳べます。|能力
+butterfly|A butterfly is on the flower.|チョウが花にとまっています。|場所
+ant|An ant is carrying food.|アリが食べ物を運んでいます。|現在進行形・冠詞
+bee|The bee is near the flower.|そのハチは花の近くにいます。|場所
+pet|Do you have a pet?|ペットを飼っていますか。|一般動詞の疑問文
+flower|These flowers are for my mother.|この花々は母にあげるものです。|指示語・複数
+tree|There is a bird in the tree.|木に鳥が1羽います。|存在・場所
+leaf|This leaf is green.|この葉は緑色です。|色
+river|We don't swim in this river.|私たちはこの川では泳ぎません。|一般動詞の否定文
+lake|Is there a lake near your school?|あなたの学校の近くに湖はありますか。|存在の疑問文
+mountain|We can see a mountain from here.|ここから山が見えます。|can・起点のfrom
+star|How many stars can you see?|星がいくつ見えますか。|数・can
+cloud|That cloud looks like a dog.|あの雲はイヌのように見えます。|様子・三人称単数
+stone|There is a small stone in my shoe.|靴の中に小さな石があります。|存在・場所
+island|My friend lives on an island.|友達は島に住んでいます。|三人称単数・場所
+pencil case|Where is my pencil case?|私の筆箱はどこですか。|Where
+textbook|Please open your textbook.|教科書を開いてください。|依頼・命令文
+dictionary|I use this dictionary at school.|学校でこの辞書を使います。|現在形・場所
+letter|She is writing a letter.|彼女は手紙を書いています。|現在進行形
+stamp|I need a stamp for this letter.|この手紙に切手が必要です。|用途のfor
+postcard|This postcard is from my uncle.|この絵はがきはおじから届いたものです。|起点のfrom
+calendar|The calendar is on the wall.|カレンダーは壁にかかっています。|場所
+camera|Can you use this camera?|このカメラを使えますか。|能力・疑問文
+phone|Please don't use your phone here.|ここでは電話を使わないでください。|否定の命令文
+key|Is this key yours?|この鍵はあなたのものですか。|所有代名詞
+umbrella|I don't have an umbrella.|傘を持っていません。|否定文・冠詞
+bicycle|He goes to school by bicycle.|彼は自転車で学校に行きます。|交通手段・三人称単数
+bike|Whose bike is this?|これは誰の自転車ですか。|Whose
+ball|The ball is between the boxes.|ボールは箱と箱の間にあります。|場所・between
+bat|This is my brother's bat.|これは兄のバットです。|所有格
+racket|Do you have a tennis racket?|テニスのラケットを持っていますか。|一般動詞の疑問文
+game|Let's play a game after lunch.|昼食のあとでゲームをしましょう。|勧誘・時間
+toy|This toy is for my little sister.|このおもちゃは妹にあげるものです。|相手を表すfor
+doll|Her doll has blue eyes.|彼女の人形は青い目をしています。|has・所有
+robot|Can this robot walk?|このロボットは歩けますか。|能力・疑問文
+kite|They are flying a kite in the park.|彼らは公園でたこを揚げています。|現在進行形
+model|He is making a model plane.|彼は模型の飛行機を作っています。|現在進行形
+ticket|How much is a ticket?|切符は1枚いくらですか。|値段の疑問文
+test|We have an English test on Monday.|月曜日に英語のテストがあります。|曜日・時間
+question|Do you have a question?|質問はありますか。|一般動詞の疑問文
+answer|I don't know the answer.|答えが分かりません。|一般動詞の否定文
+word|What does this word mean?|この単語はどういう意味ですか。|What・does
+page|Please read this page.|このページを読んでください。|依頼・命令文
+sentence|Can you read this sentence?|この文を読めますか。|能力・疑問文
+story|My father reads me a story at night.|父は夜に私にお話を読んでくれます。|三人称単数・授与
+song|Let's sing this song together.|この歌を一緒に歌いましょう。|勧誘
+movie|What is your favorite movie?|お気に入りの映画は何ですか。|What
+CD|This CD is hers.|このCDは彼女のものです。|所有代名詞
+table|The cat is under the table.|ネコはテーブルの下にいます。|場所
+bed|I go to bed at nine.|9時に寝ます。|時刻・習慣
+sofa|My mother is sitting on the sofa.|母はソファーに座っています。|現在進行形
+TV|I watch TV after dinner.|夕食のあとでテレビを見ます。|習慣・時間
+television|We don't watch television in the morning.|私たちは朝にテレビを見ません。|否定文・時間
+radio|My grandfather listens to the radio.|祖父はラジオを聞きます。|三人称単数・listen to
+lamp|Please turn on the lamp.|ランプをつけてください。|依頼・句動詞
+mirror|There is a mirror in my room.|私の部屋には鏡があります。|存在
+desk lamp|This desk lamp is new.|この電気スタンドは新しいです。|be動詞・形容詞
+floor|Please put your bag on the floor.|床にかばんを置いてください。|依頼・場所
+wall|There is a clock on the wall.|壁に時計があります。|存在・場所
+roof|The roof of this house is red.|この家の屋根は赤いです。|所属のof
+gate|Let's meet at the school gate.|学校の門で会いましょう。|勧誘・場所
+building|That tall building is a hospital.|あの高い建物は病院です。|指示語・形容詞
+classroom|Our classroom is on the second floor.|私たちの教室は2階にあります。|序数・場所
+gym|We play basketball in the gym.|私たちは体育館でバスケットボールをします。|現在形・場所
+office|My father works in an office.|父は事務所で働いています。|三人称単数・冠詞
+post office|Where is the post office?|郵便局はどこですか。|Where
+bank|The bank is next to the station.|銀行は駅の隣にあります。|場所・next to
+hotel|Is that a hotel?|あれはホテルですか。|be動詞の疑問文
+museum|The museum is open on Sunday.|その博物館は日曜日に開いています。|曜日・状態
+airport|How do you get to the airport?|空港へはどうやって行きますか。|How・移動
+bus stop|Please wait at the bus stop.|バス停で待っていてください。|依頼・場所
+shop|This shop opens at ten.|この店は10時に開きます。|三人称単数・時刻
+bookstore|There is a bookstore near my house.|家の近くに本屋があります。|存在・場所
+flower shop|My aunt works at a flower shop.|おばは花屋で働いています。|三人称単数・場所
+street|Don't play in the street.|通りで遊ばないでください。|否定の命令文
+road|This road goes to the park.|この道は公園へ通じています。|三人称単数・方向
+bridge|There is a bridge over the river.|川に橋がかかっています。|存在・over
+corner|Turn right at the corner.|角で右に曲がってください。|道案内
+farm|My uncle has a farm.|おじは農場を持っています。|has
+city|Does your sister live in this city?|あなたのお姉さんはこの市に住んでいますか。|doesの疑問文
+village|My grandmother lives in a small village.|祖母は小さな村に住んでいます。|三人称単数・場所
+country|What country are you from?|あなたはどの国の出身ですか。|What・出身
+train|What time does the train leave?|電車は何時に出発しますか。|時刻の疑問文
+plane|The plane is flying over the sea.|飛行機が海の上を飛んでいます。|現在進行形・場所
+ship|That ship is very big.|あの船はとても大きいです。|程度の副詞
+boat|There are two people in the boat.|ボートに2人乗っています。|存在・不規則複数
+truck|My father drives a truck.|父はトラックを運転します。|三人称単数
+taxi|Let's take a taxi to the station.|駅までタクシーで行きましょう。|勧誘・移動
+baby|The baby is sleeping now.|赤ちゃんは今眠っています。|現在進行形
+child|That child is my brother.|あの子供は私の弟です。|指示語・家族
+man|Who is that man?|あの男の人は誰ですか。|Who
+woman|The woman is our English teacher.|その女の人は私たちの英語の先生です。|be動詞・所有
+uncle|My uncle can cook well.|おじは料理が上手です。|能力・副詞
+aunt|My aunt doesn't like coffee.|おばはコーヒーが好きではありません。|doesn'tの否定文
+cousin|I play tennis with my cousin.|いとことテニスをします。|相手を表すwith
+parent|Please come with a parent.|保護者の方と一緒に来てください。|依頼・with
+doctor|My mother is a doctor.|母は医者です。|職業
+nurse|Is your sister a nurse?|あなたのお姉さんは看護師ですか。|be動詞の疑問文
+dentist|I want to be a dentist.|歯医者になりたいです。|want to
+farmer|The farmer grows carrots.|その農家の人はニンジンを育てています。|三人称単数・複数
+driver|The bus driver is kind.|そのバスの運転手は親切です。|be動詞・形容詞
+singer|Who is your favorite singer?|好きな歌手は誰ですか。|Who
+player|He is a good soccer player.|彼は上手なサッカー選手です。|職業・形容詞
+police officer|That police officer is my uncle.|あの警察官は私のおじです。|指示語・職業
+face|Please wash your face.|顔を洗ってください。|依頼・所有
+arm|He has long arms.|彼は腕が長いです。|has・複数
+leg|The dog has short legs.|そのイヌは足が短いです。|has・複数
+foot|My left foot is in the water.|私の左足が水の中に入っています。|単数・場所
+finger|How many fingers can you see?|指が何本見えますか。|数・can
+tooth|The baby has one tooth.|その赤ちゃんには歯が1本生えています。|単数・has
+neck|The giraffe has a long neck.|キリンは首が長いです。|has・形容詞
+knee|My knee is under the desk.|私のひざは机の下にあります。|単数・場所
+shoulder|The bag is on my shoulder.|かばんは私の肩にかかっています。|所有・場所
+cap|Whose cap is this?|これは誰の帽子ですか。|Whose
+T-shirt|This T-shirt is too small for me.|このTシャツは私には小さすぎます。|程度のtoo
+sweater|She is wearing a red sweater.|彼女は赤いセーターを着ています。|現在進行形
+jacket|Please put on your jacket.|上着を着てください。|依頼・句動詞
+skirt|How much is this skirt?|このスカートはいくらですか。|値段の疑問文
+dress|Her dress is blue and white.|彼女のワンピースは青と白です。|色・接続詞
+sock|Where is my other sock?|もう片方の靴下はどこですか。|Where・単数
+glove|This glove is for my right hand.|この手袋は右手用です。|単数・用途
+boot|There is a stone in my boot.|私のブーツの片方に石が入っています。|単数・存在
+uniform|We wear a uniform at school.|私たちは学校で制服を着ます。|習慣・場所
