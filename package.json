@@ -8,6 +8,12 @@
     "release:entry": "node scripts/release-entry.mjs",
     "validate:entry": "node scripts/release-entry.mjs --check",
     "images:sync": "python scripts/sync-shiritori-images.py",
-    "images:check": "python scripts/sync-shiritori-images.py --check"
+    "images:check": "python scripts/sync-shiritori-images.py --check",
+    "grammar:test": "node --test grammar/tests/*.test.mjs",
+    "grammar:build": "node grammar/scripts/build.mjs dist/grammar",
+    "grammar:check": "node scripts/check-grammar.mjs",
+    "grammar:qa": "node grammar/tests/browser.cjs",
+    "grammar:qa-ai": "node grammar/tests/ai-browser.cjs",
+    "grammar:qa-release": "node scripts/qa-grammar-release.cjs"
   }
 }

@@ -1,0 +1,1 @@
+{"name":"eiken-grammar-lab","version":"1.1.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","test":"node --test tests/*.test.mjs","qa":"node tests/browser.cjs","qa:ai":"node tests/ai-browser.cjs"}}

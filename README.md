@@ -122,3 +122,11 @@ PDFのあいさつ欄の high は意味と発音から hi に補正。chopstick(
 ### 音声回答の自動待機・正解演出・森の水（2026-11-02）
 
 「はじめる」「次の問題へ」「苦手語を再挑戦」の操作直後に自動でen-USの認識を開始。停止・非表示・画面移動・設定変更後は自動再開しない。認識失敗・拒否時は手動で再試行でき、無制限の自動再試行はしない。正解は大きな○と既存の正解効果音で表示（音声OFF・動きを減らす設定に従う）。森のホーム・森の画面・5問練習に「声でこたえる5問」の入口を追加。言い直し・お手本後の正解も水に加算し、XP・通常の技能別習熟とは分離。獲得した水は既存のIndexedDB・バックアップで保存する。
+
+## 文法を図解で学ぶ「ぶんぽうラボ」
+
+公開先：[ぶんぽうラボ](https://yggdrasilw-spec.github.io/english-stage/grammar/)。5級を目安にした基本20項目と過去形の追加4項目、全166問。例文の変化・語句と役割の図解、端末の英語／日本語読み上げ、理解度チェック、誤答からの再学習に対応します。小学5年生向けに、基本語彙で理由・比較・応用を考えるAI対話用プロンプトも出力できます。
+
+ソースと詳細は [grammar/README.md](grammar/README.md)。`npm run grammar:test`、`npm run grammar:build`、`npm run grammar:check` で検証・配信準備を行います。英文法の音声は端末の読み上げで、単語学習の収録MP3とは別です。文法の記録は専用のlocalStorage、単語の記録は既存のIndexedDBを使います。AI対話はプロンプトを利用中のAIへ貼り付ける方式です。
+
+文法の公開構成と既存ホームとの往復は `npm run grammar:qa-release` で確認できます。公開後は `node scripts/qa-grammar-release.cjs https://yggdrasilw-spec.github.io/english-stage/` で同じ導線を実サイトでも確認できます。
