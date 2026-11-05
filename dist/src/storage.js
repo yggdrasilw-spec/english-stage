@@ -3,6 +3,12 @@ import {validCompanion} from './companion.js';
 import {validKarutaLearning} from './karuta-learning.js';
 import {validKaruta} from './karuta-session.js';
 export const initial=()=>({schema:1,deckVersion:1,progress:{},seen:{},history:[],rewards:[],stars:0,settings:{newCount:5,sound:true,motion:true},session:null});
+export function validHunter(record, ids) {
+ return !!record && !!record.catches && typeof record.catches === 'object' && !Array.isArray(record.catches)
+  && Object.entries(record.catches).every(([id, n]) => ids.has(id) && (n === 1 || n === 2))
+  && [record.stage, record.time, record.streak].every(n => Number.isSafeInteger(n) && n >= 0)
+  && typeof record.day === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(record.day);
+}
 let db;
 export async function open(){db=await new Promise((res,rej)=>{const r=indexedDB.open('english-stage',1);r.onupgradeneeded=()=>r.result.createObjectStore('state');r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error);});return read();}
 export function read(){return new Promise((res,rej)=>{const r=db.transaction('state').objectStore('state').get('main');r.onsuccess=()=>res(r.result||initial());r.onerror=()=>rej(r.error);});}
@@ -39,6 +45,7 @@ export function validateBackup(b,ids){
  }
  if(s.karutaLearning!==undefined&&!validKarutaLearning(s.karutaLearning,ids))throw Error('かるたの学習記録が壊れています。');
  if(s.karuta&&!validKaruta(s.karuta,ids))throw Error('かるたの中断記録が壊れています。');
+ if(s.hunter!==undefined&&!validHunter(s.hunter,ids))throw Error('たんごハンターの記録が壊れています。');
  if(s.mock){
   const validRun=r=>r&&/^g5-m[123]$/.test(r.examId)&&['r','l','break'].includes(r.phase)&&Number.isInteger(r.index)&&r.index>=0&&r.index<25&&Number.isFinite(r.deadline)&&r.deadline>=0&&r.answers&&typeof r.answers==='object'&&!Array.isArray(r.answers)&&Object.keys(r.answers).length<=50&&Object.entries(r.answers).every(([k,v])=>new RegExp('^'+r.examId+'-(0[1-9]|[1-4][0-9]|50)$').test(k)&&Number.isInteger(v)&&v>=0&&v<=3)&&r.plays&&typeof r.plays==='object'&&Object.keys(r.plays).length<=25&&Object.entries(r.plays).every(([k,v])=>new RegExp('^'+r.examId+'-(2[6-9]|[34][0-9]|50)$').test(k)&&Number.isInteger(v)&&v>=0&&v<=2);
   if(!Array.isArray(s.mock.results)||s.mock.results.length>30||s.mock.results.some(r=>!validRun(r))||(s.mock.active&&!validRun(s.mock.active)))throw Error('実戦テストの記録が壊れています。');

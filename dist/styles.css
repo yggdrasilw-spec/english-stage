@@ -213,3 +213,55 @@ html:has(body.forest-open),body.forest-open{overflow:hidden;overscroll-behavior:
 .speaking-config{display:grid;gap:16px}.speaking-config label{display:grid;gap:6px}.speaking-config select{width:100%;min-height:48px}.speaking-card{overflow-wrap:anywhere}.speaking-card progress{width:100%}.speaking-picture{display:block;width:100%;max-width:280px;height:200px;object-fit:contain;margin:12px auto}.speaking-actions{display:grid;gap:10px;margin:16px 0}.speaking-actions button{width:100%;min-height:52px}.speaking-actions [hidden]{display:none}#speaking-status{min-height:3em;text-align:left}#speaking-heard{text-align:left;overflow-wrap:anywhere}#speaking-answer{padding-top:16px;border-top:1px solid #b5cec1}#speaking-answer .card-en{font-size:2rem}.speaking-card .section-head{flex-wrap:wrap;gap:8px}.speaking-wrap h1{font-size:clamp(1.5rem,6vw,2rem)}
 
 #speaking-correct{text-align:center;padding:10px;margin:10px 0;background:#fff5dc;border:2px solid #dd766c;border-radius:18px;color:#a34037}#speaking-correct[hidden]{display:none}#speaking-correct strong{display:block;font-size:1.5rem}#speaking-correct .correct-mark{width:136px;height:106px;margin:0 auto}.speaking-wrap .forest-live small{display:block;margin-top:6px}.forest-home [data-forest-start="speak"]{min-height:48px}
+
+
+/* たんごハンター */
+.hunter{max-width:690px;margin:auto}
+.hunter .section-head{margin-bottom:10px;align-items:center}
+.hunter h1{font-size:clamp(1.4rem,5.4vw,2rem);margin:0}
+.hunter .section-head a{font-size:.8rem;text-align:right}
+.hunter-intro,.hunter-game{padding:clamp(10px,3vw,20px);border:1px solid #9aaec7;border-radius:20px;background:linear-gradient(160deg,#1d3653,#14233d);color:#f6f9ff}
+.hunter-intro p{margin:8px 0 14px}
+.hunter-intro h2,.hunter-intro h3{color:inherit}
+.hunter-config,.hunter-buttons{display:flex;gap:8px;flex-wrap:wrap}
+.hunter-config label{display:grid;flex:1 1 130px;gap:4px;font-size:.82rem;min-width:0}
+.hunter-config select{width:100%;min-height:44px}
+.hunter-buttons{margin:12px 0}
+.hunter button{min-height:44px}
+.hunter-intro .primary{background:#ffda78;border-color:#ffda78;color:#302a19}
+.hunter-stars{color:#ffda78;font-size:2rem;letter-spacing:.15em}
+.hunter-words{padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(126px,1fr));gap:6px}
+.hunter-words button{display:grid;width:100%;text-align:left;padding:6px 9px;overflow-wrap:anywhere}
+.hunter-hud{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:4px 8px;align-items:center;font-size:.82rem}
+.hunter-hud strong{color:#ffe080;grid-column:1}
+.hunter-hud button{grid-row:1 / 3;padding:5px 8px;font-size:.75rem}
+#hunter-combo{grid-column:1;min-height:1.25em}
+#hunter-hint{grid-column:2}
+#hunter-back{white-space:nowrap}
+.hunter-hud #hunter-back{grid-column:3}
+#hunter-progress{grid-column:1 / 3;width:100%;accent-color:#ffda78}
+#hunter-counter{text-align:right;white-space:nowrap}
+#hunter-feedback{margin:6px 0;min-height:1.5em;font-size:.85rem}
+.hunter-board{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.hunter-board>div{display:grid;gap:4px;align-content:start}
+.hunter-board h2{margin:0;text-align:center;font-size:.82rem;color:#dbe8ff}
+.hunter-board .hunter-tile{padding:4px;min-height:clamp(56px,10dvh,82px);border:2px solid transparent;border-radius:13px;background:none;box-shadow:none;color:inherit;transform:none}
+.hunter-face{display:flex;justify-content:center;align-items:center;gap:4px;min-height:clamp(46px,8.5dvh,70px);padding:3px 4px;border:2px solid #b5dcff;border-radius:10px;background:#e7f3ff;color:#102b4c;font-weight:800;line-height:1.2;overflow-wrap:anywhere;animation:hunter-sway 2.8s ease-in-out infinite alternate}
+[data-side=ja] .hunter-face{background:#fff5d9;color:#3b2d16;border-color:#ffda78;font-size:clamp(.72rem,2.8vw,.92rem)}
+.hunter-face img{width:clamp(26px,8vw,58px);height:clamp(26px,8vw,58px);object-fit:contain;flex:none}
+.hunter-tile:nth-child(odd) .hunter-face{animation-delay:-1.4s}
+.hunter-tile[aria-pressed=true] .hunter-face,.hunter-tile:focus-visible .hunter-face,.hunter-tile:hover .hunter-face{animation-play-state:paused}
+.hunter-tile[aria-pressed=true]{border-color:#ffda78}
+.hunter-hints [data-pair=false] .hunter-face{filter:brightness(.72) saturate(.6);border-style:dashed}
+.hunter-board .hunter-taken{visibility:hidden}
+.hunter-wrong .hunter-face{background:#ffd9df;color:#76172a;border-color:#f86983}
+@keyframes hunter-sway{from{transform:translate(-2px,-2px)}to{transform:translate(2px,2px)}}
+.reduce-motion .hunter-face{animation:none}
+@media(prefers-reduced-motion:reduce){.hunter-face{animation:none}}
+@media(max-height:700px){
+ main:has(.hunter-game){margin-top:10px}
+ .hunter-game{padding:10px}
+ .hunter-board .hunter-tile{min-height:56px}
+ .hunter-face{min-height:44px}
+ .hunter-face img{max-height:36px;max-width:44px}
+}
