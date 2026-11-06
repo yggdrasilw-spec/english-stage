@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0e3b38">
+<title>たんごハンター えいけん5級</title>
+<style>
+:root{--bg:#12504b;--card:#fff9e6;--ink:#1d2b2a;--sun:#ffd23f;--berry:#ff5d73;--sky:#4cc9f0}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;user-select:none}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:#fff;font-family:"Hiragino Maru Gothic ProN","BIZ UDPGothic",system-ui,sans-serif;padding:calc(env(safe-area-inset-top,0px) + 10px) 12px calc(env(safe-area-inset-bottom,0px) + 10px);touch-action:manipulation}
+.scr{display:none;height:100%;flex-direction:column;max-width:520px;margin:0 auto}
+.scr.on{display:flex}
+#game{max-width:860px}
+h1{font-size:30px;margin:8px 0;text-align:center}
+.mid{flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px;text-align:center;font-size:18px}
+.btn{border:0;border-radius:18px;padding:16px;font:inherit;font-size:22px;font-weight:700;color:var(--ink);background:var(--sun);box-shadow:0 5px 0 #b8901a;min-height:58px}
+.btn:active{transform:translateY(4px);box-shadow:0 1px 0 #b8901a}
+.btn.sub{background:var(--sky);box-shadow:0 5px 0 #2a8fb0}
+.bar{height:16px;background:#0005;border-radius:9px;overflow:hidden}
+.bar b{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--sky),var(--sun));transition:width .3s}
+.top{display:flex;align-items:center;gap:8px;font-weight:700;min-height:48px}
+.top .bar{flex:1}
+#sc{min-width:78px;text-align:right;font-size:22px;color:#fff;font-variant-numeric:tabular-nums;white-space:nowrap}
+#sc.pop{animation:pop .25s}
+#cb{min-width:62px;text-align:right;font-size:22px;color:var(--sun);white-space:nowrap}
+#cb.pop{animation:pop .25s}
+#hb{border:0;border-radius:14px;padding:5px 9px;font:inherit;font-size:13px;font-weight:700;line-height:1.2;color:var(--ink);background:var(--sun);box-shadow:0 3px 0 #b8901a;min-height:44px}
+#hb.off{background:#0006;color:#fff;box-shadow:0 3px 0 #0007}
+@keyframes pop{50%{transform:scale(1.4)}}
+#msg{height:34px;line-height:34px;text-align:center;font-size:22px;font-weight:700;color:var(--sun)}
+/* 空中を飛び回るカードのエリア */
+#A{position:relative;flex:1;min-height:0;margin-top:6px;overflow:hidden;border-radius:20px;background:#ffffff12;touch-action:none}
+.fc{position:absolute;left:0;top:0;will-change:transform}
+.fc.sel{z-index:3}
+.cd{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:104px;height:78px;padding:0 14px;white-space:nowrap;line-height:1.1;border:4px solid transparent;background:var(--card);border-radius:16px;font:inherit;font-size:22px;font-weight:700;color:var(--ink);box-shadow:0 4px 0 #0005;transition:transform .15s,filter .5s}
+.cd.pic{background:#e3f6ff}
+.cd.dim{filter:brightness(.7) saturate(.8)}
+.cd span{font-size:34px;line-height:1.1}
+.cd small{font-size:16px;font-weight:700}
+.cd.on{border-color:var(--sun);transform:scale(1.08);background:#fff3b0}
+.cd.ok{background:var(--sky);transform:scale(1.1);opacity:0;transition:all .25s}
+.cd.bad{background:#ffd6dc;border-color:var(--berry);animation:sh .3s}
+.cd.new{animation:in .4s ease-out}
+@keyframes sh{25%{transform:translateX(-8px)}75%{transform:translateX(8px)}}
+@keyframes in{from{opacity:0;transform:scale(.5)}}
+/* ---- コンボ演出(レベル0〜4：コンボが続くほど はなやかに) ---- */
+.pu{position:fixed;z-index:12;pointer-events:none;font-weight:900;white-space:nowrap;transform:translate(-50%,-50%);text-shadow:0 2px 0 #0007,0 0 10px #0005;animation:pu 1s ease-out forwards}
+@keyframes pu{0%{opacity:0;transform:translate(-50%,-30%) scale(.5)}15%{opacity:1;transform:translate(-50%,-60%) scale(1.15)}100%{opacity:0;transform:translate(-50%,-190%) scale(1)}}
+.pu.t4{background:linear-gradient(90deg,#ff5d73,#ffd23f,#4cc9f0,#c77dff,#ff5d73);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent!important;text-shadow:none;filter:drop-shadow(0 2px 0 #0008);animation:pu 1s ease-out forwards,rbw .6s linear infinite}
+@keyframes rbw{to{background-position:200% 0}}
+.ring{position:fixed;z-index:11;pointer-events:none;border-radius:50%;border:5px solid var(--sun);transform:translate(-50%,-50%);animation:ring .6s ease-out forwards}
+@keyframes ring{from{width:20px;height:20px;opacity:.9}to{width:var(--rs);height:var(--rs);opacity:0;border-width:1px}}
+#fx{position:fixed;left:0;right:0;top:34%;z-index:15;text-align:center;pointer-events:none;font-weight:900}
+#fx b{display:inline-block;color:#fff;text-shadow:0 4px 0 #0008,0 0 24px var(--c);animation:bn 1.1s ease-out forwards}
+@keyframes bn{0%{opacity:0;transform:scale(.3) rotate(-6deg)}18%{opacity:1;transform:scale(1.25) rotate(3deg)}35%{transform:scale(1) rotate(0)}80%{opacity:1}100%{opacity:0;transform:scale(1.1) translateY(-20px)}}
+#fl{position:fixed;inset:0;z-index:14;pointer-events:none;background:#fff;opacity:0}
+#fl.go{animation:fl .35s ease-out}
+@keyframes fl{from{opacity:.55}to{opacity:0}}
+#A{transition:box-shadow .4s}
+#A[data-t="2"]{box-shadow:inset 0 0 28px #ffd23f88}
+#A[data-t="3"]{box-shadow:inset 0 0 40px #ff5d73aa}
+#A[data-t="4"]{animation:rbo 1.2s linear infinite}
+@keyframes rbo{0%,100%{box-shadow:inset 0 0 46px #ff5d73cc}25%{box-shadow:inset 0 0 46px #ffd23fcc}50%{box-shadow:inset 0 0 46px #4cc9f0cc}75%{box-shadow:inset 0 0 46px #c77dffcc}}
+#A.shk{animation:shk .28s}
+#A.shk4{animation:shk4 .34s}
+@keyframes shk{25%{transform:translate(-3px,2px)}50%{transform:translate(3px,-2px)}75%{transform:translate(-2px,-1px)}}
+@keyframes shk4{20%{transform:translate(-6px,3px)}40%{transform:translate(6px,-4px)}60%{transform:translate(-5px,-2px)}80%{transform:translate(4px,3px)}}
+.stars{font-size:52px;letter-spacing:6px;color:var(--sun)}
+.zg{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;overflow:auto;flex:1;align-content:start;margin:10px 0}
+.z{background:#0004;border-radius:10px;padding:6px 0;text-align:center;font-size:11px;font-weight:700;border:3px solid transparent}
+.z span{display:block;font-size:26px}
+.z.l1{background:var(--card);border-color:var(--sky);color:var(--ink)}
+.z.l2{background:#fff3b0;border-color:var(--sun);color:var(--ink)}
+.pt{position:fixed;pointer-events:none;z-index:9;font-size:20px;animation:pt .7s ease-out forwards}
+@keyframes pt{to{transform:translate(var(--dx),var(--dy)) scale(.3);opacity:0}}
+#tm{min-width:40px;text-align:right;font-size:20px;font-weight:700;font-variant-numeric:tabular-nums}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<style id="ui2">
+/* ===== UIこうしん：ずかんカードふうの ていねいなデザイン(上のルールをうわがきしている) ===== */
+:root{--bg:#0e3b38;--card:#fff8e7;--ink:#1b2a29;--sky:#5ad1e6;--berry:#ff6b6b}
+body{background:radial-gradient(120% 70% at 50% -10%,#21806f 0,transparent 60%),var(--bg);font-family:ui-rounded,"Hiragino Maru Gothic ProN","BIZ UDPGothic","Yu Gothic UI",system-ui,sans-serif}
+button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+/* ホーム */
+#home{position:relative;overflow:hidden}
+.mid{position:relative;z-index:1}
+h1{font-size:42px;font-weight:900;letter-spacing:.08em;color:var(--card);text-shadow:0 3px 0 #082826,0 0 30px #ffd23f40}
+.lead{font-size:17px;opacity:.85;letter-spacing:.05em}
+.hero{position:absolute;inset:0;pointer-events:none}
+.hero i{position:absolute;left:var(--x);top:var(--y);font-style:normal;font-size:40px;filter:drop-shadow(0 6px 6px #0006);animation:dr 5s ease-in-out var(--d) infinite alternate}
+@keyframes dr{to{transform:translate(8px,-14px) rotate(9deg)}}
+.btn{border-radius:22px;font-weight:800;letter-spacing:.06em;background:linear-gradient(#ffe066,#ffc21a);box-shadow:0 6px 0 #a87a00,0 14px 22px #0005}
+.btn.sub{background:linear-gradient(#7fe0f5,#3fbcdf);box-shadow:0 6px 0 #1d7f9c,0 14px 22px #0005}
+.btn.go{background:linear-gradient(#ffa866,#ff7040);box-shadow:0 6px 0 #a8431b,0 14px 22px #0005}
+.btn:active,.btn.sub:active,.btn.go:active{transform:translateY(5px);box-shadow:0 1px 0 #0008,0 3px 8px #0005}
+/* ゲーム画面 */
+.top{gap:10px}
+.bar{height:14px;background:#0000004d;box-shadow:inset 0 1px 3px #0008}
+#sc{font-size:30px;font-weight:900;min-width:104px;text-shadow:0 2px 0 #0006}
+#tm{font-size:22px;font-weight:900}
+#hb{border-radius:999px;padding:6px 12px;color:#fff;background:#ffffff1c;box-shadow:inset 0 0 0 1px #ffffff40}
+#hb.off{color:var(--ink);background:linear-gradient(#ffe066,#ffc21a);box-shadow:0 0 18px #ffd23f88}
+#msg{letter-spacing:.04em}
+#A{border-radius:26px;background-color:#ffffff0c;background-image:radial-gradient(#ffffff1a 1.4px,transparent 1.6px);background-size:24px 24px;box-shadow:inset 0 0 0 1px #ffffff18}
+.cd{position:relative;min-width:108px;height:82px;border-width:3px;border-radius:20px;font-weight:800;box-shadow:0 5px 0 #0a2a28b3,0 12px 18px #0005}
+.cd.en{background:var(--card);border-color:#ffe29a;font-size:25px}
+.cd.pic{background:#e8f8ff;border-color:#a6def2}
+.cd.en::after{content:"🔊";position:absolute;right:7px;top:3px;font-size:11px;opacity:.5}
+.cd:active{transform:scale(.96)}
+.cd.on{border-color:var(--sun);background:#fff3b0;box-shadow:0 0 0 4px #ffd23f66,0 0 26px #ffd23fb3,0 12px 18px #0005}
+.cd.ok{background:var(--sky);border-color:var(--sky)}
+.cd.bad{background:#ffd6dc;border-color:var(--berry)}
+/* けっか・ずかん */
+.stars{font-size:60px;letter-spacing:8px}
+.stars b{display:inline-block;color:#ffffff30;font-weight:400}
+.stars b.on{color:var(--sun);text-shadow:0 0 22px #ffd23f99;animation:spn .55s cubic-bezier(.2,1.7,.4,1) both;animation-delay:calc(var(--k)*.28s + .15s)}
+@keyframes spn{from{transform:scale(0) rotate(-45deg);opacity:0}}
+.z{position:relative;border:2px dashed #ffffff2e;background:#ffffff0f;color:#ffffffb3;border-radius:14px}
+.z.l1{background:var(--card);border:2px solid var(--sky);color:var(--ink)}
+.z.l2{background:#fff3b0;border:2px solid var(--sun);color:var(--ink);box-shadow:0 0 14px #ffd23f55}
+.z.l2::after{content:"★";position:absolute;right:4px;top:0;font-size:12px;color:#e0a100}
+/* ジャンルえらび */
+.gl{display:grid;grid-template-columns:1fr 1fr;gap:8px;overflow:auto;flex:1;align-content:start;margin:10px 0}
+.gc{display:flex;align-items:center;gap:8px;min-height:64px;padding:8px 10px;border-radius:16px;border:2px dashed #ffffff3d;background:#ffffff14;font-size:15px;font-weight:800;line-height:1.25}
+.gc.on{background:var(--card);color:var(--ink);border:2px solid var(--sun);box-shadow:0 0 14px #ffd23f55}
+.gc input{flex:none;width:24px;height:24px;accent-color:#e0a100}
+.gc i{flex:none;font-style:normal;font-size:26px}
+.gc em{display:block;font-style:normal;font-size:11px;font-weight:700;opacity:.7}
+#gn .btn{margin-top:8px}
+#gt{text-align:center;font-weight:800;color:var(--sun);min-height:24px}
+.zh{grid-column:1/-1;margin-top:8px;font-size:15px;font-weight:900;color:var(--sun)}
+.cd small.jp{font-size:22px}
+
+/* 追加語のイラストは元の絵文字と同じ位置・寸法に収める */
+.word-image{width:36px;height:36px;object-fit:contain;vertical-align:middle}
+.z .word-image{width:26px;height:26px}
+.cd.extra{min-width:108px;max-width:min(165px,48vw);white-space:normal;text-align:center;overflow-wrap:anywhere}
+.cd.extra.en{font-size:clamp(16px,5vw,22px)}
+.cd.extra small{font-size:14px}
+.cd.extra small.jp{font-size:16px}
+.z.extra{overflow-wrap:anywhere;min-width:0}
+</style></head><body>
+<section id="home" class="scr on"><div class="hero" aria-hidden="true"><i style="--x:8%;--y:5%;--d:0s">🐱</i><i style="--x:78%;--y:4%;--d:-1.6s">🍎</i><i style="--x:84%;--y:17%;--d:-3s">🚌</i></div><div class="mid">
+<h1>たんごハンター</h1><div class="lead">えいけん5級の たんごを あつめよう</div>
+<div class="bar"><b id="hp"></b></div><div id="ht"></div><div id="hs"></div>
+<button class="btn" onclick="start()">スタート！</button>
+<button class="btn go" onclick="start('time')">⏱ じかんせい</button>
+<button class="btn sub" id="lb" style="min-height:46px;font-size:16px" onclick="lapSel()"></button><button class="btn sub" onclick="genres()">✅ ジャンルを えらぶ</button><button class="btn sub" onclick="zukan()">📖 ずかん</button></div></section>
+<section id="game" class="scr"><div class="top"><div class="bar"><b id="gp"></b></div><div id="tm"></div><div id="sc">0</div><div id="cb"></div><button id="hb" onclick="toggleHint()"></button></div><div id="msg"></div>
+<div id="A"></div></section>
+<section id="res" class="scr"><div class="mid"><div class="stars" id="rs"></div><div id="rt"></div>
+<button class="btn" onclick="start(M)">もういちど！</button><button class="btn sub" onclick="home()">ホーム</button></div></section>
+<section id="zk" class="scr"><h1>📖 ずかん</h1><div class="zg" id="zg"></div><button class="btn sub" onclick="home()">もどる</button></section>
+<section id="gn" class="scr"><h1 style="font-size:28px">✅ ジャンルを えらぼう</h1><div id="gl" class="gl"></div><div id="gt"></div><button class="btn" onclick="gAll()">ぜんぶ えらぶ</button><button class="btn sub" onclick="home()">もどる</button></section>
+<div id="fx"></div><div id="fl"></div>
+<script>
+const D=[["cat","🐱","ねこ"],["dog","🐶","いぬ"],["bird","🐦","とり"],["fish","🐟","さかな"],["horse","🐴","うま"],["cow","🐮","うし"],["pig","🐷","ぶた"],["sheep","🐑","ひつじ"],["rabbit","🐰","うさぎ"],["monkey","🐵","さる"],["elephant","🐘","ぞう"],["lion","🦁","ライオン"],["tiger","🐯","とら"],["bear","🐻","くま"],["panda","🐼","パンダ"],["duck","🦆","あひる"],["chicken","🐔","にわとり"],["frog","🐸","かえる"],["snake","🐍","へび"],["mouse","🐭","ねずみ"],["giraffe","🦒","キリン"],["penguin","🐧","ペンギン"],["koala","🐨","コアラ"],["zebra","🦓","シマウマ"],["kangaroo","🦘","カンガルー"],["whale","🐳","くじら"],["dolphin","🐬","イルカ"],["turtle","🐢","かめ"],["butterfly","🦋","ちょう"],["bee","🐝","はち"],
+/* ここから下は あとから ふやしたジャンル。末尾に足していけば、これまでの記録(ずかん)はそのまま残る */
+/* たべもの */["apple","🍎","りんご"],["banana","🍌","バナナ"],["orange","🍊","オレンジ"],["grape","🍇","ぶどう"],["peach","🍑","もも"],["strawberry","🍓","いちご"],["lemon","🍋","レモン"],["melon","🍈","メロン"],["tomato","🍅","トマト"],["potato","🥔","じゃがいも"],["carrot","🥕","にんじん"],["corn","🌽","とうもろこし"],["bread","🍞","パン"],["egg","🥚","たまご"],["cake","🍰","ケーキ"],["pizza","🍕","ピザ"],
+/* のりもの */["bus","🚌","バス"],["car","🚗","くるま"],["train","🚆","でんしゃ"],["bike","🚲","じてんしゃ"],["plane","✈️","ひこうき"],["ship","🚢","ふね"],["taxi","🚕","タクシー"],["truck","🚚","トラック"],
+/* もの */["book","📖","ほん"],["pen","🖊️","ペン"],["bag","🎒","かばん"],["clock","⏰","とけい"],["umbrella","☂️","かさ"],["bed","🛏️","ベッド"],["chair","🪑","いす"],["key","🔑","かぎ"],["camera","📷","カメラ"],["hat","👒","ぼうし"],["shoes","👟","くつ"],["ball","⚽","ボール"],["piano","🎹","ピアノ"],["guitar","🎸","ギター"],
+/* しぜん */["sun","☀️","たいよう"],["moon","🌙","つき"],["star","⭐","ほし"],["rain","🌧️","あめ"],["snow","❄️","ゆき"],["tree","🌳","き"],["flower","🌸","はな"],["mountain","⛰️","やま"],["fire","🔥","ひ"],["cloud","☁️","くも"]];
+/* ---- ジャンル(出すたんごのしゅるいを えらべる) ----
+   GI[i]＝D[i]のジャンル番号。はじめの78ごは番号そのまま。あたらしい語は D の末尾に足すので、これまでの記録(ずかん)は残る。
+   語を足すときは NW の ジャンルに "えいご,絵文字,にほんご" を ; でつなぐ(絵文字なしは空)。えいごは かぶらないように */
+const GN=[["どうぶつ","🐶"],["たべもの","🍎"],["のりもの","🚌"],["もの","🔑"],["しぜん・てんき","🌳"],["いろ","🎨"],["かず","🔢"],["ようび・つき","📅"],["じかん・きせつ","⏰"],["かぞく・ひと","👪"],["からだ","🖐️"],["がっこう","🏫"],["しょくぎょう","👮"],["ばしょ・いえ","🏠"],["ふく","👕"],["スポーツ・おんがく","⚽"],["どうし","🏃"],["けいようし","😊"],["ことばの きほん","💬"]];
+const GI=[...Array(30).fill(0),...Array(16).fill(1),...Array(8).fill(2),...Array(14).fill(3),...Array(10).fill(4)];
+const NW=[
+[0,"animal,🐾,どうぶつ;pet,🐕,ペット;goat,🐐,やぎ;deer,🦌,しか;fox,🦊,きつね;wolf,🐺,おおかみ;owl,🦉,ふくろう;ant,🐜,あり;crab,🦀,かに;shark,🦈,さめ"],
+[1,"onion,🧅,たまねぎ;cabbage,🥬,キャベツ;cucumber,🥒,きゅうり;rice,🍚,ごはん;milk,🥛,ぎゅうにゅう;juice,🧃,ジュース;tea,🍵,おちゃ;coffee,☕,コーヒー;water,💧,みず;cheese,🧀,チーズ;butter,🧈,バター;salad,🥗,サラダ;sandwich,🥪,サンドイッチ;hamburger,🍔,ハンバーガー;hot dog,🌭,ホットドッグ;spaghetti,🍝,スパゲッティ;soup,🥣,スープ;steak,🥩,ステーキ;cookie,🍪,クッキー;ice cream,🍦,アイスクリーム;pie,🥧,パイ;candy,🍬,キャンディー;chocolate,🍫,チョコレート;pudding,🍮,プリン;noodles,🍜,めん;curry,🍛,カレー;meat,🍖,にく;sugar,,さとう;salt,🧂,しお;breakfast,🍳,あさごはん;lunch,🍱,ひるごはん;dinner,🍽️,ばんごはん;snack,🍿,おやつ;food,,たべもの;drink,🥤,のむ・のみもの;fruit,,くだもの;vegetable,🥦,やさい;ice,🧊,こおり;jam,,ジャム;French fries,🍟,フライドポテト"],
+[2,"boat,⛵,ボート;subway,🚇,ちかてつ;helicopter,🚁,ヘリコプター;motorbike,🏍️,バイク;fire truck,🚒,しょうぼうしゃ;ambulance,🚑,きゅうきゅうしゃ;rocket,🚀,ロケット"],
+[3,"desk,,つくえ;table,,テーブル;door,🚪,ドア;window,🪟,まど;pencil,✏️,えんぴつ;notebook,📓,ノート;eraser,,けしゴム;ruler,📏,じょうぎ;box,📦,はこ;cup,,カップ;glass,,コップ;bottle,,びん;computer,💻,コンピューター;TV,📺,テレビ;radio,📻,ラジオ;telephone,☎️,でんわ;letter,✉️,てがみ;newspaper,📰,しんぶん;picture,🖼️,え・しゃしん;map,🗺️,ちず;spoon,🥄,スプーン;knife,🔪,ナイフ;fork,🍴,フォーク;dish,,さら;money,💰,おかね;ticket,🎫,チケット;toy,🧸,おもちゃ;present,🎁,プレゼント;kite,🪁,たこ"],
+[4,"wind,🌬️,かぜ;sky,,そら;river,🏞️,かわ;sea,🌊,うみ;lake,,みずうみ;forest,🌲,もり;beach,🏖️,はま;sunny,🌞,はれ;rainy,☔,あめふり;cloudy,,くもり;windy,💨,かぜがつよい;snowy,🌨️,ゆきふり;weather,🌤️,てんき;earth,🌍,ちきゅう;grass,,くさ;leaf,🍃,は;rainbow,🌈,にじ;world,🌎,せかい"],
+[5,"red,🔴,あか;blue,🔵,あお;yellow,🟡,きいろ;green,🟢,みどり;black,⚫,くろ;white,⚪,しろ;brown,🟤,ちゃいろ;purple,🟣,むらさき;pink,,ピンク;gray,,はいいろ;gold,,きんいろ;silver,,ぎんいろ;color,🎨,いろ"],
+[6,"zero,0,ゼロ;one,1,いち;two,2,に;three,3,さん;four,4,よん;five,5,ご;six,6,ろく;seven,7,なな;eight,8,はち;nine,9,きゅう;ten,10,じゅう;eleven,11,じゅういち;twelve,12,じゅうに;thirteen,13,じゅうさん;fifteen,15,じゅうご;twenty,20,にじゅう;thirty,30,さんじゅう;forty,40,よんじゅう;fifty,50,ごじゅう;hundred,100,ひゃく;thousand,1000,せん;first,1st,1ばんめ;second,2nd,2ばんめ;third,3rd,3ばんめ;fourth,4th,4ばんめ;fifth,5th,5ばんめ;half,½,はんぶん"],
+[7,"Sunday,日,にちようび;Monday,月,げつようび;Tuesday,火,かようび;Wednesday,水,すいようび;Thursday,木,もくようび;Friday,金,きんようび;Saturday,土,どようび;January,1月,いちがつ;February,2月,にがつ;March,3月,さんがつ;April,4月,しがつ;May,5月,ごがつ;June,6月,ろくがつ;July,7月,しちがつ;August,8月,はちがつ;September,9月,くがつ;October,10月,じゅうがつ;November,11月,じゅういちがつ;December,12月,じゅうにがつ"],
+[8,"today,,きょう;tomorrow,,あした;yesterday,,きのう;morning,🌅,あさ;afternoon,,ごご;evening,🌆,ゆうがた;night,🌃,よる;day,,いちにち;week,,しゅう;month,,1かげつ;year,,ねん;time,,じかん;hour,,1じかん;minute,,ふん;now,,いま;birthday,🎂,たんじょうび;weekend,,しゅうまつ;season,,きせつ;spring,🌸,はる;summer,🌻,なつ;fall,🍂,あき;winter,⛄,ふゆ;holiday,🎉,きゅうじつ"],
+[9,"father,👨,おとうさん;mother,👩,おかあさん;dad,,パパ;mom,,ママ;brother,👦,あに・おとうと;sister,👧,あね・いもうと;grandfather,👴,おじいさん;grandmother,👵,おばあさん;uncle,,おじさん;aunt,,おばさん;family,👪,かぞく;parents,,りょうしん;son,,むすこ;daughter,,むすめ;baby,👶,あかちゃん;boy,🧒,おとこのこ;girl,👧,おんなのこ;man,🧔,おとこのひと;woman,👩,おんなのひと;friend,🤝,ともだち;people,,ひとびと;classmate,,クラスメート"],
+[10,"head,,あたま;face,😀,かお;eye,👁️,め;ear,👂,みみ;nose,👃,はな;mouth,👄,くち;hand,✋,て;arm,💪,うで;leg,🦵,あし;foot,🦶,あし(さき);finger,☝️,ゆび;hair,💇,かみのけ;body,🧍,からだ;tooth,🦷,は;neck,,くび;back,,せなか;heart,❤️,ハート"],
+[11,"school,🏫,がっこう;class,,クラス;classroom,,きょうしつ;teacher,🧑‍🏫,せんせい;student,🧑‍🎓,がくせい;blackboard,,こくばん;homework,📝,しゅくだい;test,,テスト;lesson,,じゅぎょう;library,📚,としょしつ;gym,,たいいくかん;playground,,うんどうじょう;club,,クラブ;subject,,きょうか;English,,えいご;Japanese,,にほんご;math,➗,さんすう;science,🔬,りか;P.E.,,たいいく;art,,ずこう;social studies,,しゃかいか;bell,🔔,ベル;dictionary,,じしょ;paper,📄,かみ;word,,たんご;question,❓,しつもん;answer,,こたえ;story,,おはなし;name,,なまえ"],
+[12,"doctor,🧑‍⚕️,いしゃ;nurse,,かんごし;farmer,🧑‍🌾,のうか;cook,🧑‍🍳,コック・りょうりする;singer,🎤,かしゅ;dancer,💃,ダンサー;artist,🧑‍🎨,がか;player,,せんしゅ;driver,,うんてんしゅ;pilot,🧑‍✈️,パイロット;police officer,👮,けいさつかん;firefighter,🧑‍🚒,しょうぼうし;scientist,🧑‍🔬,かがくしゃ;writer,,さっか;baker,,パンやさん;musician,🎻,おんがくか;job,💼,しごと"],
+[13,"house,🏠,いえ;home,,うち;room,,へや;kitchen,,だいどころ;bathroom,🛁,おふろ;bedroom,,しんしつ;garden,🌷,にわ;park,,こうえん;zoo,,どうぶつえん;station,🚉,えき;hospital,🏥,びょういん;restaurant,,レストラン;shop,🏪,みせ;supermarket,🛒,スーパー;museum,🏛️,はくぶつかん;post office,📮,ゆうびんきょく;bank,🏦,ぎんこう;city,🏙️,とし;town,🏘️,まち;airport,🛫,くうこう;hotel,🏨,ホテル;castle,🏰,おしろ;farm,🚜,のうじょう;street,,どおり;bridge,🌉,はし;country,,くに;Japan,🇯🇵,にほん;America,🇺🇸,アメリカ;floor,,ゆか;wall,🧱,かべ;stairs,,かいだん"],
+[14,"clothes,👚,ふく;shirt,👔,シャツ;T-shirt,👕,Tシャツ;pants,👖,ズボン;skirt,,スカート;dress,👗,ドレス;coat,🧥,コート;jacket,,ジャケット;cap,🧢,キャップ;socks,🧦,くつした;gloves,🧤,てぶくろ;glasses,👓,めがね;scarf,🧣,マフラー;jeans,,ジーンズ;uniform,,せいふく;boots,👢,ブーツ;ring,💍,ゆびわ;mask,😷,マスク"],
+[15,"soccer,⚽,サッカー;baseball,⚾,やきゅう;basketball,🏀,バスケットボール;tennis,🎾,テニス;volleyball,🏐,バレーボール;swimming,🏊,すいえい;badminton,🏸,バドミントン;table tennis,🏓,たっきゅう;golf,⛳,ゴルフ;skiing,⛷️,スキー;skating,⛸️,スケート;sport,🏅,スポーツ;game,🎮,ゲーム;team,,チーム;race,🏁,きょうそう;judo,🥋,じゅうどう;music,🎵,おんがく;song,🎶,うた;violin,🎻,バイオリン;drum,🥁,ドラム;flute,,フルート;trumpet,🎺,トランペット;concert,,コンサート;band,,バンド;movie,🎬,えいが;picnic,🧺,ピクニック;party,🎉,パーティー;camp,⛺,キャンプ"],
+[16,"go,🚶,いく;come,,くる;eat,😋,たべる;play,🎲,あそぶ・する;run,🏃,はしる;walk,,あるく;swim,,およぐ;read,,よむ;write,✍️,(じを)かく;speak,🗣️,はなす;listen,🎧,きく;watch,👀,じっとみる;look,,みる(めをむける);see,,みえる;meet,,であう;sing,🎤,うたう;dance,,おどる;study,,べんきょうする;learn,,まなぶ;teach,,おしえる;help,🆘,たすける;like,👍,すきだ;love,💕,あいする;want,,ほしい;have,,もっている;make,🔨,つくる;use,,つかう;take,,とる;buy,🛍️,かう;sell,,うる;open,,あける;close,,しめる;sit,,すわる;stand,,たつ;sleep,😴,ねる;get up,,おきる;wash,🧼,あらう;ride,,のる;drive,,うんてんする;fly,🕊️,とぶ;jump,,とびはねる;ask,,たずねる;call,📞,よぶ;know,,しっている;think,💭,おもう;live,,すむ;work,,はたらく;visit,,おとずれる;give,,あげる;get,,てにいれる;bring,,もってくる;carry,,はこぶ;draw,🖍️,(えを)かく;paint,🖌️,ペンキをぬる;find,🔍,みつける;put,,おく;say,💬,いう;tell,,つたえる;wait,⏳,まつ;stop,🛑,とまる;start,,はじめる;enjoy,,たのしむ;practice,,れんしゅうする;need,,ひつようだ;try,,やってみる;wear,,きている;cry,😭,なく;laugh,😆,わらう;smile,🙂,ほほえむ;do,,する;can,,できる"],
+[17,"big,,おおきい;small,,ちいさい;long,,ながい;short,,みじかい;tall,,せがたかい;new,,あたらしい;old,,ふるい;young,,わかい;good,,よい;bad,,わるい;happy,😊,うれしい;sad,😢,かなしい;hot,🥵,あつい;cold,🥶,さむい;warm,,あたたかい;cool,,すずしい;fast,,はやい;slow,,おそい;high,,たかい;low,,ひくい;easy,,かんたんな;difficult,,むずかしい;heavy,,おもい;light,,かるい;kind,,しんせつな;nice,,すてきな;beautiful,,うつくしい;pretty,,かわいい;fun,,たのしい;interesting,,おもしろい;famous,,ゆうめいな;favorite,,おきにいりの;busy,,いそがしい;tired,,つかれた;sleepy,,ねむい;hungry,,おなかがすいた;thirsty,,のどがかわいた;sick,🤒,びょうきの;fine,,げんきな;great,,すばらしい;clean,✨,きれいな;dirty,,きたない;many,,たくさんの(かず);much,,たくさんの(りょう);some,,いくつかの;all,,ぜんぶの;delicious,😋,おいしい;angry,😠,おこった;bright,,あかるい;dark,,くらい;strong,,つよい;right,,ただしい;wrong,,まちがった;same,,おなじ;different,,ちがう;late,,おくれた;early,,はやい(じかん)"],
+[18,"I,,わたし;you,,あなた;he,,かれ;she,,かのじょ;it,,それ;we,,わたしたち;they,,かれら;my,,わたしの;your,,あなたの;his,,かれの;her,,かのじょの;our,,わたしたちの;their,,かれらの;this,,これ;that,,あれ;these,,これら;those,,あれら;who,,だれ;what,,なに;where,,どこ;when,,いつ;why,,なぜ;how,,どうやって;which,,どれ;whose,,だれの;in,,〜のなかに;on,,〜のうえに;under,,〜のしたに;by,,〜のそばに;at,,〜で;near,,〜のちかくに;from,,〜から;to,,〜へ;with,,〜といっしょに;for,,〜のために;about,,〜について;after,,〜のあとで;before,,〜のまえに;very,,とても;also,,〜もまた;too,,〜も;again,,もういちど;always,,いつも;usually,,たいてい;often,,よく;sometimes,,ときどき;never,,ぜったい〜ない;here,,ここ;there,,そこ;up,⬆️,うえへ;down,⬇️,したへ;yes,,はい;no,,いいえ;please,,おねがいします;thanks,,ありがとう;hello,👋,こんにちは;goodbye,,さようなら;sorry,,ごめんなさい;welcome,,ようこそ;and,,そして;but,,でも;or,,または;because,,なぜなら;if,,もし"]
+];
+NW.forEach(([g,s])=>s.split(";").forEach(t=>{const[e,p,j]=t.split(",");D.push([e,p,j]);GI.push(g)}));
+const originalWordCount=618;
+/* 英検5級アプリの単語データを追加。元の単語ID・ジャンルIDはそのまま。 */
+const extraVocabulary = [
+ [10,[
+  ["shoe","","靴（片方）","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1734.png"]
+ ]],
+ [6,[
+  ["fourteen","","14",""],
+  ["sixteen","","16",""],
+  ["seventeen","","17",""],
+  ["eighteen","","18",""],
+  ["nineteen","","19",""]
+ ]],
+ [["場所と身の回り","🏠"],[
+  ["store","","店","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r3-word-5330.png"],
+  ["pool","","プール","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4990.png"],
+  ["e-mail","","電子メール",""],
+  ["case","","ケース・入れ物","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-f-word-5493.png"],
+  ["package","","小包","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-11959.png"],
+  ["soap","","せっけん","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-3111.png"],
+  ["towel","","タオル","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave3-word-6511.png"],
+  ["living","","暮らし・生活",""],
+  ["backpack","","リュックサック","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-5876.png"],
+  ["bench","","ベンチ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5026.png"],
+  ["lunchbox","","弁当箱","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5028.png"],
+  ["chopsticks","","箸","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-4408.png"]
+ ]],
+ [1,[
+  ["plate","","皿","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2645.png"],
+  ["basket","","かご","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-1039.png"],
+  ["coin","","硬貨","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-2074.png"],
+  ["menu","","メニュー","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-menu-word-68366.png"],
+  ["dollar","","ドル（通貨単位）",""],
+  ["a drink","","飲み物（名詞のdrink）","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-4341.png"]
+ ]],
+ [0,[
+  ["stone","","石","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave6-word-263.png"],
+  ["island","","島","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2806.png"]
+ ]],
+ [["学校と持ち物","🏫"],[
+  ["pencil case","","筆箱","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/pen-case.png"],
+  ["textbook","","教科書","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-v2-word-6766.png"],
+  ["stamp","","切手","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1426.png"],
+  ["postcard","","はがき","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-4383.png"],
+  ["calendar","","カレンダー","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-11668.png"],
+  ["phone","","電話","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-d-word-3841.png"],
+  ["bicycle","","自転車","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2893.png"],
+  ["bat","","バット","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4588.png"],
+  ["racket","","ラケット","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-f-word-5829.png"],
+  ["doll","","人形","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r3-word-4184.png"],
+  ["robot","","ロボット","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave3-word-6045.png"],
+  ["model","","模型","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/additional-mokei.png"],
+  ["page","","ページ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5048.png"],
+  ["sentence","","文",""],
+  ["CD","","CD",""],
+  ["passport","","パスポート・旅券","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13670.png"],
+  ["diary","","日記","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-4123.png"],
+  ["history","","歴史","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-6057.png"],
+  ["a watch","","腕時計（名詞のwatch）","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-a-word-553.png"],
+  ["comic","","まんが","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r3-word-5283.png"],
+  ["magazine","","雑誌","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r3-word-2724.png"],
+  ["chalk","","チョーク","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13557.png"],
+  ["exam","","試験",""],
+  ["poster","","ポスター","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-5138.png"]
+ ]],
+ [["家と町","🏠"],[
+  ["sofa","","ソファ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13384.png"],
+  ["television","","テレビ（正式な言い方）","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-d-word-3783.png"],
+  ["lamp","","ランプ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-lamp-word-87671.png"],
+  ["mirror","","鏡","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave3-word-6510.png"],
+  ["desk lamp","","電気スタンド","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/seven512-word-16118.png"],
+  ["roof","","屋根","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-5642.png"],
+  ["gate","","門","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-5588.png"],
+  ["building","","建物","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13429.png"],
+  ["office","","事務所","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-12247.png"],
+  ["bus stop","","バス停","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4579.png"],
+  ["bookstore","","本屋","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-5109.png"],
+  ["flower shop","","花屋","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-4463.png"],
+  ["road","","道路","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/gas-vocabulary-word-11200.png"],
+  ["corner","","角","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-word-7508.png"],
+  ["village","","村","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5429.png"],
+  ["Spain","","スペイン","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave11-safe-word-3006.png"],
+  ["France","","フランス","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave11-safe-word-4871.png"],
+  ["Germany","","ドイツ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave11-safe-word-3932.png"],
+  ["Brazil","","ブラジル","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave11-safe-word-4909.png"],
+  ["Africa","","アフリカ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-12912.png"],
+  ["Asia","","アジア","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-12906.png"],
+  ["Europe","","ヨーロッパ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-5780.png"],
+  ["city hall","","市役所",""]
+ ]],
+ [["人と体と服","👪"],[
+  ["child","","子ども","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-2285.png"],
+  ["cousin","","いとこ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-cousin-word-87673.png"],
+  ["parent","","親","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-6224.png"],
+  ["dentist","","歯医者","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-4365.png"],
+  ["knee","","膝","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-4661.png"],
+  ["shoulder","","肩","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-1069.png"],
+  ["sweater","","セーター","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-sweater-word-68230.png"],
+  ["sock","","靴下","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1735.png"],
+  ["glove","","手袋","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-6137.png"],
+  ["officer","","役人・警察官など",""],
+  ["person","","人（1人）","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-4770.png"],
+  ["pianist","","ピアニスト","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13787.png"],
+  ["waiter","","レストランなどの男性の給仕",""],
+  ["worker","","働く人",""]
+ ]],
+ [["文をつくることば","💬"],[
+  ["me","","わたしを・わたしに",""],
+  ["him","","彼を・彼に",""],
+  ["us","","わたしたちを・わたしたちに",""],
+  ["them","","彼らを・それらを",""],
+  ["mine","","わたしのもの",""],
+  ["yours","","あなたのもの",""],
+  ["a","","ひとつの（子音の音の前）",""],
+  ["an","","ひとつの（母音の音の前）",""],
+  ["the","","その（特定のもの）",""],
+  ["am","","〜です（Iと使う）",""],
+  ["is","","〜です（単数と使う）",""],
+  ["are","","〜です（you・複数と使う）",""],
+  ["be","","〜である（原形）",""],
+  ["does","","doの三人称単数形",""],
+  ["not","","〜でない",""],
+  ["of","","〜の",""],
+  ["behind","","〜の後ろに",""],
+  ["between","","〜の間に（2つ）",""],
+  ["out","","外へ",""],
+  ["any","","いくらかの（疑問・否定で）",""],
+  ["every","","毎〜・すべての（単数）",""],
+  ["each","","それぞれの",""],
+  ["other","","ほかの",""],
+  ["another","","もうひとつの",""],
+  ["both","","両方の",""],
+  ["has","","haveの三人称単数形","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-12182.png"],
+  ["understand","","理解する","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/nattoku.png"],
+  ["remember","","覚えている","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/kioku.png"],
+  ["forget","","忘れる","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6649.png"],
+  ["hear","","聞こえる","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512b-word-7779.png"],
+  ["talk","","話す","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6639.png"],
+  ["finish","","終える","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-word-7156.png"],
+  ["stay","","滞在する","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-3305.png"],
+  ["leave","","出発する・去る","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-2875.png"],
+  ["arrive","","到着する","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-arrive-word-67078.png"],
+  ["return","","戻る","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6615.png"],
+  ["turn","","曲がる・回す","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6608.png"],
+  ["cut","","切る","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6590.png"],
+  ["catch","","捕まえる・受け止める","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512b-v2-word-7670.png"],
+  ["throw","","投げる","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/pv-throw.png"],
+  ["kick","","蹴る","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/pv-kick.png"],
+  ["hers","","彼女のもの",""],
+  ["its","","それの",""],
+  ["theirs","","彼らのもの・それらのもの",""],
+  ["ours","","わたしたちのもの",""],
+  ["what color","","何色",""],
+  ["what sports","","どんなスポーツ",""],
+  ["what food","","どんな食べ物",""],
+  ["what drink","","どんな飲み物",""],
+  ["what animal","","どんな動物",""],
+  ["what subject","","どの教科",""],
+  ["what time","","何時",""],
+  ["how tall","","身長や高さがどのくらい",""],
+  ["how long","","長さや時間がどのくらい",""],
+  ["ski","","スキーをする",""],
+  ["begin","","始まる・始める","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512b-v3-word-8054.png"],
+  ["move","","動く・動かす・引っ越す","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-v2-word-7134.png"],
+  ["then","","それから・そのとき",""],
+  ["off","","離れて・外して",""],
+  ["over","","～の上方に・～を越えて",""],
+  ["more","","もっと多くの・さらに",""],
+  ["so","","それで・だから",""],
+  ["into","","～の中へ",""],
+  ["will","","～するつもり・～だろう",""]
+ ]],
+ [["様子と頻度","😊"],[
+  ["large","","大きな（広さ・量）","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-0792.png"],
+  ["little","","小さな・少しの",""],
+  ["sweet","","甘い","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-0111.png"],
+  ["left","","左","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-4668.png"],
+  ["free","","暇な・無料の",""],
+  ["full","","いっぱいの","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-full-word-87697.png"],
+  ["ready","","準備ができた","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6632.png"],
+  ["quiet","","静かな","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/sotto.png"],
+  ["safe","","安全な","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/anzen.png"],
+  ["well","","上手に","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6690.png"],
+  ["really","","本当に",""],
+  ["together","","一緒に","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/kessoku.png"],
+  ["only","","〜だけ",""],
+  ["soon","","まもなく",""],
+  ["away","","離れて",""],
+  ["outside","","外に",""],
+  ["inside","","中に","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-3997.png"],
+  ["final","","最後の",""],
+  ["main","","主な・中心の",""],
+  ["soft","","やわらかい","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/pillow.png"]
+ ]],
+ [["生活と時間","⏰"],[
+  ["vacation","","休暇","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-11799.png"],
+  ["tonight","","今夜","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-12002.png"],
+  ["next","","次の",""],
+  ["last","","この前の・最後の",""],
+  ["sixty","","60",""],
+  ["seventy","","70",""],
+  ["eighty","","80",""],
+  ["ninety","","90",""],
+  ["yen","","円",""],
+  ["American","","アメリカの・アメリカ人",""],
+  ["Canada","","カナダ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave11-safe-word-1110.png"],
+  ["Australia","","オーストラリア","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave11-safe-word-996.png"],
+  ["China","","中国","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave11-safe-r1-word-3486.png"],
+  ["Chinese","","中国語・中国の",""],
+  ["Korea","","韓国・朝鮮",""],
+  ["French","","フランス語・フランスの",""],
+  ["PE","","体育","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/taisou.png"],
+  ["member","","会員・一員","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13037.png"],
+  ["age","","年齢","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-4097.png"],
+  ["number","","数・番号","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-word-7506.png"],
+  ["beef","","牛肉","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1665.png"],
+  ["pork","","豚肉","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-4898.png"],
+  ["air","","空気","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r2-word-1672.png"],
+  ["shorts","","半ズボン","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-shorts-word-72712.png"],
+  ["children","","子どもたち","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-children-word-87726.png"],
+  ["feet","","足（複数）","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-feet-word-87727.png"],
+  ["teeth","","歯（2本以上）",""],
+  ["news","","知らせ・ニュース","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-12187.png"],
+  ["idea","","考え","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-11674.png"],
+  ["thing","","もの・こと",""],
+  ["place","","場所","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-4545.png"],
+  ["life","","生活・命","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-3124.png"],
+  ["trip","","旅行","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-5989.png"],
+  ["shopping","","買い物","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-6151.png"],
+  ["running","","走ること","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion64-v4-word-6554.png"],
+  ["fishing","","魚釣り","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/seven512-word-15699.png"],
+  ["tennis court","","テニスコート","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13600.png"],
+  ["brush","","ブラシで磨く","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-6139.png"],
+  ["take a bath","","風呂に入る","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-0087.png"],
+  ["go to bed","","寝る","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/nemuru.png"],
+  ["get home","","帰宅する","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-word-7191.png"],
+  ["have lunch","","昼食を食べる","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13529.png"],
+  ["after school","","放課後","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/school-word-6123.png"],
+  ["every day","","毎日","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-5268.png"],
+  ["on foot","","歩いて","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion64-v4-word-6555.png"],
+  ["in front of","","〜の前に（位置）",""],
+  ["next to","","〜の隣に",""],
+  ["a lot of","","たくさんの",""],
+  ["look at","","〜を見る","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-word-7265.png"],
+  ["listen to","","〜を聞く","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/kiku.png"],
+  ["be from","","〜の出身である",""],
+  ["be good at","","〜が得意である","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-3932.png"],
+  ["want to","","〜したい","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6835.png"],
+  ["would like","","〜が欲しい（丁寧）","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/negai.png"],
+  ["how much","","値段・量はいくら",""],
+  ["how many","","数はいくつ",""],
+  ["how old","","何歳",""],
+  ["how about","","〜はどうですか",""],
+  ["midnight","","夜の12時・真夜中",""],
+  ["one o'clock","","1時",""],
+  ["two o'clock","","2時",""],
+  ["three o'clock","","3時",""],
+  ["four o'clock","","4時",""],
+  ["five o'clock","","5時",""],
+  ["six o'clock","","6時",""],
+  ["seven o'clock","","7時",""],
+  ["eight o'clock","","8時",""],
+  ["nine o'clock","","9時",""],
+  ["ten o'clock","","10時",""],
+  ["eleven o'clock","","11時",""],
+  ["twelve o'clock","","12時",""],
+  ["date","","日付",""],
+  ["Spanish","","スペイン語・スペインの",""],
+  ["meter","","メートル",""],
+  ["kilogram","","キログラム",""],
+  ["centimeter","","センチメートル",""],
+  ["cent","","セント",""],
+  ["later","","あとで・もっと遅く",""]
+ ]],
+ [4,[
+  ["autumn","","秋（主に英国英語）","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-a-word-19.png"],
+  ["foggy","","霧が出ている","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/fog.png"],
+  ["sunshine","","日光・日ざし",""],
+  ["shower","","にわか雨","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-4179.png"],
+  ["fog","","霧","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/fog.png"],
+  ["clear up","","天気がよくなる・晴れる",""]
+ ]],
+ [15,[
+  ["surfing","","サーフィン","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024f-word-10891.png"],
+  ["marathon","","マラソン","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024f-word-10803.png"],
+  ["boxing","","ボクシング","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024fv2-word-10836.png"],
+  ["rock","","岩・ロック音楽","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-447.png"],
+  ["harmonica","","ハーモニカ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-6397.png"],
+  ["rose","","バラ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4598.png"]
+ ]],
+ [12,[
+  ["cafeteria","","食堂","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-6279.png"],
+  ["ground","","地面・運動場","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-2128.png"],
+  ["doghouse","","犬小屋","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-doghouse-word-76173.png"],
+  ["police","","警察","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13203.png"],
+  ["theater","","劇場・映画館","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-2022.png"],
+  ["post","","郵便・郵便ポスト","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-f-word-5715.png"],
+  ["tower","","塔・タワー","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r4-word-3819.png"]
+ ]],
+ [15,[
+  ["football","","フットボール","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024f-word-10879.png"],
+  ["softball","","ソフトボール","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024f-word-10874.png"]
+ ]],
+ [9,[
+  ["Mr.","","～さん（男性への敬称）",""],
+  ["Ms.","","～さん（女性への敬称）",""],
+  ["Mrs.","","～さん（既婚女性への敬称）",""]
+ ]],
+ [1,[
+  ["pineapple","","パイナップル","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4622.png"],
+  ["pumpkin","","かぼちゃ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave6-word-1144.png"],
+  ["cream","","クリーム","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-1778.png"],
+  ["dessert","","食後のデザート","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13626.png"],
+  ["ham","","ハム","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-4478.png"],
+  ["sushi","","すし","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2985.png"],
+  ["sausage","","ソーセージ","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13391.png"],
+  ["yogurt","","ヨーグルト","https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-f-word-5805.png"]
+ ]],
+ [18,[
+  ["hi","","やあ・こんにちは",""],
+  ["bye","","じゃあね",""],
+  ["hey","","やあ・ねえ",""],
+  ["thank","","感謝する",""]
+ ]],
+ [5,[
+  ["orange (color)","","オレンジ色",""]
+ ]]
+];
+for (const [genre,words] of extraVocabulary) {
+ const g=typeof genre==="number"?genre:GN.push(genre)-1;
+ for(const word of words){D.push(word);GI.push(g)}
+}
+const wordImage=d=>`<img class="word-image" src="${d[3]}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`;
+const pool=()=>D.map((_,i)=>i).filter(i=>S.g.includes(GI[i])),gix=g=>D.map((_,i)=>i).filter(i=>GI[i]==g);
+
+const $=id=>document.getElementById(id),K="eiken5_animals_v1";
+let S={c:{},best:0,streak:0,last:"",hint:true,hi:0,hiT:0,g:[0,1,2,3,4],n:10};
+try{S=Object.assign(S,JSON.parse(localStorage.getItem(K)))}catch(e){}
+const save=()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}};
+const cnt=i=>S.c[i]||0,lv=i=>cnt(i)>=3?2:cnt(i)>=1?1:0;
+const show=id=>document.querySelectorAll(".scr").forEach(s=>s.classList.toggle("on",s.id==id));
+const sh=a=>a.sort(()=>Math.random()-.5);
+const PEN=[0,2,4,7,9,12,14,16,19,21,24],MSG=["","Nice!","Good job!","Great!","Amazing!","🔥 Unstoppable!"];
+/* カードのただよう速さ(px/秒)。むずかしすぎる/かんたんすぎるときはここを調整 */
+const V0=40,V1=80,SP=matchMedia("(prefers-reduced-motion:reduce)").matches?.5:1;
+let AC;
+const B0=523.25;
+function ac(){try{AC=AC||new(window.AudioContext||window.webkitAudioContext)()}catch(e){}return AC}
+/* ---- 効果音(ファイルなし・コードで合成。音を作るのは数ミリ秒なので、タップ直後に鳴らせる) ----
+   bell: ベルのような音(基本音+倍音)。f=周波数 d=長さ(秒) v=音量 t=ずらし(秒) */
+function bell(f,d,v,t=0){const c=ac();if(!c)return;
+ try{const n=c.currentTime+t,g=c.createGain();g.connect(c.destination);
+  g.gain.setValueAtTime(.0001,n);g.gain.linearRampToValueAtTime(v,n+.003);g.gain.exponentialRampToValueAtTime(.0005,n+d);
+  [[1,1],[2,.35],[3.01,.15]].forEach(([m,a])=>{const o=c.createOscillator(),h=c.createGain();o.frequency.value=f*m;h.gain.value=a;o.connect(h);h.connect(g);o.start(n);o.stop(n+d+.02)})}catch(e){}}
+/* ミスのおと：低くさがるブー */
+function wob(){const c=ac();if(!c)return;
+ try{const n=c.currentTime,o=c.createOscillator(),g=c.createGain();o.type="triangle";o.frequency.setValueAtTime(220,n);o.frequency.exponentialRampToValueAtTime(130,n+.3);
+  g.gain.setValueAtTime(.2,n);g.gain.exponentialRampToValueAtTime(.001,n+.3);o.connect(g);g.connect(c.destination);o.start(n);o.stop(n+.3)}catch(e){}}
+/* sfx(名前, ピッチ倍率=コンボで上がる)  tap:カードえらび ok:せいかい sp:キラキラ big:大コンボ ng:ミス fin:クリア */
+function sfx(n,r=1){const f=B0*Math.min(r,6);
+ if(n=="tap")bell(880,.07,.1);
+ else if(n=="ok"){bell(f,.4,.15);bell(f*1.5,.4,.13,.07)}
+ else if(n=="sp")bell(f,.25,.1);
+ else if(n=="big")[1,1.25,1.5,2,2.5].forEach((m,k)=>bell(f*m,.3,.1,k*.07));
+ else if(n=="fin")[523.25,659.26,783.99,1046.5].forEach((q,k)=>bell(q,.35,.14,k*.11));
+ else if(n=="ng")wob()}
+/* さいしょのタッチで音を解禁(iOS/Safari対策) */
+["pointerdown","pointerup","touchend","click"].forEach(e=>addEventListener(e,()=>{const c=ac();if(c&&c.state!="running")c.resume()},true));
+function beep(f,d=.12,t="sine",v=.15){try{AC=AC||new(window.AudioContext||window.webkitAudioContext)();const o=AC.createOscillator(),g=AC.createGain(),n=AC.currentTime;o.type=t;o.frequency.value=f;g.gain.setValueAtTime(v,n);g.gain.exponentialRampToValueAtTime(.001,n+d);o.connect(g);g.connect(AC.destination);o.start();o.stop(n+d)}catch(e){}}
+/* 英検アプリの既存音声と追加収録したMP3。Dと同じ語順。 */
+const audioFiles=[
+ "g5-w-cat-word-normal-e3ce5d63077785bb",
+ "g5-w-dog-word-normal-1a253f6addfcb42b",
+ "g5-w-bird-word-normal-cdf62b3f5caa2860",
+ "g5-w-fish-word-normal-9c304ac5198ee5c3",
+ "g5-w-horse-word-normal-a99255e9f34197b9",
+ "g5-w-cow-word-normal-b0dc4498e589254d",
+ "g5-w-pig-word-normal-6905694a933fd04f",
+ "g5-w-sheep-word-normal-385c399db7dad74b",
+ "g5-w-rabbit-word-normal-e480b7e86c4f2756",
+ "g5-w-monkey-word-normal-9b379ded08e3a57f",
+ "g5-w-elephant-word-normal-08726fcc6e7ee986",
+ "g5-w-lion-word-normal-15c289129771f721",
+ "g5-w-tiger-word-normal-39de7ff713a486af",
+ "g5-w-bear-word-normal-6e7aac810124f0f0",
+ "hunter/panda-2661d6a8a6d2d087",
+ "g5-w-duck-word-normal-70b4fbf1c4c87004",
+ "g5-w-chicken-word-normal-d0620fa29a4840ec",
+ "g5-w-frog-word-normal-cb60abf2b0608d6f",
+ "g5-w-snake-word-normal-02d6efaf20433886",
+ "g5-w-mouse-word-normal-b24cd0b08f28aacb",
+ "hunter/giraffe-b0e1ae322baba385",
+ "hunter/penguin-60a008f5a209b5ba",
+ "hunter/koala-252c0335e8f9c2fa",
+ "hunter/zebra-3d4e45305106eb00",
+ "hunter/kangaroo-87c8d9783b5e441a",
+ "hunter/whale-afc5bcacee8f08f5",
+ "hunter/dolphin-a32f4ab9a69f6a53",
+ "g5-w-turtle-word-normal-49d8333979f6c916",
+ "g5-w-butterfly-word-normal-a6cfed809955b971",
+ "g5-w-bee-word-normal-ca732b49be4a869a",
+ "g5-w-apple-word-normal-b11114b17989343b",
+ "g5-w-banana-word-normal-a3798bdab1a22820",
+ "g5-w-ph-orange-color-word-normal-8c55ace80b3897cd",
+ "g5-w-grape-word-normal-02770481a8e366f9",
+ "g5-w-peach-word-normal-3c0007fe7d48d156",
+ "g5-w-strawberry-word-normal-aad4daabf9d21216",
+ "g5-w-lemon-word-normal-e813bb8daa460fb8",
+ "g5-w-melon-word-normal-2e1b54a3f0ff1b8e",
+ "g5-w-tomato-word-normal-550dbe5d54c6fd71",
+ "g5-w-potato-word-normal-1b05e900a62348f9",
+ "g5-w-carrot-word-normal-cfcb8f9285c1683c",
+ "hunter/corn-3b49e65337ab3676",
+ "g5-w-bread-word-normal-550ae99e18a23981",
+ "g5-w-egg-word-normal-09c0fd9605aa9ece",
+ "g5-w-cake-word-normal-089651d69d4cdd70",
+ "g5-w-pizza-word-normal-7939a7214352b69b",
+ "g5-w-bus-word-normal-8159deab6cc3a7b1",
+ "g5-w-car-word-normal-ac210c4e9c30f144",
+ "g5-w-train-word-normal-60aa9e280df48c33",
+ "g5-w-bike-word-normal-8efe68b7ed9c60ea",
+ "g5-w-plane-word-normal-c1626ab2e605bab8",
+ "g5-w-ship-word-normal-dea5a472f9db64ed",
+ "g5-w-taxi-word-normal-4f636c76cd0e0377",
+ "g5-w-truck-word-normal-57f0d2261d8f077c",
+ "g5-w-book-word-normal-24ed8ec9a044c71a",
+ "g5-w-pen-word-normal-96da7858a1709c2c",
+ "g5-w-bag-word-normal-bd74345e9e59e9ac",
+ "g5-w-clock-word-normal-eca344fd89e184da",
+ "g5-w-umbrella-word-normal-923cf46d160e95ba",
+ "g5-w-bed-word-normal-3e6720f28f0180f5",
+ "g5-w-chair-word-normal-a97fc31ce140e66a",
+ "g5-w-key-word-normal-e4bd30ce55429374",
+ "g5-w-camera-word-normal-4b1e57023c47025f",
+ "g5-w-hat-word-normal-fe62d283cb34ddda",
+ "g5-w-shoes-word-normal-7b9e7a452cda395e",
+ "g5-w-ball-word-normal-f8f7faeacab0f1fb",
+ "g5-w-piano-word-normal-08caccd0492af678",
+ "g5-w-guitar-word-normal-05884adc679f9708",
+ "g5-w-sun-word-normal-37234ff7afffa3b2",
+ "g5-w-moon-word-normal-48ac3eaf68abc0ac",
+ "g5-w-star-word-normal-842fc5d8cb0f7c26",
+ "g5-w-rain-word-normal-56e0bbad1b271295",
+ "g5-w-snow-word-normal-a4c259a9914c2221",
+ "g5-w-tree-word-normal-3422114cab983b3d",
+ "g5-w-flower-word-normal-b17ed06250398232",
+ "g5-w-mountain-word-normal-bc258d1338f4ba24",
+ "hunter/fire-e38a656b0d703515",
+ "g5-w-cloud-word-normal-316ad17231d0674c",
+ "g5-w-rj-animal-word-normal-8c2b877d2e83d274",
+ "g5-w-pet-word-normal-f4c0c7fb76ffe163",
+ "hunter/goat-09ad4dbcbefad059",
+ "hunter/deer-fa85dc3782ac688c",
+ "g5-w-fox-word-normal-c6e2edf7f035d7c4",
+ "hunter/wolf-0530f8a5f0a128b4",
+ "hunter/owl-b58a812e6c797d59",
+ "g5-w-ant-word-normal-6b991366a8a6012f",
+ "hunter/crab-9734bc0bb1e1d726",
+ "hunter/shark-dd8c4b11a8eb5a34",
+ "g5-w-onion-word-normal-50ecc41a82426711",
+ "hunter/cabbage-f51957903756c293",
+ "g5-w-ph-cucumber-word-normal-b76d25e0cd094525",
+ "g5-w-rice-word-normal-c46261cba81cd775",
+ "g5-w-milk-word-normal-a3e537a2183baa80",
+ "g5-w-juice-word-normal-bc2210925cfd1d90",
+ "g5-w-tea-word-normal-7c5157ed11bd68c9",
+ "g5-w-coffee-word-normal-363c4051d12bb62a",
+ "g5-w-water-word-normal-dab4c0cea42faecd",
+ "g5-w-cheese-word-normal-1b1bc74681e19547",
+ "g5-w-butter-word-normal-b6faea7f75fe4eb3",
+ "g5-w-salad-word-normal-2f39b596ab21dddc",
+ "g5-w-sandwich-word-normal-0927f8a6b67fd3f6",
+ "g5-w-hamburger-word-normal-2e6afb4786592b9e",
+ "hunter/hot-dog-7d2b22bcd2751a35",
+ "g5-w-spaghetti-word-normal-4f74e05c5134214a",
+ "g5-w-soup-word-normal-dfa8a8498125e834",
+ "hunter/steak-64e80160c2a193ac",
+ "g5-w-cookie-word-normal-3b3be79026a4ad81",
+ "g5-w-ice-cream-word-normal-5d273e6b5a68f7db",
+ "g5-w-ph-pie-word-normal-4644ee462ec95db8",
+ "hunter/candy-7be794a300828958",
+ "g5-w-chocolate-word-normal-4905607b86057a32",
+ "hunter/pudding-7657f27d0d6633da",
+ "hunter/noodles-3c09048987428af3",
+ "g5-w-curry-word-normal-e98113f24794fd28",
+ "g5-w-meat-word-normal-4046fc15b917c596",
+ "g5-w-sugar-word-normal-b94cdbfa736e6569",
+ "g5-w-salt-word-normal-65d4ce7efd721e07",
+ "g5-w-breakfast-word-normal-6284faf0e51d747c",
+ "g5-w-lunch-word-normal-2468718571683106",
+ "g5-w-dinner-word-normal-bbcbfe7aaa79930d",
+ "hunter/snack-44426b6e41efc00c",
+ "g5-w-food-word-normal-384eae8274b4405a",
+ "g5-w-drink-word-normal-56a87f212fa2beca",
+ "g5-w-fruit-word-normal-592e27ccd40081da",
+ "g5-w-vegetable-word-normal-3ecacd31aed223ff",
+ "g5-w-ph-ice-word-normal-eed68544a70cac55",
+ "hunter/jam-f055293dde7feaf7",
+ "hunter/french-fries-baa47cf41a32fabb",
+ "g5-w-boat-word-normal-8239bf1bd53105ef",
+ "hunter/subway-16e92e8acb1743f8",
+ "hunter/helicopter-e14c21ac40168dcd",
+ "hunter/motorbike-82bbe8d8096e4039",
+ "hunter/fire-truck-811ff02c8d850339",
+ "hunter/ambulance-20c217ef6d0437f8",
+ "hunter/rocket-ee14f7a2eacea492",
+ "g5-w-desk-word-normal-248776ae4a3cfe8a",
+ "g5-w-table-word-normal-abf6ebaf5f9dfd2e",
+ "g5-w-door-word-normal-4ef61cf083d64e34",
+ "g5-w-window-word-normal-c783670c1eff11b4",
+ "g5-w-pencil-word-normal-dace300f6cfc9f7e",
+ "g5-w-notebook-word-normal-3b17a5d854ada2dc",
+ "g5-w-eraser-word-normal-c493a588bbbbc3ea",
+ "g5-w-ruler-word-normal-f7d617d605363eab",
+ "g5-w-box-word-normal-81df0672363d52de",
+ "g5-w-cup-word-normal-ce2f93ac41cdd4fd",
+ "g5-w-glass-word-normal-b0dba25455195bd5",
+ "g5-w-bottle-word-normal-837b61c9dd9607c2",
+ "g5-w-computer-word-normal-37006e2fa5423798",
+ "g5-w-tv-word-normal-6d62abf6873b7563",
+ "g5-w-radio-word-normal-17b2e659f2b44ae2",
+ "g5-w-ph-telephone-word-normal-3c6b0410a999b10c",
+ "g5-w-letter-word-normal-b833c73177878a5c",
+ "g5-w-rj-newspaper-word-normal-605c1248b1472df8",
+ "g5-w-picture-word-normal-2457ea6052f52dc0",
+ "g5-w-map-word-normal-335d72ebb872044b",
+ "g5-w-spoon-word-normal-05f8be5daf8d80d5",
+ "g5-w-knife-word-normal-5568f32ef995d62a",
+ "g5-w-fork-word-normal-8fc7672934f06aa4",
+ "g5-w-rj-dish-word-normal-aa60eee6a27b8fd3",
+ "g5-w-money-word-normal-18d608120e7ae01c",
+ "g5-w-ticket-word-normal-e02798c5e1684ac1",
+ "g5-w-toy-word-normal-b20e84977c0c7668",
+ "g5-w-present-word-normal-dd5bbd8acb344fc4",
+ "g5-w-kite-word-normal-5988c465ac237911",
+ "hunter/wind-10e302d75878b10c",
+ "g5-w-sky-word-normal-b5e3261756425a22",
+ "g5-w-river-word-normal-eacd2a1ba7e2c599",
+ "g5-w-sea-word-normal-9286799ad3f03bc0",
+ "g5-w-lake-word-normal-2a64db54a6a6c0ba",
+ "hunter/forest-8e30bdcf42d236a8",
+ "g5-w-beach-word-normal-108373c6d4548675",
+ "g5-w-sunny-word-normal-8d545bd75fba535d",
+ "g5-w-rainy-word-normal-f46758ebc68f8b02",
+ "g5-w-cloudy-word-normal-a216bbbe4177d058",
+ "g5-w-windy-word-normal-481c6fce0b231838",
+ "g5-w-snowy-word-normal-0d160efdeaa76c62",
+ "g5-w-weather-word-normal-826789efc5883693",
+ "hunter/earth-daf7ae71fc2757a5",
+ "g5-w-grass-word-normal-2b6c98523708925e",
+ "g5-w-leaf-word-normal-ca28798423107347",
+ "hunter/rainbow-408c64f4441b3af6",
+ "hunter/world-c46068b07b0bb023",
+ "g5-w-red-word-normal-29bdc7d28cbb815c",
+ "g5-w-blue-word-normal-ccae0e068703b430",
+ "g5-w-yellow-word-normal-b9d3c6bace69ccdf",
+ "g5-w-green-word-normal-e6916657074b54d0",
+ "g5-w-black-word-normal-281b40a6120dabbf",
+ "g5-w-white-word-normal-6ba695ed2bc53211",
+ "g5-w-brown-word-normal-d831d28f6974ba26",
+ "g5-w-purple-word-normal-69692d06e0653e12",
+ "g5-w-pink-word-normal-3ed02f10981cabc5",
+ "g5-w-gray-word-normal-db4f4c19e2ade1c4",
+ "hunter/gold-51fdf81c81bf695c",
+ "hunter/silver-ecbc636b1e7fc0fb",
+ "g5-w-color-word-normal-048a9854db81cf9d",
+ "g5-w-zero-word-normal-34a94ee74457a775",
+ "g5-w-one-word-normal-b8567c849db035d8",
+ "g5-w-two-word-normal-d514ce0816046d0f",
+ "g5-w-three-word-normal-0797909d35fd142e",
+ "g5-w-four-word-normal-d70319c2311b96e1",
+ "g5-w-five-word-normal-2b856236a12a6449",
+ "g5-w-six-word-normal-81d58eaef06da842",
+ "g5-w-seven-word-normal-ebae012915e2e866",
+ "g5-w-eight-word-normal-a94ab885c789a203",
+ "g5-w-nine-word-normal-a6a00b5ce6e97cde",
+ "g5-w-ten-word-normal-9de373859a677d4f",
+ "g5-w-eleven-word-normal-eaa7263861478994",
+ "g5-w-twelve-word-normal-d316db27f12530e0",
+ "g5-w-thirteen-word-normal-64799fe6a67057d6",
+ "g5-w-fifteen-word-normal-a8f210a640334c1a",
+ "g5-w-twenty-word-normal-7a4838eb13dc692c",
+ "g5-w-thirty-word-normal-29c9edf6b96986e8",
+ "g5-w-forty-word-normal-9c5d1c73f400556f",
+ "g5-w-fifty-word-normal-01468dc8d08e6aee",
+ "g5-w-hundred-word-normal-07297c533dbcbf33",
+ "g5-w-thousand-word-normal-7fa151cddb066da0",
+ "g5-w-first-word-normal-b1a98adf161749de",
+ "g5-w-second-word-normal-c9c96df37fb4d0c1",
+ "g5-w-third-word-normal-b988f43c7c7be80e",
+ "hunter/fourth-6cbab56b5f3701f1",
+ "hunter/fifth-114634bf9ae056fa",
+ "g5-w-half-word-normal-a68e4f5ce8fcc5e3",
+ "g5-w-sunday-word-normal-85d8aa99a049bfe0",
+ "g5-w-monday-word-normal-aab76d66d2172b91",
+ "g5-w-tuesday-word-normal-89f71c08fe5672e4",
+ "g5-w-wednesday-word-normal-a3e4fd92789b3586",
+ "g5-w-thursday-word-normal-87dc41e91b67bf4e",
+ "g5-w-friday-word-normal-6cc829050e8a6faa",
+ "g5-w-saturday-word-normal-7b6c493a16729e68",
+ "g5-w-january-word-normal-0cec5f6f21e53a0d",
+ "g5-w-february-word-normal-eba91bdfa8c5e637",
+ "g5-w-march-word-normal-9240c36ddf00af67",
+ "g5-w-april-word-normal-c86c092b016ab7ef",
+ "g5-w-may-word-normal-07f5d66804ede206",
+ "g5-w-june-word-normal-893bd652fd7c621a",
+ "g5-w-july-word-normal-b2f2126d434c9332",
+ "g5-w-august-word-normal-3f53b00dc6abe6aa",
+ "g5-w-september-word-normal-d3e7ff9d307b3b56",
+ "g5-w-october-word-normal-9744a00dc68a5f97",
+ "g5-w-november-word-normal-a98dea3f1a6064e7",
+ "g5-w-december-word-normal-439090382c858a85",
+ "g5-w-today-word-normal-a4190071faa2e120",
+ "g5-w-tomorrow-word-normal-a3bdd08f93516ce3",
+ "g5-w-yesterday-word-normal-0fa313de4d9ca4a1",
+ "g5-w-morning-word-normal-0e069c035144fa19",
+ "g5-w-afternoon-word-normal-433e812a2135120a",
+ "g5-w-evening-word-normal-994590bc55a052ac",
+ "g5-w-night-word-normal-a59184efda7b2368",
+ "g5-w-day-word-normal-173773167ac68add",
+ "g5-w-week-word-normal-fef83598bbca61c3",
+ "g5-w-month-word-normal-729384b0196ada1c",
+ "g5-w-year-word-normal-3f9394e2bca999a2",
+ "g5-w-time-word-normal-f4a1e6463e9deae5",
+ "g5-w-hour-word-normal-331b2d50b7b2919a",
+ "g5-w-minute-word-normal-181db997b425bf7e",
+ "g5-w-now-word-normal-3fc90d90420b5b45",
+ "g5-w-birthday-word-normal-13a7bc973ca4e16a",
+ "g5-w-weekend-word-normal-b42e32ad0f7ed49d",
+ "hunter/season-a61f3b48a335767e",
+ "g5-w-spring-word-normal-c5f3ed65ea0eb81d",
+ "g5-w-summer-word-normal-f0748f1977469b77",
+ "g5-w-fall-word-normal-502b95ec3d403f64",
+ "g5-w-winter-word-normal-61c10a04bf89e753",
+ "g5-w-holiday-word-normal-fe505159ba64c7de",
+ "g5-w-father-word-normal-cd28b701a1219cbb",
+ "g5-w-mother-word-normal-bf5da65db7696b4f",
+ "hunter/dad-3acb42f7056c2426",
+ "hunter/mom-b947c3a36542ea5c",
+ "g5-w-brother-word-normal-65f90de748438707",
+ "g5-w-sister-word-normal-64cb819e7b72f528",
+ "g5-w-grandfather-word-normal-50543af628a8bad0",
+ "g5-w-grandmother-word-normal-9bcc8f696c2f54dd",
+ "g5-w-uncle-word-normal-2e759f1b64951c07",
+ "g5-w-aunt-word-normal-44654e62d6133913",
+ "g5-w-family-word-normal-f26f88c83084c1bc",
+ "hunter/parents-1aed990f21959784",
+ "g5-w-ph-son-word-normal-baacc4a6dc048746",
+ "g5-w-ph-daughter-word-normal-4fd4ddf1c0ac57b9",
+ "g5-w-baby-word-normal-0a377ff15eb2937c",
+ "g5-w-boy-word-normal-8bd657fcab2e8df7",
+ "g5-w-girl-word-normal-436a97022cb2b984",
+ "g5-w-man-word-normal-8ad0b4030a2a502d",
+ "g5-w-woman-word-normal-2fb9f5d550712a36",
+ "g5-w-friend-word-normal-19f70497f07bd53b",
+ "g5-w-people-word-normal-027dc5a2ec29cda8",
+ "g5-w-ph-classmate-word-normal-a43a0905d4103484",
+ "g5-w-head-word-normal-90f283e068828c8b",
+ "g5-w-face-word-normal-db214835c03a44d4",
+ "g5-w-eye-word-normal-ddccd1f3a10a36c0",
+ "g5-w-ear-word-normal-5820ea6ad1ed72a7",
+ "g5-w-nose-word-normal-67fefa61118aa6b4",
+ "g5-w-mouth-word-normal-67b475b4844aff09",
+ "g5-w-hand-word-normal-09d6e0a66b90ecd6",
+ "g5-w-arm-word-normal-41b5c95845ac9593",
+ "g5-w-leg-word-normal-3a0c8fcadadab4ca",
+ "g5-w-foot-word-normal-3e4395b1d1184d03",
+ "g5-w-finger-word-normal-25e4bdd1a2596dcb",
+ "g5-w-hair-word-normal-ddda9e547baad7a7",
+ "hunter/body-9315c2b47ee5eb03",
+ "g5-w-tooth-word-normal-e0fcc217ac65672d",
+ "g5-w-neck-word-normal-efeab52091f65a33",
+ "hunter/back-a465ccdf67706b84",
+ "hunter/heart-4dc688c95ec3c53a",
+ "g5-w-school-word-normal-c4ce80311fd57cec",
+ "g5-w-class-word-normal-ada11eee3f19919c",
+ "g5-w-classroom-word-normal-5943489c04a42d1f",
+ "g5-w-teacher-word-normal-e1bc7ba94e07b95f",
+ "g5-w-student-word-normal-b993e92df4ed3981",
+ "g5-w-rj-blackboard-word-normal-20983c3b0b83fba3",
+ "g5-w-homework-word-normal-ac79f948b86dccdc",
+ "g5-w-test-word-normal-80c7aff936f7d0db",
+ "g5-w-lesson-word-normal-a2308142271fc81a",
+ "g5-w-library-word-normal-f614031f6ae912e8",
+ "g5-w-gym-word-normal-c991e4bdb8408b82",
+ "hunter/playground-b5a688f73986a47e",
+ "g5-w-club-word-normal-74c5f013824da2a6",
+ "g5-w-subject-word-normal-652532d606dc3e47",
+ "g5-w-english-word-normal-25faab77c6f6b026",
+ "g5-w-japanese-word-normal-cd4f8723ce7f108f",
+ "g5-w-math-word-normal-05cf8cee7352b8e4",
+ "g5-w-science-word-normal-b07964337e7ebc6f",
+ "hunter/p-e-99464cb4f02d2f3f",
+ "g5-w-art-word-normal-ad0b392706a2edb9",
+ "hunter/social-studies-d918784a783caf32",
+ "hunter/bell-d1cc35fa5437d949",
+ "g5-w-dictionary-word-normal-dcbfc2c6b0340025",
+ "g5-w-paper-word-normal-687408f5ed5244a2",
+ "g5-w-word-word-normal-865a27671c8ccbca",
+ "g5-w-question-word-normal-dd0c047df5d3f136",
+ "g5-w-answer-word-normal-3b131a1e91aacab9",
+ "g5-w-story-word-normal-11ea26deb2a1b8a5",
+ "g5-w-name-word-normal-ca192cb2bb2af2ef",
+ "g5-w-doctor-word-normal-0d55f1b8c4f1cb85",
+ "g5-w-nurse-word-normal-ff61b6786f6753f8",
+ "g5-w-farmer-word-normal-4da74effd2e6288b",
+ "g5-w-cook-word-normal-4c06d5ed60b1bcca",
+ "g5-w-singer-word-normal-0822af9ab9c62a87",
+ "g5-w-rj-dancer-word-normal-9441ada78527ce0f",
+ "hunter/artist-56a80904fcb9b70b",
+ "g5-w-player-word-normal-153fd6ded7165e74",
+ "g5-w-driver-word-normal-78ffc4a929ec8f06",
+ "g5-w-rj-pilot-word-normal-40416c0cfa8fc738",
+ "g5-w-police-officer-word-normal-b746b9369378ea1b",
+ "hunter/firefighter-20e60a0782c2b47f",
+ "hunter/scientist-b0384fd70dfd90a5",
+ "hunter/writer-a119940de40d445a",
+ "hunter/baker-4345244ee101f4e6",
+ "hunter/musician-e52bc332ff9d74e1",
+ "g5-w-rj-job-word-normal-d04e2e0f123b4c6f",
+ "g5-w-house-word-normal-0fe2879551a4b937",
+ "g5-w-home-word-normal-e4d33f5ed59eef07",
+ "g5-w-room-word-normal-3c789e43475b4b7c",
+ "g5-w-kitchen-word-normal-f88b6d967079a98e",
+ "g5-w-bathroom-word-normal-4320f54d8054006b",
+ "g5-w-rj-bedroom-word-normal-cbdbbf6710b9c2ff",
+ "g5-w-garden-word-normal-135f85fce03da862",
+ "g5-w-park-word-normal-6c9e2d9d7f0bd7d4",
+ "g5-w-zoo-word-normal-62000721e37dacea",
+ "g5-w-station-word-normal-720a354b97cd0032",
+ "g5-w-hospital-word-normal-4bc4b14fb63dd335",
+ "g5-w-restaurant-word-normal-26e70c26e7854cd4",
+ "g5-w-shop-word-normal-5c963574b1131b02",
+ "g5-w-supermarket-word-normal-9261debf9bca5840",
+ "g5-w-museum-word-normal-6df10ceb91a63623",
+ "g5-w-post-office-word-normal-bf2e98e051dce127",
+ "g5-w-bank-word-normal-274e504e275c4876",
+ "g5-w-city-word-normal-ef7511c2a45e9fdd",
+ "g5-w-town-word-normal-a95b60109cb9cc14",
+ "g5-w-airport-word-normal-7d9104caefa716e4",
+ "g5-w-hotel-word-normal-6ec2a9ae5cfcc693",
+ "hunter/castle-93d5aed0a0e059a4",
+ "g5-w-farm-word-normal-03a3f4fd92bff50a",
+ "g5-w-street-word-normal-245e7b914f3029f9",
+ "g5-w-bridge-word-normal-7d48da6ee46e43b2",
+ "g5-w-country-word-normal-eef2d3385c0263ed",
+ "g5-w-japan-word-normal-6dc39cc4baee47e4",
+ "g5-w-america-word-normal-1cd61c84149185bc",
+ "g5-w-floor-word-normal-421c0112ce64efd5",
+ "g5-w-wall-word-normal-f36507e0a418329f",
+ "hunter/stairs-9938f5e9f0ff30fe",
+ "g5-w-clothes-word-normal-2708c84cb02f5c7e",
+ "g5-w-shirt-word-normal-d101993dbb425372",
+ "g5-w-t-shirt-word-normal-3bcb1995e682ca52",
+ "g5-w-pants-word-normal-25ab26d2b440c6c2",
+ "g5-w-skirt-word-normal-a36de4fc6840383c",
+ "g5-w-dress-word-normal-14f2b52c7bbd5fbf",
+ "g5-w-coat-word-normal-1c5f59246b9af500",
+ "g5-w-jacket-word-normal-bb3bcb48f6894d63",
+ "g5-w-cap-word-normal-4a8db13e6184ac2c",
+ "hunter/socks-8d233439f7074676",
+ "hunter/gloves-2eaa7e44c86c8bf8",
+ "g5-w-glasses-word-normal-a41cbf5fb304739d",
+ "hunter/scarf-e9ad76675313996d",
+ "hunter/jeans-9530335c8aa23c0e",
+ "g5-w-uniform-word-normal-d8595d4bb96cc869",
+ "hunter/boots-0b4b09b8da06511c",
+ "hunter/ring-a535ecc181bdf8f6",
+ "hunter/mask-c63a7c105d52e69f",
+ "g5-w-soccer-word-normal-48abe36070564b8a",
+ "g5-w-baseball-word-normal-b753f49e64ef3b16",
+ "g5-w-basketball-word-normal-160d547b9153a87d",
+ "g5-w-tennis-word-normal-985818aa4b7f6a31",
+ "g5-w-volleyball-word-normal-38cdff1fd4e00332",
+ "g5-w-swimming-word-normal-443eaf12167cda9e",
+ "g5-w-badminton-word-normal-77343d01f1dd8095",
+ "g5-w-rj-table-tennis-word-normal-c778824be861b6eb",
+ "hunter/golf-511261732e3e4733",
+ "hunter/skiing-bffa7a128b152bc3",
+ "hunter/skating-357a6d87f7828f48",
+ "g5-w-sport-word-normal-facc736bace9ecc0",
+ "g5-w-game-word-normal-19412e4bc8fc3159",
+ "g5-w-team-word-normal-caf9dafdeec9929d",
+ "hunter/race-5a0bdcda95b1bb1f",
+ "hunter/judo-5b6fcb5b497fa42e",
+ "g5-w-music-word-normal-5601f639781ba172",
+ "g5-w-song-word-normal-b73fe0227f4b3fdd",
+ "g5-w-ph-violin-word-normal-ef0c82186455100b",
+ "g5-w-ph-drum-word-normal-020526f0e561ffc7",
+ "g5-w-ph-flute-word-normal-0e76dd91ea76086a",
+ "hunter/trumpet-7263b21cabd9c238",
+ "g5-w-ph-concert-word-normal-6ec9f46c09e8a2f2",
+ "g5-w-ph-band-word-normal-f00e9be7eaea1c96",
+ "g5-w-movie-word-normal-a5c3b8f0a60d5175",
+ "g5-w-picnic-word-normal-bb94f7afafcf2671",
+ "g5-w-party-word-normal-4ca10ad8bb710f0e",
+ "g5-w-rj-camp-word-normal-324b77e6bb4d7215",
+ "g5-w-go-word-normal-2ce03baeb6eb80c8",
+ "g5-w-come-word-normal-39e385be1567f15f",
+ "g5-w-eat-word-normal-602b47d05d522109",
+ "g5-w-play-word-normal-b443ce2d26ccd915",
+ "g5-w-run-word-normal-b0cf87bbc21611d5",
+ "g5-w-walk-word-normal-53c9d6a91839ea55",
+ "g5-w-swim-word-normal-ccbf6861246c5b7d",
+ "g5-w-read-word-normal-b7ca3fcfcf5e5c0a",
+ "g5-w-write-word-normal-115ccb410eb3e7c1",
+ "g5-w-speak-word-normal-27542872efa3c56a",
+ "g5-w-listen-word-normal-f0d1563cb86a76dc",
+ "g5-w-watch-word-normal-e7876a497a4abcea",
+ "g5-w-look-word-normal-94674b292bb9b9a4",
+ "g5-w-see-word-normal-759c7155fd030e40",
+ "g5-w-meet-word-normal-13b6c072bdad043d",
+ "g5-w-sing-word-normal-8ca628536365c02e",
+ "g5-w-dance-word-normal-a409fa20fdb9f4ea",
+ "g5-w-study-word-normal-677cd42e9d47418c",
+ "g5-w-learn-word-normal-af643406ef102798",
+ "g5-w-teach-word-normal-776e01a46907d9fa",
+ "g5-w-help-word-normal-0bedaaa3266ec388",
+ "g5-w-like-word-normal-137c3728f3d6d384",
+ "g5-w-love-word-normal-4b784ac74e24bf34",
+ "g5-w-want-word-normal-83504c531cb81c36",
+ "g5-w-have-word-normal-cd838ed5677f74b4",
+ "g5-w-make-word-normal-5c93137759306e21",
+ "g5-w-use-word-normal-86d8b15776387978",
+ "g5-w-take-word-normal-50b671226c31508e",
+ "g5-w-buy-word-normal-17a21e12486d6314",
+ "hunter/sell-783c1e130e8c05de",
+ "g5-w-open-word-normal-e54cb9b200b16f78",
+ "g5-w-close-word-normal-1227d2428a389038",
+ "g5-w-sit-word-normal-dddbd5e19cb6f980",
+ "g5-w-stand-word-normal-ccaca77f637c0e0e",
+ "g5-w-sleep-word-normal-851796276df39fef",
+ "g5-w-get-up-word-normal-b0fc1e4bc3a24ede",
+ "g5-w-wash-word-normal-6fa1f9d97722d872",
+ "g5-w-ride-word-normal-d59615c692761124",
+ "g5-w-drive-word-normal-09e15d609860d2f8",
+ "g5-w-fly-word-normal-a0c8df5e89ceabcd",
+ "g5-w-jump-word-normal-8c773d9b26ec5eca",
+ "g5-w-ask-word-normal-13c3c83914f5e6ee",
+ "g5-w-call-word-normal-0d0daf4c3b984758",
+ "g5-w-know-word-normal-359ce7b89319490e",
+ "g5-w-think-word-normal-ae145edf59573122",
+ "g5-w-live-word-normal-7b129051583f4544",
+ "g5-w-work-word-normal-40e24b45ff8751fd",
+ "g5-w-visit-word-normal-faa11a373ce90f2b",
+ "g5-w-give-word-normal-56fc1418c50fad54",
+ "g5-w-get-word-normal-a26455f1fc154181",
+ "g5-w-bring-word-normal-ba7e1be74fea3e50",
+ "g5-w-carry-word-normal-66977c363bf34c61",
+ "g5-w-draw-word-normal-4f74ea245dd75ade",
+ "hunter/paint-a2e301bbba1cd0e3",
+ "g5-w-find-word-normal-2b240ef7d6532259",
+ "g5-w-put-word-normal-167d77bc005fe5e7",
+ "g5-w-say-word-normal-7371c2ae258abe65",
+ "g5-w-tell-word-normal-112aaa5abed7a1e2",
+ "g5-w-wait-word-normal-0dc83cc018ca0be6",
+ "g5-w-stop-word-normal-e4d05cebb81eeccc",
+ "g5-w-start-word-normal-2588ac165d46dd89",
+ "g5-w-enjoy-word-normal-9712bce6ae6d20e6",
+ "g5-w-practice-word-normal-c9255d7d36145534",
+ "g5-w-need-word-normal-1f5906d19107b927",
+ "g5-w-try-word-normal-fb38c298b742b572",
+ "g5-w-wear-word-normal-224ac0e9946d179a",
+ "g5-w-cry-word-normal-ada621692ae5240a",
+ "hunter/laugh-d2a15cce564e5d30",
+ "g5-w-smile-word-normal-02e36c457b66ee19",
+ "g5-w-do-word-normal-8f4eca6d8b2bed5e",
+ "g5-w-can-word-normal-308a485642e0b47a",
+ "g5-w-big-word-normal-f080a521e2ab9401",
+ "g5-w-small-word-normal-7a6d8fb73e0e2f6d",
+ "g5-w-long-word-normal-4fe6527bf7edce07",
+ "g5-w-short-word-normal-8df6b757afc72f59",
+ "g5-w-tall-word-normal-c61ebb1e8e21dc41",
+ "g5-w-new-word-normal-077e13cdfc2a1158",
+ "g5-w-old-word-normal-7a7e38e6c643b791",
+ "g5-w-young-word-normal-3d8d1f074b962032",
+ "g5-w-good-word-normal-49c3ecea1994f0e1",
+ "g5-w-bad-word-normal-bc1fc66b5004812f",
+ "g5-w-happy-word-normal-365a4573e1f3c3b6",
+ "g5-w-sad-word-normal-89614fdec885c23c",
+ "g5-w-hot-word-normal-c02e34c6bca62c26",
+ "g5-w-cold-word-normal-8b4fd51aa95d8c8a",
+ "g5-w-warm-word-normal-111aaa40c7388441",
+ "g5-w-cool-word-normal-7fac7f5732bd2a86",
+ "g5-w-fast-word-normal-7a4c9e21f9a22e82",
+ "g5-w-slow-word-normal-40032a482ee1e649",
+ "g5-w-high-word-normal-b9db210f8862241e",
+ "g5-w-low-word-normal-66549c7b9d9875a3",
+ "g5-w-easy-word-normal-c97e33a485af2f2a",
+ "g5-w-difficult-word-normal-075978c258440f0f",
+ "hunter/heavy-c65b71143096ddae",
+ "hunter/light-2c26ecf9e8e961d1",
+ "g5-w-kind-word-normal-40a0a883328b08a2",
+ "g5-w-nice-word-normal-3a9c750cf63b15ff",
+ "g5-w-beautiful-word-normal-e293252b7675efd0",
+ "g5-w-ph-pretty-word-normal-29ee28fbfd01e2d1",
+ "g5-w-fun-word-normal-282b62e16cb52f5c",
+ "g5-w-interesting-word-normal-19052c2d1c9263c3",
+ "hunter/famous-4791356405ecd7e9",
+ "g5-w-favorite-word-normal-a3c95d81cc6bd8fc",
+ "g5-w-busy-word-normal-c7bbc571d363e27a",
+ "g5-w-tired-word-normal-4ebe3676b1b9dc55",
+ "g5-w-sleepy-word-normal-fbf80236ac1ea1bd",
+ "g5-w-hungry-word-normal-b840a94bea389a36",
+ "g5-w-thirsty-word-normal-b3f31eaecbea601e",
+ "g5-w-sick-word-normal-6708e69ef59d0daf",
+ "g5-w-fine-word-normal-ab576e60feeed7b8",
+ "g5-w-great-word-normal-b7d7cdde24fb6b12",
+ "g5-w-clean-word-normal-3fbef654b30d5ebd",
+ "hunter/dirty-87464ace0f10e181",
+ "g5-w-many-word-normal-f7361014415d81bc",
+ "g5-w-much-word-normal-fe3eeef6b5d31624",
+ "g5-w-some-word-normal-a32f61ab0eae7a63",
+ "g5-w-all-word-normal-6877af83d3b02acb",
+ "g5-w-delicious-word-normal-f249d87756e9d294",
+ "g5-w-angry-word-normal-1b5f70478b5a5b5f",
+ "g5-w-bright-word-normal-bf521982d58d1296",
+ "g5-w-dark-word-normal-641bf19a6abf1808",
+ "g5-w-strong-word-normal-186b3e25ae0306d6",
+ "g5-w-right-word-normal-b84d3f810504a3c7",
+ "g5-w-wrong-word-normal-64888262f60f9c51",
+ "hunter/same-733d904e4619825c",
+ "hunter/different-269c36604aaaec41",
+ "g5-w-late-word-normal-e45fe981d513e33f",
+ "g5-w-early-word-normal-23e7737a6c32487c",
+ "g5-w-i-word-normal-e896aaabe423078a",
+ "g5-w-you-word-normal-7de7fde2a7f87ce2",
+ "g5-w-he-word-normal-76f7bd72897dfeeb",
+ "g5-w-she-word-normal-dfd83ec0b8da2031",
+ "g5-w-it-word-normal-60902d70983b14bb",
+ "g5-w-we-word-normal-30b5f78f8041fda9",
+ "g5-w-they-word-normal-549e1d318eb35722",
+ "g5-w-my-word-normal-4997e2a7af0738e1",
+ "g5-w-your-word-normal-17f0079e3a100b68",
+ "g5-w-his-word-normal-e7a124906791a71f",
+ "g5-w-her-word-normal-2105e03a421dc59b",
+ "g5-w-our-word-normal-d02dc25db8804e7c",
+ "g5-w-their-word-normal-fbf46d1ef087c6b5",
+ "g5-w-this-word-normal-c88a07779aae08ea",
+ "g5-w-that-word-normal-3eb3f40edce77789",
+ "g5-w-these-word-normal-70a27ea644264f34",
+ "g5-w-those-word-normal-f175756f9a64d853",
+ "g5-w-who-word-normal-d77330f01d4ac79b",
+ "g5-w-what-word-normal-e17ac9d6d2818964",
+ "g5-w-where-word-normal-b8ee75ecf2840500",
+ "g5-w-when-word-normal-b6e4700a56f5ec46",
+ "g5-w-why-word-normal-126df014cb950a68",
+ "g5-w-how-word-normal-ffcb134f5455f29f",
+ "g5-w-which-word-normal-22d4f8fbe653e48d",
+ "g5-w-whose-word-normal-f2dc518cc908dcc8",
+ "g5-w-in-word-normal-0f4bd66d17860df3",
+ "g5-w-on-word-normal-38b31675b8388aed",
+ "g5-w-under-word-normal-974c86684b6c0aa9",
+ "g5-w-by-word-normal-14ad7acadc607d81",
+ "g5-w-at-word-normal-05bdd4e83a990dfc",
+ "g5-w-near-word-normal-44f7db5dd79df057",
+ "g5-w-from-word-normal-076e8d44e666143f",
+ "g5-w-to-word-normal-60876136821999a7",
+ "g5-w-with-word-normal-fbb80fbff753885e",
+ "g5-w-for-word-normal-76ec4c4ae6eba7a6",
+ "g5-w-about-word-normal-d98c3f1cfd471658",
+ "g5-w-after-word-normal-940d061299b11d31",
+ "g5-w-before-word-normal-4db7465d3b922b54",
+ "g5-w-very-word-normal-1d4275cf420c8805",
+ "g5-w-also-word-normal-07b38616399ead22",
+ "g5-w-too-word-normal-82753bcf0f152610",
+ "g5-w-again-word-normal-e45d60c31427e1bf",
+ "g5-w-always-word-normal-6943f71e262eecfb",
+ "g5-w-usually-word-normal-4c0c68731149721a",
+ "g5-w-often-word-normal-6cb5fbf59028071b",
+ "g5-w-sometimes-word-normal-07287b974036a33f",
+ "g5-w-never-word-normal-174677060d23b7d0",
+ "g5-w-here-word-normal-d6b4b78d1d64640b",
+ "g5-w-there-word-normal-2fb48355503f14bf",
+ "g5-w-up-word-normal-638950b87c1c53eb",
+ "g5-w-down-word-normal-562a5ea3b5a49b03",
+ "g5-w-yes-word-normal-54583c83e09a3a1b",
+ "g5-w-no-word-normal-12aa8aed44fdcd9c",
+ "g5-w-please-word-normal-35ce8234ecb33420",
+ "hunter/thanks-3fb0cd1f85f5db94",
+ "hunter/hello-34768221f080a664",
+ "g5-w-ph-goodbye-word-normal-8dd40c02e8ebc700",
+ "hunter/sorry-bf90a7cadd52d240",
+ "g5-w-ph-welcome-word-normal-8fe3e83c3a8b4aa1",
+ "g5-w-and-word-normal-d3d40534751607e6",
+ "g5-w-but-word-normal-f57576c858cb1b47",
+ "g5-w-or-word-normal-b35073974f809db2",
+ "g5-w-because-word-normal-a59e008e00fca7be",
+ "hunter/if-dcaccb7d19330eef",
+ "g5-w-shoe-word-normal-e48002e6c1ce399e",
+ "g5-w-fourteen-word-normal-31fa9f04d3723957",
+ "g5-w-sixteen-word-normal-81f1337f587c604f",
+ "g5-w-seventeen-word-normal-6846da5ddeb7fc3b",
+ "g5-w-eighteen-word-normal-591c1afccd7b1bf2",
+ "g5-w-nineteen-word-normal-b95432a9e63f0cd4",
+ "g5-w-store-word-normal-ec7b7aede701b3f7",
+ "g5-w-pool-word-normal-0b667e87e8a464a6",
+ "g5-w-ph-e-mail-word-normal-dd623d763d67a106",
+ "g5-w-ph-case-word-normal-9767374f3cc03f3a",
+ "g5-w-ph-package-word-normal-1d6156af254612e9",
+ "g5-w-ph-soap-word-normal-3830e0865cbd7a4e",
+ "g5-w-ph-towel-word-normal-49d8badaaf47d602",
+ "g5-w-ph-living-word-normal-95f87f161963ccdf",
+ "g5-w-ph-backpack-word-normal-48f65527ff8475cb",
+ "g5-w-ph-bench-word-normal-5fc0839b58f44656",
+ "g5-w-ph-lunchbox-word-normal-07ca58007d7b9bb5",
+ "g5-w-ph-chopsticks-word-normal-c03433e393495321",
+ "g5-w-plate-word-normal-ea3e64b58e08c182",
+ "g5-w-basket-word-normal-20dfa062b0224bde",
+ "g5-w-coin-word-normal-146b61463fba1022",
+ "g5-w-menu-word-normal-3ae416805bcd4521",
+ "g5-w-dollar-word-normal-10d8e5c88be72652",
+ "g5-w-rj-a-drink-word-normal-20e9cbc1f59f2d15",
+ "g5-w-stone-word-normal-f25fef5f21243716",
+ "g5-w-island-word-normal-1376b21c93f9a625",
+ "g5-w-pencil-case-word-normal-06d5f4478a199264",
+ "g5-w-textbook-word-normal-fec7599adfaad1da",
+ "g5-w-stamp-word-normal-89dd68dd45cce3fa",
+ "g5-w-postcard-word-normal-74ac76360cf270fb",
+ "g5-w-calendar-word-normal-9615e869651ba927",
+ "g5-w-phone-word-normal-c416c0cd765d4116",
+ "g5-w-bicycle-word-normal-90a1dd053095ce64",
+ "g5-w-bat-word-normal-a276b47415b006af",
+ "g5-w-racket-word-normal-ce008a1ad0145029",
+ "g5-w-doll-word-normal-d84fe9635cade0f5",
+ "g5-w-robot-word-normal-d0acad5461380014",
+ "g5-w-model-word-normal-9b7efb7d9fca2762",
+ "g5-w-page-word-normal-5aec53ed1840dd5d",
+ "g5-w-sentence-word-normal-646a1d507e03dcdc",
+ "g5-w-cd-word-normal-34c6b72f543eecfd",
+ "g5-w-rj-passport-word-normal-245ff658d0c6d8ce",
+ "g5-w-rj-diary-word-normal-cb2ddf4b79614ee4",
+ "g5-w-rj-history-word-normal-a2752ee062b5f395",
+ "g5-w-rj-a-watch-word-normal-4a2728cbf7686e34",
+ "g5-w-ph-comic-word-normal-2d01f1b7276b8657",
+ "g5-w-ph-magazine-word-normal-1051fc0393ac1bc2",
+ "g5-w-ph-chalk-word-normal-cacd95947894cc27",
+ "g5-w-ph-exam-word-normal-8581a5b7cd0a9c47",
+ "g5-w-ph-poster-word-normal-a9b3127ff7a3807f",
+ "g5-w-sofa-word-normal-8427d03b6c9b1dfa",
+ "g5-w-television-word-normal-ee7cf03269f77bde",
+ "g5-w-lamp-word-normal-de3c16a012ab673f",
+ "g5-w-mirror-word-normal-64ba06a2ba95525f",
+ "g5-w-desk-lamp-word-normal-31750a4850575f2c",
+ "g5-w-roof-word-normal-3059cd064ac65d2a",
+ "g5-w-gate-word-normal-1e8bbaa54de9543b",
+ "g5-w-building-word-normal-8c6beb085a5e2276",
+ "g5-w-office-word-normal-398e32604c0bb1cc",
+ "g5-w-bus-stop-word-normal-b8eebe3589b76bc2",
+ "g5-w-bookstore-word-normal-cde19b0dfb8834f2",
+ "g5-w-flower-shop-word-normal-4c9a26df4783a184",
+ "g5-w-road-word-normal-80b64f3b950b5eb4",
+ "g5-w-corner-word-normal-b2df10483c8cf4c6",
+ "g5-w-village-word-normal-3f3482c162ab5ca5",
+ "g5-w-rj-spain-word-normal-1b69d4a7f3951e0c",
+ "g5-w-rj-france-word-normal-03c5b6dbb13b2723",
+ "g5-w-rj-germany-word-normal-d2d3825041e1e908",
+ "g5-w-rj-brazil-word-normal-7cec8e9a806c98f6",
+ "g5-w-rj-africa-word-normal-cade8fb2214f526c",
+ "g5-w-rj-asia-word-normal-8926bebd7f086dd2",
+ "g5-w-rj-europe-word-normal-a99ccb4f9b2c0c1d",
+ "g5-w-rj-city-hall-word-normal-59c2b0b958de07cf",
+ "g5-w-child-word-normal-17ccccac7ca09d40",
+ "g5-w-cousin-word-normal-165cfbe6d2ae40d2",
+ "g5-w-parent-word-normal-91b9d3419382e7e7",
+ "g5-w-dentist-word-normal-37887d680688d161",
+ "g5-w-knee-word-normal-185c5f68ac9cbf8f",
+ "g5-w-shoulder-word-normal-438a65c194a0d8f0",
+ "g5-w-sweater-word-normal-1e0bb03140a70083",
+ "g5-w-sock-word-normal-ff04b5fb3a0f7134",
+ "g5-w-glove-word-normal-e28ebfbcd239e747",
+ "g5-w-rj-officer-word-normal-c4f89f4b8c16b6f0",
+ "g5-w-rj-person-word-normal-84be8b00565ea171",
+ "g5-w-rj-pianist-word-normal-aeb2d6b61874626f",
+ "g5-w-rj-waiter-word-normal-434a169bcb43fa1f",
+ "g5-w-rj-worker-word-normal-3973248412b7d4ce",
+ "g5-w-me-word-normal-8483e187b75e8568",
+ "g5-w-him-word-normal-24ab01f5c0bf0dde",
+ "g5-w-us-word-normal-1f3cd84de78df9a8",
+ "g5-w-them-word-normal-e605027aa448bbe7",
+ "g5-w-mine-word-normal-41143deea922d208",
+ "g5-w-yours-word-normal-3a09fb6ddf1801b0",
+ "g5-w-a-word-normal-9399eb9890cece17",
+ "g5-w-an-word-normal-a561ed0243b7e746",
+ "g5-w-the-word-normal-d82f6f1b99875427",
+ "g5-w-am-word-normal-3e5418ce084e741f",
+ "g5-w-is-word-normal-3f2887726a721376",
+ "g5-w-are-word-normal-e1100f12223916f6",
+ "g5-w-be-word-normal-a8f824fe4f7befe9",
+ "g5-w-does-word-normal-b0598e6c76cca5c5",
+ "g5-w-not-word-normal-cd4871fefb744e1b",
+ "g5-w-of-word-normal-63f764da48f63966",
+ "g5-w-behind-word-normal-5266b58e52334267",
+ "g5-w-between-word-normal-d3df5d085b2892f2",
+ "g5-w-out-word-normal-17c74e4ec6546048",
+ "g5-w-any-word-normal-c1d4bfe9484dbf9a",
+ "g5-w-every-word-normal-9e9a573921b1c6fb",
+ "g5-w-each-word-normal-9caaa81d098039a7",
+ "g5-w-other-word-normal-84b57e4e53a63c0d",
+ "g5-w-another-word-normal-d5317f67ac3b7945",
+ "g5-w-both-word-normal-5f1ed8a7586d35f5",
+ "g5-w-has-word-normal-b60ad47d76968c2f",
+ "g5-w-understand-word-normal-e21ace9a1c1cc7f8",
+ "g5-w-remember-word-normal-2bc4700f2d44f806",
+ "g5-w-forget-word-normal-907393a921b572cf",
+ "g5-w-hear-word-normal-0b5364d48768897f",
+ "g5-w-talk-word-normal-f2d5d390ea293014",
+ "g5-w-finish-word-normal-abb0945e8b8e8483",
+ "g5-w-stay-word-normal-f2b5b9b7fdf105be",
+ "g5-w-leave-word-normal-8b38d99842a7793f",
+ "g5-w-arrive-word-normal-4e7e4a48e72504c2",
+ "g5-w-return-word-normal-da7a0b8377cc7c23",
+ "g5-w-turn-word-normal-478a081ba6d6529a",
+ "g5-w-cut-word-normal-acbfd251f409391e",
+ "g5-w-catch-word-normal-b664a1885fd74f11",
+ "g5-w-throw-word-normal-0374c4ecf17d084b",
+ "g5-w-kick-word-normal-d19a8693d20e4c09",
+ "g5-w-rj-hers-word-normal-884f13ef5f8aa578",
+ "g5-w-rj-its-word-normal-07b2de9f33772620",
+ "g5-w-rj-theirs-word-normal-b8581d6747adbf4e",
+ "g5-w-rj-ours-word-normal-3328e12ea964ea0c",
+ "g5-w-rj-what-color-word-normal-2b903abaf0af36ff",
+ "g5-w-rj-what-sports-word-normal-66ae12958f0dfb3e",
+ "g5-w-rj-what-food-word-normal-899fe68534b17f5e",
+ "g5-w-rj-what-drink-word-normal-70d8ce2ffbc38ab0",
+ "g5-w-rj-what-animal-word-normal-d4e7f44544dff018",
+ "g5-w-rj-what-subject-word-normal-ad3e3d6f6dcd2426",
+ "g5-w-rj-what-time-word-normal-620de36029f28242",
+ "g5-w-rj-how-tall-word-normal-764ad55d381445a9",
+ "g5-w-rj-how-long-word-normal-53057047d076909e",
+ "g5-w-rj-ski-word-normal-66df698d571acab7",
+ "g5-w-rj-begin-word-normal-3559c02a96bbfda0",
+ "g5-w-rj-move-word-normal-3a56c0e54c30a863",
+ "g5-w-ph-then-word-normal-277501e7a90e549f",
+ "g5-w-ph-off-word-normal-6fc913ed1efaddc1",
+ "g5-w-ph-over-word-normal-88fe7a776ffd6bbb",
+ "g5-w-ph-more-word-normal-626200ceb9bfd632",
+ "g5-w-ph-so-word-normal-f029195f8f3cd394",
+ "g5-w-ph-into-word-normal-1e45826e968d40fa",
+ "g5-w-ph-will-word-normal-285df8576d106362",
+ "g5-w-large-word-normal-70416bda34157bab",
+ "g5-w-little-word-normal-8e8fc89994a089b4",
+ "g5-w-sweet-word-normal-4c94dc12f086cfa7",
+ "g5-w-left-word-normal-2897cf8942fdae34",
+ "g5-w-free-word-normal-e5f22fa629046082",
+ "g5-w-full-word-normal-5a8c195303b0e43e",
+ "g5-w-ready-word-normal-34d3cf69625b6f7f",
+ "g5-w-quiet-word-normal-c3fc484620b4a734",
+ "g5-w-safe-word-normal-c73b5950d31c5def",
+ "g5-w-well-word-normal-93f67dc8841f0b58",
+ "g5-w-really-word-normal-26f84dda75fad2dd",
+ "g5-w-together-word-normal-9d3a2c82ef5f95ea",
+ "g5-w-only-word-normal-1087804e6960edb0",
+ "g5-w-soon-word-normal-7062d0851470a9d0",
+ "g5-w-away-word-normal-5d6355c853808367",
+ "g5-w-outside-word-normal-3ed7085600eb9124",
+ "g5-w-inside-word-normal-cc3126f4f6876681",
+ "g5-w-ph-final-word-normal-8b07db37670466a1",
+ "g5-w-ph-main-word-normal-19027e799cee9fed",
+ "g5-w-ph-soft-word-normal-54a83232068a7613",
+ "g5-w-vacation-word-normal-72bf4afd79535b6d",
+ "g5-w-tonight-word-normal-212c9f3d40c30bf9",
+ "g5-w-next-word-normal-17f52f0ec8b19993",
+ "g5-w-last-word-normal-0ef3f6c917f910ca",
+ "g5-w-sixty-word-normal-620a4744bc25a206",
+ "g5-w-seventy-word-normal-a75fad6528578682",
+ "g5-w-eighty-word-normal-2763df76bfb11d89",
+ "g5-w-ninety-word-normal-565672e3ded6ebb3",
+ "g5-w-yen-word-normal-e1ffae8065c932fb",
+ "g5-w-american-word-normal-4ed4011c56882255",
+ "g5-w-canada-word-normal-ad35f9628b1af683",
+ "g5-w-australia-word-normal-2cca99489b0fdbfb",
+ "g5-w-china-word-normal-0d9f26845f59a35a",
+ "g5-w-chinese-word-normal-4eed85b3e3e4a36f",
+ "g5-w-korea-word-normal-e73438caa1a72563",
+ "g5-w-french-word-normal-ef9c84ef54b92fe1",
+ "g5-w-pe-word-normal-d1d5d49048e1cd16",
+ "g5-w-member-word-normal-e74cf644e71c0c63",
+ "g5-w-age-word-normal-d32fb1fa1ff02957",
+ "g5-w-number-word-normal-1f161ffb84214952",
+ "g5-w-beef-word-normal-317b763bc8bb6071",
+ "g5-w-pork-word-normal-aa741e4209776d81",
+ "g5-w-air-word-normal-db5656d6dfd0f0ed",
+ "g5-w-shorts-word-normal-6db4c3d78942fe64",
+ "g5-w-children-word-normal-6a8485eeeea27a42",
+ "g5-w-feet-word-normal-17975e67b6363b6e",
+ "g5-w-teeth-word-normal-dde00e5838b2b31e",
+ "g5-w-news-word-normal-45da7a531c02dd6d",
+ "g5-w-idea-word-normal-d168d756c971a202",
+ "g5-w-thing-word-normal-6bed548506f04b44",
+ "g5-w-place-word-normal-a8eee95a435b8464",
+ "g5-w-life-word-normal-6769856b3048043e",
+ "g5-w-trip-word-normal-09f33a2a3b0eff10",
+ "g5-w-shopping-word-normal-16421e5ab87fd238",
+ "g5-w-running-word-normal-3fe9a5ea5f189d68",
+ "g5-w-fishing-word-normal-5fd6407163a354b1",
+ "g5-w-tennis-court-word-normal-2ca7e604f5db452d",
+ "g5-w-brush-word-normal-1c475e497bf337ba",
+ "g5-w-take-a-bath-word-normal-879941b2f60b0d33",
+ "g5-w-go-to-bed-word-normal-446871655843c7bd",
+ "g5-w-get-home-word-normal-160f568568bf9203",
+ "g5-w-have-lunch-word-normal-c0a67b8fb15f7b2f",
+ "g5-w-after-school-word-normal-ce82448374c047f8",
+ "g5-w-every-day-word-normal-b9a33463338d3e8c",
+ "g5-w-on-foot-word-normal-aef392eb229b2bb4",
+ "g5-w-in-front-of-word-normal-8c4eefb8b588dfd2",
+ "g5-w-next-to-word-normal-91c9608e9f3a3155",
+ "g5-w-a-lot-of-word-normal-5ee7bddc0328d689",
+ "g5-w-look-at-word-normal-8dfad1423aab0ec7",
+ "g5-w-listen-to-word-normal-280e9283fdf42a10",
+ "g5-w-be-from-word-normal-329b05b8b838d2ea",
+ "g5-w-be-good-at-word-normal-78840b5467394b55",
+ "g5-w-want-to-word-normal-c4fa73c0485c1b05",
+ "g5-w-would-like-word-normal-b762b89b7548ff6e",
+ "g5-w-how-much-word-normal-e7f97fb1d9188ea3",
+ "g5-w-how-many-word-normal-a19fd81b065b4b6b",
+ "g5-w-how-old-word-normal-0cbdc4af19de50b6",
+ "g5-w-how-about-word-normal-85091bbde2c67429",
+ "g5-w-rj-midnight-word-normal-ad93008a9eb08b91",
+ "g5-w-rj-one-o-clock-word-normal-a4ab3948484e0ec7",
+ "g5-w-rj-two-o-clock-word-normal-4f50d879d549fd81",
+ "g5-w-rj-three-o-clock-word-normal-8225a7101f5e07e2",
+ "g5-w-rj-four-o-clock-word-normal-a887f6fd70862ffb",
+ "g5-w-rj-five-o-clock-word-normal-9893a46b82b4efcb",
+ "g5-w-rj-six-o-clock-word-normal-7837bfa60abd7bfb",
+ "g5-w-rj-seven-o-clock-word-normal-380562d4a933c70b",
+ "g5-w-rj-eight-o-clock-word-normal-8c6c7bae6ef7bc89",
+ "g5-w-rj-nine-o-clock-word-normal-f7127dfe28471988",
+ "g5-w-rj-ten-o-clock-word-normal-9aa254883fe5a5d5",
+ "g5-w-rj-eleven-o-clock-word-normal-c71eacda83821628",
+ "g5-w-rj-twelve-o-clock-word-normal-4a72ec0f5961ec61",
+ "g5-w-ph-date-word-normal-31d30326fc4b80b7",
+ "g5-w-ph-spanish-word-normal-3d022fd8c31802fd",
+ "g5-w-ph-meter-word-normal-9dcd91790feaaa52",
+ "g5-w-ph-kilogram-word-normal-fdf42fe5c6ad107d",
+ "g5-w-ph-centimeter-word-normal-790f8dc7303e7adc",
+ "g5-w-ph-cent-word-normal-fbb2b75e8a66c041",
+ "g5-w-ph-later-word-normal-f308b78f3fc306c7",
+ "g5-w-rj-autumn-word-normal-0f03b5a26d7cb524",
+ "g5-w-rj-foggy-word-normal-b9e4284713ddedfd",
+ "g5-w-rj-sunshine-word-normal-6c64eb0c721da0c7",
+ "g5-w-rj-shower-word-normal-39d14c9a1ee351c8",
+ "g5-w-rj-fog-word-normal-38150567ab9fea53",
+ "g5-w-rj-clear-up-word-normal-02e4e8e69826be22",
+ "g5-w-rj-surfing-word-normal-15d6337964a28d6c",
+ "g5-w-rj-marathon-word-normal-fcdf1417ce0db687",
+ "g5-w-rj-boxing-word-normal-ecc3c208bd8754bd",
+ "g5-w-ph-rock-word-normal-2cf99c6fc4b20772",
+ "g5-w-ph-harmonica-word-normal-3957a671a5ea0e7d",
+ "g5-w-ph-rose-word-normal-c8b629482b8eafb0",
+ "g5-w-ph-cafeteria-word-normal-cbaf81b4faa9162f",
+ "g5-w-ph-ground-word-normal-ec90647ab17f322d",
+ "g5-w-ph-doghouse-word-normal-b1c6ff623c223824",
+ "g5-w-ph-police-word-normal-937530af78781e48",
+ "g5-w-ph-theater-word-normal-decbe7f7bd7fb26a",
+ "g5-w-ph-post-word-normal-9593bb9a663d7123",
+ "g5-w-ph-tower-word-normal-1342d44de3e5d9dd",
+ "g5-w-ph-football-word-normal-98a9562f0ed16025",
+ "g5-w-ph-softball-word-normal-bfa964a5f0240066",
+ "g5-w-ph-mr-word-normal-74ec8a87f1ca0720",
+ "g5-w-ph-ms-word-normal-a9bd78d7e96f7b0a",
+ "g5-w-ph-mrs-word-normal-f240113ad6d4e2ab",
+ "g5-w-ph-pineapple-word-normal-1555aba1c40fda29",
+ "g5-w-ph-pumpkin-word-normal-b8a32ac4a739d50b",
+ "g5-w-ph-cream-word-normal-951d84973a218fd7",
+ "g5-w-ph-dessert-word-normal-c18350a6616c07fa",
+ "g5-w-ph-ham-word-normal-5641f328cbe5a86e",
+ "g5-w-ph-sushi-word-normal-058e4388960cab47",
+ "g5-w-ph-sausage-word-normal-af45da6e7029e306",
+ "g5-w-ph-yogurt-word-normal-66a4e8a88d76f0d9",
+ "g5-w-ph-hi-word-normal-9fef9566cad38d34",
+ "g5-w-ph-bye-word-normal-dbf039e264443aa5",
+ "g5-w-ph-hey-word-normal-a67df6408402af80",
+ "g5-w-ph-thank-word-normal-ac11e44042ea80b6",
+ "g5-w-ph-orange-color-word-normal-8c55ace80b3897cd",
+];
+const wordAudio=new Audio();wordAudio.preload="none";
+function say(i){
+ wordAudio.pause();
+ wordAudio.src="assets/audio/"+audioFiles[i]+".mp3";
+ wordAudio.play().catch(()=>{});
+}
+function burst(el,n=8,set=["✨","⭐","💫"],far=70,sz=20){const r=el.getBoundingClientRect();for(let k=0;k<n;k++){const p=document.createElement("i"),a=Math.random()*6.28,d=far*.5+Math.random()*far;p.textContent=set[k%set.length];p.className="pt";p.style.cssText=`left:${r.left+r.width/2}px;top:${r.top+r.height/2}px;font-size:${(sz*(.7+Math.random()*.6)).toFixed(0)}px;--dx:${Math.cos(a)*d}px;--dy:${Math.sin(a)*d}px`;document.body.appendChild(p);setTimeout(()=>p.remove(),700)}}
+let q,C=[],sel,combo,done,errs,best,miss,busy,newM,AW=0,AH=0,run=false,lt=0,raf=0,want=true,CAP=10,score=0,scShown=0,scT=0,hintUsed=true;
+/* ステージのたんご数 / はじめから成立しているペア数 / はじめの「ペアにならないカード」数 / ペアにならないカードの上限 */
+let N=10;const P0=3,O0=3,OMAX=4;
+/* じかんせい：TL=せいげん時間(秒)。N語を1しゅうとして、時間いっぱい ランダムな順で何しゅうもくりかえす */
+const TL=90;let M="stage",tl=0,lap=1,lapDone=0,seen=new Set(),LW=[];
+function refill(){q=sh(LW.filter(i=>!C.some(c=>c.i==i)))}   /* つぎのしゅう：おなじN語を ならべかえて出す(いま場にいる語はのぞく) */
+function home(){run=false;lapUi();const P=pool(),m=P.filter(i=>lv(i)==2).length;$("hp").style.width=m/P.length*100+"%";$("ht").textContent=`マスター ${m} / ${P.length}ご（${S.g.length}ジャンル）`;$("hs").innerHTML=(S.streak?`🔥 ${S.streak}日れんぞく！`:"")+(S.hi?`<br>ベスト ⭐ ${S.hi.toLocaleString()}`:"")+(S.hiT?`<br>⏱ベスト ⭐ ${S.hiT.toLocaleString()}`:"");show("home")}
+function zukan(){$("zg").innerHTML=GN.map(([n,e],g)=>{const x=gix(g);
+ return`<div class="zh">${e} ${n}　${x.filter(i=>lv(i)==2).length} / ${x.length}</div>`+x.map(i=>{const d=D[i],v=lv(i);
+  return`<div class="z l${v}${i>=originalWordCount?" extra":""}" ${v?`onclick="say(${i})"`:""}><span>${v?(d[3]?wordImage(d):d[1])||`<b style="font-size:13px">${d[2]}</b>`:"❓"}</span>${v?d[0]:"???"}</div>`}).join("")}).join("");show("zk")}
+/* ---- ジャンルえらび：チェックしたジャンルのたんごだけが出る ---- */
+/* じかんせい：1しゅうの語数。ぜんぶ＝チェックした全ジャンルの語。基本点は この語数で きまる(多いほど高い) */
+function lapUi(){$("lb").textContent=`⏱ 1しゅうの ご数：${S.n||"ぜんぶ("+pool().length+")"}`}
+function lapSel(){const o=[10,20,30,50,0];S.n=o[(o.indexOf(S.n)+1)%o.length];save();lapUi()}
+function gt(){$("gt").textContent=`いま ${S.g.length}ジャンル ／ ${pool().length}ご から でるよ`}
+function genres(){
+ $("gl").innerHTML=GN.map(([n,e],g)=>{const x=gix(g),on=S.g.includes(g);
+  return`<label class="gc${on?" on":""}"><input type="checkbox"${on?" checked":""} onchange="pick(${g},this)"><i>${e}</i><span>${n}<em>${x.filter(i=>lv(i)==2).length} / ${x.length}ご</em></span></label>`}).join("");
+ gt();show("gn")}
+function pick(g,el){
+ const s=new Set(S.g);el.checked?s.add(g):s.delete(g);
+ if(!s.size){el.checked=true;return}   /* さいごの1ジャンルは はずせない */
+ S.g=[...s].sort((a,b)=>a-b);el.parentNode.classList.toggle("on",el.checked);save();gt()}
+function gAll(){S.g=GN.map((_,g)=>g);save();genres()}
+
+/* ---- 空中をただようカード ---- */
+function measure(){const a=$("A");AW=a.clientWidth;AH=a.clientHeight}
+addEventListener("resize",measure);
+function rv(c){const a=Math.random()*6.283,sp=(V0+Math.random()*(V1-V0))*SP;c.tx=Math.cos(a)*sp;c.ty=Math.sin(a)*sp;c.tt=1.5+Math.random()*2.5}
+/* 出現位置：ランダム。ほかのカードからなるべく遠い場所をえらぶ */
+function place(c){
+ const mx=Math.max(0,AW-c.w),my=Math.max(0,AH-c.h);let bx=0,by=0,bd=-1;
+ for(let k=0;k<40;k++){
+  const x=Math.random()*mx,y=Math.random()*my;let d=1e9;
+  for(const o of C)d=Math.min(d,Math.hypot(x+c.w/2-(o.x+o.w/2),y+c.h/2-(o.y+o.h/2)));
+  if(d>bd){bd=d;bx=x;by=y}
+  if(d>c.w*1.3)break}
+ c.x=bx;c.y=by}
+function spawn(s,i,anim){
+ const w=document.createElement("div"),b=document.createElement("button");
+ w.className="fc";b.className="cd "+(s=="L"?"en":"pic")+(anim?" new":"")+(i>=originalWordCount?" extra":"");
+ b.dataset.s=s;b.dataset.i=i;
+ b.innerHTML=s=="L"?D[i][0]:D[i][3]?`<span>${wordImage(D[i])}</span><small>${D[i][2]}</small>`:D[i][1]?`<span>${D[i][1]}</span><small>${D[i][2]}</small>`:`<small class="jp">${D[i][2]}</small>`;
+ w.appendChild(b);$("A").appendChild(w);
+ const c={s,i,el:w,b,w:w.offsetWidth,h:w.offsetHeight,x:0,y:0,vx:0,vy:0,tx:0,ty:0,tt:0,fz:false};
+ place(c);rv(c);c.vx=c.tx;c.vy=c.ty;C.push(c);paint();
+ w.style.transform=`translate(${c.x}px,${c.y}px)`;return c}
+/* カード同士がかさならないようにはじく(止まっているカードは動かさない) */
+function sep(a,b,P,V,T,Z,o){
+ const s=a[P]+a[Z]/2<b[P]+b[Z]/2?-1:1,ma=a.fz?0:1,mb=b.fz?0:1,t=ma+mb;
+ if(!t)return;
+ a[P]+=s*(o+1)*ma/t;b[P]-=s*(o+1)*mb/t;
+ if(ma)a[V]=a[T]=s*Math.max(Math.abs(a[V]),30);
+ if(mb)b[V]=b[T]=-s*Math.max(Math.abs(b[V]),30)}
+function hit(a,b){
+ const ox=Math.min(a.x+a.w,b.x+b.w)-Math.max(a.x,b.x),oy=Math.min(a.y+a.h,b.y+b.h)-Math.max(a.y,b.y);
+ if(ox<=0||oy<=0)return;
+ if(ox<oy)sep(a,b,"x","vx","tx","w",ox);else sep(a,b,"y","vy","ty","h",oy)}
+function tick(t){
+ if(!run)return;
+ const dt=Math.min(.05,(t-lt)/1e3||0);lt=t;
+ if(M=="time"){tl-=dt;$("tm").textContent=Math.max(0,Math.ceil(tl));$("tm").style.color=tl<=10?"var(--berry)":"";$("gp").style.width=Math.max(0,tl)/TL*100+"%";if(tl<=0){finish();return}}
+ for(const c of C){
+  if(c.fz)continue;
+  c.tt-=dt;if(c.tt<=0)rv(c);
+  const k=Math.min(1,dt*1.2);c.vx+=(c.tx-c.vx)*k;c.vy+=(c.ty-c.vy)*k;
+  c.x+=c.vx*dt;c.y+=c.vy*dt}
+ for(let a=0;a<C.length;a++)for(let b=a+1;b<C.length;b++)hit(C[a],C[b]);
+ for(const c of C){
+  const mx=Math.max(0,AW-c.w),my=Math.max(0,AH-c.h);
+  if(c.x<0){c.x=0;c.vx=c.tx=Math.abs(c.vx)||30}else if(c.x>mx){c.x=mx;c.vx=c.tx=-(Math.abs(c.vx)||30)}
+  if(c.y<0){c.y=0;c.vy=c.ty=Math.abs(c.vy)||30}else if(c.y>my){c.y=my;c.vy=c.ty=-(Math.abs(c.vy)||30)}
+  c.el.style.transform=`translate(${c.x.toFixed(1)}px,${c.y.toFixed(1)}px) rotate(${c.fz?0:(c.vx/25).toFixed(1)}deg)`}
+ raf=requestAnimationFrame(tick)}
+/* えらんだカードは止めて、ペアをさがしやすくする */
+function mark(){C.forEach(c=>{const o=!!sel&&sel.s==c.s&&sel.i==c.i;c.b.classList.toggle("on",o);c.el.classList.toggle("sel",o);c.fz=o})}
+
+/* ---- カードのふやし方 ----
+   プレーヤーがカードをタップするたびに、1まいずつふえる(ペアをけしたあとの自動ほじゅうはしない)。
+   ふえるカードは「ペアが成立するカード(あいてがもう場にいる)」と「成立しないカード(あいてはまだ場にいない)」をこうごに出す。
+   だから「あたらしく出たカード」をおしても、それだけではこたえにならない。 */
+const opp=s=>s=="L"?"R":"L";
+const has=(s,i)=>C.some(c=>c.s==s&&c.i==i);
+const orph=()=>C.filter(c=>!has(opp(c.s),c.i));            /* あいてが場にいないカード */
+const lives=()=>C.filter(c=>c.s=="L"&&has("R",c.i)).length;  /* いま成立しているペアの数 */
+/* ex: いまタップしたカードのたんご。そのあいては出さない(出すと「さわったらあいてが出た」とバレるため) */
+function addLive(ex,force){
+ const o=orph().filter(c=>!ex.includes(c.i));
+ if(!o.length||(!force&&C.length>=CAP))return false;
+ const c=o[Math.floor(Math.random()*o.length)];spawn(opp(c.s),c.i,1);return true}
+function addOrphan(){
+ if(!q.length&&M=="time")refill();
+ if(!q.length||C.length>=CAP||orph().length>=OMAX)return false;
+ spawn(Math.random()<.5?"L":"R",q.shift(),1);return true}
+function addCard(ex){
+ const a=want?addLive:addOrphan,b=want?addOrphan:addLive;
+ const t=a(ex)?want:b(ex)?!want:null;   /* 出せなかったら、反対のしゅるいで。そのときはじゅんばんを進めない */
+ if(t!==null)want=!t}
+function ensureLive(){if(!lives()&&orph().length)addLive([],true)}   /* 成立ペアが0にならないよう、ひつようなら成立カードをすぐ出す */
+
+/* ---- ヒント：ペアのいない(あいてが場にいない)カードを くらくする。ヒントなしで あそぶと とくてん2ばい ---- */
+function paint(){C.forEach(c=>c.b.classList.toggle("dim",S.hint&&!has(opp(c.s),c.i)))}
+function hintUi(){const b=$("hb");b.classList.toggle("off",!S.hint);b.innerHTML=S.hint?"ヒント<br>あり":"ヒント<br>なし×2"}
+function toggleHint(){
+ S.hint=!S.hint;if(S.hint)hintUsed=true;   /* ヒントをつけた ペアは、あとで けしても2ばいにならない(のぞき見ぼうし) */
+ save();hintUi();paint();$("msg").textContent=S.hint?"くらい カードは ペアなし！":"ヒントなし！ とくてん ×2"}
+
+/* ---- とくてん と コンボえんしゅつ ---- */
+const GROW=.5;   /* 点のふえ方のゆるやかさ。小さいほどゆるやか(1=ごすうに比例 / .5=√ / .3=もっとゆるやか)。0より大きければ上限なしで ふえつづける */
+let BASE=100;/* start()で、えらんだジャンルのご数から きまる */   /* きほん点＝100×(しゅうろくご数÷30)^GROW。GROW=.5だと 30ご=100点 / 78ご=160点 / 120ご=200点 / 300ご=320点 */
+const pts=c=>BASE*c*(1+Math.floor(c/3));   /* 1かいぶんの点。コンボが ふえるほど ぐんぐん ふえる(1:100 2:200 3:600 5:1000 6:1800 10:4000…) */
+const tier=c=>c<3?0:c<5?1:c<7?2:c<10?3:4;   /* えんしゅつレベル。大きいほど はなやか */
+const TC=["#ffd23f","#ffb13f","#ff8a3f","#ff5d73","#ff5d73"];
+const SETS=[["✨","⭐"],["✨","⭐","💫"],["🌟","💫","✨","🎵"],["🌈","🌟","🎉","💥"],["🎆","🎇","🌟","💥","🎉","🌈"]];
+let bnId=0;
+function setScore(v){
+ cancelAnimationFrame(scT);const a=scShown,t0=performance.now(),e=$("sc");
+ e.classList.remove("pop");void e.offsetWidth;e.classList.add("pop");
+ const f=t=>{const k=Math.min(1,(t-t0)/450);scShown=Math.round(a+(v-a)*(1-Math.pow(1-k,3)));e.textContent=scShown.toLocaleString();if(k<1)scT=requestAnimationFrame(f)};
+ scT=requestAnimationFrame(f)}
+function comboEnd(){const c=$("cb");c.style.fontSize="";c.style.color="";$("A").dataset.t=0}
+function comboFx(A,g,mul,f){
+ const T=tier(combo),ra=A[0].b.getBoundingClientRect(),rb=A[1].b.getBoundingClientRect();
+ const x=(ra.left+ra.right+rb.left+rb.right)/4,y=(ra.top+ra.bottom+rb.top+rb.bottom)/4,add=(el,ms)=>{document.body.appendChild(el);setTimeout(()=>el.remove(),ms)};
+ A.forEach(c=>burst(c.b,[6,10,16,22,30][T],SETS[T],[70,90,120,150,190][T],[20,22,26,30,34][T]));
+ if(T){const r=document.createElement("i");r.className="ring";r.style.cssText=`left:${x}px;top:${y}px;--rs:${140+T*100}px;border-color:${TC[T]}`;add(r,650)}
+ const p=document.createElement("i");p.className="pu t"+T;p.textContent="+"+g.toLocaleString()+(mul>1?" ×2":"");
+ p.style.cssText=`left:${x}px;top:${y}px;font-size:${22+T*9}px;color:${TC[T]}`;add(p,1000);
+ $("A").dataset.t=T;
+ if(T>=3){const a=$("A");a.classList.remove("shk","shk4");void a.offsetWidth;a.classList.add(T>3?"shk4":"shk");setTimeout(()=>a.classList.remove("shk","shk4"),350)}
+ const big=combo==5||combo>=10&&combo%5==0;
+ if(big){const l=$("fl");l.classList.remove("go");void l.offsetWidth;l.classList.add("go")}
+ if(big||combo==3||combo==7){
+  const t="COMBO"+"!".repeat(T>=3?2:1),fs=Math.min(30+T*8,Math.floor(innerWidth*.88/(t.length*.75))),id=++bnId;
+  $("fx").innerHTML=`<b style="font-size:${fs}px;--c:${TC[T]}"><span style="display:block;font-size:1.8em;line-height:1">${combo}</span>${t}</b>`;setTimeout(()=>{if(id==bnId)$("fx").innerHTML=""},1200)}
+ if(T>=2)setTimeout(()=>sfx("sp",f/B0*2),110);
+ if(T>=3)setTimeout(()=>sfx("sp",f/B0*2.5),170);
+ if(big)setTimeout(()=>sfx("big",f/B0),220)}
+
+function start(m){M=m||"stage";
+ N=M=="time"?Math.min(S.n||1e9,pool().length):10;BASE=Math.round(Math.pow((M=="time"?N:pool().length)/30,GROW)*10)*10;q=sh(pool().map(i=>[i,cnt(i)+Math.random()*1.5]).sort((a,b)=>a[1]-b[1]).slice(0,N).map(a=>a[0]));
+ LW=q.slice();const f=q.splice(0,P0),o=q.splice(0,O0);
+ $("A").innerHTML="";C=[];sel=null;combo=done=errs=best=newM=0;miss=new Set();seen=new Set();tl=TL;lap=1;lapDone=0;busy=false;want=true;
+ score=scShown=0;hintUsed=S.hint;$("sc").textContent="0";comboEnd();hintUi();
+ $("msg").textContent=S.hint?"くらい カードは ペアなし！":"ペアの いない カードも！";$("cb").textContent="";$("gp").style.width=M=="time"?"100%":"0";$("tm").textContent=M=="time"?TL:"";$("tm").style.color="";
+ show("game");measure();
+ CAP=Math.max(P0*2+O0+1,Math.min(13,Math.floor(AW*AH*.5/9000)));   /* 画面がせまいときは、場のカードの上限をへらす */
+ f.forEach(i=>{spawn("L",i,0);spawn("R",i,0)});
+ o.forEach((i,k)=>spawn(k%2?"L":"R",i,0));
+ run=true;lt=performance.now();cancelAnimationFrame(raf);raf=requestAnimationFrame(tick)}
+/* とんでいるカードをたしかにつかまえるため、タップは「さわった瞬間」に判定 */
+$("A").addEventListener("pointerdown",e=>{
+ if(e.button>0)return;
+ const b=e.target.closest(".cd");if(!b||busy)return;
+ const s=b.dataset.s,i=+b.dataset.i;
+ if(AC&&AC.state=="suspended")AC.resume();
+ if(S.hint)hintUsed=true;
+ if(s=="L")say(i);
+ if(!sel||sel.s==s){
+  if(sel&&sel.i==i)return;   /* えらんでいるカードをもういちどさわっても、カードはふえない */
+  sfx("tap");sel={s,i};mark();addCard([i]);return}
+ const li=s=="L"?i:sel.i,ri=s=="R"?i:sel.i;
+ const A=[C.find(c=>c.s=="L"&&c.i==li),C.find(c=>c.s=="R"&&c.i==ri)];
+ busy=true;sel=null;mark();
+ if(li==ri)good(li,A);else oops(li,ri,A)});
+function good(li,A){
+ combo++;best=Math.max(best,combo);done++;
+ if(!miss.has(li)&&!seen.has(li)){seen.add(li);const o=lv(li);S.c[li]=cnt(li)+1;if(o<2&&lv(li)==2)newM++}
+ const mul=hintUsed?1:2,g=pts(combo)*mul,T=tier(combo);hintUsed=S.hint;score+=g;setScore(score);
+ const f=523.25*Math.pow(2,PEN[Math.min(combo-1,PEN.length-1)]/12);sfx("ok",f/B0);
+ try{navigator.vibrate(12+T*8)}catch(e){}
+ A.forEach(c=>{c.fz=true;c.b.classList.add("ok")});comboFx(A,g,mul,f);
+ const c=$("cb");c.textContent=`🔥 ${combo}`;c.style.fontSize=Math.min(22+combo*2,44)+"px";c.style.color=TC[T];c.classList.remove("pop");void c.offsetWidth;c.classList.add("pop");
+ $("msg").textContent=MSG[Math.min(combo-1,5)];if(M=="time"){if(++lapDone>=N){lapDone=0;const b=BASE*5*lap;score+=b;setScore(score);$("msg").textContent=`🔁 ${lap}しゅう クリア！ +${b.toLocaleString()}`;lap++}}else $("gp").style.width=done/N*100+"%";
+ setTimeout(()=>{
+  A.forEach(x=>x.el.remove());C=C.filter(x=>!A.includes(x));
+  addCard([]);ensureLive();
+  if(M!="time"&&done>=N)setTimeout(finish,900);   /* さいごの演出が見えるよう、けっか画面は少しおくらせる */
+  else busy=false},260)}
+function oops(li,ri,A){
+ combo=0;errs++;$("cb").textContent="";comboEnd();$("msg").textContent="Oops! Try again!";
+ [li,ri].forEach(x=>{if(!miss.has(x)){miss.add(x);S.c[x]=Math.max(0,cnt(x)-1)}});
+ sfx("ng");try{navigator.vibrate(40)}catch(e){}
+ A.forEach(c=>c.b.classList.add("bad"));addCard([li,ri]);
+ setTimeout(()=>{A.forEach(c=>c.b.classList.remove("bad"));busy=false},350)}
+function finish(){
+ run=false;cancelAnimationFrame(raf);
+ const st=M=="time"?(done>=N*3?3:done>=N*2?2:1):errs==0?3:errs<=2?2:1,t=new Date().toDateString();
+ if(S.last!=t){S.streak=S.last==new Date(Date.now()-864e5).toDateString()?S.streak+1:1;S.last=t}
+ S.best=Math.max(S.best,best);const hk=M=="time"?"hiT":"hi",rec=S[hk]>0&&score>S[hk];S[hk]=Math.max(S[hk]||0,score);save();comboEnd();bnId++;$("fx").innerHTML="";
+ $("rs").innerHTML=[0,1,2].map(k=>`<b class="${k<st?"on":""}" style="--k:${k}">★</b>`).join("");
+ $("rt").innerHTML=`<div style="font-size:40px;font-weight:900;color:var(--sun)">⭐ ${score.toLocaleString()}</div>${rec?"🏆 ベストこうしん！<br>":""}${M=="time"?`🔁 ${done}ペア（${lap-1}しゅう）<br>`:""}ミス ${errs}かい ／ さいこうコンボ ${best}<br>${newM?`🏅 マスターが ${newM}ご ふえた！<br>`:""}🔥 ${S.streak}日れんぞく`;
+ sfx("fin");show("res");
+ if(st==3)for(let k=0;k<4;k++)setTimeout(()=>burst($("rs"),10),k*150)}
+home();
+</script></body></html>
