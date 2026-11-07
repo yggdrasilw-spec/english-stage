@@ -130,3 +130,7 @@ PDFのあいさつ欄の high は意味と発音から hi に補正。chopstick(
 ソースと詳細は [grammar/README.md](grammar/README.md)。`npm run grammar:test`、`npm run grammar:build`、`npm run grammar:check` で検証・配信準備を行います。英文法の音声は端末の読み上げで、単語学習の収録MP3とは別です。文法の記録は専用のlocalStorage、単語の記録は既存のIndexedDBを使います。AI対話はプロンプトを利用中のAIへ貼り付ける方式です。
 
 文法の公開構成と既存ホームとの往復は `npm run grammar:qa-release` で確認できます。公開後は `node scripts/qa-grammar-release.cjs https://yggdrasilw-spec.github.io/english-stage/` で同じ導線を実サイトでも確認できます。
+
+### ABC HAND
+
+ホームから「ABC HAND」でクレーン式のスペル練習を開けます。単語ハンターと同じ904語・26ジャンル・MP3を使い、不要文字とヒントを設定できます。設計・得点・検証は [ABC_HAND.md](ABC_HAND.md) を参照してください。
