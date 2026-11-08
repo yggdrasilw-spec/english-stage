@@ -34,7 +34,7 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden)stopAudio()
 window.addEventListener('storage',e=>{if(e.key===KEY){const data=read('localStorage',KEY,{});attempts=mergeAttempts(attempts,Array.isArray(data?.attempts)?data.attempts:[]);if(location.hash==='#home'||location.hash==='#progress')render(false);}});
 const button=(action,label,cls='secondary',extra='')=>`<button class="${cls}" data-action="${action}" ${extra}>${label}</button>`;
 function go(hash){if(location.hash===hash)render();else location.hash=hash;}
-function breadcrumb(text){return `<div class="breadcrumb">${button('home','← ホーム')}<span>${esc(text)}</span></div>`;}
+function breadcrumb(text){return `${new URLSearchParams(location.search).get('course')==='4'?'<a class="breadcrumb" href="../#grade4">← 4級の練習につづける</a>':''}<div class="breadcrumb">${button('home','← ホーム')}<span>${esc(text)}</span></div>`;}
 function badge(l){const s=statusFor(l.id,attempts);return `<span class="badge ${s.key==='weak'?'weak':s.key==='mastered'?'done':''}">${s.label}</span>`;}
 function card(l){return `<button class="lesson-card" data-lesson="${l.id}"><span class="num">${l.extension?'STEP UP':`LESSON ${String(l.number).padStart(2,'0')}`}</span><strong>${esc(l.title)}</strong><span class="subtitle">${esc(l.subtitle)}</span>${badge(l)}</button>`;}
 function home(){

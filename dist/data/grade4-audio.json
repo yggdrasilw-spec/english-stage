@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "provider": "Google Cloud Text-to-Speech",
+  "voice": "en-US-Neural2-F",
+  "review": "合成音声・全件の人による試聴は未実施",
+  "files": [
+    {
+      "passageId": "g4-past-be-a-listening",
+      "speed": "normal",
+      "text": "Yesterday, Tom was at the museum with his father. His sister was at the library. They were all at home at six.",
+      "hash": "0893e2ed3e9d11d4",
+      "path": "assets/audio/g4-past-be-a-listening-normal-0893e2ed3e9d11d4.mp3"
+    },
+    {
+      "passageId": "g4-past-be-a-listening",
+      "speed": "slow",
+      "text": "Yesterday, Tom was at the museum with his father. His sister was at the library. They were all at home at six.",
+      "hash": "6319b6187391214f",
+      "path": "assets/audio/g4-past-be-a-listening-slow-6319b6187391214f.mp3"
+    },
+    {
+      "passageId": "g4-past-be-b-listening",
+      "speed": "normal",
+      "text": "Mika was at a bookstore yesterday afternoon. Her parents were at a restaurant. They were at the station at five.",
+      "hash": "f6da85d57071e6db",
+      "path": "assets/audio/g4-past-be-b-listening-normal-f6da85d57071e6db.mp3"
+    },
+    {
+      "passageId": "g4-past-be-b-listening",
+      "speed": "slow",
+      "text": "Mika was at a bookstore yesterday afternoon. Her parents were at a restaurant. They were at the station at five.",
+      "hash": "1088f080d4dbdee9",
+      "path": "assets/audio/g4-past-be-b-listening-slow-1088f080d4dbdee9.mp3"
+    },
+    {
+      "passageId": "g4-past-regular-a-listening",
+      "speed": "normal",
+      "text": "Last Sunday, Anna played tennis in the morning. Her brother watched a movie at home. In the afternoon, Anna helped her mother.",
+      "hash": "9cf0c96b3a955929",
+      "path": "assets/audio/g4-past-regular-a-listening-normal-9cf0c96b3a955929.mp3"
+    },
+    {
+      "passageId": "g4-past-regular-a-listening",
+      "speed": "slow",
+      "text": "Last Sunday, Anna played tennis in the morning. Her brother watched a movie at home. In the afternoon, Anna helped her mother.",
+      "hash": "f97ca4971e05b2c3",
+      "path": "assets/audio/g4-past-regular-a-listening-slow-f97ca4971e05b2c3.mp3"
+    },
+    {
+      "passageId": "g4-past-regular-b-listening",
+      "speed": "normal",
+      "text": "Last Saturday, Ben cleaned his room before lunch. His sister practiced the piano. After lunch, they watched a movie together.",
+      "hash": "709ff2ecf6cd7749",
+      "path": "assets/audio/g4-past-regular-b-listening-normal-709ff2ecf6cd7749.mp3"
+    },
+    {
+      "passageId": "g4-past-regular-b-listening",
+      "speed": "slow",
+      "text": "Last Saturday, Ben cleaned his room before lunch. His sister practiced the piano. After lunch, they watched a movie together.",
+      "hash": "8f316e2e055a1d26",
+      "path": "assets/audio/g4-past-regular-b-listening-slow-8f316e2e055a1d26.mp3"
+    },
+    {
+      "passageId": "g4-past-irregular-a-listening",
+      "speed": "normal",
+      "text": "Yesterday, Leo went to the park with his sister. Leo took pictures of birds. His sister bought some juice at a shop.",
+      "hash": "f5f51921c181c933",
+      "path": "assets/audio/g4-past-irregular-a-listening-normal-f5f51921c181c933.mp3"
+    },
+    {
+      "passageId": "g4-past-irregular-a-listening",
+      "speed": "slow",
+      "text": "Yesterday, Leo went to the park with his sister. Leo took pictures of birds. His sister bought some juice at a shop.",
+      "hash": "4a2466068d5328cc",
+      "path": "assets/audio/g4-past-irregular-a-listening-slow-4a2466068d5328cc.mp3"
+    },
+    {
+      "passageId": "g4-past-irregular-b-listening",
+      "speed": "normal",
+      "text": "On Sunday, May went to a bookstore with her father. May bought a dictionary. Her father bought a magazine, and they went home at four.",
+      "hash": "24717c3088b36a8f",
+      "path": "assets/audio/g4-past-irregular-b-listening-normal-24717c3088b36a8f.mp3"
+    },
+    {
+      "passageId": "g4-past-irregular-b-listening",
+      "speed": "slow",
+      "text": "On Sunday, May went to a bookstore with her father. May bought a dictionary. Her father bought a magazine, and they went home at four.",
+      "hash": "c1b3a6f28d4669f2",
+      "path": "assets/audio/g4-past-irregular-b-listening-slow-c1b3a6f28d4669f2.mp3"
+    },
+    {
+      "passageId": "g4-past-questions-a-listening",
+      "speed": "normal",
+      "text": "Ken did not play soccer yesterday because it was rainy. He studied English at home. His brother went to the library.",
+      "hash": "e6d656a19107243f",
+      "path": "assets/audio/g4-past-questions-a-listening-normal-e6d656a19107243f.mp3"
+    },
+    {
+      "passageId": "g4-past-questions-a-listening",
+      "speed": "slow",
+      "text": "Ken did not play soccer yesterday because it was rainy. He studied English at home. His brother went to the library.",
+      "hash": "92d2f1c5a3f3a0e4",
+      "path": "assets/audio/g4-past-questions-a-listening-slow-92d2f1c5a3f3a0e4.mp3"
+    },
+    {
+      "passageId": "g4-past-questions-b-listening",
+      "speed": "normal",
+      "text": "Rina did not visit her aunt on Sunday because her aunt was busy. Rina went to a museum with her friend instead. They saw many old pictures there.",
+      "hash": "0cecbc1acafcd173",
+      "path": "assets/audio/g4-past-questions-b-listening-normal-0cecbc1acafcd173.mp3"
+    },
+    {
+      "passageId": "g4-past-questions-b-listening",
+      "speed": "slow",
+      "text": "Rina did not visit her aunt on Sunday because her aunt was busy. Rina went to a museum with her friend instead. They saw many old pictures there.",
+      "hash": "bbabf3486b80b9a1",
+      "path": "assets/audio/g4-past-questions-b-listening-slow-bbabf3486b80b9a1.mp3"
+    }
+  ]
+}

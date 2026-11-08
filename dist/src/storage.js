@@ -1,3 +1,5 @@
+import {validGrade4} from './grade4-core.js';
+import {validGrammarSnapshot} from './grammar-bridge.js';
 import {validForest} from './forest.js';
 import {validCompanion} from './companion.js';
 import {validKarutaLearning} from './karuta-learning.js';
@@ -16,6 +18,9 @@ export function write(state){return new Promise((res,rej)=>{const tx=db.transact
 export function validateBackup(b,ids){
  if(!b||b.app!=='english-stage'||b.version!==1||!b.state||b.state.schema!==1)throw Error('このアプリのバックアップではありません。');
  const s=b.state;
+ if(s.course!==undefined&&![4,5].includes(s.course))throw Error('学習する級が正しくありません。');
+ if(s.grade4!==undefined&&!validGrade4(s.grade4))throw Error('4級の学習記録が壊れています。');
+ if(s.grammarBridge!==undefined&&!validGrammarSnapshot(s.grammarBridge))throw Error('ラボの学習記録が壊れています。');
  if(s.forest!==undefined&&!validForest(s.forest))throw Error("森の記録が壊れています。");
  if(s.companion!==undefined&&!validCompanion(s.companion))throw Error('着せ替えの記録が壊れています。');
  if(!s.progress||!s.seen||!Array.isArray(s.history)||!Array.isArray(s.rewards)||!Number.isSafeInteger(s.stars)||s.stars<0||s.stars>1000000||![3,5,10].includes(s.settings?.newCount)||typeof s.settings.sound!=='boolean'||typeof s.settings.motion!=='boolean')throw Error('記録の形式が正しくありません。');

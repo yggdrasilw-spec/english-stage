@@ -1,0 +1,62 @@
+// Original bridge curriculum. A/B use different situations for delayed retrieval.
+export const courseVersion=1;
+export const units=[
+ {id:'past-be',title:'きのう、どこにいた？',lesson:'past-be',wordId:'g5-w-busy',prerequisite:'be',rule:'過去の状態や場所には was / were。I・he・she・it は was、you・we・they は were。',before:'She is at home today.',after:'She was at the library yesterday.',parts:['She','was','at the library','yesterday'],roles:['だれが','過去のbe動詞','場所','過去のしるし']},
+ {id:'past-regular',title:'きのう、何をした？',lesson:'past-regular',wordId:'g5-w-visit',prerequisite:'present',rule:'過去の動作は、規則動詞なら -ed などを付ける。主語が変わっても、過去形は同じ。',before:'I visit my aunt on Sundays.',after:'I visited my aunt last Sunday.',parts:['I','visited','my aunt','last Sunday'],roles:['だれが','過去の動作','だれを','過去のしるし']},
+ {id:'past-irregular',title:'went・saw・bought を使おう',lesson:'past-irregular',wordId:'g5-w-go',prerequisite:'present',rule:'go → went、see → saw、buy → bought のように、-ed ではない過去形もある。動作と例文を結びつけて覚えよう。',before:'We go to the park on Sundays.',after:'We went to the museum last Sunday.',parts:['We','went','to the museum','last Sunday'],roles:['だれが','goの過去形','行き先','過去のしるし']},
+ {id:'past-questions',title:'Did のあとは原形',lesson:'past-questions',wordId:'g5-w-yesterday',prerequisite:'do-questions',rule:'一般動詞の過去の質問は Did ＋ 主語 ＋ 動詞の原形。否定は didn’t ＋ 原形。be動詞の質問には Was / Were を使う。',before:'You play tennis.',after:'Did you play tennis yesterday?',parts:['Did','you','play tennis','yesterday?'],roles:['過去の質問','だれが','動詞は原形','過去のしるし']}
+];
+const questions=[],passages=[];
+function add(unit,variant,word,grammar,reading,listening){
+ const prefix=`g4-${unit}-${variant}`;
+ const make=(skill,index,prompt,answer,wrong,explanation,extra={})=>questions.push({id:`${prefix}-${skill}-${index}`,unit,variant,skill,prompt,choices:[answer,...wrong],answer:0,explanation,...extra});
+ make('vocab',1,word[0],word[1],word[2],word[3],{wordId:units.find(u=>u.id===unit).wordId});
+ grammar.forEach((g,i)=>make('grammar',i+1,g[0],g[1],g[2],g[3]));
+ for(const [skill,p] of [['reading',reading],['listening',listening]]){
+  const passage={id:`${prefix}-${skill}`,unit,variant,skill,title:p[0],sentences:p[1],translation:p[2]};passages.push(passage);
+  p[3].forEach((q,i)=>make(skill,i+1,q[0],q[1],q[2],q[3],{passageId:passage.id,evidence:q[4]}));
+ }
+}
+add('past-be','a',
+ ['busy の意味は？','忙しい',['有名な','元気な','準備ができた'],'busy は「忙しい」。She was busy yesterday. で「昨日は忙しかった」。'],
+ [['Emi ___ at home yesterday.','was',['is','were','be'],'yesterday は過去。Emi には was を使う。'],['We ___ happy last Sunday.','were',['was','are','is'],'we の過去のbe動詞は were。']],
+ ['Emiからのメール',['Hi Ken, I was at the library yesterday morning.','My brother was at the park with his friends.','We were at home in the afternoon.'],['ケン、昨日の朝、私は図書館にいました。','兄は友達と公園にいました。','午後は私たちは家にいました。'],[['Where was Emi yesterday morning?','At the library.',['At the park.','At school.','At home.'],'yesterday morning と Emi に対応する最初の文が根拠。',0],['Where were Emi and her brother in the afternoon?','At home.',['At the library.','At the park.','At a shop.'],'We はEmiと兄。午後の場所は最後の文にある。',2]]],
+ ['昨日の家族',['Yesterday, Tom was at the museum with his father.','His sister was at the library.','They were all at home at six.'],['昨日、トムは父と博物館にいました。','姉は図書館にいました。','6時には全員が家にいました。'],[['Where was Tom yesterday?','At the museum.',['At the library.','At school.','At the station.'],'Tom の場所を答える。sister の場所と区別しよう。',0],['When were they all at home?','At six.',['At four.','At five.','At seven.'],'all at home に対応する時刻は six。',2]]]);
+add('past-be','b',
+ ['I was busy yesterday. の意味は？','私は昨日忙しかった。',['私は今日忙しい。','私は昨日暇だった。','私は明日忙しい。'],'was と yesterday は過去。busy は「忙しい」。'],
+ [['They ___ at the station yesterday.','were',['was','are','is'],'they には were。'],['___ Ken tired last night?','Was',['Did','Is','Were'],'過去の状態の質問。Ken には Was を使う。']],
+ ['学校のおたより',['Our class was at the museum last Friday.','The science room was closed that day.','We were back at school at three.'],['先週金曜日、私たちのクラスは博物館にいました。','その日、科学の部屋は閉まっていました。','3時には学校に戻っていました。'],[['Where was the class last Friday?','At the museum.',['At the library.','At the park.','At the station.'],'クラスの行き先は最初の文。',0],['When was the class back at school?','At three.',['At one.','At two.','At four.'],'back at school と three の対応を確認。',2]]],
+ ['昨日の午後',['Mika was at a bookstore yesterday afternoon.','Her parents were at a restaurant.','They were at the station at five.'],['昨日の午後、ミカは書店にいました。','両親はレストランにいました。','5時には一緒に駅にいました。'],[['Where were Mika’s parents yesterday afternoon?','At a restaurant.',['At a bookstore.','At a museum.','At a library.'],'Mika と両親の場所を分けて聞こう。',1],['When were they at the station?','At five.',['At two.','At three.','At four.'],'駅にいた時刻は five。',2]]]);
+add('past-regular','a',
+ ['visit の意味は？','訪ねる',['借りる','選ぶ','運ぶ'],'visit は人や場所を「訪ねる」。visited はその過去形。'],
+ [['We ___ our aunt last Sunday.','visited',['visit','visits','visiting'],'last Sunday は過去。visit → visited。'],['Ken ___ tennis yesterday.','played',['plays','play','playing'],'昨日の動作なので play → played。']],
+ ['週末のメール',['Hi Yuki, I visited my grandmother last Saturday.','We cooked lunch together.','After lunch, I cleaned her kitchen.'],['ユキ、先週土曜日に祖母を訪ねました。','一緒に昼食を作りました。','昼食後、祖母の台所を掃除しました。'],[['Who did the writer visit?','The writer’s grandmother.',['The writer’s teacher.','The writer’s cousin.','The writer’s friend.'],'visited の後ろの相手を確認。',0],['What did the writer do after lunch?','Cleaned the kitchen.',['Played tennis.','Watched a movie.','Visited a library.'],'after lunch の後の行動が根拠。',2]]],
+ ['日曜日の活動',['Last Sunday, Anna played tennis in the morning.','Her brother watched a movie at home.','In the afternoon, Anna helped her mother.'],['先週日曜日の朝、アンナはテニスをしました。','兄は家で映画を見ました。','午後、アンナは母を手伝いました。'],[['What did Anna do in the morning?','She played tennis.',['She watched a movie.','She cleaned a room.','She cooked lunch.'],'Anna と brother の行動を区別。',0],['Who did Anna help?','Her mother.',['Her brother.','Her teacher.','Her father.'],'最後の文の helped her mother が根拠。',2]]]);
+add('past-regular','b',
+ ['We visited Kyoto. の意味は？','私たちは京都を訪ねた。',['私たちは京都に住んでいる。','私たちは京都を訪ねる予定だ。','私たちは京都を離れなかった。'],'visited は過去の「訪ねた」。'],
+ [['She ___ her room yesterday.','cleaned',['cleans','clean','cleaning'],'clean の過去形は cleaned。'],['They ___ English last night.','studied',['study','studies','studying'],'study は y を i に変えて -ed。']],
+ ['クラブの活動報告',['Our club visited a farm last Friday.','We washed vegetables in the morning.','After lunch, we helped the farmer in the garden.'],['先週金曜日、クラブで農場を訪ねました。','朝、野菜を洗いました。','昼食後、庭で農家の人を手伝いました。'],[['Where did the club go?','To a farm.',['To a station.','To a museum.','To a bookstore.'],'visited a farm が行き先。',0],['What did the club do after lunch?','Helped the farmer.',['Washed vegetables.','Played a game.','Watched a movie.'],'朝と昼食後の行動を分けよう。',2]]],
+ ['土曜日の出来事',['Last Saturday, Ben cleaned his room before lunch.','His sister practiced the piano.','After lunch, they watched a movie together.'],['先週土曜日、ベンは昼食前に部屋を掃除しました。','姉はピアノを練習しました。','昼食後、二人で映画を見ました。'],[['What did Ben’s sister do?','She practiced the piano.',['She cleaned a room.','She watched a movie.','She played tennis.'],'sister の行動は practiced the piano。',1],['When did they watch a movie?','After lunch.',['Before breakfast.','Before lunch.','After dinner.'],'最後の文の After lunch を聞こう。',2]]]);
+add('past-irregular','a',
+ ['go の過去形は？','went',['goes','going','goed'],'go の過去形は went。-ed は付けない。'],
+ [['We ___ to the museum yesterday.','went',['go','goes','going'],'昨日の移動なので go → went。'],['She ___ a new bag last week.','bought',['buy','buys','buying'],'buy の過去形は bought。']],
+ ['Kenの旅行メール',['Hi Emi, I went to Kyoto with my family last weekend.','We saw an old temple on Saturday.','On Sunday, I bought a book for my sister.'],['エミ、先週末に家族と京都へ行きました。','土曜日に古い寺を見ました。','日曜日に姉のために本を買いました。'],[['What did Ken see on Saturday?','An old temple.',['A new school.','A big stadium.','A small farm.'],'saw と Saturday の文が根拠。',1],['Who was the book for?','Ken’s sister.',['Ken’s mother.','Ken’s teacher.','Ken’s friend.'],'for my sister が相手を示す。',2]]],
+ ['公園での一日',['Yesterday, Leo went to the park with his sister.','Leo took pictures of birds.','His sister bought some juice at a shop.'],['昨日、レオは姉と公園へ行きました。','レオは鳥の写真を撮りました。','姉は店でジュースを買いました。'],[['What did Leo do at the park?','He took pictures.',['He bought juice.','He read a book.','He played tennis.'],'Leo の行動は took pictures。',1],['What did Leo’s sister buy?','Some juice.',['A camera.','A book.','Some bread.'],'姉が買ったものは juice。',2]]]);
+add('past-irregular','b',
+ ['We went home at four. の意味は？','私たちは4時に家に帰った。',['私たちは4時に家を出る。','私たちは4日間家にいる。','私たちは4時に帰る予定だ。'],'went は go の過去形。at four は4時。'],
+ [['I ___ my teacher at the station yesterday.','saw',['see','sees','seeing'],'see の過去形は saw。'],['Ken ___ pictures at the farm last Sunday.','took',['take','takes','taking'],'take の過去形は took。']],
+ ['旅の日記',['On Saturday, Aya went to a small town by train.','She saw her cousin at the station.','They bought sandwiches and ate lunch by the river.'],['土曜日、アヤは電車で小さな町へ行きました。','駅でいとこに会いました。','サンドイッチを買い、川のそばで昼食を食べました。'],[['How did Aya go to the town?','By train.',['By bus.','By bicycle.','By car.'],'最初の文の by train が手段。',0],['Where did they eat lunch?','By the river.',['At the station.','At school.','In a museum.'],'最後の文の by the river が場所。',2]]],
+ ['買い物の帰り',['On Sunday, May went to a bookstore with her father.','May bought a dictionary.','Her father bought a magazine, and they went home at four.'],['日曜日、メイは父と書店へ行きました。','メイは辞書を買いました。','父は雑誌を買い、二人は4時に家に帰りました。'],[['What did May buy?','A dictionary.',['A magazine.','A ticket.','A camera.'],'May と father の買った物を区別。',1],['When did they go home?','At four.',['At two.','At three.','At five.'],'帰った時刻は four。',2]]]);
+add('past-questions','a',
+ ['yesterday の意味は？','昨日',['明日','毎日','来週'],'yesterday は過去の「昨日」。'],
+ [['Did you ___ tennis yesterday?','play',['played','plays','playing'],'Did が過去を示すので、後ろは原形 play。'],['He didn’t ___ to school yesterday.','go',['went','goes','going'],'didn’t の後ろも原形 go。']],
+ ['待ち合わせ後のメール',['Hi Tom, I didn’t go to the library yesterday.','I helped my father at his shop.','I went to the library this morning and borrowed a book.'],['トム、昨日は図書館へ行きませんでした。','父の店で手伝いをしました。','今朝図書館へ行き、本を借りました。'],[['Why didn’t the writer go to the library yesterday?','The writer helped at a shop.',['The library was closed.','The writer was sick.','The writer played tennis.'],'行かなかった理由は次の文のお店の手伝い。',1],['When did the writer go to the library?','This morning.',['Yesterday morning.','Yesterday afternoon.','Last Sunday.'],'didn’t go と went の時を区別しよう。',2]]],
+ ['昨日の会話',['Ken did not play soccer yesterday because it was rainy.','He studied English at home.','His brother went to the library.'],['昨日は雨だったので、ケンはサッカーをしませんでした。','家で英語を勉強しました。','兄は図書館へ行きました。'],[['Why didn’t Ken play soccer?','It was rainy.',['He was sick.','He lost his ball.','He was at a shop.'],'because の後ろが理由。',0],['What did Ken do at home?','He studied English.',['He played soccer.','He read a magazine.','He watched a movie.'],'Ken の行動は studied English。',1]]]);
+add('past-questions','b',
+ ['I didn’t go there yesterday. の意味は？','私は昨日そこへ行かなかった。',['私は昨日そこへ行った。','私は明日そこへ行かない。','私は毎日そこへ行く。'],'didn’t は過去の否定。yesterday と一緒に意味を取ろう。'],
+ [['Did she ___ a book last Sunday?','buy',['bought','buys','buying'],'Did の後ろは原形 buy。'],['We didn’t ___ the movie yesterday.','see',['saw','sees','seeing'],'didn’t の後ろは原形 see。']],
+ ['クラブからの連絡',['We didn’t practice in the park last Saturday because it was rainy.','We practiced in the school gym instead.','Practice finished at four.'],['先週土曜日は雨だったので、公園で練習しませんでした。','代わりに学校の体育館で練習しました。','練習は4時に終わりました。'],[['Where did the club practice?','In the school gym.',['In the park.','At a station.','At a museum.'],'否定された場所と実際の場所を分けよう。',1],['Why didn’t the club practice in the park?','It was rainy.',['The park was closed.','The teacher was sick.','Practice finished early.'],'because it was rainy が理由。',0]]],
+ ['日曜日の予定変更',['Rina did not visit her aunt on Sunday because her aunt was busy.','Rina went to a museum with her friend instead.','They saw many old pictures there.'],['日曜日、おばが忙しかったので、リナはおばを訪ねませんでした。','代わりに友達と博物館へ行きました。','そこで古い絵をたくさん見ました。'],[['Why didn’t Rina visit her aunt?','Her aunt was busy.',['Rina was sick.','It was rainy.','Her aunt was at school.'],'busy だったのはおば。主語を区別しよう。',0],['Who went to the museum with Rina?','Her friend.',['Her aunt.','Her mother.','Her sister.'],'with her friend が相手を示す。',1]]]);
+export {questions,passages};
+export const questionById=id=>questions.find(q=>q.id===id);
+export const passageById=id=>passages.find(p=>p.id===id);

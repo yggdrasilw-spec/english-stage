@@ -19,6 +19,10 @@ for(const name of ['abc-hand.html','hunter.html','word-nova.html','accent.html']
  if(next===original&&!original.includes(tag))throw Error('Game bridge missing: '+name);
  if(process.argv.includes('--check')){if(next!==original)throw Error('Game entry stale: '+name);}else await writeFile(url,next);
 }
+for(const name of ['content.js','core.js']){
+ const digest=createHash('sha256').update((await readFile(new URL('grammar/'+name,root),'utf8')).replace(/\r\n/g,'\n')).digest('hex').slice(0,16);
+ imports['./grammar/'+name]='./grammar/'+name+'?v='+digest;
+}
 const css=createHash('sha256').update((await readFile(new URL('styles.css',root),'utf8')).replace(/\r\n/g,'\n')).digest('hex').slice(0,16);
 const url=new URL('index.html',root);let html=(await readFile(url,'utf8')).replace(/\r\n/g,'\n');
 html=html.replace(/<script type="importmap">[\s\S]*?<\/script>/g,'').replace(/<script data-bootstrap>[\s\S]*?<\/script>/g,'<script type="module"></script>');
