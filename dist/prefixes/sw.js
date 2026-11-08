@@ -1,5 +1,5 @@
-const CACHE='english-prefix-lab-38b672fb6063ec70'+'@'+self.registration.scope;
-const ASSETS=['./','./index.html','./style.css','./app.js','./core.mjs','./audio.mjs',...['prefixes','words','mvp','stages','pitfalls','editorial'].map(n=>`./data/${n}.json`),'./docs/REVIEW.md'];
-self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));});
+const CACHE='english-prefix-lab-78a7e093770dd139'+'@'+self.registration.scope;
+const ASSETS=['./','./index.html','./style.css','./app.js','./core.mjs','./audio.mjs','./story.css','./story-art.mjs','./story-view.mjs','./story-player.mjs','./assets/guide.png','./assets/happy-pair.png','./assets/lock-pair.png','./assets/reread-pair.png','./assets/overfill-pair.png',...['prefixes','words','mvp','stages','pitfalls','editorial','stories','image-assets'].map(n=>`./data/${n}.json`),'./docs/REVIEW.md'];
+self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('english-prefix-lab-')&&k.endsWith('@'+self.registration.scope)&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',e=>{const url=new URL(e.request.url);if(e.request.method!=='GET'||url.origin!==self.location.origin||!url.pathname.startsWith(new URL('./',self.location).pathname))return;e.respondWith(caches.open(CACHE).then(async c=>(await c.match(e.request,{ignoreSearch:true}))||fetch(e.request)));});

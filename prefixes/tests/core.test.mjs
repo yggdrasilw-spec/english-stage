@@ -27,7 +27,7 @@ test('reject non-MVP, ineligible, held words and restricted biplane modes',()=>{
 });
 test('unlocks are derived from all required lessons and application results',()=>{
  const rows=ps.filter(p=>p.stage===1).map((p,i)=>attempt('w'+i,i,true,{prefix:p.id}));
- assert(unlocked(1,[],ps));assert(!unlocked(2,rows.slice(1),ps));assert(unlocked(2,rows,ps));assert(!unlocked(3,rows,ps));
+ assert(unlocked(1,[],ps));assert(unlocked(2,[],ps));assert(unlocked(2,rows,ps));assert(!unlocked(3,rows,ps));
  const all=ps.map((p,i)=>attempt('w'+i,i,true,{prefix:p.id}));assert(unlocked(3,all,ps));assert(!unlocked(4,all,ps));assert(unlocked(4,[...all,...Array.from({length:4},(_,i)=>attempt('a'+i,i,true,{stage:3}))],ps));
 });
 test('spaced review 1/3/7 days; early repetitions cannot postpone; errors reset',()=>{
@@ -37,7 +37,7 @@ test('spaced review 1/3/7 days; early repetitions cannot postpone; errors reset'
  rows.push(attempt('w',t+5*DAY,false));assert.equal(itemStatus(rows,'w').streak,0);assert.equal(itemStatus(rows,'w').due,t+5*DAY+600000);rows.push(attempt('w',t+5*DAY+1));assert.equal(itemStatus(rows,'w').due,t+5*DAY+600000);
 });
 test('safe storage validation and merge preserve independent tab attempts',()=>{
- assert.deepEqual(normalize(null),fresh());assert.deepEqual(normalize({schemaVersion:99}),fresh());assert.deepEqual(normalize({schemaVersion:1,attempts:[null,{},attempt('w',1)],sound:false}),{schemaVersion:1,attempts:[attempt('w',1)],sound:false});
+ assert.deepEqual(normalize(null),fresh());assert.deepEqual(normalize({schemaVersion:99}),fresh());assert.deepEqual(normalize({schemaVersion:1,attempts:[null,{},attempt('w',1)],sound:false}),{schemaVersion:1,attempts:[attempt('w',1)],sound:false,motion:true,seen:[]});
  const a=attempt('a',1),b=attempt('b',2);assert.deepEqual(merge([a],[b,a]),[a,b]);
 });
 test('advanced traps map to supplied pitfall IDs and have both true and false answers',()=>{

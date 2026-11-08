@@ -32,7 +32,7 @@ const features=[
  ['hunter','./hunter.html','PAIR & COMBO','たんごハンター','絵と英語のペアでコンボ！','見つけて、つなげよう'],
  ['karuta','#karuta','LISTEN & TOUCH','音声かるた','英語を聞いて、絵の札を取ろう','カテゴリ・枚数を選べる'],
  ['phonics','https://yggdrasilw-spec.github.io/sonohoka/phonics-lab/english.html#advanced','LETTERS & SOUNDS','英語 おとラボ','つづりと音を、聞いてくらべよう','基本の音から・9つの探検'],
- ['prefixes','./prefixes/','BUILD THE MEANING','ことばのパーツ研究所','un ＋ happy → unhappy','接頭辞14項目・4ステップ'],
+ ['prefixes','./prefixes/','BUILD THE MEANING','ことばのパーツ研究所','un ＋ happy → unhappy','動く絵本・14の意味のレンズ'],
  ['grammar','./grammar/','DISCOVER THE RULES','ぶんぽうラボ','図と例文で「なぜ？」がわかる','理解度チェック・AI対話'],
  ['exams','#exams','READY FOR EIKEN','英検5級 実戦テスト','読む25問 ＋ 聞く25問','全3回・すべて選択式'],
 ];

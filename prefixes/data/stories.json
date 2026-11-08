@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "status_ja": "児童向けに作成した意味の手がかり。語源の万能な図解や全語に当てはまる規則ではない。",
+  "stories": [
+    {
+      "prefix_id": "un_not",
+      "form": "un-",
+      "image": "deny",
+      "title_ja": "その性質に「ではない」を重ねる",
+      "cue_ja": "〜ではない",
+      "narration_ja": "「そうだよ」の札に、「そうではない」の札が重なるよ。幸せな、が幸せではない、に変わる。同じつづりの、動作をもどすお話とは分けて見よう。",
+      "examples": [
+        {
+          "word": "unhappy",
+          "scene": "face"
+        },
+        {
+          "word": "unfair",
+          "scene": "sharing"
+        }
+      ],
+      "transfer": {
+        "word": "unsafe",
+        "scene": "bridge"
+      },
+      "scope_ja": "いつも正反対の意味になるとは限りません。「〜ではない」と考え、実際の単語の意味で確かめます。"
+    },
+    {
+      "prefix_id": "un_reverse",
+      "form": "un-",
+      "image": "reverse",
+      "title_ja": "したことを、もとへもどす",
+      "cue_ja": "もどす・ほどく",
+      "narration_ja": "結んだものをほどく。閉めた鍵を開ける。した動作を、もとへもどす向きに進むよ。「ではない」のお話とは、別の使い方だよ。",
+      "examples": [
+        {
+          "word": "unlock",
+          "scene": "lock"
+        },
+        {
+          "word": "untie",
+          "scene": "knot"
+        }
+      ],
+      "transfer": {
+        "word": "unwrap",
+        "scene": "gift"
+      },
+      "scope_ja": "同じun-でも「〜ではない」と「動作をもどす」は別の用法です。どんな動詞にも自由に付けられるわけではありません。"
+    },
+    {
+      "prefix_id": "re_again",
+      "form": "re-",
+      "image": "again",
+      "title_ja": "スタートに帰って、もう一度",
+      "cue_ja": "もう一度",
+      "narration_ja": "一度したことを、スタートに帰ってもう一度。読み終わった本をまた読む。ぬった場所をもう一度ぬる。同じ動作の二回目を見つけよう。",
+      "examples": [
+        {
+          "word": "reread",
+          "scene": "book"
+        },
+        {
+          "word": "repaint",
+          "scene": "paint"
+        }
+      ],
+      "transfer": {
+        "word": "replay",
+        "scene": "video"
+      },
+      "scope_ja": "re-で始まる語が、全部「もう一度」になるわけではありません。receiveやredはこのイメージで分解しません。"
+    },
+    {
+      "prefix_id": "dis_negative",
+      "form": "dis-",
+      "image": "apart",
+      "title_ja": "合わない・つながりから、はなれる",
+      "cue_ja": "合わない・はなれる",
+      "narration_ja": "つながっていた二つが、はなれる。意見が同じ向きに合わない。「はなれる」を手がかりに、単語全体の意味も見よう。",
+      "examples": [
+        {
+          "word": "disconnect",
+          "scene": "plug"
+        },
+        {
+          "word": "disagree",
+          "scene": "agreement"
+        }
+      ],
+      "transfer": {
+        "word": "dislike",
+        "scene": "liking"
+      },
+      "scope_ja": "dis-には分離・否定・反対などの用法があります。「好きではない」は物が離れることではありません。イメージは手がかりです。"
+    },
+    {
+      "prefix_id": "pre_before",
+      "form": "pre-",
+      "image": "before",
+      "title_ja": "本番より、ひと足さきに",
+      "cue_ja": "前もって",
+      "narration_ja": "本番の目印よりも前に、用意をしておくよ。料理を入れる前に温める。映画などを前もって見る。「いつするか」が変わるパーツだよ。",
+      "examples": [
+        {
+          "word": "preheat",
+          "scene": "oven"
+        },
+        {
+          "word": "preview",
+          "scene": "preview"
+        }
+      ],
+      "transfer": {
+        "word": "prepay",
+        "scene": "payment"
+      },
+      "scope_ja": "pre-は「前もって」の用法を扱います。何より前なのかは、単語や場面で確かめます。"
+    },
+    {
+      "prefix_id": "mis_wrong",
+      "form": "mis-",
+      "image": "wrong",
+      "title_ja": "ねらったところから、ずれる",
+      "cue_ja": "間違って",
+      "narration_ja": "目指したところから、答えややり方がずれてしまうよ。数えた答えが違う。置いた場所を間違える。単なる反対ではなく、間違いのイメージだよ。",
+      "examples": [
+        {
+          "word": "miscount",
+          "scene": "count"
+        },
+        {
+          "word": "misplace",
+          "scene": "key"
+        }
+      ],
+      "transfer": {
+        "word": "mishear",
+        "scene": "hearing"
+      },
+      "scope_ja": "ずれは空間だけの話ではありません。意味・聞き取り・やり方などの間違いも表します。"
+    },
+    {
+      "prefix_id": "over_too_much",
+      "form": "over-",
+      "image": "over",
+      "title_ja": "ちょうどよいところを、こえる",
+      "cue_ja": "〜しすぎる",
+      "narration_ja": "ちょうどよい目印をこえて、その先まで進むよ。入れすぎる。加熱しすぎる。眠りすぎて起きる予定の時刻をこえる。違う単語にも同じ動きを重ねてみよう。",
+      "examples": [
+        {
+          "word": "overfill",
+          "scene": "cup"
+        },
+        {
+          "word": "overcook",
+          "scene": "pan"
+        },
+        {
+          "word": "oversleep",
+          "scene": "bed"
+        }
+      ],
+      "transfer": {
+        "word": "overeat",
+        "scene": "eating"
+      },
+      "scope_ja": "ここでは過剰のover-を扱います。「上をこえる」などの別用法もあります。oversleepは単に長く眠るだけでなく「寝過ごす」です。"
+    },
+    {
+      "prefix_id": "under_too_little",
+      "form": "under-",
+      "image": "under",
+      "title_ja": "必要なところに、まだ届かない",
+      "cue_ja": "〜が足りない",
+      "narration_ja": "必要な目印まで、まだ届かないよ。料理の加熱が足りない。働いた分のお金を十分に払わない。何がどれだけ足りないかを、場面で見よう。",
+      "examples": [
+        {
+          "word": "undercook",
+          "scene": "bread"
+        },
+        {
+          "word": "underpay",
+          "scene": "wage"
+        }
+      ],
+      "transfer": {
+        "word": "undercharge",
+        "scene": "price"
+      },
+      "scope_ja": "ここでは不足のunder-を扱います。underpayは賃金、underchargeは請求する料金が本来より少ないこと。単に位置が下という話とは区別します。"
+    },
+    {
+      "prefix_id": "non_not",
+      "form": "non-",
+      "image": "outside",
+      "title_ja": "その仲間には、入らない",
+      "cue_ja": "〜ではない・非〜",
+      "narration_ja": "ある仲間の、外側に置くイメージだよ。生き物ではない。止まらずに動く。良い、悪いを決める札ではなく、何に当てはまらないかを示すよ。",
+      "examples": [
+        {
+          "word": "nonliving",
+          "scene": "robot"
+        },
+        {
+          "word": "nonstop",
+          "scene": "bus"
+        }
+      ],
+      "transfer": {
+        "word": "nonfiction",
+        "scene": "nonfiction"
+      },
+      "scope_ja": "non-は「悪い」という意味ではありません。nonfictionは事実をもとにした文章などを指し、個々の内容の正確さを保証する語ではありません。"
+    },
+    {
+      "prefix_id": "bi_two",
+      "form": "bi-",
+      "image": "two",
+      "title_ja": "何かが、二つある",
+      "cue_ja": "2つ",
+      "narration_ja": "二つで一組。何が二つなのかは、単語の絵で確かめよう。複葉機では飛行機の数ではなく、主翼が上下に二組あるよ。",
+      "examples": [
+        {
+          "word": "biplane",
+          "scene": "biplane"
+        }
+      ],
+      "transfer": null,
+      "scope_ja": "biplaneは飛行機が2機という意味ではありません。bicycleやbilingualは語基の説明を要するため、従来どおり出題保留です。"
+    },
+    {
+      "prefix_id": "tri_three",
+      "form": "tri-",
+      "image": "three",
+      "title_ja": "何かが、三つある",
+      "cue_ja": "3つ",
+      "narration_ja": "三つの印が集まるよ。三角形には角が三つ。三色なら色が三つ。何を三つ数えるのか、単語全体の中で探そう。",
+      "examples": [
+        {
+          "word": "triangle",
+          "scene": "triangle"
+        }
+      ],
+      "transfer": {
+        "word": "tricolor",
+        "scene": "colors3"
+      },
+      "scope_ja": "三つなのは何かを確認します。tripodのpodは「さや」ではなく脚の語源に関係するため、出題には使いません。"
+    },
+    {
+      "prefix_id": "multi_many",
+      "form": "multi-",
+      "image": "many",
+      "title_ja": "一つから、いくつもへ",
+      "cue_ja": "たくさん・複数",
+      "narration_ja": "一つだけではなく、いくつもあるよ。遊ぶ人が複数。色がいくつも。「必ず何個」と数を決めるパーツではないよ。",
+      "examples": [
+        {
+          "word": "multiplayer",
+          "scene": "players"
+        },
+        {
+          "word": "multicolor",
+          "scene": "colors"
+        }
+      ],
+      "transfer": {
+        "word": "multitask",
+        "scene": "tasks"
+      },
+      "scope_ja": "multi-だけでは具体的な数は決まりません。multitaskの絵は複数の作業を表す説明で、同時作業を勧めるものではありません。"
+    },
+    {
+      "prefix_id": "sub_under",
+      "form": "sub-",
+      "image": "below",
+      "title_ja": "基準よりも、一段下へ",
+      "cue_ja": "下に・下位に",
+      "narration_ja": "基準の線から、下の段へ進むよ。温度ならゼロより下。土なら表面の土より下。何の基準で下なのかを、絵で見つけよう。",
+      "examples": [
+        {
+          "word": "subzero",
+          "scene": "zero"
+        }
+      ],
+      "transfer": {
+        "word": "subsoil",
+        "scene": "soil"
+      },
+      "scope_ja": "位置・階層などの下を表す手がかりです。subsoilは表面の土の下にある土。小見出しなどの階層用法は別の説明が必要です。"
+    },
+    {
+      "prefix_id": "super_above",
+      "form": "super-",
+      "image": "beyond",
+      "title_ja": "ふつうの水準を、ぐっとこえる",
+      "cue_ja": "ふつうより上",
+      "narration_ja": "ふつうの水準を、ぐっとこえて上へ。物語のヒーローの力や、人間のふつうをこえた力。単語ごとに、何がすごいのかを確かめよう。",
+      "examples": [
+        {
+          "word": "superhero",
+          "scene": "hero"
+        },
+        {
+          "word": "superhuman",
+          "scene": "strong"
+        }
+      ],
+      "transfer": {
+        "word": "superstar",
+        "scene": "celebrity"
+      },
+      "scope_ja": "このイメージだけで意味を決めません。superstarは大人気のスター。supermarketを単に「すごい市場」とは訳しません。"
+    }
+  ]
+}

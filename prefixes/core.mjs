@@ -1,9 +1,9 @@
 export const KEY='english-prefix-lab-v1';
 export const DAY=86400000;
-export function fresh(){return {schemaVersion:1,sound:true,attempts:[]};}
+export function fresh(){return {schemaVersion:1,sound:true,motion:true,seen:[],attempts:[]};}
 export function normalize(raw){
  if(!raw||raw.schemaVersion!==1)return fresh();
- return {schemaVersion:1,sound:raw.sound!==false,attempts:Array.isArray(raw.attempts)?raw.attempts.filter(a=>a&&typeof a.id==='string'&&typeof a.item==='string'&&typeof a.correct==='boolean'&&Number.isFinite(a.at)&&typeof a.mode==='string'&&Number.isInteger(a.stage)&&a.stage>=1&&a.stage<=4&&typeof a.prefix==='string'):[]};
+ return {schemaVersion:1,sound:raw.sound!==false,motion:raw.motion!==false,seen:[...new Set(Array.isArray(raw.seen)?raw.seen.filter(x=>typeof x==='string'&&/^[a-z_]+$/.test(x)):[])],attempts:Array.isArray(raw.attempts)?raw.attempts.filter(a=>a&&typeof a.id==='string'&&typeof a.item==='string'&&typeof a.correct==='boolean'&&Number.isFinite(a.at)&&typeof a.mode==='string'&&Number.isInteger(a.stage)&&a.stage>=1&&a.stage<=4&&typeof a.prefix==='string'):[]};
 }
 export function merge(a,b){return [...new Map([...a,...b].map(x=>[x.id,x])).values()].sort((a,b)=>a.at-b.at||a.id.localeCompare(b.id));}
 export function itemStatus(attempts,item,now=Date.now()){
@@ -12,7 +12,7 @@ export function itemStatus(attempts,item,now=Date.now()){
  let due=0;for(const a of rows){if(!a.correct){streak=0;due=a.at+10*60000;}else if(a.at>=due){streak++;due=a.at+[1,3,7][Math.min(streak-1,2)]*DAY;}}
  return {attempts:rows.length,wrong:rows.filter(a=>!a.correct).length,streak,due,isDue:rows.length>0&&due<=now,last:rows.at(-1)};
 }
-export function unlocked(stage,attempts,ids){if(stage===1)return true;if(stage===2)return ids.filter(p=>p.stage===1).every(p=>attempts.some(a=>a.prefix===p.id&&a.correct));if(stage===3)return ids.every(p=>attempts.some(a=>a.prefix===p.id&&a.correct));return attempts.filter(a=>a.stage===3&&a.correct).length>=4;}
+export function unlocked(stage,attempts,ids){if(stage===1||stage===2)return true;if(stage===3)return ids.every(p=>attempts.some(a=>a.prefix===p.id&&a.correct));return attempts.filter(a=>a.stage===3&&a.correct).length>=4;}
 export function shuffle(xs,rng=Math.random){const a=[...xs];for(let i=a.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 export function activeWords(data){return data.words.filter(w=>data.mvp.prefix_ids.includes(w.prefix_id));}
 export function eligibleWords(data){return activeWords(data).filter(w=>w.quiz_eligible&&data.editorial.words[w.word]?.use==='quiz');}

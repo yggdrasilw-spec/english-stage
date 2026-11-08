@@ -1,0 +1,60 @@
+{
+  "created": "2026-11-09",
+  "assets": [
+    {
+      "id": "prefix-mascot",
+      "file": "guide.png",
+      "prompt": "Use case: illustration-story. Asset: one transparent-background full-body mascot sprite for a Japanese elementary-school English prefix learning app. A small friendly mint-green rounded seed-shaped creature, two short feet, two tiny arms, dark forest-green dot eyes, a quiet curious smile. Side-facing three-quarter view looking right, feet at bottom, pointing gently toward the right. Warm hand-painted picture-book gouache texture, clean confident soft outlines, restrained muted mint, cream and pink. One single character only, centered with complete silhouette and a small amount of transparent margin. No ground, no shadows beyond the character, no other objects, no words, letters, symbols, logos or watermark. This sprite will travel along drawn paths, cross a benchmark, go back and repeat, so its form must remain extremely simple and legible at 60 pixels tall.",
+      "review": "visual_review_pass",
+      "tool": "built-in image_gen",
+      "layout": "transparent-cutout",
+      "width": 1312,
+      "height": 1199,
+      "alpha": true
+    },
+    {
+      "id": "prefix-happy",
+      "file": "happy-pair.png",
+      "prompt": "Use case: illustration-story / scientific-educational. One production illustration asset for a Japanese elementary-school English prefix picture-book app. PORTRAIT canvas, exactly TWO EQUAL horizontal panels stacked vertically, separated at the exact halfway point by a thin straight warm-cream line. Each panel is one complete centered landscape vignette. Warm hand-painted gouache picture-book style, gentle forest-green outlines, mint, warm cream, muted rose and golden accents; plain warm cream background in both panels. Same scale, characters, objects and camera in both panels. No text, no letters, no numbers, no logos or watermark. This is one paired before-and-after asset: both panels must stand alone when shown separately. TOP PANEL: a small child with short dark hair, mint shirt and golden overalls, shown from waist up, looking content and happy with a clear gentle smile, relaxed eyebrows. BOTTOM PANEL: exactly the same child and framing, looking unhappy or disappointed with a downturned mouth and slightly worried eyebrows, arms relaxed, no crying, no frightening imagery. The only meaningful change is the emotional state. Do not turn the child into a different person or add a cause for the emotion.",
+      "review": "visual_review_pass",
+      "tool": "built-in image_gen",
+      "layout": "two-stacked-panels",
+      "width": 1199,
+      "height": 1312,
+      "alpha": false
+    },
+    {
+      "id": "prefix-lock",
+      "file": "lock-pair.png",
+      "prompt": "Use case: illustration-story / scientific-educational. One production illustration asset for a Japanese elementary-school English prefix picture-book app. PORTRAIT canvas, exactly TWO EQUAL horizontal panels stacked vertically, separated at the exact halfway point by a thin straight warm-cream line. Each panel is one complete centered landscape vignette. Warm hand-painted gouache picture-book style, gentle forest-green outlines, mint, warm cream, muted rose and golden accents; plain warm cream background in both panels. Same scale, characters, objects and camera in both panels. No text, no letters, no numbers, no logos or watermark. This is one paired before-and-after asset: both panels must stand alone when shown separately. TOP PANEL: one large simple golden padlock with a mint inset face and a U-shaped green shackle firmly closed, no key, fully visible. BOTTOM PANEL: the identical padlock in the identical position but now unlocked: the right end of the U-shaped shackle is clearly lifted free of the body and slightly rotated outward. Nothing is broken. Show the same object, not two different locks. Simple enough that the open gap is clear to a child.",
+      "review": "visual_review_pass",
+      "tool": "built-in image_gen",
+      "layout": "two-stacked-panels",
+      "width": 1199,
+      "height": 1312,
+      "alpha": false
+    },
+    {
+      "id": "prefix-reread",
+      "file": "reread-pair.png",
+      "prompt": "Use case: illustration-story / scientific-educational. One production illustration asset for a Japanese elementary-school English prefix picture-book app. PORTRAIT canvas, exactly TWO EQUAL horizontal panels stacked vertically, separated at the exact halfway point by a thin straight warm-cream line. Each panel is one complete centered landscape vignette. Warm hand-painted gouache picture-book style, gentle forest-green outlines, mint, warm cream, muted rose and golden accents; plain warm cream background in both panels. Same scale, characters, objects and camera in both panels. No text, no letters, no numbers, no logos or watermark. This is one paired before-and-after asset: both panels must stand alone when shown separately. TOP PANEL: a small child with short dark hair and mint shirt sitting on a floor cushion, holding and looking at one open picture book with a simple sunflower illustration visible. BOTTOM PANEL: the exact same child, pose and same sunflower book, looking at the same opening again; add one simple curved returning arrow above the book to suggest returning to the start and reading again. No other books, no new activity, no written text in the book, no letters on the arrow. Keep faces and hands anatomically clean.",
+      "review": "visual_review_pass",
+      "tool": "built-in image_gen",
+      "layout": "two-stacked-panels",
+      "width": 1199,
+      "height": 1312,
+      "alpha": false
+    },
+    {
+      "id": "prefix-overfill",
+      "file": "overfill-pair.png",
+      "prompt": "Use case: illustration-story / scientific-educational. One production illustration asset for a Japanese elementary-school English prefix picture-book app. PORTRAIT canvas, exactly TWO EQUAL horizontal panels stacked vertically, separated at the exact halfway point by a thin straight warm-cream line. Each panel is one complete centered landscape vignette. Warm hand-painted gouache picture-book style, gentle forest-green outlines, mint, warm cream, muted rose and golden accents; plain warm cream background in both panels. Same scale, characters, objects and camera in both panels. No text, no letters, no numbers, no logos or watermark. This is one paired before-and-after asset: both panels must stand alone when shown separately. TOP PANEL: one clear drinking glass on a simple table, filled with pale blue water to a small rose-colored safe fill marker near the upper part of the glass; no spilling. BOTTOM PANEL: the exact same glass and table, water has gone above the safe marker and the glass rim; a clear stream spills down the outside into a small puddle on the table, with two small droplets. Water level actually reaches the rim, do not show water spilling from a half-empty glass. Focus on fill versus overfill; no hands or text.",
+      "review": "visual_review_pass",
+      "tool": "built-in image_gen",
+      "layout": "two-stacked-panels",
+      "width": 1199,
+      "height": 1312,
+      "alpha": false
+    }
+  ]
+}
