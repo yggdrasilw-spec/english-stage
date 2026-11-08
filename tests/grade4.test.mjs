@@ -10,10 +10,10 @@ import {validForest} from '../dist/src/forest.js';
 const now=Date.parse('2026-11-09T03:00:00Z'),cards=JSON.parse(fs.readFileSync(new URL('../dist/data/grade5.json',import.meta.url))),ids=new Set(cards.map(c=>c.id));
 function complete(s,time=now){let n=0;while(currentQuestion(s)){const q=currentQuestion(s),r=s.grade4.session;if(q.skill==='listening'){r.plays[q.id]=1;r.heard[q.id]=true;}assert(submitGrade4(s,{choice:q.answer,evidence:q.skill==='reading'?q.evidence:null},time+n++));assert(nextGrade4(s));}return s;}
 test('bridge content: unique keys, independent variants, evidence, shared vocabulary, audio hashes',()=>{
- assert.equal(units.length,7);assert.equal(questions.length,98);assert.equal(new Set(questions.map(q=>q.id)).size,98);
+ assert.equal(units.length,10);assert.equal(questions.length,140);assert.equal(new Set(questions.map(q=>q.id)).size,140);
  for(const u of units){assert(ids.has(u.wordId));for(const v of ['a','b'])assert.equal(questions.filter(q=>q.unit===u.id&&q.variant===v).length,7);}
  for(const q of questions){assert.equal(new Set(q.choices).size,q.choices.length);assert(q.explanation);if(q.passageId){const p=passages.find(p=>p.id===q.passageId);assert(p);assert(p.sentences[q.evidence]);assert.equal(p.sentences.length,p.translation.length);}}
- const m=JSON.parse(fs.readFileSync(new URL('../dist/data/grade4-audio.json',import.meta.url)));assert.equal(m.files.length,28);
+ const m=JSON.parse(fs.readFileSync(new URL('../dist/data/grade4-audio.json',import.meta.url)));assert.equal(m.files.length,40);
  for(const f of m.files){const p=passages.find(p=>p.id===f.passageId);assert.equal(f.text,p.sentences.join(' '));const body={input:{text:f.text},voice:{languageCode:'en-US',name:m.voice},audioConfig:{audioEncoding:'MP3',speakingRate:f.speed==='normal'?.95:.75}};assert.equal(crypto.createHash('sha256').update(JSON.stringify(body)).digest('hex').slice(0,16),f.hash);assert(fs.statSync(new URL('../dist/'+f.path,import.meta.url)).size>100);}
 });
 test('resume preserves question/answer order; double submission and next do not grant water twice',()=>{
@@ -71,12 +71,12 @@ test('future A/B practice supports delayed confirmation, backups and the separat
  assert.equal(restored.grammarBridge.attempts[0].qid,'future-1');
 });
 
-test('infinitive and gerund preserve old runs and need independent evidence on different days',()=>{
+test('all new grammar units preserve old runs and need independent evidence on different days',()=>{
  const s=initial();createGrade4Session(s,'future','learn',now,()=>.3);
  const before=structuredClone(s.grade4.session);
  assert.deepEqual(createGrade4Session(s,'infinitive','learn',now),before);
  complete(s);
- for(const unit of ['infinitive','gerund']){
+ for(const unit of ['infinitive','gerund','comparison','connectors','modals']){
   createGrade4Session(s,unit,'learn',now);complete(s);
   assert.equal(unitStatus(s,unit,now).key,'review');
   const copy=validateBackup({app:'english-stage',version:1,state:structuredClone(s)},ids);

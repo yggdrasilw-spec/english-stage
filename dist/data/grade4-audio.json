@@ -199,6 +199,90 @@
       "text": "Rina enjoys taking pictures of birds. Last Sunday, she went to the park after finishing her homework. She took pictures there with her mother.",
       "hash": "feea1190f6f20897",
       "path": "assets/audio/g4-gerund-b-listening-slow-feea1190f6f20897.mp3"
+    },
+    {
+      "passageId": "g4-comparison-a-listening",
+      "speed": "normal",
+      "text": "Ken is taller than Tom. Ben is the tallest of the three boys. Tom can run faster than Ken.",
+      "hash": "f8d4eb48173e95e2",
+      "path": "assets/audio/g4-comparison-a-listening-normal-f8d4eb48173e95e2.mp3"
+    },
+    {
+      "passageId": "g4-comparison-a-listening",
+      "speed": "slow",
+      "text": "Ken is taller than Tom. Ben is the tallest of the three boys. Tom can run faster than Ken.",
+      "hash": "c957a8cee10ce9d9",
+      "path": "assets/audio/g4-comparison-a-listening-slow-c957a8cee10ce9d9.mp3"
+    },
+    {
+      "passageId": "g4-comparison-b-listening",
+      "speed": "normal",
+      "text": "Mika’s science book is more expensive than her storybook. Her picture book is the cheapest of the three. Mika likes the storybook best because it is about her favorite animal.",
+      "hash": "9222135206f5f59f",
+      "path": "assets/audio/g4-comparison-b-listening-normal-9222135206f5f59f.mp3"
+    },
+    {
+      "passageId": "g4-comparison-b-listening",
+      "speed": "slow",
+      "text": "Mika’s science book is more expensive than her storybook. Her picture book is the cheapest of the three. Mika likes the storybook best because it is about her favorite animal.",
+      "hash": "a4df349fb4f3bd20",
+      "path": "assets/audio/g4-comparison-b-listening-slow-a4df349fb4f3bd20.mp3"
+    },
+    {
+      "passageId": "g4-connectors-a-listening",
+      "speed": "normal",
+      "text": "When Tom came home, his father was making dinner. Tom helped him because his mother was busy. After they finished cooking, the family ate together.",
+      "hash": "9ba6a9abd84936a8",
+      "path": "assets/audio/g4-connectors-a-listening-normal-9ba6a9abd84936a8.mp3"
+    },
+    {
+      "passageId": "g4-connectors-a-listening",
+      "speed": "slow",
+      "text": "When Tom came home, his father was making dinner. Tom helped him because his mother was busy. After they finished cooking, the family ate together.",
+      "hash": "0f114e9473316488",
+      "path": "assets/audio/g4-connectors-a-listening-slow-0f114e9473316488.mp3"
+    },
+    {
+      "passageId": "g4-connectors-b-listening",
+      "speed": "normal",
+      "text": "If it is sunny on Sunday, Aya will go to the beach with her cousin. If it is rainy, they will go to the aquarium. They will call Aya’s mother when they arrive.",
+      "hash": "176aa83722d2cc24",
+      "path": "assets/audio/g4-connectors-b-listening-normal-176aa83722d2cc24.mp3"
+    },
+    {
+      "passageId": "g4-connectors-b-listening",
+      "speed": "slow",
+      "text": "If it is sunny on Sunday, Aya will go to the beach with her cousin. If it is rainy, they will go to the aquarium. They will call Aya’s mother when they arrive.",
+      "hash": "476ce8338fcf37fc",
+      "path": "assets/audio/g4-connectors-b-listening-slow-476ce8338fcf37fc.mp3"
+    },
+    {
+      "passageId": "g4-modals-a-listening",
+      "speed": "normal",
+      "text": "At our library, you must not eat or drink near the books. You have to return books to the front desk. You do not have to bring your own bag because we have bags for you.",
+      "hash": "3b605fe222d8df24",
+      "path": "assets/audio/g4-modals-a-listening-normal-3b605fe222d8df24.mp3"
+    },
+    {
+      "passageId": "g4-modals-a-listening",
+      "speed": "slow",
+      "text": "At our library, you must not eat or drink near the books. You have to return books to the front desk. You do not have to bring your own bag because we have bags for you.",
+      "hash": "f768f08fb1e6c317",
+      "path": "assets/audio/g4-modals-a-listening-slow-f768f08fb1e6c317.mp3"
+    },
+    {
+      "passageId": "g4-modals-b-listening",
+      "speed": "normal",
+      "text": "For tomorrow’s picnic, you should bring a hat because it will be sunny. You do not have to bring lunch because we will make sandwiches together. You must bring a drink because there is no shop near the park.",
+      "hash": "a4fccc71e9ec2100",
+      "path": "assets/audio/g4-modals-b-listening-normal-a4fccc71e9ec2100.mp3"
+    },
+    {
+      "passageId": "g4-modals-b-listening",
+      "speed": "slow",
+      "text": "For tomorrow’s picnic, you should bring a hat because it will be sunny. You do not have to bring lunch because we will make sandwiches together. You must bring a drink because there is no shop near the park.",
+      "hash": "0e281a83a7d772d1",
+      "path": "assets/audio/g4-modals-b-listening-slow-0e281a83a7d772d1.mp3"
     }
   ]
 }

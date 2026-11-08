@@ -1,7 +1,8 @@
 // Original Grade 4 bridge material. IDs are additive so existing saves remain valid.
+import {finalUnits,addFinal} from './grade4-expansion-final.js';
 export const expansionUnits=[
  {id:'infinitive',title:'「したい」と「するために」',lesson:'infinitive',wordId:'g5-w-want',prerequisite:'word-order',rule:'want to ＋ 動詞の原形は「〜したい」。動作の後ろの to ＋ 原形は「〜するために」という目的も表す。名詞の後ろなら「〜するための」と名詞を説明することもある。文の中の役割を見よう。',before:'I want a book.',after:'I want to read a book.',parts:['I','want','to read','a book'],roles:['だれが','望んでいる','読むことを','何を']},
- {id:'gerund',title:'「すること」を ing で表そう',lesson:'gerund',wordId:'g5-w-enjoy',prerequisite:'progressive',rule:'動詞の ing 形は「〜すること」という名詞の働きもする。enjoy / finish の後ろや、前置詞の後ろでは動名詞を使う。like は reading と to read のどちらも使えるので、片方をいつも誤りと考えない。',before:'She is reading a book.',after:'She enjoys reading books.',parts:['She','enjoys','reading','books'],roles:['だれが','楽しむ','読むことを','何を']}
+ {id:'gerund',title:'「すること」を ing で表そう',lesson:'gerund',wordId:'g5-w-enjoy',prerequisite:'progressive',rule:'動詞の ing 形は「〜すること」という名詞の働きもする。enjoy / finish の後ろや、前置詞の後ろでは動名詞を使う。like は reading と to read のどちらも使えるので、片方をいつも誤りと考えない。',before:'She is reading a book.',after:'She enjoys reading books.',parts:['She','enjoys','reading','books'],roles:['だれが','楽しむ','読むことを','何を']} ,...finalUnits
 ];
 
 export function addExpansion(add){
@@ -25,4 +26,5 @@ add('gerund','b',
  [['Thank you for ___ me.','helping',['help','to help','helps'],'前置詞 for の後ろで動作を表すなら helping。「手伝ってくれてありがとう」。'],['「本を読むことは楽しい」の文にしよう：___ books is fun.','Reading',['Read','Reads','Readed'],'Reading books 全体が「本を読むこと」という主語。To read books も主語になれるが、ここでは選択肢にない。']],
  ['料理クラブの活動報告',['Our club enjoys cooking together on Fridays.','Yesterday, we finished making soup before twelve.','After eating lunch, we washed the dishes.'],['クラブでは金曜日に一緒に料理をすることを楽しんでいます。','昨日は12時前にスープを作り終えました。','昼食を食べた後、食器を洗いました。'],[['What did the club finish making before twelve?','Soup.',['A cake.','Sandwiches.','A picture book.'],'finished making soup が作り終えた物を示す。',1],['What did the club do after eating lunch?','Washed the dishes.',['Bought some soup.','Read books.','Played tennis.'],'After eating lunch の後ろの行動は washed the dishes。',2]]],
  ['日曜日の趣味',['Rina enjoys taking pictures of birds.','Last Sunday, she went to the park after finishing her homework.','She took pictures there with her mother.'],['リナは鳥の写真を撮ることを楽しんでいます。','先週日曜日、宿題を終えた後に公園へ行きました。','そこで母と写真を撮りました。'],[['What does Rina enjoy doing?','Taking pictures of birds.',['Drawing flowers.','Reading stories.','Playing soccer.'],'リナの趣味は最初の文の taking pictures of birds。',0],['What did Rina do before going to the park?','Finished her homework.',['Cooked lunch.','Bought a camera.','Washed the dishes.'],'after finishing her homework なので、宿題を終えたのが先。',1]]]);
+addFinal(add);
 }

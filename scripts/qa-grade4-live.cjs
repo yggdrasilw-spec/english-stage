@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict');
 const {chromium}=require('C:/Users/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
-const base='https://yggdrasilw-spec.github.io/english-stage/',expected=Number(process.argv[2]||7);
+const base='https://yggdrasilw-spec.github.io/english-stage/',expected=Number(process.argv[2]||10);
 (async()=>{
  const browser=await chromium.launch({channel:'msedge',headless:true});
  try{
@@ -9,7 +9,7 @@ const base='https://yggdrasilw-spec.github.io/english-stage/',expected=Number(pr
   assert.equal(await page.locator('[data-unit]').count(),expected);
   const data=await page.evaluate(async()=>{const c=await import('./src/grade4-content.js');const m=await(await fetch('data/grade4-audio.json')).json();return{units:c.units.map(u=>u.id),items:c.questions.length,audio:m.files.length};});
   assert.equal(data.items,expected*14);assert.equal(data.audio,expected*4);
-  for(const unit of expected===5?['future']:['infinitive','gerund']){
+  for(const unit of expected===5?['future']:expected===7?['infinitive','gerund']:['comparison','connectors','modals']){
    await page.locator(`[data-unit="${unit}"]`).click();await page.locator('[data-g4-question]').waitFor();
    for(let i=0;i<7;i++){
     const q=await page.evaluate(async()=>{const st=await import('./src/storage.js'),c=await import('./src/grade4-core.js');return c.currentQuestion(await st.read());});

@@ -181,6 +181,50 @@ lesson('gerund','「すること」をingで表す','enjoy / finish / 前置詞 
  order('He enjoys playing tennis.','彼はテニスをすることを楽しんでいます。','He → enjoys → playing tennisの順。')],{extension:true})
 );
 
+
+lessons.push(
+lesson('comparison','比べる・いちばん・同じくらい','-er / -est・more / most・as ... as',
+'二つを比べるときはtaller than、三つ以上でいちばんはthe tallest。長い形容詞などではmore / mostを使うよ。同じくらいならas tall as。goodはbetter / bestという特別な形になる。',[
+ ex('二人を比べる','Ken is [taller than] Tom.','ケンはトムより背が高いです。','🧍 🧍',[['Ken','比べる人'],['taller','より背が高い'],['than Tom','比べる相手']],'thanの後ろに比べる相手を置くよ。'),
+ ex('三人の中で','Ben is [the tallest] of the three.','ベンは三人の中でいちばん背が高いです。','🧍 🧍 🧍',[['Ben','だれが'],['the tallest','いちばん背が高い'],['of the three','三人の中で']],'最上級は比べる範囲も確認しよう。'),
+ ex('同じくらい','Aya is [as tall as] Emi.','アヤはエミと同じくらい背が高いです。','🧍 ＝ 🧍',[['Aya','だれが'],['as tall as','同じくらい背が高い'],['Emi','比べる相手']],'asとasの間はtallの元の形。')],[
+ q('Ken is ___ than Tom.','taller',['tall','tallest'],'二人をthanで比べるなら比較級taller。','Ken is taller than Tom.','ケンはトムより背が高いです。','比較級＋than'),
+ q('Ben is ___ of the three.（いちばん背が高い）','the tallest',['taller','as tall'],'三人でいちばんはthe tallest。','Ben is the tallest of the three.','ベンは三人の中でいちばん背が高いです。','最上級'),
+ q('Aya is as ___ as Emi.','tall',['taller','tallest'],'asとasの間は元の形tall。','Aya is as tall as Emi.','アヤはエミと同じくらい背が高いです。','as ... as'),
+ q('This book is ___ interesting than that one.','more',['most','the'],'interestingはmoreで比較級にするよ。','This book is more interesting than that one.','この本はあの本より面白いです。','more＋形容詞'),
+ q('This is the ___ interesting book of the three.','most',['more','as'],'三冊でいちばん面白いならthe most interesting。','This is the most interesting book of the three.','これは三冊の中でいちばん面白い本です。','most＋形容詞'),
+ q('This book is ___ than that one.（よりよい）','better',['good','best'],'goodの比較級はbetter。','This book is better than that one.','この本はあの本よりよいです。','good→better'),
+ q('This is the ___ book of the three.（最もよい）','best',['better','good'],'goodの最上級はbest。','This is the best book of the three.','これは三冊の中で最もよい本です。','good→best'),
+ order('This bag is bigger than that one.','このかばんはあれより大きいです。','比較級biggerの後ろにthanと相手を置こう。')],{extension:true}),
+lesson('g4-conjunctions','理由・時・条件をつなぐ','because / when / if / before / after',
+'becauseは理由、whenは時、ifは条件を示すよ。beforeとafterは順序を表す。つなぐ言葉だけでなく、前後のどちらが理由で、何が先なのか確かめよう。',[
+ ex('理由','I stayed at home [because] it was rainy.','雨だったので家にいました。','🌧️ → 🏠',[['I stayed at home','したこと'],['because','理由をつなぐ'],['it was rainy','理由']],'becauseの後ろが理由。雨と行動の関係を逆にしないよ。'),
+ ex('時','[When] I came home, Ken was cooking.','帰宅したとき、ケンは料理をしていました。','🏠 ⏱️ 🍳',[['When I came home','いつ'],['Ken was cooking','そのときの出来事']],'whenが出来事を時と結びつけるよ。'),
+ ex('条件','[If] it is sunny tomorrow, we will play tennis.','明日晴れなら、テニスをします。','☀️ ? → 🎾',[['If it is sunny tomorrow','もし晴れなら'],['we will play tennis','その場合にすること']],'ifは条件。晴れと決まったという意味ではないよ。')],[
+ q('「雨だったので」と理由を伝えよう：I stayed at home ___ it was rainy.','because',['but','or'],'becauseの後ろは理由。','I stayed at home because it was rainy.','雨だったので家にいました。','理由のbecause'),
+ q('「帰宅したとき」：___ I came home, Ken was cooking.','When',['Because','Or'],'時をつなぐのはWhen。','When I came home, Ken was cooking.','帰宅したとき、ケンは料理をしていました。','時のwhen'),
+ q('「もし晴れなら」：___ it is sunny tomorrow, we will play tennis.','If',['Because','But'],'もしという条件はIf。','If it is sunny tomorrow, we will play tennis.','明日晴れならテニスをします。','条件のif'),
+ q('「食べる前に」：Wash your hands ___ you eat.','before',['after','or'],'beforeは前、afterは後。','Wash your hands before you eat.','食べる前に手を洗いなさい。','beforeの順序'),
+ q('「宿題を終えた後に」：I played tennis ___ I finished my homework.','after',['before','or'],'afterの後ろの出来事を先に終えているよ。','I played tennis after I finished my homework.','宿題を終えた後にテニスをしました。','afterの順序'),
+ q('I stayed home because it was rainy. の理由は？','雨だったこと',['家にいたこと','晴れたこと'],'becauseの後ろが理由。','I stayed home because it was rainy.','雨だったので家にいました。','理由と結果'),
+ q('If it is rainy, we will go to the museum. が表すのは？','雨なら博物館に行くという条件',['雨と決まったこと','博物館に行った結果雨が降ること'],'ifは条件を示す。雨になると確定してはいないよ。','If it is rainy, we will go to the museum.','雨なら博物館へ行きます。','条件と確定の違い'),
+ order('Call me when you arrive.','着いたときに電話してください。','Call meの後ろに、いつ電話するかをwhenでつなごう。')],{extension:true}),
+lesson('modals','必要・禁止・助言・許可','must / have to / should / may',
+'mustやhave toは必要・義務。must notはしてはいけない、don’t have toはする必要がないという違いがあるよ。shouldは助言。May I ...?は許可を求める表現で、Can I ...?も使える。',[
+ ex('禁止','You [must not run] here.','ここで走ってはいけません。','🏃 🚫',[['You','主語'],['must not','禁止'],['run','原形'],['here','場所']],'must notは強い禁止。'),
+ ex('必要はない','You [don’t have to bring] lunch.','昼食を持ってくる必要はありません。','🍱 任意',[['You','主語'],['don’t have to','必要はない'],['bring lunch','昼食を持ってくる']],'持参を禁止する意味ではないよ。'),
+ ex('助言','You [should bring] a hat.','帽子を持ってきたほうがよいです。','🧢',[['You','主語'],['should','助言'],['bring','原形'],['a hat','持ってくる物']],'shouldの後ろも動詞の原形。'),
+ ex('許可','[May I open] the window?','窓を開けてもよいですか。','🪟 ❓',[['May I','許可を求める'],['open','原形'],['the window','何を']],'May I ...?で許可を求める。Can I ...?も使えるよ。')],[
+ q('You must ___ your homework.','do',['does','doing'],'mustの後ろは原形do。','You must do your homework.','あなたは宿題をしなければなりません。','must＋原形'),
+ q('He ___ to wear a uniform.（着る必要がある）','has',['have','must'],'heの現在形ではhas to。','He has to wear a uniform.','彼は制服を着る必要があります。','has to'),
+ q('「走ってはいけない」：You ___ run here.','must not',['don’t have to','can'],'must notは禁止。','You must not run here.','ここで走ってはいけません。','禁止'),
+ q('「来る必要はない」：You ___ come tomorrow.','don’t have to',['must not','have to'],'don’t have toは不要。来ることを禁止してはいないよ。','You don’t have to come tomorrow.','あなたは明日来る必要はありません。','不要と禁止の区別'),
+ q('You should ___ a hat.','bring',['brings','bringing'],'shouldの後ろは原形bring。','You should bring a hat.','帽子を持ってきたほうがよいです。','should＋原形'),
+ q('「窓を開けてもよいですか」と許可を求めよう：___ I open the window?','May',['Am','Does'],'May I＋原形で許可を求める。','May I open the window?','窓を開けてもよいですか。','許可のMay I'),
+ q('「〜したほうがよい」と助言する助動詞は？','should',['was','did'],'shouldは助言を表すよ。','You should read this book.','この本を読んだほうがよいです。','shouldの意味'),
+ order('We have to leave at seven.','私たちは7時に出発する必要があります。','We → have to → leave → at sevenの順。')],{extension:true})
+);
+
 lessons.forEach((l,li)=>{l.number=li+1;l.questions.forEach((question,i)=>{question.id=`${l.id}-${i+1}`;question.lessonId=l.id;});});
 export const basic=lessons.filter(l=>!l.extension);
 export const questionBank=lessons.flatMap(l=>l.questions);
