@@ -1,0 +1,18 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines INCLUDING outer frame, exact positions, continuous straightness and thickness. Paint EXACTLY sixteen separate clear children's picture-book illustrations, read row-major left to right then top to bottom. Each scene stays inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. Use panels generously, no large blank margins. No labels, captions, watermarks, readable text or numbers UNLESS the individual scene explicitly requires exact lettering or a precise count. Do not add random writing. Natural human anatomy. Illustrate the specific English meaning, action or relationship rather than a loosely associated Japanese noun. These are educational context illustrations shown BESIDE the original English sentence, not standalone replacements for grammar or exact names.
+Exact scenes:
+1. Target: subject / 教科. Scene: Three school subject workbooks shown clearly: one with simple arithmetic shapes, one with a leaf and magnifying glass, one with a paint palette. No text, clearly distinct SUBJECTS.
+2. Target: name / 名前. Scene: A child introducing herself while pointing to a simple name tag on her shirt showing only 'Yui' in large clear letters. No other text.
+3. Target: number / 数・番号. Scene: Three large clearly separated numeral-shaped wooden blocks showing 1, 2, 3, with small matching sets of one, two, three dots below. No other text.
+4. Target: city hall / 市役所. Scene: A recognizable civic city hall building with an open public service entrance, citizens entering, a clock tower and simple city crest without text. No national parliament or school.
+5. Target: officer / 役人・警察官など. Scene: An adult police officer helping a child safely at a street crossing, proper plain blue uniform and badge, no weapons, no logos.
+6. Target: Hello. / こんにちは。. Scene: Two children meeting in a park, smiling and waving hello to each other.
+7. Target: Good morning. / おはようございます。. Scene: Child waving good morning to a parent beside a breakfast table, bright low morning sun outside.
+8. Target: Good night. / おやすみなさい。. Scene: Parent gently saying good night to a sleepy child tucked into bed, moon outside.
+9. Target: Thank you. / ありがとう。. Scene: Child receiving a recovered pencil from a friend, grateful smile and small bow toward the helper.
+10. Target: You are welcome. / どういたしまして。. Scene: The friend who just returned a pencil responds warmly with a relaxed open palm to the grateful child.
+11. Target: I'm sorry. / ごめんなさい。. Scene: Child apologizing sincerely beside an accidentally spilled cup, hands clasped and remorseful face; friend listens.
+12. Target: Excuse me. / すみません。. Scene: Child politely getting a teacher's attention with a modest raised hand while the teacher turns toward them.
+13. Target: See you. / またね。. Scene: Two children parting on a path, waving goodbye warmly.
+14. Target: My name is Yui. / わたしの名前はユイです。. Scene: Girl introducing herself with a hand on her chest and a blank name tag, facing a new friend.
+15. Target: How are you? / 元気ですか。. Scene: One child warmly asks after a friend's wellbeing, interested face and open hand toward friend.
+16. Target: I'm fine. / 元気です。. Scene: Healthy cheerful child points to self and smiles energetically in response to a friend.

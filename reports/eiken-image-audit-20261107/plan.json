@@ -1,0 +1,2831 @@
+{
+  "schema": 1,
+  "sourceRepository": "C:/Users/user/english-stage",
+  "sourceSha": "d80675ad577ad587f1028006dd0b3b156cdad192",
+  "sourceDataSha256": "4428cf4cf6b4b43b30e29cbc6d802a2017d26fd6a2fe057709b4f2d569903b2b",
+  "scope": {
+    "total": 977,
+    "words": 822,
+    "phrases": 155
+  },
+  "audit": {
+    "retained": 761,
+    "wordReplacements": 61,
+    "missingPhrases": 155
+  },
+  "batches": [
+    {
+      "number": 1,
+      "entries": [
+        {
+          "index": 32,
+          "id": "g5-w-sister",
+          "en": "sister",
+          "ja": "姉・妹",
+          "kind": "word",
+          "cell": 1,
+          "scene": "A family scene with a girl standing beside her brother; a clear orange pointer highlights ONLY the girl as his sister.",
+          "reason": "姉妹の男女2人を同列に描き、sisterの対象が不明。女のきょうだい1人を明示。",
+          "name": "eiken-audit-32"
+        },
+        {
+          "index": 33,
+          "id": "g5-w-brother",
+          "en": "brother",
+          "ja": "兄・弟",
+          "kind": "word",
+          "cell": 2,
+          "scene": "A family scene with a boy standing beside his sister; a clear orange pointer highlights ONLY the boy as her brother.",
+          "reason": "兄弟姉妹の関係図で、brotherの男のきょうだい1人が明示されない。",
+          "name": "eiken-audit-33"
+        },
+        {
+          "index": 70,
+          "id": "g5-w-hand",
+          "en": "hand",
+          "ja": "手",
+          "kind": "word",
+          "cell": 3,
+          "scene": "Close-up of ONE human hand, palm visible, five naturally shaped fingers, attached to a short wrist. No high-five scene.",
+          "reason": "ハイタッチの場面で、handより挨拶や動作が主題。",
+          "name": "eiken-audit-70"
+        },
+        {
+          "index": 78,
+          "id": "g5-w-shoe",
+          "en": "shoe",
+          "ja": "靴（片方）",
+          "kind": "word",
+          "cell": 4,
+          "scene": "Exactly ONE red sneaker seen clearly in three-quarter view. No second shoe.",
+          "reason": "片方のshoeなのに2足分（左右一足）の靴がある。",
+          "name": "eiken-audit-78"
+        },
+        {
+          "index": 193,
+          "id": "g5-w-watch",
+          "en": "watch",
+          "ja": "見る（テレビなどを）",
+          "kind": "word",
+          "cell": 5,
+          "scene": "Child sitting on a sofa attentively watching a television with a moving cartoon on the screen. The child and television are both visible. No binoculars.",
+          "reason": "双眼鏡で遠景を見るlookの絵。watchの継続して見る用法を示さない。",
+          "name": "eiken-audit-193"
+        },
+        {
+          "index": 388,
+          "id": "g5-w-finger",
+          "en": "finger",
+          "ja": "指",
+          "kind": "word",
+          "cell": 6,
+          "scene": "Close-up of a hand with an orange arrow pointing precisely to ONLY its index finger. All five fingers have natural anatomy.",
+          "reason": "手全体を示し、fingerの指1本が特定できない。",
+          "name": "eiken-audit-388"
+        },
+        {
+          "index": 399,
+          "id": "g5-w-sock",
+          "en": "sock",
+          "ja": "靴下",
+          "kind": "word",
+          "cell": 7,
+          "scene": "Exactly ONE striped sock, laid flat, complete heel and toe visible. No pair.",
+          "reason": "単数sockに左右2枚の靴下。",
+          "name": "eiken-audit-399"
+        },
+        {
+          "index": 400,
+          "id": "g5-w-glove",
+          "en": "glove",
+          "ja": "手袋",
+          "kind": "word",
+          "cell": 8,
+          "scene": "Exactly ONE knitted glove with five correct fingers, laid flat. No second glove.",
+          "reason": "単数gloveに手袋2枚。",
+          "name": "eiken-audit-400"
+        },
+        {
+          "index": 401,
+          "id": "g5-w-boot",
+          "en": "boot",
+          "ja": "ブーツ",
+          "kind": "word",
+          "cell": 9,
+          "scene": "Exactly ONE brown leather boot, entire silhouette visible. No second boot.",
+          "reason": "単数bootに左右2本のブーツ。",
+          "name": "eiken-audit-401"
+        },
+        {
+          "index": 369,
+          "id": "g5-w-child",
+          "en": "child",
+          "ja": "子ども",
+          "kind": "word",
+          "cell": 10,
+          "scene": "Exactly ONE child, a young elementary-school boy standing naturally, whole body visible. No other children.",
+          "reason": "単数childに2人の子ども。childrenとの区別がつかない。",
+          "name": "eiken-audit-369"
+        },
+        {
+          "index": 375,
+          "id": "g5-w-parent",
+          "en": "parent",
+          "ja": "親",
+          "kind": "word",
+          "cell": 11,
+          "scene": "A mother beside her young child, with an orange pointer highlighting ONLY the mother as the parent. No second adult.",
+          "reason": "単数parentに両親を同列表示し、parentsとの区別が不明。",
+          "name": "eiken-audit-375"
+        },
+        {
+          "index": 361,
+          "id": "g5-w-country",
+          "en": "country",
+          "ja": "国",
+          "kind": "word",
+          "cell": 12,
+          "scene": "A simple globe with several distinct land regions, one entire country-shaped region highlighted in warm orange with its border clearly visible; no parliament building, no flags, no labels.",
+          "reason": "国会議事堂と群衆の絵で、country（国）に直接つながらない。",
+          "name": "eiken-audit-361"
+        },
+        {
+          "index": 525,
+          "id": "g5-w-fly",
+          "en": "fly",
+          "ja": "飛ぶ",
+          "kind": "word",
+          "cell": 13,
+          "scene": "A small bird in active flight high above grass, wings spread naturally and both feet airborne, wing motion visible. No jumping person.",
+          "reason": "flyに跳び上がる人。jumpとの誤学習につながる。",
+          "name": "eiken-audit-525"
+        },
+        {
+          "index": 568,
+          "id": "g5-w-interesting",
+          "en": "interesting",
+          "ja": "おもしろい（興味深い）",
+          "kind": "word",
+          "cell": 14,
+          "scene": "A curious child leaning forward, eyes engaged, closely observing a magnifying glass over an unusual leaf and tiny insect. Absorbed curiosity rather than laughing at a game.",
+          "reason": "funと同じゲームで喜ぶ場面になり、interestingの興味を引く意味が弱い。",
+          "name": "eiken-audit-568"
+        },
+        {
+          "index": 971,
+          "id": "g5-w-ph-soft",
+          "en": "soft",
+          "ja": "やわらかい",
+          "kind": "word",
+          "cell": 15,
+          "scene": "Close-up of a child's hand pressing a fluffy pillow so that a deep gentle indentation clearly shows its softness. No hard objects.",
+          "reason": "枕だけの物体画像で、softのやわらかい性質が見えない。",
+          "name": "eiken-audit-971"
+        },
+        {
+          "index": 862,
+          "id": "g5-w-rj-person",
+          "en": "person",
+          "ja": "人（1人）",
+          "kind": "word",
+          "cell": 16,
+          "scene": "Exactly ONE person, a casually dressed adult standing in a natural neutral pose, whole body visible, no thought bubbles or other people.",
+          "reason": "ideaの電球と思考の絵を流用。person（1人）と一致しない。",
+          "name": "eiken-audit-862"
+        }
+      ],
+      "promptFile": "batch01-prompt.txt",
+      "status": "cropped"
+    },
+    {
+      "number": 2,
+      "entries": [
+        {
+          "index": 47,
+          "id": "g5-w-small",
+          "en": "small",
+          "ja": "小さい",
+          "kind": "word",
+          "cell": 1,
+          "scene": "Two identical toy bears of very different sizes side by side, orange arrow pointing ONLY to the SMALL bear.",
+          "reason": "大小の四角があるだけで、smallの対象が指定されない。",
+          "name": "eiken-audit-47"
+        },
+        {
+          "index": 200,
+          "id": "g5-w-long",
+          "en": "long",
+          "ja": "長い",
+          "kind": "word",
+          "cell": 2,
+          "scene": "Two ropes of matching thickness laid straight side by side; one much longer. Orange arrow points ONLY to the LONG rope.",
+          "reason": "長短の棒のどちらが対象か、日本語ラベルに依存。",
+          "name": "eiken-audit-200"
+        },
+        {
+          "index": 224,
+          "id": "g5-w-afternoon",
+          "en": "afternoon",
+          "ja": "午後",
+          "kind": "word",
+          "cell": 3,
+          "scene": "Children playing outside after lunch, sun still high in a clear daytime sky; small inset analog clock at two o'clock. No moon or sunset.",
+          "reason": "昼から夜へ移る図でafternoonより夕暮れに見える。",
+          "name": "eiken-audit-224"
+        },
+        {
+          "index": 291,
+          "id": "g5-w-star",
+          "en": "star",
+          "ja": "星",
+          "kind": "word",
+          "cell": 4,
+          "scene": "A dark clear night sky filled with small distant twinkling stars, one bright star highlighted, no sun, no moon.",
+          "reason": "太陽のような巨大な恒星が主役で、初学者のstarとsunの区別が弱い。",
+          "name": "eiken-audit-291"
+        },
+        {
+          "index": 321,
+          "id": "g5-w-word",
+          "en": "word",
+          "ja": "単語",
+          "kind": "word",
+          "cell": 5,
+          "scene": "An open vocabulary notebook with ONE isolated short English word 'cat' large on the page and a small cat illustration, no other text.",
+          "reason": "日本語の『犬 学校』を並べる説明カードで、英語のwordへ直接つながらない。",
+          "name": "eiken-audit-321"
+        },
+        {
+          "index": 323,
+          "id": "g5-w-sentence",
+          "en": "sentence",
+          "ja": "文",
+          "kind": "word",
+          "cell": 6,
+          "scene": "A simple page containing exactly ONE large clear English sentence 'A dog runs.' above a dog running; no other text.",
+          "reason": "日本語の文だけを示す説明図。英語のsentenceの具体例がない。",
+          "name": "eiken-audit-323"
+        },
+        {
+          "index": 327,
+          "id": "g5-w-cd",
+          "en": "CD",
+          "ja": "CD",
+          "kind": "word",
+          "cell": 7,
+          "scene": "A shiny compact disc with a clear central hole beside its open plain plastic jewel case, realistic rainbow reflection, no letters.",
+          "reason": "CDの模式図に説明文が多く、実物の円盤の特徴が小さい。",
+          "name": "eiken-audit-327"
+        },
+        {
+          "index": 339,
+          "id": "g5-w-roof",
+          "en": "roof",
+          "ja": "屋根",
+          "kind": "word",
+          "cell": 8,
+          "scene": "A simple house with its entire sloping roof colored orange, the walls neutral cream. An orange pointer points precisely to the roof.",
+          "reason": "家全体の画像で、roofの屋根が指定されない。",
+          "name": "eiken-audit-339"
+        },
+        {
+          "index": 372,
+          "id": "g5-w-uncle",
+          "en": "uncle",
+          "ja": "おじ",
+          "kind": "word",
+          "cell": 9,
+          "scene": "A clear simple family relationship scene: two adult brothers side by side with a small boy beside his father; orange pointer highlights the OTHER adult, the child's uncle. Small identical childhood portrait of the two brothers behind them. No text.",
+          "reason": "父子に見える2人だけで、おじの関係が表れていない。",
+          "name": "eiken-audit-372"
+        },
+        {
+          "index": 373,
+          "id": "g5-w-aunt",
+          "en": "aunt",
+          "ja": "おば",
+          "kind": "word",
+          "cell": 10,
+          "scene": "A mother and her adult sister standing beside the mother's young daughter. Orange pointer highlights the mother's sister, the child's aunt. No other people or text.",
+          "reason": "複数の女性がいるだけで、おばの対象と親との関係が分からない。",
+          "name": "eiken-audit-373"
+        },
+        {
+          "index": 374,
+          "id": "g5-w-cousin",
+          "en": "cousin",
+          "ja": "いとこ",
+          "kind": "word",
+          "cell": 11,
+          "scene": "A clear two-family group: two adult sisters each standing behind her own child; the two children play a board game together in front, orange pointers highlight both cousins. No text.",
+          "reason": "子ども同士の遊びだけでは友達や兄弟と区別できず、いとこの関係が弱い。",
+          "name": "eiken-audit-374"
+        },
+        {
+          "index": 468,
+          "id": "g5-w-up",
+          "en": "up",
+          "ja": "上へ",
+          "kind": "word",
+          "cell": 12,
+          "scene": "A child looking upward and pointing UP toward a kite above; a bold orange upward arrow clearly has an arrowhead.",
+          "reason": "upとdownの模式図が縦線に見え、方向の違いがほぼ見えない。",
+          "name": "eiken-audit-468"
+        },
+        {
+          "index": 469,
+          "id": "g5-w-down",
+          "en": "down",
+          "ja": "下へ",
+          "kind": "word",
+          "cell": 13,
+          "scene": "A child looking DOWN and pointing toward a ball on the ground; a bold orange downward arrow clearly has an arrowhead.",
+          "reason": "upとdownの模式図が縦線に見え、方向の違いがほぼ見えない。",
+          "name": "eiken-audit-469"
+        },
+        {
+          "index": 502,
+          "id": "g5-w-use",
+          "en": "use",
+          "ja": "使う",
+          "kind": "word",
+          "cell": 14,
+          "scene": "Close-up of a child actively USING a ruler to draw a straight line on paper with a pencil; both tools and action clearly visible. No building furniture.",
+          "reason": "工作の完成工程が主題で、useとmakeの差が弱い。",
+          "name": "eiken-audit-502"
+        },
+        {
+          "index": 528,
+          "id": "g5-w-stand",
+          "en": "stand",
+          "ja": "立つ",
+          "kind": "word",
+          "cell": 15,
+          "scene": "ONE child STANDING upright beside a chair, whole body visible down to both feet firmly on the floor. No raised hand, no sitting.",
+          "reason": "上半身で手を上げる絵のため、standとraise a handが混同される。",
+          "name": "eiken-audit-528"
+        },
+        {
+          "index": 558,
+          "id": "g5-w-young",
+          "en": "young",
+          "ja": "若い",
+          "kind": "word",
+          "cell": 16,
+          "scene": "A young adult beside an elderly adult, orange arrow highlights ONLY the young adult, both whole bodies visible.",
+          "reason": "若者と高齢者の両方が同列で、youngの対象が特定されない。",
+          "name": "eiken-audit-558"
+        }
+      ],
+      "promptFile": "batch02-prompt.txt",
+      "status": "cropped",
+      "sourceSha256": "258f292cf4fb1e622ff7e1f8db57ea4d58a3e8d99fd881ebd5653bcbdf57c84a"
+    },
+    {
+      "number": 3,
+      "entries": [
+        {
+          "index": 563,
+          "id": "g5-w-little",
+          "en": "little",
+          "ja": "小さな・少しの",
+          "kind": "word",
+          "cell": 1,
+          "scene": "A little kitten beside a much larger adult cat, orange arrow highlights ONLY the little kitten.",
+          "reason": "大小比較の四角でlittleの対象が不明。",
+          "name": "eiken-audit-563"
+        },
+        {
+          "index": 566,
+          "id": "g5-w-easy",
+          "en": "easy",
+          "ja": "簡単な",
+          "kind": "word",
+          "cell": 2,
+          "scene": "A relaxed smiling child quickly fitting a single large round puzzle piece into its matching hole; very simple task, no text.",
+          "reason": "四角2個と矢印だけでeasyの簡単さを読み取れない。",
+          "name": "eiken-audit-566"
+        },
+        {
+          "index": 577,
+          "id": "g5-w-wrong",
+          "en": "wrong",
+          "ja": "間違った",
+          "kind": "word",
+          "cell": 3,
+          "scene": "A shape sorting toy: child has tried putting a square block into a round hole; it clearly does NOT fit. A small red cross marks the mistake. No text.",
+          "reason": "りんごを丸、みかんをバツとする根拠がなくwrongの誤りが不明。",
+          "name": "eiken-audit-577"
+        },
+        {
+          "index": 602,
+          "id": "g5-w-now",
+          "en": "now",
+          "ja": "今",
+          "kind": "word",
+          "cell": 4,
+          "scene": "A child brushing teeth RIGHT NOW, orange pointer highlighting the present action; a small thought bubble shows the same toothbrush without a person to distinguish action from object. No clock face, no text.",
+          "reason": "特定時刻の時計だけでnow（現在）とは読めない。",
+          "name": "eiken-audit-602"
+        },
+        {
+          "index": 608,
+          "id": "g5-w-home",
+          "en": "home",
+          "ja": "家へ・自宅",
+          "kind": "word",
+          "cell": 5,
+          "scene": "A child warmly arriving HOME, stepping through the family front doorway while a parent welcomes them; house and familiar family visible.",
+          "reason": "houseと同じ家の外観。homeの自宅・帰属先の意味が弱い。",
+          "name": "eiken-audit-608"
+        },
+        {
+          "index": 660,
+          "id": "g5-w-age",
+          "en": "age",
+          "ja": "年齢",
+          "kind": "word",
+          "cell": 6,
+          "scene": "A birthday scene with one child and exactly seven unlit candles arranged on the cake; several earlier photos of the same child as baby and toddler nearby to show growing age. No text.",
+          "reason": "若者と高齢者を並べたyoungの絵でageの年齢が表れない。",
+          "name": "eiken-audit-660"
+        },
+        {
+          "index": 710,
+          "id": "g5-w-take-a-bath",
+          "en": "take a bath",
+          "ja": "風呂に入る",
+          "kind": "word",
+          "cell": 7,
+          "scene": "A child taking a BATH in a bathtub filled with opaque white bubbles, only head and shoulders visible, modest and age-appropriate; no shower, no clothes worn in tub.",
+          "reason": "服を着て屋外シャワーを浴びており、take a bathの入浴とずれる。",
+          "name": "eiken-audit-710"
+        },
+        {
+          "index": 711,
+          "id": "g5-w-go-to-bed",
+          "en": "go to bed",
+          "ja": "寝る",
+          "kind": "word",
+          "cell": 8,
+          "scene": "A child in pajamas actively climbing INTO BED at bedtime while a parent turns down the blanket; night outside. Child awake, no sleeping pose.",
+          "reason": "sleepと同じ眠っている絵で、go to bedの就寝動作を示さない。",
+          "name": "eiken-audit-711"
+        },
+        {
+          "index": 724,
+          "id": "g5-w-want-to",
+          "en": "want to",
+          "ja": "〜したい",
+          "kind": "word",
+          "cell": 9,
+          "scene": "A child looking eagerly at a soccer game through a window, a thought bubble shows the same child playing soccer; wanting TO DO something. No praying.",
+          "reason": "祈る姿だけで、want toの『何かをしたい』が示されない。",
+          "name": "eiken-audit-724"
+        },
+        {
+          "index": 725,
+          "id": "g5-w-would-like",
+          "en": "would like",
+          "ja": "〜が欲しい（丁寧）",
+          "kind": "word",
+          "cell": 10,
+          "scene": "A child politely requesting an ice cream from a shopkeeper, open polite hand gesture toward ice cream choices. No praying, no shooting star.",
+          "reason": "流れ星に祈る場面で、丁寧な希望・注文のwould likeに直結しない。",
+          "name": "eiken-audit-725"
+        },
+        {
+          "index": 902,
+          "id": "g5-w-ph-e-mail",
+          "en": "e-mail",
+          "ja": "電子メール",
+          "kind": "word",
+          "cell": 11,
+          "scene": "A laptop screen showing a simple digital mail envelope icon and a send arrow going to a second small screen, unmistakably ELECTRONIC mail, no readable text.",
+          "reason": "封筒だけで紙のletterに見え、電子メールと区別できない。",
+          "name": "eiken-audit-902"
+        },
+        {
+          "index": 864,
+          "id": "g5-w-rj-pilot",
+          "en": "pilot",
+          "ja": "飛行機を操縦する人",
+          "kind": "word",
+          "cell": 12,
+          "scene": "An adult airplane pilot seated at a cockpit control panel, headset and pilot uniform, hands at the controls, clouds beyond front windows, no logos.",
+          "reason": "飛行機と人型の小さい図で、操縦する人が見えない。",
+          "name": "eiken-audit-864"
+        },
+        {
+          "index": 865,
+          "id": "g5-w-rj-waiter",
+          "en": "waiter",
+          "ja": "レストランなどの男性の給仕",
+          "kind": "word",
+          "cell": 13,
+          "scene": "An adult male waiter in a white shirt and dark vest politely bringing a tray with meals to restaurant guests, no text or logos.",
+          "reason": "人型と縮小したレストラン画像をラベルで説明し、給仕本人が読み取りづらい。",
+          "name": "eiken-audit-865"
+        },
+        {
+          "index": 866,
+          "id": "g5-w-rj-worker",
+          "en": "worker",
+          "ja": "働く人",
+          "kind": "word",
+          "cell": 14,
+          "scene": "A worker in a small workshop actively assembling a wooden chair at a workbench, tools and work action clearly visible, no text.",
+          "reason": "事務所の縮小画と人型で、働く行為が読み取りづらい。",
+          "name": "eiken-audit-866"
+        },
+        {
+          "index": 878,
+          "id": "g5-w-rj-ski",
+          "en": "ski",
+          "ja": "スキーをする",
+          "kind": "word",
+          "cell": 15,
+          "scene": "A person actively SKIING downhill on exactly two skis, holding two ski poles, snow spraying naturally; helmet and goggles, no text.",
+          "reason": "小さいスキーの写真と人型を説明文で結び、skiの動作が小さすぎる。",
+          "name": "eiken-audit-878"
+        },
+        {
+          "index": 881,
+          "id": "g5-w-rj-move",
+          "en": "move",
+          "ja": "動く・動かす・引っ越す",
+          "kind": "word",
+          "cell": 16,
+          "scene": "Two children together MOVING a light empty cardboard box from one marked spot to another on the floor; clear motion arrow, safe posture, no running.",
+          "reason": "走る画像の流用で、moveの物を動かす用法が表れない。",
+          "name": "eiken-audit-881"
+        }
+      ],
+      "promptFile": "batch03-prompt.txt",
+      "status": "cropped",
+      "sourceSha256": "166692e556d25914a01e72dc4f8f4614e3f9ac701b518c66449cedf32601bb2e"
+    },
+    {
+      "number": 4,
+      "entries": [
+        {
+          "index": 653,
+          "id": "g5-w-subject",
+          "en": "subject",
+          "ja": "教科",
+          "kind": "word",
+          "cell": 1,
+          "scene": "Three school subject workbooks shown clearly: one with simple arithmetic shapes, one with a leaf and magnifying glass, one with a paint palette. No text, clearly distinct SUBJECTS.",
+          "reason": "国語・算数・理科という日本語だけの四角で教科を説明している。",
+          "name": "eiken-audit-653"
+        },
+        {
+          "index": 659,
+          "id": "g5-w-name",
+          "en": "name",
+          "ja": "名前",
+          "kind": "word",
+          "cell": 2,
+          "scene": "A child introducing herself while pointing to a simple name tag on her shirt showing only 'Yui' in large clear letters. No other text.",
+          "reason": "日本語の氏名だけで、英語で名前を示す教材画像に直結しない。",
+          "name": "eiken-audit-659"
+        },
+        {
+          "index": 661,
+          "id": "g5-w-number",
+          "en": "number",
+          "ja": "数・番号",
+          "kind": "word",
+          "cell": 3,
+          "scene": "Three large clearly separated numeral-shaped wooden blocks showing 1, 2, 3, with small matching sets of one, two, three dots below. No other text.",
+          "reason": "りんご5個だけで、number（数・番号）とfiveの区別が弱い。",
+          "name": "eiken-audit-661"
+        },
+        {
+          "index": 852,
+          "id": "g5-w-rj-city-hall",
+          "en": "city hall",
+          "ja": "市役所",
+          "kind": "word",
+          "cell": 4,
+          "scene": "A recognizable civic city hall building with an open public service entrance, citizens entering, a clock tower and simple city crest without text. No national parliament or school.",
+          "reason": "日本語の市役所ラベルがないと一般建物と区別できない小さい模式図。",
+          "name": "eiken-audit-852"
+        },
+        {
+          "index": 861,
+          "id": "g5-w-rj-officer",
+          "en": "officer",
+          "ja": "役人・警察官など",
+          "kind": "word",
+          "cell": 5,
+          "scene": "An adult police officer helping a child safely at a street crossing, proper plain blue uniform and badge, no weapons, no logos.",
+          "reason": "officeの縮小画と人型で、例文のpolice officerという公務の人が見えない。",
+          "name": "eiken-audit-861"
+        },
+        {
+          "index": 100,
+          "id": "g5-p-01",
+          "en": "Hello.",
+          "ja": "こんにちは。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "Two children meeting in a park, smiling and waving hello to each other.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-100"
+        },
+        {
+          "index": 101,
+          "id": "g5-p-02",
+          "en": "Good morning.",
+          "ja": "おはようございます。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "Child waving good morning to a parent beside a breakfast table, bright low morning sun outside.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-101"
+        },
+        {
+          "index": 102,
+          "id": "g5-p-03",
+          "en": "Good night.",
+          "ja": "おやすみなさい。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "Parent gently saying good night to a sleepy child tucked into bed, moon outside.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-102"
+        },
+        {
+          "index": 103,
+          "id": "g5-p-04",
+          "en": "Thank you.",
+          "ja": "ありがとう。",
+          "kind": "phrase",
+          "cell": 9,
+          "scene": "Child receiving a recovered pencil from a friend, grateful smile and small bow toward the helper.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-103"
+        },
+        {
+          "index": 104,
+          "id": "g5-p-05",
+          "en": "You are welcome.",
+          "ja": "どういたしまして。",
+          "kind": "phrase",
+          "cell": 10,
+          "scene": "The friend who just returned a pencil responds warmly with a relaxed open palm to the grateful child.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-104"
+        },
+        {
+          "index": 105,
+          "id": "g5-p-06",
+          "en": "I'm sorry.",
+          "ja": "ごめんなさい。",
+          "kind": "phrase",
+          "cell": 11,
+          "scene": "Child apologizing sincerely beside an accidentally spilled cup, hands clasped and remorseful face; friend listens.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-105"
+        },
+        {
+          "index": 106,
+          "id": "g5-p-07",
+          "en": "Excuse me.",
+          "ja": "すみません。",
+          "kind": "phrase",
+          "cell": 12,
+          "scene": "Child politely getting a teacher's attention with a modest raised hand while the teacher turns toward them.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-106"
+        },
+        {
+          "index": 107,
+          "id": "g5-p-08",
+          "en": "See you.",
+          "ja": "またね。",
+          "kind": "phrase",
+          "cell": 13,
+          "scene": "Two children parting on a path, waving goodbye warmly.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-107"
+        },
+        {
+          "index": 108,
+          "id": "g5-p-09",
+          "en": "My name is Yui.",
+          "ja": "わたしの名前はユイです。",
+          "kind": "phrase",
+          "cell": 14,
+          "scene": "Girl introducing herself with a hand on her chest and a blank name tag, facing a new friend.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-108"
+        },
+        {
+          "index": 109,
+          "id": "g5-p-10",
+          "en": "How are you?",
+          "ja": "元気ですか。",
+          "kind": "phrase",
+          "cell": 15,
+          "scene": "One child warmly asks after a friend's wellbeing, interested face and open hand toward friend.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-109"
+        },
+        {
+          "index": 110,
+          "id": "g5-p-11",
+          "en": "I'm fine.",
+          "ja": "元気です。",
+          "kind": "phrase",
+          "cell": 16,
+          "scene": "Healthy cheerful child points to self and smiles energetically in response to a friend.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-110"
+        }
+      ],
+      "promptFile": "batch04-prompt.txt",
+      "status": "cropped",
+      "sourceSha256": "0ec9ad31fa7d4fb7841d7ad482f91f504e21b45f278ecb7a83fa02b1890a08fc"
+    },
+    {
+      "number": 5,
+      "entries": [
+        {
+          "index": 111,
+          "id": "g5-p-12",
+          "en": "How old are you?",
+          "ja": "何歳ですか。",
+          "kind": "phrase",
+          "cell": 1,
+          "scene": "A child politely asks another child's age, gesturing toward the friend's birthday cake with unlit candles.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-111"
+        },
+        {
+          "index": 112,
+          "id": "g5-p-13",
+          "en": "I'm eleven.",
+          "ja": "わたしは11歳です。",
+          "kind": "phrase",
+          "cell": 2,
+          "scene": "An eleven-year-old child pointing to self beside a birthday cake with exactly eleven small unlit candles, arranged six plus five.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-112"
+        },
+        {
+          "index": 113,
+          "id": "g5-p-14",
+          "en": "I like music.",
+          "ja": "わたしは音楽が好きです。",
+          "kind": "phrase",
+          "cell": 3,
+          "scene": "Child happily listening to music through headphones, musical notes and a small heart indicate liking music.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-113"
+        },
+        {
+          "index": 114,
+          "id": "g5-p-15",
+          "en": "Do you like soccer?",
+          "ja": "サッカーは好きですか。",
+          "kind": "phrase",
+          "cell": 4,
+          "scene": "One child holds a soccer ball and asks a friend about it, friendly questioning gesture, soccer goal behind.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-114"
+        },
+        {
+          "index": 115,
+          "id": "g5-p-16",
+          "en": "Yes, I do.",
+          "ja": "はい、そうです。",
+          "kind": "phrase",
+          "cell": 5,
+          "scene": "Child nodding yes to a friend who holds a soccer ball; enthusiastic smile and thumb up.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-115"
+        },
+        {
+          "index": 116,
+          "id": "g5-p-17",
+          "en": "No, I don't.",
+          "ja": "いいえ、ちがいます。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "Child gently shaking head no to a friend holding a soccer ball; polite crossed forearms, friendly expression.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-116"
+        },
+        {
+          "index": 117,
+          "id": "g5-p-18",
+          "en": "I don't like milk.",
+          "ja": "わたしは牛乳が好きではありません。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "Child politely pushes away a glass of milk with a mildly displeased face; no drinking.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-117"
+        },
+        {
+          "index": 118,
+          "id": "g5-p-19",
+          "en": "I can dance.",
+          "ja": "わたしは踊れます。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "Child confidently performing a dance step on a small practice floor, music nearby.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-118"
+        },
+        {
+          "index": 119,
+          "id": "g5-p-20",
+          "en": "Can you swim?",
+          "ja": "泳げますか。",
+          "kind": "phrase",
+          "cell": 9,
+          "scene": "At a poolside, child in swimwear asks another child about swimming, gestures to the water, both safely on deck.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-119"
+        },
+        {
+          "index": 120,
+          "id": "g5-p-21",
+          "en": "What is this?",
+          "ja": "これは何ですか。",
+          "kind": "phrase",
+          "cell": 10,
+          "scene": "A curious child points at an unfamiliar object in a friend's open hand, asking what it is.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-120"
+        },
+        {
+          "index": 121,
+          "id": "g5-p-22",
+          "en": "It's a cat.",
+          "ja": "それは猫です。",
+          "kind": "phrase",
+          "cell": 11,
+          "scene": "Child pointing clearly to one cat sitting nearby, friendly explanatory gesture.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-121"
+        },
+        {
+          "index": 122,
+          "id": "g5-p-23",
+          "en": "Where is my bag?",
+          "ja": "わたしのかばんはどこですか。",
+          "kind": "phrase",
+          "cell": 12,
+          "scene": "Child looking for their missing backpack, checking beside a desk with puzzled face.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-122"
+        },
+        {
+          "index": 123,
+          "id": "g5-p-24",
+          "en": "It's on the desk.",
+          "ja": "それは机の上にあります。",
+          "kind": "phrase",
+          "cell": 13,
+          "scene": "A bright blue schoolbag sitting entirely ON TOP OF a wooden desk, clear side view.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-123"
+        },
+        {
+          "index": 124,
+          "id": "g5-p-25",
+          "en": "It's under the desk.",
+          "ja": "それは机の下にあります。",
+          "kind": "phrase",
+          "cell": 14,
+          "scene": "A bright blue schoolbag sitting entirely UNDER a wooden desk, clear side view.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-124"
+        },
+        {
+          "index": 125,
+          "id": "g5-p-26",
+          "en": "It's in the bag.",
+          "ja": "それはかばんの中にあります。",
+          "kind": "phrase",
+          "cell": 15,
+          "scene": "An open schoolbag with a pencil case clearly INSIDE the bag, cutaway view.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-125"
+        },
+        {
+          "index": 126,
+          "id": "g5-p-27",
+          "en": "What time is it?",
+          "ja": "何時ですか。",
+          "kind": "phrase",
+          "cell": 16,
+          "scene": "Child asking a friend the time while pointing toward a large wall clock.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-126"
+        }
+      ],
+      "promptFile": "batch05-prompt.txt",
+      "status": "cropped",
+      "sourceSha256": "58b95d1eb1bdb8f9b628b4945465726fbce1feabfb834a9aab17955ade3f9b89"
+    },
+    {
+      "number": 6,
+      "entries": [
+        {
+          "index": 127,
+          "id": "g5-p-28",
+          "en": "It's seven o'clock.",
+          "ja": "7時です。",
+          "kind": "phrase",
+          "cell": 1,
+          "scene": "A clear analog clock showing exactly seven o'clock: short hand at seven, long hand at twelve; no numerals needed, twelve clear tick marks.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-127"
+        },
+        {
+          "index": 128,
+          "id": "g5-p-29",
+          "en": "Please open your book.",
+          "ja": "本を開いてください。",
+          "kind": "phrase",
+          "cell": 2,
+          "scene": "Teacher politely gestures for a student to OPEN their closed book; student's hands just opening the covers.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-128"
+        },
+        {
+          "index": 129,
+          "id": "g5-p-30",
+          "en": "I'm reading a book.",
+          "ja": "わたしは今、本を読んでいます。",
+          "kind": "phrase",
+          "cell": 3,
+          "scene": "Child actively reading an open book quietly at a desk, eyes tracking pages.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-129"
+        },
+        {
+          "index": 230,
+          "id": "g5-p-31",
+          "en": "Good afternoon.",
+          "ja": "こんにちは（午後）。",
+          "kind": "phrase",
+          "cell": 4,
+          "scene": "Two children greeting each other outdoors in bright afternoon sunlight, school bags in hand.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-230"
+        },
+        {
+          "index": 231,
+          "id": "g5-p-32",
+          "en": "Good evening.",
+          "ja": "こんばんは。",
+          "kind": "phrase",
+          "cell": 5,
+          "scene": "Neighbors greeting one another outside at early evening twilight with warm house lights coming on.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-231"
+        },
+        {
+          "index": 232,
+          "id": "g5-p-33",
+          "en": "Nice to meet you.",
+          "ja": "はじめまして。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "Two children being introduced for the first time, smiling and shaking hands gently.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-232"
+        },
+        {
+          "index": 233,
+          "id": "g5-p-34",
+          "en": "See you tomorrow.",
+          "ja": "また明日ね。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "Children waving goodbye after school; small thought bubble shows them meeting again at the same school in next morning sunshine.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-233"
+        },
+        {
+          "index": 234,
+          "id": "g5-p-35",
+          "en": "How do you spell your name?",
+          "ja": "あなたの名前はどうつづりますか。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "Child asks a new friend how to spell her name, pointing to a blank name tag while holding a pencil and notebook; no text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-234"
+        },
+        {
+          "index": 235,
+          "id": "g5-p-36",
+          "en": "What day is it today?",
+          "ja": "今日は何曜日ですか。",
+          "kind": "phrase",
+          "cell": 9,
+          "scene": "Child asks a friend about the day while pointing at a seven-column calendar with a single highlighted current cell; no text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-235"
+        },
+        {
+          "index": 236,
+          "id": "g5-p-37",
+          "en": "It's Monday.",
+          "ja": "月曜日です。",
+          "kind": "phrase",
+          "cell": 10,
+          "scene": "Seven-column weekly calendar with only FIRST column highlighted, a schoolbag below to suggest start of school week; no letters or numerals.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-236"
+        },
+        {
+          "index": 237,
+          "id": "g5-p-38",
+          "en": "When is your birthday?",
+          "ja": "誕生日はいつですか。",
+          "kind": "phrase",
+          "cell": 11,
+          "scene": "Child asks a friend when their birthday is, pointing between a birthday cake and a calendar.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-237"
+        },
+        {
+          "index": 238,
+          "id": "g5-p-39",
+          "en": "My birthday is in May.",
+          "ja": "わたしの誕生日は5月です。",
+          "kind": "phrase",
+          "cell": 12,
+          "scene": "A birthday cake beside a twelve-month calendar represented by twelve small pages in a 3x4 arrangement, ONLY fifth page highlighted; no text or numerals.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-238"
+        },
+        {
+          "index": 239,
+          "id": "g5-p-40",
+          "en": "How many books do you have?",
+          "ja": "本を何冊持っていますか。",
+          "kind": "phrase",
+          "cell": 13,
+          "scene": "Child asking a friend about how many books they have, gesturing toward the friend's book stack.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-239"
+        },
+        {
+          "index": 240,
+          "id": "g5-p-41",
+          "en": "I have three books.",
+          "ja": "わたしは本を3冊持っています。",
+          "kind": "phrase",
+          "cell": 14,
+          "scene": "Child proudly holding exactly THREE separately visible books, no other books in view.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-240"
+        },
+        {
+          "index": 241,
+          "id": "g5-p-42",
+          "en": "What do you want?",
+          "ja": "何が欲しいですか。",
+          "kind": "phrase",
+          "cell": 15,
+          "scene": "Parent offering a child a choice between water and a snack, child considers what they want.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-241"
+        },
+        {
+          "index": 242,
+          "id": "g5-p-43",
+          "en": "I want some water.",
+          "ja": "わたしは水が欲しいです。",
+          "kind": "phrase",
+          "cell": 16,
+          "scene": "Thirsty child looking eagerly toward a glass of water and reaching politely toward it, no milk.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-242"
+        }
+      ],
+      "promptFile": "batch06-prompt.txt",
+      "status": "cropped",
+      "sourceSha256": "94aec634da9dec7902fd5b90a43b92959195d10ce949b1f8d4431df1d58b0920"
+    },
+    {
+      "number": 7,
+      "entries": [
+        {
+          "index": 243,
+          "id": "g5-p-44",
+          "en": "Let's play soccer.",
+          "ja": "サッカーをしましょう。",
+          "kind": "phrase",
+          "cell": 1,
+          "scene": "Child holding a soccer ball invites two friends onto a soccer field with an open welcoming hand.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-243"
+        },
+        {
+          "index": 244,
+          "id": "g5-p-45",
+          "en": "That sounds good.",
+          "ja": "それはいいですね。",
+          "kind": "phrase",
+          "cell": 2,
+          "scene": "Child listening to a friend's suggestion to play soccer, smiling and giving an enthusiastic thumb up.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-244"
+        },
+        {
+          "index": 245,
+          "id": "g5-p-46",
+          "en": "Can I use your pen?",
+          "ja": "あなたのペンを使ってもいいですか。",
+          "kind": "phrase",
+          "cell": 3,
+          "scene": "Child politely asks a classmate for permission to use the classmate's pen, open hand toward the pen, owner listening.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-245"
+        },
+        {
+          "index": 246,
+          "id": "g5-p-47",
+          "en": "Here you are.",
+          "ja": "はい、どうぞ。",
+          "kind": "phrase",
+          "cell": 4,
+          "scene": "Child hands a pen directly to a classmate, offering gesture, recipient's open hand ready.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-246"
+        },
+        {
+          "index": 247,
+          "id": "g5-p-48",
+          "en": "Please close the door.",
+          "ja": "ドアを閉めてください。",
+          "kind": "phrase",
+          "cell": 5,
+          "scene": "Teacher politely gestures for a child to CLOSE an open classroom door; child pulling door toward frame.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-247"
+        },
+        {
+          "index": 248,
+          "id": "g5-p-49",
+          "en": "I go to school by bus.",
+          "ja": "わたしはバスで学校に行きます。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "Child rides a bus toward school; school building visible through the bus window, no walking.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-248"
+        },
+        {
+          "index": 249,
+          "id": "g5-p-50",
+          "en": "What are you doing?",
+          "ja": "何をしているところですか。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "Child asks a friend what they are doing while the friend is drawing at a table, interested questioning posture.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-249"
+        },
+        {
+          "index": 730,
+          "id": "g5-p-extra-i-m-from-japan",
+          "en": "I'm from Japan.",
+          "ja": "日本出身です。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "Child introducing themself beside a globe with Japan subtly highlighted and a small plain Japanese flag; no labels.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-730"
+        },
+        {
+          "index": 731,
+          "id": "g5-p-extra-where-are-you-from",
+          "en": "Where are you from?",
+          "ja": "どこの出身ですか。",
+          "kind": "phrase",
+          "cell": 9,
+          "scene": "Two children discussing their places of origin while pointing at a globe, open questioning gesture.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-731"
+        },
+        {
+          "index": 732,
+          "id": "g5-p-extra-i-live-in-tokyo",
+          "en": "I live in Tokyo.",
+          "ja": "東京に住んでいます。",
+          "kind": "phrase",
+          "cell": 10,
+          "scene": "Child at the doorway of their Tokyo apartment, distant Tokyo Tower and city skyline in view; no text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-732"
+        },
+        {
+          "index": 733,
+          "id": "g5-p-extra-where-do-you-live",
+          "en": "Where do you live?",
+          "ja": "どこに住んでいますか。",
+          "kind": "phrase",
+          "cell": 11,
+          "scene": "Child asks a friend where they live, pointing toward several houses in the neighborhood.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-733"
+        },
+        {
+          "index": 734,
+          "id": "g5-p-extra-who-is-that-boy",
+          "en": "Who is that boy?",
+          "ja": "あの男の子はだれですか。",
+          "kind": "phrase",
+          "cell": 12,
+          "scene": "Two children look toward a boy standing a little distance away; one asks the other who he is with an open hand toward him.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-734"
+        },
+        {
+          "index": 735,
+          "id": "g5-p-extra-he-is-my-brother",
+          "en": "He is my brother.",
+          "ja": "彼はわたしの兄（弟）です。",
+          "kind": "phrase",
+          "cell": 13,
+          "scene": "Girl introduces her brother, orange pointer highlights the boy; parents in a small family photo establish sibling relationship.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-735"
+        },
+        {
+          "index": 736,
+          "id": "g5-p-extra-this-is-my-friend",
+          "en": "This is my friend.",
+          "ja": "こちらはわたしの友達です。",
+          "kind": "phrase",
+          "cell": 14,
+          "scene": "Child introduces a friend to another child, welcoming open palm toward the friend, all three smiling.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-736"
+        },
+        {
+          "index": 737,
+          "id": "g5-p-extra-is-this-your-book",
+          "en": "Is this your book?",
+          "ja": "これはあなたの本ですか。",
+          "kind": "phrase",
+          "cell": 15,
+          "scene": "Child holds up a found book and asks a classmate whether it belongs to them, open questioning hand.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-737"
+        },
+        {
+          "index": 738,
+          "id": "g5-p-extra-yes-it-is",
+          "en": "Yes, it is.",
+          "ja": "はい、そうです。（単数のものについて）",
+          "kind": "phrase",
+          "cell": 16,
+          "scene": "Child nodding yes while pointing to self and the book a friend is holding, claiming the book.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-738"
+        }
+      ],
+      "promptFile": "batch07-prompt.txt",
+      "status": "cropped",
+      "sourceSha256": "109367cfd5038d005afbf207eef6a3fc980f4b688032e2aab53303bf92d4907d"
+    },
+    {
+      "number": 8,
+      "entries": [
+        {
+          "index": 739,
+          "id": "g5-p-extra-no-it-isn-t",
+          "en": "No, it isn't.",
+          "ja": "いいえ、違います。（単数のものについて）",
+          "kind": "phrase",
+          "cell": 1,
+          "scene": "Child gently shakes head no and holds an open palm away from the found book, showing it is not theirs.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-739"
+        },
+        {
+          "index": 740,
+          "id": "g5-p-extra-are-you-a-student",
+          "en": "Are you a student?",
+          "ja": "あなたは生徒ですか。",
+          "kind": "phrase",
+          "cell": 2,
+          "scene": "Adult politely asks a school-age child about being a student, school and backpack in view.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-740"
+        },
+        {
+          "index": 741,
+          "id": "g5-p-extra-yes-i-am",
+          "en": "Yes, I am.",
+          "ja": "はい、そうです。（自分について）",
+          "kind": "phrase",
+          "cell": 3,
+          "scene": "Child nods yes and points to self, school backpack and school entrance visible.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-741"
+        },
+        {
+          "index": 742,
+          "id": "g5-p-extra-no-i-m-not",
+          "en": "No, I'm not.",
+          "ja": "いいえ、違います。（自分について）",
+          "kind": "phrase",
+          "cell": 4,
+          "scene": "An adult visitor politely shakes head no in response to a child at a school gate; clearly not a student.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-742"
+        },
+        {
+          "index": 743,
+          "id": "g5-p-extra-these-are-my-shoes",
+          "en": "These are my shoes.",
+          "ja": "これらはわたしの靴です。",
+          "kind": "phrase",
+          "cell": 5,
+          "scene": "Child pointing proudly to their OWN pair of red shoes, exactly two shoes side by side.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-743"
+        },
+        {
+          "index": 744,
+          "id": "g5-p-extra-whose-pen-is-this",
+          "en": "Whose pen is this?",
+          "ja": "これはだれのペンですか。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "Child holding a found pen asks two classmates who owns it, both classmates looking at it.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-744"
+        },
+        {
+          "index": 745,
+          "id": "g5-p-extra-it-s-mine",
+          "en": "It's mine.",
+          "ja": "わたしのものです。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "Child points to own chest and reaches toward their pen in a friend's hand, claiming ownership.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-745"
+        },
+        {
+          "index": 746,
+          "id": "g5-p-extra-what-color-is-it",
+          "en": "What color is it?",
+          "ja": "それは何色ですか。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "Child asks a friend the color of a single plain ball while pointing to a small color palette.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-746"
+        },
+        {
+          "index": 747,
+          "id": "g5-p-extra-it-s-blue",
+          "en": "It's blue.",
+          "ja": "青色です。",
+          "kind": "phrase",
+          "cell": 9,
+          "scene": "A large clearly BLUE ball, child pointing to it; no other colored balls.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-747"
+        },
+        {
+          "index": 748,
+          "id": "g5-p-extra-what-s-your-favorite-food",
+          "en": "What's your favorite food?",
+          "ja": "いちばん好きな食べ物は何ですか。",
+          "kind": "phrase",
+          "cell": 10,
+          "scene": "Child asks a friend their favorite food while showing three dishes, including curry, with questioning gesture.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-748"
+        },
+        {
+          "index": 749,
+          "id": "g5-p-extra-my-favorite-food-is-curry",
+          "en": "My favorite food is curry.",
+          "ja": "いちばん好きな食べ物はカレーです。",
+          "kind": "phrase",
+          "cell": 11,
+          "scene": "Child delightedly pointing to a plate of curry rice, small heart indicates favorite food.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-749"
+        },
+        {
+          "index": 750,
+          "id": "g5-p-extra-what-subject-do-you-like",
+          "en": "What subject do you like?",
+          "ja": "どの教科が好きですか。",
+          "kind": "phrase",
+          "cell": 12,
+          "scene": "Two students discuss favorite school subjects, open textbooks showing science, arithmetic and painting, questioning gesture.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-750"
+        },
+        {
+          "index": 751,
+          "id": "g5-p-extra-i-like-english",
+          "en": "I like English.",
+          "ja": "英語が好きです。",
+          "kind": "phrase",
+          "cell": 13,
+          "scene": "Child smiles with a heart while practicing English conversation with a teacher; open English textbook has simple letter-like decorative strokes but no readable text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-751"
+        },
+        {
+          "index": 752,
+          "id": "g5-p-extra-does-she-like-tennis",
+          "en": "Does she like tennis?",
+          "ja": "彼女はテニスが好きですか。",
+          "kind": "phrase",
+          "cell": 14,
+          "scene": "Two children talk about a girl holding a tennis racket nearby, one asking and pointing toward her.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-752"
+        },
+        {
+          "index": 753,
+          "id": "g5-p-extra-yes-she-does",
+          "en": "Yes, she does.",
+          "ja": "はい、彼女はそうです。",
+          "kind": "phrase",
+          "cell": 15,
+          "scene": "Child nodding yes toward a girl happily holding a tennis racket, small heart by girl.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-753"
+        },
+        {
+          "index": 754,
+          "id": "g5-p-extra-no-she-doesn-t",
+          "en": "No, she doesn't.",
+          "ja": "いいえ、彼女は違います。",
+          "kind": "phrase",
+          "cell": 16,
+          "scene": "Child gently shaking head while a girl sets aside a tennis racket and turns toward a different hobby; no sad face.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-754"
+        }
+      ],
+      "promptFile": "batch08-prompt.txt",
+      "status": "cropped",
+      "sourceSha256": "5c37e9dc9dcad14fc8105b46bd27cce96cbb46fb9dd348e0a85a5fa05fd2b4d8"
+    },
+    {
+      "number": 9,
+      "entries": [
+        {
+          "index": 755,
+          "id": "g5-p-extra-he-plays-soccer-every-day",
+          "en": "He plays soccer every day.",
+          "ja": "彼は毎日サッカーをします。",
+          "kind": "phrase",
+          "cell": 1,
+          "scene": "Boy practicing soccer beside a seven-column weekly calendar with every day marked the same way; no text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-755"
+        },
+        {
+          "index": 756,
+          "id": "g5-p-extra-she-doesn-t-play-the-piano",
+          "en": "She doesn't play the piano.",
+          "ja": "彼女はピアノを弾きません。",
+          "kind": "phrase",
+          "cell": 2,
+          "scene": "Girl seated away from a closed piano, choosing to read instead; her hands clearly not on keys.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-756"
+        },
+        {
+          "index": 757,
+          "id": "g5-p-extra-what-do-you-have-for-breakfast",
+          "en": "What do you have for breakfast?",
+          "ja": "朝食に何を食べますか。",
+          "kind": "phrase",
+          "cell": 3,
+          "scene": "Parent asks child about breakfast while offering a choice of bread, eggs and milk at morning table.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-757"
+        },
+        {
+          "index": 758,
+          "id": "g5-p-extra-i-have-bread-and-milk",
+          "en": "I have bread and milk.",
+          "ja": "パンと牛乳をとります。",
+          "kind": "phrase",
+          "cell": 4,
+          "scene": "Child eating breakfast with exactly bread and a glass of milk clearly visible, morning window.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-758"
+        },
+        {
+          "index": 759,
+          "id": "g5-p-extra-when-do-you-get-up",
+          "en": "When do you get up?",
+          "ja": "いつ起きますか。",
+          "kind": "phrase",
+          "cell": 5,
+          "scene": "Child asks a friend about wake-up time, gestures between bed and alarm clock.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-759"
+        },
+        {
+          "index": 760,
+          "id": "g5-p-extra-i-get-up-at-seven",
+          "en": "I get up at seven.",
+          "ja": "7時に起きます。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "Child sitting up awake in bed in morning, analog alarm clock shows exactly seven o'clock.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-760"
+        },
+        {
+          "index": 761,
+          "id": "g5-p-extra-i-go-to-bed-at-nine",
+          "en": "I go to bed at nine.",
+          "ja": "9時に寝ます。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "Child in pajamas climbing into bed at night, analog clock shows exactly nine o'clock.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-761"
+        },
+        {
+          "index": 762,
+          "id": "g5-p-extra-what-do-you-do-after-school",
+          "en": "What do you do after school?",
+          "ja": "放課後は何をしますか。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "Students leaving school discuss what to do next, one gestures toward home and a playground.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-762"
+        },
+        {
+          "index": 763,
+          "id": "g5-p-extra-i-do-my-homework-after-school",
+          "en": "I do my homework after school.",
+          "ja": "放課後に宿題をします。",
+          "kind": "phrase",
+          "cell": 9,
+          "scene": "Child doing homework at home with schoolbag beside desk, afternoon school release in a small background inset.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-763"
+        },
+        {
+          "index": 764,
+          "id": "g5-p-extra-how-do-you-go-to-school",
+          "en": "How do you go to school?",
+          "ja": "どうやって学校に行きますか。",
+          "kind": "phrase",
+          "cell": 10,
+          "scene": "Two children discuss how to travel to school, choices of bus, bicycle and walking shown as small clear thought pictures.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-764"
+        },
+        {
+          "index": 765,
+          "id": "g5-p-extra-i-walk-to-school",
+          "en": "I walk to school.",
+          "ja": "歩いて学校へ行きます。",
+          "kind": "phrase",
+          "cell": 11,
+          "scene": "Child walking on a safe sidewalk TOWARD school with backpack, school entrance visible ahead.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-765"
+        },
+        {
+          "index": 766,
+          "id": "g5-p-extra-how-much-is-this",
+          "en": "How much is this?",
+          "ja": "これはいくらですか。",
+          "kind": "phrase",
+          "cell": 12,
+          "scene": "Customer child asks shopkeeper the price of a toy, points between toy and money.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-766"
+        },
+        {
+          "index": 767,
+          "id": "g5-p-extra-it-s-five-hundred-yen",
+          "en": "It's five hundred yen.",
+          "ja": "500円です。",
+          "kind": "phrase",
+          "cell": 13,
+          "scene": "A single Japanese five-hundred-yen coin with plain numeral '500' large and centered, no other readable letters or money.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-767"
+        },
+        {
+          "index": 768,
+          "id": "g5-p-extra-may-i-help-you",
+          "en": "May I help you?",
+          "ja": "いらっしゃいませ。何かお探しですか。",
+          "kind": "phrase",
+          "cell": 14,
+          "scene": "Friendly shop assistant offering help to a browsing child and parent, open welcoming hands, store shelves visible.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-768"
+        },
+        {
+          "index": 769,
+          "id": "g5-p-extra-i-d-like-this-one",
+          "en": "I'd like this one.",
+          "ja": "これをいただきたいです。",
+          "kind": "phrase",
+          "cell": 15,
+          "scene": "Child politely points to ONE chosen item on a shop counter, shopkeeper ready to assist.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-769"
+        },
+        {
+          "index": 770,
+          "id": "g5-p-extra-anything-else",
+          "en": "Anything else?",
+          "ja": "ほかに何かありますか。",
+          "kind": "phrase",
+          "cell": 16,
+          "scene": "Shopkeeper gestures politely toward remaining items after placing one purchase on the counter, asking if customer wants anything else.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-770"
+        }
+      ],
+      "promptFile": "batch09-prompt.txt",
+      "status": "rejected-grid",
+      "rejection": "Grid line 1 has invalid thickness; no crops adopted."
+    },
+    {
+      "number": 10,
+      "entries": [
+        {
+          "index": 771,
+          "id": "g5-p-extra-no-thank-you",
+          "en": "No, thank you.",
+          "ja": "いいえ、結構です。",
+          "kind": "phrase",
+          "cell": 1,
+          "scene": "Child politely declines an offered snack with a smile and gentle raised palm, no hostile expression.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-771"
+        },
+        {
+          "index": 772,
+          "id": "g5-p-extra-can-i-have-some-water",
+          "en": "Can I have some water?",
+          "ja": "水をもらえますか。",
+          "kind": "phrase",
+          "cell": 2,
+          "scene": "Child politely requests water from a parent, empty glass in open hand and water pitcher nearby.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-772"
+        },
+        {
+          "index": 773,
+          "id": "g5-p-extra-you-re-welcome",
+          "en": "You're welcome.",
+          "ja": "どういたしまして。（短縮形）",
+          "kind": "phrase",
+          "cell": 3,
+          "scene": "Helpful child warmly acknowledging a friend's thanks with a relaxed open palm, recovered pencil between them.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-773"
+        },
+        {
+          "index": 774,
+          "id": "g5-p-extra-i-m-hungry",
+          "en": "I'm hungry.",
+          "ja": "おなかがすいています。",
+          "kind": "phrase",
+          "cell": 4,
+          "scene": "Child sitting at table with empty plate, hand on rumbling stomach and hungry face.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-774"
+        },
+        {
+          "index": 775,
+          "id": "g5-p-extra-i-m-thirsty",
+          "en": "I'm thirsty.",
+          "ja": "喉が渇いています。",
+          "kind": "phrase",
+          "cell": 5,
+          "scene": "Child after exercise, thirsty face and hand at throat, thought bubble contains a clear glass of water.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-775"
+        },
+        {
+          "index": 776,
+          "id": "g5-p-extra-let-s-have-lunch",
+          "en": "Let's have lunch.",
+          "ja": "昼食にしましょう。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "Child invites friends to a lunch table with food ready, welcoming open hand toward seats.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-776"
+        },
+        {
+          "index": 777,
+          "id": "g5-p-extra-how-about-some-juice",
+          "en": "How about some juice?",
+          "ja": "ジュースはいかがですか。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "Child offering a clear pitcher and glass of orange juice to a friend, friendly questioning smile.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-777"
+        },
+        {
+          "index": 778,
+          "id": "g5-p-extra-how-s-the-weather-today",
+          "en": "How's the weather today?",
+          "ja": "今日の天気はどうですか。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "Children at a window discussing today's weather, one gestures outside toward sky.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-778"
+        },
+        {
+          "index": 779,
+          "id": "g5-p-extra-it-s-sunny-today",
+          "en": "It's sunny today.",
+          "ja": "今日は晴れです。",
+          "kind": "phrase",
+          "cell": 9,
+          "scene": "Child looking out happily at a bright sunny daytime sky, clear visible sunshine.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-779"
+        },
+        {
+          "index": 780,
+          "id": "g5-p-extra-it-s-cold-in-winter",
+          "en": "It's cold in winter.",
+          "ja": "冬は寒いです。",
+          "kind": "phrase",
+          "cell": 10,
+          "scene": "Child bundled in coat and scarf shivering in a snowy winter landscape, breath visible.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-780"
+        },
+        {
+          "index": 781,
+          "id": "g5-p-extra-what-season-do-you-like",
+          "en": "What season do you like?",
+          "ja": "どの季節が好きですか。",
+          "kind": "phrase",
+          "cell": 11,
+          "scene": "Child asking a friend their favorite season, four small thought scenes show spring blossom, summer beach, autumn leaves, winter snow.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-781"
+        },
+        {
+          "index": 782,
+          "id": "g5-p-extra-i-like-summer",
+          "en": "I like summer.",
+          "ja": "夏が好きです。",
+          "kind": "phrase",
+          "cell": 12,
+          "scene": "Child joyfully playing safely at a summer beach, bright sun, summer hat and small heart.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-782"
+        },
+        {
+          "index": 783,
+          "id": "g5-p-extra-what-can-you-do",
+          "en": "What can you do?",
+          "ja": "何ができますか。",
+          "kind": "phrase",
+          "cell": 13,
+          "scene": "Two children discussing their skills; simple thought pictures of dancing, swimming and piano, asking gesture.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-783"
+        },
+        {
+          "index": 784,
+          "id": "g5-p-extra-i-can-play-the-piano",
+          "en": "I can play the piano.",
+          "ja": "ピアノが弾けます。",
+          "kind": "phrase",
+          "cell": 14,
+          "scene": "Child confidently PLAYING piano, both hands correctly on keys, happy concentrated expression.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-784"
+        },
+        {
+          "index": 785,
+          "id": "g5-p-extra-i-can-t-swim",
+          "en": "I can't swim.",
+          "ja": "泳げません。",
+          "kind": "phrase",
+          "cell": 15,
+          "scene": "Child safely seated on pool deck wearing a flotation vest, looking hesitant and gently shaking head; no drowning or distressed water scene.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-785"
+        },
+        {
+          "index": 786,
+          "id": "g5-p-extra-yes-i-can",
+          "en": "Yes, I can.",
+          "ja": "はい、できます。",
+          "kind": "phrase",
+          "cell": 16,
+          "scene": "Child confidently nodding yes beside a pool and swim goggles, capable positive gesture.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-786"
+        }
+      ],
+      "promptFile": "batch10-prompt.txt",
+      "status": "cropped",
+      "sourceSha256": "eba4b7a1e4ff90ab3f31d88593e9c0b8042e35de0e5054cad4a7a593dbf0971c"
+    },
+    {
+      "number": 11,
+      "entries": [
+        {
+          "index": 787,
+          "id": "g5-p-extra-no-i-can-t",
+          "en": "No, I can't.",
+          "ja": "いいえ、できません。",
+          "kind": "phrase",
+          "cell": 1,
+          "scene": "Child gently shakes head no beside a pool, remains safely on deck, no water distress.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-787"
+        },
+        {
+          "index": 788,
+          "id": "g5-p-extra-can-you-help-me",
+          "en": "Can you help me?",
+          "ja": "手伝ってくれますか。",
+          "kind": "phrase",
+          "cell": 2,
+          "scene": "Child asks a friend to help carry a large lightweight box, open requesting hand, friend listening.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-788"
+        },
+        {
+          "index": 789,
+          "id": "g5-p-extra-sure",
+          "en": "Sure.",
+          "ja": "もちろんです。",
+          "kind": "phrase",
+          "cell": 3,
+          "scene": "Friend readily agrees to help carry a box, confident warm smile and thumb up.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-789"
+        },
+        {
+          "index": 790,
+          "id": "g5-p-extra-sorry-i-can-t",
+          "en": "Sorry, I can't.",
+          "ja": "ごめんなさい、できません。",
+          "kind": "phrase",
+          "cell": 4,
+          "scene": "Child politely declines an invitation with a remorseful expression and gently raised open palm.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-790"
+        },
+        {
+          "index": 791,
+          "id": "g5-p-extra-let-s-go-to-the-park",
+          "en": "Let's go to the park.",
+          "ja": "公園へ行きましょう。",
+          "kind": "phrase",
+          "cell": 5,
+          "scene": "Child invites friends toward a nearby park with swings and trees, open welcoming hand.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-791"
+        },
+        {
+          "index": 792,
+          "id": "g5-p-extra-that-s-a-good-idea",
+          "en": "That's a good idea.",
+          "ja": "それはよい考えです。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "Child reacts enthusiastically to a friend's park outing idea, thumb up and small bright idea symbol.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-792"
+        },
+        {
+          "index": 793,
+          "id": "g5-p-extra-sorry-i-m-busy",
+          "en": "Sorry, I'm busy.",
+          "ja": "ごめんなさい、忙しいです。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "Child busy with homework politely declines a friend's invitation at window, apologetic raised palm.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-793"
+        },
+        {
+          "index": 794,
+          "id": "g5-p-extra-are-you-free-tomorrow",
+          "en": "Are you free tomorrow?",
+          "ja": "明日は暇ですか。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "Two friends looking at a calendar together and discussing an empty next-day slot, one asks with an inviting gesture.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-794"
+        },
+        {
+          "index": 795,
+          "id": "g5-p-extra-please-come-in",
+          "en": "Please come in.",
+          "ja": "どうぞ入ってください。",
+          "kind": "phrase",
+          "cell": 9,
+          "scene": "Host child stands beside an OPEN doorway and politely welcomes a friend INSIDE with open arm.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-795"
+        },
+        {
+          "index": 796,
+          "id": "g5-p-extra-please-sit-down",
+          "en": "Please sit down.",
+          "ja": "座ってください。",
+          "kind": "phrase",
+          "cell": 10,
+          "scene": "Teacher politely gestures to an empty chair while child prepares to sit down.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-796"
+        },
+        {
+          "index": 797,
+          "id": "g5-p-extra-stand-up-please",
+          "en": "Stand up, please.",
+          "ja": "立ってください。",
+          "kind": "phrase",
+          "cell": 11,
+          "scene": "Teacher gently gestures upward while a student rises from a chair, whole body visible.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-797"
+        },
+        {
+          "index": 798,
+          "id": "g5-p-extra-don-t-run-here",
+          "en": "Don't run here.",
+          "ja": "ここでは走らないで。",
+          "kind": "phrase",
+          "cell": 12,
+          "scene": "Teacher stops a running child in a school corridor with a calm open palm; small red crossed-out running symbol.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-798"
+        },
+        {
+          "index": 799,
+          "id": "g5-p-extra-be-careful",
+          "en": "Be careful.",
+          "ja": "気をつけて。",
+          "kind": "phrase",
+          "cell": 13,
+          "scene": "Child warns a friend about a small puddle on the path, careful pointing gesture and attentive face.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-799"
+        },
+        {
+          "index": 800,
+          "id": "g5-p-extra-please-be-quiet",
+          "en": "Please be quiet.",
+          "ja": "静かにしてください。",
+          "kind": "phrase",
+          "cell": 14,
+          "scene": "Teacher puts a finger to lips in a quiet library, children listen respectfully.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-800"
+        },
+        {
+          "index": 801,
+          "id": "g5-p-extra-turn-right-at-the-corner",
+          "en": "Turn right at the corner.",
+          "ja": "角で右に曲がって。",
+          "kind": "phrase",
+          "cell": 15,
+          "scene": "Simple overhead street corner, a child walking away from viewer approaches then turns to their RIGHT, one clear orange right-turn arrow, no labels.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-801"
+        },
+        {
+          "index": 802,
+          "id": "g5-p-extra-the-bank-is-next-to-the-station",
+          "en": "The bank is next to the station.",
+          "ja": "銀行は駅の隣です。",
+          "kind": "phrase",
+          "cell": 16,
+          "scene": "A bank building with a coin icon immediately NEXT TO a train station with train icon, both buildings clearly separate, no text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-802"
+        }
+      ],
+      "promptFile": "batch11-prompt.txt",
+      "status": "cropped",
+      "sourceSha256": "28c7dda06bd29f439f2c80672a80577eeead535d76439829f3fbf68697c5dbee"
+    },
+    {
+      "number": 12,
+      "entries": [
+        {
+          "index": 803,
+          "id": "g5-p-extra-where-is-the-post-office",
+          "en": "Where is the post office?",
+          "ja": "郵便局はどこですか。",
+          "kind": "phrase",
+          "cell": 1,
+          "scene": "Child asking an adult for directions to a post office, holding a map with envelope icon.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-803"
+        },
+        {
+          "index": 804,
+          "id": "g5-p-extra-it-s-near-the-park",
+          "en": "It's near the park.",
+          "ja": "公園の近くです。",
+          "kind": "phrase",
+          "cell": 2,
+          "scene": "A small destination building very NEAR a park with trees and swings, short dotted path connects them.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-804"
+        },
+        {
+          "index": 805,
+          "id": "g5-p-extra-there-is-a-cat-under-the-table",
+          "en": "There is a cat under the table.",
+          "ja": "テーブルの下に猫がいます。",
+          "kind": "phrase",
+          "cell": 3,
+          "scene": "Exactly ONE cat sitting entirely UNDER a wooden table, all table legs visible, no desk.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-805"
+        },
+        {
+          "index": 806,
+          "id": "g5-p-extra-there-are-three-books-on-the-desk",
+          "en": "There are three books on the desk.",
+          "ja": "机の上に本が3冊あります。",
+          "kind": "phrase",
+          "cell": 4,
+          "scene": "Exactly THREE separate books resting ON a desk, no other books anywhere.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-806"
+        },
+        {
+          "index": 807,
+          "id": "g5-p-extra-is-he-reading-a-book",
+          "en": "Is he reading a book?",
+          "ja": "彼は本を読んでいますか。",
+          "kind": "phrase",
+          "cell": 5,
+          "scene": "One child asks another about a boy nearby who is actively reading an open book.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-807"
+        },
+        {
+          "index": 808,
+          "id": "g5-p-extra-yes-he-is",
+          "en": "Yes, he is.",
+          "ja": "はい、彼はそうしています。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "Child nodding yes toward a boy actively reading an open book, clear affirmative expression.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-808"
+        },
+        {
+          "index": 809,
+          "id": "g5-p-extra-no-he-isn-t",
+          "en": "No, he isn't.",
+          "ja": "いいえ、彼はそうしていません。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "Child shaking head no toward a boy whose book is closed while he plays with blocks instead.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-809"
+        },
+        {
+          "index": 810,
+          "id": "g5-p-extra-they-are-playing-soccer",
+          "en": "They are playing soccer.",
+          "ja": "彼らはサッカーをしています。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "Three children actively playing soccer together on a field, ball and goal visible.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-810"
+        },
+        {
+          "index": 811,
+          "id": "g5-p-extra-i-m-not-watching-tv",
+          "en": "I'm not watching TV.",
+          "ja": "テレビを見ていません。",
+          "kind": "phrase",
+          "cell": 9,
+          "scene": "Child sitting with back turned away from television, reading a book instead, TV screen dark.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-811"
+        },
+        {
+          "index": 812,
+          "id": "g5-p-extra-what-is-she-doing",
+          "en": "What is she doing?",
+          "ja": "彼女は何をしていますか。",
+          "kind": "phrase",
+          "cell": 10,
+          "scene": "Child asking about a girl nearby who is mixing food in a kitchen, questioning gesture toward her.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-812"
+        },
+        {
+          "index": 813,
+          "id": "g5-p-extra-she-is-cooking-dinner",
+          "en": "She is cooking dinner.",
+          "ja": "彼女は夕食を作っています。",
+          "kind": "phrase",
+          "cell": 11,
+          "scene": "Girl preparing dinner safely in a kitchen, mixing vegetables in a bowl, evening visible outside, no sharp knife.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-813"
+        },
+        {
+          "index": 814,
+          "id": "g5-p-extra-i-want-to-be-a-teacher",
+          "en": "I want to be a teacher.",
+          "ja": "先生になりたいです。",
+          "kind": "phrase",
+          "cell": 12,
+          "scene": "Child dreaming of becoming a teacher: child at desk and thought bubble of their adult self teaching at a board.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-814"
+        },
+        {
+          "index": 815,
+          "id": "g5-p-extra-i-like-playing-tennis",
+          "en": "I like playing tennis.",
+          "ja": "テニスをするのが好きです。",
+          "kind": "phrase",
+          "cell": 13,
+          "scene": "Child happily playing tennis with a friend, correct racket and net, small heart shows liking.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-815"
+        },
+        {
+          "index": 816,
+          "id": "g5-p-extra-happy-birthday",
+          "en": "Happy birthday!",
+          "ja": "お誕生日おめでとう。",
+          "kind": "phrase",
+          "cell": 14,
+          "scene": "Friends joyfully celebrating a child's birthday with a cake and presents, warm congratulating gestures.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-816"
+        },
+        {
+          "index": 817,
+          "id": "g5-p-extra-happy-new-year",
+          "en": "Happy New Year!",
+          "ja": "あけましておめでとう。",
+          "kind": "phrase",
+          "cell": 15,
+          "scene": "Family warmly greeting each other on New Year's morning, Japanese pine-and-bamboo door decoration visible, no written signs.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-817"
+        },
+        {
+          "index": 818,
+          "id": "g5-p-extra-have-a-nice-day",
+          "en": "Have a nice day.",
+          "ja": "よい1日を。",
+          "kind": "phrase",
+          "cell": 16,
+          "scene": "Parent waves child off to school in bright morning sunshine, warm encouraging smile for the day.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-818"
+        }
+      ],
+      "promptFile": "batch12-prompt.txt",
+      "status": "cropped",
+      "sourceSha256": "58dfe79ab5cafb453f416473fb3f34c9369977c7faa0a36e8401052e67bca001"
+    },
+    {
+      "number": 13,
+      "entries": [
+        {
+          "index": 819,
+          "id": "g5-p-extra-have-a-good-time",
+          "en": "Have a good time.",
+          "ja": "楽しんできてね。",
+          "kind": "phrase",
+          "cell": 1,
+          "scene": "Parent warmly waves children off on a picnic outing with basket and blanket, encouraging enjoyment.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-819"
+        },
+        {
+          "index": 820,
+          "id": "g5-p-extra-see-you-later",
+          "en": "See you later.",
+          "ja": "またあとで。",
+          "kind": "phrase",
+          "cell": 2,
+          "scene": "Friends wave as they briefly part in a park; small thought bubble shows meeting again later the same day.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-820"
+        },
+        {
+          "index": 821,
+          "id": "g5-p-extra-take-care",
+          "en": "Take care.",
+          "ja": "元気でね。",
+          "kind": "phrase",
+          "cell": 3,
+          "scene": "Child warmly waves goodbye to a departing friend, caring expression and open hand over heart.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-821"
+        },
+        {
+          "index": 822,
+          "id": "g5-p-extra-are-you-ok",
+          "en": "Are you OK?",
+          "ja": "大丈夫ですか。",
+          "kind": "phrase",
+          "cell": 4,
+          "scene": "Child gently checks on a friend sitting after a minor stumble, concerned kind expression, no injury detail.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-822"
+        },
+        {
+          "index": 823,
+          "id": "g5-p-extra-i-m-tired",
+          "en": "I'm tired.",
+          "ja": "疲れています。",
+          "kind": "phrase",
+          "cell": 5,
+          "scene": "Child resting after running, shoulders drooped, hands on knees, visibly tired but safe.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-823"
+        },
+        {
+          "index": 824,
+          "id": "g5-p-extra-what-s-wrong",
+          "en": "What's wrong?",
+          "ja": "どうしたのですか。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "Child compassionately asks a sad friend what happened, open questioning hand, concerned face.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-824"
+        },
+        {
+          "index": 825,
+          "id": "g5-p-extra-one-more-time-please",
+          "en": "One more time, please.",
+          "ja": "もう一度お願いします。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "Student politely requests a teacher to repeat, listening hand near ear and one curved repeat arrow between them.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-825"
+        },
+        {
+          "index": 826,
+          "id": "g5-p-extra-please-speak-slowly",
+          "en": "Please speak slowly.",
+          "ja": "ゆっくり話してください。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "Student politely asks teacher to speak slowly, listening hand at ear, teacher using calm spaced gestures, no text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-826"
+        },
+        {
+          "index": 827,
+          "id": "g5-p-extra-i-don-t-understand",
+          "en": "I don't understand.",
+          "ja": "わかりません。",
+          "kind": "phrase",
+          "cell": 9,
+          "scene": "Child looking puzzled at a book and gently shrugging, teacher beside ready to explain, not angry.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-827"
+        },
+        {
+          "index": 828,
+          "id": "g5-p-extra-how-do-you-say-this-in-english",
+          "en": "How do you say this in English?",
+          "ja": "これは英語で何と言いますか。",
+          "kind": "phrase",
+          "cell": 10,
+          "scene": "Child points to a familiar object and asks an English teacher for its English name, open notebook and English lesson context, no readable text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-828"
+        },
+        {
+          "index": 829,
+          "id": "g5-p-extra-what-does-this-word-mean",
+          "en": "What does this word mean?",
+          "ja": "この単語はどういう意味ですか。",
+          "kind": "phrase",
+          "cell": 11,
+          "scene": "Student points at one word-shaped mark in an open book and asks teacher for its meaning, teacher listens, no readable text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-829"
+        },
+        {
+          "index": 884,
+          "id": "g5-p-rj-what-s-the-date-today",
+          "en": "What's the date today?",
+          "ja": "今日は何月何日ですか。",
+          "kind": "phrase",
+          "cell": 12,
+          "scene": "Child asks a friend today's date while pointing to one circled cell in a monthly calendar, no text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-884"
+        },
+        {
+          "index": 885,
+          "id": "g5-p-rj-how-do-you-get-to-the-station",
+          "en": "How do you get to the station?",
+          "ja": "駅へはどうやって行きますか。",
+          "kind": "phrase",
+          "cell": 13,
+          "scene": "Child asks an adult how to get to the train station, map showing a path toward a station with train icon, no text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-885"
+        },
+        {
+          "index": 886,
+          "id": "g5-p-rj-this-bag-is-his",
+          "en": "This bag is his.",
+          "ja": "このかばんは彼のものです。",
+          "kind": "phrase",
+          "cell": 14,
+          "scene": "A girl points to a schoolbag beside a boy; ownership connector clearly links ONLY the bag and the boy, not the girl.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-886"
+        },
+        {
+          "index": 887,
+          "id": "g5-p-rj-he-is-a-piano-player",
+          "en": "He is a piano player.",
+          "ja": "彼はピアノの演奏者です。",
+          "kind": "phrase",
+          "cell": 15,
+          "scene": "An adult male musician actively playing a piano on a small stage, clear full piano and correct seated posture.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-887"
+        },
+        {
+          "index": 888,
+          "id": "g5-p-rj-please-ask-him-for-help",
+          "en": "Please ask him for help.",
+          "ja": "彼に助けをお願いしてください。",
+          "kind": "phrase",
+          "cell": 16,
+          "scene": "Teacher politely directs one child toward a male classmate who can help, the helper boy offers a hand with a difficult puzzle.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-888"
+        }
+      ],
+      "promptFile": "batch13-prompt.txt",
+      "status": "cropped",
+      "sourceSha256": "0f912ef31b20443f401cf408eef218abd9d6e0b91af4f52a33c61d9f319c8e2b"
+    },
+    {
+      "number": 14,
+      "entries": [
+        {
+          "index": 755,
+          "id": "g5-p-extra-he-plays-soccer-every-day",
+          "en": "He plays soccer every day.",
+          "ja": "彼は毎日サッカーをします。",
+          "kind": "phrase",
+          "cell": 1,
+          "scene": "Boy practicing soccer beside a seven-column weekly calendar with every day marked the same way; no text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-755"
+        },
+        {
+          "index": 756,
+          "id": "g5-p-extra-she-doesn-t-play-the-piano",
+          "en": "She doesn't play the piano.",
+          "ja": "彼女はピアノを弾きません。",
+          "kind": "phrase",
+          "cell": 2,
+          "scene": "Girl seated away from a closed piano, choosing to read instead; her hands clearly not on keys.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-756"
+        },
+        {
+          "index": 757,
+          "id": "g5-p-extra-what-do-you-have-for-breakfast",
+          "en": "What do you have for breakfast?",
+          "ja": "朝食に何を食べますか。",
+          "kind": "phrase",
+          "cell": 3,
+          "scene": "Parent asks child about breakfast while offering a choice of bread, eggs and milk at morning table.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-757"
+        },
+        {
+          "index": 758,
+          "id": "g5-p-extra-i-have-bread-and-milk",
+          "en": "I have bread and milk.",
+          "ja": "パンと牛乳をとります。",
+          "kind": "phrase",
+          "cell": 4,
+          "scene": "Child eating breakfast with exactly bread and a glass of milk clearly visible, morning window.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-758"
+        },
+        {
+          "index": 759,
+          "id": "g5-p-extra-when-do-you-get-up",
+          "en": "When do you get up?",
+          "ja": "いつ起きますか。",
+          "kind": "phrase",
+          "cell": 5,
+          "scene": "Child asks a friend about wake-up time, gestures between bed and alarm clock.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-759"
+        },
+        {
+          "index": 760,
+          "id": "g5-p-extra-i-get-up-at-seven",
+          "en": "I get up at seven.",
+          "ja": "7時に起きます。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "Child sitting up awake in bed in morning, analog alarm clock shows exactly seven o'clock.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-760"
+        },
+        {
+          "index": 761,
+          "id": "g5-p-extra-i-go-to-bed-at-nine",
+          "en": "I go to bed at nine.",
+          "ja": "9時に寝ます。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "Child in pajamas climbing into bed at night, analog clock shows exactly nine o'clock.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-761"
+        },
+        {
+          "index": 762,
+          "id": "g5-p-extra-what-do-you-do-after-school",
+          "en": "What do you do after school?",
+          "ja": "放課後は何をしますか。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "Students leaving school discuss what to do next, one gestures toward home and a playground.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-762"
+        },
+        {
+          "index": 763,
+          "id": "g5-p-extra-i-do-my-homework-after-school",
+          "en": "I do my homework after school.",
+          "ja": "放課後に宿題をします。",
+          "kind": "phrase",
+          "cell": 9,
+          "scene": "Child doing homework at home with schoolbag beside desk, afternoon school release in a small background inset.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-763"
+        },
+        {
+          "index": 764,
+          "id": "g5-p-extra-how-do-you-go-to-school",
+          "en": "How do you go to school?",
+          "ja": "どうやって学校に行きますか。",
+          "kind": "phrase",
+          "cell": 10,
+          "scene": "Two children discuss how to travel to school, choices of bus, bicycle and walking shown as small clear thought pictures.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-764"
+        },
+        {
+          "index": 765,
+          "id": "g5-p-extra-i-walk-to-school",
+          "en": "I walk to school.",
+          "ja": "歩いて学校へ行きます。",
+          "kind": "phrase",
+          "cell": 11,
+          "scene": "Child walking on a safe sidewalk TOWARD school with backpack, school entrance visible ahead.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-765"
+        },
+        {
+          "index": 766,
+          "id": "g5-p-extra-how-much-is-this",
+          "en": "How much is this?",
+          "ja": "これはいくらですか。",
+          "kind": "phrase",
+          "cell": 12,
+          "scene": "Customer child asks shopkeeper the price of a toy, points between toy and money.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-766"
+        },
+        {
+          "index": 767,
+          "id": "g5-p-extra-it-s-five-hundred-yen",
+          "en": "It's five hundred yen.",
+          "ja": "500円です。",
+          "kind": "phrase",
+          "cell": 13,
+          "scene": "A single Japanese five-hundred-yen coin with plain numeral '500' large and centered, no other readable letters or money.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-767"
+        },
+        {
+          "index": 768,
+          "id": "g5-p-extra-may-i-help-you",
+          "en": "May I help you?",
+          "ja": "いらっしゃいませ。何かお探しですか。",
+          "kind": "phrase",
+          "cell": 14,
+          "scene": "Friendly shop assistant offering help to a browsing child and parent, open welcoming hands, store shelves visible.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-768"
+        },
+        {
+          "index": 769,
+          "id": "g5-p-extra-i-d-like-this-one",
+          "en": "I'd like this one.",
+          "ja": "これをいただきたいです。",
+          "kind": "phrase",
+          "cell": 15,
+          "scene": "Child politely points to ONE chosen item on a shop counter, shopkeeper ready to assist.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-769"
+        },
+        {
+          "index": 770,
+          "id": "g5-p-extra-anything-else",
+          "en": "Anything else?",
+          "ja": "ほかに何かありますか。",
+          "kind": "phrase",
+          "cell": 16,
+          "scene": "Shopkeeper gestures politely toward remaining items after placing one purchase on the counter, asking if customer wants anything else.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-770"
+        }
+      ],
+      "promptFile": "batch14-prompt.txt",
+      "status": "cropped",
+      "retryOf": 9,
+      "sourceSha256": "88688af2152da92ed7494dbb83f41de35874b39431cfdbeb97035409b7a87b1a"
+    },
+    {
+      "number": 15,
+      "status": "cropped",
+      "promptFile": "batch15-prompt.txt",
+      "entries": [
+        {
+          "index": 372,
+          "id": "g5-w-uncle",
+          "en": "uncle",
+          "ja": "おじ",
+          "kind": "word",
+          "cell": 1,
+          "scene": "A clear illustrated FAMILY TREE with six nodes: two grandparents together at TOP, connector down to two adult BROTHERS on middle row. LEFT brother is Dad, RIGHT brother is Uncle. Dad connects down to one child Me at bottom. Uncle has no child node. Orange pointer highlights ONLY Uncle. Use short exact labels Dad, Uncle, Me beside these three nodes. All connectors unambiguous.",
+          "reason": "父子に見える2人だけで、おじの関係が表れていない。",
+          "name": "eiken-audit-372",
+          "previousScene": "A clear simple family relationship scene: two adult brothers side by side with a small boy beside his father; orange pointer highlights the OTHER adult, the child's uncle. Small identical childhood portrait of the two brothers behind them. No text.",
+          "retryReason": "人物を並べただけで父親とおじの関係を読み取れない。家系図として再生成。"
+        },
+        {
+          "index": 373,
+          "id": "g5-w-aunt",
+          "en": "aunt",
+          "ja": "おば",
+          "kind": "word",
+          "cell": 2,
+          "scene": "A clear illustrated FAMILY TREE: two grandparents together at TOP, connector down to two adult SISTERS on middle row. LEFT sister is Mom, RIGHT sister is Aunt. Mom connects down to one child Me at bottom. Aunt has no child node. Orange pointer highlights ONLY Aunt. Use short exact labels Mom, Aunt, Me. All connectors unambiguous.",
+          "reason": "複数の女性がいるだけで、おばの対象と親との関係が分からない。",
+          "name": "eiken-audit-373",
+          "previousScene": "A mother and her adult sister standing beside the mother's young daughter. Orange pointer highlights the mother's sister, the child's aunt. No other people or text.",
+          "retryReason": "母とおばの関係が弱く、家系図として再生成。"
+        },
+        {
+          "index": 374,
+          "id": "g5-w-cousin",
+          "en": "cousin",
+          "ja": "いとこ",
+          "kind": "word",
+          "cell": 3,
+          "scene": "A clear illustrated FAMILY TREE: two grandparents together at TOP, connector down to two adult sisters on middle row. EACH sister has a connector DOWN to her own child at bottom. Bottom children are Me and Cousin. Orange pointer highlights ONLY Cousin. Use exact labels Me and Cousin. Do NOT connect the two children as siblings.",
+          "reason": "子ども同士の遊びだけでは友達や兄弟と区別できず、いとこの関係が弱い。",
+          "name": "eiken-audit-374",
+          "previousScene": "A clear two-family group: two adult sisters each standing behind her own child; the two children play a board game together in front, orange pointers highlight both cousins. No text.",
+          "retryReason": "いとこの親同士がきょうだいであることが見えないため再生成。"
+        },
+        {
+          "index": 602,
+          "id": "g5-w-now",
+          "en": "now",
+          "ja": "今",
+          "kind": "word",
+          "cell": 4,
+          "scene": "A simple left-to-right timeline with THREE distinct picture panels inside this single vocabulary cell: left washed-out past image of child waking, center LARGE full-color child brushing teeth, right washed-out future image of child at school. Highlight ONLY central present action with orange frame. Exact central label NOW in large readable letters. Small labels BEFORE at left and LATER at right.",
+          "reason": "特定時刻の時計だけでnow（現在）とは読めない。",
+          "name": "eiken-audit-602",
+          "previousScene": "A child brushing teeth RIGHT NOW, orange pointer highlighting the present action; a small thought bubble shows the same toothbrush without a person to distinguish action from object. No clock face, no text.",
+          "retryReason": "歯磨きだけではnowの現在を示せないため、過去・現在・後の対比として再生成。"
+        },
+        {
+          "index": 660,
+          "id": "g5-w-age",
+          "en": "age",
+          "ja": "年齢",
+          "kind": "word",
+          "cell": 5,
+          "scene": "A single person growing in THREE consecutive framed portraits: baby, child, adult. Small orange rightward arrow shows age increasing, simple large human portraits, no cake or candles, no numerals or text.",
+          "reason": "若者と高齢者を並べたyoungの絵でageの年齢が表れない。",
+          "name": "eiken-audit-660",
+          "previousScene": "A birthday scene with one child and exactly seven unlit candles arranged on the cake; several earlier photos of the same child as baby and toddler nearby to show growing age. No text.",
+          "retryReason": "初回の指定個数にずれがあったため、年齢の変化を数に依存しない構図にする。"
+        },
+        {
+          "index": 112,
+          "id": "g5-p-13",
+          "en": "I'm eleven.",
+          "ja": "わたしは11歳です。",
+          "kind": "phrase",
+          "cell": 6,
+          "scene": "An eleven-year-old child points to self beside a birthday cake. On the cake stand EXACTLY TWO numeral-shaped birthday candles, each shaped as digit 1, side by side to read 11. Candles are physically rooted in cake, NOT floating, no other candles. A small exact badge 11 is allowed.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-112",
+          "previousScene": "An eleven-year-old child pointing to self beside a birthday cake with exactly eleven small unlit candles, arranged six plus five.",
+          "retryReason": "11本のろうそくが宙に浮いており不自然。11を示す数字ろうそく2本へ描き直す。"
+        },
+        {
+          "index": 238,
+          "id": "g5-p-39",
+          "en": "My birthday is in May.",
+          "ja": "わたしの誕生日は5月です。",
+          "kind": "phrase",
+          "cell": 7,
+          "scene": "A birthday cake beside ONE simple calendar page. At the top of calendar page write exact large English month MAY. Below it, a plain grid of blank date cells without numbers. No miniature set of calendar pages. Cake and MAY must be equally prominent.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-238",
+          "previousScene": "A birthday cake beside a twelve-month calendar represented by twelve small pages in a 3x4 arrangement, ONLY fifth page highlighted; no text or numerals.",
+          "retryReason": "12か月のページが9枚となり5月の対応も違うため、MAYの暦として再生成。"
+        },
+        {
+          "index": 814,
+          "id": "g5-p-extra-i-want-to-be-a-teacher",
+          "en": "I want to be a teacher.",
+          "ja": "先生になりたいです。",
+          "kind": "phrase",
+          "cell": 8,
+          "scene": "A young child boy at a desk thinks about his future self as a TEACHER. One clear thought bubble contains a grown male teacher with same dark hair teaching children at a board, same face identity adapted to adult. Child looks hopeful. No text.",
+          "reason": "画像なし。表現の意味・場面を表す画像を新規生成。",
+          "name": "eiken-audit-814",
+          "previousScene": "Child dreaming of becoming a teacher: child at desk and thought bubble of their adult self teaching at a board.",
+          "retryReason": "将来の自分ではなく別の先生を思う絵に見えるため、子どもと将来像の対応を強める。"
+        },
+        {
+          "id": "g5-w-rj-sunshine",
+          "en": "sunshine",
+          "ja": "日光・日ざし",
+          "kind": "word",
+          "index": 855,
+          "name": "eiken-audit-855",
+          "reason": "太陽アイコンと説明文が中心で、sunshineの日ざし自体が小さい。",
+          "cell": 9,
+          "scene": "Warm SUNSHINE clearly streaming through a window in visible golden beams, illuminating a sleeping cat and a bright floor patch. Focus on rays and illuminated surfaces, no isolated sun icon."
+        },
+        {
+          "id": "g5-w-ph-wonderful",
+          "en": "wonderful",
+          "ja": "すばらしい",
+          "kind": "word",
+          "index": 914,
+          "name": "eiken-audit-914",
+          "reason": "花1本にwonderfulというラベルの図でprettyと同じ見え方になっている。",
+          "cell": 10,
+          "scene": "Children looking in delighted amazement at a beautifully completed large model bridge, bright joyful faces and open admiring gestures, small sparkles. No flowers or labels."
+        },
+        {
+          "id": "g5-w-ph-living",
+          "en": "living",
+          "ja": "暮らし・生活",
+          "kind": "word",
+          "index": 936,
+          "name": "eiken-audit-936",
+          "reason": "家のアイコンだけでlivingの暮らしや生活を表さず、houseに見える。",
+          "cell": 11,
+          "scene": "A warm family DAILY LIVING montage: a parent making breakfast, a child studying and family sharing a meal, connected by gentle arrows. No house facade alone, no text."
+        },
+        {
+          "id": "g5-w-sugar",
+          "en": "sugar",
+          "ja": "砂糖",
+          "kind": "word",
+          "index": 667,
+          "name": "eiken-audit-667",
+          "reason": "白い粉を食べる場面だけでは砂糖と塩の区別が弱い。",
+          "cell": 12,
+          "scene": "Close-up of a plain bowl of granulated white SUGAR beside unmistakable sugar cubes, a spoon and a small cake in background; sugar is the main subject. No child eating white powder."
+        },
+        {
+          "id": "g5-w-salt",
+          "en": "salt",
+          "ja": "塩",
+          "kind": "word",
+          "index": 668,
+          "name": "eiken-audit-668",
+          "reason": "料理に白い粉を振る場面だけでは塩の対象が分かりにくい。",
+          "cell": 13,
+          "scene": "Close-up of coarse white SALT crystals spilling gently from a plain salt shaker beside a small dish of salt and a savory vegetable plate. Salt is main subject, no sugar cubes or desserts."
+        },
+        {
+          "id": "g5-w-high",
+          "en": "high",
+          "ja": "高い（高さ）",
+          "kind": "word",
+          "index": 560,
+          "name": "eiken-audit-560",
+          "reason": "高低2本の棒が同列で、highの対象が日本語ラベルに依存。",
+          "cell": 14,
+          "scene": "A LOW building and a much HIGHER building side by side. Orange arrow highlights ONLY the high building and a vertical orange arrow clearly measures its height. No text or people needed."
+        },
+        {
+          "id": "g5-w-right",
+          "en": "right",
+          "ja": "右・正しい",
+          "kind": "word",
+          "index": 575,
+          "name": "eiken-audit-575",
+          "reason": "日本語の方位図を読む必要があり、rightの右方向に直接つながらない。",
+          "cell": 15,
+          "scene": "A child seen FROM BEHIND extending their RIGHT arm to the RIGHT edge of the picture, a bold orange arrow points right. Both shoulders and whole body visible. No compass or Japanese direction labels."
+        },
+        {
+          "id": "g5-w-math",
+          "en": "math",
+          "ja": "算数・数学（米国英語）",
+          "kind": "word",
+          "index": 219,
+          "name": "eiken-audit-219",
+          "reason": "説明カードの縮小された日本語に依存し、mathの学習場面と数式が小さい。",
+          "cell": 16,
+          "scene": "Child studying MATH at a desk with large simple arithmetic 2 + 3 = 5 and a triangle clearly shown on one open page, ruler and counters visible, no Japanese labels or other text."
+        }
+      ],
+      "sourceSha256": "3b3ec04bde864c7990cd1defd5d7381babfa92d7d4f009d1b063c8aa25e0fb7d"
+    }
+  ],
+  "semanticRejections": [
+    {
+      "index": 372,
+      "reason": "人物を並べただけで父親とおじの関係を読み取れない。家系図として再生成。"
+    },
+    {
+      "index": 373,
+      "reason": "母とおばの関係が弱く、家系図として再生成。"
+    },
+    {
+      "index": 374,
+      "reason": "いとこの親同士がきょうだいであることが見えないため再生成。"
+    },
+    {
+      "index": 602,
+      "reason": "歯磨きだけではnowの現在を示せないため、過去・現在・後の対比として再生成。"
+    },
+    {
+      "index": 660,
+      "reason": "初回の指定個数にずれがあったため、年齢の変化を数に依存しない構図にする。"
+    },
+    {
+      "index": 112,
+      "reason": "11本のろうそくが宙に浮いており不自然。11を示す数字ろうそく2本へ描き直す。"
+    },
+    {
+      "index": 238,
+      "reason": "12か月のページが9枚となり5月の対応も違うため、MAYの暦として再生成。"
+    },
+    {
+      "index": 814,
+      "reason": "将来の自分ではなく別の先生を思う絵に見えるため、子どもと将来像の対応を強める。"
+    }
+  ],
+  "status": "release-candidate",
+  "adoptedAssetCount": 216,
+  "publicationAuthorized": "2026-11-08"
+}

@@ -1,0 +1,18 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines INCLUDING outer frame, exact positions, continuous straightness and thickness. Paint EXACTLY sixteen separate clear children's picture-book illustrations, read row-major left to right then top to bottom. Each scene stays inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. Use panels generously, no large blank margins. No labels, captions, watermarks, readable text or numbers UNLESS the individual scene explicitly requires exact lettering or a precise count. Do not add random writing. Natural human anatomy. Illustrate the specific English meaning, action or relationship rather than a loosely associated Japanese noun. These are educational context illustrations shown BESIDE the original English sentence, not standalone replacements for grammar or exact names.
+Exact scenes:
+1. Target: No, I can't. / いいえ、できません。. Scene: Child gently shakes head no beside a pool, remains safely on deck, no water distress.
+2. Target: Can you help me? / 手伝ってくれますか。. Scene: Child asks a friend to help carry a large lightweight box, open requesting hand, friend listening.
+3. Target: Sure. / もちろんです。. Scene: Friend readily agrees to help carry a box, confident warm smile and thumb up.
+4. Target: Sorry, I can't. / ごめんなさい、できません。. Scene: Child politely declines an invitation with a remorseful expression and gently raised open palm.
+5. Target: Let's go to the park. / 公園へ行きましょう。. Scene: Child invites friends toward a nearby park with swings and trees, open welcoming hand.
+6. Target: That's a good idea. / それはよい考えです。. Scene: Child reacts enthusiastically to a friend's park outing idea, thumb up and small bright idea symbol.
+7. Target: Sorry, I'm busy. / ごめんなさい、忙しいです。. Scene: Child busy with homework politely declines a friend's invitation at window, apologetic raised palm.
+8. Target: Are you free tomorrow? / 明日は暇ですか。. Scene: Two friends looking at a calendar together and discussing an empty next-day slot, one asks with an inviting gesture.
+9. Target: Please come in. / どうぞ入ってください。. Scene: Host child stands beside an OPEN doorway and politely welcomes a friend INSIDE with open arm.
+10. Target: Please sit down. / 座ってください。. Scene: Teacher politely gestures to an empty chair while child prepares to sit down.
+11. Target: Stand up, please. / 立ってください。. Scene: Teacher gently gestures upward while a student rises from a chair, whole body visible.
+12. Target: Don't run here. / ここでは走らないで。. Scene: Teacher stops a running child in a school corridor with a calm open palm; small red crossed-out running symbol.
+13. Target: Be careful. / 気をつけて。. Scene: Child warns a friend about a small puddle on the path, careful pointing gesture and attentive face.
+14. Target: Please be quiet. / 静かにしてください。. Scene: Teacher puts a finger to lips in a quiet library, children listen respectfully.
+15. Target: Turn right at the corner. / 角で右に曲がって。. Scene: Simple overhead street corner, a child walking away from viewer approaches then turns to their RIGHT, one clear orange right-turn arrow, no labels.
+16. Target: The bank is next to the station. / 銀行は駅の隣です。. Scene: A bank building with a coin icon immediately NEXT TO a train station with train icon, both buildings clearly separate, no text.

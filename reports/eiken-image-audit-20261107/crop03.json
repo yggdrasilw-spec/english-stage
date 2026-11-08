@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "passed": true,
+  "method": "magenta-grid-full-color-v7",
+  "sourceSha256": "166692e556d25914a01e72dc4f8f4614e3f9ac701b518c66449cedf32601bb2e",
+  "sourceSize": [
+    1254,
+    1254
+  ],
+  "columns": 4,
+  "rows": 4,
+  "columnBands": [
+    [
+      0,
+      6
+    ],
+    [
+      311,
+      319
+    ],
+    [
+      625,
+      631
+    ],
+    [
+      936,
+      943
+    ],
+    [
+      1247,
+      1254
+    ]
+  ],
+  "rowBands": [
+    [
+      0,
+      6
+    ],
+    [
+      311,
+      318
+    ],
+    [
+      622,
+      630
+    ],
+    [
+      936,
+      942
+    ],
+    [
+      1247,
+      1254
+    ]
+  ],
+  "tiles": [
+    {
+      "tileIndex": 1,
+      "cropBox": [
+        6,
+        6,
+        311,
+        311
+      ],
+      "edgeInkFraction": 0.6955172413793104,
+      "contentFraction": 0.7758667024993281,
+      "file": "eiken-audit-563.png",
+      "sha256": "f370f65641bea0b4167f9c6b6ff06c70cbd4f1e3987fc8773b5fb22781536a2f"
+    },
+    {
+      "tileIndex": 2,
+      "cropBox": [
+        319,
+        6,
+        625,
+        311
+      ],
+      "edgeInkFraction": 0.8227768215720023,
+      "contentFraction": 0.8976642022929391,
+      "file": "eiken-audit-566.png",
+      "sha256": "8294d051c2e22d04db60de0037de36d9b5f8d13d8446a250cd48c2a0ac772b7e"
+    },
+    {
+      "tileIndex": 3,
+      "cropBox": [
+        631,
+        6,
+        936,
+        311
+      ],
+      "edgeInkFraction": 0.7329885057471265,
+      "contentFraction": 0.8443214189733943,
+      "file": "eiken-audit-577.png",
+      "sha256": "0965fc3549d4154ff42c4971d296ffe58f5db4fc3e090be57f563e23a8a38184"
+    },
+    {
+      "tileIndex": 4,
+      "cropBox": [
+        943,
+        6,
+        1247,
+        311
+      ],
+      "edgeInkFraction": 0.7445020149683362,
+      "contentFraction": 0.7639559965487489,
+      "file": "eiken-audit-602.png",
+      "sha256": "cdc2f4ee6b504e2fa72258c76a9364f18bb7100c3739daf348d85beb10462e0c"
+    },
+    {
+      "tileIndex": 5,
+      "cropBox": [
+        6,
+        318,
+        311,
+        622
+      ],
+      "edgeInkFraction": 0.9382268278641336,
+      "contentFraction": 0.9425150992234685,
+      "file": "eiken-audit-608.png",
+      "sha256": "84099f0bcc9793bf7abe4b886884a5119bdd23b8a70217c99561e022fd58dc9b"
+    },
+    {
+      "tileIndex": 6,
+      "cropBox": [
+        319,
+        318,
+        625,
+        622
+      ],
+      "edgeInkFraction": 0.8588505747126437,
+      "contentFraction": 0.8733875128998968,
+      "file": "eiken-audit-660.png",
+      "sha256": "c5241e4c3173ed67bc3c32b7c40afbeed4e93722ef6dfa8d30c06fa5f41d10a0"
+    },
+    {
+      "tileIndex": 7,
+      "cropBox": [
+        631,
+        318,
+        936,
+        622
+      ],
+      "edgeInkFraction": 0.8681635002878526,
+      "contentFraction": 0.7582182916307161,
+      "file": "eiken-audit-710.png",
+      "sha256": "a0d040019364eb26f5b27e1d2db1f1d64519035de9c448105c8bd3d40f0bd026"
+    },
+    {
+      "tileIndex": 8,
+      "cropBox": [
+        943,
+        318,
+        1247,
+        622
+      ],
+      "edgeInkFraction": 0.9769319492502884,
+      "contentFraction": 0.9742901662049861,
+      "file": "eiken-audit-711.png",
+      "sha256": "9f69f9770732db108094eb38afaeff0ba73b20c25e29a3fc8ff09e84c4921c76"
+    },
+    {
+      "tileIndex": 9,
+      "cropBox": [
+        6,
+        630,
+        311,
+        936
+      ],
+      "edgeInkFraction": 0.8740103270223752,
+      "contentFraction": 0.85909139612129,
+      "file": "eiken-audit-724.png",
+      "sha256": "b4a86818478d9cde09ea6660695b41096ec9e51a09268001cf3e30d5f5a6f5d4"
+    },
+    {
+      "tileIndex": 10,
+      "cropBox": [
+        319,
+        630,
+        625,
+        936
+      ],
+      "edgeInkFraction": 0.8666666666666667,
+      "contentFraction": 0.9075889615105301,
+      "file": "eiken-audit-725.png",
+      "sha256": "40918a8d45227012e3b0171134e89214fedaf1c57ad6009d15fa283a81d37a3a"
+    },
+    {
+      "tileIndex": 11,
+      "cropBox": [
+        631,
+        630,
+        936,
+        936
+      ],
+      "edgeInkFraction": 0.8243832472748135,
+      "contentFraction": 0.7609021750776813,
+      "file": "eiken-audit-902.png",
+      "sha256": "de8d451851e04fc20fcd0986d17b3eec905d878ef86aa75dd64bc0cf7e3e7b38"
+    },
+    {
+      "tileIndex": 12,
+      "cropBox": [
+        943,
+        630,
+        1247,
+        936
+      ],
+      "edgeInkFraction": 0.9612643678160919,
+      "contentFraction": 0.9382954936360509,
+      "file": "eiken-audit-864.png",
+      "sha256": "8a6f4a06383105ec09f90ded51a7c47325efdc12ec68dbdf2f8ec273c1329bc7"
+    },
+    {
+      "tileIndex": 13,
+      "cropBox": [
+        6,
+        942,
+        311,
+        1247
+      ],
+      "edgeInkFraction": 0.8543103448275862,
+      "contentFraction": 0.8667239989250202,
+      "file": "eiken-audit-865.png",
+      "sha256": "eeed1437d339af2b5b6df6d25237393352214565d5ee5cc0efd73d41d9c163ef"
+    },
+    {
+      "tileIndex": 14,
+      "cropBox": [
+        319,
+        942,
+        625,
+        1247
+      ],
+      "edgeInkFraction": 0.9948938611589214,
+      "contentFraction": 0.9910639665702347,
+      "file": "eiken-audit-866.png",
+      "sha256": "d326b8a74cac0955838fb01e13c9f55001b7a68ffa5a6ca4257cd887aab15ba0"
+    },
+    {
+      "tileIndex": 15,
+      "cropBox": [
+        631,
+        942,
+        936,
+        1247
+      ],
+      "edgeInkFraction": 0.5199425287356322,
+      "contentFraction": 0.5545068529965063,
+      "file": "eiken-audit-878.png",
+      "sha256": "cb4b3effd1ca97a1a9e0929a71b93db1176131c7455131a9454fd28b038a6b81"
+    },
+    {
+      "tileIndex": 16,
+      "cropBox": [
+        943,
+        942,
+        1247,
+        1247
+      ],
+      "edgeInkFraction": 0.9131260794473229,
+      "contentFraction": 0.9269844693701467,
+      "file": "eiken-audit-881.png",
+      "sha256": "11daf5ced2aa0b70b7c75ffd9d538613ccf201ee3a7103c46d6c6c3a74fe03de"
+    }
+  ]
+}

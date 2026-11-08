@@ -1,0 +1,18 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines INCLUDING outer frame, exact positions, continuous straightness and thickness. Paint EXACTLY sixteen separate clear children's picture-book illustrations, read row-major left to right then top to bottom. Each scene stays inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. Use panels generously, no large blank margins. No labels, captions, watermarks, readable text or numbers UNLESS the individual scene explicitly requires exact lettering or a precise count. Do not add random writing. Natural human anatomy. Illustrate the specific English meaning, action or relationship rather than a loosely associated Japanese noun. These are educational context illustrations shown BESIDE the original English sentence, not standalone replacements for grammar or exact names.
+Exact scenes:
+1. Target: Have a good time. / 楽しんできてね。. Scene: Parent warmly waves children off on a picnic outing with basket and blanket, encouraging enjoyment.
+2. Target: See you later. / またあとで。. Scene: Friends wave as they briefly part in a park; small thought bubble shows meeting again later the same day.
+3. Target: Take care. / 元気でね。. Scene: Child warmly waves goodbye to a departing friend, caring expression and open hand over heart.
+4. Target: Are you OK? / 大丈夫ですか。. Scene: Child gently checks on a friend sitting after a minor stumble, concerned kind expression, no injury detail.
+5. Target: I'm tired. / 疲れています。. Scene: Child resting after running, shoulders drooped, hands on knees, visibly tired but safe.
+6. Target: What's wrong? / どうしたのですか。. Scene: Child compassionately asks a sad friend what happened, open questioning hand, concerned face.
+7. Target: One more time, please. / もう一度お願いします。. Scene: Student politely requests a teacher to repeat, listening hand near ear and one curved repeat arrow between them.
+8. Target: Please speak slowly. / ゆっくり話してください。. Scene: Student politely asks teacher to speak slowly, listening hand at ear, teacher using calm spaced gestures, no text.
+9. Target: I don't understand. / わかりません。. Scene: Child looking puzzled at a book and gently shrugging, teacher beside ready to explain, not angry.
+10. Target: How do you say this in English? / これは英語で何と言いますか。. Scene: Child points to a familiar object and asks an English teacher for its English name, open notebook and English lesson context, no readable text.
+11. Target: What does this word mean? / この単語はどういう意味ですか。. Scene: Student points at one word-shaped mark in an open book and asks teacher for its meaning, teacher listens, no readable text.
+12. Target: What's the date today? / 今日は何月何日ですか。. Scene: Child asks a friend today's date while pointing to one circled cell in a monthly calendar, no text.
+13. Target: How do you get to the station? / 駅へはどうやって行きますか。. Scene: Child asks an adult how to get to the train station, map showing a path toward a station with train icon, no text.
+14. Target: This bag is his. / このかばんは彼のものです。. Scene: A girl points to a schoolbag beside a boy; ownership connector clearly links ONLY the bag and the boy, not the girl.
+15. Target: He is a piano player. / 彼はピアノの演奏者です。. Scene: An adult male musician actively playing a piano on a small stage, clear full piano and correct seated posture.
+16. Target: Please ask him for help. / 彼に助けをお願いしてください。. Scene: Teacher politely directs one child toward a male classmate who can help, the helper boy offers a hand with a difficult puzzle.

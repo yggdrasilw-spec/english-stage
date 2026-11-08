@@ -6,6 +6,7 @@ import {initial,validateBackup} from '../dist/src/storage.js';
 import {plan} from '../dist/src/scheduler.js';
 import {choices,spokenWord} from '../dist/src/quiz.js';
 import {karutaPool} from '../dist/src/karuta-session.js';
+import {hasReviewedImageUpdate} from './reviewed-image-updates.mjs';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const cards=read('dist/data/grade5.json'),by=new Map(cards.map(c=>[c.id,c])),extra=read('scripts/grade5-expansion-04.json'),coverage=read('scripts/print-ho-kan-coverage.json');
 test('all 23 PDF pages and 530 rows resolve, retaining spelling corrections and different senses',()=>{
@@ -35,8 +36,8 @@ test('all 901 published IDs and unreviewed fields survive corrections; new cards
  const previous=read('tests/grade5-v3.json');assert.equal(previous.length,901);assert.equal(extra.length,76);assert.equal(cards.length,977);
  const corrected=new Set(fs.readFileSync(new URL('../scripts/reviewed-examples.txt',import.meta.url),'utf8').trim().split(/\r?\n/).map(row=>row.split('|')[0]).concat('teeth'));
  const revised=new Set(['example','exampleJa','exampleAudioText','explanation','revision','grammarPoints']);
- for(const c of previous){const current=by.get(c.id);if(!corrected.has(c.en)){assert.deepEqual(current,c);continue;}
-  const allowed=new Set([...revised,...(['tooth','teeth'].includes(c.en)?['ja','image']:[])]),keep=o=>Object.fromEntries(Object.entries(o).filter(([k])=>!allowed.has(k)));
+ for(const c of previous){const current=by.get(c.id),imageUpdated=hasReviewedImageUpdate(current);if(!corrected.has(c.en)){const keep=o=>Object.fromEntries(Object.entries(o).filter(([k])=>!(imageUpdated&&k==='image')));assert.deepEqual(keep(current),keep(c));continue;}
+  const allowed=new Set([...revised,...(imageUpdated?['image']:[]),...(['tooth','teeth'].includes(c.en)?['ja','image']:[])]),keep=o=>Object.fromEntries(Object.entries(o).filter(([k])=>!allowed.has(k)));
   assert.deepEqual(keep(current),keep(c));
  }
  const state=initial();

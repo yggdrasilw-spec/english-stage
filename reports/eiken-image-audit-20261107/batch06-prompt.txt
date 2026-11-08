@@ -1,0 +1,18 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines INCLUDING outer frame, exact positions, continuous straightness and thickness. Paint EXACTLY sixteen separate clear children's picture-book illustrations, read row-major left to right then top to bottom. Each scene stays inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. Use panels generously, no large blank margins. No labels, captions, watermarks, readable text or numbers UNLESS the individual scene explicitly requires exact lettering or a precise count. Do not add random writing. Natural human anatomy. Illustrate the specific English meaning, action or relationship rather than a loosely associated Japanese noun. These are educational context illustrations shown BESIDE the original English sentence, not standalone replacements for grammar or exact names.
+Exact scenes:
+1. Target: It's seven o'clock. / 7時です。. Scene: A clear analog clock showing exactly seven o'clock: short hand at seven, long hand at twelve; no numerals needed, twelve clear tick marks.
+2. Target: Please open your book. / 本を開いてください。. Scene: Teacher politely gestures for a student to OPEN their closed book; student's hands just opening the covers.
+3. Target: I'm reading a book. / わたしは今、本を読んでいます。. Scene: Child actively reading an open book quietly at a desk, eyes tracking pages.
+4. Target: Good afternoon. / こんにちは（午後）。. Scene: Two children greeting each other outdoors in bright afternoon sunlight, school bags in hand.
+5. Target: Good evening. / こんばんは。. Scene: Neighbors greeting one another outside at early evening twilight with warm house lights coming on.
+6. Target: Nice to meet you. / はじめまして。. Scene: Two children being introduced for the first time, smiling and shaking hands gently.
+7. Target: See you tomorrow. / また明日ね。. Scene: Children waving goodbye after school; small thought bubble shows them meeting again at the same school in next morning sunshine.
+8. Target: How do you spell your name? / あなたの名前はどうつづりますか。. Scene: Child asks a new friend how to spell her name, pointing to a blank name tag while holding a pencil and notebook; no text.
+9. Target: What day is it today? / 今日は何曜日ですか。. Scene: Child asks a friend about the day while pointing at a seven-column calendar with a single highlighted current cell; no text.
+10. Target: It's Monday. / 月曜日です。. Scene: Seven-column weekly calendar with only FIRST column highlighted, a schoolbag below to suggest start of school week; no letters or numerals.
+11. Target: When is your birthday? / 誕生日はいつですか。. Scene: Child asks a friend when their birthday is, pointing between a birthday cake and a calendar.
+12. Target: My birthday is in May. / わたしの誕生日は5月です。. Scene: A birthday cake beside a twelve-month calendar represented by twelve small pages in a 3x4 arrangement, ONLY fifth page highlighted; no text or numerals.
+13. Target: How many books do you have? / 本を何冊持っていますか。. Scene: Child asking a friend about how many books they have, gesturing toward the friend's book stack.
+14. Target: I have three books. / わたしは本を3冊持っています。. Scene: Child proudly holding exactly THREE separately visible books, no other books in view.
+15. Target: What do you want? / 何が欲しいですか。. Scene: Parent offering a child a choice between water and a snack, child considers what they want.
+16. Target: I want some water. / わたしは水が欲しいです。. Scene: Thirsty child looking eagerly toward a glass of water and reaching politely toward it, no milk.

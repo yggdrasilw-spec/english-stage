@@ -1,0 +1,217 @@
+﻿index,id,kind,English,日本語,区分,理由,以前の画像,採用画像,セット,コマ
+32,g5-w-sister,word,sister,姉・妹,意味が間接的・不自然・対象不明,姉妹の男女2人を同列に描き、sisterの対象が不明。女のきょうだい1人を明示。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-sister-word-12134.png,assets/vocabulary/eiken-audit-32.png,1,1
+33,g5-w-brother,word,brother,兄・弟,意味が間接的・不自然・対象不明,兄弟姉妹の関係図で、brotherの男のきょうだい1人が明示されない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-brother-word-1563.png,assets/vocabulary/eiken-audit-33.png,1,2
+47,g5-w-small,word,small,小さい,意味が間接的・不自然・対象不明,大小の四角があるだけで、smallの対象が指定されない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-3490.png,assets/vocabulary/eiken-audit-47.png,2,1
+70,g5-w-hand,word,hand,手,意味が間接的・不自然・対象不明,ハイタッチの場面で、handより挨拶や動作が主題。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/te.png,assets/vocabulary/eiken-audit-70.png,1,3
+78,g5-w-shoe,word,shoe,靴（片方）,意味が間接的・不自然・対象不明,片方のshoeなのに2足分（左右一足）の靴がある。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1734.png,assets/vocabulary/eiken-audit-78.png,1,4
+100,g5-p-01,phrase,Hello.,こんにちは。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-100.png,4,6
+101,g5-p-02,phrase,Good morning.,おはようございます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-101.png,4,7
+102,g5-p-03,phrase,Good night.,おやすみなさい。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-102.png,4,8
+103,g5-p-04,phrase,Thank you.,ありがとう。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-103.png,4,9
+104,g5-p-05,phrase,You are welcome.,どういたしまして。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-104.png,4,10
+105,g5-p-06,phrase,I'm sorry.,ごめんなさい。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-105.png,4,11
+106,g5-p-07,phrase,Excuse me.,すみません。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-106.png,4,12
+107,g5-p-08,phrase,See you.,またね。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-107.png,4,13
+108,g5-p-09,phrase,My name is Yui.,わたしの名前はユイです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-108.png,4,14
+109,g5-p-10,phrase,How are you?,元気ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-109.png,4,15
+110,g5-p-11,phrase,I'm fine.,元気です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-110.png,4,16
+111,g5-p-12,phrase,How old are you?,何歳ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-111.png,5,1
+112,g5-p-13,phrase,I'm eleven.,わたしは11歳です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-112.png,15,6
+113,g5-p-14,phrase,I like music.,わたしは音楽が好きです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-113.png,5,3
+114,g5-p-15,phrase,Do you like soccer?,サッカーは好きですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-114.png,5,4
+115,g5-p-16,phrase,"Yes, I do.",はい、そうです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-115.png,5,5
+116,g5-p-17,phrase,"No, I don't.",いいえ、ちがいます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-116.png,5,6
+117,g5-p-18,phrase,I don't like milk.,わたしは牛乳が好きではありません。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-117.png,5,7
+118,g5-p-19,phrase,I can dance.,わたしは踊れます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-118.png,5,8
+119,g5-p-20,phrase,Can you swim?,泳げますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-119.png,5,9
+120,g5-p-21,phrase,What is this?,これは何ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-120.png,5,10
+121,g5-p-22,phrase,It's a cat.,それは猫です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-121.png,5,11
+122,g5-p-23,phrase,Where is my bag?,わたしのかばんはどこですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-122.png,5,12
+123,g5-p-24,phrase,It's on the desk.,それは机の上にあります。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-123.png,5,13
+124,g5-p-25,phrase,It's under the desk.,それは机の下にあります。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-124.png,5,14
+125,g5-p-26,phrase,It's in the bag.,それはかばんの中にあります。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-125.png,5,15
+126,g5-p-27,phrase,What time is it?,何時ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-126.png,5,16
+127,g5-p-28,phrase,It's seven o'clock.,7時です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-127.png,6,1
+128,g5-p-29,phrase,Please open your book.,本を開いてください。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-128.png,6,2
+129,g5-p-30,phrase,I'm reading a book.,わたしは今、本を読んでいます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-129.png,6,3
+193,g5-w-watch,word,watch,見る（テレビなどを）,意味が間接的・不自然・対象不明,双眼鏡で遠景を見るlookの絵。watchの継続して見る用法を示さない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-word-7265.png,assets/vocabulary/eiken-audit-193.png,1,5
+200,g5-w-long,word,long,長い,意味が間接的・不自然・対象不明,長短の棒のどちらが対象か、日本語ラベルに依存。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-4096.png,assets/vocabulary/eiken-audit-200.png,2,2
+219,g5-w-math,word,math,算数・数学（米国英語）,意味が間接的・不自然・対象不明,説明カードの縮小された日本語に依存し、mathの学習場面と数式が小さい。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-2673.png,assets/vocabulary/eiken-audit-219.png,15,16
+224,g5-w-afternoon,word,afternoon,午後,意味が間接的・不自然・対象不明,昼から夜へ移る図でafternoonより夕暮れに見える。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-v2-word-7533.png,assets/vocabulary/eiken-audit-224.png,2,3
+230,g5-p-31,phrase,Good afternoon.,こんにちは（午後）。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-230.png,6,4
+231,g5-p-32,phrase,Good evening.,こんばんは。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-231.png,6,5
+232,g5-p-33,phrase,Nice to meet you.,はじめまして。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-232.png,6,6
+233,g5-p-34,phrase,See you tomorrow.,また明日ね。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-233.png,6,7
+234,g5-p-35,phrase,How do you spell your name?,あなたの名前はどうつづりますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-234.png,6,8
+235,g5-p-36,phrase,What day is it today?,今日は何曜日ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-235.png,6,9
+236,g5-p-37,phrase,It's Monday.,月曜日です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-236.png,6,10
+237,g5-p-38,phrase,When is your birthday?,誕生日はいつですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-237.png,6,11
+238,g5-p-39,phrase,My birthday is in May.,わたしの誕生日は5月です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-238.png,15,7
+239,g5-p-40,phrase,How many books do you have?,本を何冊持っていますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-239.png,6,13
+240,g5-p-41,phrase,I have three books.,わたしは本を3冊持っています。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-240.png,6,14
+241,g5-p-42,phrase,What do you want?,何が欲しいですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-241.png,6,15
+242,g5-p-43,phrase,I want some water.,わたしは水が欲しいです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-242.png,6,16
+243,g5-p-44,phrase,Let's play soccer.,サッカーをしましょう。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-243.png,7,1
+244,g5-p-45,phrase,That sounds good.,それはいいですね。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-244.png,7,2
+245,g5-p-46,phrase,Can I use your pen?,あなたのペンを使ってもいいですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-245.png,7,3
+246,g5-p-47,phrase,Here you are.,はい、どうぞ。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-246.png,7,4
+247,g5-p-48,phrase,Please close the door.,ドアを閉めてください。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-247.png,7,5
+248,g5-p-49,phrase,I go to school by bus.,わたしはバスで学校に行きます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-248.png,7,6
+249,g5-p-50,phrase,What are you doing?,何をしているところですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-249.png,7,7
+291,g5-w-star,word,star,星,意味が間接的・不自然・対象不明,太陽のような巨大な恒星が主役で、初学者のstarとsunの区別が弱い。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5077.png,assets/vocabulary/eiken-audit-291.png,2,4
+321,g5-w-word,word,word,単語,意味が間接的・不自然・対象不明,日本語の『犬 学校』を並べる説明カードで、英語のwordへ直接つながらない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-3371.png,assets/vocabulary/eiken-audit-321.png,2,5
+323,g5-w-sentence,word,sentence,文,意味が間接的・不自然・対象不明,日本語の文だけを示す説明図。英語のsentenceの具体例がない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-4926.png,assets/vocabulary/eiken-audit-323.png,2,6
+327,g5-w-cd,word,CD,CD,意味が間接的・不自然・対象不明,CDの模式図に説明文が多く、実物の円盤の特徴が小さい。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512c-word-8146.png,assets/vocabulary/eiken-audit-327.png,2,7
+339,g5-w-roof,word,roof,屋根,意味が間接的・不自然・対象不明,家全体の画像で、roofの屋根が指定されない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-5642.png,assets/vocabulary/eiken-audit-339.png,2,8
+361,g5-w-country,word,country,国,意味が間接的・不自然・対象不明,国会議事堂と群衆の絵で、country（国）に直接つながらない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-r1-word-1725.png,assets/vocabulary/eiken-audit-361.png,1,12
+369,g5-w-child,word,child,子ども,意味が間接的・不自然・対象不明,単数childに2人の子ども。childrenとの区別がつかない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-2285.png,assets/vocabulary/eiken-audit-369.png,1,10
+372,g5-w-uncle,word,uncle,おじ,意味が間接的・不自然・対象不明,父子に見える2人だけで、おじの関係が表れていない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-836.png,assets/vocabulary/eiken-audit-372.png,15,1
+373,g5-w-aunt,word,aunt,おば,意味が間接的・不自然・対象不明,複数の女性がいるだけで、おばの対象と親との関係が分からない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-aunt-word-87672.png,assets/vocabulary/eiken-audit-373.png,15,2
+374,g5-w-cousin,word,cousin,いとこ,意味が間接的・不自然・対象不明,子ども同士の遊びだけでは友達や兄弟と区別できず、いとこの関係が弱い。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-cousin-word-87673.png,assets/vocabulary/eiken-audit-374.png,15,3
+375,g5-w-parent,word,parent,親,意味が間接的・不自然・対象不明,単数parentに両親を同列表示し、parentsとの区別が不明。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-6224.png,assets/vocabulary/eiken-audit-375.png,1,11
+388,g5-w-finger,word,finger,指,意味が間接的・不自然・対象不明,手全体を示し、fingerの指1本が特定できない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-5715.png,assets/vocabulary/eiken-audit-388.png,1,6
+399,g5-w-sock,word,sock,靴下,意味が間接的・不自然・対象不明,単数sockに左右2枚の靴下。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1735.png,assets/vocabulary/eiken-audit-399.png,1,7
+400,g5-w-glove,word,glove,手袋,意味が間接的・不自然・対象不明,単数gloveに手袋2枚。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-6137.png,assets/vocabulary/eiken-audit-400.png,1,8
+401,g5-w-boot,word,boot,ブーツ,意味が間接的・不自然・対象不明,単数bootに左右2本のブーツ。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13907.png,assets/vocabulary/eiken-audit-401.png,1,9
+468,g5-w-up,word,up,上へ,意味が間接的・不自然・対象不明,upとdownの模式図が縦線に見え、方向の違いがほぼ見えない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-up.png,assets/vocabulary/eiken-audit-468.png,2,12
+469,g5-w-down,word,down,下へ,意味が間接的・不自然・対象不明,upとdownの模式図が縦線に見え、方向の違いがほぼ見えない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-down.png,assets/vocabulary/eiken-audit-469.png,2,13
+502,g5-w-use,word,use,使う,意味が間接的・不自然・対象不明,工作の完成工程が主題で、useとmakeの差が弱い。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-3636.png,assets/vocabulary/eiken-audit-502.png,2,14
+525,g5-w-fly,word,fly,飛ぶ,意味が間接的・不自然・対象不明,flyに跳び上がる人。jumpとの誤学習につながる。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/pv-jump.png,assets/vocabulary/eiken-audit-525.png,1,13
+528,g5-w-stand,word,stand,立つ,意味が間接的・不自然・対象不明,上半身で手を上げる絵のため、standとraise a handが混同される。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/tatsu.png,assets/vocabulary/eiken-audit-528.png,2,15
+558,g5-w-young,word,young,若い,意味が間接的・不自然・対象不明,若者と高齢者の両方が同列で、youngの対象が特定されない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-young-word-87692.png,assets/vocabulary/eiken-audit-558.png,2,16
+560,g5-w-high,word,high,高い（高さ）,意味が間接的・不自然・対象不明,高低2本の棒が同列で、highの対象が日本語ラベルに依存。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-3345.png,assets/vocabulary/eiken-audit-560.png,15,14
+563,g5-w-little,word,little,小さな・少しの,意味が間接的・不自然・対象不明,大小比較の四角でlittleの対象が不明。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-3490.png,assets/vocabulary/eiken-audit-563.png,3,1
+566,g5-w-easy,word,easy,簡単な,意味が間接的・不自然・対象不明,四角2個と矢印だけでeasyの簡単さを読み取れない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-easy.png,assets/vocabulary/eiken-audit-566.png,3,2
+568,g5-w-interesting,word,interesting,おもしろい（興味深い）,意味が間接的・不自然・対象不明,funと同じゲームで喜ぶ場面になり、interestingの興味を引く意味が弱い。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/tanoshii.png,assets/vocabulary/eiken-audit-568.png,1,14
+575,g5-w-right,word,right,右・正しい,意味が間接的・不自然・対象不明,日本語の方位図を読む必要があり、rightの右方向に直接つながらない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-5304.png,assets/vocabulary/eiken-audit-575.png,15,15
+577,g5-w-wrong,word,wrong,間違った,意味が間接的・不自然・対象不明,りんごを丸、みかんをバツとする根拠がなくwrongの誤りが不明。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/chigau.png,assets/vocabulary/eiken-audit-577.png,3,3
+602,g5-w-now,word,now,今,意味が間接的・不自然・対象不明,特定時刻の時計だけでnow（現在）とは読めない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-now.png,assets/vocabulary/eiken-audit-602.png,15,4
+608,g5-w-home,word,home,家へ・自宅,意味が間接的・不自然・対象不明,houseと同じ家の外観。homeの自宅・帰属先の意味が弱い。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-200.png,assets/vocabulary/eiken-audit-608.png,3,5
+653,g5-w-subject,word,subject,教科,意味が間接的・不自然・対象不明,国語・算数・理科という日本語だけの四角で教科を説明している。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-subject.png,assets/vocabulary/eiken-audit-653.png,4,1
+659,g5-w-name,word,name,名前,意味が間接的・不自然・対象不明,日本語の氏名だけで、英語で名前を示す教材画像に直結しない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-4061.png,assets/vocabulary/eiken-audit-659.png,4,2
+660,g5-w-age,word,age,年齢,意味が間接的・不自然・対象不明,若者と高齢者を並べたyoungの絵でageの年齢が表れない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-4097.png,assets/vocabulary/eiken-audit-660.png,15,5
+661,g5-w-number,word,number,数・番号,意味が間接的・不自然・対象不明,りんご5個だけで、number（数・番号）とfiveの区別が弱い。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-word-7506.png,assets/vocabulary/eiken-audit-661.png,4,3
+667,g5-w-sugar,word,sugar,砂糖,意味が間接的・不自然・対象不明,白い粉を食べる場面だけでは砂糖と塩の区別が弱い。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2591.png,assets/vocabulary/eiken-audit-667.png,15,12
+668,g5-w-salt,word,salt,塩,意味が間接的・不自然・対象不明,料理に白い粉を振る場面だけでは塩の対象が分かりにくい。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-2762.png,assets/vocabulary/eiken-audit-668.png,15,13
+710,g5-w-take-a-bath,word,take a bath,風呂に入る,意味が間接的・不自然・対象不明,服を着て屋外シャワーを浴びており、take a bathの入浴とずれる。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-0087.png,assets/vocabulary/eiken-audit-710.png,3,7
+711,g5-w-go-to-bed,word,go to bed,寝る,意味が間接的・不自然・対象不明,sleepと同じ眠っている絵で、go to bedの就寝動作を示さない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/nemuru.png,assets/vocabulary/eiken-audit-711.png,3,8
+724,g5-w-want-to,word,want to,〜したい,意味が間接的・不自然・対象不明,祈る姿だけで、want toの『何かをしたい』が示されない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6835.png,assets/vocabulary/eiken-audit-724.png,3,9
+725,g5-w-would-like,word,would like,〜が欲しい（丁寧）,意味が間接的・不自然・対象不明,流れ星に祈る場面で、丁寧な希望・注文のwould likeに直結しない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/negai.png,assets/vocabulary/eiken-audit-725.png,3,10
+730,g5-p-extra-i-m-from-japan,phrase,I'm from Japan.,日本出身です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-730.png,7,8
+731,g5-p-extra-where-are-you-from,phrase,Where are you from?,どこの出身ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-731.png,7,9
+732,g5-p-extra-i-live-in-tokyo,phrase,I live in Tokyo.,東京に住んでいます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-732.png,7,10
+733,g5-p-extra-where-do-you-live,phrase,Where do you live?,どこに住んでいますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-733.png,7,11
+734,g5-p-extra-who-is-that-boy,phrase,Who is that boy?,あの男の子はだれですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-734.png,7,12
+735,g5-p-extra-he-is-my-brother,phrase,He is my brother.,彼はわたしの兄（弟）です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-735.png,7,13
+736,g5-p-extra-this-is-my-friend,phrase,This is my friend.,こちらはわたしの友達です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-736.png,7,14
+737,g5-p-extra-is-this-your-book,phrase,Is this your book?,これはあなたの本ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-737.png,7,15
+738,g5-p-extra-yes-it-is,phrase,"Yes, it is.",はい、そうです。（単数のものについて）,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-738.png,7,16
+739,g5-p-extra-no-it-isn-t,phrase,"No, it isn't.",いいえ、違います。（単数のものについて）,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-739.png,8,1
+740,g5-p-extra-are-you-a-student,phrase,Are you a student?,あなたは生徒ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-740.png,8,2
+741,g5-p-extra-yes-i-am,phrase,"Yes, I am.",はい、そうです。（自分について）,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-741.png,8,3
+742,g5-p-extra-no-i-m-not,phrase,"No, I'm not.",いいえ、違います。（自分について）,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-742.png,8,4
+743,g5-p-extra-these-are-my-shoes,phrase,These are my shoes.,これらはわたしの靴です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-743.png,8,5
+744,g5-p-extra-whose-pen-is-this,phrase,Whose pen is this?,これはだれのペンですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-744.png,8,6
+745,g5-p-extra-it-s-mine,phrase,It's mine.,わたしのものです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-745.png,8,7
+746,g5-p-extra-what-color-is-it,phrase,What color is it?,それは何色ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-746.png,8,8
+747,g5-p-extra-it-s-blue,phrase,It's blue.,青色です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-747.png,8,9
+748,g5-p-extra-what-s-your-favorite-food,phrase,What's your favorite food?,いちばん好きな食べ物は何ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-748.png,8,10
+749,g5-p-extra-my-favorite-food-is-curry,phrase,My favorite food is curry.,いちばん好きな食べ物はカレーです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-749.png,8,11
+750,g5-p-extra-what-subject-do-you-like,phrase,What subject do you like?,どの教科が好きですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-750.png,8,12
+751,g5-p-extra-i-like-english,phrase,I like English.,英語が好きです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-751.png,8,13
+752,g5-p-extra-does-she-like-tennis,phrase,Does she like tennis?,彼女はテニスが好きですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-752.png,8,14
+753,g5-p-extra-yes-she-does,phrase,"Yes, she does.",はい、彼女はそうです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-753.png,8,15
+754,g5-p-extra-no-she-doesn-t,phrase,"No, she doesn't.",いいえ、彼女は違います。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-754.png,8,16
+755,g5-p-extra-he-plays-soccer-every-day,phrase,He plays soccer every day.,彼は毎日サッカーをします。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-755.png,14,1
+756,g5-p-extra-she-doesn-t-play-the-piano,phrase,She doesn't play the piano.,彼女はピアノを弾きません。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-756.png,14,2
+757,g5-p-extra-what-do-you-have-for-breakfast,phrase,What do you have for breakfast?,朝食に何を食べますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-757.png,14,3
+758,g5-p-extra-i-have-bread-and-milk,phrase,I have bread and milk.,パンと牛乳をとります。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-758.png,14,4
+759,g5-p-extra-when-do-you-get-up,phrase,When do you get up?,いつ起きますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-759.png,14,5
+760,g5-p-extra-i-get-up-at-seven,phrase,I get up at seven.,7時に起きます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-760.png,14,6
+761,g5-p-extra-i-go-to-bed-at-nine,phrase,I go to bed at nine.,9時に寝ます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-761.png,14,7
+762,g5-p-extra-what-do-you-do-after-school,phrase,What do you do after school?,放課後は何をしますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-762.png,14,8
+763,g5-p-extra-i-do-my-homework-after-school,phrase,I do my homework after school.,放課後に宿題をします。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-763.png,14,9
+764,g5-p-extra-how-do-you-go-to-school,phrase,How do you go to school?,どうやって学校に行きますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-764.png,14,10
+765,g5-p-extra-i-walk-to-school,phrase,I walk to school.,歩いて学校へ行きます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-765.png,14,11
+766,g5-p-extra-how-much-is-this,phrase,How much is this?,これはいくらですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-766.png,14,12
+767,g5-p-extra-it-s-five-hundred-yen,phrase,It's five hundred yen.,500円です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-767.png,14,13
+768,g5-p-extra-may-i-help-you,phrase,May I help you?,いらっしゃいませ。何かお探しですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-768.png,14,14
+769,g5-p-extra-i-d-like-this-one,phrase,I'd like this one.,これをいただきたいです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-769.png,14,15
+770,g5-p-extra-anything-else,phrase,Anything else?,ほかに何かありますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-770.png,14,16
+771,g5-p-extra-no-thank-you,phrase,"No, thank you.",いいえ、結構です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-771.png,10,1
+772,g5-p-extra-can-i-have-some-water,phrase,Can I have some water?,水をもらえますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-772.png,10,2
+773,g5-p-extra-you-re-welcome,phrase,You're welcome.,どういたしまして。（短縮形）,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-773.png,10,3
+774,g5-p-extra-i-m-hungry,phrase,I'm hungry.,おなかがすいています。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-774.png,10,4
+775,g5-p-extra-i-m-thirsty,phrase,I'm thirsty.,喉が渇いています。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-775.png,10,5
+776,g5-p-extra-let-s-have-lunch,phrase,Let's have lunch.,昼食にしましょう。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-776.png,10,6
+777,g5-p-extra-how-about-some-juice,phrase,How about some juice?,ジュースはいかがですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-777.png,10,7
+778,g5-p-extra-how-s-the-weather-today,phrase,How's the weather today?,今日の天気はどうですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-778.png,10,8
+779,g5-p-extra-it-s-sunny-today,phrase,It's sunny today.,今日は晴れです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-779.png,10,9
+780,g5-p-extra-it-s-cold-in-winter,phrase,It's cold in winter.,冬は寒いです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-780.png,10,10
+781,g5-p-extra-what-season-do-you-like,phrase,What season do you like?,どの季節が好きですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-781.png,10,11
+782,g5-p-extra-i-like-summer,phrase,I like summer.,夏が好きです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-782.png,10,12
+783,g5-p-extra-what-can-you-do,phrase,What can you do?,何ができますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-783.png,10,13
+784,g5-p-extra-i-can-play-the-piano,phrase,I can play the piano.,ピアノが弾けます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-784.png,10,14
+785,g5-p-extra-i-can-t-swim,phrase,I can't swim.,泳げません。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-785.png,10,15
+786,g5-p-extra-yes-i-can,phrase,"Yes, I can.",はい、できます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-786.png,10,16
+787,g5-p-extra-no-i-can-t,phrase,"No, I can't.",いいえ、できません。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-787.png,11,1
+788,g5-p-extra-can-you-help-me,phrase,Can you help me?,手伝ってくれますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-788.png,11,2
+789,g5-p-extra-sure,phrase,Sure.,もちろんです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-789.png,11,3
+790,g5-p-extra-sorry-i-can-t,phrase,"Sorry, I can't.",ごめんなさい、できません。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-790.png,11,4
+791,g5-p-extra-let-s-go-to-the-park,phrase,Let's go to the park.,公園へ行きましょう。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-791.png,11,5
+792,g5-p-extra-that-s-a-good-idea,phrase,That's a good idea.,それはよい考えです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-792.png,11,6
+793,g5-p-extra-sorry-i-m-busy,phrase,"Sorry, I'm busy.",ごめんなさい、忙しいです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-793.png,11,7
+794,g5-p-extra-are-you-free-tomorrow,phrase,Are you free tomorrow?,明日は暇ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-794.png,11,8
+795,g5-p-extra-please-come-in,phrase,Please come in.,どうぞ入ってください。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-795.png,11,9
+796,g5-p-extra-please-sit-down,phrase,Please sit down.,座ってください。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-796.png,11,10
+797,g5-p-extra-stand-up-please,phrase,"Stand up, please.",立ってください。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-797.png,11,11
+798,g5-p-extra-don-t-run-here,phrase,Don't run here.,ここでは走らないで。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-798.png,11,12
+799,g5-p-extra-be-careful,phrase,Be careful.,気をつけて。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-799.png,11,13
+800,g5-p-extra-please-be-quiet,phrase,Please be quiet.,静かにしてください。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-800.png,11,14
+801,g5-p-extra-turn-right-at-the-corner,phrase,Turn right at the corner.,角で右に曲がって。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-801.png,11,15
+802,g5-p-extra-the-bank-is-next-to-the-station,phrase,The bank is next to the station.,銀行は駅の隣です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-802.png,11,16
+803,g5-p-extra-where-is-the-post-office,phrase,Where is the post office?,郵便局はどこですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-803.png,12,1
+804,g5-p-extra-it-s-near-the-park,phrase,It's near the park.,公園の近くです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-804.png,12,2
+805,g5-p-extra-there-is-a-cat-under-the-table,phrase,There is a cat under the table.,テーブルの下に猫がいます。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-805.png,12,3
+806,g5-p-extra-there-are-three-books-on-the-desk,phrase,There are three books on the desk.,机の上に本が3冊あります。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-806.png,12,4
+807,g5-p-extra-is-he-reading-a-book,phrase,Is he reading a book?,彼は本を読んでいますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-807.png,12,5
+808,g5-p-extra-yes-he-is,phrase,"Yes, he is.",はい、彼はそうしています。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-808.png,12,6
+809,g5-p-extra-no-he-isn-t,phrase,"No, he isn't.",いいえ、彼はそうしていません。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-809.png,12,7
+810,g5-p-extra-they-are-playing-soccer,phrase,They are playing soccer.,彼らはサッカーをしています。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-810.png,12,8
+811,g5-p-extra-i-m-not-watching-tv,phrase,I'm not watching TV.,テレビを見ていません。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-811.png,12,9
+812,g5-p-extra-what-is-she-doing,phrase,What is she doing?,彼女は何をしていますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-812.png,12,10
+813,g5-p-extra-she-is-cooking-dinner,phrase,She is cooking dinner.,彼女は夕食を作っています。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-813.png,12,11
+814,g5-p-extra-i-want-to-be-a-teacher,phrase,I want to be a teacher.,先生になりたいです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-814.png,15,8
+815,g5-p-extra-i-like-playing-tennis,phrase,I like playing tennis.,テニスをするのが好きです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-815.png,12,13
+816,g5-p-extra-happy-birthday,phrase,Happy birthday!,お誕生日おめでとう。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-816.png,12,14
+817,g5-p-extra-happy-new-year,phrase,Happy New Year!,あけましておめでとう。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-817.png,12,15
+818,g5-p-extra-have-a-nice-day,phrase,Have a nice day.,よい1日を。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-818.png,12,16
+819,g5-p-extra-have-a-good-time,phrase,Have a good time.,楽しんできてね。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-819.png,13,1
+820,g5-p-extra-see-you-later,phrase,See you later.,またあとで。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-820.png,13,2
+821,g5-p-extra-take-care,phrase,Take care.,元気でね。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-821.png,13,3
+822,g5-p-extra-are-you-ok,phrase,Are you OK?,大丈夫ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-822.png,13,4
+823,g5-p-extra-i-m-tired,phrase,I'm tired.,疲れています。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-823.png,13,5
+824,g5-p-extra-what-s-wrong,phrase,What's wrong?,どうしたのですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-824.png,13,6
+825,g5-p-extra-one-more-time-please,phrase,"One more time, please.",もう一度お願いします。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-825.png,13,7
+826,g5-p-extra-please-speak-slowly,phrase,Please speak slowly.,ゆっくり話してください。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-826.png,13,8
+827,g5-p-extra-i-don-t-understand,phrase,I don't understand.,わかりません。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-827.png,13,9
+828,g5-p-extra-how-do-you-say-this-in-english,phrase,How do you say this in English?,これは英語で何と言いますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-828.png,13,10
+829,g5-p-extra-what-does-this-word-mean,phrase,What does this word mean?,この単語はどういう意味ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-829.png,13,11
+852,g5-w-rj-city-hall,word,city hall,市役所,意味が間接的・不自然・対象不明,日本語の市役所ラベルがないと一般建物と区別できない小さい模式図。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-city-hall.png,assets/vocabulary/eiken-audit-852.png,4,4
+855,g5-w-rj-sunshine,word,sunshine,日光・日ざし,意味が間接的・不自然・対象不明,太陽アイコンと説明文が中心で、sunshineの日ざし自体が小さい。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-sunshine.png,assets/vocabulary/eiken-audit-855.png,15,9
+861,g5-w-rj-officer,word,officer,役人・警察官など,意味が間接的・不自然・対象不明,officeの縮小画と人型で、例文のpolice officerという公務の人が見えない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-officer.png,assets/vocabulary/eiken-audit-861.png,4,5
+862,g5-w-rj-person,word,person,人（1人）,意味が間接的・不自然・対象不明,ideaの電球と思考の絵を流用。person（1人）と一致しない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-4770.png,assets/vocabulary/eiken-audit-862.png,1,16
+864,g5-w-rj-pilot,word,pilot,飛行機を操縦する人,意味が間接的・不自然・対象不明,飛行機と人型の小さい図で、操縦する人が見えない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-pilot.png,assets/vocabulary/eiken-audit-864.png,3,12
+865,g5-w-rj-waiter,word,waiter,レストランなどの男性の給仕,意味が間接的・不自然・対象不明,人型と縮小したレストラン画像をラベルで説明し、給仕本人が読み取りづらい。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-waiter.png,assets/vocabulary/eiken-audit-865.png,3,13
+866,g5-w-rj-worker,word,worker,働く人,意味が間接的・不自然・対象不明,事務所の縮小画と人型で、働く行為が読み取りづらい。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-worker.png,assets/vocabulary/eiken-audit-866.png,3,14
+878,g5-w-rj-ski,word,ski,スキーをする,意味が間接的・不自然・対象不明,小さいスキーの写真と人型を説明文で結び、skiの動作が小さすぎる。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-ski.png,assets/vocabulary/eiken-audit-878.png,3,15
+881,g5-w-rj-move,word,move,動く・動かす・引っ越す,意味が間接的・不自然・対象不明,走る画像の流用で、moveの物を動かす用法が表れない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-v2-word-7134.png,assets/vocabulary/eiken-audit-881.png,3,16
+884,g5-p-rj-what-s-the-date-today,phrase,What's the date today?,今日は何月何日ですか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-884.png,13,12
+885,g5-p-rj-how-do-you-get-to-the-station,phrase,How do you get to the station?,駅へはどうやって行きますか。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-885.png,13,13
+886,g5-p-rj-this-bag-is-his,phrase,This bag is his.,このかばんは彼のものです。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-886.png,13,14
+887,g5-p-rj-he-is-a-piano-player,phrase,He is a piano player.,彼はピアノの演奏者です。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-887.png,13,15
+888,g5-p-rj-please-ask-him-for-help,phrase,Please ask him for help.,彼に助けをお願いしてください。,画像なし,画像なし。表現の意味・場面を表す画像を新規生成。,,assets/vocabulary/eiken-audit-888.png,13,16
+902,g5-w-ph-e-mail,word,e-mail,電子メール,意味が間接的・不自然・対象不明,封筒だけで紙のletterに見え、電子メールと区別できない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512c-word-8369.png,assets/vocabulary/eiken-audit-902.png,3,11
+914,g5-w-ph-wonderful,word,wonderful,すばらしい,意味が間接的・不自然・対象不明,花1本にwonderfulというラベルの図でprettyと同じ見え方になっている。,assets/vocabulary/g5-w-ph-wonderful.svg,assets/vocabulary/eiken-audit-914.png,15,10
+936,g5-w-ph-living,word,living,暮らし・生活,意味が間接的・不自然・対象不明,家のアイコンだけでlivingの暮らしや生活を表さず、houseに見える。,assets/vocabulary/g5-w-ph-living.svg,assets/vocabulary/eiken-audit-936.png,15,11
+971,g5-w-ph-soft,word,soft,やわらかい,意味が間接的・不自然・対象不明,枕だけの物体画像で、softのやわらかい性質が見えない。,https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/pillow.png,assets/vocabulary/eiken-audit-971.png,1,15

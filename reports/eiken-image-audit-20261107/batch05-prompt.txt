@@ -1,0 +1,18 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines INCLUDING outer frame, exact positions, continuous straightness and thickness. Paint EXACTLY sixteen separate clear children's picture-book illustrations, read row-major left to right then top to bottom. Each scene stays inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. Use panels generously, no large blank margins. No labels, captions, watermarks, readable text or numbers UNLESS the individual scene explicitly requires exact lettering or a precise count. Do not add random writing. Natural human anatomy. Illustrate the specific English meaning, action or relationship rather than a loosely associated Japanese noun. These are educational context illustrations shown BESIDE the original English sentence, not standalone replacements for grammar or exact names.
+Exact scenes:
+1. Target: How old are you? / 何歳ですか。. Scene: A child politely asks another child's age, gesturing toward the friend's birthday cake with unlit candles.
+2. Target: I'm eleven. / わたしは11歳です。. Scene: An eleven-year-old child pointing to self beside a birthday cake with exactly eleven small unlit candles, arranged six plus five.
+3. Target: I like music. / わたしは音楽が好きです。. Scene: Child happily listening to music through headphones, musical notes and a small heart indicate liking music.
+4. Target: Do you like soccer? / サッカーは好きですか。. Scene: One child holds a soccer ball and asks a friend about it, friendly questioning gesture, soccer goal behind.
+5. Target: Yes, I do. / はい、そうです。. Scene: Child nodding yes to a friend who holds a soccer ball; enthusiastic smile and thumb up.
+6. Target: No, I don't. / いいえ、ちがいます。. Scene: Child gently shaking head no to a friend holding a soccer ball; polite crossed forearms, friendly expression.
+7. Target: I don't like milk. / わたしは牛乳が好きではありません。. Scene: Child politely pushes away a glass of milk with a mildly displeased face; no drinking.
+8. Target: I can dance. / わたしは踊れます。. Scene: Child confidently performing a dance step on a small practice floor, music nearby.
+9. Target: Can you swim? / 泳げますか。. Scene: At a poolside, child in swimwear asks another child about swimming, gestures to the water, both safely on deck.
+10. Target: What is this? / これは何ですか。. Scene: A curious child points at an unfamiliar object in a friend's open hand, asking what it is.
+11. Target: It's a cat. / それは猫です。. Scene: Child pointing clearly to one cat sitting nearby, friendly explanatory gesture.
+12. Target: Where is my bag? / わたしのかばんはどこですか。. Scene: Child looking for their missing backpack, checking beside a desk with puzzled face.
+13. Target: It's on the desk. / それは机の上にあります。. Scene: A bright blue schoolbag sitting entirely ON TOP OF a wooden desk, clear side view.
+14. Target: It's under the desk. / それは机の下にあります。. Scene: A bright blue schoolbag sitting entirely UNDER a wooden desk, clear side view.
+15. Target: It's in the bag. / それはかばんの中にあります。. Scene: An open schoolbag with a pencil case clearly INSIDE the bag, cutaway view.
+16. Target: What time is it? / 何時ですか。. Scene: Child asking a friend the time while pointing toward a large wall clock.

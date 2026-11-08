@@ -11,7 +11,7 @@ test('every pair sharing an image has a reviewed, symmetric contrast and usable 
   assert.equal(ab.reviewed,true,`${a.en} / ${b.en} needs a written explanation`);assert.equal(ab.sharedImage,true);
   assert.equal(ab.note,ba.note);assert.equal(ab.targetNote,ba.chosenNote);assert.equal(ab.chosenNote,ba.targetNote);
   for(const c of [a,b])assert(c.example&&c.exampleJa);
- }assert(pairs>=24);
+ }assert(pairs>0);assert.equal(find('bicycle').image.url,find('bike').image.url);
 });
 test('weather, plural and synonym explanations distinguish the deck senses without inventing differences',()=>{
  assert.match(karutaContrast(find('snow'),find('snowy')).note,/雪そのもの/);

@@ -1,0 +1,18 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines INCLUDING outer frame, exact positions, continuous straightness and thickness. Paint EXACTLY sixteen separate clear children's picture-book illustrations, read row-major left to right then top to bottom. Each scene stays inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. Use panels generously, no large blank margins. No labels, captions, watermarks, readable text or numbers UNLESS the individual scene explicitly requires exact lettering or a precise count. Do not add random writing. Natural human anatomy. Illustrate the specific English meaning, action or relationship rather than a loosely associated Japanese noun. These are educational context illustrations shown BESIDE the original English sentence, not standalone replacements for grammar or exact names.
+Exact scenes:
+1. Target: Let's play soccer. / サッカーをしましょう。. Scene: Child holding a soccer ball invites two friends onto a soccer field with an open welcoming hand.
+2. Target: That sounds good. / それはいいですね。. Scene: Child listening to a friend's suggestion to play soccer, smiling and giving an enthusiastic thumb up.
+3. Target: Can I use your pen? / あなたのペンを使ってもいいですか。. Scene: Child politely asks a classmate for permission to use the classmate's pen, open hand toward the pen, owner listening.
+4. Target: Here you are. / はい、どうぞ。. Scene: Child hands a pen directly to a classmate, offering gesture, recipient's open hand ready.
+5. Target: Please close the door. / ドアを閉めてください。. Scene: Teacher politely gestures for a child to CLOSE an open classroom door; child pulling door toward frame.
+6. Target: I go to school by bus. / わたしはバスで学校に行きます。. Scene: Child rides a bus toward school; school building visible through the bus window, no walking.
+7. Target: What are you doing? / 何をしているところですか。. Scene: Child asks a friend what they are doing while the friend is drawing at a table, interested questioning posture.
+8. Target: I'm from Japan. / 日本出身です。. Scene: Child introducing themself beside a globe with Japan subtly highlighted and a small plain Japanese flag; no labels.
+9. Target: Where are you from? / どこの出身ですか。. Scene: Two children discussing their places of origin while pointing at a globe, open questioning gesture.
+10. Target: I live in Tokyo. / 東京に住んでいます。. Scene: Child at the doorway of their Tokyo apartment, distant Tokyo Tower and city skyline in view; no text.
+11. Target: Where do you live? / どこに住んでいますか。. Scene: Child asks a friend where they live, pointing toward several houses in the neighborhood.
+12. Target: Who is that boy? / あの男の子はだれですか。. Scene: Two children look toward a boy standing a little distance away; one asks the other who he is with an open hand toward him.
+13. Target: He is my brother. / 彼はわたしの兄（弟）です。. Scene: Girl introduces her brother, orange pointer highlights the boy; parents in a small family photo establish sibling relationship.
+14. Target: This is my friend. / こちらはわたしの友達です。. Scene: Child introduces a friend to another child, welcoming open palm toward the friend, all three smiling.
+15. Target: Is this your book? / これはあなたの本ですか。. Scene: Child holds up a found book and asks a classmate whether it belongs to them, open questioning hand.
+16. Target: Yes, it is. / はい、そうです。（単数のものについて）. Scene: Child nodding yes while pointing to self and the book a friend is holding, claiming the book.

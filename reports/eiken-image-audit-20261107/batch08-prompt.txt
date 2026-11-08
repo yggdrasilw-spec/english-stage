@@ -1,0 +1,18 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines INCLUDING outer frame, exact positions, continuous straightness and thickness. Paint EXACTLY sixteen separate clear children's picture-book illustrations, read row-major left to right then top to bottom. Each scene stays inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. Use panels generously, no large blank margins. No labels, captions, watermarks, readable text or numbers UNLESS the individual scene explicitly requires exact lettering or a precise count. Do not add random writing. Natural human anatomy. Illustrate the specific English meaning, action or relationship rather than a loosely associated Japanese noun. These are educational context illustrations shown BESIDE the original English sentence, not standalone replacements for grammar or exact names.
+Exact scenes:
+1. Target: No, it isn't. / いいえ、違います。（単数のものについて）. Scene: Child gently shakes head no and holds an open palm away from the found book, showing it is not theirs.
+2. Target: Are you a student? / あなたは生徒ですか。. Scene: Adult politely asks a school-age child about being a student, school and backpack in view.
+3. Target: Yes, I am. / はい、そうです。（自分について）. Scene: Child nods yes and points to self, school backpack and school entrance visible.
+4. Target: No, I'm not. / いいえ、違います。（自分について）. Scene: An adult visitor politely shakes head no in response to a child at a school gate; clearly not a student.
+5. Target: These are my shoes. / これらはわたしの靴です。. Scene: Child pointing proudly to their OWN pair of red shoes, exactly two shoes side by side.
+6. Target: Whose pen is this? / これはだれのペンですか。. Scene: Child holding a found pen asks two classmates who owns it, both classmates looking at it.
+7. Target: It's mine. / わたしのものです。. Scene: Child points to own chest and reaches toward their pen in a friend's hand, claiming ownership.
+8. Target: What color is it? / それは何色ですか。. Scene: Child asks a friend the color of a single plain ball while pointing to a small color palette.
+9. Target: It's blue. / 青色です。. Scene: A large clearly BLUE ball, child pointing to it; no other colored balls.
+10. Target: What's your favorite food? / いちばん好きな食べ物は何ですか。. Scene: Child asks a friend their favorite food while showing three dishes, including curry, with questioning gesture.
+11. Target: My favorite food is curry. / いちばん好きな食べ物はカレーです。. Scene: Child delightedly pointing to a plate of curry rice, small heart indicates favorite food.
+12. Target: What subject do you like? / どの教科が好きですか。. Scene: Two students discuss favorite school subjects, open textbooks showing science, arithmetic and painting, questioning gesture.
+13. Target: I like English. / 英語が好きです。. Scene: Child smiles with a heart while practicing English conversation with a teacher; open English textbook has simple letter-like decorative strokes but no readable text.
+14. Target: Does she like tennis? / 彼女はテニスが好きですか。. Scene: Two children talk about a girl holding a tennis racket nearby, one asking and pointing toward her.
+15. Target: Yes, she does. / はい、彼女はそうです。. Scene: Child nodding yes toward a girl happily holding a tennis racket, small heart by girl.
+16. Target: No, she doesn't. / いいえ、彼女は違います。. Scene: Child gently shaking head while a girl sets aside a tennis racket and turns toward a different hobby; no sad face.

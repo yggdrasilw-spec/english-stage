@@ -321,23 +321,23 @@
   },
   {
     "id": "g5-w-sister",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-sister-word-12134.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "姉妹",
-    "sourceMeaning": "姉と妹。",
-    "sourceSheet": "sheets/eiken-20261101-sheet01.png",
-    "sourceReview": "目視確認済み：コマ順・被写体・単複・語義と一致。 対象：sister／姉・妹",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-32.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "姉・妹",
+    "sourceMeaning": "sister：姉・妹",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：sister／姉・妹。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-brother",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-brother-word-1563.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "兄弟",
-    "sourceMeaning": "同じ親から生まれた人たち。",
-    "sourceSheet": "sheets/eiken-20261101-sheet01.png",
-    "sourceReview": "目視確認済み：コマ順・被写体・単複・語義と一致。 対象：brother／兄・弟",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-33.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "兄・弟",
+    "sourceMeaning": "brother：兄・弟",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：brother／兄・弟。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-grandmother",
@@ -471,13 +471,13 @@
   },
   {
     "id": "g5-w-small",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-3490.png",
-    "credit": "アプリ作成図",
+    "url": "assets/vocabulary/eiken-audit-47.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "小さい",
-    "sourceMeaning": "大きさや高さが少ないこと。",
-    "sourceSheet": null,
-    "sourceReview": "目視確認済み。語の意味・動作・数量と対応する画像を登録。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "small：小さい",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：small／小さい。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-happy",
@@ -701,13 +701,13 @@
   },
   {
     "id": "g5-w-hand",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/te.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-70.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "手",
-    "sourceMeaning": "うでの先にある、ものを持ったりさわったりする体の部分。",
-    "sourceSheet": "sheets/2026-10-08-actions.png",
-    "sourceReview": "確認済み: 友達とハイタッチする手。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "hand：手",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：hand／手。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-head",
@@ -781,13 +781,13 @@
   },
   {
     "id": "g5-w-shoe",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1734.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "靴",
-    "sourceMeaning": "足を守るため、外を歩くときに履くもの。",
-    "sourceSheet": "sheets/2026-10-12-b-3.png",
-    "sourceReview": "目視確認済み: A pair of comfortable red children sneakers with laces",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-78.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "靴（片方）",
+    "sourceMeaning": "shoe：靴（片方）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：shoe／靴（片方）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-coat",
@@ -998,6 +998,306 @@
     "sourceSheet": "sheets/2026-10-12-wave7-23.png",
     "sourceReview": "目視確認済み: 冬（ふゆ）: 一年のうちで最も寒い季節。地域によっては雪や氷が見られる。 Draw a single clear concrete scene conveying this meaning.",
     "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-p-01",
+    "url": "assets/vocabulary/eiken-audit-100.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "こんにちは。",
+    "sourceMeaning": "Hello.：こんにちは。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：Hello.／こんにちは。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-02",
+    "url": "assets/vocabulary/eiken-audit-101.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "おはようございます。",
+    "sourceMeaning": "Good morning.：おはようございます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：Good morning.／おはようございます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-03",
+    "url": "assets/vocabulary/eiken-audit-102.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "おやすみなさい。",
+    "sourceMeaning": "Good night.：おやすみなさい。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：Good night.／おやすみなさい。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-04",
+    "url": "assets/vocabulary/eiken-audit-103.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "ありがとう。",
+    "sourceMeaning": "Thank you.：ありがとう。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：Thank you.／ありがとう。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-05",
+    "url": "assets/vocabulary/eiken-audit-104.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "どういたしまして。",
+    "sourceMeaning": "You are welcome.：どういたしまして。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：You are welcome.／どういたしまして。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-06",
+    "url": "assets/vocabulary/eiken-audit-105.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "ごめんなさい。",
+    "sourceMeaning": "I'm sorry.：ごめんなさい。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：I'm sorry.／ごめんなさい。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-07",
+    "url": "assets/vocabulary/eiken-audit-106.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "すみません。",
+    "sourceMeaning": "Excuse me.：すみません。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：Excuse me.／すみません。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-08",
+    "url": "assets/vocabulary/eiken-audit-107.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "またね。",
+    "sourceMeaning": "See you.：またね。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：See you.／またね。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-09",
+    "url": "assets/vocabulary/eiken-audit-108.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしの名前はユイです。",
+    "sourceMeaning": "My name is Yui.：わたしの名前はユイです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：My name is Yui.／わたしの名前はユイです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-10",
+    "url": "assets/vocabulary/eiken-audit-109.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "元気ですか。",
+    "sourceMeaning": "How are you?：元気ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：How are you?／元気ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-11",
+    "url": "assets/vocabulary/eiken-audit-110.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "元気です。",
+    "sourceMeaning": "I'm fine.：元気です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：I'm fine.／元気です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-12",
+    "url": "assets/vocabulary/eiken-audit-111.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "何歳ですか。",
+    "sourceMeaning": "How old are you?：何歳ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：How old are you?／何歳ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-13",
+    "url": "assets/vocabulary/eiken-audit-112.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしは11歳です。",
+    "sourceMeaning": "I'm eleven.：わたしは11歳です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：I'm eleven.／わたしは11歳です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-14",
+    "url": "assets/vocabulary/eiken-audit-113.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしは音楽が好きです。",
+    "sourceMeaning": "I like music.：わたしは音楽が好きです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：I like music.／わたしは音楽が好きです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-15",
+    "url": "assets/vocabulary/eiken-audit-114.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "サッカーは好きですか。",
+    "sourceMeaning": "Do you like soccer?：サッカーは好きですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：Do you like soccer?／サッカーは好きですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-16",
+    "url": "assets/vocabulary/eiken-audit-115.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "はい、そうです。",
+    "sourceMeaning": "Yes, I do.：はい、そうです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：Yes, I do.／はい、そうです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-17",
+    "url": "assets/vocabulary/eiken-audit-116.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "いいえ、ちがいます。",
+    "sourceMeaning": "No, I don't.：いいえ、ちがいます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：No, I don't.／いいえ、ちがいます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-18",
+    "url": "assets/vocabulary/eiken-audit-117.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしは牛乳が好きではありません。",
+    "sourceMeaning": "I don't like milk.：わたしは牛乳が好きではありません。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：I don't like milk.／わたしは牛乳が好きではありません。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-19",
+    "url": "assets/vocabulary/eiken-audit-118.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしは踊れます。",
+    "sourceMeaning": "I can dance.：わたしは踊れます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：I can dance.／わたしは踊れます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-20",
+    "url": "assets/vocabulary/eiken-audit-119.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "泳げますか。",
+    "sourceMeaning": "Can you swim?：泳げますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：Can you swim?／泳げますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-21",
+    "url": "assets/vocabulary/eiken-audit-120.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "これは何ですか。",
+    "sourceMeaning": "What is this?：これは何ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：What is this?／これは何ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-22",
+    "url": "assets/vocabulary/eiken-audit-121.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "それは猫です。",
+    "sourceMeaning": "It's a cat.：それは猫です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：It's a cat.／それは猫です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-23",
+    "url": "assets/vocabulary/eiken-audit-122.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしのかばんはどこですか。",
+    "sourceMeaning": "Where is my bag?：わたしのかばんはどこですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：Where is my bag?／わたしのかばんはどこですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-24",
+    "url": "assets/vocabulary/eiken-audit-123.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "それは机の上にあります。",
+    "sourceMeaning": "It's on the desk.：それは机の上にあります。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：It's on the desk.／それは机の上にあります。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-25",
+    "url": "assets/vocabulary/eiken-audit-124.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "それは机の下にあります。",
+    "sourceMeaning": "It's under the desk.：それは机の下にあります。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：It's under the desk.／それは机の下にあります。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-26",
+    "url": "assets/vocabulary/eiken-audit-125.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "それはかばんの中にあります。",
+    "sourceMeaning": "It's in the bag.：それはかばんの中にあります。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：It's in the bag.／それはかばんの中にあります。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-27",
+    "url": "assets/vocabulary/eiken-audit-126.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "何時ですか。",
+    "sourceMeaning": "What time is it?：何時ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch05.png",
+    "sourceReview": "2026-11-08 内容確認：What time is it?／何時ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-28",
+    "url": "assets/vocabulary/eiken-audit-127.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "7時です。",
+    "sourceMeaning": "It's seven o'clock.：7時です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：It's seven o'clock.／7時です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-29",
+    "url": "assets/vocabulary/eiken-audit-128.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "本を開いてください。",
+    "sourceMeaning": "Please open your book.：本を開いてください。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：Please open your book.／本を開いてください。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-30",
+    "url": "assets/vocabulary/eiken-audit-129.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしは今、本を読んでいます。",
+    "sourceMeaning": "I'm reading a book.：わたしは今、本を読んでいます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：I'm reading a book.／わたしは今、本を読んでいます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-january",
@@ -1631,13 +1931,13 @@
   },
   {
     "id": "g5-w-watch",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-word-7265.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "見る",
-    "sourceMeaning": "めをつかって、もののすがたやようすをとらえること。",
-    "sourceSheet": "sheets/expansion512-oct14-sheet11.png",
-    "sourceReview": "目視確認済み: 見る：めをつかって、もののすがたやようすをとらえること。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-193.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "見る（テレビなどを）",
+    "sourceMeaning": "watch：見る（テレビなどを）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：watch／見る（テレビなどを）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-listen",
@@ -1701,13 +2001,13 @@
   },
   {
     "id": "g5-w-long",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-4096.png",
-    "credit": "アプリ作成図",
+    "url": "assets/vocabulary/eiken-audit-200.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "長い",
-    "sourceMeaning": "端から端までの距離が大きい様子。",
-    "sourceSheet": null,
-    "sourceReview": "目視確認済み。語の意味・動作・数量と対応する画像を登録。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "long：長い",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：long／長い。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-short",
@@ -1891,13 +2191,13 @@
   },
   {
     "id": "g5-w-math",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-2673.png",
-    "credit": "プログラム生成図",
-    "sourceWord": "算数",
-    "sourceMeaning": "数や形、量などについて学ぶ教科。",
-    "sourceSheet": "sheets/wave10-diagram-word-2673.png",
-    "sourceReview": "目視確認済み: 算数（さんすう）: 数や形、量などについて学ぶ教科。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-219.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "算数・数学（米国英語）",
+    "sourceMeaning": "math：算数・数学（米国英語）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：math／算数・数学（米国英語）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-breakfast",
@@ -1941,13 +2241,13 @@
   },
   {
     "id": "g5-w-afternoon",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-v2-word-7533.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-224.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "午後",
-    "sourceMeaning": "ひるのじゅうにじから、よるのじゅうにじまでのじかん。",
-    "sourceSheet": "sheets/expansion512-oct14-sheet28-v2.png",
-    "sourceReview": "目視確認済み: 午後：ひるのじゅうにじから、よるのじゅうにじまでのじかん。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "afternoon：午後",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：afternoon／午後。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-evening",
@@ -1998,6 +2298,206 @@
     "sourceSheet": "sheets/2026-10-12-wave7-14.png",
     "sourceReview": "目視確認済み: 誕生日（たんじょうび）: 人が生まれた日と同じ日付が毎年めぐってくる日。 Draw a single clear concrete scene conveying this meaning.",
     "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-p-31",
+    "url": "assets/vocabulary/eiken-audit-230.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "こんにちは（午後）。",
+    "sourceMeaning": "Good afternoon.：こんにちは（午後）。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：Good afternoon.／こんにちは（午後）。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-32",
+    "url": "assets/vocabulary/eiken-audit-231.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "こんばんは。",
+    "sourceMeaning": "Good evening.：こんばんは。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：Good evening.／こんばんは。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-33",
+    "url": "assets/vocabulary/eiken-audit-232.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "はじめまして。",
+    "sourceMeaning": "Nice to meet you.：はじめまして。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：Nice to meet you.／はじめまして。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-34",
+    "url": "assets/vocabulary/eiken-audit-233.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "また明日ね。",
+    "sourceMeaning": "See you tomorrow.：また明日ね。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：See you tomorrow.／また明日ね。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-35",
+    "url": "assets/vocabulary/eiken-audit-234.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "あなたの名前はどうつづりますか。",
+    "sourceMeaning": "How do you spell your name?：あなたの名前はどうつづりますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：How do you spell your name?／あなたの名前はどうつづりますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-36",
+    "url": "assets/vocabulary/eiken-audit-235.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "今日は何曜日ですか。",
+    "sourceMeaning": "What day is it today?：今日は何曜日ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：What day is it today?／今日は何曜日ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-37",
+    "url": "assets/vocabulary/eiken-audit-236.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "月曜日です。",
+    "sourceMeaning": "It's Monday.：月曜日です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：It's Monday.／月曜日です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-38",
+    "url": "assets/vocabulary/eiken-audit-237.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "誕生日はいつですか。",
+    "sourceMeaning": "When is your birthday?：誕生日はいつですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：When is your birthday?／誕生日はいつですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-39",
+    "url": "assets/vocabulary/eiken-audit-238.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしの誕生日は5月です。",
+    "sourceMeaning": "My birthday is in May.：わたしの誕生日は5月です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：My birthday is in May.／わたしの誕生日は5月です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-40",
+    "url": "assets/vocabulary/eiken-audit-239.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "本を何冊持っていますか。",
+    "sourceMeaning": "How many books do you have?：本を何冊持っていますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：How many books do you have?／本を何冊持っていますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-41",
+    "url": "assets/vocabulary/eiken-audit-240.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしは本を3冊持っています。",
+    "sourceMeaning": "I have three books.：わたしは本を3冊持っています。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：I have three books.／わたしは本を3冊持っています。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-42",
+    "url": "assets/vocabulary/eiken-audit-241.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "何が欲しいですか。",
+    "sourceMeaning": "What do you want?：何が欲しいですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：What do you want?／何が欲しいですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-43",
+    "url": "assets/vocabulary/eiken-audit-242.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしは水が欲しいです。",
+    "sourceMeaning": "I want some water.：わたしは水が欲しいです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch06.png",
+    "sourceReview": "2026-11-08 内容確認：I want some water.／わたしは水が欲しいです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-44",
+    "url": "assets/vocabulary/eiken-audit-243.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "サッカーをしましょう。",
+    "sourceMeaning": "Let's play soccer.：サッカーをしましょう。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：Let's play soccer.／サッカーをしましょう。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-45",
+    "url": "assets/vocabulary/eiken-audit-244.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "それはいいですね。",
+    "sourceMeaning": "That sounds good.：それはいいですね。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：That sounds good.／それはいいですね。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-46",
+    "url": "assets/vocabulary/eiken-audit-245.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "あなたのペンを使ってもいいですか。",
+    "sourceMeaning": "Can I use your pen?：あなたのペンを使ってもいいですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：Can I use your pen?／あなたのペンを使ってもいいですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-47",
+    "url": "assets/vocabulary/eiken-audit-246.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "はい、どうぞ。",
+    "sourceMeaning": "Here you are.：はい、どうぞ。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：Here you are.／はい、どうぞ。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-48",
+    "url": "assets/vocabulary/eiken-audit-247.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "ドアを閉めてください。",
+    "sourceMeaning": "Please close the door.：ドアを閉めてください。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：Please close the door.／ドアを閉めてください。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-49",
+    "url": "assets/vocabulary/eiken-audit-248.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしはバスで学校に行きます。",
+    "sourceMeaning": "I go to school by bus.：わたしはバスで学校に行きます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：I go to school by bus.／わたしはバスで学校に行きます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-50",
+    "url": "assets/vocabulary/eiken-audit-249.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "何をしているところですか。",
+    "sourceMeaning": "What are you doing?：何をしているところですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：What are you doing?／何をしているところですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-sandwich",
@@ -2411,13 +2911,13 @@
   },
   {
     "id": "g5-w-star",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5077.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-291.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "星",
-    "sourceMeaning": "太陽のように自ら光る天体。また、夜空に見える天体。",
-    "sourceSheet": "sheets/2026-10-12-wave7-26-r1.png",
-    "sourceReview": "目視確認済み: 星（ほし）: 太陽のように自ら光る天体。また、夜空に見える天体。 Draw a single clear concrete scene conveying this meaning.",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "star：星",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：star／星。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-cloud",
@@ -2711,13 +3211,13 @@
   },
   {
     "id": "g5-w-word",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-3371.png",
-    "credit": "プログラム生成図",
+    "url": "assets/vocabulary/eiken-audit-321.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "単語",
-    "sourceMeaning": "文を作る言葉のひとまとまり。たとえば「犬」や「学校」は単語。",
-    "sourceSheet": "sheets/wave10-diagram-word-3371.png",
-    "sourceReview": "目視確認済み: 単語（たんご）: 文を作る言葉のひとまとまり。たとえば「犬」や「学校」は単語。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "word：単語",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：word／単語。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-page",
@@ -2731,13 +3231,13 @@
   },
   {
     "id": "g5-w-sentence",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-4926.png",
-    "credit": "プログラム生成図",
+    "url": "assets/vocabulary/eiken-audit-323.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "文",
-    "sourceMeaning": "言葉をつなぎ、まとまった意味を表すもの。",
-    "sourceSheet": "sheets/wave10-diagram-word-4926.png",
-    "sourceReview": "目視確認済み: 文（ぶん）: 言葉をつなぎ、まとまった意味を表すもの。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "sentence：文",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：sentence／文。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-story",
@@ -2771,13 +3271,13 @@
   },
   {
     "id": "g5-w-cd",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512c-word-8146.png",
-    "credit": "プログラム生成図",
+    "url": "assets/vocabulary/eiken-audit-327.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "CD",
-    "sourceMeaning": "おんがくやデータなどをいれる、うすいえんばん。",
-    "sourceSheet": "sheets/expansion512c-diagram-word-8146.png",
-    "sourceReview": "目視確認済み: おんがくや データを ほぞん",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "CD：CD",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：CD／CD。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-table",
@@ -2891,13 +3391,13 @@
   },
   {
     "id": "g5-w-roof",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-5642.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-339.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "屋根",
-    "sourceMeaning": "建物のいちばん上をおおう部分。",
-    "sourceSheet": "sheets/2026-10-12-wave4-5.png",
-    "sourceReview": "目視確認済み: 家の上部を覆う瓦屋根。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "roof：屋根",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：roof／屋根。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-gate",
@@ -3111,13 +3611,13 @@
   },
   {
     "id": "g5-w-country",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-r1-word-1725.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-361.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "国",
-    "sourceMeaning": "人々が集まり、決まりを作って暮らす領域。",
-    "sourceSheet": "sheets/wave10-sheet-06-r1.png",
-    "sourceReview": "目視確認済み: 国（くに）: 人々が集まり、決まりを作って暮らす領域。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "country：国",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：country／国。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-train",
@@ -3191,13 +3691,13 @@
   },
   {
     "id": "g5-w-child",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-2285.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-369.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "子ども",
-    "sourceMeaning": "親から生まれた人や動物。また、年少の人。",
-    "sourceSheet": "sheets/2026-10-12-wave7-09.png",
-    "sourceReview": "目視確認済み: 子ども（こども）: 親から生まれた人や動物。また、年少の人。 Draw a single clear concrete scene conveying this meaning.",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "child：子ども",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：child／子ども。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-man",
@@ -3221,43 +3721,43 @@
   },
   {
     "id": "g5-w-uncle",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-836.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "叔父さん",
-    "sourceMeaning": "お父さんやお母さんの兄弟。",
-    "sourceSheet": "sheets/2026-10-12-wave7-02.png",
-    "sourceReview": "目視確認済み: 叔父さん（おじさん）: お父さんやお母さんの兄弟。 Draw a single clear concrete scene conveying this meaning.",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-372.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "おじ",
+    "sourceMeaning": "uncle：おじ",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：uncle／おじ。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-aunt",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-aunt-word-87672.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-373.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "おば",
-    "sourceMeaning": "父や母の姉または妹。伯母や叔母と書く。",
-    "sourceSheet": "sheets/eiken-20261101-sheet02.png",
-    "sourceReview": "目視確認済み：コマ順・被写体・単複・語義と一致。 対象：aunt／おば",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "aunt：おば",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：aunt／おば。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-cousin",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-cousin-word-87673.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-374.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "いとこ",
-    "sourceMeaning": "おじやおばの子ども。",
-    "sourceSheet": "sheets/eiken-20261101-sheet02.png",
-    "sourceReview": "目視確認済み：コマ順・被写体・単複・語義と一致。 対象：cousin／いとこ",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "cousin：いとこ",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：cousin／いとこ。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-parent",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-6224.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-375.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "親",
-    "sourceMeaning": "こどもをうんだり、そだてたりする、おとうさんやおかあさんなどのひと。",
-    "sourceSheet": "sheets/wave9-sheet-19.png",
-    "sourceReview": "目視確認済み: 親（おや）: こどもをうんだり、そだてたりする、おとうさんやおかあさんなどのひと。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "parent：親",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：parent／親。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-doctor",
@@ -3381,13 +3881,13 @@
   },
   {
     "id": "g5-w-finger",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-5715.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-388.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "指",
-    "sourceMeaning": "手や足の先にある、物をつかんだり歩いたりする部分。",
-    "sourceSheet": "sheets/wave8-sheet-31.png",
-    "sourceReview": "目視確認済み: 指（ゆび）: 手や足の先にある、物をつかんだり歩いたりする部分。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "finger：指",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：finger／指。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-tooth",
@@ -3491,33 +3991,33 @@
   },
   {
     "id": "g5-w-sock",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1735.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-399.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "靴下",
-    "sourceMeaning": "足に履き、靴の中で使う衣類。",
-    "sourceSheet": "sheets/2026-10-12-b-3.png",
-    "sourceReview": "目視確認済み: A pair of striped cotton socks",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "sock：靴下",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：sock／靴下。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-glove",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-6137.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-400.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "手袋",
-    "sourceMeaning": "てをさむさやけがからまもるために、てにかぶせるもの。",
-    "sourceSheet": "sheets/2026-10-12-wave5-3.png",
-    "sourceReview": "目視確認済み: 左右それぞれ親指を含む五本の指がある手袋。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "glove：手袋",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：glove／手袋。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-boot",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13907.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-401.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "ブーツ",
-    "sourceMeaning": "足首より上までおおう長い靴。",
-    "sourceSheet": "sheets/expansion1024h-sheet64.png",
-    "sourceReview": "目視確認済み: ブーツ：足首より上までおおう長い靴。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "boot：ブーツ",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：boot／ブーツ。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-uniform",
@@ -4181,23 +4681,23 @@
   },
   {
     "id": "g5-w-up",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-up.png",
-    "credit": "プログラム生成図",
-    "sourceWord": "前置詞",
-    "sourceMeaning": "up：上へ。例：Look up.／上を見て。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-up.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：up／上へ",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-468.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "上へ",
+    "sourceMeaning": "up：上へ",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：up／上へ。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-down",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-down.png",
-    "credit": "プログラム生成図",
-    "sourceWord": "前置詞",
-    "sourceMeaning": "down：下へ。例：Sit down.／座って。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-down.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：down／下へ",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-469.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "下へ",
+    "sourceMeaning": "down：下へ",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：down／下へ。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-out",
@@ -4521,13 +5021,13 @@
   },
   {
     "id": "g5-w-use",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-3636.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-502.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "使う",
-    "sourceMeaning": "道具やお金などを目的に合わせて役立てること。",
-    "sourceSheet": "sheets/2026-10-10-complete-47.png",
-    "sourceReview": "目視確認済み。語の意味・動作・数量と対応する画像を登録。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "use：使う",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：use／使う。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-make",
@@ -4751,13 +5251,13 @@
   },
   {
     "id": "g5-w-fly",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/pv-jump.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-525.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "飛ぶ",
-    "sourceMeaning": "鳥や飛行機などが、空中を進むこと。",
-    "sourceSheet": "sheets/2026-10-09-agent-physical-verbs.png",
-    "sourceReview": "目視確認済み: 子どもが両足で地面から高くジャンプする",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "fly：飛ぶ",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：fly／飛ぶ。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-jump",
@@ -4781,13 +5281,13 @@
   },
   {
     "id": "g5-w-stand",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/tatsu.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-528.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "立つ",
-    "sourceMeaning": "体を起こして 足で体を支えた姿勢になること。",
-    "sourceSheet": "sheets/2026-10-08-school-actions.png",
-    "sourceReview": "確認済み: 机の横で立ち上がり返事をする子ども。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "stand：立つ",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：stand／立つ。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-meet",
@@ -5081,13 +5581,13 @@
   },
   {
     "id": "g5-w-young",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-young-word-87692.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-558.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "若い",
-    "sourceMeaning": "生まれてからの年数が少ないようす。",
-    "sourceSheet": "sheets/eiken-20261101-sheet03.png",
-    "sourceReview": "目視確認済み：コマ順・被写体・単複・語義と一致。 対象：young／若い",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "young：若い",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch02.png",
+    "sourceReview": "2026-11-08 内容確認：young／若い。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-tall",
@@ -5101,13 +5601,13 @@
   },
   {
     "id": "g5-w-high",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-3345.png",
-    "credit": "アプリ作成図",
-    "sourceWord": "高い",
-    "sourceMeaning": "上の方までの距離や値段などが大きいこと。",
-    "sourceSheet": null,
-    "sourceReview": "目視確認済み。語の意味・動作・数量と対応する画像を登録。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-560.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "高い（高さ）",
+    "sourceMeaning": "high：高い（高さ）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：high／高い（高さ）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-low",
@@ -5131,13 +5631,13 @@
   },
   {
     "id": "g5-w-little",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-3490.png",
-    "credit": "アプリ作成図",
-    "sourceWord": "小さい",
-    "sourceMeaning": "大きさや高さが少ないこと。",
-    "sourceSheet": null,
-    "sourceReview": "目視確認済み。語の意味・動作・数量と対応する画像を登録。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-563.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "小さな・少しの",
+    "sourceMeaning": "little：小さな・少しの",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：little／小さな・少しの。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-fast",
@@ -5161,13 +5661,13 @@
   },
   {
     "id": "g5-w-easy",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-easy.png",
-    "credit": "プログラム生成図",
-    "sourceWord": "簡単",
-    "sourceMeaning": "手間や難しさが少なく取り組みやすいこと。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-easy.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：easy／簡単な",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-566.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "簡単な",
+    "sourceMeaning": "easy：簡単な",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：easy／簡単な。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-difficult",
@@ -5181,13 +5681,13 @@
   },
   {
     "id": "g5-w-interesting",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/tanoshii.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "面白い",
-    "sourceMeaning": "興味をひかれたり、楽しいと感じたりすること。",
-    "sourceSheet": "sheets/2026-10-08-actions.png",
-    "sourceReview": "確認済み: 友達とボードゲームを楽しむ子どもたち。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-568.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "おもしろい（興味深い）",
+    "sourceMeaning": "interesting：おもしろい（興味深い）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：interesting／おもしろい（興味深い）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-fun",
@@ -5251,13 +5751,13 @@
   },
   {
     "id": "g5-w-right",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-5304.png",
-    "credit": "プログラム生成図",
-    "sourceWord": "右",
-    "sourceMeaning": "北を向いたとき東にあたる側。左の反対。",
-    "sourceSheet": "sheets/wave10-diagram-word-5304.png",
-    "sourceReview": "目視確認済み: 右（みぎ）: 北を向いたとき東にあたる側。左の反対。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-575.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "右・正しい",
+    "sourceMeaning": "right：右・正しい",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：right／右・正しい。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-left",
@@ -5271,13 +5771,13 @@
   },
   {
     "id": "g5-w-wrong",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/chigau.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "間違い",
-    "sourceMeaning": "正しくないこと。また、取り違えること。",
-    "sourceSheet": "sheets/quality-20261025-sheet04.png",
-    "sourceReview": "目視確認済み: 違いの被写体・場面を語義および共有先と照合。主要な対象・動作を確認し、隣コマの混入なし。罫線と薄い縁は実測除去。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-577.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "間違った",
+    "sourceMeaning": "wrong：間違った",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：wrong／間違った。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-early",
@@ -5521,13 +6021,13 @@
   },
   {
     "id": "g5-w-now",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-now.png",
-    "credit": "プログラム生成図",
+    "url": "assets/vocabulary/eiken-audit-602.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "今",
-    "sourceMeaning": "瞬間的な現在。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-now.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：now／今",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "now：今",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：now／今。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-again",
@@ -5581,13 +6081,13 @@
   },
   {
     "id": "g5-w-home",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-200.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "家",
-    "sourceMeaning": "人が住むための建物。",
-    "sourceSheet": "sheets/2026-10-11-common-2.png",
-    "sourceReview": "目視確認済み: A modest house with windows, front door and small garden.",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-608.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "家へ・自宅",
+    "sourceMeaning": "home：家へ・自宅",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：home／家へ・自宅。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-outside",
@@ -6031,13 +6531,13 @@
   },
   {
     "id": "g5-w-subject",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-subject.png",
-    "credit": "プログラム生成図",
+    "url": "assets/vocabulary/eiken-audit-653.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "教科",
-    "sourceMeaning": "学校で学ぶ内容を国語や算数などに分けたまとまり。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-subject.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：subject／教科",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "subject：教科",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：subject／教科。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-homework",
@@ -6091,33 +6591,33 @@
   },
   {
     "id": "g5-w-name",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-word-4061.png",
-    "credit": "プログラム生成図",
+    "url": "assets/vocabulary/eiken-audit-659.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "名前",
-    "sourceMeaning": "人や物を呼び分けるためにつけた言葉。",
-    "sourceSheet": "sheets/wave10-diagram-word-4061.png",
-    "sourceReview": "目視確認済み: 名前（なまえ）: 人や物を呼び分けるためにつけた言葉。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "name：名前",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：name／名前。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-age",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-4097.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-660.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "年齢",
-    "sourceMeaning": "生まれてからの年数。",
-    "sourceSheet": "sheets/2026-10-10-complete-52.png",
-    "sourceReview": "目視確認済み。語の意味・動作・数量と対応する画像を登録。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "age：年齢",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：age／年齢。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-number",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-word-7506.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "数",
-    "sourceMeaning": "ものが、いくつあるかをあらわすもの。",
-    "sourceSheet": "sheets/expansion512-oct14-sheet26.png",
-    "sourceReview": "目視確認済み: 数：ものが、いくつあるかをあらわすもの。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-661.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "数・番号",
+    "sourceMeaning": "number：数・番号",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：number／数・番号。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-color",
@@ -6171,23 +6671,23 @@
   },
   {
     "id": "g5-w-sugar",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2591.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-667.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "砂糖",
-    "sourceMeaning": "甘みをつける調味料。サトウキビやテンサイなどから作る。",
-    "sourceSheet": "sheets/word-image-75-1.png",
-    "sourceReview": "目視確認済み: 砂糖の注文に沿って構造・内容を修正。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "sugar：砂糖",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：sugar／砂糖。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-salt",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-2762.png",
-    "credit": "AI生成イラスト",
+    "url": "assets/vocabulary/eiken-audit-668.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "塩",
-    "sourceMeaning": "塩化ナトリウムを主成分とする調味料。海水から作る方法もある。",
-    "sourceSheet": "sheets/word-image-75-2.png",
-    "sourceReview": "目視確認済み: 塩の注文に沿って構造・内容を修正。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "salt：塩",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：salt／塩。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-butter",
@@ -6601,23 +7101,23 @@
   },
   {
     "id": "g5-w-take-a-bath",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-0087.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "入浴",
-    "sourceMeaning": "湯船に入って体を温めること。",
-    "sourceSheet": "sheets/2026-10-10-complete-01.png",
-    "sourceReview": "目視確認済み。語の意味・動作・数量と対応する画像を登録。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-710.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "風呂に入る",
+    "sourceMeaning": "take a bath：風呂に入る",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：take a bath／風呂に入る。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-go-to-bed",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/nemuru.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "一睡",
-    "sourceMeaning": "少しのあいだ眠ること。",
-    "sourceSheet": "sheets/2026-10-08-emotions-actions.png",
-    "sourceReview": "確認済み: 夜に安心して眠る子ども。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-711.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "寝る",
+    "sourceMeaning": "go to bed：寝る",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：go to bed／寝る。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-get-home",
@@ -6741,23 +7241,23 @@
   },
   {
     "id": "g5-w-want-to",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6835.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "希望",
-    "sourceMeaning": "こうなってほしいと、のぞむこと。また、そのねがい。",
-    "sourceSheet": "sheets/expansion512-sheet16.png",
-    "sourceReview": "目視確認済み: 希望：こうなってほしいと、のぞむこと。また、そのねがい。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-724.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "〜したい",
+    "sourceMeaning": "want to：〜したい",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：want to／〜したい。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-would-like",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/negai.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "願い",
-    "sourceMeaning": "こうなってほしいと思うこと。",
-    "sourceSheet": "sheets/2026-10-08-emotions-actions.png",
-    "sourceReview": "確認済み: 流れ星を見て願いをかける子ども。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-725.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "〜が欲しい（丁寧）",
+    "sourceMeaning": "would like：〜が欲しい（丁寧）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：would like／〜が欲しい（丁寧）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-how-much",
@@ -6798,6 +7298,1006 @@
     "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-how-about.png",
     "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：how about／〜はどうですか",
     "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-p-extra-i-m-from-japan",
+    "url": "assets/vocabulary/eiken-audit-730.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "日本出身です。",
+    "sourceMeaning": "I'm from Japan.：日本出身です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：I'm from Japan.／日本出身です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-where-are-you-from",
+    "url": "assets/vocabulary/eiken-audit-731.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "どこの出身ですか。",
+    "sourceMeaning": "Where are you from?：どこの出身ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：Where are you from?／どこの出身ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-live-in-tokyo",
+    "url": "assets/vocabulary/eiken-audit-732.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "東京に住んでいます。",
+    "sourceMeaning": "I live in Tokyo.：東京に住んでいます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：I live in Tokyo.／東京に住んでいます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-where-do-you-live",
+    "url": "assets/vocabulary/eiken-audit-733.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "どこに住んでいますか。",
+    "sourceMeaning": "Where do you live?：どこに住んでいますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：Where do you live?／どこに住んでいますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-who-is-that-boy",
+    "url": "assets/vocabulary/eiken-audit-734.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "あの男の子はだれですか。",
+    "sourceMeaning": "Who is that boy?：あの男の子はだれですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：Who is that boy?／あの男の子はだれですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-he-is-my-brother",
+    "url": "assets/vocabulary/eiken-audit-735.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "彼はわたしの兄（弟）です。",
+    "sourceMeaning": "He is my brother.：彼はわたしの兄（弟）です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：He is my brother.／彼はわたしの兄（弟）です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-this-is-my-friend",
+    "url": "assets/vocabulary/eiken-audit-736.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "こちらはわたしの友達です。",
+    "sourceMeaning": "This is my friend.：こちらはわたしの友達です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：This is my friend.／こちらはわたしの友達です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-is-this-your-book",
+    "url": "assets/vocabulary/eiken-audit-737.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "これはあなたの本ですか。",
+    "sourceMeaning": "Is this your book?：これはあなたの本ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：Is this your book?／これはあなたの本ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-yes-it-is",
+    "url": "assets/vocabulary/eiken-audit-738.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "はい、そうです。（単数のものについて）",
+    "sourceMeaning": "Yes, it is.：はい、そうです。（単数のものについて）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch07.png",
+    "sourceReview": "2026-11-08 内容確認：Yes, it is.／はい、そうです。（単数のものについて）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-no-it-isn-t",
+    "url": "assets/vocabulary/eiken-audit-739.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "いいえ、違います。（単数のものについて）",
+    "sourceMeaning": "No, it isn't.：いいえ、違います。（単数のものについて）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：No, it isn't.／いいえ、違います。（単数のものについて）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-are-you-a-student",
+    "url": "assets/vocabulary/eiken-audit-740.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "あなたは生徒ですか。",
+    "sourceMeaning": "Are you a student?：あなたは生徒ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：Are you a student?／あなたは生徒ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-yes-i-am",
+    "url": "assets/vocabulary/eiken-audit-741.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "はい、そうです。（自分について）",
+    "sourceMeaning": "Yes, I am.：はい、そうです。（自分について）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：Yes, I am.／はい、そうです。（自分について）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-no-i-m-not",
+    "url": "assets/vocabulary/eiken-audit-742.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "いいえ、違います。（自分について）",
+    "sourceMeaning": "No, I'm not.：いいえ、違います。（自分について）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：No, I'm not.／いいえ、違います。（自分について）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-these-are-my-shoes",
+    "url": "assets/vocabulary/eiken-audit-743.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "これらはわたしの靴です。",
+    "sourceMeaning": "These are my shoes.：これらはわたしの靴です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：These are my shoes.／これらはわたしの靴です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-whose-pen-is-this",
+    "url": "assets/vocabulary/eiken-audit-744.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "これはだれのペンですか。",
+    "sourceMeaning": "Whose pen is this?：これはだれのペンですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：Whose pen is this?／これはだれのペンですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-it-s-mine",
+    "url": "assets/vocabulary/eiken-audit-745.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わたしのものです。",
+    "sourceMeaning": "It's mine.：わたしのものです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：It's mine.／わたしのものです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-what-color-is-it",
+    "url": "assets/vocabulary/eiken-audit-746.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "それは何色ですか。",
+    "sourceMeaning": "What color is it?：それは何色ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：What color is it?／それは何色ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-it-s-blue",
+    "url": "assets/vocabulary/eiken-audit-747.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "青色です。",
+    "sourceMeaning": "It's blue.：青色です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：It's blue.／青色です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-what-s-your-favorite-food",
+    "url": "assets/vocabulary/eiken-audit-748.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "いちばん好きな食べ物は何ですか。",
+    "sourceMeaning": "What's your favorite food?：いちばん好きな食べ物は何ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：What's your favorite food?／いちばん好きな食べ物は何ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-my-favorite-food-is-curry",
+    "url": "assets/vocabulary/eiken-audit-749.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "いちばん好きな食べ物はカレーです。",
+    "sourceMeaning": "My favorite food is curry.：いちばん好きな食べ物はカレーです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：My favorite food is curry.／いちばん好きな食べ物はカレーです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-what-subject-do-you-like",
+    "url": "assets/vocabulary/eiken-audit-750.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "どの教科が好きですか。",
+    "sourceMeaning": "What subject do you like?：どの教科が好きですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：What subject do you like?／どの教科が好きですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-like-english",
+    "url": "assets/vocabulary/eiken-audit-751.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "英語が好きです。",
+    "sourceMeaning": "I like English.：英語が好きです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：I like English.／英語が好きです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-does-she-like-tennis",
+    "url": "assets/vocabulary/eiken-audit-752.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "彼女はテニスが好きですか。",
+    "sourceMeaning": "Does she like tennis?：彼女はテニスが好きですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：Does she like tennis?／彼女はテニスが好きですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-yes-she-does",
+    "url": "assets/vocabulary/eiken-audit-753.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "はい、彼女はそうです。",
+    "sourceMeaning": "Yes, she does.：はい、彼女はそうです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：Yes, she does.／はい、彼女はそうです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-no-she-doesn-t",
+    "url": "assets/vocabulary/eiken-audit-754.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "いいえ、彼女は違います。",
+    "sourceMeaning": "No, she doesn't.：いいえ、彼女は違います。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch08.png",
+    "sourceReview": "2026-11-08 内容確認：No, she doesn't.／いいえ、彼女は違います。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-he-plays-soccer-every-day",
+    "url": "assets/vocabulary/eiken-audit-755.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "彼は毎日サッカーをします。",
+    "sourceMeaning": "He plays soccer every day.：彼は毎日サッカーをします。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：He plays soccer every day.／彼は毎日サッカーをします。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-she-doesn-t-play-the-piano",
+    "url": "assets/vocabulary/eiken-audit-756.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "彼女はピアノを弾きません。",
+    "sourceMeaning": "She doesn't play the piano.：彼女はピアノを弾きません。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：She doesn't play the piano.／彼女はピアノを弾きません。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-what-do-you-have-for-breakfast",
+    "url": "assets/vocabulary/eiken-audit-757.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "朝食に何を食べますか。",
+    "sourceMeaning": "What do you have for breakfast?：朝食に何を食べますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：What do you have for breakfast?／朝食に何を食べますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-have-bread-and-milk",
+    "url": "assets/vocabulary/eiken-audit-758.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "パンと牛乳をとります。",
+    "sourceMeaning": "I have bread and milk.：パンと牛乳をとります。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：I have bread and milk.／パンと牛乳をとります。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-when-do-you-get-up",
+    "url": "assets/vocabulary/eiken-audit-759.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "いつ起きますか。",
+    "sourceMeaning": "When do you get up?：いつ起きますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：When do you get up?／いつ起きますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-get-up-at-seven",
+    "url": "assets/vocabulary/eiken-audit-760.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "7時に起きます。",
+    "sourceMeaning": "I get up at seven.：7時に起きます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：I get up at seven.／7時に起きます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-go-to-bed-at-nine",
+    "url": "assets/vocabulary/eiken-audit-761.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "9時に寝ます。",
+    "sourceMeaning": "I go to bed at nine.：9時に寝ます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：I go to bed at nine.／9時に寝ます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-what-do-you-do-after-school",
+    "url": "assets/vocabulary/eiken-audit-762.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "放課後は何をしますか。",
+    "sourceMeaning": "What do you do after school?：放課後は何をしますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：What do you do after school?／放課後は何をしますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-do-my-homework-after-school",
+    "url": "assets/vocabulary/eiken-audit-763.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "放課後に宿題をします。",
+    "sourceMeaning": "I do my homework after school.：放課後に宿題をします。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：I do my homework after school.／放課後に宿題をします。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-how-do-you-go-to-school",
+    "url": "assets/vocabulary/eiken-audit-764.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "どうやって学校に行きますか。",
+    "sourceMeaning": "How do you go to school?：どうやって学校に行きますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：How do you go to school?／どうやって学校に行きますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-walk-to-school",
+    "url": "assets/vocabulary/eiken-audit-765.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "歩いて学校へ行きます。",
+    "sourceMeaning": "I walk to school.：歩いて学校へ行きます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：I walk to school.／歩いて学校へ行きます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-how-much-is-this",
+    "url": "assets/vocabulary/eiken-audit-766.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "これはいくらですか。",
+    "sourceMeaning": "How much is this?：これはいくらですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：How much is this?／これはいくらですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-it-s-five-hundred-yen",
+    "url": "assets/vocabulary/eiken-audit-767.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "500円です。",
+    "sourceMeaning": "It's five hundred yen.：500円です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：It's five hundred yen.／500円です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-may-i-help-you",
+    "url": "assets/vocabulary/eiken-audit-768.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "いらっしゃいませ。何かお探しですか。",
+    "sourceMeaning": "May I help you?：いらっしゃいませ。何かお探しですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：May I help you?／いらっしゃいませ。何かお探しですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-d-like-this-one",
+    "url": "assets/vocabulary/eiken-audit-769.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "これをいただきたいです。",
+    "sourceMeaning": "I'd like this one.：これをいただきたいです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：I'd like this one.／これをいただきたいです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-anything-else",
+    "url": "assets/vocabulary/eiken-audit-770.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "ほかに何かありますか。",
+    "sourceMeaning": "Anything else?：ほかに何かありますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch14.png",
+    "sourceReview": "2026-11-08 内容確認：Anything else?／ほかに何かありますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-no-thank-you",
+    "url": "assets/vocabulary/eiken-audit-771.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "いいえ、結構です。",
+    "sourceMeaning": "No, thank you.：いいえ、結構です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：No, thank you.／いいえ、結構です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-can-i-have-some-water",
+    "url": "assets/vocabulary/eiken-audit-772.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "水をもらえますか。",
+    "sourceMeaning": "Can I have some water?：水をもらえますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：Can I have some water?／水をもらえますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-you-re-welcome",
+    "url": "assets/vocabulary/eiken-audit-773.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "どういたしまして。（短縮形）",
+    "sourceMeaning": "You're welcome.：どういたしまして。（短縮形）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：You're welcome.／どういたしまして。（短縮形）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-m-hungry",
+    "url": "assets/vocabulary/eiken-audit-774.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "おなかがすいています。",
+    "sourceMeaning": "I'm hungry.：おなかがすいています。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：I'm hungry.／おなかがすいています。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-m-thirsty",
+    "url": "assets/vocabulary/eiken-audit-775.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "喉が渇いています。",
+    "sourceMeaning": "I'm thirsty.：喉が渇いています。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：I'm thirsty.／喉が渇いています。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-let-s-have-lunch",
+    "url": "assets/vocabulary/eiken-audit-776.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "昼食にしましょう。",
+    "sourceMeaning": "Let's have lunch.：昼食にしましょう。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：Let's have lunch.／昼食にしましょう。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-how-about-some-juice",
+    "url": "assets/vocabulary/eiken-audit-777.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "ジュースはいかがですか。",
+    "sourceMeaning": "How about some juice?：ジュースはいかがですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：How about some juice?／ジュースはいかがですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-how-s-the-weather-today",
+    "url": "assets/vocabulary/eiken-audit-778.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "今日の天気はどうですか。",
+    "sourceMeaning": "How's the weather today?：今日の天気はどうですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：How's the weather today?／今日の天気はどうですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-it-s-sunny-today",
+    "url": "assets/vocabulary/eiken-audit-779.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "今日は晴れです。",
+    "sourceMeaning": "It's sunny today.：今日は晴れです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：It's sunny today.／今日は晴れです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-it-s-cold-in-winter",
+    "url": "assets/vocabulary/eiken-audit-780.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "冬は寒いです。",
+    "sourceMeaning": "It's cold in winter.：冬は寒いです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：It's cold in winter.／冬は寒いです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-what-season-do-you-like",
+    "url": "assets/vocabulary/eiken-audit-781.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "どの季節が好きですか。",
+    "sourceMeaning": "What season do you like?：どの季節が好きですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：What season do you like?／どの季節が好きですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-like-summer",
+    "url": "assets/vocabulary/eiken-audit-782.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "夏が好きです。",
+    "sourceMeaning": "I like summer.：夏が好きです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：I like summer.／夏が好きです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-what-can-you-do",
+    "url": "assets/vocabulary/eiken-audit-783.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "何ができますか。",
+    "sourceMeaning": "What can you do?：何ができますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：What can you do?／何ができますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-can-play-the-piano",
+    "url": "assets/vocabulary/eiken-audit-784.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "ピアノが弾けます。",
+    "sourceMeaning": "I can play the piano.：ピアノが弾けます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：I can play the piano.／ピアノが弾けます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-can-t-swim",
+    "url": "assets/vocabulary/eiken-audit-785.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "泳げません。",
+    "sourceMeaning": "I can't swim.：泳げません。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：I can't swim.／泳げません。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-yes-i-can",
+    "url": "assets/vocabulary/eiken-audit-786.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "はい、できます。",
+    "sourceMeaning": "Yes, I can.：はい、できます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch10.png",
+    "sourceReview": "2026-11-08 内容確認：Yes, I can.／はい、できます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-no-i-can-t",
+    "url": "assets/vocabulary/eiken-audit-787.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "いいえ、できません。",
+    "sourceMeaning": "No, I can't.：いいえ、できません。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：No, I can't.／いいえ、できません。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-can-you-help-me",
+    "url": "assets/vocabulary/eiken-audit-788.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "手伝ってくれますか。",
+    "sourceMeaning": "Can you help me?：手伝ってくれますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Can you help me?／手伝ってくれますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-sure",
+    "url": "assets/vocabulary/eiken-audit-789.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "もちろんです。",
+    "sourceMeaning": "Sure.：もちろんです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Sure.／もちろんです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-sorry-i-can-t",
+    "url": "assets/vocabulary/eiken-audit-790.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "ごめんなさい、できません。",
+    "sourceMeaning": "Sorry, I can't.：ごめんなさい、できません。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Sorry, I can't.／ごめんなさい、できません。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-let-s-go-to-the-park",
+    "url": "assets/vocabulary/eiken-audit-791.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "公園へ行きましょう。",
+    "sourceMeaning": "Let's go to the park.：公園へ行きましょう。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Let's go to the park.／公園へ行きましょう。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-that-s-a-good-idea",
+    "url": "assets/vocabulary/eiken-audit-792.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "それはよい考えです。",
+    "sourceMeaning": "That's a good idea.：それはよい考えです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：That's a good idea.／それはよい考えです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-sorry-i-m-busy",
+    "url": "assets/vocabulary/eiken-audit-793.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "ごめんなさい、忙しいです。",
+    "sourceMeaning": "Sorry, I'm busy.：ごめんなさい、忙しいです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Sorry, I'm busy.／ごめんなさい、忙しいです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-are-you-free-tomorrow",
+    "url": "assets/vocabulary/eiken-audit-794.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "明日は暇ですか。",
+    "sourceMeaning": "Are you free tomorrow?：明日は暇ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Are you free tomorrow?／明日は暇ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-please-come-in",
+    "url": "assets/vocabulary/eiken-audit-795.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "どうぞ入ってください。",
+    "sourceMeaning": "Please come in.：どうぞ入ってください。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Please come in.／どうぞ入ってください。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-please-sit-down",
+    "url": "assets/vocabulary/eiken-audit-796.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "座ってください。",
+    "sourceMeaning": "Please sit down.：座ってください。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Please sit down.／座ってください。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-stand-up-please",
+    "url": "assets/vocabulary/eiken-audit-797.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "立ってください。",
+    "sourceMeaning": "Stand up, please.：立ってください。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Stand up, please.／立ってください。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-don-t-run-here",
+    "url": "assets/vocabulary/eiken-audit-798.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "ここでは走らないで。",
+    "sourceMeaning": "Don't run here.：ここでは走らないで。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Don't run here.／ここでは走らないで。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-be-careful",
+    "url": "assets/vocabulary/eiken-audit-799.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "気をつけて。",
+    "sourceMeaning": "Be careful.：気をつけて。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Be careful.／気をつけて。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-please-be-quiet",
+    "url": "assets/vocabulary/eiken-audit-800.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "静かにしてください。",
+    "sourceMeaning": "Please be quiet.：静かにしてください。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Please be quiet.／静かにしてください。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-turn-right-at-the-corner",
+    "url": "assets/vocabulary/eiken-audit-801.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "角で右に曲がって。",
+    "sourceMeaning": "Turn right at the corner.：角で右に曲がって。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：Turn right at the corner.／角で右に曲がって。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-the-bank-is-next-to-the-station",
+    "url": "assets/vocabulary/eiken-audit-802.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "銀行は駅の隣です。",
+    "sourceMeaning": "The bank is next to the station.：銀行は駅の隣です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch11.png",
+    "sourceReview": "2026-11-08 内容確認：The bank is next to the station.／銀行は駅の隣です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-where-is-the-post-office",
+    "url": "assets/vocabulary/eiken-audit-803.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "郵便局はどこですか。",
+    "sourceMeaning": "Where is the post office?：郵便局はどこですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：Where is the post office?／郵便局はどこですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-it-s-near-the-park",
+    "url": "assets/vocabulary/eiken-audit-804.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "公園の近くです。",
+    "sourceMeaning": "It's near the park.：公園の近くです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：It's near the park.／公園の近くです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-there-is-a-cat-under-the-table",
+    "url": "assets/vocabulary/eiken-audit-805.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "テーブルの下に猫がいます。",
+    "sourceMeaning": "There is a cat under the table.：テーブルの下に猫がいます。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：There is a cat under the table.／テーブルの下に猫がいます。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-there-are-three-books-on-the-desk",
+    "url": "assets/vocabulary/eiken-audit-806.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "机の上に本が3冊あります。",
+    "sourceMeaning": "There are three books on the desk.：机の上に本が3冊あります。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：There are three books on the desk.／机の上に本が3冊あります。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-is-he-reading-a-book",
+    "url": "assets/vocabulary/eiken-audit-807.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "彼は本を読んでいますか。",
+    "sourceMeaning": "Is he reading a book?：彼は本を読んでいますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：Is he reading a book?／彼は本を読んでいますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-yes-he-is",
+    "url": "assets/vocabulary/eiken-audit-808.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "はい、彼はそうしています。",
+    "sourceMeaning": "Yes, he is.：はい、彼はそうしています。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：Yes, he is.／はい、彼はそうしています。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-no-he-isn-t",
+    "url": "assets/vocabulary/eiken-audit-809.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "いいえ、彼はそうしていません。",
+    "sourceMeaning": "No, he isn't.：いいえ、彼はそうしていません。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：No, he isn't.／いいえ、彼はそうしていません。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-they-are-playing-soccer",
+    "url": "assets/vocabulary/eiken-audit-810.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "彼らはサッカーをしています。",
+    "sourceMeaning": "They are playing soccer.：彼らはサッカーをしています。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：They are playing soccer.／彼らはサッカーをしています。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-m-not-watching-tv",
+    "url": "assets/vocabulary/eiken-audit-811.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "テレビを見ていません。",
+    "sourceMeaning": "I'm not watching TV.：テレビを見ていません。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：I'm not watching TV.／テレビを見ていません。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-what-is-she-doing",
+    "url": "assets/vocabulary/eiken-audit-812.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "彼女は何をしていますか。",
+    "sourceMeaning": "What is she doing?：彼女は何をしていますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：What is she doing?／彼女は何をしていますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-she-is-cooking-dinner",
+    "url": "assets/vocabulary/eiken-audit-813.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "彼女は夕食を作っています。",
+    "sourceMeaning": "She is cooking dinner.：彼女は夕食を作っています。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：She is cooking dinner.／彼女は夕食を作っています。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-want-to-be-a-teacher",
+    "url": "assets/vocabulary/eiken-audit-814.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "先生になりたいです。",
+    "sourceMeaning": "I want to be a teacher.：先生になりたいです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：I want to be a teacher.／先生になりたいです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-like-playing-tennis",
+    "url": "assets/vocabulary/eiken-audit-815.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "テニスをするのが好きです。",
+    "sourceMeaning": "I like playing tennis.：テニスをするのが好きです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：I like playing tennis.／テニスをするのが好きです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-happy-birthday",
+    "url": "assets/vocabulary/eiken-audit-816.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "お誕生日おめでとう。",
+    "sourceMeaning": "Happy birthday!：お誕生日おめでとう。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：Happy birthday!／お誕生日おめでとう。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-happy-new-year",
+    "url": "assets/vocabulary/eiken-audit-817.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "あけましておめでとう。",
+    "sourceMeaning": "Happy New Year!：あけましておめでとう。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：Happy New Year!／あけましておめでとう。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-have-a-nice-day",
+    "url": "assets/vocabulary/eiken-audit-818.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "よい1日を。",
+    "sourceMeaning": "Have a nice day.：よい1日を。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch12.png",
+    "sourceReview": "2026-11-08 内容確認：Have a nice day.／よい1日を。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-have-a-good-time",
+    "url": "assets/vocabulary/eiken-audit-819.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "楽しんできてね。",
+    "sourceMeaning": "Have a good time.：楽しんできてね。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：Have a good time.／楽しんできてね。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-see-you-later",
+    "url": "assets/vocabulary/eiken-audit-820.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "またあとで。",
+    "sourceMeaning": "See you later.：またあとで。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：See you later.／またあとで。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-take-care",
+    "url": "assets/vocabulary/eiken-audit-821.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "元気でね。",
+    "sourceMeaning": "Take care.：元気でね。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：Take care.／元気でね。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-are-you-ok",
+    "url": "assets/vocabulary/eiken-audit-822.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "大丈夫ですか。",
+    "sourceMeaning": "Are you OK?：大丈夫ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：Are you OK?／大丈夫ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-m-tired",
+    "url": "assets/vocabulary/eiken-audit-823.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "疲れています。",
+    "sourceMeaning": "I'm tired.：疲れています。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：I'm tired.／疲れています。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-what-s-wrong",
+    "url": "assets/vocabulary/eiken-audit-824.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "どうしたのですか。",
+    "sourceMeaning": "What's wrong?：どうしたのですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：What's wrong?／どうしたのですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-one-more-time-please",
+    "url": "assets/vocabulary/eiken-audit-825.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "もう一度お願いします。",
+    "sourceMeaning": "One more time, please.：もう一度お願いします。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：One more time, please.／もう一度お願いします。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-please-speak-slowly",
+    "url": "assets/vocabulary/eiken-audit-826.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "ゆっくり話してください。",
+    "sourceMeaning": "Please speak slowly.：ゆっくり話してください。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：Please speak slowly.／ゆっくり話してください。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-i-don-t-understand",
+    "url": "assets/vocabulary/eiken-audit-827.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "わかりません。",
+    "sourceMeaning": "I don't understand.：わかりません。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：I don't understand.／わかりません。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-how-do-you-say-this-in-english",
+    "url": "assets/vocabulary/eiken-audit-828.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "これは英語で何と言いますか。",
+    "sourceMeaning": "How do you say this in English?：これは英語で何と言いますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：How do you say this in English?／これは英語で何と言いますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-extra-what-does-this-word-mean",
+    "url": "assets/vocabulary/eiken-audit-829.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "この単語はどういう意味ですか。",
+    "sourceMeaning": "What does this word mean?：この単語はどういう意味ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：What does this word mean?／この単語はどういう意味ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-rj-hers",
@@ -7021,13 +8521,13 @@
   },
   {
     "id": "g5-w-rj-city-hall",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-city-hall.png",
-    "credit": "プログラム生成図",
+    "url": "assets/vocabulary/eiken-audit-852.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "市役所",
-    "sourceMeaning": "市政府の行政局を入れた建物。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-rj-city-hall.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：city hall／市役所",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "city hall：市役所",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：city hall／市役所。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-rj-bedroom",
@@ -7051,13 +8551,13 @@
   },
   {
     "id": "g5-w-rj-sunshine",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-sunshine.png",
-    "credit": "プログラム生成図",
-    "sourceWord": "日光",
-    "sourceMeaning": "太陽から届く光。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-rj-sunshine.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：sunshine／日光・日ざし",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-855.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "日光・日ざし",
+    "sourceMeaning": "sunshine：日光・日ざし",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：sunshine／日光・日ざし。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-rj-shower",
@@ -7111,23 +8611,23 @@
   },
   {
     "id": "g5-w-rj-officer",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-officer.png",
-    "credit": "プログラム生成図",
-    "sourceWord": "役人",
-    "sourceMeaning": "国や地方の役所などで公の仕事をする人。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-rj-officer.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：officer／役人・警察官など",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-861.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "役人・警察官など",
+    "sourceMeaning": "officer：役人・警察官など",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch04.png",
+    "sourceReview": "2026-11-08 内容確認：officer／役人・警察官など。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-rj-person",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-4770.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "人",
-    "sourceMeaning": "言葉を使い、考えたり暮らしたりする動物。",
-    "sourceSheet": "sheets/2026-10-10-complete-64.png",
-    "sourceReview": "目視確認済み。語の意味・動作・数量と対応する画像を登録。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-862.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "人（1人）",
+    "sourceMeaning": "person：人（1人）",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：person／人（1人）。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-rj-pianist",
@@ -7141,33 +8641,33 @@
   },
   {
     "id": "g5-w-rj-pilot",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-pilot.png",
-    "credit": "プログラム生成図",
-    "sourceWord": "操縦士",
-    "sourceMeaning": "飛行機などを操縦する仕事をする人。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-rj-pilot.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：pilot／飛行機を操縦する人",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-864.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "飛行機を操縦する人",
+    "sourceMeaning": "pilot：飛行機を操縦する人",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：pilot／飛行機を操縦する人。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-rj-waiter",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-waiter.png",
-    "credit": "プログラム生成図",
-    "sourceWord": "給仕",
-    "sourceMeaning": "使い走りをするために雇われている少年。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-rj-waiter.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：waiter／レストランなどの男性の給仕",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-865.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "レストランなどの男性の給仕",
+    "sourceMeaning": "waiter：レストランなどの男性の給仕",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：waiter／レストランなどの男性の給仕。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-rj-worker",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-worker.png",
-    "credit": "プログラム生成図",
+    "url": "assets/vocabulary/eiken-audit-866.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "働く人",
-    "sourceMeaning": "仕事に取り組む人。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-rj-worker.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：worker／働く人",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "worker：働く人",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：worker／働く人。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-rj-table-tennis",
@@ -7281,13 +8781,13 @@
   },
   {
     "id": "g5-w-rj-ski",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/eiken-20261101-diagram-g5-w-rj-ski.png",
-    "credit": "プログラム生成図",
-    "sourceWord": "スキー",
-    "sourceMeaning": "雪の上に滑るためにペアで使用される狭い木製、鉄製またはプラスチックセの滑る道具。",
-    "sourceSheet": "sheets/diagram-eiken-20261101-g5-w-rj-ski.png",
-    "sourceReview": "目視確認済み：説明図・日本語英語の対応・数・時刻・配置を確認。 対象：ski／スキーをする",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-878.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "スキーをする",
+    "sourceMeaning": "ski：スキーをする",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：ski／スキーをする。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-rj-camp",
@@ -7311,13 +8811,13 @@
   },
   {
     "id": "g5-w-rj-move",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-v2-word-7134.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "動く",
-    "sourceMeaning": "いちや、かたちがかわること。",
-    "sourceSheet": "sheets/expansion512-oct14-sheet03-v2.png",
-    "sourceReview": "目視確認済み: 動く：いちや、かたちがかわること。",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-881.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "動く・動かす・引っ越す",
+    "sourceMeaning": "move：動く・動かす・引っ越す",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：move／動く・動かす・引っ越す。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-rj-a-watch",
@@ -7338,6 +8838,56 @@
     "sourceSheet": "sheets/2026-10-12-wave4-6.png",
     "sourceReview": "目視確認済み: 水・茶・ジュースを飲み物の例として示す。",
     "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-p-rj-what-s-the-date-today",
+    "url": "assets/vocabulary/eiken-audit-884.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "今日は何月何日ですか。",
+    "sourceMeaning": "What's the date today?：今日は何月何日ですか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：What's the date today?／今日は何月何日ですか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-rj-how-do-you-get-to-the-station",
+    "url": "assets/vocabulary/eiken-audit-885.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "駅へはどうやって行きますか。",
+    "sourceMeaning": "How do you get to the station?：駅へはどうやって行きますか。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：How do you get to the station?／駅へはどうやって行きますか。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-rj-this-bag-is-his",
+    "url": "assets/vocabulary/eiken-audit-886.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "このかばんは彼のものです。",
+    "sourceMeaning": "This bag is his.：このかばんは彼のものです。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：This bag is his.／このかばんは彼のものです。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-rj-he-is-a-piano-player",
+    "url": "assets/vocabulary/eiken-audit-887.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "彼はピアノの演奏者です。",
+    "sourceMeaning": "He is a piano player.：彼はピアノの演奏者です。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：He is a piano player.／彼はピアノの演奏者です。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
+  },
+  {
+    "id": "g5-p-rj-please-ask-him-for-help",
+    "url": "assets/vocabulary/eiken-audit-888.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "彼に助けをお願いしてください。",
+    "sourceMeaning": "Please ask him for help.：彼に助けをお願いしてください。",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch13.png",
+    "sourceReview": "2026-11-08 内容確認：Please ask him for help.／彼に助けをお願いしてください。。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-rj-one-o-clock",
@@ -7471,13 +9021,13 @@
   },
   {
     "id": "g5-w-ph-e-mail",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512c-word-8369.png",
-    "credit": "プログラム生成図",
+    "url": "assets/vocabulary/eiken-audit-902.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
     "sourceWord": "電子メール",
-    "sourceMeaning": "ネットなどをつかって、ぶんしょうなどをあてさきにおくるしくみ。",
-    "sourceSheet": "sheets/expansion512c-diagram-word-8369.png",
-    "sourceReview": "目視確認済み: でんしの てがみを おくる",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "sourceMeaning": "e-mail：電子メール",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch03.png",
+    "sourceReview": "2026-11-08 内容確認：e-mail／電子メール。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-ph-classmate",
@@ -7538,6 +9088,16 @@
     "sourceSheet": "sheets/wave9-sheet-27.png",
     "sourceReview": "目視確認済み: フルート（ふるーと）: 横に構え、穴のふちに息を当てて音を出す、管の形の楽器。",
     "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-wonderful",
+    "url": "assets/vocabulary/eiken-audit-914.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "すばらしい",
+    "sourceMeaning": "wonderful：すばらしい",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：wonderful／すばらしい。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-ph-case",
@@ -7638,6 +9198,16 @@
     "sourceSheet": "sheets/2026-10-12-wave4-4.png",
     "sourceReview": "目視確認済み: 壁に留めた大きな掲示用ポスター。",
     "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+  },
+  {
+    "id": "g5-w-ph-living",
+    "url": "assets/vocabulary/eiken-audit-936.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "暮らし・生活",
+    "sourceMeaning": "living：暮らし・生活",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch15.png",
+    "sourceReview": "2026-11-08 内容確認：living／暮らし・生活。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   },
   {
     "id": "g5-w-ph-backpack",
@@ -7891,12 +9461,12 @@
   },
   {
     "id": "g5-w-ph-soft",
-    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/pillow.png",
-    "credit": "AI生成イラスト",
-    "sourceWord": "枕",
-    "sourceMeaning": "寝るときに頭の下に置く寝具。",
-    "sourceSheet": "sheets/2026-10-08-agent-home-actions.png",
-    "sourceReview": "目視確認済み: ベッドの上の柔らかな枕",
-    "status": "日本語の語義・登録済み類語と参照元の確認記録を照合"
+    "url": "assets/vocabulary/eiken-audit-971.png",
+    "credit": "AI生成イラスト（英検の語義・表現に合わせて制作）",
+    "sourceWord": "やわらかい",
+    "sourceMeaning": "soft：やわらかい",
+    "sourceSheet": "reports/eiken-image-audit-20261107/batch01.png",
+    "sourceReview": "2026-11-08 内容確認：soft／やわらかい。対象・動作・単複・位置関係を確認。英文と併用する場面補助。原シートSHAとmagenta-grid-full-color-v7による切り出しを再検証。",
+    "status": "英語の語義・場面に合わせた専用画像／2026-11-08 内容確認済み"
   }
 ]

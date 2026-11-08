@@ -4,15 +4,16 @@ import fs from 'node:fs';
 import {initial,validateBackup} from '../dist/src/storage.js';
 import {DAY,updateProgress,dueTasks} from '../dist/src/scheduler.js';
 import {choices} from '../dist/src/quiz.js';
+import {hasReviewedImageUpdate} from './reviewed-image-updates.mjs';
 const cards=JSON.parse(fs.readFileSync(new URL('../dist/data/grade5.json',import.meta.url)));
 const original=JSON.parse(fs.readFileSync(new URL('./grade5-v1.json',import.meta.url)));
-test('published IDs, meanings, examples and existing image URLs are preserved',()=>{
+test('published IDs, meanings and examples are preserved; image changes require an explicit reviewed adoption',()=>{
  assert.equal(original.length,130);
  for(const old of original){
   const current=cards.find(c=>c.id===old.id);
   const {image:oldImage,...oldContent}=old;const {image:currentImage,...currentContent}=current;
   assert.deepEqual(currentContent,oldContent);
-  if(oldImage)assert.equal(currentImage.url,oldImage.url);
+  if(oldImage&&!hasReviewedImageUpdate(current))assert.equal(currentImage.url,oldImage.url);
  }
 });
 test('old backups keep their skill records and due dates after expansion',()=>{

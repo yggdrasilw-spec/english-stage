@@ -1,0 +1,18 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines INCLUDING outer frame, exact positions, continuous straightness and thickness. Paint EXACTLY sixteen separate clear children's picture-book illustrations, read row-major left to right then top to bottom. Each scene stays inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. Use panels generously, no large blank margins. No labels, captions, watermarks, readable text or numbers UNLESS the individual scene explicitly requires exact lettering or a precise count. Do not add random writing. Natural human anatomy. Illustrate the specific English meaning, action or relationship rather than a loosely associated Japanese noun. These are educational context illustrations shown BESIDE the original English sentence, not standalone replacements for grammar or exact names.
+Exact scenes:
+1. Target: Where is the post office? / 郵便局はどこですか。. Scene: Child asking an adult for directions to a post office, holding a map with envelope icon.
+2. Target: It's near the park. / 公園の近くです。. Scene: A small destination building very NEAR a park with trees and swings, short dotted path connects them.
+3. Target: There is a cat under the table. / テーブルの下に猫がいます。. Scene: Exactly ONE cat sitting entirely UNDER a wooden table, all table legs visible, no desk.
+4. Target: There are three books on the desk. / 机の上に本が3冊あります。. Scene: Exactly THREE separate books resting ON a desk, no other books anywhere.
+5. Target: Is he reading a book? / 彼は本を読んでいますか。. Scene: One child asks another about a boy nearby who is actively reading an open book.
+6. Target: Yes, he is. / はい、彼はそうしています。. Scene: Child nodding yes toward a boy actively reading an open book, clear affirmative expression.
+7. Target: No, he isn't. / いいえ、彼はそうしていません。. Scene: Child shaking head no toward a boy whose book is closed while he plays with blocks instead.
+8. Target: They are playing soccer. / 彼らはサッカーをしています。. Scene: Three children actively playing soccer together on a field, ball and goal visible.
+9. Target: I'm not watching TV. / テレビを見ていません。. Scene: Child sitting with back turned away from television, reading a book instead, TV screen dark.
+10. Target: What is she doing? / 彼女は何をしていますか。. Scene: Child asking about a girl nearby who is mixing food in a kitchen, questioning gesture toward her.
+11. Target: She is cooking dinner. / 彼女は夕食を作っています。. Scene: Girl preparing dinner safely in a kitchen, mixing vegetables in a bowl, evening visible outside, no sharp knife.
+12. Target: I want to be a teacher. / 先生になりたいです。. Scene: Child dreaming of becoming a teacher: child at desk and thought bubble of their adult self teaching at a board.
+13. Target: I like playing tennis. / テニスをするのが好きです。. Scene: Child happily playing tennis with a friend, correct racket and net, small heart shows liking.
+14. Target: Happy birthday! / お誕生日おめでとう。. Scene: Friends joyfully celebrating a child's birthday with a cake and presents, warm congratulating gestures.
+15. Target: Happy New Year! / あけましておめでとう。. Scene: Family warmly greeting each other on New Year's morning, Japanese pine-and-bamboo door decoration visible, no written signs.
+16. Target: Have a nice day. / よい1日を。. Scene: Parent waves child off to school in bright morning sunshine, warm encouraging smile for the day.

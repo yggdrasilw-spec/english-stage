@@ -1,0 +1,20 @@
+[
+  {
+    "script": "make-content.py",
+    "cards": 977,
+    "adoptedImagesRetained": 216,
+    "result": "PASS"
+  },
+  {
+    "script": "expand-complete.py",
+    "cards": 977,
+    "adoptedImagesRetained": 216,
+    "result": "PASS"
+  },
+  {
+    "script": "sync-rarejob-vocabulary.py",
+    "cards": 977,
+    "adoptedImagesRetained": 216,
+    "result": "PASS"
+  }
+]

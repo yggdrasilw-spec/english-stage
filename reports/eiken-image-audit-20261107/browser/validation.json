@@ -1,0 +1,21 @@
+{
+  "imagesDecoded": 216,
+  "dimensions": "256x256",
+  "cardRoutes": [
+    "shoe",
+    "watch",
+    "take a bath",
+    "uncle",
+    "sugar",
+    "I'm eleven.",
+    "My birthday is in May.",
+    "There are three books on the desk.",
+    "Turn right at the corner."
+  ],
+  "viewportWidths": [
+    390,
+    1280
+  ],
+  "pageErrors": [],
+  "result": "PASS"
+}

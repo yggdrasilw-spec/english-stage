@@ -1,0 +1,17 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines including outer frame, exact positions and thickness. Paint sixteen separate clear children's picture-book vocabulary illustrations. Keep each scene inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. No text, letters, labels or numbers. Read row-major, left to right then top to bottom. Each subject should directly communicate the target English sense. Fill the panels generously. Exact scenes:
+1. A family scene with a girl standing beside her brother; a clear orange pointer highlights ONLY the girl as his sister.
+2. A family scene with a boy standing beside his sister; a clear orange pointer highlights ONLY the boy as her brother.
+3. Close-up of ONE human hand, palm visible, five naturally shaped fingers, attached to a short wrist. No high-five scene.
+4. Exactly ONE red sneaker seen clearly in three-quarter view. No second shoe.
+5. Child sitting on a sofa attentively watching a television with a moving cartoon on the screen. The child and television are both visible. No binoculars.
+6. Close-up of a hand with an orange arrow pointing precisely to ONLY its index finger. All five fingers have natural anatomy.
+7. Exactly ONE striped sock, laid flat, complete heel and toe visible. No pair.
+8. Exactly ONE knitted glove with five correct fingers, laid flat. No second glove.
+9. Exactly ONE brown leather boot, entire silhouette visible. No second boot.
+10. Exactly ONE child, a young elementary-school boy standing naturally, whole body visible. No other children.
+11. A mother beside her young child, with an orange pointer highlighting ONLY the mother as the parent. No second adult.
+12. A simple globe with several distinct land regions, one entire country-shaped region highlighted in warm orange with its border clearly visible; no parliament building, no flags, no labels.
+13. A small bird in active flight high above grass, wings spread naturally and both feet airborne, wing motion visible. No jumping person.
+14. A curious child leaning forward, eyes engaged, closely observing a magnifying glass over an unusual leaf and tiny insect. Absorbed curiosity rather than laughing at a game.
+15. Close-up of a child's hand pressing a fluffy pillow so that a deep gentle indentation clearly shows its softness. No hard objects.
+16. Exactly ONE person, a casually dressed adult standing in a natural neutral pose, whole body visible, no thought bubbles or other people.

@@ -1,0 +1,1349 @@
+{
+  "reviewedAt": "2026-11-08",
+  "sourceSha": "d80675ad577ad587f1028006dd0b3b156cdad192",
+  "totalCards": 977,
+  "existingImagesInspected": 822,
+  "missingPhrases": 155,
+  "retained": 761,
+  "wordsReplaced": 61,
+  "phrasesAdded": 155,
+  "adopted": 216,
+  "generatedSheets": 15,
+  "generatedCells": 240,
+  "gridRejectedSheets": [
+    9
+  ],
+  "semanticRejectedOriginalCells": [
+    {
+      "index": 372,
+      "reason": "人物を並べただけで父親とおじの関係を読み取れない。家系図として再生成。"
+    },
+    {
+      "index": 373,
+      "reason": "母とおばの関係が弱く、家系図として再生成。"
+    },
+    {
+      "index": 374,
+      "reason": "いとこの親同士がきょうだいであることが見えないため再生成。"
+    },
+    {
+      "index": 602,
+      "reason": "歯磨きだけではnowの現在を示せないため、過去・現在・後の対比として再生成。"
+    },
+    {
+      "index": 660,
+      "reason": "初回の指定個数にずれがあったため、年齢の変化を数に依存しない構図にする。"
+    },
+    {
+      "index": 112,
+      "reason": "11本のろうそくが宙に浮いており不自然。11を示す数字ろうそく2本へ描き直す。"
+    },
+    {
+      "index": 238,
+      "reason": "12か月のページが9枚となり5月の対応も違うため、MAYの暦として再生成。"
+    },
+    {
+      "index": 814,
+      "reason": "将来の自分ではなく別の先生を思う絵に見えるため、子どもと将来像の対応を強める。"
+    }
+  ],
+  "scopeNote": "All 977 entries checked. 822 existing images visually inspected in labeled contact sheets; local SVGs rendered with Edge. New scenes support the displayed English; exact proper names, tense, questions and negation are not always uniquely identifiable from an illustration alone. Source sheet and cropped 256px images reviewed separately from mechanical grid verification.",
+  "acceptedAssets": [
+    {
+      "id": "g5-w-sister",
+      "sha256": "75fa9fa95bd27f729a1953f35ba9a3566384b84fffc89a40cf1bd4f42c66bbe5",
+      "batch": 1,
+      "cell": 1
+    },
+    {
+      "id": "g5-w-brother",
+      "sha256": "d2adf9306d3b63446d899e400bfa8d1ba882cca0d63fd862d84b8d6ed775b850",
+      "batch": 1,
+      "cell": 2
+    },
+    {
+      "id": "g5-w-small",
+      "sha256": "b6bad58655141d9bd6d03d463330b42baea55d139ec6aa29bd94373715d57a67",
+      "batch": 2,
+      "cell": 1
+    },
+    {
+      "id": "g5-w-hand",
+      "sha256": "555308c9153d320381e277ddd8a83de89c695a6df023990528be342deb8ee932",
+      "batch": 1,
+      "cell": 3
+    },
+    {
+      "id": "g5-w-shoe",
+      "sha256": "faf1a58376afd6a72eb3b9d3814fbb9f87868ecb19a5aed942f23f02be006dd1",
+      "batch": 1,
+      "cell": 4
+    },
+    {
+      "id": "g5-p-01",
+      "sha256": "9cc8fcbe8c46bdb5155f9f0009713e0c7a1991cb6293cbbd854458e42d65db69",
+      "batch": 4,
+      "cell": 6
+    },
+    {
+      "id": "g5-p-02",
+      "sha256": "8e5c9000b8952ac80e2355794515a665d43d30d88ba3875e6ecb7a3ab9ec43cc",
+      "batch": 4,
+      "cell": 7
+    },
+    {
+      "id": "g5-p-03",
+      "sha256": "b38b63364d2ba03c545a89c1468208bc17132d0480edda4c9adf5d8d7a6c102c",
+      "batch": 4,
+      "cell": 8
+    },
+    {
+      "id": "g5-p-04",
+      "sha256": "3a9e74834c62a4d3d1dbc2a2925ad4c7194636c8d28a95a516708f9c5a63fea3",
+      "batch": 4,
+      "cell": 9
+    },
+    {
+      "id": "g5-p-05",
+      "sha256": "f8e0066b0858d66a0ed747598c9f1abe021e656d3eb3bef2c916d4db99fd5e0d",
+      "batch": 4,
+      "cell": 10
+    },
+    {
+      "id": "g5-p-06",
+      "sha256": "2420344ebe5bbf5e1195b26b09f9aba4ce37ad78a2189976374780793df3d421",
+      "batch": 4,
+      "cell": 11
+    },
+    {
+      "id": "g5-p-07",
+      "sha256": "238c326c82bccf98d01611a9e2853c57767629ebab6671768131ce4efbed4e8b",
+      "batch": 4,
+      "cell": 12
+    },
+    {
+      "id": "g5-p-08",
+      "sha256": "72cd10731b02f9b1d53fc192a3b72a8cf5198907efb9242ae0cea86bd995568c",
+      "batch": 4,
+      "cell": 13
+    },
+    {
+      "id": "g5-p-09",
+      "sha256": "27c7f954d3bdca9bc68f920b28e7a6bf36289726d3fd8483cf13bc61adc39a87",
+      "batch": 4,
+      "cell": 14
+    },
+    {
+      "id": "g5-p-10",
+      "sha256": "7df2d8df1bc11c269bfd8f25201be9c4aab31d614791253a6eb157f86f10ae2e",
+      "batch": 4,
+      "cell": 15
+    },
+    {
+      "id": "g5-p-11",
+      "sha256": "dd18e2a698bd589d596f04738ec517553bf5e4573057d4d20a6daaf8ffc890c6",
+      "batch": 4,
+      "cell": 16
+    },
+    {
+      "id": "g5-p-12",
+      "sha256": "90211ca1c424aa9b978a2fc0bdc6101f48e8ae8f2993d2e7723c215deaf819c9",
+      "batch": 5,
+      "cell": 1
+    },
+    {
+      "id": "g5-p-13",
+      "sha256": "0dec0fba24e31ceba0d221a1fb4313e1945cc86438b85dfc3278f9cede1cad43",
+      "batch": 15,
+      "cell": 6
+    },
+    {
+      "id": "g5-p-14",
+      "sha256": "68195d62166f4071f3b458a54ba006341d713ad99d4dbc40687bb147093526e3",
+      "batch": 5,
+      "cell": 3
+    },
+    {
+      "id": "g5-p-15",
+      "sha256": "6190861ebf666d59c7f7a353ed738a5bca99900384185f12315023f0d7214a34",
+      "batch": 5,
+      "cell": 4
+    },
+    {
+      "id": "g5-p-16",
+      "sha256": "9e3a0c1bf4e409c6a22034a6f3b12b5f1d14c0194450470c775ef59359284f73",
+      "batch": 5,
+      "cell": 5
+    },
+    {
+      "id": "g5-p-17",
+      "sha256": "e4b6c87355d78cdb244da579d6624069b15112aaae1623359068c3bd616e710b",
+      "batch": 5,
+      "cell": 6
+    },
+    {
+      "id": "g5-p-18",
+      "sha256": "108daadf76c9294d925ab263404afc2464eaea85b288129464be13b9580c640a",
+      "batch": 5,
+      "cell": 7
+    },
+    {
+      "id": "g5-p-19",
+      "sha256": "3527aed3eaf26112b5f6cae9f84b491a8e1954dc0173c356a5715afa6df3fa6d",
+      "batch": 5,
+      "cell": 8
+    },
+    {
+      "id": "g5-p-20",
+      "sha256": "d970f73993bf16bd3bc2f75a1f3e393c8f6f3135ea175852660f90f8e26e841a",
+      "batch": 5,
+      "cell": 9
+    },
+    {
+      "id": "g5-p-21",
+      "sha256": "199cd33bca206a05c074e4aac6d416c22eac9c8f638b8d3dd95404d80691ca13",
+      "batch": 5,
+      "cell": 10
+    },
+    {
+      "id": "g5-p-22",
+      "sha256": "3c455c09293efefb52de67a87b566a30410bcb271178a2945fb3f1d9298cdd8f",
+      "batch": 5,
+      "cell": 11
+    },
+    {
+      "id": "g5-p-23",
+      "sha256": "a14f43cbf515650491529898adf1de277d07b87cae6d2fa0625c154bb75f7b95",
+      "batch": 5,
+      "cell": 12
+    },
+    {
+      "id": "g5-p-24",
+      "sha256": "41dd516189b6a77e572dc5e94c4142d7078e0f1c3ba6b7742794ec8e0c55f7e4",
+      "batch": 5,
+      "cell": 13
+    },
+    {
+      "id": "g5-p-25",
+      "sha256": "5a906311897b5d2cb6d5a4b2f8a9c9c1e50b31c4863d0b64d6f6f8ff57c3cd8d",
+      "batch": 5,
+      "cell": 14
+    },
+    {
+      "id": "g5-p-26",
+      "sha256": "2916b8c13e5aa5f04ec8e834317562f3f7b051ef6a0a7d2d9f796f39668619c2",
+      "batch": 5,
+      "cell": 15
+    },
+    {
+      "id": "g5-p-27",
+      "sha256": "7ccb15e7e48f59138ca29f9f02af42d1b7cd68c2edcae4b85f622741572a61e0",
+      "batch": 5,
+      "cell": 16
+    },
+    {
+      "id": "g5-p-28",
+      "sha256": "d0252079830664aef50500e45f775c814a4d490875a4a436bf5d113d80a9b65d",
+      "batch": 6,
+      "cell": 1
+    },
+    {
+      "id": "g5-p-29",
+      "sha256": "58eefad991ab12c76dddde2fd37eae40e38671fbaa7dad043b0d1d22ed731dd6",
+      "batch": 6,
+      "cell": 2
+    },
+    {
+      "id": "g5-p-30",
+      "sha256": "a284f3fa3d124b50d9ac45dc0a27d5fa9261e597433a4ea2856e42ef1c96258d",
+      "batch": 6,
+      "cell": 3
+    },
+    {
+      "id": "g5-w-watch",
+      "sha256": "daf63138254e0b00a2df54552de97b982e0ec6dc294acc22cc59769f5c290544",
+      "batch": 1,
+      "cell": 5
+    },
+    {
+      "id": "g5-w-long",
+      "sha256": "f90c0eb9ffff30f5dbd9276b5240e635c3eb0ae820272a8f185feb56d9f03a6a",
+      "batch": 2,
+      "cell": 2
+    },
+    {
+      "id": "g5-w-math",
+      "sha256": "2cbda7b2f2083b185e428f3400e845c7efc0e46a699f15e629bc52af8f1e2dd2",
+      "batch": 15,
+      "cell": 16
+    },
+    {
+      "id": "g5-w-afternoon",
+      "sha256": "e800c02278b43968696d1f6ac7449ebbcdd8daa619bec0bde8372ea61eb6f1c3",
+      "batch": 2,
+      "cell": 3
+    },
+    {
+      "id": "g5-p-31",
+      "sha256": "1f1c34283791ea878a12abc39a06e4b6302b7ac795a2e07bd61e04df7cc2241d",
+      "batch": 6,
+      "cell": 4
+    },
+    {
+      "id": "g5-p-32",
+      "sha256": "ab52e0a18aca6f26dee0fd8d769ddfcb47d280de99c6d81e73a767babb195d70",
+      "batch": 6,
+      "cell": 5
+    },
+    {
+      "id": "g5-p-33",
+      "sha256": "c04761ae6fe4742fa536465ecb31babdc4351b324fcc277db63c427b4be3fae1",
+      "batch": 6,
+      "cell": 6
+    },
+    {
+      "id": "g5-p-34",
+      "sha256": "5ac2e6e39d73d86b2fb3ea8709d3408641f0c055168596d0ce7b6dc7d8f05553",
+      "batch": 6,
+      "cell": 7
+    },
+    {
+      "id": "g5-p-35",
+      "sha256": "61aa866a9ea395128c210a457ae204f14d18cebcc52d70cf4d793c2343dcab8b",
+      "batch": 6,
+      "cell": 8
+    },
+    {
+      "id": "g5-p-36",
+      "sha256": "799c51b2f887d72ccc3b274771fd341d328a443739348f38298686fe637d61db",
+      "batch": 6,
+      "cell": 9
+    },
+    {
+      "id": "g5-p-37",
+      "sha256": "c19084f12ecb37874b44b322ae82a9386f0881b0a717c1040531e23107df3738",
+      "batch": 6,
+      "cell": 10
+    },
+    {
+      "id": "g5-p-38",
+      "sha256": "bc1cbc9845901c77b9515400ea6c10e6ac92b8ea2aa8b6ebe4bc64c37e9f780e",
+      "batch": 6,
+      "cell": 11
+    },
+    {
+      "id": "g5-p-39",
+      "sha256": "8ac5fbb9fd767d81b67a96639b919125e894c771f44e1570860e9473b8967317",
+      "batch": 15,
+      "cell": 7
+    },
+    {
+      "id": "g5-p-40",
+      "sha256": "608d48d6a61a4bc127fe629417582284970f72ae2447b0f889b2ae496fe83dcb",
+      "batch": 6,
+      "cell": 13
+    },
+    {
+      "id": "g5-p-41",
+      "sha256": "b94705051c7b3617943b3597b9a8cac3d994da87a8fb991e3dcece81f2dd178f",
+      "batch": 6,
+      "cell": 14
+    },
+    {
+      "id": "g5-p-42",
+      "sha256": "0d6bbee7e220e13d6efeadf6f450db272a2b3d7c3805eeebd4b2cb2aa9882352",
+      "batch": 6,
+      "cell": 15
+    },
+    {
+      "id": "g5-p-43",
+      "sha256": "dc116aafc87289186b49d76c1444fb2ea83cce9c58507c8f76e9df9ca84b67ee",
+      "batch": 6,
+      "cell": 16
+    },
+    {
+      "id": "g5-p-44",
+      "sha256": "c2d525747aad973b07c3268f50f66ea1cbaf487a3043664f3b219580d5e8fe8a",
+      "batch": 7,
+      "cell": 1
+    },
+    {
+      "id": "g5-p-45",
+      "sha256": "03a1ab77ca71b6410f4136a3dc6d7df920f21cea38e985dbc79d9ca026ab582e",
+      "batch": 7,
+      "cell": 2
+    },
+    {
+      "id": "g5-p-46",
+      "sha256": "1b663415ea5cb049a6c9f2fc2981a90466ca0d916774feac43c397db78aa8f8e",
+      "batch": 7,
+      "cell": 3
+    },
+    {
+      "id": "g5-p-47",
+      "sha256": "6c08598ebe299eb1fe87fca66a3103f2963a74ae3b3da164771743a7fdc72573",
+      "batch": 7,
+      "cell": 4
+    },
+    {
+      "id": "g5-p-48",
+      "sha256": "3f350002824995361a67c162be40867fe38a1099bcaaa903991fcbc7b7718261",
+      "batch": 7,
+      "cell": 5
+    },
+    {
+      "id": "g5-p-49",
+      "sha256": "b5c4086fde9117b7ee76516b595be0516a3a75b81af737323ee65b8e6f6252b3",
+      "batch": 7,
+      "cell": 6
+    },
+    {
+      "id": "g5-p-50",
+      "sha256": "d64c8e770ffe837be0e51468f44c14b653ab5293277b57ff25605a0ad270209f",
+      "batch": 7,
+      "cell": 7
+    },
+    {
+      "id": "g5-w-star",
+      "sha256": "532cb283fa817f2e586f443b6001db11555ff361f9caee572db109710ee2d355",
+      "batch": 2,
+      "cell": 4
+    },
+    {
+      "id": "g5-w-word",
+      "sha256": "4c147ef7c1986552cfa6454a1d31984df34e993e9a4c8a7f6a8f2e39daeab6ca",
+      "batch": 2,
+      "cell": 5
+    },
+    {
+      "id": "g5-w-sentence",
+      "sha256": "ec4a8cbc81560a61c1ced4127a2b4762fb645ab4edc8b9705930d4213eae9963",
+      "batch": 2,
+      "cell": 6
+    },
+    {
+      "id": "g5-w-cd",
+      "sha256": "6946fb82c3e4cdfeafc46e551a20d5af09ea162a95fb4ac20a6315a3f09e5568",
+      "batch": 2,
+      "cell": 7
+    },
+    {
+      "id": "g5-w-roof",
+      "sha256": "e1248ba3a628f9d4f502819dd8c5b2dfaae1e2af9221ec1f91609a144b383148",
+      "batch": 2,
+      "cell": 8
+    },
+    {
+      "id": "g5-w-country",
+      "sha256": "9421337bd26dada8f282164b12e5488c6fc1450c1dbaf03257359b831fee2cd4",
+      "batch": 1,
+      "cell": 12
+    },
+    {
+      "id": "g5-w-child",
+      "sha256": "752d06dc6d82007574082dd6c3493cd0ede51f82b9691719d4a513b6018584f2",
+      "batch": 1,
+      "cell": 10
+    },
+    {
+      "id": "g5-w-uncle",
+      "sha256": "8acf0c4000f5156456d297fece4a5fbd0f577763d1013fe47b5e4c112bbcd5f5",
+      "batch": 15,
+      "cell": 1
+    },
+    {
+      "id": "g5-w-aunt",
+      "sha256": "015a85c9c35433b06004facd745370ce4ec904ab0a635e8e2e90a08abf717eb9",
+      "batch": 15,
+      "cell": 2
+    },
+    {
+      "id": "g5-w-cousin",
+      "sha256": "8c4dab53e5b2e00b36cd7b8db33b8a9ff47405c8945e2844984aac1fc92c7067",
+      "batch": 15,
+      "cell": 3
+    },
+    {
+      "id": "g5-w-parent",
+      "sha256": "ec6a066857391aa153a9fe3cbdd40bf983b881ebe02ae9baa47543d57c7c724c",
+      "batch": 1,
+      "cell": 11
+    },
+    {
+      "id": "g5-w-finger",
+      "sha256": "b9f581798a43811f320395991eef3beb01f3eb5d1feb4dc2688e61f1dd00f1bf",
+      "batch": 1,
+      "cell": 6
+    },
+    {
+      "id": "g5-w-sock",
+      "sha256": "01e56a72281233dbfac7f9937fb3f5a2c67de278ce0d43c413b49057956777cb",
+      "batch": 1,
+      "cell": 7
+    },
+    {
+      "id": "g5-w-glove",
+      "sha256": "bd76b2c908a7c31185787b1862e5ac30afc0d2aadfc17ac6f7c6e9b63ed7ada2",
+      "batch": 1,
+      "cell": 8
+    },
+    {
+      "id": "g5-w-boot",
+      "sha256": "08329338622c4aca4eaf8df10dcd3121fbfd1fadadab431cfb0f34ad470b54f5",
+      "batch": 1,
+      "cell": 9
+    },
+    {
+      "id": "g5-w-up",
+      "sha256": "431d03985f9ae46d190f79ffe3509376b208591905f569fdad32e44aaac0409b",
+      "batch": 2,
+      "cell": 12
+    },
+    {
+      "id": "g5-w-down",
+      "sha256": "2784cb097b8c3e9292bd2ccb310de5ac752f7b59734e28c1dabc813e4f667f3d",
+      "batch": 2,
+      "cell": 13
+    },
+    {
+      "id": "g5-w-use",
+      "sha256": "b53953049b779dcb8ceca3313aa91752ef796b2e8860fe0b9e360725ea3f95cb",
+      "batch": 2,
+      "cell": 14
+    },
+    {
+      "id": "g5-w-fly",
+      "sha256": "ef671ea4f4cb6f322d860119575d2ea9a6954e92e39a96fd6221bf14b8725d88",
+      "batch": 1,
+      "cell": 13
+    },
+    {
+      "id": "g5-w-stand",
+      "sha256": "a6fecb4e63b1e4791f263c1e61be2af52e6a8c654d3d6722a1ee26c798fd5713",
+      "batch": 2,
+      "cell": 15
+    },
+    {
+      "id": "g5-w-young",
+      "sha256": "6784279da930daf2ca72e829db345b0999c4b2d09040bea7c7553062a7ff8bfe",
+      "batch": 2,
+      "cell": 16
+    },
+    {
+      "id": "g5-w-high",
+      "sha256": "4bff25978c08b17b2382abe3a0ef46257ab5a1fb34689c2f26333cec238aa85c",
+      "batch": 15,
+      "cell": 14
+    },
+    {
+      "id": "g5-w-little",
+      "sha256": "f370f65641bea0b4167f9c6b6ff06c70cbd4f1e3987fc8773b5fb22781536a2f",
+      "batch": 3,
+      "cell": 1
+    },
+    {
+      "id": "g5-w-easy",
+      "sha256": "8294d051c2e22d04db60de0037de36d9b5f8d13d8446a250cd48c2a0ac772b7e",
+      "batch": 3,
+      "cell": 2
+    },
+    {
+      "id": "g5-w-interesting",
+      "sha256": "87e2a4fa9473e88f2e78da41770b11e1de28f6b7aa4c6704759959213df7a663",
+      "batch": 1,
+      "cell": 14
+    },
+    {
+      "id": "g5-w-right",
+      "sha256": "8d36e65d75ca138d5c96d0442dae385f7a5e5953fbb4f6d9174a016d4b3dd33a",
+      "batch": 15,
+      "cell": 15
+    },
+    {
+      "id": "g5-w-wrong",
+      "sha256": "0965fc3549d4154ff42c4971d296ffe58f5db4fc3e090be57f563e23a8a38184",
+      "batch": 3,
+      "cell": 3
+    },
+    {
+      "id": "g5-w-now",
+      "sha256": "9c2fa7682451dc25cc2b94a1ea16ae68966ec174a3b8210ffeb5693ae6064000",
+      "batch": 15,
+      "cell": 4
+    },
+    {
+      "id": "g5-w-home",
+      "sha256": "84099f0bcc9793bf7abe4b886884a5119bdd23b8a70217c99561e022fd58dc9b",
+      "batch": 3,
+      "cell": 5
+    },
+    {
+      "id": "g5-w-subject",
+      "sha256": "85cb4f1b5b083823f73fa8f7eb0ef3221d491262a12263b298e7e173e7864e35",
+      "batch": 4,
+      "cell": 1
+    },
+    {
+      "id": "g5-w-name",
+      "sha256": "e5d4543393434b969f3ad19005eae0aec866383c6b3a7c5021c50b99e7a63544",
+      "batch": 4,
+      "cell": 2
+    },
+    {
+      "id": "g5-w-age",
+      "sha256": "c343e64149a73616d94c7c716f99063625afc8b9c0bbb21802a37797be0aa91d",
+      "batch": 15,
+      "cell": 5
+    },
+    {
+      "id": "g5-w-number",
+      "sha256": "cb4ea5c446d0d79f701992767fb33f854009e599a68da272891375f8505c4921",
+      "batch": 4,
+      "cell": 3
+    },
+    {
+      "id": "g5-w-sugar",
+      "sha256": "82231a66093bff3e5d1a64cfe985342de8fcdac80950a94a0c237ed5b0ad258c",
+      "batch": 15,
+      "cell": 12
+    },
+    {
+      "id": "g5-w-salt",
+      "sha256": "fdb16598019ef1e0596044a4b294508f9e46db2691d4724245dfa10234f48e60",
+      "batch": 15,
+      "cell": 13
+    },
+    {
+      "id": "g5-w-take-a-bath",
+      "sha256": "a0d040019364eb26f5b27e1d2db1f1d64519035de9c448105c8bd3d40f0bd026",
+      "batch": 3,
+      "cell": 7
+    },
+    {
+      "id": "g5-w-go-to-bed",
+      "sha256": "9f69f9770732db108094eb38afaeff0ba73b20c25e29a3fc8ff09e84c4921c76",
+      "batch": 3,
+      "cell": 8
+    },
+    {
+      "id": "g5-w-want-to",
+      "sha256": "b4a86818478d9cde09ea6660695b41096ec9e51a09268001cf3e30d5f5a6f5d4",
+      "batch": 3,
+      "cell": 9
+    },
+    {
+      "id": "g5-w-would-like",
+      "sha256": "40918a8d45227012e3b0171134e89214fedaf1c57ad6009d15fa283a81d37a3a",
+      "batch": 3,
+      "cell": 10
+    },
+    {
+      "id": "g5-p-extra-i-m-from-japan",
+      "sha256": "372940ad0eb1e943a41a5cc407d4008f35b3f31b0fa3745b3495272cdbaeab3e",
+      "batch": 7,
+      "cell": 8
+    },
+    {
+      "id": "g5-p-extra-where-are-you-from",
+      "sha256": "0f853bfd10afff09ea618b953f5910a6ea9f608c9755d0a357bd1123ca400c23",
+      "batch": 7,
+      "cell": 9
+    },
+    {
+      "id": "g5-p-extra-i-live-in-tokyo",
+      "sha256": "1b8d1e17acf6d9077a848d43cd71ac87fe0e08edfd42ba98e38baf59b0107b28",
+      "batch": 7,
+      "cell": 10
+    },
+    {
+      "id": "g5-p-extra-where-do-you-live",
+      "sha256": "4b959d869defdfe3f6c2faa3ea80b841ec7963ee36164dea30b9441195183de9",
+      "batch": 7,
+      "cell": 11
+    },
+    {
+      "id": "g5-p-extra-who-is-that-boy",
+      "sha256": "778c8717b4f3512da166b3362f2694b9cd2336eeb106d81421f847ef9c35d820",
+      "batch": 7,
+      "cell": 12
+    },
+    {
+      "id": "g5-p-extra-he-is-my-brother",
+      "sha256": "0e9391c61bb21c1f2d85e4ae326c43cf1e0e39fc6bab673062a5a6ef9eeee9f8",
+      "batch": 7,
+      "cell": 13
+    },
+    {
+      "id": "g5-p-extra-this-is-my-friend",
+      "sha256": "6466e79952ad32c5498fe98435e9b79ff6acc6844f55d599ce68fc853fb5b707",
+      "batch": 7,
+      "cell": 14
+    },
+    {
+      "id": "g5-p-extra-is-this-your-book",
+      "sha256": "7c3bde34d5828795ef68ea12015e73e9c74655b36f4b09aaa04c47e02d98223d",
+      "batch": 7,
+      "cell": 15
+    },
+    {
+      "id": "g5-p-extra-yes-it-is",
+      "sha256": "869c3a51efc54579462a6804cfe8284857c912125071b89e7a15fe760c12bec1",
+      "batch": 7,
+      "cell": 16
+    },
+    {
+      "id": "g5-p-extra-no-it-isn-t",
+      "sha256": "299d8596071f996b52d549402f7a546045c86c800f5486f2c6e7c804329c7b1a",
+      "batch": 8,
+      "cell": 1
+    },
+    {
+      "id": "g5-p-extra-are-you-a-student",
+      "sha256": "2c612563ac4485078fd8e32ded7817bec641bca98ba9f83da3cdacc5693f2ff5",
+      "batch": 8,
+      "cell": 2
+    },
+    {
+      "id": "g5-p-extra-yes-i-am",
+      "sha256": "ddccf77fcdd3d5cb1e1ef7d794f88516a736f174db54f7cca52f60c41ece2d07",
+      "batch": 8,
+      "cell": 3
+    },
+    {
+      "id": "g5-p-extra-no-i-m-not",
+      "sha256": "3ac18417da6d013d532a359cc1a8f121d16f34904dd7bca225a9ac211ddeba55",
+      "batch": 8,
+      "cell": 4
+    },
+    {
+      "id": "g5-p-extra-these-are-my-shoes",
+      "sha256": "4dad0cb785e84fdc15c21360d0bbcaebe53ba29a474ee14adee51d1c7d9d5eaf",
+      "batch": 8,
+      "cell": 5
+    },
+    {
+      "id": "g5-p-extra-whose-pen-is-this",
+      "sha256": "eb2a8aa63d8c382adffdf89f006e17d279e698acb904fc66081c97788bb998eb",
+      "batch": 8,
+      "cell": 6
+    },
+    {
+      "id": "g5-p-extra-it-s-mine",
+      "sha256": "2682cfb3e611add608dca6ad268076520791c609e9b5fe5cd982dcda6c6f19a7",
+      "batch": 8,
+      "cell": 7
+    },
+    {
+      "id": "g5-p-extra-what-color-is-it",
+      "sha256": "3aafed884e215b6441a66d64f85285fac7ff64be7333952c0851f0dc80188f1d",
+      "batch": 8,
+      "cell": 8
+    },
+    {
+      "id": "g5-p-extra-it-s-blue",
+      "sha256": "3d3fdbcd9d9d6e978d21c5705e5a108cee4de4fe21968763ad5361e1b76bdbca",
+      "batch": 8,
+      "cell": 9
+    },
+    {
+      "id": "g5-p-extra-what-s-your-favorite-food",
+      "sha256": "c515f6843fd6bc75c1d269d8f1c6c3932566ece1694558c2beddf753e58b4c10",
+      "batch": 8,
+      "cell": 10
+    },
+    {
+      "id": "g5-p-extra-my-favorite-food-is-curry",
+      "sha256": "4d80af67cfa55df151f9b62a64d6664ecfba4660757a7a11bdc9ff0381988216",
+      "batch": 8,
+      "cell": 11
+    },
+    {
+      "id": "g5-p-extra-what-subject-do-you-like",
+      "sha256": "630bb7a121655131b2d7ac4c9fcbe9fe1a9c2954fe609bec10b395310be83af4",
+      "batch": 8,
+      "cell": 12
+    },
+    {
+      "id": "g5-p-extra-i-like-english",
+      "sha256": "eca726d169f1c041f5508ece61a547f2639783fe8177eb4b6576400eace43d5e",
+      "batch": 8,
+      "cell": 13
+    },
+    {
+      "id": "g5-p-extra-does-she-like-tennis",
+      "sha256": "d1f2dce5dbed7a3422834e4a94f2726802a9e92f7a34ae33b95270828706747b",
+      "batch": 8,
+      "cell": 14
+    },
+    {
+      "id": "g5-p-extra-yes-she-does",
+      "sha256": "c76280f9da887ae7dc91779a9b6f5443442e824e7d1b4063ad77e900f1201391",
+      "batch": 8,
+      "cell": 15
+    },
+    {
+      "id": "g5-p-extra-no-she-doesn-t",
+      "sha256": "c2466a2b8b03bdf5e42503b21e2de21100e25f29128145433d9d909ed39ceeb3",
+      "batch": 8,
+      "cell": 16
+    },
+    {
+      "id": "g5-p-extra-he-plays-soccer-every-day",
+      "sha256": "be7d8fede5db56c82392d027b17c3117fc7172cdadbb5e85131ff29d1adbf72d",
+      "batch": 14,
+      "cell": 1
+    },
+    {
+      "id": "g5-p-extra-she-doesn-t-play-the-piano",
+      "sha256": "5da4e3bc83db6354396860468e79e504420c0566f1a0bf73658dcb36fa0b4017",
+      "batch": 14,
+      "cell": 2
+    },
+    {
+      "id": "g5-p-extra-what-do-you-have-for-breakfast",
+      "sha256": "6c0980be500e15278a0d7d56f81bb8297bc7b18fee613bd3b4b64cfdba972a68",
+      "batch": 14,
+      "cell": 3
+    },
+    {
+      "id": "g5-p-extra-i-have-bread-and-milk",
+      "sha256": "9f0b7acecc9eb44191a58d0f628e55e8c8d2657e5f9fba15d7789fac5a39bdd6",
+      "batch": 14,
+      "cell": 4
+    },
+    {
+      "id": "g5-p-extra-when-do-you-get-up",
+      "sha256": "4b8edc19e0abbe4cee63ae9531cfcd9c8e85586b3b389e013fe432ad141ded9b",
+      "batch": 14,
+      "cell": 5
+    },
+    {
+      "id": "g5-p-extra-i-get-up-at-seven",
+      "sha256": "eb496c47e0e8de7dc5948f4ebc3e7da2a9d9611c6c7e46871bd8bede8e186eb2",
+      "batch": 14,
+      "cell": 6
+    },
+    {
+      "id": "g5-p-extra-i-go-to-bed-at-nine",
+      "sha256": "50aaf3a2e14f0899547586850650e54af858855ccc8f8c82ed29cb493eb56d06",
+      "batch": 14,
+      "cell": 7
+    },
+    {
+      "id": "g5-p-extra-what-do-you-do-after-school",
+      "sha256": "97f0a7bf7536f320eb56b6ef225799199fba4eb2a5a9eb754a7b0fd9de847a4e",
+      "batch": 14,
+      "cell": 8
+    },
+    {
+      "id": "g5-p-extra-i-do-my-homework-after-school",
+      "sha256": "658e13c72b240a0deb9a349e09220ae072c4833cce40d9f3f1ed6a93c9adaa18",
+      "batch": 14,
+      "cell": 9
+    },
+    {
+      "id": "g5-p-extra-how-do-you-go-to-school",
+      "sha256": "f7c571817e59c1673d6c9644b02573b837446a7e98f4cdf8e063d0d16436f32c",
+      "batch": 14,
+      "cell": 10
+    },
+    {
+      "id": "g5-p-extra-i-walk-to-school",
+      "sha256": "130c131f68e4b059b0c4d35c5e94242f57d39fee8bbe9c40eaa68c24935c5798",
+      "batch": 14,
+      "cell": 11
+    },
+    {
+      "id": "g5-p-extra-how-much-is-this",
+      "sha256": "0c7e0e1607c29904fddcf4ebcdd69b802cfc621edc2df407bfde90c52fec792e",
+      "batch": 14,
+      "cell": 12
+    },
+    {
+      "id": "g5-p-extra-it-s-five-hundred-yen",
+      "sha256": "0e8836d97286633eb0c62dc68a9ce30dce4774e5ef17da7b3bb5e15a2db514e8",
+      "batch": 14,
+      "cell": 13
+    },
+    {
+      "id": "g5-p-extra-may-i-help-you",
+      "sha256": "ce3a1d966581813aab69a98ac4a72a3b7c896e1f80d33edd82a7af9056f7b61d",
+      "batch": 14,
+      "cell": 14
+    },
+    {
+      "id": "g5-p-extra-i-d-like-this-one",
+      "sha256": "e1f7d1064451172f11eb2cdb2e809d389ef3d217c32ddabd14e47c29368b5707",
+      "batch": 14,
+      "cell": 15
+    },
+    {
+      "id": "g5-p-extra-anything-else",
+      "sha256": "ecce5e66974bff90701c1ed6e7f7bf2e16bfb77dc7f045bc6770db9fcb4ecc7a",
+      "batch": 14,
+      "cell": 16
+    },
+    {
+      "id": "g5-p-extra-no-thank-you",
+      "sha256": "35769175417c9c84b619612dd996ba4defe59fcaefb5aeb9fc7b7f519e83744c",
+      "batch": 10,
+      "cell": 1
+    },
+    {
+      "id": "g5-p-extra-can-i-have-some-water",
+      "sha256": "1648d4c8f4c71f6283da121c22d13320bf712167120432159e77c6ca1915210e",
+      "batch": 10,
+      "cell": 2
+    },
+    {
+      "id": "g5-p-extra-you-re-welcome",
+      "sha256": "a4fe5c6bb3bd50fae16304180c20f2cd69d3a8d2f56d7ac02fc3004357b0da94",
+      "batch": 10,
+      "cell": 3
+    },
+    {
+      "id": "g5-p-extra-i-m-hungry",
+      "sha256": "4d053db38162a55af9aaef37708c907f8072a5f8dbe70323aac0b945dbfa35b3",
+      "batch": 10,
+      "cell": 4
+    },
+    {
+      "id": "g5-p-extra-i-m-thirsty",
+      "sha256": "c0192ca77053d76ed0608df0bd943ceb79f68388b72356e29285902a15b4439a",
+      "batch": 10,
+      "cell": 5
+    },
+    {
+      "id": "g5-p-extra-let-s-have-lunch",
+      "sha256": "616639c81d08d931edf7aa90a8e8fc15b96f81ee7e290b2142c0f86156f7e829",
+      "batch": 10,
+      "cell": 6
+    },
+    {
+      "id": "g5-p-extra-how-about-some-juice",
+      "sha256": "9aa6f824b2c5f2a1931757f30f0102da053c10d84f85389130887cf96b2d4518",
+      "batch": 10,
+      "cell": 7
+    },
+    {
+      "id": "g5-p-extra-how-s-the-weather-today",
+      "sha256": "c476f677c97024a792d63319a97bcef91d1ecbbf6a95229902977798ae92d57c",
+      "batch": 10,
+      "cell": 8
+    },
+    {
+      "id": "g5-p-extra-it-s-sunny-today",
+      "sha256": "624ca9d4301bf68667b7679fb6e94ffe0f3f73e3d8e71838454ed5460a1a635b",
+      "batch": 10,
+      "cell": 9
+    },
+    {
+      "id": "g5-p-extra-it-s-cold-in-winter",
+      "sha256": "7165b971ca9e0d592abb100011ddc6a5f4219b63fb2fd4ad40cb58ef416f3516",
+      "batch": 10,
+      "cell": 10
+    },
+    {
+      "id": "g5-p-extra-what-season-do-you-like",
+      "sha256": "539acef61249677151b4e2f7d5667da67f9337edcf7651f73e88b40668a64de0",
+      "batch": 10,
+      "cell": 11
+    },
+    {
+      "id": "g5-p-extra-i-like-summer",
+      "sha256": "4f2074a3a8906b915b60db8e2f2344d10ebbb5001ef202d4089c2e09aef26023",
+      "batch": 10,
+      "cell": 12
+    },
+    {
+      "id": "g5-p-extra-what-can-you-do",
+      "sha256": "6b74395d4fa1074c8a0d7c80769a02591a14f79849456d8a75d210d99d86ad78",
+      "batch": 10,
+      "cell": 13
+    },
+    {
+      "id": "g5-p-extra-i-can-play-the-piano",
+      "sha256": "9df0d2a88551e28cc5557c1b38493ebf8e19ab6a06e912a8fdfdced9ffe2ae9e",
+      "batch": 10,
+      "cell": 14
+    },
+    {
+      "id": "g5-p-extra-i-can-t-swim",
+      "sha256": "01ba4c7bbc829b9817bc8fb41e899d71a37e8712f73e7cddff94999cdcf5cb3c",
+      "batch": 10,
+      "cell": 15
+    },
+    {
+      "id": "g5-p-extra-yes-i-can",
+      "sha256": "78d4df4b58be11c77d6eb5aa7e6861b552b2041b58368ab42f5dcde48cc3249d",
+      "batch": 10,
+      "cell": 16
+    },
+    {
+      "id": "g5-p-extra-no-i-can-t",
+      "sha256": "ff1d2f991a6122582cfff6f8e7a52191eebd9666702dad55706ee04d5938d40d",
+      "batch": 11,
+      "cell": 1
+    },
+    {
+      "id": "g5-p-extra-can-you-help-me",
+      "sha256": "ce8ba7701dadba674c83bf33422a06bd559365b1032c6875be3e6c7bb7ee816e",
+      "batch": 11,
+      "cell": 2
+    },
+    {
+      "id": "g5-p-extra-sure",
+      "sha256": "d04e185a3d32a0da264b56063d48ef405ce0e582ee0b8c7016ce441457262e92",
+      "batch": 11,
+      "cell": 3
+    },
+    {
+      "id": "g5-p-extra-sorry-i-can-t",
+      "sha256": "4a1c62aa08f00a98b7a3f8bef86ac45bbe084f5128ee3d8e9f6d723d1dec8552",
+      "batch": 11,
+      "cell": 4
+    },
+    {
+      "id": "g5-p-extra-let-s-go-to-the-park",
+      "sha256": "9602c9f4dcf86510ec4f3b94dec8a45492295f86d5c75160b0a13afbf2297c12",
+      "batch": 11,
+      "cell": 5
+    },
+    {
+      "id": "g5-p-extra-that-s-a-good-idea",
+      "sha256": "8b41fe90c13da846e5c753f81d197b110e1a0dffb9d84c739e00f0e3406ff6e4",
+      "batch": 11,
+      "cell": 6
+    },
+    {
+      "id": "g5-p-extra-sorry-i-m-busy",
+      "sha256": "91d22241b7f3b6e6e16ecdbda7f3d864b1a802bfe74be40663d3893582d5b179",
+      "batch": 11,
+      "cell": 7
+    },
+    {
+      "id": "g5-p-extra-are-you-free-tomorrow",
+      "sha256": "57d4940616d2910d98d66e01d62f81938466697de5d3eba17a406f54c56b3c52",
+      "batch": 11,
+      "cell": 8
+    },
+    {
+      "id": "g5-p-extra-please-come-in",
+      "sha256": "e39eba8a86a3934cf30dbedd89a72d93a02d7f018c8635564cb68b99de68a161",
+      "batch": 11,
+      "cell": 9
+    },
+    {
+      "id": "g5-p-extra-please-sit-down",
+      "sha256": "6800972fa8a1763de19e377368d257de8263df588a7aa4f27e4ea46d7a2aecea",
+      "batch": 11,
+      "cell": 10
+    },
+    {
+      "id": "g5-p-extra-stand-up-please",
+      "sha256": "b54e9653181283816cfb1322c3e3ed5441298ed554624838ceaebb5758802ff9",
+      "batch": 11,
+      "cell": 11
+    },
+    {
+      "id": "g5-p-extra-don-t-run-here",
+      "sha256": "7663c7a97bfdd3007c206bd13aa31704a600570c7cc86355f9f540f9f8456d49",
+      "batch": 11,
+      "cell": 12
+    },
+    {
+      "id": "g5-p-extra-be-careful",
+      "sha256": "ad9a1f9ac379b27c2e63debf203b818fab45eb9fa2c5767feb7b1d06aeb47037",
+      "batch": 11,
+      "cell": 13
+    },
+    {
+      "id": "g5-p-extra-please-be-quiet",
+      "sha256": "34b0c555450a6a18835edbe715de733fa9abb17edd94621a04d45301c98e8ff2",
+      "batch": 11,
+      "cell": 14
+    },
+    {
+      "id": "g5-p-extra-turn-right-at-the-corner",
+      "sha256": "4977e9a35cbf3926d01dd8aae59fddcb7cc571e2a9c75167143b4315b9bc65cb",
+      "batch": 11,
+      "cell": 15
+    },
+    {
+      "id": "g5-p-extra-the-bank-is-next-to-the-station",
+      "sha256": "a85f824252f41be9930233c383682a2306c670f3c6ea103c2e962512dd2e1c91",
+      "batch": 11,
+      "cell": 16
+    },
+    {
+      "id": "g5-p-extra-where-is-the-post-office",
+      "sha256": "79dda0731ae313cb8fabac9ffd778ec4554f578443f562bad5ff981f13706057",
+      "batch": 12,
+      "cell": 1
+    },
+    {
+      "id": "g5-p-extra-it-s-near-the-park",
+      "sha256": "c1c7f82fd668f36d2cbc5b788845bcff240ce4fe4c728842d9458615a5788d0f",
+      "batch": 12,
+      "cell": 2
+    },
+    {
+      "id": "g5-p-extra-there-is-a-cat-under-the-table",
+      "sha256": "8bf338831993f34636a0da58351d72016b64e938d59422614bf52a21933419a5",
+      "batch": 12,
+      "cell": 3
+    },
+    {
+      "id": "g5-p-extra-there-are-three-books-on-the-desk",
+      "sha256": "5611a5d19c9a4036b0f4b7ba562af92f2a35cd56bed4c5c029884dbf4ecd541c",
+      "batch": 12,
+      "cell": 4
+    },
+    {
+      "id": "g5-p-extra-is-he-reading-a-book",
+      "sha256": "f573c00f54e6de75cc94066fc6c9c99a9f5c8923fdfe3e207db009c2bd0908ec",
+      "batch": 12,
+      "cell": 5
+    },
+    {
+      "id": "g5-p-extra-yes-he-is",
+      "sha256": "4e5d03c6df4470a0dce89356ef09bc7c1949e8972983248d864fc2c7a9b844d4",
+      "batch": 12,
+      "cell": 6
+    },
+    {
+      "id": "g5-p-extra-no-he-isn-t",
+      "sha256": "dd2202cdc020e16d58c86b61dd28bff16e1d851f5592edc2a123f6e83de5e070",
+      "batch": 12,
+      "cell": 7
+    },
+    {
+      "id": "g5-p-extra-they-are-playing-soccer",
+      "sha256": "ae8179503965cbd936714f18c04b8bb6cd2fa6fb16a8a09e7b13c597436c2241",
+      "batch": 12,
+      "cell": 8
+    },
+    {
+      "id": "g5-p-extra-i-m-not-watching-tv",
+      "sha256": "12b84ffa5541c76117eb9f7e194f033d7f165e03af06104f2b2c737e6e9284bb",
+      "batch": 12,
+      "cell": 9
+    },
+    {
+      "id": "g5-p-extra-what-is-she-doing",
+      "sha256": "1ce724a1e2e1e54fb4929d06568d784d82dadc2c15ac18c0b29b0408fb5ac66d",
+      "batch": 12,
+      "cell": 10
+    },
+    {
+      "id": "g5-p-extra-she-is-cooking-dinner",
+      "sha256": "a6e55da0253c1f8f8962522eec4e9aefa6f52507b8cde6ade82af4e7e76a12dc",
+      "batch": 12,
+      "cell": 11
+    },
+    {
+      "id": "g5-p-extra-i-want-to-be-a-teacher",
+      "sha256": "8e2df1b523b0b0b5504f19dcf0df8b25a8b8f223e98268f2693d320089323bfd",
+      "batch": 15,
+      "cell": 8
+    },
+    {
+      "id": "g5-p-extra-i-like-playing-tennis",
+      "sha256": "04cd018c8d1669305f4c7529604381eaa246988f2962304b11e25eacac7ccec2",
+      "batch": 12,
+      "cell": 13
+    },
+    {
+      "id": "g5-p-extra-happy-birthday",
+      "sha256": "251bba84782ea89912a09f1a81f8976c54e4085660aeda3ce222154e49458806",
+      "batch": 12,
+      "cell": 14
+    },
+    {
+      "id": "g5-p-extra-happy-new-year",
+      "sha256": "fbaeb9d480025040b3160e35411a80a3c8b9514f3a3a44cc4ec7fe25c7883997",
+      "batch": 12,
+      "cell": 15
+    },
+    {
+      "id": "g5-p-extra-have-a-nice-day",
+      "sha256": "dd96f879cd371e50f26fad0ee4f3d416cea1e1a6296ff4deb359c2a78130d387",
+      "batch": 12,
+      "cell": 16
+    },
+    {
+      "id": "g5-p-extra-have-a-good-time",
+      "sha256": "6e81899472ec7ccc4afee0db0f4cb46ee792f3e75e27c66fdde88175d4ef02ec",
+      "batch": 13,
+      "cell": 1
+    },
+    {
+      "id": "g5-p-extra-see-you-later",
+      "sha256": "ee05e4785d588f857937f0d8e451bf2548b7a3c48913a7a1e3611b3409d51510",
+      "batch": 13,
+      "cell": 2
+    },
+    {
+      "id": "g5-p-extra-take-care",
+      "sha256": "4c389a87458f1afa123b582a8ae1b2bd541e839139d9f9313f692663a024971f",
+      "batch": 13,
+      "cell": 3
+    },
+    {
+      "id": "g5-p-extra-are-you-ok",
+      "sha256": "2b88f5855fdfaa2a0dc380f05b2be4513cc1286c2dfe9fc7c3d296d7eeebab6f",
+      "batch": 13,
+      "cell": 4
+    },
+    {
+      "id": "g5-p-extra-i-m-tired",
+      "sha256": "4488b5abba314c0ffe84226442995e6f2162d0235e7a8c655503911578ca62de",
+      "batch": 13,
+      "cell": 5
+    },
+    {
+      "id": "g5-p-extra-what-s-wrong",
+      "sha256": "63d988ce7e789ec2f31cd32e358172a1d5ed61f2a430b9ad7f22e2dfa19fc86c",
+      "batch": 13,
+      "cell": 6
+    },
+    {
+      "id": "g5-p-extra-one-more-time-please",
+      "sha256": "5a34f220d2972224b0d915bb025a8e6fc70e4806d6daaf324e56c039223deb22",
+      "batch": 13,
+      "cell": 7
+    },
+    {
+      "id": "g5-p-extra-please-speak-slowly",
+      "sha256": "d44ce05a6f210aa24612e795521f3638f0a04da3276614d4cae4af3cd7c66a7b",
+      "batch": 13,
+      "cell": 8
+    },
+    {
+      "id": "g5-p-extra-i-don-t-understand",
+      "sha256": "dda53b3c8d76b2b6e5c094c392a560c89008c2a1b0339331297be7de82a73156",
+      "batch": 13,
+      "cell": 9
+    },
+    {
+      "id": "g5-p-extra-how-do-you-say-this-in-english",
+      "sha256": "14f1676d2a77d1cd94f11fac4b85dc906bbe63e006aface00d0db45c6ef4c518",
+      "batch": 13,
+      "cell": 10
+    },
+    {
+      "id": "g5-p-extra-what-does-this-word-mean",
+      "sha256": "6f77ddddb5ce2f1e69f2f8bec89485af3805e05526c149b99f0b61fadcde81f7",
+      "batch": 13,
+      "cell": 11
+    },
+    {
+      "id": "g5-w-rj-city-hall",
+      "sha256": "ee1ef45de1ccd93f26ea19756e90b4fcc7b2b6999e123ad0b0c3247edc0150ff",
+      "batch": 4,
+      "cell": 4
+    },
+    {
+      "id": "g5-w-rj-sunshine",
+      "sha256": "777c16d4284cd3d6acf072bdfbb815dc7611e819b6128ac777abe28b81eff236",
+      "batch": 15,
+      "cell": 9
+    },
+    {
+      "id": "g5-w-rj-officer",
+      "sha256": "8ef9a813e405661e18d3a8bc91983fcd18c6562be98148d498faf6209a588ff8",
+      "batch": 4,
+      "cell": 5
+    },
+    {
+      "id": "g5-w-rj-person",
+      "sha256": "10fc9c9fecb4340a192ccc9c1afb4c6224f6e013513b0380e77e71d473a50b47",
+      "batch": 1,
+      "cell": 16
+    },
+    {
+      "id": "g5-w-rj-pilot",
+      "sha256": "8a6f4a06383105ec09f90ded51a7c47325efdc12ec68dbdf2f8ec273c1329bc7",
+      "batch": 3,
+      "cell": 12
+    },
+    {
+      "id": "g5-w-rj-waiter",
+      "sha256": "eeed1437d339af2b5b6df6d25237393352214565d5ee5cc0efd73d41d9c163ef",
+      "batch": 3,
+      "cell": 13
+    },
+    {
+      "id": "g5-w-rj-worker",
+      "sha256": "d326b8a74cac0955838fb01e13c9f55001b7a68ffa5a6ca4257cd887aab15ba0",
+      "batch": 3,
+      "cell": 14
+    },
+    {
+      "id": "g5-w-rj-ski",
+      "sha256": "cb4b3effd1ca97a1a9e0929a71b93db1176131c7455131a9454fd28b038a6b81",
+      "batch": 3,
+      "cell": 15
+    },
+    {
+      "id": "g5-w-rj-move",
+      "sha256": "11daf5ced2aa0b70b7c75ffd9d538613ccf201ee3a7103c46d6c6c3a74fe03de",
+      "batch": 3,
+      "cell": 16
+    },
+    {
+      "id": "g5-p-rj-what-s-the-date-today",
+      "sha256": "ad8b77476bc6190dacd66c8ec2ed36bd4967cf9f7ee6de6d0142c10b48baf43a",
+      "batch": 13,
+      "cell": 12
+    },
+    {
+      "id": "g5-p-rj-how-do-you-get-to-the-station",
+      "sha256": "3069d87557ab42c7bbf45720927e03820af90aa41bbb92cc7a1032bf8c76d84f",
+      "batch": 13,
+      "cell": 13
+    },
+    {
+      "id": "g5-p-rj-this-bag-is-his",
+      "sha256": "83bf3560128b41327b705bff69add7fc40a3f0343e63633aca1afb81d8edb15f",
+      "batch": 13,
+      "cell": 14
+    },
+    {
+      "id": "g5-p-rj-he-is-a-piano-player",
+      "sha256": "fed9135f47d639ee1a1b62db95e03cfe09dd933376593001eed63344d0afdd2d",
+      "batch": 13,
+      "cell": 15
+    },
+    {
+      "id": "g5-p-rj-please-ask-him-for-help",
+      "sha256": "8bd7e8b822568879d851ffd9a4dc7cc2b46cea1d7b0b865e3c081681a0eca7ac",
+      "batch": 13,
+      "cell": 16
+    },
+    {
+      "id": "g5-w-ph-e-mail",
+      "sha256": "de8d451851e04fc20fcd0986d17b3eec905d878ef86aa75dd64bc0cf7e3e7b38",
+      "batch": 3,
+      "cell": 11
+    },
+    {
+      "id": "g5-w-ph-wonderful",
+      "sha256": "2351f5844bbf2da863cb0d6264cb27ca6c7c984206504f904eee12cb9ba3fd8a",
+      "batch": 15,
+      "cell": 10
+    },
+    {
+      "id": "g5-w-ph-living",
+      "sha256": "638f4e41dad678f424152edec17062e5133b3a2c28e929fdc5e9414d10d0f615",
+      "batch": 15,
+      "cell": 11
+    },
+    {
+      "id": "g5-w-ph-soft",
+      "sha256": "38b8fe0339d95a2192931c9d1a46368b2c5fc18b2b9444018463c08199908ca6",
+      "batch": 1,
+      "cell": 15
+    }
+  ]
+}

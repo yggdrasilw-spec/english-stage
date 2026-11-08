@@ -1,0 +1,18 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines INCLUDING outer frame, exact positions, continuous straightness and thickness. Paint EXACTLY sixteen separate clear children's picture-book illustrations, read row-major left to right then top to bottom. Each scene stays inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. Use panels generously, no large blank margins. No labels, captions, watermarks, readable text or numbers UNLESS the individual scene explicitly requires exact lettering or a precise count. Do not add random writing. Natural human anatomy. Illustrate the specific English meaning, action or relationship rather than a loosely associated Japanese noun. These are educational context illustrations shown BESIDE the original English sentence, not standalone replacements for grammar or exact names.
+Exact scenes:
+1. Target: He plays soccer every day. / 彼は毎日サッカーをします。. Scene: Boy practicing soccer beside a seven-column weekly calendar with every day marked the same way; no text.
+2. Target: She doesn't play the piano. / 彼女はピアノを弾きません。. Scene: Girl seated away from a closed piano, choosing to read instead; her hands clearly not on keys.
+3. Target: What do you have for breakfast? / 朝食に何を食べますか。. Scene: Parent asks child about breakfast while offering a choice of bread, eggs and milk at morning table.
+4. Target: I have bread and milk. / パンと牛乳をとります。. Scene: Child eating breakfast with exactly bread and a glass of milk clearly visible, morning window.
+5. Target: When do you get up? / いつ起きますか。. Scene: Child asks a friend about wake-up time, gestures between bed and alarm clock.
+6. Target: I get up at seven. / 7時に起きます。. Scene: Child sitting up awake in bed in morning, analog alarm clock shows exactly seven o'clock.
+7. Target: I go to bed at nine. / 9時に寝ます。. Scene: Child in pajamas climbing into bed at night, analog clock shows exactly nine o'clock.
+8. Target: What do you do after school? / 放課後は何をしますか。. Scene: Students leaving school discuss what to do next, one gestures toward home and a playground.
+9. Target: I do my homework after school. / 放課後に宿題をします。. Scene: Child doing homework at home with schoolbag beside desk, afternoon school release in a small background inset.
+10. Target: How do you go to school? / どうやって学校に行きますか。. Scene: Two children discuss how to travel to school, choices of bus, bicycle and walking shown as small clear thought pictures.
+11. Target: I walk to school. / 歩いて学校へ行きます。. Scene: Child walking on a safe sidewalk TOWARD school with backpack, school entrance visible ahead.
+12. Target: How much is this? / これはいくらですか。. Scene: Customer child asks shopkeeper the price of a toy, points between toy and money.
+13. Target: It's five hundred yen. / 500円です。. Scene: A single Japanese five-hundred-yen coin with plain numeral '500' large and centered, no other readable letters or money.
+14. Target: May I help you? / いらっしゃいませ。何かお探しですか。. Scene: Friendly shop assistant offering help to a browsing child and parent, open welcoming hands, store shelves visible.
+15. Target: I'd like this one. / これをいただきたいです。. Scene: Child politely points to ONE chosen item on a shop counter, shopkeeper ready to assist.
+16. Target: Anything else? / ほかに何かありますか。. Scene: Shopkeeper gestures politely toward remaining items after placing one purchase on the counter, asking if customer wants anything else.

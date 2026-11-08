@@ -1,0 +1,18 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines INCLUDING outer frame, exact positions, continuous straightness and thickness. Paint EXACTLY sixteen separate clear children's picture-book illustrations, read row-major left to right then top to bottom. Each scene stays inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. Use panels generously, no large blank margins. No labels, captions, watermarks, readable text or numbers UNLESS the individual scene explicitly requires exact lettering or a precise count. Do not add random writing. Natural human anatomy. Illustrate the specific English meaning, action or relationship rather than a loosely associated Japanese noun. These are educational context illustrations shown BESIDE the original English sentence, not standalone replacements for grammar or exact names.
+Exact scenes:
+1. Target: small / 小さい. Scene: Two identical toy bears of very different sizes side by side, orange arrow pointing ONLY to the SMALL bear.
+2. Target: long / 長い. Scene: Two ropes of matching thickness laid straight side by side; one much longer. Orange arrow points ONLY to the LONG rope.
+3. Target: afternoon / 午後. Scene: Children playing outside after lunch, sun still high in a clear daytime sky; small inset analog clock at two o'clock. No moon or sunset.
+4. Target: star / 星. Scene: A dark clear night sky filled with small distant twinkling stars, one bright star highlighted, no sun, no moon.
+5. Target: word / 単語. Scene: An open vocabulary notebook with ONE isolated short English word 'cat' large on the page and a small cat illustration, no other text.
+6. Target: sentence / 文. Scene: A simple page containing exactly ONE large clear English sentence 'A dog runs.' above a dog running; no other text.
+7. Target: CD / CD. Scene: A shiny compact disc with a clear central hole beside its open plain plastic jewel case, realistic rainbow reflection, no letters.
+8. Target: roof / 屋根. Scene: A simple house with its entire sloping roof colored orange, the walls neutral cream. An orange pointer points precisely to the roof.
+9. Target: uncle / おじ. Scene: A clear simple family relationship scene: two adult brothers side by side with a small boy beside his father; orange pointer highlights the OTHER adult, the child's uncle. Small identical childhood portrait of the two brothers behind them. No text.
+10. Target: aunt / おば. Scene: A mother and her adult sister standing beside the mother's young daughter. Orange pointer highlights the mother's sister, the child's aunt. No other people or text.
+11. Target: cousin / いとこ. Scene: A clear two-family group: two adult sisters each standing behind her own child; the two children play a board game together in front, orange pointers highlight both cousins. No text.
+12. Target: up / 上へ. Scene: A child looking upward and pointing UP toward a kite above; a bold orange upward arrow clearly has an arrowhead.
+13. Target: down / 下へ. Scene: A child looking DOWN and pointing toward a ball on the ground; a bold orange downward arrow clearly has an arrowhead.
+14. Target: use / 使う. Scene: Close-up of a child actively USING a ruler to draw a straight line on paper with a pencil; both tools and action clearly visible. No building furniture.
+15. Target: stand / 立つ. Scene: ONE child STANDING upright beside a chair, whole body visible down to both feet firmly on the floor. No raised hand, no sitting.
+16. Target: young / 若い. Scene: A young adult beside an elderly adult, orange arrow highlights ONLY the young adult, both whole bodies visible.

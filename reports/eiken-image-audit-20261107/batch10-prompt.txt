@@ -1,0 +1,18 @@
+Edit the attached 2048x2048 equal-size 4x4 template. Preserve all five vertical and five horizontal pure magenta #ff00ff divider lines INCLUDING outer frame, exact positions, continuous straightness and thickness. Paint EXACTLY sixteen separate clear children's picture-book illustrations, read row-major left to right then top to bottom. Each scene stays inside its own cell. Natural full colors, neutral daylight, bright backgrounds, shallow shadows. Use panels generously, no large blank margins. No labels, captions, watermarks, readable text or numbers UNLESS the individual scene explicitly requires exact lettering or a precise count. Do not add random writing. Natural human anatomy. Illustrate the specific English meaning, action or relationship rather than a loosely associated Japanese noun. These are educational context illustrations shown BESIDE the original English sentence, not standalone replacements for grammar or exact names.
+Exact scenes:
+1. Target: No, thank you. / いいえ、結構です。. Scene: Child politely declines an offered snack with a smile and gentle raised palm, no hostile expression.
+2. Target: Can I have some water? / 水をもらえますか。. Scene: Child politely requests water from a parent, empty glass in open hand and water pitcher nearby.
+3. Target: You're welcome. / どういたしまして。（短縮形）. Scene: Helpful child warmly acknowledging a friend's thanks with a relaxed open palm, recovered pencil between them.
+4. Target: I'm hungry. / おなかがすいています。. Scene: Child sitting at table with empty plate, hand on rumbling stomach and hungry face.
+5. Target: I'm thirsty. / 喉が渇いています。. Scene: Child after exercise, thirsty face and hand at throat, thought bubble contains a clear glass of water.
+6. Target: Let's have lunch. / 昼食にしましょう。. Scene: Child invites friends to a lunch table with food ready, welcoming open hand toward seats.
+7. Target: How about some juice? / ジュースはいかがですか。. Scene: Child offering a clear pitcher and glass of orange juice to a friend, friendly questioning smile.
+8. Target: How's the weather today? / 今日の天気はどうですか。. Scene: Children at a window discussing today's weather, one gestures outside toward sky.
+9. Target: It's sunny today. / 今日は晴れです。. Scene: Child looking out happily at a bright sunny daytime sky, clear visible sunshine.
+10. Target: It's cold in winter. / 冬は寒いです。. Scene: Child bundled in coat and scarf shivering in a snowy winter landscape, breath visible.
+11. Target: What season do you like? / どの季節が好きですか。. Scene: Child asking a friend their favorite season, four small thought scenes show spring blossom, summer beach, autumn leaves, winter snow.
+12. Target: I like summer. / 夏が好きです。. Scene: Child joyfully playing safely at a summer beach, bright sun, summer hat and small heart.
+13. Target: What can you do? / 何ができますか。. Scene: Two children discussing their skills; simple thought pictures of dancing, swimming and piano, asking gesture.
+14. Target: I can play the piano. / ピアノが弾けます。. Scene: Child confidently PLAYING piano, both hands correctly on keys, happy concentrated expression.
+15. Target: I can't swim. / 泳げません。. Scene: Child safely seated on pool deck wearing a flotation vest, looking hesitant and gently shaking head; no drowning or distressed water scene.
+16. Target: Yes, I can. / はい、できます。. Scene: Child confidently nodding yes beside a pool and swim goggles, capable positive gesture.
