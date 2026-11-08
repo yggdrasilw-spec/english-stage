@@ -1,3 +1,4 @@
+import './sync-abc-hand-images.mjs';
 import {readFile,writeFile,readdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
