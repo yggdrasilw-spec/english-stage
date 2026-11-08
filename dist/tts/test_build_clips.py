@@ -4,6 +4,7 @@ import tempfile
 import unittest
 import json
 import hashlib
+import re
 
 spec = importlib.util.spec_from_file_location('builder', Path(__file__).with_name('build_clips.py'))
 b = importlib.util.module_from_spec(spec)
@@ -36,6 +37,25 @@ class BuilderTests(unittest.TestCase):
         self.assertEqual(len({q['id'] for q in questions}),29)
         self.assertEqual({q['p'] for q in questions},set(range(8)))
         self.assertIn('function voiceMock(', (root/'accent.html').read_text(encoding='utf-8'))
+
+    def test_registered_real_audio_is_complete_and_matches_manifest(self):
+        root=Path(__file__).resolve().parent.parent
+        manifest=b.read(root/'tts/manifest.json',[])
+        if not manifest:
+            return  # Clean installs may intentionally have no generated audio.
+        questions=b.read(root/'tts/questions.json')
+        source=(root/'accent.html').read_text(encoding='utf-8')
+        clips=json.loads(re.search(r'const CLIPS=(.*?);',source).group(1))
+        overrides=b.read(root/'tts/overrides.json',dict(accept=[],reject=[]))
+        lookup={r['id']+'_'+r['v']:r for r in manifest}
+        for key,clip in clips.items():
+            row=lookup[key]
+            self.assertTrue(b.accepted(row,overrides));self.assertFalse(row['dry_run'])
+            self.assertTrue((root/clip['file']).is_file())
+            self.assertGreater((root/clip['file']).stat().st_size,100)
+            self.assertEqual(clip['T'],row['T']);self.assertEqual(clip['dur'],row['dur'])
+            self.assertEqual(len(clip['T']),len(next(q for q in questions if q['id']==row['id'])['s'].split(' ')))
+            self.assertIn(row['id']+'_'+('d' if row['v']=='u' else 'u'),clips)
 
     def test_without_ffmpeg_retains_real_wav_extension(self):
         with tempfile.TemporaryDirectory() as tmp:

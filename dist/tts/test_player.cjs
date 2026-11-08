@@ -8,7 +8,7 @@ const code=source.slice(source.indexOf('// Shared media element'),source.indexOf
 function setup(){
  let timers=[],mocks=[],classes=new Set(),els=[{classList:{add(){},remove(){}}}];
  class Audio{constructor(){this.currentTime=0;this.paused=true}setAttribute(){}play(){this.paused=false;return Promise.resolve()}pause(){this.paused=true}}
- const c=vm.createContext({Audio,CLIPS:{'0a_u':{file:'u.mp3',T:[100],dur:1000},'0a_d':{file:'d.mp3',T:[100],dur:1000}},
+ const c=vm.createContext({Audio,document:{body:{appendChild(){}}},CLIPS:{'0a_u':{file:'u.mp3',T:[100],dur:1000},'0a_d':{file:'d.mp3',T:[100],dur:1000}},
   URL:{revokeObjectURL(){},createObjectURL(){return 'blob:test'}},fetch:async()=>({ok:true,blob:async()=>({size:1})}),ctx:null,
   setTimeout:(f,ms)=>{const t={f,ms};timers.push(t);return t},clearTimeout:t=>{t.cancelled=true},tms:[],sync:true,answered:false,
   $$:s=>s==='.sent i'?els:[{classList:{add:x=>classes.add(x),remove:x=>classes.delete(x)}}],
@@ -36,4 +36,16 @@ test('stop cancels media, timers and callback; stale errors cannot restart mock'
 test('decode/play error invalidates both halves and falls back',()=>{
  const t=setup();t.run("questionBlobs.set('0a_u','blob:u');questionBlobs.set('0a_d','blob:d');voice({id:'0a'},'u',1,null,0);questionAudio.onerror();voice({id:'0a'},'d',1,null,1)");
  assert.equal(t.mocks.length,2);
+});
+test('pending preload waits for both clips instead of choosing mock on a slow network',async()=>{
+ const t=setup();let release;const pending=new Promise(resolve=>release=resolve);t.c.pending=pending;
+ t.run("questionLoads.set('0a',pending);voice({id:'0a'},'u',1,null,0)");
+ assert.equal(t.mocks.length,0);
+ t.run("questionBlobs.set('0a_u','blob:u');questionBlobs.set('0a_d','blob:d');questionLoads.delete('0a')");
+ release();await pending;await Promise.resolve();assert.equal(t.mocks.length,0);assert.equal(t.run('questionAudio.src'),'blob:u');
+});
+test('stopping during preload prevents stale playback after the clips arrive',async()=>{
+ const t=setup();let release;const pending=new Promise(resolve=>release=resolve);t.c.pending=pending;
+ t.run("questionLoads.set('0a',pending);voice({id:'0a'},'u',1,null,0);vo.stop();questionLoads.delete('0a')");
+ release();await pending;await Promise.resolve();assert.equal(t.mocks.length,0);assert.equal(t.run('questionAudio.paused'),true);
 });

@@ -24,6 +24,8 @@ ffmpegがないと警告してWAVを保存します（MP3に見せかけませ�
 
 Google CloudでText-to-Speech APIを有効化し、ADCまたは
 `GOOGLE_APPLICATION_CREDENTIALS` で認証します。キーはこの教材に保存しません。
+ADCがない場合、既存のgcloudログインも `$env:TTS_USE_GCLOUD_AUTH='1'` で使用できます。
+この場合も認証情報はメモリ内だけで使い、ファイル・HTML・manifestには保存しません。
 
 ```powershell
 gcloud auth application-default login

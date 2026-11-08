@@ -1,1 +1,1668 @@
-[]
+[
+  {
+    "id": "0a",
+    "v": "u",
+    "file": "audio/q/0a_u.mp3",
+    "dur": 1280,
+    "T": [
+      15,
+      100,
+      300,
+      570
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "0c7373295d0b6b2350a85547cefb62cacefe581aed241ff1371202269e98a2ae",
+    "delta_st": 4.746,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.28,
+      "db": -16.150269524536142,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "0a",
+    "v": "d",
+    "file": "audio/q/0a_d.mp3",
+    "dur": 1340,
+    "T": [
+      15,
+      115,
+      330,
+      639
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "0c7373295d0b6b2350a85547cefb62cacefe581aed241ff1371202269e98a2ae",
+    "delta_st": -4.009,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.34,
+      "db": -16.371882375949824,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "0b",
+    "v": "u",
+    "file": "audio/q/0b_u.mp3",
+    "dur": 980,
+    "T": [
+      15,
+      220,
+      370
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "d41e6ae6aca21eb747350e14168018de348fcc9bd55b40531c04d08d4ed58724",
+    "delta_st": 3.895,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 0.98,
+      "db": -16.002459666735636,
+      "lead": 0.05,
+      "tail": 0.07999999999999996
+    }
+  },
+  {
+    "id": "0b",
+    "v": "d",
+    "file": "audio/q/0b_d.mp3",
+    "dur": 1030,
+    "T": [
+      15,
+      255,
+      415
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "d41e6ae6aca21eb747350e14168018de348fcc9bd55b40531c04d08d4ed58724",
+    "delta_st": -2.06,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.03,
+      "db": -16.16125429721433,
+      "lead": 0.05,
+      "tail": 0.07999999999999996
+    }
+  },
+  {
+    "id": "0c",
+    "v": "u",
+    "file": "audio/q/0c_u.mp3",
+    "dur": 1070,
+    "T": [
+      15,
+      210,
+      476,
+      606
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "62c74bd8dcf8cace9d2fa87e2b5554e34856ced290fe44e626bbf12ec3fdbb95",
+    "delta_st": 3.607,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.07,
+      "db": -16.223291289044518,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "0c",
+    "v": "d",
+    "file": "audio/q/0c_d.mp3",
+    "dur": 1190,
+    "T": [
+      15,
+      240,
+      515,
+      655
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "62c74bd8dcf8cace9d2fa87e2b5554e34856ced290fe44e626bbf12ec3fdbb95",
+    "delta_st": -2.075,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.19,
+      "db": -16.722450680505148,
+      "lead": 0.04,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "0d",
+    "v": "u",
+    "file": "audio/q/0d_u.mp3",
+    "dur": 970,
+    "T": [
+      15,
+      125,
+      350
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "fc1ce05c32a8549e054b5bac29ffc5193be2d3a2c4a25cec0f930e14e5296d59",
+    "delta_st": 4.24,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 0.97,
+      "db": -16.174015184842975,
+      "lead": 0.02,
+      "tail": 0.07999999999999996
+    }
+  },
+  {
+    "id": "0d",
+    "v": "d",
+    "file": "audio/q/0d_d.mp3",
+    "dur": 1080,
+    "T": [
+      15,
+      155,
+      385
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "fc1ce05c32a8549e054b5bac29ffc5193be2d3a2c4a25cec0f930e14e5296d59",
+    "delta_st": -2.058,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.08,
+      "db": -16.51258604693397,
+      "lead": 0.02,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "1a",
+    "v": "u",
+    "file": "audio/q/1a_u.mp3",
+    "dur": 1070,
+    "T": [
+      15,
+      370,
+      561
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "bcd400ab669512ca61016ac8fac4c37a94ca236d59729e38080c553a91e257a3",
+    "delta_st": 2.107,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.07,
+      "db": -16.88423961335174,
+      "lead": 0.03,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "1a",
+    "v": "d",
+    "file": "audio/q/1a_d.mp3",
+    "dur": 1080,
+    "T": [
+      15,
+      370,
+      561
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "bcd400ab669512ca61016ac8fac4c37a94ca236d59729e38080c553a91e257a3",
+    "delta_st": -2.078,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.08,
+      "db": -16.85148993953416,
+      "lead": 0.03,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "1b",
+    "v": "u",
+    "file": "audio/q/1b_u.mp3",
+    "dur": 1040,
+    "T": [
+      15,
+      275,
+      390,
+      669
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "3ec3e92c25dc98d8605be5fdbdb90a5d9f50d5c1a424bd2cf339d420bc294fcc",
+    "delta_st": 2.206,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.04,
+      "db": -16.351021159320346,
+      "lead": 0.03,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "1b",
+    "v": "d",
+    "file": "audio/q/1b_d.mp3",
+    "dur": 990,
+    "T": [
+      15,
+      265,
+      365,
+      596
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "3ec3e92c25dc98d8605be5fdbdb90a5d9f50d5c1a424bd2cf339d420bc294fcc",
+    "delta_st": -7.02,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 0.99,
+      "db": -16.698753522594004,
+      "lead": 0.04,
+      "tail": 0.07999999999999996
+    }
+  },
+  {
+    "id": "1c",
+    "v": "u",
+    "file": "audio/q/1c_u.mp3",
+    "dur": 1130,
+    "T": [
+      15,
+      290,
+      622,
+      762
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "6be261e7db015c8a15b8ebd81f3efe9e3e78b1202560cf53822394cbf553842a",
+    "delta_st": 2.247,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.13,
+      "db": -16.865196676325457,
+      "lead": 0.04,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "1c",
+    "v": "d",
+    "file": "audio/q/1c_d.mp3",
+    "dur": 1080,
+    "T": [
+      15,
+      280,
+      576,
+      711
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "6be261e7db015c8a15b8ebd81f3efe9e3e78b1202560cf53822394cbf553842a",
+    "delta_st": -2.805,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.08,
+      "db": -17.125286667852425,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "1d",
+    "v": "u",
+    "file": "audio/q/1d_u.mp3",
+    "dur": 1170,
+    "T": [
+      15,
+      270,
+      635,
+      825
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "7851bc24af8b5010af83ffa387fb76ab9fc2295640e1284210c2b6056286dbd7",
+    "delta_st": 2.653,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.17,
+      "db": -16.67600566365214,
+      "lead": 0.03,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "1d",
+    "v": "d",
+    "file": "audio/q/1d_d.mp3",
+    "dur": 1150,
+    "T": [
+      15,
+      265,
+      615,
+      801
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "7851bc24af8b5010af83ffa387fb76ab9fc2295640e1284210c2b6056286dbd7",
+    "delta_st": -3.898,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.15,
+      "db": -16.595993730904514,
+      "lead": 0.04,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "2a",
+    "v": "u",
+    "file": "audio/q/2a_u.mp3",
+    "dur": 1720,
+    "T": [
+      15,
+      100,
+      295,
+      531,
+      997,
+      1112
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "3ef1045bcdeb1f216cc28fcf629866704e46bc571d71b8cee3566f4e52179ed0",
+    "delta_st": 3.701,
+    "pass": true,
+    "warnings": [
+      "earlier option w3 not rising"
+    ],
+    "metrics": {
+      "duration": 1.72,
+      "db": -15.94640510936449,
+      "lead": 0.04,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "2a",
+    "v": "d",
+    "file": "audio/q/2a_d.mp3",
+    "dur": 1810,
+    "T": [
+      15,
+      110,
+      315,
+      566,
+      1047,
+      1172
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-1",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "3ef1045bcdeb1f216cc28fcf629866704e46bc571d71b8cee3566f4e52179ed0",
+    "delta_st": -2.963,
+    "pass": true,
+    "warnings": [
+      "earlier option w3 not rising"
+    ],
+    "metrics": {
+      "duration": 1.81,
+      "db": -15.866648622427189,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2b",
+    "v": "u",
+    "file": "audio/q/2b_u.mp3",
+    "dur": 1220,
+    "T": [
+      15,
+      185,
+      315,
+      646,
+      756
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "94eaf3930eeb040fb2690d039085b8ce4b621c696f49af846794d2bd7bc5334b",
+    "delta_st": 4.181,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.22,
+      "db": -16.102482305309763,
+      "lead": 0.04,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "2b",
+    "v": "d",
+    "file": "audio/q/2b_d.mp3",
+    "dur": 1310,
+    "T": [
+      15,
+      205,
+      330,
+      696,
+      821
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-1",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "94eaf3930eeb040fb2690d039085b8ce4b621c696f49af846794d2bd7bc5334b",
+    "delta_st": -2.882,
+    "pass": true,
+    "warnings": [
+      "earlier option w2 not rising"
+    ],
+    "metrics": {
+      "duration": 1.31,
+      "db": -16.054341656261386,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2c",
+    "v": "u",
+    "file": "audio/q/2c_u.mp3",
+    "dur": 1530,
+    "T": [
+      15,
+      100,
+      275,
+      545,
+      827,
+      932
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "420709d8ce735706ba160778cf750244c76b9c9c4fa3d2de36297acf9b39ba8f",
+    "delta_st": 2.37,
+    "pass": true,
+    "warnings": [
+      "earlier option w3 not rising"
+    ],
+    "metrics": {
+      "duration": 1.53,
+      "db": -15.722678953495164,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2c",
+    "v": "d",
+    "file": "audio/q/2c_d.mp3",
+    "dur": 1620,
+    "T": [
+      15,
+      110,
+      295,
+      577,
+      878,
+      998
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "420709d8ce735706ba160778cf750244c76b9c9c4fa3d2de36297acf9b39ba8f",
+    "delta_st": -2.112,
+    "pass": true,
+    "warnings": [
+      "earlier option w3 not rising"
+    ],
+    "metrics": {
+      "duration": 1.62,
+      "db": -15.78499946986162,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2d",
+    "v": "u",
+    "file": "audio/q/2d_u.mp3",
+    "dur": 1490,
+    "T": [
+      15,
+      105,
+      275,
+      527,
+      922,
+      1012
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "cf6b4d8fc53fce5fefd4fd4137eb6a384011b57bde5cf0078542d43cd2c151e0",
+    "delta_st": 2.127,
+    "pass": true,
+    "warnings": [
+      "earlier option w3 not rising"
+    ],
+    "metrics": {
+      "duration": 1.49,
+      "db": -16.081282014797253,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2d",
+    "v": "d",
+    "file": "audio/q/2d_d.mp3",
+    "dur": 1510,
+    "T": [
+      15,
+      110,
+      290,
+      565,
+      971,
+      1071
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-1",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "cf6b4d8fc53fce5fefd4fd4137eb6a384011b57bde5cf0078542d43cd2c151e0",
+    "delta_st": -3.712,
+    "pass": true,
+    "warnings": [
+      "earlier option w3 not rising"
+    ],
+    "metrics": {
+      "duration": 1.51,
+      "db": -15.911995081992053,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "3a",
+    "v": "u",
+    "file": "audio/q/3a_u.mp3",
+    "dur": 2860,
+    "T": [
+      15,
+      190,
+      340,
+      612,
+      1336,
+      2094,
+      2284
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "84edca5cbf5d8fbbe45c5ccfee912e8eb599458b9fc60c1bdecef0653a25848f",
+    "delta_st": 2.253,
+    "pass": true,
+    "warnings": [
+      "earlier option w4 not rising"
+    ],
+    "metrics": {
+      "duration": 2.86,
+      "db": -17.97757121563384,
+      "lead": 0.04,
+      "tail": 0.07999999999999963
+    }
+  },
+  {
+    "id": "3a",
+    "v": "d",
+    "file": "audio/q/3a_d.mp3",
+    "dur": 2840,
+    "T": [
+      15,
+      180,
+      330,
+      602,
+      1312,
+      2075,
+      2260
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "84edca5cbf5d8fbbe45c5ccfee912e8eb599458b9fc60c1bdecef0653a25848f",
+    "delta_st": -2.391,
+    "pass": true,
+    "warnings": [
+      "earlier option w4 not rising"
+    ],
+    "metrics": {
+      "duration": 2.84,
+      "db": -17.301022979953558,
+      "lead": 0.04,
+      "tail": 0.07999999999999963
+    }
+  },
+  {
+    "id": "3b",
+    "v": "u",
+    "file": "audio/q/3b_u.mp3",
+    "dur": 3160,
+    "T": [
+      15,
+      110,
+      320,
+      567,
+      1387,
+      2247,
+      2436
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "b34616ddbb51717f5a4c9d1f32f9c6097abe963381c04d917207eb10da37d48b",
+    "delta_st": 2.364,
+    "pass": true,
+    "warnings": [
+      "earlier option w4 not rising"
+    ],
+    "metrics": {
+      "duration": 3.16,
+      "db": -16.174554895873506,
+      "lead": 0.05,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "3b",
+    "v": "d",
+    "file": "audio/q/3b_d.mp3",
+    "dur": 3110,
+    "T": [
+      15,
+      105,
+      305,
+      547,
+      1359,
+      2210,
+      2385
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "b34616ddbb51717f5a4c9d1f32f9c6097abe963381c04d917207eb10da37d48b",
+    "delta_st": -5.684,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 3.11,
+      "db": -16.107833855492224,
+      "lead": 0.04,
+      "tail": 0.07999999999999963
+    }
+  },
+  {
+    "id": "3c",
+    "v": "u",
+    "file": "audio/q/3c_u.mp3",
+    "dur": 2900,
+    "T": [
+      15,
+      190,
+      315,
+      425,
+      1156,
+      1281,
+      1994,
+      2199,
+      2224
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "eaba0ec5f44976c878a0fd8d52a90fd4dc59d652a09d166bbffe7a387d712ba7",
+    "delta_st": 2.417,
+    "pass": true,
+    "warnings": [
+      "earlier option w5 not rising"
+    ],
+    "metrics": {
+      "duration": 2.9,
+      "db": -18.05234963169245,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "3c",
+    "v": "d",
+    "file": "audio/q/3c_d.mp3",
+    "dur": 2900,
+    "T": [
+      15,
+      200,
+      325,
+      431,
+      1146,
+      1266,
+      1968,
+      2183,
+      2213
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-1",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "eaba0ec5f44976c878a0fd8d52a90fd4dc59d652a09d166bbffe7a387d712ba7",
+    "delta_st": -5.172,
+    "pass": true,
+    "warnings": [
+      "earlier option w3 not rising"
+    ],
+    "metrics": {
+      "duration": 2.9,
+      "db": -17.42382217942122,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "4a",
+    "v": "u",
+    "file": "audio/q/4a_u.mp3",
+    "dur": 1100,
+    "T": [
+      15,
+      205,
+      450
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "0d0593e326f3de421c06341b923cc60fc7b2f0f5918955caac958220900849e2",
+    "delta_st": 2.818,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.1,
+      "db": -15.701362861524547,
+      "lead": 0.03,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "4a",
+    "v": "d",
+    "file": "audio/q/4a_d.mp3",
+    "dur": 1160,
+    "T": [
+      15,
+      210,
+      481
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "0d0593e326f3de421c06341b923cc60fc7b2f0f5918955caac958220900849e2",
+    "delta_st": -2.298,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.16,
+      "db": -15.978377754767696,
+      "lead": 0.03,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "4b",
+    "v": "u",
+    "file": "audio/q/4b_u.mp3",
+    "dur": 1040,
+    "T": [
+      15,
+      280,
+      350
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "9448f939e5210cf5ad09589f30351cd7ebc4cb6a59522f900a883085642f5b79",
+    "delta_st": 2.82,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.04,
+      "db": -15.861344973562577,
+      "lead": 0.03,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "4b",
+    "v": "d",
+    "file": "audio/q/4b_d.mp3",
+    "dur": 1070,
+    "T": [
+      15,
+      290,
+      370
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "9448f939e5210cf5ad09589f30351cd7ebc4cb6a59522f900a883085642f5b79",
+    "delta_st": -2.461,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.07,
+      "db": -16.22119542040182,
+      "lead": 0.03,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "4c",
+    "v": "u",
+    "file": "audio/q/4c_u.mp3",
+    "dur": 1070,
+    "T": [
+      15,
+      285,
+      454
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "0f4e1ce98b767c24309b6d511a5e8941a98a747ce329e17f47a2f7dc101f6b23",
+    "delta_st": 7.665,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.07,
+      "db": -18.33969223978572,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "4c",
+    "v": "d",
+    "file": "audio/q/4c_d.mp3",
+    "dur": 1140,
+    "T": [
+      15,
+      295,
+      466
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "0f4e1ce98b767c24309b6d511a5e8941a98a747ce329e17f47a2f7dc101f6b23",
+    "delta_st": -2.036,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.14,
+      "db": -16.716133935113728,
+      "lead": 0.03,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "5a",
+    "v": "u",
+    "file": "audio/q/5a_u.mp3",
+    "dur": 1290,
+    "T": [
+      15,
+      190,
+      345,
+      537,
+      767
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "627619b27e2892a657d0717da6245809380c7bbb96ba484aedcf9a923019fdf4",
+    "delta_st": 4.889,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.29,
+      "db": -16.640954468924303,
+      "lead": 0.05,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "5a",
+    "v": "d",
+    "file": "audio/q/5a_d.mp3",
+    "dur": 1360,
+    "T": [
+      15,
+      205,
+      355,
+      556,
+      817
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "627619b27e2892a657d0717da6245809380c7bbb96ba484aedcf9a923019fdf4",
+    "delta_st": -2.05,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.36,
+      "db": -16.604001651270874,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "5b",
+    "v": "u",
+    "file": "audio/q/5b_u.mp3",
+    "dur": 1190,
+    "T": [
+      15,
+      175,
+      325,
+      556,
+      761
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "9691cc9ebcd163cd1f390f93a04561ea8f201d3cf4bf4a611b3e253d64108c2c",
+    "delta_st": 4.732,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.19,
+      "db": -16.420661359524303,
+      "lead": 0.04,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "5b",
+    "v": "d",
+    "file": "audio/q/5b_d.mp3",
+    "dur": 1270,
+    "T": [
+      15,
+      195,
+      345,
+      604,
+      834
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "9691cc9ebcd163cd1f390f93a04561ea8f201d3cf4bf4a611b3e253d64108c2c",
+    "delta_st": -4.664,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.27,
+      "db": -16.323880879572947,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "5c",
+    "v": "u",
+    "file": "audio/q/5c_u.mp3",
+    "dur": 990,
+    "T": [
+      15,
+      215,
+      380,
+      688
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "95e27b506776027acba1fc2738db1512a4943fe93f5f27943600e110891b45f1",
+    "delta_st": 4.115,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 0.99,
+      "db": -16.155192654203915,
+      "lead": 0.05,
+      "tail": 0.07999999999999996
+    }
+  },
+  {
+    "id": "5c",
+    "v": "d",
+    "file": "audio/q/5c_d.mp3",
+    "dur": 1050,
+    "T": [
+      15,
+      230,
+      397,
+      742
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "95e27b506776027acba1fc2738db1512a4943fe93f5f27943600e110891b45f1",
+    "delta_st": -2.463,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.05,
+      "db": -16.23942538933526,
+      "lead": 0.05,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "5d",
+    "v": "u",
+    "file": "audio/q/5d_u.mp3",
+    "dur": 990,
+    "T": [
+      15,
+      305,
+      486
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "30f48ab8367e3704754936dddfdbec9f33d23cecc13e1cf10ed55e0956b8af1c",
+    "delta_st": 2.265,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 0.99,
+      "db": -18.800623320777763,
+      "lead": 0.03,
+      "tail": 0.07999999999999996
+    }
+  },
+  {
+    "id": "5d",
+    "v": "d",
+    "file": "audio/q/5d_d.mp3",
+    "dur": 1050,
+    "T": [
+      15,
+      370,
+      556
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "30f48ab8367e3704754936dddfdbec9f33d23cecc13e1cf10ed55e0956b8af1c",
+    "delta_st": -2.128,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.05,
+      "db": -16.994023540701832,
+      "lead": 0.03,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "6a",
+    "v": "u",
+    "file": "audio/q/6a_u.mp3",
+    "dur": 1900,
+    "T": [
+      15,
+      270,
+      380,
+      731,
+      1231,
+      1572
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "c4de7ceb571761ed937ecf19d20ee9c911c69d2f8387f9329be98831abe9df31",
+    "delta_st": 2.643,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.9,
+      "db": -16.15198943690676,
+      "lead": 0.04,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "6a",
+    "v": "d",
+    "file": "audio/q/6a_d.mp3",
+    "dur": 1950,
+    "T": [
+      15,
+      270,
+      380,
+      736,
+      1232,
+      1612
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "c4de7ceb571761ed937ecf19d20ee9c911c69d2f8387f9329be98831abe9df31",
+    "delta_st": -2.441,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.95,
+      "db": -16.233586054686505,
+      "lead": 0.04,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "6b",
+    "v": "u",
+    "file": "audio/q/6b_u.mp3",
+    "dur": 1720,
+    "T": [
+      15,
+      285,
+      445,
+      1031,
+      1382
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "8b929c8c915e2034677efd0676d880a4ac09acba6cb8685c50ab5ef5332639aa",
+    "delta_st": 2.395,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.72,
+      "db": -18.98605522421049,
+      "lead": 0.03,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "6b",
+    "v": "d",
+    "file": "audio/q/6b_d.mp3",
+    "dur": 1770,
+    "T": [
+      15,
+      285,
+      451,
+      1046,
+      1417
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "8b929c8c915e2034677efd0676d880a4ac09acba6cb8685c50ab5ef5332639aa",
+    "delta_st": -2.797,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.77,
+      "db": -19.33136436907891,
+      "lead": 0.04,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "6c",
+    "v": "u",
+    "file": "audio/q/6c_u.mp3",
+    "dur": 1520,
+    "T": [
+      15,
+      270,
+      876,
+      1182
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "ea398ec44387932dbed86441ddaccbacd7f56191348dd6d71dcecdebb7b09e6c",
+    "delta_st": 2.072,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.52,
+      "db": -15.94435938367759,
+      "lead": 0.03,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "6c",
+    "v": "d",
+    "file": "audio/q/6c_d.mp3",
+    "dur": 1590,
+    "T": [
+      15,
+      265,
+      895,
+      1226
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "ea398ec44387932dbed86441ddaccbacd7f56191348dd6d71dcecdebb7b09e6c",
+    "delta_st": -2.304,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.59,
+      "db": -16.565756348031726,
+      "lead": 0.03,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "6d",
+    "v": "u",
+    "file": "audio/q/6d_u.mp3",
+    "dur": 1780,
+    "T": [
+      15,
+      200,
+      404,
+      1134,
+      1491
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "10e799a3a60274b6184ed987fe146765e9ff393ba0a18909feca7a6790723b1c",
+    "delta_st": 2.616,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.78,
+      "db": -16.20322029817972,
+      "lead": 0.06,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "6d",
+    "v": "d",
+    "file": "audio/q/6d_d.mp3",
+    "dur": 1900,
+    "T": [
+      15,
+      195,
+      410,
+      1140,
+      1559
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "10e799a3a60274b6184ed987fe146765e9ff393ba0a18909feca7a6790723b1c",
+    "delta_st": -2.838,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 1.9,
+      "db": -16.13860810515725,
+      "lead": 0.06,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "7a",
+    "v": "u",
+    "file": "audio/q/7a_u.mp3",
+    "dur": 640,
+    "T": [
+      15
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "5a1d8129a4007cffdf10568e826936c0117d5d52bfa328b241316c92355cedcf",
+    "delta_st": 5.007,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 0.64,
+      "db": -16.804371171732498,
+      "lead": 0.03,
+      "tail": 0.07999999999999996
+    }
+  },
+  {
+    "id": "7a",
+    "v": "d",
+    "file": "audio/q/7a_d.mp3",
+    "dur": 680,
+    "T": [
+      15
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "5a1d8129a4007cffdf10568e826936c0117d5d52bfa328b241316c92355cedcf",
+    "delta_st": -2.082,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 0.6799583333333333,
+      "db": -17.35991783719148,
+      "lead": 0.02,
+      "tail": 0.07995833333333335
+    }
+  },
+  {
+    "id": "7b",
+    "v": "u",
+    "file": "audio/q/7b_u.mp3",
+    "dur": 680,
+    "T": [
+      15,
+      250
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "91e5e5be7747dee120776848434ddfcb10ce06fdc90f822cc74e84d6a1487d92",
+    "delta_st": 2.512,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 0.6799583333333333,
+      "db": -16.78016136277785,
+      "lead": 0.03,
+      "tail": 0.07995833333333335
+    }
+  },
+  {
+    "id": "7b",
+    "v": "d",
+    "file": "audio/q/7b_d.mp3",
+    "dur": 670,
+    "T": [
+      15,
+      260
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "91e5e5be7747dee120776848434ddfcb10ce06fdc90f822cc74e84d6a1487d92",
+    "delta_st": -5.315,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 0.6699583333333333,
+      "db": -16.592003760350508,
+      "lead": 0.03,
+      "tail": 0.07995833333333335
+    }
+  },
+  {
+    "id": "7c",
+    "v": "u",
+    "file": "audio/q/7c_u.mp3",
+    "dur": 640,
+    "T": [
+      15
+    ],
+    "engine": "ssml",
+    "recipe": "punctuation-0",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "c51f2b0f3a24a947589fe8581a222e27d6c4f10294df66cbcc4fd202304b7b6a",
+    "delta_st": 6.087,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 0.64,
+      "db": -17.28468313106879,
+      "lead": 0.04,
+      "tail": 0.07999999999999996
+    }
+  },
+  {
+    "id": "7c",
+    "v": "d",
+    "file": "audio/q/7c_d.mp3",
+    "dur": 680,
+    "T": [
+      15
+    ],
+    "engine": "ssml",
+    "recipe": "psola",
+    "approx": false,
+    "voice": "en-US-Neural2-F",
+    "speaking_rate": 0.9,
+    "dry_run": false,
+    "signature": "c51f2b0f3a24a947589fe8581a222e27d6c4f10294df66cbcc4fd202304b7b6a",
+    "delta_st": -2.053,
+    "pass": true,
+    "warnings": [],
+    "metrics": {
+      "duration": 0.6799583333333333,
+      "db": -17.745972223854608,
+      "lead": 0.04,
+      "tail": 0.07995833333333335
+    }
+  }
+]

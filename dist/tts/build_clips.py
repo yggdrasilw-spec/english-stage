@@ -15,6 +15,7 @@ import subprocess
 import sys
 import wave
 from array import array
+from functools import lru_cache
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -216,6 +217,34 @@ def request_spec(q, v, engine, variant, cfg):
     return spec
 
 
+@lru_cache(maxsize=1)
+def tts_client():
+    """Prefer ADC; optionally reuse an existing local gcloud login in memory."""
+    from google.cloud import texttospeech_v1beta1 as tts
+    from google.auth.exceptions import DefaultCredentialsError
+    try:
+        return tts.TextToSpeechClient(transport='rest')
+    except DefaultCredentialsError:
+        if os.environ.get('TTS_USE_GCLOUD_AUTH') != '1':
+            raise
+        from google.oauth2.credentials import Credentials
+        gcloud = shutil.which('gcloud.cmd' if os.name=='nt' else 'gcloud')
+        if not gcloud:
+            raise RuntimeError('gcloud not available; configure ADC')
+        # SDK uses its own Python runtime; isolate it from build-only packages.
+        sdk_env = {k:v for k,v in os.environ.items() if k.upper() not in ('PYTHONPATH','PYTHONHOME')}
+        options = dict(capture_output=True,text=True,check=True,env=sdk_env,
+                       **({'creationflags':subprocess.CREATE_NO_WINDOW} if os.name=='nt' else {}))
+        try:
+            token = subprocess.run([gcloud,'auth','print-access-token'],**options).stdout.strip()
+        except subprocess.CalledProcessError as exc:
+            # stderr contains diagnostics, while stdout may contain a token.
+            message = re.sub(r'[\w.+-]+@[\w.-]+','[account]',exc.stderr or '')
+            raise RuntimeError('gcloud authentication failed: '+message) from None
+        project = os.environ.get('GOOGLE_CLOUD_QUOTA_PROJECT') or subprocess.run([gcloud,'config','get-value','project'],**options).stdout.strip()
+        return tts.TextToSpeechClient(credentials=Credentials(token,quota_project_id=project),transport='rest')
+
+
 def synthesize(spec, cache, dry, q, v, force=False):
     key = hashlib.sha256(json.dumps(dict(spec=spec,dry=dry),sort_keys=True).encode()).hexdigest()
     base = cache/key
@@ -228,7 +257,7 @@ def synthesize(spec, cache, dry, q, v, force=False):
         points = {}
     else:
         from google.cloud import texttospeech_v1beta1 as tts
-        client = tts.TextToSpeechClient()  # ADC only; never serialize credentials.
+        client = tts_client()  # Credentials remain in process memory only.
         audio = tts.AudioConfig(audio_encoding=tts.AudioEncoding.LINEAR16,
                                sample_rate_hertz=SR, speaking_rate=spec['rate'])
         voice = tts.VoiceSelectionParams(language_code=spec['language'], name=spec['voice'],
@@ -237,7 +266,7 @@ def synthesize(spec, cache, dry, q, v, force=False):
         kwargs = dict(input=inp,voice=voice,audio_config=audio)
         if spec['engine']=='ssml':
             kwargs['enable_time_pointing'] = [tts.SynthesizeSpeechRequest.TimepointType.SSML_MARK]
-        response = client.synthesize_speech(request=tts.SynthesizeSpeechRequest(**kwargs))
+        response = client.synthesize_speech(request=tts.SynthesizeSpeechRequest(**kwargs),timeout=60)
         data = response.audio_content
         points = {t.mark_name:t.time_seconds for t in response.timepoints}
     cache.mkdir(parents=True, exist_ok=True)
@@ -258,9 +287,10 @@ def psola(data, start, v, strength):
     if not voiced:
         raise ValueError('PSOLA: no voiced final word')
     a, b = voiced[0][0], voiced[-1][0]
-    # Concentrate the specified 5–7st movement into the terminal 300ms,
-    # otherwise long final words can still fail the 100ms/150ms measurement.
-    a = max(a, b-.3)
+    # Concentrate the specified 5–7st movement into the terminal 200ms.
+    # A longer ramp can become flat in the measurement when the final word
+    # has an unvoiced consonant between its syllables (e.g. coffee).
+    a = max(a, b-.2)
     base = statistics.median([f for t,f in voiced if t<=a+.1] or [voiced[0][1]])
     call(tier,'Remove points between',a,b+.01)
     for j in range(21):
@@ -322,6 +352,8 @@ def pair_warnings(rows):
 
 def report(rows, questions, dest):
     qs = {q['id']:q for q in questions}
+    notice = ('DRY-RUN は英語ではなく試験用グライド音です。' if any(r.get('dry_run') for r in rows)
+              else 'Google Cloud TTSで生成した英語音声です。')
     cards = []
     for r in rows:
         key = r['id']+'_'+r['v']
@@ -331,7 +363,7 @@ def report(rows, questions, dest):
                      f'<p>{html.escape("; ".join(r["warnings"]))}</p><button data-v="accept">OK</button> <button data-v="reject">NG</button> <button data-v="clear">未確認</button><output></output></article>')
     dest.write_text('''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>しつもんの声・音声確認</title>
 <style>body{font:16px system-ui;margin:16px;background:#f4f1ff;color:#241f5c}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}article{background:white;padding:16px;border-radius:12px}audio,textarea{width:100%}button{padding:12px;margin:4px}p{overflow-wrap:anywhere}output{display:block}header{position:sticky;top:0;background:#f4f1ff;padding:8px}h2{font-size:20px}</style>
-<h1>しつもんの声・音声確認</h1><p>DRY-RUN は英語ではなく試験用グライド音です。測定PASSも人の聞き取りを保証しません。OK/NGは端末に保存されます。</p><header><button id="copy">overrides.json をコピー</button><button id="load">既存の判定を読み込む</button><textarea id="json" aria-label="overrides JSON" rows="3"></textarea><p id="status"></p></header><main>'''+''.join(cards)+'''</main><script>
+<h1>しつもんの声・音声確認</h1><p>'''+html.escape(notice)+'''測定PASSも人の聞き取りを保証しません。OK/NGは端末に保存されます。</p><header><button id="copy">overrides.json をコピー</button><button id="load">既存の判定を読み込む</button><textarea id="json" aria-label="overrides JSON" rows="3"></textarea><p id="status"></p></header><main>'''+''.join(cards)+'''</main><script>
 const storageKey='question-voice-review-v1:'+location.pathname;let decisions={};try{decisions=JSON.parse(localStorage.getItem(storageKey)||'{}')}catch(e){}
 const box=document.querySelector('#json');function update(){document.querySelectorAll('article').forEach(a=>a.querySelector('output').textContent=decisions[a.dataset.key]||'未確認');box.value=JSON.stringify({accept:Object.keys(decisions).filter(k=>decisions[k]==='accept'),reject:Object.keys(decisions).filter(k=>decisions[k]==='reject')},null,2);try{localStorage.setItem(storageKey,JSON.stringify(decisions))}catch(e){}}
 document.querySelectorAll('article button').forEach(b=>b.onclick=()=>{const k=b.closest('article').dataset.key;if(b.dataset.v==='clear')delete decisions[k];else decisions[k]=b.dataset.v;update()});
@@ -437,7 +469,7 @@ def main(argv=None):
             rows[key]['warnings'] += warns+errors
             write(manifest_path,list(rows.values()))  # resumable after each clip
             print(key,rows[key]['delta_st'],'PASS' if rows[key]['pass'] else 'NG')
-    result = list(rows.values())
+    result = sorted(rows.values(),key=lambda r:(r['id'],r['v']=='d'))
     # Recompute pair warnings rather than accumulating them on repeated runs.
     for row in result:
         row['warnings']=[w for w in row['warnings'] if not w.startswith('A/B ')]
