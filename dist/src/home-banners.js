@@ -9,6 +9,7 @@ function picture(cards,word,x,y,size=90){const c=cards.find(c=>c.en===word);retu
 function artwork(kind,cards){
  const pic=(...args)=>picture(cards,...args);
  switch(kind){
+ case 'flash':return `<g transform="rotate(-8 500 130)">${rect(440,46,133,174,'#fffdf4','#7fae9c')}${text(507,76,'おもて',17,'#648979','text-anchor="middle"')}${text(507,143,'cat',40,'#275c50','text-anchor="middle" font-weight="800"')}</g><g transform="rotate(8 650 165)">${rect(591,94,133,174,'#ecf6dc','#7fae9c')}${text(657,124,'うら',17,'#648979','text-anchor="middle"')}${pic('cat',614,132,86)}${text(657,247,'ねこ',27,'#275c50','text-anchor="middle"')}</g><path d="M559 65q48-36 64 4m-16-5 17 8 0-19" fill="none" stroke="#dfa553" stroke-width="5"/>`;
  case 'speaking':return `${rect(457,39,119,155,'#fffdf7','#bed9cb')}${pic('cat',469,48,95)}${text(516,171,'ねこ',22,'#456f63','text-anchor="middle"')}${rect(579,55,135,56,'#fff','#99cbb5',24)}${text(646,92,'cat!',30,'#438d77','text-anchor="middle" font-weight="700"')}${wave(586,147,'#74b9a5')}<g transform="translate(646 222)" stroke="#398775" stroke-width="5" fill="none"><rect x="-12" y="-34" width="24" height="40" rx="12" fill="#9dd7c4"/><path d="M-24-8v4a24 24 0 0 0 48 0v-4M0 20v15m-15 0h30"/></g>`;
  case 'abc':return `<path d="M400 38H740" stroke="#28344d" stroke-width="13" stroke-linecap="round"/><path d="M610 41v47" stroke="#8b98c4" stroke-width="6"/>${rect(580,29,60,28,'#ff8fab','#24304a',9)}<g transform="translate(610 110)"><path d="M-15 2l-16 28 10 12M15 2l16 28-10 12" fill="none" stroke="#24304a" stroke-width="11" stroke-linecap="round"/><path d="M-15 2l-16 28 10 12M15 2l16 28-10 12" fill="none" stroke="#ffd23f" stroke-width="5" stroke-linecap="round"/>${rect(-24,-22,48,29,'#3ec1d3','#24304a',9)}<circle cx="-8" cy="-7" r="5" fill="white"/><circle cx="8" cy="-7" r="5" fill="white"/><circle cx="-7" cy="-7" r="2" fill="#24304a"/><circle cx="9" cy="-7" r="2" fill="#24304a"/></g>${tile(448,162,'C','#ff8fab',-9)}${tile(541,164,'A','#ffd23f',0)}${tile(637,163,'T','#a3d9f0',9)}${pic('cat',421,58,88)}`;
  case 'nova':return `<circle cx="625" cy="133" r="142" fill="#243556" opacity=".95"/><g fill="#b0cfff"><circle cx="475" cy="42" r="3"/><circle cx="709" cy="41" r="2"/><circle cx="725" cy="216" r="3"/><circle cx="527" cy="245" r="2"/></g>${rect(471,60,100,45,'#15213e','#8a8bff',9)}${text(521,91,'cap',25,'#b7c4ff','text-anchor="middle"')}${rect(591,99,126,59,'#1d3e53','#4fd8ff',9)}${text(654,139,'cat',35,'#a0eeff','text-anchor="middle" font-weight="700"')}<g fill="none" stroke="#4fd8ff" stroke-width="3"><circle cx="654" cy="129" r="53"/><path d="M654 64v24m0 83v24m-67-66h25m83 0h24M623 218l24-31m-24 49 8-11"/></g><path d="M610 267l15-40 16 40-16-9Z" fill="#c8f7ff"/>${audio(478,168,'#9cbded')}`;
@@ -23,6 +24,7 @@ function artwork(kind,cards){
  return '';
 }
 const features=[
+ ['flash','#fast-setup','FLIP & REMEMBER','ことばと意味','表は英語、裏は意味。めくって覚えよう','フラッシュカード・確認問題'],
  ['speaking','#speaking','SPEAK & LEARN','声でこたえる','絵を見て、英語で言ってみよう','マイクで挑戦'],
  ['abc','./abc-hand.html','SPELLING CRANE','ABC HAND','クレーンで文字を集めよう','絵と音でスペル練習'],
  ['nova','./word-nova.html','LISTEN & SHOOT','WORD NOVA','聞いて、見つけて、撃ち抜こう','にた発音も聞き分け'],

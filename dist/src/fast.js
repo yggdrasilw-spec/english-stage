@@ -1,3 +1,5 @@
+import {recordEvidence,wordStatus} from './evidence.js';
+import {renderFastSetup} from './fast-setup.js';
 import {choiceCards,shuffle} from './quiz.js';
 import {shuffleFastTail} from './fast-order.js';
 import {sortVocabulary,priorityLabel,priorityNote} from './vocabulary-priority.js';
@@ -17,19 +19,21 @@ let ctx,ui={},timer,undo=null,configure=false,acting=false,lastPracticeStep=null
 export function cleanupFast(leave=false){clearTimeout(timer);timer=null;if(leave){undo=null;lastPracticeStep=null;}}
 export function startFast(s,cards,mode='card',filter='all',theme='all',order=s.fast?.order||'random'){
  const due=new Set(dueTasks(cards,s).map(t=>t.id));
- let ids=sortVocabulary(cards,order).filter(c=>(theme==='all'||c.theme===theme)&&(filter==='all'||filter==='new'&&!isKnown(s,c.id)||filter==='weak'&&Object.values(s.progress[c.id]||{}).some(p=>p.lastQuality==='wrong'||p.lastQuality==='guess')||filter==='due'&&due.has(c.id))).map(c=>c.id);
+ const filters=Array.isArray(filter)?filter:[filter],themes=Array.isArray(theme)?theme:theme==='all'?[]:[theme];
+ let ids=sortVocabulary(cards,order).filter(c=>(!themes.length||themes.includes(c.theme))&&filters.some(k=>k==='all'||k==='new'&&!isKnown(s,c.id)&&wordStatus(s,c.id).key!=='settled'||k==='weak'&&Object.values(s.progress[c.id]||{}).some(p=>['wrong','guess'].includes(p.lastQuality))||k==='due'&&due.has(c.id))).map(c=>c.id);
+
  if(mode!=='card'||order==='random')ids=shuffle(ids);
- s.fast={randomized:mode!=='card',forestCredits:[],ids,index:0,mode,filter,theme,order,checked:0,correct:0,known:0,feedback:null,auto:s.fast?.auto??true};ui={};undo=null;
+ s.fast={randomized:mode!=='card',forestCredits:[],ids,index:0,mode,filter:filters[0]||'all',theme:themes[0]||'all',filters,themes,order,checked:0,correct:0,known:0,feedback:null,auto:s.fast?.auto??true};ui={};undo=null;
 }
 export function startReview(s,cards){const tasks=dueTasks(cards,s).slice(0,10);startFast(s,cards,tasks[0]?.skill||'read','due');s.fast.ids=tasks.map(t=>t.id);s.fast.tasks=tasks;}
-function record(s,c,skill,quality){const now=Date.now(),key=s.fast.index+':'+c.id;s.fast.forestCredits||=[];if(!s.fast.forestCredits.includes(key)){recordForest(s,{skill,recovered:quality==='correct'&&['wrong','guess'].includes(s.progress[c.id]?.[skill]?.lastQuality)},now);s.fast.forestCredits.push(key);}verifyScreening(s,c.id,quality,now);s.seen[c.id]||=now;s.progress[c.id]||={};s.progress[c.id][skill]=updateProgress(s.progress[c.id][skill],quality,now);s.history.push({id:c.id,skill,quality,at:now});}
+function record(s,c,skill,quality){const now=Date.now(),key=s.fast.index+':'+c.id;s.fast.forestCredits||=[];if(!s.fast.forestCredits.includes(key)){recordForest(s,{skill,recovered:quality==='correct'&&['wrong','guess'].includes(s.progress[c.id]?.[skill]?.lastQuality)},now);s.fast.forestCredits.push(key);}recordEvidence(s,{id:c.id,skill,quality,source:'flashcards'},now);}
 function snapshot(){const s=ctx.state;undo={fast:structuredClone(s.fast),screening:structuredClone(s.screening),progress:structuredClone(s.progress),seen:structuredClone(s.seen),history:structuredClone(s.history),forest:structuredClone(s.forest),stars:s.stars,rewards:structuredClone(s.rewards)};}
 export function startForestRound(s,cards,mode='read'){
- const weak=mode==='weak';startFast(s,cards,weak?'read':mode,weak?'all':'new');if(!s.fast.ids.length)startFast(s,cards,weak?'read':mode,'all');
+ const weak=mode==='weak';startFast(s,cards,weak?'read':mode,weak?'all':'new');if(!s.fast.ids.length)startFast(s,cards.filter(c=>wordStatus(s,c.id).key!=='settled'),weak?'read':mode,'all');
  const count=id=>Object.values(s.progress[id]||{}).reduce((n,p)=>n+(p.attempts||0),0);
  const isWeak=id=>Object.values(s.progress[id]||{}).some(p=>['wrong','guess'].includes(p.lastQuality));
  s.fast.ids.sort((a,b)=>(weak?Number(isWeak(b))-Number(isWeak(a)):0)||count(a)-count(b));
- s.fast.ids=s.fast.ids.slice(0,5);s.fast.round=true;s.fast.startedForest=s.forest?.total||0;s.fast.auto=false;
+ s.fast.ids=s.fast.ids.slice(0,5);s.fast.round=!!s.fast.ids.length;s.fast.startedForest=s.forest?.total||0;s.fast.auto=false;
 }
 function next(f,s){f.index++;f.feedback=null;ui={};if(f.round&&f.index>=f.ids.length&&forestJourney(s).pending>0&&(s.forest?.total||0)>f.startedForest)location.hash='forest';}
 function draw(){renderFast(ctx);}
@@ -41,25 +45,20 @@ async function judge(c,selected){
 }
 export function renderFast(context){
  ctx=context;acting=false;const {app,cards,state,mutate}=context;cleanupFast();
- if(!state.fast){app.innerHTML='<section class="narrow panel"><h1>カードを準備</h1><button id="fast-init" class="primary">はじめる</button></section>';app.querySelector('#fast-init').onclick=()=>mutate(s=>startFast(s,cards));return;}
+ if(!state.fast){renderFastSetup(context,startFast);return;}
  const f=state.fast;
  // Older saved sessions must be migrated and saved before showing a question.
  if(f.mode!=='card'&&!f.randomized){mutate(s=>shuffleFastTail(s.fast,!!s.fast.feedback));return;}
  const byId=new Map(cards.map(c=>[c.id,c])),c=byId.get(f.ids[f.index]);
  if(f.tasks?.[f.index])f.mode=f.tasks[f.index].skill;
- app.innerHTML=`<div class="fast-wrap ${c&&['read','listen','recall'].includes(f.mode)?'quiz-practice':''}"><div class="fast-top"><a href="#home">← 終える</a><span>${Math.min(f.index,f.ids.length)} / ${f.ids.length} <small>確認 ${f.checked}・わかる ${f.known}</small></span><button id="fast-undo" ${undo?'':'disabled'}>１つ戻す</button></div><div class="mode-tabs" aria-label="確認のしかた">${Object.entries(modes).map(([k,v])=>`<button data-mode="${k}" aria-pressed="${f.mode===k}">${v}</button>`).join('')}${f.round?'<button data-forest-start="speak">声でこたえる</button>':''}</div><details class="fast-config"><summary>対象・テーマ・進み方</summary><div class="fast-filters"><label>テーマ <select id="fast-theme"><option value="all">すべて</option>${[...new Set(cards.map(c=>c.theme))].map(t=>`<option ${t===f.theme?'selected':''}>${e(t)}</option>`).join('')}</select></label><label>対象 <select id="fast-filter">${Object.entries({all:'すべて',new:'「わかる」以外',weak:'まちがえた語',due:'復習の時期'}).map(([k,v])=>`<option value="${k}" ${k===f.filter?'selected':''}>${v}</option>`).join('')}</select></label><label>並べ替え<select id="fast-order">${Object.entries({random:'ランダム',original:'これまでの収録順（カード）',importance:'参考重要度順（A → B）',alphabetical:'ABC順'}).map(([k,v])=>`<option value="${k}" ${k===(f.order||'original')?'selected':''}>${v}</option>`).join('')}</select></label><label><input id="fast-auto" type="checkbox" ${f.auto?'checked':''}>正解したら次へ</label></div><small>問題は毎回ランダムに出します。並べ替えはカード用です。${priorityNote}</small></details><progress value="${f.index}" max="${f.ids.length||1}" aria-label="確認したカード"></progress><div class="forest-live" role="status">次の水まで、あと${forestJourney(state).untilWater}問${forestJourney(state).pending?' · 使える水 '+forestJourney(state).pending+'回分':''}<a href="#forest">森で水をやる →</a></div><div id="fast-content"></div><div class="fast-bottom"><button id="fast-skip">今回は飛ばす →</button><button id="fast-mix">シャッフル</button><span id="fast-status" role="status" aria-live="polite"></span></div><details class="fast-help"><summary>操作のヒント</summary><small>「わかる」は初回説明を省き、翌日以降に選択式で確認します。自己申告は正解とは別です。Space：めくる／次へ、→：わかる、←：あとで</small></details></div>`;
+ app.innerHTML=`<div class="fast-wrap ${c&&['read','listen','recall'].includes(f.mode)?'quiz-practice':''}"><div class="fast-top"><a href="#home">← 終える</a><span>${Math.min(f.index,f.ids.length)} / ${f.ids.length} <small>確認 ${f.checked}・わかる ${f.known}</small></span><button id="fast-undo" ${undo?'':'disabled'}>１つ戻す</button></div><div class="mode-tabs" aria-label="確認のしかた">${Object.entries(modes).map(([k,v])=>`<button data-mode="${k}" aria-pressed="${f.mode===k}">${v}</button>`).join('')}${f.round?'<button data-forest-start="speak">声でこたえる</button>':''}</div><div class="fast-config"><a class="pill" href="#fast-setup">対象・テーマ・進み方を選び直す</a><small> ${e(f.themes?.join('・')||f.theme)} · ${e(modes[f.mode])}</small></div><progress value="${f.index}" max="${f.ids.length||1}" aria-label="確認したカード"></progress><div class="forest-live" role="status">次の水まで、あと${forestJourney(state).untilWater}問${forestJourney(state).pending?' · 使える水 '+forestJourney(state).pending+'回分':''}<a href="#forest">森で水をやる →</a></div><div id="fast-content"></div><div class="fast-bottom"><button id="fast-skip">今回は飛ばす →</button><button id="fast-mix">シャッフル</button><span id="fast-status" role="status" aria-live="polite"></span></div><details class="fast-help"><summary>操作のヒント</summary><small>「わかる」は初回説明を省き、翌日以降に選択式で確認します。自己申告は正解とは別です。Space：めくる／次へ、→：わかる、←：あとで</small></details></div>`;
  const $=sel=>app.querySelector(sel),content=$('#fast-content');bindForestStarts(ctx);
- $('.fast-config').open=configure;$('.fast-config').ontoggle=ev=>{configure=ev.target.open;};
  app.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>mutate(s=>{if(s.fast.mode===b.dataset.mode)return;delete s.fast.tasks;s.fast.mode=b.dataset.mode;if(s.fast.mode!=='card')shuffleFastTail(s.fast,true);s.fast.feedback=null;ui={};undo=null;}));
- $('#fast-theme').onchange=ev=>mutate(s=>startFast(s,cards,f.mode,f.filter,ev.target.value));
- $('#fast-filter').onchange=ev=>mutate(s=>startFast(s,cards,f.mode,ev.target.value,f.theme));
- $('#fast-order').onchange=ev=>mutate(s=>startFast(s,cards,f.mode,f.filter,f.theme,ev.target.value));
- $('#fast-auto').onchange=ev=>mutate(s=>{s.fast.auto=ev.target.checked;});
  $('#fast-undo').onclick=()=>{const saved=undo;undo=null;ui={};mutate(s=>{if(!saved||forestJourney(s).watered!==forestJourney({forest:saved.forest}).watered){ctx.tell('森の記録が更新されたため、古い取り消しは使えません。');return;}Object.assign(s,saved);});};
  $('#fast-skip').onclick=()=>{snapshot();mutate(s=>next(s.fast,s));};
  $('#fast-mix').onclick=()=>mutate(s=>{shuffleFastTail(s.fast,!!s.fast.feedback);ui={};});
  if(!c&&f.round){content.innerHTML=`<section class="panel card forest-round-result"><h1>5問のラウンド、おつかれさま！</h1><p>答えを確認 ${f.checked}問 · 自力で正解 ${f.correct}問</p>${forestReward(state)}<div class="actions"><button class="primary" data-forest-start="read">次の5問で、森を育てる</button><button data-forest-start="speak">声でこたえる5問</button><button data-forest-start="listen">今度は聞く5問</button><button data-forest-start="recall">意味から英語の5問</button><button data-forest-start="weak">苦手をもう一度</button><button id="round-karuta">今のことばで、かるた！</button><a href="#home">ここでおしまい</a></div></section>`;$('#fast-skip').disabled=true;bindForestStarts(ctx);$('#round-karuta').onclick=async()=>{await mutate(s=>{s.karuta=createKaruta(cards.filter(c=>f.ids.includes(c.id)),'all',5,'meaning',Math.random,null);});location.hash='karuta';};return;}
- if(!c){content.innerHTML=`<section class="panel card"><h1>${f.ids.length?'ひと通り確認！':'この条件のカードはありません'}</h1>${companionMilestone(state)}<p>選択で確認 ${f.checked}回 · 正解 ${f.correct}回 · わかる ${f.known}こ</p><button class="primary" id="fast-again">もう一度</button> <a href="#exams">実戦テストへ</a></section>`;$('#fast-skip').disabled=true;$('#fast-again').onclick=()=>mutate(s=>startFast(s,cards,f.mode,f.filter,f.theme));return;}
+ if(!c){content.innerHTML=`<section class="panel card"><h1>${f.ids.length?'ひと通り確認！':'この条件のカードはありません'}</h1>${companionMilestone(state)}<p>選択で確認 ${f.checked}回 · 正解 ${f.correct}回 · わかる ${f.known}こ</p><button class="primary" id="fast-again">もう一度</button> <a href="#exams">実戦テストへ</a></section>`;$('#fast-skip').disabled=true;$('#fast-again').onclick=()=>mutate(s=>startFast(s,cards,f.mode,f.filters||f.filter,f.themes||f.theme,f.order));return;}
  if(f.mode==='match'){renderMatch(content,f,byId,mutate);return;}
  if(f.mode==='card'){
   warmImages(f.ids.slice(Math.max(0,f.index-2),f.index+6).map(id=>byId.get(id)));

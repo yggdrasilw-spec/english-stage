@@ -58,16 +58,16 @@ export const forestArrival=local=>messages[local]||'';
 const layouts=new Map();
 const footprint=o=>Math.max(20,o.w*.28);
 function layout(area){
- const seed=area%31;if(layouts.has(seed))return layouts.get(seed);
+ const seed=area%997;if(layouts.has(seed))return layouts.get(seed);
  const flowers=forestFlowers(20,area),placed=[];
  for(const definition of residents){
-  let o={...definition};
+  let o={...definition};if(seed&&['rabbit','squirrel'].includes(o.key))o.fixed=false;if(seed&&['bird','bird-friend','butterfly'].includes(o.key)){o.x+=Math.sin(seed*.73+o.at)*100;o.y+=Math.cos(seed*.41+o.at)*60;}
   if(o.relative){const anchor=placed.find(p=>p.key===o.relative);o.x=anchor.x+o.dx;o.y=anchor.y+o.dy;}
   if(o.flower!==undefined){const flower=flowers[o.flower];o.x=flower.x+30;o.y=flower.y-45;}
   if(o.kind==='ground'&&!o.fixed){
    const origin={x:o.x,y:o.y},r=footprint(o);let found=false;
    for(let attempt=0;attempt<2800;attempt++){
-    const angle=attempt*2.399963+seed*.37,distance=attempt?15*Math.sqrt(attempt):0;
+    const angle=attempt*2.399963+seed*.37,distance=attempt||seed?35+15*Math.sqrt(attempt+seed%17):0;
     const x=origin.x+Math.cos(angle)*distance,y=origin.y+Math.sin(angle)*distance;
     if(!isOpenGround(x,y,fogProgress(o.at),[],FOREST_CELL)||nearPath(x-55,y-5,r+20))continue;
     if(Math.abs(x-1305)<120&&y>710&&y<1090)continue;

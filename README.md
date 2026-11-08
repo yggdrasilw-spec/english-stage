@@ -142,3 +142,7 @@ PDFのあいさつ欄の high は意味と発音から hi に補正。chopstick(
 公開先： https://yggdrasilw-spec.github.io/english-stage/prefixes/
 
 ソースは `prefixes/`、公開ファイルは `npm run prefixes:build` で `dist/prefixes/` に生成します。`npm run prefixes:test` と `npm run prefixes:check` で検証します。既存の英検5級の記録とは別のキーに保存します。
+
+## 学習記録の統合（2026-11-09）
+
+フラッシュカードの開始設定、ことば帳への機能横断の記録、目標日からの学習計画、間隔をあけた定着確認、広がる森、ABC HANDの画像・音設定・終了レビューを改善しました。新出計画の対象は5級の既存977項目。ゲーム・文法・模試の425項目もことば帳へ集約します。基準と検証範囲は [改善記録](IMPROVEMENTS_2026-11-08.md) を参照してください。

@@ -10,11 +10,11 @@ export function cleanupForestMaps(){
 function mount(root,motion){
  const world=root.querySelector('.forest-world'),local=Number(root.dataset.local),from=Number(root.dataset.from),area=Number(root.dataset.area);
  const interactive=root.dataset.interactive==='true',key=(interactive?'map:':'home:')+area;
- const camera=new Camera({cellSize:FOREST_CELL,mapWidth:58,mapHeight:46,minZoom:.06,maxZoom:1.1,zoom:.24});
+ const camera=new Camera({cellSize:FOREST_CELL,mapWidth:86,mapHeight:70,minZoom:.06,maxZoom:1.1,zoom:.24});
  let progress=fogProgress(from),disposed=false,delay=0,dimensions=null;
  const media=matchMedia('(prefers-reduced-motion: reduce)'),calm=()=>!motion||media.matches;
  const core={getState:()=>({settings:{calmMode:calm()},placedAssets:[]}),getProgressPercent:()=>progress};
- const expansion=createExpandingForest({world,camera,core,map:{width:58,height:46}});
+ const expansion=createExpandingForest({world,camera,core,map:{width:86,height:70}});
  const apply=()=>{world.style.transform=camera.getTransform();root.dataset.zoom=camera.zoom.toFixed(4);};
  const size=()=>{
   const rect=root.getBoundingClientRect();
@@ -26,7 +26,7 @@ function mount(root,motion){
    else{
     expansion.fit();
     // Keep a little fog in view: its retreat must be visible, without moving the scenery.
-    camera.zoom=camera.clampZoom(camera.zoom*.88);camera.centerOnCell(29.4,23.5);
+    camera.zoom=camera.clampZoom(interactive?Math.max(.48,camera.zoom*1.65):camera.zoom*1.25);camera.centerOnCell(29.4,23.5);
    }
    root.dataset.initialized='true';
   }else camera.clampToBounds();

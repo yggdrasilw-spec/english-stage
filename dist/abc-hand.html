@@ -42,7 +42,7 @@ header{flex-wrap:wrap}header a{font-size:12px;color:inherit}header button{min-he
 #image-retry{position:fixed;z-index:3;left:50%;transform:translateX(-50%);bottom:calc(env(safe-area-inset-bottom,0px) + 12px);min-height:44px}
 #image-retry[hidden]{display:none}
 </style>
-</head>
+<script data-game-importmap type="importmap">{"imports":{"./src/app.js":"./src/app.js?v=a909858de67f65f4","./src/audio.js":"./src/audio.js?v=6a41d69771db445e","./src/companion-view.js":"./src/companion-view.js?v=2a76d85792ccbf9f","./src/companion.js":"./src/companion.js?v=3b252f58b0e91305","./src/effects.js":"./src/effects.js?v=6cc5ad776580a613","./src/evidence.js":"./src/evidence.js?v=1f056ae796a070c3","./src/exams.js":"./src/exams.js?v=f93ca7e86c19880b","./src/fast-order.js":"./src/fast-order.js?v=8044036c5f6439f2","./src/fast-setup.js":"./src/fast-setup.js?v=800ff149efb619bf","./src/fast.js":"./src/fast.js?v=693ccea6f8d56583","./src/flashcards.js":"./src/flashcards.js?v=b6a087d7794e666e","./src/forest-camera.js":"./src/forest-camera.js?v=9b7decae48a58367","./src/forest-expansion.js":"./src/forest-expansion.js?v=a0d005f308087f2b","./src/forest-geometry.js":"./src/forest-geometry.js?v=442e47408153e859","./src/forest-landscape.js":"./src/forest-landscape.js?v=af07e93e2060416b","./src/forest-life.js":"./src/forest-life.js?v=dfe80da3a4eac942","./src/forest-map.js":"./src/forest-map.js?v=bdcd7fba786763a9","./src/forest-view.js":"./src/forest-view.js?v=254338b77ddefd98","./src/forest.js":"./src/forest.js?v=14dbd90aa108aaeb","./src/game-evidence.js":"./src/game-evidence.js?v=8d46608485440227","./src/home-banners.js":"./src/home-banners.js?v=70e3d5e2df37aa5e","./src/karuta-contrast.js":"./src/karuta-contrast.js?v=ad7f0d0f0711ae1e","./src/karuta-learning.js":"./src/karuta-learning.js?v=b2f1ae519d7300df","./src/karuta-results.js":"./src/karuta-results.js?v=0346e9bb49ee53d7","./src/karuta-session.js":"./src/karuta-session.js?v=fa16b4fcc549c5f6","./src/karuta.js":"./src/karuta.js?v=65b186e3184de411","./src/learning-plan.js":"./src/learning-plan.js?v=e92da66de09a5109","./src/learning.js":"./src/learning.js?v=48c575c2d4f388b7","./src/legacy-evidence.js":"./src/legacy-evidence.js?v=ff5bfe355bc386d5","./src/mascot-core.js":"./src/mascot-core.js?v=90e58e6351296fac","./src/mascot.js":"./src/mascot.js?v=d6c277e26132997c","./src/motivation.js":"./src/motivation.js?v=a6db620ed87b5930","./src/practice-view.js":"./src/practice-view.js?v=f0a96977d52a9c76","./src/quiz.js":"./src/quiz.js?v=2c98810c04fa6724","./src/scheduler.js":"./src/scheduler.js?v=dbb3370efb68cf7d","./src/speaking-answer.js":"./src/speaking-answer.js?v=9b4c289b567ce26e","./src/speaking.js":"./src/speaking.js?v=9ee4c0d765d77c6c","./src/storage.js":"./src/storage.js?v=6af4240b8a8fd4c8","./src/vocabulary-priority-data.js":"./src/vocabulary-priority-data.js?v=6fb9ff6cbe9df43f","./src/vocabulary-priority.js":"./src/vocabulary-priority.js?v=4507afdd76bb0ace"}}</script><script src="./game-bridge.js?v=bc2c0683b952901a"></script></head>
 <body>
 <header><a href="./">英語の森</a><h1>ABC <b>HAND</b></h1><button id="settings-open">設定</button><button id="am" aria-pressed="true">🤖 おまかせ</button><button id="sn" aria-pressed="false">🔇 おと</button></header>
 <div id="status" role="status" aria-live="polite">設定をえらんではじめよう</div><button id="image-retry" hidden>画像を再読込</button><svg id="machine" viewBox="0 0 360 640" preserveAspectRatio="xMidYMid meet">
@@ -64,8 +64,9 @@ header{flex-wrap:wrap}header a{font-size:12px;color:inherit}header button{min-he
 <g id="fx"></g>
 </svg>
 <dialog id="settings"><h2>ABC HAND の設定</h2><p>単語ハンターと同じ語彙・ジャンルで、文字を順番に連続タップ！ハンドが動いていても入力できます。絵カードを押すとMP3を聞けます。</p><form id="options"><fieldset><legend>ジャンル</legend><button type="button" id="all-genres">ぜんぶ</button><div id="genres"></div></fieldset><label>不要文字 <select id="distractors"><option value="0">0文字</option><option value="2">2文字</option><option value="4" selected>4文字</option><option value="8">8文字</option></select></label><label>ヒント <select id="hints"><option value="always">いつも表示</option><option value="mistake" selected>間違えたら次の文字</option><option value="none">なし（得点×2）</option></select></label><label>1回の語数 <select id="rounds"><option>5</option><option selected>10</option><option>20</option><option value="0">ぜんぶ</option></select></label><p>正解でコンボ、間違えるとコンボは0。基本点は選択語数に応じて増えます。おまかせを使った単語は0点です。</p><p id="pool-count"></p><button type="submit">この設定ではじめる</button><button type="button" id="close-settings">つづける</button></form></dialog>
+<dialog id="round-review" aria-labelledby="review-title"><h2 id="review-title"></h2><p id="review-score"></p><p>ことば帳に、つづりの実績を記録。おまかせ・ヒントの成功は自力正解と分けます。</p><ul id="review-words"></ul><button id="review-retry">もう一度のことばに挑戦</button><button id="review-again">設定を選んで、もう一度</button><p><a href="./#library">ことば帳を見る →</a> · <a href="./">ホームへ</a></p></dialog>
 <script src="hunter-data.js?v=0f191cdc5614b9d7"></script>
-<script src="abc-hand-images.js?v=87451037ead346ba"></script>
+<script src="abc-hand-images.js?v=ae3e44b61d8437d4"></script>
 <script src="abc-hand-engine.js?v=aad8ccee98552a33"></script>
 <script>
 const $=s=>document.querySelector(s),NS='http://www.w3.org/2000/svg',INK='#1f2a44',COL=['#ff5d73','#ff9f43','#ffd23f','#4cc38a','#3ec1d3','#7c6cf0','#ff8fab'],SY=335,TY=483;
@@ -79,7 +80,7 @@ const sleep=ms=>new Promise(r=>setTimeout(r,ms/playbackRate()));
 const tw=(ms,fn,e=E.io)=>new Promise(r=>{let last=performance.now(),elapsed=0;(function f(n){elapsed+=Math.max(0,n-last)*playbackRate();last=n;const p=Math.min(1,elapsed/ms);fn(e(p),p);p<1?requestAnimationFrame(f):r()})(last)});
 const to=(o,k,v,ms,e)=>{const a=o[k];return tw(ms,p=>o[k]=a+(v-a)*p,e)};
 const dur=(d,b,k)=>b+Math.abs(d)*k;
-let W,tiles=[],S=[],held=null,auto=false,snd=false,waiter=null,wi=0,ac;
+let W,tiles=[],S=[],held=null,auto=false,snd=true,waiter=null,wi=0,ac;
 const H={x:180,px:180,len:44,jaw:.45,ang:0,av:0},C={s:0,r:0},P=[];
 const tl=$('#tl'),sl=$('#sl'),fx=$('#fx'),con=$('#con'),car=$('#car'),hand=$('#hand'),cabs=$('#cabs'),claw=$('#claw'),fR=$('#fR'),fL=$('#fL'),card=$('#card');
 /* ---- 音・読み上げ (読み上げは終了待ち+タイムアウトで止まらない) ---- */
@@ -187,6 +188,10 @@ async function place(T,i){
   transporting=false;updateStatus();
 }
 async function cheer(){
+  const imageHint=abcHandImageHints[W.id]===true;
+  const result={en:D[W.id][0],ja:D[W.id][2],quality:demoUsed||wordMiss||settings.hints==='always'||imageHint?'guess':'correct'};results.push(result);
+  if(!demoUsed)window.recordWordEvidence({...result,skill:'spell',source:'abc-hand',assisted:wordMiss||settings.hints==='always'||imageHint});
+
   let gain=0;if(!demoUsed){combo++;best=Math.max(best,combo);gain=hunterPoints(hunterBase(deckPoolSize),combo,settings.hints!=='none');score+=gain;}else combo=0;updateStatus(demoUsed?'おまかせの見本：0点':`できた！ ${D[W.id][0]} +${gain}点`);const sp=say(W.w);
   [523,659,784,1047].forEach((f,i)=>setTimeout(()=>sfx(f,.18,'triangle',.08),i*110));
   burst(180,205,26,260);burst(180,SY,18,200);
@@ -204,12 +209,14 @@ async function outro(){
   tiles.forEach(T=>T.el.remove());S.forEach(q=>q.g.remove());tiles=[];S=[];
 }
 $('#am').onclick=e=>{auto=!auto;if(W)demoUsed=true;e.currentTarget.setAttribute('aria-pressed',auto);waiter&&waiter(null)};
-$('#sn').onclick=e=>{snd=!snd;e.currentTarget.setAttribute('aria-pressed',snd);e.currentTarget.textContent=(snd?'🔊':'🔇')+' おと';if(snd){ac=ac||new AudioContext();ac.resume();sfx(880,.1)}};
+$('#sn').onclick=e=>{snd=!snd;settings.sound=snd;try{localStorage.setItem('abc-hand-v1',JSON.stringify(settings));}catch{}e.currentTarget.setAttribute('aria-pressed',snd);e.currentTarget.textContent=(snd?'🔊':'🔇')+' おと';if(snd){ac=ac||new AudioContext();ac.resume();sfx(880,.1)}};
 card.onclick=()=>W&&say(W.w);card.setAttribute('role','button');card.setAttribute('tabindex','0');card.setAttribute('aria-label','単語の音声を聞く');card.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();card.onclick();}};
 
 /* Session settings are separate from hunter progress. */
-let settings={genres:[0,1,2,3,4],distractors:4,hints:'mistake',rounds:10};
-try{const saved=JSON.parse(localStorage.getItem('abc-hand-v1'));if(saved){settings.genres=Array.isArray(saved.genres)?saved.genres.filter(g=>Number.isInteger(g)&&GN[g]):settings.genres;if([0,2,4,8].includes(+saved.distractors))settings.distractors=+saved.distractors;if(['always','mistake','none'].includes(saved.hints))settings.hints=saved.hints;if([0,5,10,20].includes(+saved.rounds))settings.rounds=+saved.rounds;}}catch{}
+let settings={genres:[0,1,2,3,4],distractors:4,hints:'mistake',rounds:10,sound:true};
+try{const saved=JSON.parse(localStorage.getItem('abc-hand-v1'));if(saved){if(typeof saved.sound==='boolean')snd=settings.sound=saved.sound;settings.genres=Array.isArray(saved.genres)?saved.genres.filter(g=>Number.isInteger(g)&&GN[g]):settings.genres;if([0,2,4,8].includes(+saved.distractors))settings.distractors=+saved.distractors;if(['always','mistake','none'].includes(saved.hints))settings.hints=saved.hints;if([0,5,10,20].includes(+saved.rounds))settings.rounds=+saved.rounds;}}catch{}
+$('#sn').setAttribute('aria-pressed',String(snd));$('#sn').textContent=(snd?'🔊':'🔇')+' おと';
+let results=[];
 let deck=[],deckPoolSize=0,combo=0,best=0,score=0,errors=0,wordMiss=false,demoUsed=false,currentStep=0,paused=true,resumeWait=null,started=false,sessionDone=false;
 const status=t=>$('#status').textContent=t;
 const imageLoader=ABCHand.createImageLoader();let imageVersion=0,imageState='none';
@@ -234,7 +241,7 @@ $('#image-retry').onclick=()=>{if(W)showWordImage(true);};
 function updateStatus(extra=''){const progress=inputReady&&!auto?(input.accepted===W.w.length?'入力できた！ お届け中':`入力 ${input.accepted}/${W.w.length} · 続けてタップOK`):'';status(`${wi}/${deck.length}語 · ⭐ ${score.toLocaleString()} · コンボ ${combo}${extra||progress?' ｜ '+(extra||progress):''}`);}
 const wordAudio=new Audio();wordAudio.preload='none';
 function say(){return new Promise(resolve=>{if(!snd||!W)return resolve();wordAudio.pause();wordAudio.src='assets/audio/'+audioFiles[W.id]+'.mp3';let timer;const end=()=>{clearTimeout(timer);wordAudio.onended=wordAudio.onerror=null;resolve();};wordAudio.onended=end;wordAudio.onerror=()=>{status('音声を読み込めません。音ボタンでもう一度ためしてね');end();};timer=setTimeout(end,8000);wordAudio.play().catch(()=>{status('音声を再生できません。音ボタンでもう一度ためしてね');end();});});}
-function eligible(){return D.map((d,id)=>({id,w:d[0].replace(/ \(.*?\)/g,'').replace(/[^a-z]/gi,'').toUpperCase(),jp:d[2]})).filter(w=>settings.genres.includes(GI[w.id])&&w.w.length>0);}
+function eligible(){return D.map((d,id)=>({id,w:d[0].replace(/ \(.*?\)/g,'').replace(/[^a-z]/gi,'').toUpperCase(),jp:d[2]})).filter(w=>settings.genres.includes(GI[w.id])&&w.w.length>0&&Number.isFinite(window.sharedWordPriority(D[w.id][0],D[w.id][2],'spell')));}
 function readOptions(){settings.genres=[...document.querySelectorAll('#genres input:checked')].map(e=>+e.value);for(const k of ['distractors','hints','rounds'])settings[k]=$('#'+k).value;const n=eligible().length;$('#pool-count').textContent=`${settings.genres.length}ジャンル・${n}語。空白・記号は省いて文字をならべます。`;$('button[type=submit]').disabled=!n;}
 $('#genres').innerHTML=GN.map(([name,emoji],g)=>`<label><input type="checkbox" value="${g}" ${settings.genres.includes(g)?'checked':''}>${emoji} ${name}</label>`).join('');
 for(const k of ['distractors','hints','rounds'])$('#'+k).value=settings[k];
@@ -245,12 +252,21 @@ $('#settings-open').onclick=openSettings;
 function resume(){paused=false;$('#settings').close();resumeWait?.();resumeWait=null;}
 $('#close-settings').onclick=resume;
 $('#settings').oncancel=e=>{e.preventDefault();if(started&&!sessionDone)resume();};
-$('#options').onsubmit=e=>{e.preventDefault();if(started&&!sessionDone)return;readOptions();const p=eligible();deckPoolSize=p.length;deck=p.sort(()=>Math.random()-.5).slice(0,+settings.rounds||p.length);try{localStorage.setItem('abc-hand-v1',JSON.stringify(settings));}catch{}wi=score=combo=best=errors=0;sessionDone=false;started=true;imageLoader.preload(deck.slice(0,4).map(w=>wordImageURL(w.id)));resume();main();};
+$('#options').onsubmit=async e=>{e.preventDefault();await window.wordLearningReady;if(started&&!sessionDone)return;readOptions();const p=eligible();deckPoolSize=p.length;deck=p.sort(()=>Math.random()-.5).sort((a,b)=>window.sharedWordPriority(D[a.id][0],D[a.id][2],'spell')-window.sharedWordPriority(D[b.id][0],D[b.id][2],'spell')).slice(0,+settings.rounds||p.length);try{localStorage.setItem('abc-hand-v1',JSON.stringify(settings));}catch{}wi=score=combo=best=errors=0;results=[];sessionDone=false;started=true;imageLoader.preload(deck.slice(0,4).map(w=>wordImageURL(w.id)));resume();main();};
 async function main(){
  $('#options button[type=submit]').disabled=true;
  for(;wi<deck.length;){if(paused)await new Promise(r=>resumeWait=r);await intro();for(let i=0;i<W.w.length;i++){const T=await choose(i);await place(T,i)}await cheer();await outro();}
- sessionDone=true;started=false;for(const el of document.querySelectorAll('#options input,#options select,#all-genres'))el.disabled=false;status(`クリア！ ⭐ ${score.toLocaleString()}点 · ${deck.length}語 · ミス ${errors}回 · 最高コンボ ${best} ｜ 設定からもう一度`);$('#options button[type=submit]').disabled=false;
+ sessionDone=true;started=false;showReview();for(const el of document.querySelectorAll('#options input,#options select,#all-genres'))el.disabled=false;status(`クリア！ ⭐ ${score.toLocaleString()}点 · ${deck.length}語 · ミス ${errors}回 · 最高コンボ ${best} ｜ 設定からもう一度`);$('#options button[type=submit]').disabled=false;
 }
+function showReview(){
+ const dialog=$('#round-review');$('#review-title').textContent='クリア！ '+deck.length+'語に挑戦したね';
+ $('#review-score').textContent='⭐ '+score.toLocaleString()+'点 · ミス '+errors+'回 · 最高コンボ '+best;
+ const list=$('#review-words');list.replaceChildren();
+ for(const r of results){const li=document.createElement('li');li.textContent=(r.quality==='correct'?'✓ 自分でできた！ ':'🌱 もう一度で強くなる ')+r.en+' ＝ '+r.ja;list.append(li);}
+ dialog.showModal();$('#review-retry').disabled=!results.some(r=>r.quality!=='correct');
+}
+$('#review-again').onclick=()=>{$('#round-review').close();openSettings();};
+$('#review-retry').onclick=()=>{const weak=new Set(results.filter(r=>r.quality!=='correct').map(r=>r.en));deck=deck.filter(w=>weak.has(D[w.id][0]));wi=score=combo=best=errors=0;results=[];sessionDone=false;started=true;$('#round-review').close();paused=false;main();};
 $('#am').setAttribute('aria-pressed','false');
 readOptions();openSettings();
 </script></body></html>

@@ -1,3 +1,4 @@
+import './sync-game-catalog.mjs';
 import './sync-abc-hand-images.mjs';
 import {readFile,writeFile,readdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
@@ -7,6 +8,16 @@ const imports={};
 for(const name of (await readdir(new URL('src/',root))).filter(n=>n.endsWith('.js')).sort()){
  const digest=createHash('sha256').update((await readFile(new URL('src/'+name,root),'utf8')).replace(/\r\n/g,'\n')).digest('hex').slice(0,16);
  imports['./src/'+name]='./src/'+name+'?v='+digest;
+}
+// Standalone games share the same content-versioned modules as the main app.
+const bridgeHash=createHash('sha256').update(await readFile(new URL('game-bridge.js',root))).digest('hex').slice(0,16);
+for(const name of ['abc-hand.html','hunter.html','word-nova.html','accent.html']){
+ const url=new URL(name,root),original=await readFile(url,'utf8'),prefix=name.startsWith('grammar/')?'../':'./';
+ const gameImports=Object.fromEntries(Object.entries(imports).map(([key,value])=>[prefix+key.slice(2),prefix+value.slice(2)]));
+ const tag=`<script data-game-importmap type="importmap">${JSON.stringify({imports:gameImports})}</script><script src="${prefix}game-bridge.js?v=${bridgeHash}"></script>`;
+ let next=original.replace(/<script data-game-importmap type="importmap">[\s\S]*?<\/script>/,'').replace(/<script src="(?:\.\.\/|\.\/)?game-bridge\.js(?:\?v=[^"]+)?"><\/script>/,tag);
+ if(next===original&&!original.includes(tag))throw Error('Game bridge missing: '+name);
+ if(process.argv.includes('--check')){if(next!==original)throw Error('Game entry stale: '+name);}else await writeFile(url,next);
 }
 const css=createHash('sha256').update((await readFile(new URL('styles.css',root),'utf8')).replace(/\r\n/g,'\n')).digest('hex').slice(0,16);
 const url=new URL('index.html',root);let html=(await readFile(url,'utf8')).replace(/\r\n/g,'\n');

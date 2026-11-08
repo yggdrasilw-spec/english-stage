@@ -1,0 +1,491 @@
+{
+  "g5-m1-01": [
+    "expression-g5-m1-01",
+    "g5-w-piano"
+  ],
+  "g5-m1-02": [
+    "expression-g5-m1-02",
+    "g5-w-ph-cafeteria"
+  ],
+  "g5-m1-03": [
+    "expression-g5-m1-03",
+    "g5-w-nurse"
+  ],
+  "g5-m1-04": [
+    "expression-g5-m1-04",
+    "g5-w-window"
+  ],
+  "g5-m1-05": [
+    "expression-g5-m1-05",
+    "g5-w-your"
+  ],
+  "g5-m1-06": [
+    "expression-g5-m1-06",
+    "g5-w-are"
+  ],
+  "g5-m1-07": [
+    "expression-g5-m1-07"
+  ],
+  "g5-m1-08": [
+    "expression-g5-m1-08",
+    "g5-w-swim"
+  ],
+  "g5-m1-09": [
+    "expression-g5-m1-09",
+    "g5-w-watch"
+  ],
+  "g5-m1-10": [
+    "expression-g5-m1-10",
+    "g5-w-at"
+  ],
+  "g5-m1-11": [
+    "expression-g5-m1-11"
+  ],
+  "g5-m1-12": [
+    "expression-g5-m1-12",
+    "g5-w-when"
+  ],
+  "g5-m1-13": [
+    "expression-g5-m1-13",
+    "g5-w-an"
+  ],
+  "g5-m1-14": [
+    "expression-g5-m1-14",
+    "g5-w-on"
+  ],
+  "g5-m1-15": [
+    "expression-g5-m1-15",
+    "g5-w-many"
+  ],
+  "g5-m1-16": [
+    "expression-g5-m1-16"
+  ],
+  "g5-m1-17": [
+    "expression-g5-m1-17"
+  ],
+  "g5-m1-18": [
+    "expression-g5-m1-18"
+  ],
+  "g5-m1-19": [
+    "expression-g5-m1-19"
+  ],
+  "g5-m1-20": [
+    "expression-g5-m1-20"
+  ],
+  "g5-m1-21": [
+    "expression-g5-m1-21"
+  ],
+  "g5-m1-22": [
+    "expression-g5-m1-22"
+  ],
+  "g5-m1-23": [
+    "expression-g5-m1-23"
+  ],
+  "g5-m1-24": [
+    "expression-g5-m1-24"
+  ],
+  "g5-m1-25": [
+    "expression-g5-m1-25"
+  ],
+  "g5-m1-26": [
+    "expression-g5-m1-26"
+  ],
+  "g5-m1-27": [
+    "expression-g5-m1-27"
+  ],
+  "g5-m1-28": [
+    "expression-g5-m1-28"
+  ],
+  "g5-m1-29": [
+    "expression-g5-m1-29"
+  ],
+  "g5-m1-30": [
+    "expression-g5-m1-30"
+  ],
+  "g5-m1-31": [
+    "expression-g5-m1-31"
+  ],
+  "g5-m1-32": [
+    "expression-g5-m1-32"
+  ],
+  "g5-m1-33": [
+    "expression-g5-m1-33"
+  ],
+  "g5-m1-34": [
+    "expression-g5-m1-34"
+  ],
+  "g5-m1-35": [
+    "expression-g5-m1-35"
+  ],
+  "g5-m1-36": [
+    "expression-g5-m1-36"
+  ],
+  "g5-m1-37": [
+    "expression-g5-m1-37"
+  ],
+  "g5-m1-38": [
+    "expression-g5-m1-38"
+  ],
+  "g5-m1-39": [
+    "expression-g5-m1-39"
+  ],
+  "g5-m1-40": [
+    "expression-g5-m1-40"
+  ],
+  "g5-m1-41": [
+    "expression-g5-m1-41"
+  ],
+  "g5-m1-42": [
+    "expression-g5-m1-42"
+  ],
+  "g5-m1-43": [
+    "expression-g5-m1-43"
+  ],
+  "g5-m1-44": [
+    "expression-g5-m1-44"
+  ],
+  "g5-m1-45": [
+    "expression-g5-m1-45"
+  ],
+  "g5-m1-46": [
+    "expression-g5-m1-46"
+  ],
+  "g5-m1-47": [
+    "expression-g5-m1-47"
+  ],
+  "g5-m1-48": [
+    "expression-g5-m1-48"
+  ],
+  "g5-m1-49": [
+    "expression-g5-m1-49"
+  ],
+  "g5-m1-50": [
+    "expression-g5-m1-50"
+  ],
+  "g5-m2-01": [
+    "expression-g5-m2-01",
+    "g5-w-water"
+  ],
+  "g5-m2-02": [
+    "expression-g5-m2-02",
+    "g5-w-teacher"
+  ],
+  "g5-m2-03": [
+    "expression-g5-m2-03",
+    "g5-w-pencil"
+  ],
+  "g5-m2-04": [
+    "expression-g5-m2-04",
+    "g5-w-park"
+  ],
+  "g5-m2-05": [
+    "expression-g5-m2-05",
+    "g5-w-your"
+  ],
+  "g5-m2-06": [
+    "expression-g5-m2-06",
+    "g5-w-has"
+  ],
+  "g5-m2-07": [
+    "expression-g5-m2-07",
+    "g5-w-are"
+  ],
+  "g5-m2-08": [
+    "expression-g5-m2-08",
+    "g5-w-like"
+  ],
+  "g5-m2-09": [
+    "expression-g5-m2-09",
+    "g5-w-under"
+  ],
+  "g5-m2-10": [
+    "expression-g5-m2-10",
+    "g5-w-who"
+  ],
+  "g5-m2-11": [
+    "expression-g5-m2-11",
+    "g5-w-running"
+  ],
+  "g5-m2-12": [
+    "expression-g5-m2-12",
+    "g5-w-on"
+  ],
+  "g5-m2-13": [
+    "expression-g5-m2-13",
+    "g5-w-can"
+  ],
+  "g5-m2-14": [
+    "expression-g5-m2-14",
+    "g5-w-drink"
+  ],
+  "g5-m2-15": [
+    "expression-g5-m2-15",
+    "g5-w-much"
+  ],
+  "g5-m2-16": [
+    "expression-g5-m2-16"
+  ],
+  "g5-m2-17": [
+    "expression-g5-m2-17"
+  ],
+  "g5-m2-18": [
+    "expression-g5-m2-18"
+  ],
+  "g5-m2-19": [
+    "expression-g5-m2-19"
+  ],
+  "g5-m2-20": [
+    "expression-g5-m2-20"
+  ],
+  "g5-m2-21": [
+    "expression-g5-m2-21"
+  ],
+  "g5-m2-22": [
+    "expression-g5-m2-22"
+  ],
+  "g5-m2-23": [
+    "expression-g5-m2-23"
+  ],
+  "g5-m2-24": [
+    "expression-g5-m2-24"
+  ],
+  "g5-m2-25": [
+    "expression-g5-m2-25"
+  ],
+  "g5-m2-26": [
+    "expression-g5-m2-26"
+  ],
+  "g5-m2-27": [
+    "expression-g5-m2-27"
+  ],
+  "g5-m2-28": [
+    "expression-g5-m2-28"
+  ],
+  "g5-m2-29": [
+    "expression-g5-m2-29"
+  ],
+  "g5-m2-30": [
+    "expression-g5-m2-30"
+  ],
+  "g5-m2-31": [
+    "expression-g5-m2-31"
+  ],
+  "g5-m2-32": [
+    "expression-g5-m2-32"
+  ],
+  "g5-m2-33": [
+    "expression-g5-m2-33"
+  ],
+  "g5-m2-34": [
+    "expression-g5-m2-34"
+  ],
+  "g5-m2-35": [
+    "expression-g5-m2-35"
+  ],
+  "g5-m2-36": [
+    "expression-g5-m2-36"
+  ],
+  "g5-m2-37": [
+    "expression-g5-m2-37"
+  ],
+  "g5-m2-38": [
+    "expression-g5-m2-38"
+  ],
+  "g5-m2-39": [
+    "expression-g5-m2-39"
+  ],
+  "g5-m2-40": [
+    "expression-g5-m2-40"
+  ],
+  "g5-m2-41": [
+    "expression-g5-m2-41"
+  ],
+  "g5-m2-42": [
+    "expression-g5-m2-42"
+  ],
+  "g5-m2-43": [
+    "expression-g5-m2-43"
+  ],
+  "g5-m2-44": [
+    "expression-g5-m2-44"
+  ],
+  "g5-m2-45": [
+    "expression-g5-m2-45"
+  ],
+  "g5-m2-46": [
+    "expression-g5-m2-46"
+  ],
+  "g5-m2-47": [
+    "expression-g5-m2-47"
+  ],
+  "g5-m2-48": [
+    "expression-g5-m2-48"
+  ],
+  "g5-m2-49": [
+    "expression-g5-m2-49"
+  ],
+  "g5-m2-50": [
+    "expression-g5-m2-50"
+  ],
+  "g5-m3-01": [
+    "expression-g5-m3-01"
+  ],
+  "g5-m3-02": [
+    "expression-g5-m3-02",
+    "g5-w-coat"
+  ],
+  "g5-m3-03": [
+    "expression-g5-m3-03",
+    "g5-w-driver"
+  ],
+  "g5-m3-04": [
+    "expression-g5-m3-04"
+  ],
+  "g5-m3-05": [
+    "expression-g5-m3-05",
+    "g5-w-her"
+  ],
+  "g5-m3-06": [
+    "expression-g5-m3-06"
+  ],
+  "g5-m3-07": [
+    "expression-g5-m3-07",
+    "g5-w-is"
+  ],
+  "g5-m3-08": [
+    "expression-g5-m3-08",
+    "g5-w-where"
+  ],
+  "g5-m3-09": [
+    "expression-g5-m3-09",
+    "g5-w-are"
+  ],
+  "g5-m3-10": [
+    "expression-g5-m3-10",
+    "g5-w-be"
+  ],
+  "g5-m3-11": [
+    "expression-g5-m3-11"
+  ],
+  "g5-m3-12": [
+    "expression-g5-m3-12",
+    "g5-w-what"
+  ],
+  "g5-m3-13": [
+    "expression-g5-m3-13",
+    "g5-w-at"
+  ],
+  "g5-m3-14": [
+    "expression-g5-m3-14",
+    "g5-w-like"
+  ],
+  "g5-m3-15": [
+    "expression-g5-m3-15",
+    "g5-w-how"
+  ],
+  "g5-m3-16": [
+    "expression-g5-m3-16"
+  ],
+  "g5-m3-17": [
+    "expression-g5-m3-17"
+  ],
+  "g5-m3-18": [
+    "expression-g5-m3-18"
+  ],
+  "g5-m3-19": [
+    "expression-g5-m3-19"
+  ],
+  "g5-m3-20": [
+    "expression-g5-m3-20"
+  ],
+  "g5-m3-21": [
+    "expression-g5-m3-21"
+  ],
+  "g5-m3-22": [
+    "expression-g5-m3-22"
+  ],
+  "g5-m3-23": [
+    "expression-g5-m3-23"
+  ],
+  "g5-m3-24": [
+    "expression-g5-m3-24"
+  ],
+  "g5-m3-25": [
+    "expression-g5-m3-25"
+  ],
+  "g5-m3-26": [
+    "expression-g5-m3-26"
+  ],
+  "g5-m3-27": [
+    "expression-g5-m3-27"
+  ],
+  "g5-m3-28": [
+    "expression-g5-m3-28"
+  ],
+  "g5-m3-29": [
+    "expression-g5-m3-29"
+  ],
+  "g5-m3-30": [
+    "expression-g5-m3-30"
+  ],
+  "g5-m3-31": [
+    "expression-g5-m3-31"
+  ],
+  "g5-m3-32": [
+    "expression-g5-m3-32"
+  ],
+  "g5-m3-33": [
+    "expression-g5-m3-33"
+  ],
+  "g5-m3-34": [
+    "expression-g5-m3-34"
+  ],
+  "g5-m3-35": [
+    "expression-g5-m3-35"
+  ],
+  "g5-m3-36": [
+    "expression-g5-m3-36"
+  ],
+  "g5-m3-37": [
+    "expression-g5-m3-37"
+  ],
+  "g5-m3-38": [
+    "expression-g5-m3-38"
+  ],
+  "g5-m3-39": [
+    "expression-g5-m3-39"
+  ],
+  "g5-m3-40": [
+    "expression-g5-m3-40"
+  ],
+  "g5-m3-41": [
+    "expression-g5-m3-41"
+  ],
+  "g5-m3-42": [
+    "expression-g5-m3-42"
+  ],
+  "g5-m3-43": [
+    "expression-g5-m3-43"
+  ],
+  "g5-m3-44": [
+    "expression-g5-m3-44"
+  ],
+  "g5-m3-45": [
+    "expression-g5-m3-45"
+  ],
+  "g5-m3-46": [
+    "expression-g5-m3-46"
+  ],
+  "g5-m3-47": [
+    "expression-g5-m3-47"
+  ],
+  "g5-m3-48": [
+    "expression-g5-m3-48"
+  ],
+  "g5-m3-49": [
+    "expression-g5-m3-49"
+  ],
+  "g5-m3-50": [
+    "expression-g5-m3-50"
+  ]
+}

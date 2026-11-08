@@ -4,8 +4,8 @@ import { paintPath, rockGroups } from './forest-landscape.js';
 // Relative to a generation's goal: changing clearPoint changes the growth pace.
 export function expansionArea(percent, cellSize = 112) {
   const p = Math.max(0, Math.min(100, Number(percent) || 0)) / 100;
-  return { x: (29 + p * 1.5) * cellSize, y: (23 + p) * cellSize,
-    rx: (9 + p * 13) * cellSize, ry: (7 + p * 12) * cellSize };
+  return { x: (29 + p * 8) * cellSize, y: (23 + p * 5) * cellSize,
+    rx: (14 + p * 18) * cellSize, ry: (11 + p * 14) * cellSize };
 }
 
 export function isOpenGround(x, y, percent, retained = [], cell = 112) {

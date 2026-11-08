@@ -139,7 +139,7 @@ h1{font-size:42px;font-weight:900;letter-spacing:.08em;color:var(--card);text-sh
 .cd.extra small{font-size:14px}
 .cd.extra small.jp{font-size:16px}
 .z.extra{overflow-wrap:anywhere;min-width:0}
-</style></head><body>
+</style><script data-game-importmap type="importmap">{"imports":{"./src/app.js":"./src/app.js?v=a909858de67f65f4","./src/audio.js":"./src/audio.js?v=6a41d69771db445e","./src/companion-view.js":"./src/companion-view.js?v=2a76d85792ccbf9f","./src/companion.js":"./src/companion.js?v=3b252f58b0e91305","./src/effects.js":"./src/effects.js?v=6cc5ad776580a613","./src/evidence.js":"./src/evidence.js?v=1f056ae796a070c3","./src/exams.js":"./src/exams.js?v=f93ca7e86c19880b","./src/fast-order.js":"./src/fast-order.js?v=8044036c5f6439f2","./src/fast-setup.js":"./src/fast-setup.js?v=800ff149efb619bf","./src/fast.js":"./src/fast.js?v=693ccea6f8d56583","./src/flashcards.js":"./src/flashcards.js?v=b6a087d7794e666e","./src/forest-camera.js":"./src/forest-camera.js?v=9b7decae48a58367","./src/forest-expansion.js":"./src/forest-expansion.js?v=a0d005f308087f2b","./src/forest-geometry.js":"./src/forest-geometry.js?v=442e47408153e859","./src/forest-landscape.js":"./src/forest-landscape.js?v=af07e93e2060416b","./src/forest-life.js":"./src/forest-life.js?v=dfe80da3a4eac942","./src/forest-map.js":"./src/forest-map.js?v=bdcd7fba786763a9","./src/forest-view.js":"./src/forest-view.js?v=254338b77ddefd98","./src/forest.js":"./src/forest.js?v=14dbd90aa108aaeb","./src/game-evidence.js":"./src/game-evidence.js?v=8d46608485440227","./src/home-banners.js":"./src/home-banners.js?v=70e3d5e2df37aa5e","./src/karuta-contrast.js":"./src/karuta-contrast.js?v=ad7f0d0f0711ae1e","./src/karuta-learning.js":"./src/karuta-learning.js?v=b2f1ae519d7300df","./src/karuta-results.js":"./src/karuta-results.js?v=0346e9bb49ee53d7","./src/karuta-session.js":"./src/karuta-session.js?v=fa16b4fcc549c5f6","./src/karuta.js":"./src/karuta.js?v=65b186e3184de411","./src/learning-plan.js":"./src/learning-plan.js?v=e92da66de09a5109","./src/learning.js":"./src/learning.js?v=48c575c2d4f388b7","./src/legacy-evidence.js":"./src/legacy-evidence.js?v=ff5bfe355bc386d5","./src/mascot-core.js":"./src/mascot-core.js?v=90e58e6351296fac","./src/mascot.js":"./src/mascot.js?v=d6c277e26132997c","./src/motivation.js":"./src/motivation.js?v=a6db620ed87b5930","./src/practice-view.js":"./src/practice-view.js?v=f0a96977d52a9c76","./src/quiz.js":"./src/quiz.js?v=2c98810c04fa6724","./src/scheduler.js":"./src/scheduler.js?v=dbb3370efb68cf7d","./src/speaking-answer.js":"./src/speaking-answer.js?v=9b4c289b567ce26e","./src/speaking.js":"./src/speaking.js?v=9ee4c0d765d77c6c","./src/storage.js":"./src/storage.js?v=6af4240b8a8fd4c8","./src/vocabulary-priority-data.js":"./src/vocabulary-priority-data.js?v=6fb9ff6cbe9df43f","./src/vocabulary-priority.js":"./src/vocabulary-priority.js?v=4507afdd76bb0ace"}}</script><script src="./game-bridge.js?v=bc2c0683b952901a"></script></head><body>
 <section id="home" class="scr on"><div class="hero" aria-hidden="true"><i style="--x:8%;--y:5%;--d:0s">🐱</i><i style="--x:78%;--y:4%;--d:-1.6s">🍎</i><i style="--x:84%;--y:17%;--d:-3s">🚌</i></div><div class="mid">
 <h1>たんごハンター</h1><div class="lead">えいけん5級の たんごを あつめよう</div>
 <div class="bar"><b id="hp"></b></div><div id="ht"></div><div id="hs"></div>
@@ -154,9 +154,10 @@ h1{font-size:42px;font-weight:900;letter-spacing:.08em;color:var(--card);text-sh
 <section id="gn" class="scr"><h1 style="font-size:28px">✅ ジャンルを えらぼう</h1><div id="gl" class="gl"></div><div id="gt"></div><button class="btn" onclick="gAll()">ぜんぶ えらぶ</button><button class="btn sub" onclick="home()">もどる</button></section>
 <div id="fx"></div><div id="fl"></div>
 <script src="hunter-data.js?v=0f191cdc5614b9d7"></script>
+<script src="abc-hand-images.js?v=ae3e44b61d8437d4"></script><script>D.forEach((d,i)=>{d[3]=abcHandImages[i]||d[3];});</script>
 <script>
 const wordImage=d=>`<img class="word-image" src="${d[3]}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`;
-const pool=()=>D.map((_,i)=>i).filter(i=>S.g.includes(GI[i])),gix=g=>D.map((_,i)=>i).filter(i=>GI[i]==g);
+const pool=()=>D.map((_,i)=>i).filter(i=>S.g.includes(GI[i])&&Number.isFinite(window.sharedWordPriority(D[i][0],D[i][2],'read'))),gix=g=>D.map((_,i)=>i).filter(i=>GI[i]==g);
 
 const $=id=>document.getElementById(id),K="eiken5_animals_v1";
 let S={c:{},best:0,streak:0,last:"",hint:true,hi:0,hiT:0,g:[0,1,2,3,4],n:10};
@@ -339,8 +340,8 @@ function comboFx(A,g,mul,f){
  if(T>=3)setTimeout(()=>sfx("sp",f/B0*2.5),170);
  if(big)setTimeout(()=>sfx("big",f/B0),220)}
 
-function start(m){M=m||"stage";
- N=M=="time"?Math.min(S.n||1e9,pool().length):10;BASE=Math.round(Math.pow((M=="time"?N:pool().length)/30,GROW)*10)*10;q=sh(pool().map(i=>[i,cnt(i)+Math.random()*1.5]).sort((a,b)=>a[1]-b[1]).slice(0,N).map(a=>a[0]));
+async function start(m){await window.wordLearningReady;if(!pool().length){$('msg').textContent='今日の復習はできたよ！ ことば帳から次の目標を決めよう。';return;}M=m||"stage";
+ N=M=="time"?Math.min(S.n||1e9,pool().length):Math.min(10,pool().length);BASE=Math.round(Math.pow((M=="time"?N:pool().length)/30,GROW)*10)*10;q=sh(pool().map(i=>[i,window.sharedWordPriority(D[i][0],D[i][2],'read')*100+cnt(i)+Math.random()*1.5]).sort((a,b)=>a[1]-b[1]).slice(0,N).map(a=>a[0]));
  LW=q.slice();const f=q.splice(0,P0),o=q.splice(0,O0);
  $("A").innerHTML="";C=[];sel=null;combo=done=errs=best=newM=0;miss=new Set();seen=new Set();tl=TL;lap=1;lapDone=0;busy=false;want=true;
  score=scShown=0;hintUsed=S.hint;$("sc").textContent="0";comboEnd();hintUi();
@@ -366,6 +367,7 @@ $("A").addEventListener("pointerdown",e=>{
  busy=true;sel=null;mark();
  if(li==ri)good(li,A);else oops(li,ri,A)});
 function good(li,A){
+ window.recordWordEvidence({en:D[li][0],ja:D[li][2],skill:'read',quality:miss.has(li)||hintUsed?'guess':'correct',source:'hunter'});
  combo++;best=Math.max(best,combo);done++;
  if(!miss.has(li)&&!seen.has(li)){seen.add(li);const o=lv(li);S.c[li]=cnt(li)+1;if(o<2&&lv(li)==2)newM++}
  const mul=hintUsed?1:2,g=pts(combo)*mul,T=tier(combo);hintUsed=S.hint;score+=g;setScore(score);
@@ -380,6 +382,7 @@ function good(li,A){
   if(M!="time"&&done>=N)setTimeout(finish,900);   /* さいごの演出が見えるよう、けっか画面は少しおくらせる */
   else busy=false},260)}
 function oops(li,ri,A){
+ window.recordWordEvidence({en:D[li][0],ja:D[li][2],skill:'read',quality:'wrong',source:'hunter'});
  combo=0;errs++;$("cb").textContent="";comboEnd();$("msg").textContent="Oops! Try again!";
  [li,ri].forEach(x=>{if(!miss.has(x)){miss.add(x);S.c[x]=Math.max(0,cnt(x)-1)}});
  sfx("ng");try{navigator.vibrate(40)}catch(e){}

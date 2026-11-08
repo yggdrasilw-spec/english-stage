@@ -1,0 +1,9212 @@
+[
+  {
+    "id": "g5-w-apple",
+    "en": "apple",
+    "ja": "りんご"
+  },
+  {
+    "id": "g5-w-banana",
+    "en": "banana",
+    "ja": "バナナ"
+  },
+  {
+    "id": "g5-w-orange",
+    "en": "orange",
+    "ja": "オレンジ（果物）"
+  },
+  {
+    "id": "g5-w-bread",
+    "en": "bread",
+    "ja": "パン"
+  },
+  {
+    "id": "g5-w-rice",
+    "en": "rice",
+    "ja": "ご飯"
+  },
+  {
+    "id": "g5-w-milk",
+    "en": "milk",
+    "ja": "牛乳"
+  },
+  {
+    "id": "g5-w-water",
+    "en": "water",
+    "ja": "水"
+  },
+  {
+    "id": "g5-w-egg",
+    "en": "egg",
+    "ja": "卵"
+  },
+  {
+    "id": "g5-w-cake",
+    "en": "cake",
+    "ja": "ケーキ"
+  },
+  {
+    "id": "g5-w-fish",
+    "en": "fish",
+    "ja": "魚"
+  },
+  {
+    "id": "g5-w-dog",
+    "en": "dog",
+    "ja": "犬"
+  },
+  {
+    "id": "g5-w-cat",
+    "en": "cat",
+    "ja": "猫"
+  },
+  {
+    "id": "g5-w-bird",
+    "en": "bird",
+    "ja": "鳥"
+  },
+  {
+    "id": "g5-w-rabbit",
+    "en": "rabbit",
+    "ja": "うさぎ"
+  },
+  {
+    "id": "g5-w-horse",
+    "en": "horse",
+    "ja": "馬"
+  },
+  {
+    "id": "g5-w-cow",
+    "en": "cow",
+    "ja": "牛"
+  },
+  {
+    "id": "g5-w-pig",
+    "en": "pig",
+    "ja": "豚"
+  },
+  {
+    "id": "g5-w-elephant",
+    "en": "elephant",
+    "ja": "象"
+  },
+  {
+    "id": "g5-w-lion",
+    "en": "lion",
+    "ja": "ライオン"
+  },
+  {
+    "id": "g5-w-monkey",
+    "en": "monkey",
+    "ja": "猿"
+  },
+  {
+    "id": "g5-w-book",
+    "en": "book",
+    "ja": "本"
+  },
+  {
+    "id": "g5-w-pen",
+    "en": "pen",
+    "ja": "ペン"
+  },
+  {
+    "id": "g5-w-pencil",
+    "en": "pencil",
+    "ja": "鉛筆"
+  },
+  {
+    "id": "g5-w-desk",
+    "en": "desk",
+    "ja": "机"
+  },
+  {
+    "id": "g5-w-chair",
+    "en": "chair",
+    "ja": "椅子"
+  },
+  {
+    "id": "g5-w-bag",
+    "en": "bag",
+    "ja": "かばん"
+  },
+  {
+    "id": "g5-w-school",
+    "en": "school",
+    "ja": "学校"
+  },
+  {
+    "id": "g5-w-teacher",
+    "en": "teacher",
+    "ja": "先生"
+  },
+  {
+    "id": "g5-w-student",
+    "en": "student",
+    "ja": "生徒"
+  },
+  {
+    "id": "g5-w-english",
+    "en": "English",
+    "ja": "英語"
+  },
+  {
+    "id": "g5-w-mother",
+    "en": "mother",
+    "ja": "母"
+  },
+  {
+    "id": "g5-w-father",
+    "en": "father",
+    "ja": "父"
+  },
+  {
+    "id": "g5-w-sister",
+    "en": "sister",
+    "ja": "姉・妹"
+  },
+  {
+    "id": "g5-w-brother",
+    "en": "brother",
+    "ja": "兄・弟"
+  },
+  {
+    "id": "g5-w-grandmother",
+    "en": "grandmother",
+    "ja": "祖母"
+  },
+  {
+    "id": "g5-w-grandfather",
+    "en": "grandfather",
+    "ja": "祖父"
+  },
+  {
+    "id": "g5-w-friend",
+    "en": "friend",
+    "ja": "友達"
+  },
+  {
+    "id": "g5-w-family",
+    "en": "family",
+    "ja": "家族"
+  },
+  {
+    "id": "g5-w-boy",
+    "en": "boy",
+    "ja": "男の子"
+  },
+  {
+    "id": "g5-w-girl",
+    "en": "girl",
+    "ja": "女の子"
+  },
+  {
+    "id": "g5-w-red",
+    "en": "red",
+    "ja": "赤い"
+  },
+  {
+    "id": "g5-w-blue",
+    "en": "blue",
+    "ja": "青い"
+  },
+  {
+    "id": "g5-w-green",
+    "en": "green",
+    "ja": "緑色の"
+  },
+  {
+    "id": "g5-w-yellow",
+    "en": "yellow",
+    "ja": "黄色い"
+  },
+  {
+    "id": "g5-w-white",
+    "en": "white",
+    "ja": "白い"
+  },
+  {
+    "id": "g5-w-black",
+    "en": "black",
+    "ja": "黒い"
+  },
+  {
+    "id": "g5-w-big",
+    "en": "big",
+    "ja": "大きい"
+  },
+  {
+    "id": "g5-w-small",
+    "en": "small",
+    "ja": "小さい"
+  },
+  {
+    "id": "g5-w-happy",
+    "en": "happy",
+    "ja": "うれしい"
+  },
+  {
+    "id": "g5-w-hungry",
+    "en": "hungry",
+    "ja": "おなかがすいている"
+  },
+  {
+    "id": "g5-w-eat",
+    "en": "eat",
+    "ja": "食べる"
+  },
+  {
+    "id": "g5-w-drink",
+    "en": "drink",
+    "ja": "飲む"
+  },
+  {
+    "id": "g5-w-play",
+    "en": "play",
+    "ja": "遊ぶ・スポーツをする"
+  },
+  {
+    "id": "g5-w-read",
+    "en": "read",
+    "ja": "読む"
+  },
+  {
+    "id": "g5-w-write",
+    "en": "write",
+    "ja": "書く"
+  },
+  {
+    "id": "g5-w-run",
+    "en": "run",
+    "ja": "走る"
+  },
+  {
+    "id": "g5-w-swim",
+    "en": "swim",
+    "ja": "泳ぐ"
+  },
+  {
+    "id": "g5-w-sing",
+    "en": "sing",
+    "ja": "歌う"
+  },
+  {
+    "id": "g5-w-dance",
+    "en": "dance",
+    "ja": "踊る"
+  },
+  {
+    "id": "g5-w-study",
+    "en": "study",
+    "ja": "勉強する"
+  },
+  {
+    "id": "g5-w-house",
+    "en": "house",
+    "ja": "家（建物）"
+  },
+  {
+    "id": "g5-w-park",
+    "en": "park",
+    "ja": "公園"
+  },
+  {
+    "id": "g5-w-library",
+    "en": "library",
+    "ja": "図書館"
+  },
+  {
+    "id": "g5-w-station",
+    "en": "station",
+    "ja": "駅"
+  },
+  {
+    "id": "g5-w-hospital",
+    "en": "hospital",
+    "ja": "病院"
+  },
+  {
+    "id": "g5-w-room",
+    "en": "room",
+    "ja": "部屋"
+  },
+  {
+    "id": "g5-w-door",
+    "en": "door",
+    "ja": "ドア"
+  },
+  {
+    "id": "g5-w-window",
+    "en": "window",
+    "ja": "窓"
+  },
+  {
+    "id": "g5-w-car",
+    "en": "car",
+    "ja": "自動車"
+  },
+  {
+    "id": "g5-w-bus",
+    "en": "bus",
+    "ja": "バス"
+  },
+  {
+    "id": "g5-w-hand",
+    "en": "hand",
+    "ja": "手"
+  },
+  {
+    "id": "g5-w-head",
+    "en": "head",
+    "ja": "頭"
+  },
+  {
+    "id": "g5-w-eye",
+    "en": "eye",
+    "ja": "目"
+  },
+  {
+    "id": "g5-w-ear",
+    "en": "ear",
+    "ja": "耳"
+  },
+  {
+    "id": "g5-w-nose",
+    "en": "nose",
+    "ja": "鼻"
+  },
+  {
+    "id": "g5-w-mouth",
+    "en": "mouth",
+    "ja": "口"
+  },
+  {
+    "id": "g5-w-hat",
+    "en": "hat",
+    "ja": "帽子"
+  },
+  {
+    "id": "g5-w-shirt",
+    "en": "shirt",
+    "ja": "シャツ"
+  },
+  {
+    "id": "g5-w-shoe",
+    "en": "shoe",
+    "ja": "靴（片方）"
+  },
+  {
+    "id": "g5-w-coat",
+    "en": "coat",
+    "ja": "コート"
+  },
+  {
+    "id": "g5-w-one",
+    "en": "one",
+    "ja": "1（ひとつ）"
+  },
+  {
+    "id": "g5-w-two",
+    "en": "two",
+    "ja": "2（ふたつ）"
+  },
+  {
+    "id": "g5-w-three",
+    "en": "three",
+    "ja": "3（みっつ）"
+  },
+  {
+    "id": "g5-w-four",
+    "en": "four",
+    "ja": "4（よっつ）"
+  },
+  {
+    "id": "g5-w-five",
+    "en": "five",
+    "ja": "5（いつつ）"
+  },
+  {
+    "id": "g5-w-six",
+    "en": "six",
+    "ja": "6（むっつ）"
+  },
+  {
+    "id": "g5-w-seven",
+    "en": "seven",
+    "ja": "7（ななつ）"
+  },
+  {
+    "id": "g5-w-eight",
+    "en": "eight",
+    "ja": "8（やっつ）"
+  },
+  {
+    "id": "g5-w-nine",
+    "en": "nine",
+    "ja": "9（ここのつ）"
+  },
+  {
+    "id": "g5-w-ten",
+    "en": "ten",
+    "ja": "10（とお）"
+  },
+  {
+    "id": "g5-w-monday",
+    "en": "Monday",
+    "ja": "月曜日"
+  },
+  {
+    "id": "g5-w-tuesday",
+    "en": "Tuesday",
+    "ja": "火曜日"
+  },
+  {
+    "id": "g5-w-wednesday",
+    "en": "Wednesday",
+    "ja": "水曜日"
+  },
+  {
+    "id": "g5-w-thursday",
+    "en": "Thursday",
+    "ja": "木曜日"
+  },
+  {
+    "id": "g5-w-friday",
+    "en": "Friday",
+    "ja": "金曜日"
+  },
+  {
+    "id": "g5-w-saturday",
+    "en": "Saturday",
+    "ja": "土曜日"
+  },
+  {
+    "id": "g5-w-sunday",
+    "en": "Sunday",
+    "ja": "日曜日"
+  },
+  {
+    "id": "g5-w-spring",
+    "en": "spring",
+    "ja": "春"
+  },
+  {
+    "id": "g5-w-summer",
+    "en": "summer",
+    "ja": "夏"
+  },
+  {
+    "id": "g5-w-winter",
+    "en": "winter",
+    "ja": "冬"
+  },
+  {
+    "id": "g5-p-01",
+    "en": "Hello.",
+    "ja": "こんにちは。"
+  },
+  {
+    "id": "g5-p-02",
+    "en": "Good morning.",
+    "ja": "おはようございます。"
+  },
+  {
+    "id": "g5-p-03",
+    "en": "Good night.",
+    "ja": "おやすみなさい。"
+  },
+  {
+    "id": "g5-p-04",
+    "en": "Thank you.",
+    "ja": "ありがとう。"
+  },
+  {
+    "id": "g5-p-05",
+    "en": "You are welcome.",
+    "ja": "どういたしまして。"
+  },
+  {
+    "id": "g5-p-06",
+    "en": "I'm sorry.",
+    "ja": "ごめんなさい。"
+  },
+  {
+    "id": "g5-p-07",
+    "en": "Excuse me.",
+    "ja": "すみません。"
+  },
+  {
+    "id": "g5-p-08",
+    "en": "See you.",
+    "ja": "またね。"
+  },
+  {
+    "id": "g5-p-09",
+    "en": "My name is Yui.",
+    "ja": "わたしの名前はユイです。"
+  },
+  {
+    "id": "g5-p-10",
+    "en": "How are you?",
+    "ja": "元気ですか。"
+  },
+  {
+    "id": "g5-p-11",
+    "en": "I'm fine.",
+    "ja": "元気です。"
+  },
+  {
+    "id": "g5-p-12",
+    "en": "How old are you?",
+    "ja": "何歳ですか。"
+  },
+  {
+    "id": "g5-p-13",
+    "en": "I'm eleven.",
+    "ja": "わたしは11歳です。"
+  },
+  {
+    "id": "g5-p-14",
+    "en": "I like music.",
+    "ja": "わたしは音楽が好きです。"
+  },
+  {
+    "id": "g5-p-15",
+    "en": "Do you like soccer?",
+    "ja": "サッカーは好きですか。"
+  },
+  {
+    "id": "g5-p-16",
+    "en": "Yes, I do.",
+    "ja": "はい、そうです。"
+  },
+  {
+    "id": "g5-p-17",
+    "en": "No, I don't.",
+    "ja": "いいえ、ちがいます。"
+  },
+  {
+    "id": "g5-p-18",
+    "en": "I don't like milk.",
+    "ja": "わたしは牛乳が好きではありません。"
+  },
+  {
+    "id": "g5-p-19",
+    "en": "I can dance.",
+    "ja": "わたしは踊れます。"
+  },
+  {
+    "id": "g5-p-20",
+    "en": "Can you swim?",
+    "ja": "泳げますか。"
+  },
+  {
+    "id": "g5-p-21",
+    "en": "What is this?",
+    "ja": "これは何ですか。"
+  },
+  {
+    "id": "g5-p-22",
+    "en": "It's a cat.",
+    "ja": "それは猫です。"
+  },
+  {
+    "id": "g5-p-23",
+    "en": "Where is my bag?",
+    "ja": "わたしのかばんはどこですか。"
+  },
+  {
+    "id": "g5-p-24",
+    "en": "It's on the desk.",
+    "ja": "それは机の上にあります。"
+  },
+  {
+    "id": "g5-p-25",
+    "en": "It's under the desk.",
+    "ja": "それは机の下にあります。"
+  },
+  {
+    "id": "g5-p-26",
+    "en": "It's in the bag.",
+    "ja": "それはかばんの中にあります。"
+  },
+  {
+    "id": "g5-p-27",
+    "en": "What time is it?",
+    "ja": "何時ですか。"
+  },
+  {
+    "id": "g5-p-28",
+    "en": "It's seven o'clock.",
+    "ja": "7時です。"
+  },
+  {
+    "id": "g5-p-29",
+    "en": "Please open your book.",
+    "ja": "本を開いてください。"
+  },
+  {
+    "id": "g5-p-30",
+    "en": "I'm reading a book.",
+    "ja": "わたしは今、本を読んでいます。"
+  },
+  {
+    "id": "g5-w-january",
+    "en": "January",
+    "ja": "1月"
+  },
+  {
+    "id": "g5-w-february",
+    "en": "February",
+    "ja": "2月"
+  },
+  {
+    "id": "g5-w-march",
+    "en": "March",
+    "ja": "3月"
+  },
+  {
+    "id": "g5-w-april",
+    "en": "April",
+    "ja": "4月"
+  },
+  {
+    "id": "g5-w-may",
+    "en": "May",
+    "ja": "5月"
+  },
+  {
+    "id": "g5-w-june",
+    "en": "June",
+    "ja": "6月"
+  },
+  {
+    "id": "g5-w-july",
+    "en": "July",
+    "ja": "7月"
+  },
+  {
+    "id": "g5-w-august",
+    "en": "August",
+    "ja": "8月"
+  },
+  {
+    "id": "g5-w-september",
+    "en": "September",
+    "ja": "9月"
+  },
+  {
+    "id": "g5-w-october",
+    "en": "October",
+    "ja": "10月"
+  },
+  {
+    "id": "g5-w-november",
+    "en": "November",
+    "ja": "11月"
+  },
+  {
+    "id": "g5-w-december",
+    "en": "December",
+    "ja": "12月"
+  },
+  {
+    "id": "g5-w-eleven",
+    "en": "eleven",
+    "ja": "11"
+  },
+  {
+    "id": "g5-w-twelve",
+    "en": "twelve",
+    "ja": "12"
+  },
+  {
+    "id": "g5-w-thirteen",
+    "en": "thirteen",
+    "ja": "13"
+  },
+  {
+    "id": "g5-w-fourteen",
+    "en": "fourteen",
+    "ja": "14"
+  },
+  {
+    "id": "g5-w-fifteen",
+    "en": "fifteen",
+    "ja": "15"
+  },
+  {
+    "id": "g5-w-sixteen",
+    "en": "sixteen",
+    "ja": "16"
+  },
+  {
+    "id": "g5-w-seventeen",
+    "en": "seventeen",
+    "ja": "17"
+  },
+  {
+    "id": "g5-w-eighteen",
+    "en": "eighteen",
+    "ja": "18"
+  },
+  {
+    "id": "g5-w-nineteen",
+    "en": "nineteen",
+    "ja": "19"
+  },
+  {
+    "id": "g5-w-twenty",
+    "en": "twenty",
+    "ja": "20"
+  },
+  {
+    "id": "g5-w-sunny",
+    "en": "sunny",
+    "ja": "晴れた"
+  },
+  {
+    "id": "g5-w-rainy",
+    "en": "rainy",
+    "ja": "雨の"
+  },
+  {
+    "id": "g5-w-cloudy",
+    "en": "cloudy",
+    "ja": "曇った"
+  },
+  {
+    "id": "g5-w-snowy",
+    "en": "snowy",
+    "ja": "雪の"
+  },
+  {
+    "id": "g5-w-windy",
+    "en": "windy",
+    "ja": "風の強い"
+  },
+  {
+    "id": "g5-w-rain",
+    "en": "rain",
+    "ja": "雨"
+  },
+  {
+    "id": "g5-w-snow",
+    "en": "snow",
+    "ja": "雪"
+  },
+  {
+    "id": "g5-w-fall",
+    "en": "fall",
+    "ja": "秋（米国英語）"
+  },
+  {
+    "id": "g5-w-strawberry",
+    "en": "strawberry",
+    "ja": "いちご"
+  },
+  {
+    "id": "g5-w-grape",
+    "en": "grape",
+    "ja": "ぶどうの実1粒"
+  },
+  {
+    "id": "g5-w-ice-cream",
+    "en": "ice cream",
+    "ja": "アイスクリーム"
+  },
+  {
+    "id": "g5-w-chocolate",
+    "en": "chocolate",
+    "ja": "チョコレート"
+  },
+  {
+    "id": "g5-w-cheese",
+    "en": "cheese",
+    "ja": "チーズ"
+  },
+  {
+    "id": "g5-w-juice",
+    "en": "juice",
+    "ja": "ジュース"
+  },
+  {
+    "id": "g5-w-tea",
+    "en": "tea",
+    "ja": "お茶"
+  },
+  {
+    "id": "g5-w-soup",
+    "en": "soup",
+    "ja": "スープ"
+  },
+  {
+    "id": "g5-w-meat",
+    "en": "meat",
+    "ja": "肉（食べ物）"
+  },
+  {
+    "id": "g5-w-chicken",
+    "en": "chicken",
+    "ja": "鶏肉"
+  },
+  {
+    "id": "g5-w-soccer",
+    "en": "soccer",
+    "ja": "サッカー"
+  },
+  {
+    "id": "g5-w-baseball",
+    "en": "baseball",
+    "ja": "野球"
+  },
+  {
+    "id": "g5-w-basketball",
+    "en": "basketball",
+    "ja": "バスケットボール（競技）"
+  },
+  {
+    "id": "g5-w-tennis",
+    "en": "tennis",
+    "ja": "テニス"
+  },
+  {
+    "id": "g5-w-volleyball",
+    "en": "volleyball",
+    "ja": "バレーボール（競技）"
+  },
+  {
+    "id": "g5-w-badminton",
+    "en": "badminton",
+    "ja": "バドミントン"
+  },
+  {
+    "id": "g5-w-sport",
+    "en": "sport",
+    "ja": "スポーツ・運動競技"
+  },
+  {
+    "id": "g5-w-music",
+    "en": "music",
+    "ja": "音楽"
+  },
+  {
+    "id": "g5-w-piano",
+    "en": "piano",
+    "ja": "ピアノ"
+  },
+  {
+    "id": "g5-w-guitar",
+    "en": "guitar",
+    "ja": "ギター"
+  },
+  {
+    "id": "g5-w-store",
+    "en": "store",
+    "ja": "店"
+  },
+  {
+    "id": "g5-w-supermarket",
+    "en": "supermarket",
+    "ja": "スーパーマーケット"
+  },
+  {
+    "id": "g5-w-restaurant",
+    "en": "restaurant",
+    "ja": "レストラン"
+  },
+  {
+    "id": "g5-w-zoo",
+    "en": "zoo",
+    "ja": "動物園"
+  },
+  {
+    "id": "g5-w-pool",
+    "en": "pool",
+    "ja": "プール"
+  },
+  {
+    "id": "g5-w-kitchen",
+    "en": "kitchen",
+    "ja": "台所"
+  },
+  {
+    "id": "g5-w-bathroom",
+    "en": "bathroom",
+    "ja": "浴室・トイレのある部屋"
+  },
+  {
+    "id": "g5-w-garden",
+    "en": "garden",
+    "ja": "庭"
+  },
+  {
+    "id": "g5-w-town",
+    "en": "town",
+    "ja": "町"
+  },
+  {
+    "id": "g5-w-beach",
+    "en": "beach",
+    "ja": "砂浜・海辺"
+  },
+  {
+    "id": "g5-w-get-up",
+    "en": "get up",
+    "ja": "起きる"
+  },
+  {
+    "id": "g5-w-go",
+    "en": "go",
+    "ja": "行く"
+  },
+  {
+    "id": "g5-w-come",
+    "en": "come",
+    "ja": "来る"
+  },
+  {
+    "id": "g5-w-watch",
+    "en": "watch",
+    "ja": "見る（テレビなどを）"
+  },
+  {
+    "id": "g5-w-listen",
+    "en": "listen",
+    "ja": "聞く（耳を傾ける）"
+  },
+  {
+    "id": "g5-w-speak",
+    "en": "speak",
+    "ja": "話す"
+  },
+  {
+    "id": "g5-w-walk",
+    "en": "walk",
+    "ja": "歩く"
+  },
+  {
+    "id": "g5-w-wash",
+    "en": "wash",
+    "ja": "洗う"
+  },
+  {
+    "id": "g5-w-cook",
+    "en": "cook",
+    "ja": "料理する"
+  },
+  {
+    "id": "g5-w-sleep",
+    "en": "sleep",
+    "ja": "眠る"
+  },
+  {
+    "id": "g5-w-long",
+    "en": "long",
+    "ja": "長い"
+  },
+  {
+    "id": "g5-w-short",
+    "en": "short",
+    "ja": "短い"
+  },
+  {
+    "id": "g5-w-new",
+    "en": "new",
+    "ja": "新しい"
+  },
+  {
+    "id": "g5-w-old",
+    "en": "old",
+    "ja": "古い"
+  },
+  {
+    "id": "g5-w-hot",
+    "en": "hot",
+    "ja": "熱い・暑い"
+  },
+  {
+    "id": "g5-w-cold",
+    "en": "cold",
+    "ja": "冷たい・寒い"
+  },
+  {
+    "id": "g5-w-kind",
+    "en": "kind",
+    "ja": "親切な"
+  },
+  {
+    "id": "g5-w-busy",
+    "en": "busy",
+    "ja": "忙しい"
+  },
+  {
+    "id": "g5-w-tired",
+    "en": "tired",
+    "ja": "疲れた"
+  },
+  {
+    "id": "g5-w-good",
+    "en": "good",
+    "ja": "よい"
+  },
+  {
+    "id": "g5-w-notebook",
+    "en": "notebook",
+    "ja": "ノート"
+  },
+  {
+    "id": "g5-w-eraser",
+    "en": "eraser",
+    "ja": "消しゴム"
+  },
+  {
+    "id": "g5-w-ruler",
+    "en": "ruler",
+    "ja": "定規"
+  },
+  {
+    "id": "g5-w-computer",
+    "en": "computer",
+    "ja": "コンピューター"
+  },
+  {
+    "id": "g5-w-map",
+    "en": "map",
+    "ja": "地図"
+  },
+  {
+    "id": "g5-w-box",
+    "en": "box",
+    "ja": "箱"
+  },
+  {
+    "id": "g5-w-picture",
+    "en": "picture",
+    "ja": "絵・写真"
+  },
+  {
+    "id": "g5-w-clock",
+    "en": "clock",
+    "ja": "時計（置き時計・掛け時計）"
+  },
+  {
+    "id": "g5-w-class",
+    "en": "class",
+    "ja": "授業・学級"
+  },
+  {
+    "id": "g5-w-math",
+    "en": "math",
+    "ja": "算数・数学（米国英語）"
+  },
+  {
+    "id": "g5-w-breakfast",
+    "en": "breakfast",
+    "ja": "朝食"
+  },
+  {
+    "id": "g5-w-lunch",
+    "en": "lunch",
+    "ja": "昼食"
+  },
+  {
+    "id": "g5-w-dinner",
+    "en": "dinner",
+    "ja": "夕食"
+  },
+  {
+    "id": "g5-w-morning",
+    "en": "morning",
+    "ja": "朝・午前"
+  },
+  {
+    "id": "g5-w-afternoon",
+    "en": "afternoon",
+    "ja": "午後"
+  },
+  {
+    "id": "g5-w-evening",
+    "en": "evening",
+    "ja": "夕方・晩"
+  },
+  {
+    "id": "g5-w-night",
+    "en": "night",
+    "ja": "夜"
+  },
+  {
+    "id": "g5-w-today",
+    "en": "today",
+    "ja": "今日"
+  },
+  {
+    "id": "g5-w-tomorrow",
+    "en": "tomorrow",
+    "ja": "明日"
+  },
+  {
+    "id": "g5-w-birthday",
+    "en": "birthday",
+    "ja": "誕生日"
+  },
+  {
+    "id": "g5-p-31",
+    "en": "Good afternoon.",
+    "ja": "こんにちは（午後）。"
+  },
+  {
+    "id": "g5-p-32",
+    "en": "Good evening.",
+    "ja": "こんばんは。"
+  },
+  {
+    "id": "g5-p-33",
+    "en": "Nice to meet you.",
+    "ja": "はじめまして。"
+  },
+  {
+    "id": "g5-p-34",
+    "en": "See you tomorrow.",
+    "ja": "また明日ね。"
+  },
+  {
+    "id": "g5-p-35",
+    "en": "How do you spell your name?",
+    "ja": "あなたの名前はどうつづりますか。"
+  },
+  {
+    "id": "g5-p-36",
+    "en": "What day is it today?",
+    "ja": "今日は何曜日ですか。"
+  },
+  {
+    "id": "g5-p-37",
+    "en": "It's Monday.",
+    "ja": "月曜日です。"
+  },
+  {
+    "id": "g5-p-38",
+    "en": "When is your birthday?",
+    "ja": "誕生日はいつですか。"
+  },
+  {
+    "id": "g5-p-39",
+    "en": "My birthday is in May.",
+    "ja": "わたしの誕生日は5月です。"
+  },
+  {
+    "id": "g5-p-40",
+    "en": "How many books do you have?",
+    "ja": "本を何冊持っていますか。"
+  },
+  {
+    "id": "g5-p-41",
+    "en": "I have three books.",
+    "ja": "わたしは本を3冊持っています。"
+  },
+  {
+    "id": "g5-p-42",
+    "en": "What do you want?",
+    "ja": "何が欲しいですか。"
+  },
+  {
+    "id": "g5-p-43",
+    "en": "I want some water.",
+    "ja": "わたしは水が欲しいです。"
+  },
+  {
+    "id": "g5-p-44",
+    "en": "Let's play soccer.",
+    "ja": "サッカーをしましょう。"
+  },
+  {
+    "id": "g5-p-45",
+    "en": "That sounds good.",
+    "ja": "それはいいですね。"
+  },
+  {
+    "id": "g5-p-46",
+    "en": "Can I use your pen?",
+    "ja": "あなたのペンを使ってもいいですか。"
+  },
+  {
+    "id": "g5-p-47",
+    "en": "Here you are.",
+    "ja": "はい、どうぞ。"
+  },
+  {
+    "id": "g5-p-48",
+    "en": "Please close the door.",
+    "ja": "ドアを閉めてください。"
+  },
+  {
+    "id": "g5-p-49",
+    "en": "I go to school by bus.",
+    "ja": "わたしはバスで学校に行きます。"
+  },
+  {
+    "id": "g5-p-50",
+    "en": "What are you doing?",
+    "ja": "何をしているところですか。"
+  },
+  {
+    "id": "g5-w-sandwich",
+    "en": "sandwich",
+    "ja": "サンドイッチ"
+  },
+  {
+    "id": "g5-w-hamburger",
+    "en": "hamburger",
+    "ja": "ハンバーガー"
+  },
+  {
+    "id": "g5-w-potato",
+    "en": "potato",
+    "ja": "じゃがいも"
+  },
+  {
+    "id": "g5-w-tomato",
+    "en": "tomato",
+    "ja": "トマト"
+  },
+  {
+    "id": "g5-w-carrot",
+    "en": "carrot",
+    "ja": "にんじん"
+  },
+  {
+    "id": "g5-w-onion",
+    "en": "onion",
+    "ja": "玉ねぎ"
+  },
+  {
+    "id": "g5-w-lemon",
+    "en": "lemon",
+    "ja": "レモン"
+  },
+  {
+    "id": "g5-w-peach",
+    "en": "peach",
+    "ja": "桃"
+  },
+  {
+    "id": "g5-w-melon",
+    "en": "melon",
+    "ja": "メロン"
+  },
+  {
+    "id": "g5-w-cookie",
+    "en": "cookie",
+    "ja": "クッキー"
+  },
+  {
+    "id": "g5-w-cup",
+    "en": "cup",
+    "ja": "カップ"
+  },
+  {
+    "id": "g5-w-glass",
+    "en": "glass",
+    "ja": "コップ"
+  },
+  {
+    "id": "g5-w-plate",
+    "en": "plate",
+    "ja": "皿"
+  },
+  {
+    "id": "g5-w-spoon",
+    "en": "spoon",
+    "ja": "スプーン"
+  },
+  {
+    "id": "g5-w-fork",
+    "en": "fork",
+    "ja": "フォーク"
+  },
+  {
+    "id": "g5-w-knife",
+    "en": "knife",
+    "ja": "ナイフ"
+  },
+  {
+    "id": "g5-w-bottle",
+    "en": "bottle",
+    "ja": "瓶"
+  },
+  {
+    "id": "g5-w-basket",
+    "en": "basket",
+    "ja": "かご"
+  },
+  {
+    "id": "g5-w-coin",
+    "en": "coin",
+    "ja": "硬貨"
+  },
+  {
+    "id": "g5-w-menu",
+    "en": "menu",
+    "ja": "メニュー"
+  },
+  {
+    "id": "g5-w-present",
+    "en": "present",
+    "ja": "贈り物"
+  },
+  {
+    "id": "g5-w-dollar",
+    "en": "dollar",
+    "ja": "ドル（通貨単位）"
+  },
+  {
+    "id": "g5-w-bear",
+    "en": "bear",
+    "ja": "熊"
+  },
+  {
+    "id": "g5-w-tiger",
+    "en": "tiger",
+    "ja": "虎"
+  },
+  {
+    "id": "g5-w-fox",
+    "en": "fox",
+    "ja": "きつね"
+  },
+  {
+    "id": "g5-w-sheep",
+    "en": "sheep",
+    "ja": "羊"
+  },
+  {
+    "id": "g5-w-duck",
+    "en": "duck",
+    "ja": "あひる"
+  },
+  {
+    "id": "g5-w-mouse",
+    "en": "mouse",
+    "ja": "ねずみ"
+  },
+  {
+    "id": "g5-w-turtle",
+    "en": "turtle",
+    "ja": "亀"
+  },
+  {
+    "id": "g5-w-snake",
+    "en": "snake",
+    "ja": "蛇"
+  },
+  {
+    "id": "g5-w-frog",
+    "en": "frog",
+    "ja": "蛙"
+  },
+  {
+    "id": "g5-w-butterfly",
+    "en": "butterfly",
+    "ja": "蝶"
+  },
+  {
+    "id": "g5-w-ant",
+    "en": "ant",
+    "ja": "蟻"
+  },
+  {
+    "id": "g5-w-bee",
+    "en": "bee",
+    "ja": "蜂"
+  },
+  {
+    "id": "g5-w-pet",
+    "en": "pet",
+    "ja": "ペット"
+  },
+  {
+    "id": "g5-w-flower",
+    "en": "flower",
+    "ja": "花"
+  },
+  {
+    "id": "g5-w-tree",
+    "en": "tree",
+    "ja": "木"
+  },
+  {
+    "id": "g5-w-leaf",
+    "en": "leaf",
+    "ja": "葉"
+  },
+  {
+    "id": "g5-w-river",
+    "en": "river",
+    "ja": "川"
+  },
+  {
+    "id": "g5-w-lake",
+    "en": "lake",
+    "ja": "湖"
+  },
+  {
+    "id": "g5-w-mountain",
+    "en": "mountain",
+    "ja": "山"
+  },
+  {
+    "id": "g5-w-star",
+    "en": "star",
+    "ja": "星"
+  },
+  {
+    "id": "g5-w-cloud",
+    "en": "cloud",
+    "ja": "雲"
+  },
+  {
+    "id": "g5-w-stone",
+    "en": "stone",
+    "ja": "石"
+  },
+  {
+    "id": "g5-w-island",
+    "en": "island",
+    "ja": "島"
+  },
+  {
+    "id": "g5-w-pencil-case",
+    "en": "pencil case",
+    "ja": "筆箱"
+  },
+  {
+    "id": "g5-w-textbook",
+    "en": "textbook",
+    "ja": "教科書"
+  },
+  {
+    "id": "g5-w-dictionary",
+    "en": "dictionary",
+    "ja": "辞書"
+  },
+  {
+    "id": "g5-w-letter",
+    "en": "letter",
+    "ja": "手紙"
+  },
+  {
+    "id": "g5-w-stamp",
+    "en": "stamp",
+    "ja": "切手"
+  },
+  {
+    "id": "g5-w-postcard",
+    "en": "postcard",
+    "ja": "はがき"
+  },
+  {
+    "id": "g5-w-calendar",
+    "en": "calendar",
+    "ja": "カレンダー"
+  },
+  {
+    "id": "g5-w-camera",
+    "en": "camera",
+    "ja": "カメラ"
+  },
+  {
+    "id": "g5-w-phone",
+    "en": "phone",
+    "ja": "電話"
+  },
+  {
+    "id": "g5-w-key",
+    "en": "key",
+    "ja": "鍵"
+  },
+  {
+    "id": "g5-w-umbrella",
+    "en": "umbrella",
+    "ja": "傘"
+  },
+  {
+    "id": "g5-w-bicycle",
+    "en": "bicycle",
+    "ja": "自転車"
+  },
+  {
+    "id": "g5-w-bike",
+    "en": "bike",
+    "ja": "自転車（くだけた言い方）"
+  },
+  {
+    "id": "g5-w-ball",
+    "en": "ball",
+    "ja": "ボール"
+  },
+  {
+    "id": "g5-w-bat",
+    "en": "bat",
+    "ja": "バット"
+  },
+  {
+    "id": "g5-w-racket",
+    "en": "racket",
+    "ja": "ラケット"
+  },
+  {
+    "id": "g5-w-game",
+    "en": "game",
+    "ja": "ゲーム"
+  },
+  {
+    "id": "g5-w-toy",
+    "en": "toy",
+    "ja": "おもちゃ"
+  },
+  {
+    "id": "g5-w-doll",
+    "en": "doll",
+    "ja": "人形"
+  },
+  {
+    "id": "g5-w-robot",
+    "en": "robot",
+    "ja": "ロボット"
+  },
+  {
+    "id": "g5-w-kite",
+    "en": "kite",
+    "ja": "凧"
+  },
+  {
+    "id": "g5-w-model",
+    "en": "model",
+    "ja": "模型"
+  },
+  {
+    "id": "g5-w-ticket",
+    "en": "ticket",
+    "ja": "切符"
+  },
+  {
+    "id": "g5-w-test",
+    "en": "test",
+    "ja": "テスト"
+  },
+  {
+    "id": "g5-w-question",
+    "en": "question",
+    "ja": "質問"
+  },
+  {
+    "id": "g5-w-answer",
+    "en": "answer",
+    "ja": "答え"
+  },
+  {
+    "id": "g5-w-word",
+    "en": "word",
+    "ja": "単語"
+  },
+  {
+    "id": "g5-w-page",
+    "en": "page",
+    "ja": "ページ"
+  },
+  {
+    "id": "g5-w-sentence",
+    "en": "sentence",
+    "ja": "文"
+  },
+  {
+    "id": "g5-w-story",
+    "en": "story",
+    "ja": "物語"
+  },
+  {
+    "id": "g5-w-song",
+    "en": "song",
+    "ja": "歌"
+  },
+  {
+    "id": "g5-w-movie",
+    "en": "movie",
+    "ja": "映画"
+  },
+  {
+    "id": "g5-w-cd",
+    "en": "CD",
+    "ja": "CD"
+  },
+  {
+    "id": "g5-w-table",
+    "en": "table",
+    "ja": "テーブル"
+  },
+  {
+    "id": "g5-w-bed",
+    "en": "bed",
+    "ja": "ベッド"
+  },
+  {
+    "id": "g5-w-sofa",
+    "en": "sofa",
+    "ja": "ソファ"
+  },
+  {
+    "id": "g5-w-tv",
+    "en": "TV",
+    "ja": "テレビ"
+  },
+  {
+    "id": "g5-w-television",
+    "en": "television",
+    "ja": "テレビ（正式な言い方）"
+  },
+  {
+    "id": "g5-w-radio",
+    "en": "radio",
+    "ja": "ラジオ"
+  },
+  {
+    "id": "g5-w-lamp",
+    "en": "lamp",
+    "ja": "ランプ"
+  },
+  {
+    "id": "g5-w-mirror",
+    "en": "mirror",
+    "ja": "鏡"
+  },
+  {
+    "id": "g5-w-desk-lamp",
+    "en": "desk lamp",
+    "ja": "電気スタンド"
+  },
+  {
+    "id": "g5-w-floor",
+    "en": "floor",
+    "ja": "床"
+  },
+  {
+    "id": "g5-w-wall",
+    "en": "wall",
+    "ja": "壁"
+  },
+  {
+    "id": "g5-w-roof",
+    "en": "roof",
+    "ja": "屋根"
+  },
+  {
+    "id": "g5-w-gate",
+    "en": "gate",
+    "ja": "門"
+  },
+  {
+    "id": "g5-w-building",
+    "en": "building",
+    "ja": "建物"
+  },
+  {
+    "id": "g5-w-classroom",
+    "en": "classroom",
+    "ja": "教室"
+  },
+  {
+    "id": "g5-w-gym",
+    "en": "gym",
+    "ja": "体育館"
+  },
+  {
+    "id": "g5-w-office",
+    "en": "office",
+    "ja": "事務所"
+  },
+  {
+    "id": "g5-w-post-office",
+    "en": "post office",
+    "ja": "郵便局"
+  },
+  {
+    "id": "g5-w-bank",
+    "en": "bank",
+    "ja": "銀行"
+  },
+  {
+    "id": "g5-w-hotel",
+    "en": "hotel",
+    "ja": "ホテル"
+  },
+  {
+    "id": "g5-w-museum",
+    "en": "museum",
+    "ja": "博物館"
+  },
+  {
+    "id": "g5-w-airport",
+    "en": "airport",
+    "ja": "空港"
+  },
+  {
+    "id": "g5-w-bus-stop",
+    "en": "bus stop",
+    "ja": "バス停"
+  },
+  {
+    "id": "g5-w-shop",
+    "en": "shop",
+    "ja": "店"
+  },
+  {
+    "id": "g5-w-bookstore",
+    "en": "bookstore",
+    "ja": "本屋"
+  },
+  {
+    "id": "g5-w-flower-shop",
+    "en": "flower shop",
+    "ja": "花屋"
+  },
+  {
+    "id": "g5-w-street",
+    "en": "street",
+    "ja": "通り"
+  },
+  {
+    "id": "g5-w-road",
+    "en": "road",
+    "ja": "道路"
+  },
+  {
+    "id": "g5-w-bridge",
+    "en": "bridge",
+    "ja": "橋"
+  },
+  {
+    "id": "g5-w-corner",
+    "en": "corner",
+    "ja": "角"
+  },
+  {
+    "id": "g5-w-farm",
+    "en": "farm",
+    "ja": "農場"
+  },
+  {
+    "id": "g5-w-city",
+    "en": "city",
+    "ja": "都市"
+  },
+  {
+    "id": "g5-w-village",
+    "en": "village",
+    "ja": "村"
+  },
+  {
+    "id": "g5-w-country",
+    "en": "country",
+    "ja": "国"
+  },
+  {
+    "id": "g5-w-train",
+    "en": "train",
+    "ja": "電車"
+  },
+  {
+    "id": "g5-w-plane",
+    "en": "plane",
+    "ja": "飛行機"
+  },
+  {
+    "id": "g5-w-ship",
+    "en": "ship",
+    "ja": "船"
+  },
+  {
+    "id": "g5-w-boat",
+    "en": "boat",
+    "ja": "小舟"
+  },
+  {
+    "id": "g5-w-truck",
+    "en": "truck",
+    "ja": "トラック"
+  },
+  {
+    "id": "g5-w-taxi",
+    "en": "taxi",
+    "ja": "タクシー"
+  },
+  {
+    "id": "g5-w-baby",
+    "en": "baby",
+    "ja": "赤ちゃん"
+  },
+  {
+    "id": "g5-w-child",
+    "en": "child",
+    "ja": "子ども"
+  },
+  {
+    "id": "g5-w-man",
+    "en": "man",
+    "ja": "男性"
+  },
+  {
+    "id": "g5-w-woman",
+    "en": "woman",
+    "ja": "女性"
+  },
+  {
+    "id": "g5-w-uncle",
+    "en": "uncle",
+    "ja": "おじ"
+  },
+  {
+    "id": "g5-w-aunt",
+    "en": "aunt",
+    "ja": "おば"
+  },
+  {
+    "id": "g5-w-cousin",
+    "en": "cousin",
+    "ja": "いとこ"
+  },
+  {
+    "id": "g5-w-parent",
+    "en": "parent",
+    "ja": "親"
+  },
+  {
+    "id": "g5-w-doctor",
+    "en": "doctor",
+    "ja": "医者"
+  },
+  {
+    "id": "g5-w-nurse",
+    "en": "nurse",
+    "ja": "看護師"
+  },
+  {
+    "id": "g5-w-dentist",
+    "en": "dentist",
+    "ja": "歯医者"
+  },
+  {
+    "id": "g5-w-farmer",
+    "en": "farmer",
+    "ja": "農家の人"
+  },
+  {
+    "id": "g5-w-driver",
+    "en": "driver",
+    "ja": "運転手"
+  },
+  {
+    "id": "g5-w-singer",
+    "en": "singer",
+    "ja": "歌手"
+  },
+  {
+    "id": "g5-w-player",
+    "en": "player",
+    "ja": "選手"
+  },
+  {
+    "id": "g5-w-police-officer",
+    "en": "police officer",
+    "ja": "警察官"
+  },
+  {
+    "id": "g5-w-face",
+    "en": "face",
+    "ja": "顔"
+  },
+  {
+    "id": "g5-w-arm",
+    "en": "arm",
+    "ja": "腕"
+  },
+  {
+    "id": "g5-w-leg",
+    "en": "leg",
+    "ja": "脚"
+  },
+  {
+    "id": "g5-w-foot",
+    "en": "foot",
+    "ja": "足（足首から先）"
+  },
+  {
+    "id": "g5-w-finger",
+    "en": "finger",
+    "ja": "指"
+  },
+  {
+    "id": "g5-w-tooth",
+    "en": "tooth",
+    "ja": "歯（1本）"
+  },
+  {
+    "id": "g5-w-neck",
+    "en": "neck",
+    "ja": "首"
+  },
+  {
+    "id": "g5-w-knee",
+    "en": "knee",
+    "ja": "膝"
+  },
+  {
+    "id": "g5-w-shoulder",
+    "en": "shoulder",
+    "ja": "肩"
+  },
+  {
+    "id": "g5-w-cap",
+    "en": "cap",
+    "ja": "つばのある帽子"
+  },
+  {
+    "id": "g5-w-t-shirt",
+    "en": "T-shirt",
+    "ja": "Tシャツ"
+  },
+  {
+    "id": "g5-w-sweater",
+    "en": "sweater",
+    "ja": "セーター"
+  },
+  {
+    "id": "g5-w-jacket",
+    "en": "jacket",
+    "ja": "ジャケット"
+  },
+  {
+    "id": "g5-w-skirt",
+    "en": "skirt",
+    "ja": "スカート"
+  },
+  {
+    "id": "g5-w-dress",
+    "en": "dress",
+    "ja": "ワンピース"
+  },
+  {
+    "id": "g5-w-sock",
+    "en": "sock",
+    "ja": "靴下"
+  },
+  {
+    "id": "g5-w-glove",
+    "en": "glove",
+    "ja": "手袋"
+  },
+  {
+    "id": "g5-w-boot",
+    "en": "boot",
+    "ja": "ブーツ"
+  },
+  {
+    "id": "g5-w-uniform",
+    "en": "uniform",
+    "ja": "制服"
+  },
+  {
+    "id": "g5-w-i",
+    "en": "I",
+    "ja": "わたしは"
+  },
+  {
+    "id": "g5-w-you",
+    "en": "you",
+    "ja": "あなたは・あなたたちは"
+  },
+  {
+    "id": "g5-w-he",
+    "en": "he",
+    "ja": "彼は"
+  },
+  {
+    "id": "g5-w-she",
+    "en": "she",
+    "ja": "彼女は"
+  },
+  {
+    "id": "g5-w-it",
+    "en": "it",
+    "ja": "それは"
+  },
+  {
+    "id": "g5-w-we",
+    "en": "we",
+    "ja": "わたしたちは"
+  },
+  {
+    "id": "g5-w-they",
+    "en": "they",
+    "ja": "彼らは・それらは"
+  },
+  {
+    "id": "g5-w-my",
+    "en": "my",
+    "ja": "わたしの"
+  },
+  {
+    "id": "g5-w-your",
+    "en": "your",
+    "ja": "あなたの"
+  },
+  {
+    "id": "g5-w-his",
+    "en": "his",
+    "ja": "彼の"
+  },
+  {
+    "id": "g5-w-her",
+    "en": "her",
+    "ja": "彼女の・彼女を"
+  },
+  {
+    "id": "g5-w-our",
+    "en": "our",
+    "ja": "わたしたちの"
+  },
+  {
+    "id": "g5-w-their",
+    "en": "their",
+    "ja": "彼らの"
+  },
+  {
+    "id": "g5-w-me",
+    "en": "me",
+    "ja": "わたしを・わたしに"
+  },
+  {
+    "id": "g5-w-him",
+    "en": "him",
+    "ja": "彼を・彼に"
+  },
+  {
+    "id": "g5-w-us",
+    "en": "us",
+    "ja": "わたしたちを・わたしたちに"
+  },
+  {
+    "id": "g5-w-them",
+    "en": "them",
+    "ja": "彼らを・それらを"
+  },
+  {
+    "id": "g5-w-mine",
+    "en": "mine",
+    "ja": "わたしのもの"
+  },
+  {
+    "id": "g5-w-yours",
+    "en": "yours",
+    "ja": "あなたのもの"
+  },
+  {
+    "id": "g5-w-this",
+    "en": "this",
+    "ja": "これ・この"
+  },
+  {
+    "id": "g5-w-that",
+    "en": "that",
+    "ja": "あれ・あの"
+  },
+  {
+    "id": "g5-w-these",
+    "en": "these",
+    "ja": "これら・これらの"
+  },
+  {
+    "id": "g5-w-those",
+    "en": "those",
+    "ja": "あれら・あれらの"
+  },
+  {
+    "id": "g5-w-who",
+    "en": "who",
+    "ja": "だれ"
+  },
+  {
+    "id": "g5-w-what",
+    "en": "what",
+    "ja": "何"
+  },
+  {
+    "id": "g5-w-where",
+    "en": "where",
+    "ja": "どこ"
+  },
+  {
+    "id": "g5-w-when",
+    "en": "when",
+    "ja": "いつ"
+  },
+  {
+    "id": "g5-w-whose",
+    "en": "whose",
+    "ja": "だれの"
+  },
+  {
+    "id": "g5-w-which",
+    "en": "which",
+    "ja": "どちら・どの"
+  },
+  {
+    "id": "g5-w-how",
+    "en": "how",
+    "ja": "どのように・どれくらい"
+  },
+  {
+    "id": "g5-w-why",
+    "en": "why",
+    "ja": "なぜ"
+  },
+  {
+    "id": "g5-w-a",
+    "en": "a",
+    "ja": "ひとつの（子音の音の前）"
+  },
+  {
+    "id": "g5-w-an",
+    "en": "an",
+    "ja": "ひとつの（母音の音の前）"
+  },
+  {
+    "id": "g5-w-the",
+    "en": "the",
+    "ja": "その（特定のもの）"
+  },
+  {
+    "id": "g5-w-am",
+    "en": "am",
+    "ja": "〜です（Iと使う）"
+  },
+  {
+    "id": "g5-w-is",
+    "en": "is",
+    "ja": "〜です（単数と使う）"
+  },
+  {
+    "id": "g5-w-are",
+    "en": "are",
+    "ja": "〜です（you・複数と使う）"
+  },
+  {
+    "id": "g5-w-be",
+    "en": "be",
+    "ja": "〜である（原形）"
+  },
+  {
+    "id": "g5-w-do",
+    "en": "do",
+    "ja": "〜する・疑問文などを作る"
+  },
+  {
+    "id": "g5-w-does",
+    "en": "does",
+    "ja": "doの三人称単数形"
+  },
+  {
+    "id": "g5-w-can",
+    "en": "can",
+    "ja": "〜できる"
+  },
+  {
+    "id": "g5-w-not",
+    "en": "not",
+    "ja": "〜でない"
+  },
+  {
+    "id": "g5-w-yes",
+    "en": "yes",
+    "ja": "はい"
+  },
+  {
+    "id": "g5-w-no",
+    "en": "no",
+    "ja": "いいえ"
+  },
+  {
+    "id": "g5-w-please",
+    "en": "please",
+    "ja": "どうぞ・〜してください"
+  },
+  {
+    "id": "g5-w-and",
+    "en": "and",
+    "ja": "〜と・そして"
+  },
+  {
+    "id": "g5-w-but",
+    "en": "but",
+    "ja": "しかし"
+  },
+  {
+    "id": "g5-w-or",
+    "en": "or",
+    "ja": "または"
+  },
+  {
+    "id": "g5-w-because",
+    "en": "because",
+    "ja": "なぜなら〜だから"
+  },
+  {
+    "id": "g5-w-in",
+    "en": "in",
+    "ja": "〜の中に"
+  },
+  {
+    "id": "g5-w-on",
+    "en": "on",
+    "ja": "〜の上に（接して）"
+  },
+  {
+    "id": "g5-w-under",
+    "en": "under",
+    "ja": "〜の下に"
+  },
+  {
+    "id": "g5-w-at",
+    "en": "at",
+    "ja": "〜で・時刻の〜に"
+  },
+  {
+    "id": "g5-w-to",
+    "en": "to",
+    "ja": "〜へ・〜に"
+  },
+  {
+    "id": "g5-w-from",
+    "en": "from",
+    "ja": "〜から"
+  },
+  {
+    "id": "g5-w-with",
+    "en": "with",
+    "ja": "〜と一緒に・〜を使って"
+  },
+  {
+    "id": "g5-w-for",
+    "en": "for",
+    "ja": "〜のために"
+  },
+  {
+    "id": "g5-w-of",
+    "en": "of",
+    "ja": "〜の"
+  },
+  {
+    "id": "g5-w-by",
+    "en": "by",
+    "ja": "〜で（手段）・〜のそばに"
+  },
+  {
+    "id": "g5-w-about",
+    "en": "about",
+    "ja": "〜について・約"
+  },
+  {
+    "id": "g5-w-near",
+    "en": "near",
+    "ja": "〜の近くに"
+  },
+  {
+    "id": "g5-w-behind",
+    "en": "behind",
+    "ja": "〜の後ろに"
+  },
+  {
+    "id": "g5-w-between",
+    "en": "between",
+    "ja": "〜の間に（2つ）"
+  },
+  {
+    "id": "g5-w-before",
+    "en": "before",
+    "ja": "〜の前に（時間）"
+  },
+  {
+    "id": "g5-w-after",
+    "en": "after",
+    "ja": "〜の後に（時間）"
+  },
+  {
+    "id": "g5-w-up",
+    "en": "up",
+    "ja": "上へ"
+  },
+  {
+    "id": "g5-w-down",
+    "en": "down",
+    "ja": "下へ"
+  },
+  {
+    "id": "g5-w-out",
+    "en": "out",
+    "ja": "外へ"
+  },
+  {
+    "id": "g5-w-here",
+    "en": "here",
+    "ja": "ここに"
+  },
+  {
+    "id": "g5-w-there",
+    "en": "there",
+    "ja": "そこに・あそこに"
+  },
+  {
+    "id": "g5-w-some",
+    "en": "some",
+    "ja": "いくらかの"
+  },
+  {
+    "id": "g5-w-any",
+    "en": "any",
+    "ja": "いくらかの（疑問・否定で）"
+  },
+  {
+    "id": "g5-w-many",
+    "en": "many",
+    "ja": "たくさんの（数）"
+  },
+  {
+    "id": "g5-w-much",
+    "en": "much",
+    "ja": "たくさんの（量）"
+  },
+  {
+    "id": "g5-w-all",
+    "en": "all",
+    "ja": "すべての"
+  },
+  {
+    "id": "g5-w-every",
+    "en": "every",
+    "ja": "毎〜・すべての（単数）"
+  },
+  {
+    "id": "g5-w-each",
+    "en": "each",
+    "ja": "それぞれの"
+  },
+  {
+    "id": "g5-w-other",
+    "en": "other",
+    "ja": "ほかの"
+  },
+  {
+    "id": "g5-w-another",
+    "en": "another",
+    "ja": "もうひとつの"
+  },
+  {
+    "id": "g5-w-both",
+    "en": "both",
+    "ja": "両方の"
+  },
+  {
+    "id": "g5-w-have",
+    "en": "have",
+    "ja": "持っている・食べる"
+  },
+  {
+    "id": "g5-w-has",
+    "en": "has",
+    "ja": "haveの三人称単数形"
+  },
+  {
+    "id": "g5-w-like",
+    "en": "like",
+    "ja": "好む"
+  },
+  {
+    "id": "g5-w-love",
+    "en": "love",
+    "ja": "大好きである"
+  },
+  {
+    "id": "g5-w-want",
+    "en": "want",
+    "ja": "欲しい"
+  },
+  {
+    "id": "g5-w-need",
+    "en": "need",
+    "ja": "必要とする"
+  },
+  {
+    "id": "g5-w-know",
+    "en": "know",
+    "ja": "知っている"
+  },
+  {
+    "id": "g5-w-think",
+    "en": "think",
+    "ja": "思う・考える"
+  },
+  {
+    "id": "g5-w-understand",
+    "en": "understand",
+    "ja": "理解する"
+  },
+  {
+    "id": "g5-w-remember",
+    "en": "remember",
+    "ja": "覚えている"
+  },
+  {
+    "id": "g5-w-forget",
+    "en": "forget",
+    "ja": "忘れる"
+  },
+  {
+    "id": "g5-w-see",
+    "en": "see",
+    "ja": "見える・会う"
+  },
+  {
+    "id": "g5-w-look",
+    "en": "look",
+    "ja": "見る"
+  },
+  {
+    "id": "g5-w-hear",
+    "en": "hear",
+    "ja": "聞こえる"
+  },
+  {
+    "id": "g5-w-say",
+    "en": "say",
+    "ja": "言う"
+  },
+  {
+    "id": "g5-w-tell",
+    "en": "tell",
+    "ja": "伝える"
+  },
+  {
+    "id": "g5-w-talk",
+    "en": "talk",
+    "ja": "話す"
+  },
+  {
+    "id": "g5-w-ask",
+    "en": "ask",
+    "ja": "尋ねる"
+  },
+  {
+    "id": "g5-w-help",
+    "en": "help",
+    "ja": "助ける・手伝う"
+  },
+  {
+    "id": "g5-w-use",
+    "en": "use",
+    "ja": "使う"
+  },
+  {
+    "id": "g5-w-make",
+    "en": "make",
+    "ja": "作る"
+  },
+  {
+    "id": "g5-w-take",
+    "en": "take",
+    "ja": "取る・連れて行く"
+  },
+  {
+    "id": "g5-w-give",
+    "en": "give",
+    "ja": "あげる"
+  },
+  {
+    "id": "g5-w-get",
+    "en": "get",
+    "ja": "手に入れる"
+  },
+  {
+    "id": "g5-w-put",
+    "en": "put",
+    "ja": "置く"
+  },
+  {
+    "id": "g5-w-bring",
+    "en": "bring",
+    "ja": "持ってくる"
+  },
+  {
+    "id": "g5-w-buy",
+    "en": "buy",
+    "ja": "買う"
+  },
+  {
+    "id": "g5-w-open",
+    "en": "open",
+    "ja": "開ける"
+  },
+  {
+    "id": "g5-w-close",
+    "en": "close",
+    "ja": "閉める"
+  },
+  {
+    "id": "g5-w-start",
+    "en": "start",
+    "ja": "始める"
+  },
+  {
+    "id": "g5-w-finish",
+    "en": "finish",
+    "ja": "終える"
+  },
+  {
+    "id": "g5-w-stop",
+    "en": "stop",
+    "ja": "止まる・止める"
+  },
+  {
+    "id": "g5-w-wait",
+    "en": "wait",
+    "ja": "待つ"
+  },
+  {
+    "id": "g5-w-live",
+    "en": "live",
+    "ja": "住む"
+  },
+  {
+    "id": "g5-w-work",
+    "en": "work",
+    "ja": "働く"
+  },
+  {
+    "id": "g5-w-teach",
+    "en": "teach",
+    "ja": "教える"
+  },
+  {
+    "id": "g5-w-learn",
+    "en": "learn",
+    "ja": "学ぶ"
+  },
+  {
+    "id": "g5-w-practice",
+    "en": "practice",
+    "ja": "練習する"
+  },
+  {
+    "id": "g5-w-draw",
+    "en": "draw",
+    "ja": "絵を描く"
+  },
+  {
+    "id": "g5-w-clean",
+    "en": "clean",
+    "ja": "掃除する"
+  },
+  {
+    "id": "g5-w-ride",
+    "en": "ride",
+    "ja": "乗る"
+  },
+  {
+    "id": "g5-w-drive",
+    "en": "drive",
+    "ja": "運転する"
+  },
+  {
+    "id": "g5-w-fly",
+    "en": "fly",
+    "ja": "飛ぶ"
+  },
+  {
+    "id": "g5-w-jump",
+    "en": "jump",
+    "ja": "跳ぶ"
+  },
+  {
+    "id": "g5-w-sit",
+    "en": "sit",
+    "ja": "座る"
+  },
+  {
+    "id": "g5-w-stand",
+    "en": "stand",
+    "ja": "立つ"
+  },
+  {
+    "id": "g5-w-meet",
+    "en": "meet",
+    "ja": "会う"
+  },
+  {
+    "id": "g5-w-visit",
+    "en": "visit",
+    "ja": "訪ねる"
+  },
+  {
+    "id": "g5-w-enjoy",
+    "en": "enjoy",
+    "ja": "楽しむ"
+  },
+  {
+    "id": "g5-w-stay",
+    "en": "stay",
+    "ja": "滞在する"
+  },
+  {
+    "id": "g5-w-leave",
+    "en": "leave",
+    "ja": "出発する・去る"
+  },
+  {
+    "id": "g5-w-arrive",
+    "en": "arrive",
+    "ja": "到着する"
+  },
+  {
+    "id": "g5-w-return",
+    "en": "return",
+    "ja": "戻る"
+  },
+  {
+    "id": "g5-w-carry",
+    "en": "carry",
+    "ja": "運ぶ"
+  },
+  {
+    "id": "g5-w-find",
+    "en": "find",
+    "ja": "見つける"
+  },
+  {
+    "id": "g5-w-try",
+    "en": "try",
+    "ja": "試す"
+  },
+  {
+    "id": "g5-w-turn",
+    "en": "turn",
+    "ja": "曲がる・回す"
+  },
+  {
+    "id": "g5-w-call",
+    "en": "call",
+    "ja": "電話する・呼ぶ"
+  },
+  {
+    "id": "g5-w-cut",
+    "en": "cut",
+    "ja": "切る"
+  },
+  {
+    "id": "g5-w-catch",
+    "en": "catch",
+    "ja": "捕まえる・受け止める"
+  },
+  {
+    "id": "g5-w-throw",
+    "en": "throw",
+    "ja": "投げる"
+  },
+  {
+    "id": "g5-w-kick",
+    "en": "kick",
+    "ja": "蹴る"
+  },
+  {
+    "id": "g5-w-smile",
+    "en": "smile",
+    "ja": "ほほえむ"
+  },
+  {
+    "id": "g5-w-cry",
+    "en": "cry",
+    "ja": "泣く"
+  },
+  {
+    "id": "g5-w-beautiful",
+    "en": "beautiful",
+    "ja": "美しい"
+  },
+  {
+    "id": "g5-w-cute",
+    "en": "cute",
+    "ja": "かわいい"
+  },
+  {
+    "id": "g5-w-nice",
+    "en": "nice",
+    "ja": "すてきな"
+  },
+  {
+    "id": "g5-w-great",
+    "en": "great",
+    "ja": "すばらしい"
+  },
+  {
+    "id": "g5-w-fine",
+    "en": "fine",
+    "ja": "元気な・晴れた"
+  },
+  {
+    "id": "g5-w-bad",
+    "en": "bad",
+    "ja": "悪い"
+  },
+  {
+    "id": "g5-w-sad",
+    "en": "sad",
+    "ja": "悲しい"
+  },
+  {
+    "id": "g5-w-angry",
+    "en": "angry",
+    "ja": "怒った"
+  },
+  {
+    "id": "g5-w-sleepy",
+    "en": "sleepy",
+    "ja": "眠い"
+  },
+  {
+    "id": "g5-w-thirsty",
+    "en": "thirsty",
+    "ja": "喉が渇いた"
+  },
+  {
+    "id": "g5-w-sick",
+    "en": "sick",
+    "ja": "病気の・気分が悪い"
+  },
+  {
+    "id": "g5-w-young",
+    "en": "young",
+    "ja": "若い"
+  },
+  {
+    "id": "g5-w-tall",
+    "en": "tall",
+    "ja": "背が高い"
+  },
+  {
+    "id": "g5-w-high",
+    "en": "high",
+    "ja": "高い（高さ）"
+  },
+  {
+    "id": "g5-w-low",
+    "en": "low",
+    "ja": "低い"
+  },
+  {
+    "id": "g5-w-large",
+    "en": "large",
+    "ja": "大きな（広さ・量）"
+  },
+  {
+    "id": "g5-w-little",
+    "en": "little",
+    "ja": "小さな・少しの"
+  },
+  {
+    "id": "g5-w-fast",
+    "en": "fast",
+    "ja": "速い・速く"
+  },
+  {
+    "id": "g5-w-slow",
+    "en": "slow",
+    "ja": "遅い"
+  },
+  {
+    "id": "g5-w-easy",
+    "en": "easy",
+    "ja": "簡単な"
+  },
+  {
+    "id": "g5-w-difficult",
+    "en": "difficult",
+    "ja": "難しい"
+  },
+  {
+    "id": "g5-w-interesting",
+    "en": "interesting",
+    "ja": "おもしろい（興味深い）"
+  },
+  {
+    "id": "g5-w-fun",
+    "en": "fun",
+    "ja": "楽しいこと"
+  },
+  {
+    "id": "g5-w-favorite",
+    "en": "favorite",
+    "ja": "いちばん好きな"
+  },
+  {
+    "id": "g5-w-delicious",
+    "en": "delicious",
+    "ja": "おいしい"
+  },
+  {
+    "id": "g5-w-sweet",
+    "en": "sweet",
+    "ja": "甘い"
+  },
+  {
+    "id": "g5-w-warm",
+    "en": "warm",
+    "ja": "暖かい"
+  },
+  {
+    "id": "g5-w-cool",
+    "en": "cool",
+    "ja": "涼しい"
+  },
+  {
+    "id": "g5-w-right",
+    "en": "right",
+    "ja": "右・正しい"
+  },
+  {
+    "id": "g5-w-left",
+    "en": "left",
+    "ja": "左"
+  },
+  {
+    "id": "g5-w-wrong",
+    "en": "wrong",
+    "ja": "間違った"
+  },
+  {
+    "id": "g5-w-early",
+    "en": "early",
+    "ja": "早い時間に"
+  },
+  {
+    "id": "g5-w-late",
+    "en": "late",
+    "ja": "遅れた・遅い時間に"
+  },
+  {
+    "id": "g5-w-free",
+    "en": "free",
+    "ja": "暇な・無料の"
+  },
+  {
+    "id": "g5-w-full",
+    "en": "full",
+    "ja": "いっぱいの"
+  },
+  {
+    "id": "g5-w-ready",
+    "en": "ready",
+    "ja": "準備ができた"
+  },
+  {
+    "id": "g5-w-quiet",
+    "en": "quiet",
+    "ja": "静かな"
+  },
+  {
+    "id": "g5-w-strong",
+    "en": "strong",
+    "ja": "強い"
+  },
+  {
+    "id": "g5-w-safe",
+    "en": "safe",
+    "ja": "安全な"
+  },
+  {
+    "id": "g5-w-dark",
+    "en": "dark",
+    "ja": "暗い"
+  },
+  {
+    "id": "g5-w-bright",
+    "en": "bright",
+    "ja": "明るい"
+  },
+  {
+    "id": "g5-w-brown",
+    "en": "brown",
+    "ja": "茶色の"
+  },
+  {
+    "id": "g5-w-pink",
+    "en": "pink",
+    "ja": "ピンク色の"
+  },
+  {
+    "id": "g5-w-purple",
+    "en": "purple",
+    "ja": "紫色の"
+  },
+  {
+    "id": "g5-w-gray",
+    "en": "gray",
+    "ja": "灰色の"
+  },
+  {
+    "id": "g5-w-very",
+    "en": "very",
+    "ja": "とても"
+  },
+  {
+    "id": "g5-w-well",
+    "en": "well",
+    "ja": "上手に"
+  },
+  {
+    "id": "g5-w-too",
+    "en": "too",
+    "ja": "〜も・〜すぎる"
+  },
+  {
+    "id": "g5-w-also",
+    "en": "also",
+    "ja": "〜もまた"
+  },
+  {
+    "id": "g5-w-really",
+    "en": "really",
+    "ja": "本当に"
+  },
+  {
+    "id": "g5-w-always",
+    "en": "always",
+    "ja": "いつも"
+  },
+  {
+    "id": "g5-w-usually",
+    "en": "usually",
+    "ja": "たいてい"
+  },
+  {
+    "id": "g5-w-often",
+    "en": "often",
+    "ja": "よく・しばしば"
+  },
+  {
+    "id": "g5-w-sometimes",
+    "en": "sometimes",
+    "ja": "ときどき"
+  },
+  {
+    "id": "g5-w-never",
+    "en": "never",
+    "ja": "一度も〜ない"
+  },
+  {
+    "id": "g5-w-now",
+    "en": "now",
+    "ja": "今"
+  },
+  {
+    "id": "g5-w-again",
+    "en": "again",
+    "ja": "もう一度"
+  },
+  {
+    "id": "g5-w-together",
+    "en": "together",
+    "ja": "一緒に"
+  },
+  {
+    "id": "g5-w-only",
+    "en": "only",
+    "ja": "〜だけ"
+  },
+  {
+    "id": "g5-w-soon",
+    "en": "soon",
+    "ja": "まもなく"
+  },
+  {
+    "id": "g5-w-away",
+    "en": "away",
+    "ja": "離れて"
+  },
+  {
+    "id": "g5-w-home",
+    "en": "home",
+    "ja": "家へ・自宅"
+  },
+  {
+    "id": "g5-w-outside",
+    "en": "outside",
+    "ja": "外に"
+  },
+  {
+    "id": "g5-w-inside",
+    "en": "inside",
+    "ja": "中に"
+  },
+  {
+    "id": "g5-w-time",
+    "en": "time",
+    "ja": "時間・時刻"
+  },
+  {
+    "id": "g5-w-day",
+    "en": "day",
+    "ja": "日・1日"
+  },
+  {
+    "id": "g5-w-week",
+    "en": "week",
+    "ja": "週"
+  },
+  {
+    "id": "g5-w-month",
+    "en": "month",
+    "ja": "月（期間）"
+  },
+  {
+    "id": "g5-w-year",
+    "en": "year",
+    "ja": "年"
+  },
+  {
+    "id": "g5-w-hour",
+    "en": "hour",
+    "ja": "1時間"
+  },
+  {
+    "id": "g5-w-minute",
+    "en": "minute",
+    "ja": "分"
+  },
+  {
+    "id": "g5-w-second",
+    "en": "second",
+    "ja": "秒・2番目"
+  },
+  {
+    "id": "g5-w-weekend",
+    "en": "weekend",
+    "ja": "週末"
+  },
+  {
+    "id": "g5-w-holiday",
+    "en": "holiday",
+    "ja": "休日"
+  },
+  {
+    "id": "g5-w-vacation",
+    "en": "vacation",
+    "ja": "休暇"
+  },
+  {
+    "id": "g5-w-yesterday",
+    "en": "yesterday",
+    "ja": "昨日"
+  },
+  {
+    "id": "g5-w-tonight",
+    "en": "tonight",
+    "ja": "今夜"
+  },
+  {
+    "id": "g5-w-next",
+    "en": "next",
+    "ja": "次の"
+  },
+  {
+    "id": "g5-w-last",
+    "en": "last",
+    "ja": "この前の・最後の"
+  },
+  {
+    "id": "g5-w-first",
+    "en": "first",
+    "ja": "1番目の"
+  },
+  {
+    "id": "g5-w-third",
+    "en": "third",
+    "ja": "3番目の"
+  },
+  {
+    "id": "g5-w-thirty",
+    "en": "thirty",
+    "ja": "30"
+  },
+  {
+    "id": "g5-w-forty",
+    "en": "forty",
+    "ja": "40"
+  },
+  {
+    "id": "g5-w-fifty",
+    "en": "fifty",
+    "ja": "50"
+  },
+  {
+    "id": "g5-w-sixty",
+    "en": "sixty",
+    "ja": "60"
+  },
+  {
+    "id": "g5-w-seventy",
+    "en": "seventy",
+    "ja": "70"
+  },
+  {
+    "id": "g5-w-eighty",
+    "en": "eighty",
+    "ja": "80"
+  },
+  {
+    "id": "g5-w-ninety",
+    "en": "ninety",
+    "ja": "90"
+  },
+  {
+    "id": "g5-w-hundred",
+    "en": "hundred",
+    "ja": "100"
+  },
+  {
+    "id": "g5-w-thousand",
+    "en": "thousand",
+    "ja": "1000"
+  },
+  {
+    "id": "g5-w-zero",
+    "en": "zero",
+    "ja": "0"
+  },
+  {
+    "id": "g5-w-half",
+    "en": "half",
+    "ja": "半分"
+  },
+  {
+    "id": "g5-w-yen",
+    "en": "yen",
+    "ja": "円"
+  },
+  {
+    "id": "g5-w-japan",
+    "en": "Japan",
+    "ja": "日本"
+  },
+  {
+    "id": "g5-w-japanese",
+    "en": "Japanese",
+    "ja": "日本語・日本の"
+  },
+  {
+    "id": "g5-w-america",
+    "en": "America",
+    "ja": "アメリカ合衆国"
+  },
+  {
+    "id": "g5-w-american",
+    "en": "American",
+    "ja": "アメリカの・アメリカ人"
+  },
+  {
+    "id": "g5-w-canada",
+    "en": "Canada",
+    "ja": "カナダ"
+  },
+  {
+    "id": "g5-w-australia",
+    "en": "Australia",
+    "ja": "オーストラリア"
+  },
+  {
+    "id": "g5-w-china",
+    "en": "China",
+    "ja": "中国"
+  },
+  {
+    "id": "g5-w-chinese",
+    "en": "Chinese",
+    "ja": "中国語・中国の"
+  },
+  {
+    "id": "g5-w-korea",
+    "en": "Korea",
+    "ja": "韓国・朝鮮"
+  },
+  {
+    "id": "g5-w-french",
+    "en": "French",
+    "ja": "フランス語・フランスの"
+  },
+  {
+    "id": "g5-w-science",
+    "en": "science",
+    "ja": "理科・科学"
+  },
+  {
+    "id": "g5-w-art",
+    "en": "art",
+    "ja": "美術・芸術"
+  },
+  {
+    "id": "g5-w-pe",
+    "en": "PE",
+    "ja": "体育"
+  },
+  {
+    "id": "g5-w-subject",
+    "en": "subject",
+    "ja": "教科"
+  },
+  {
+    "id": "g5-w-homework",
+    "en": "homework",
+    "ja": "宿題"
+  },
+  {
+    "id": "g5-w-lesson",
+    "en": "lesson",
+    "ja": "授業・レッスン"
+  },
+  {
+    "id": "g5-w-club",
+    "en": "club",
+    "ja": "クラブ"
+  },
+  {
+    "id": "g5-w-team",
+    "en": "team",
+    "ja": "チーム"
+  },
+  {
+    "id": "g5-w-member",
+    "en": "member",
+    "ja": "会員・一員"
+  },
+  {
+    "id": "g5-w-name",
+    "en": "name",
+    "ja": "名前"
+  },
+  {
+    "id": "g5-w-age",
+    "en": "age",
+    "ja": "年齢"
+  },
+  {
+    "id": "g5-w-number",
+    "en": "number",
+    "ja": "数・番号"
+  },
+  {
+    "id": "g5-w-color",
+    "en": "color",
+    "ja": "色"
+  },
+  {
+    "id": "g5-w-food",
+    "en": "food",
+    "ja": "食べ物"
+  },
+  {
+    "id": "g5-w-fruit",
+    "en": "fruit",
+    "ja": "果物（総称）"
+  },
+  {
+    "id": "g5-w-vegetable",
+    "en": "vegetable",
+    "ja": "野菜"
+  },
+  {
+    "id": "g5-w-coffee",
+    "en": "coffee",
+    "ja": "コーヒー"
+  },
+  {
+    "id": "g5-w-sugar",
+    "en": "sugar",
+    "ja": "砂糖"
+  },
+  {
+    "id": "g5-w-salt",
+    "en": "salt",
+    "ja": "塩"
+  },
+  {
+    "id": "g5-w-butter",
+    "en": "butter",
+    "ja": "バター"
+  },
+  {
+    "id": "g5-w-beef",
+    "en": "beef",
+    "ja": "牛肉"
+  },
+  {
+    "id": "g5-w-pork",
+    "en": "pork",
+    "ja": "豚肉"
+  },
+  {
+    "id": "g5-w-salad",
+    "en": "salad",
+    "ja": "サラダ"
+  },
+  {
+    "id": "g5-w-curry",
+    "en": "curry",
+    "ja": "カレー"
+  },
+  {
+    "id": "g5-w-pizza",
+    "en": "pizza",
+    "ja": "ピザ"
+  },
+  {
+    "id": "g5-w-spaghetti",
+    "en": "spaghetti",
+    "ja": "スパゲッティ"
+  },
+  {
+    "id": "g5-w-weather",
+    "en": "weather",
+    "ja": "天気"
+  },
+  {
+    "id": "g5-w-sky",
+    "en": "sky",
+    "ja": "空"
+  },
+  {
+    "id": "g5-w-sun",
+    "en": "sun",
+    "ja": "太陽"
+  },
+  {
+    "id": "g5-w-moon",
+    "en": "moon",
+    "ja": "月（天体）"
+  },
+  {
+    "id": "g5-w-sea",
+    "en": "sea",
+    "ja": "海"
+  },
+  {
+    "id": "g5-w-air",
+    "en": "air",
+    "ja": "空気"
+  },
+  {
+    "id": "g5-w-grass",
+    "en": "grass",
+    "ja": "草"
+  },
+  {
+    "id": "g5-w-hair",
+    "en": "hair",
+    "ja": "髪"
+  },
+  {
+    "id": "g5-w-clothes",
+    "en": "clothes",
+    "ja": "衣服"
+  },
+  {
+    "id": "g5-w-pants",
+    "en": "pants",
+    "ja": "ズボン"
+  },
+  {
+    "id": "g5-w-shorts",
+    "en": "shorts",
+    "ja": "半ズボン"
+  },
+  {
+    "id": "g5-w-shoes",
+    "en": "shoes",
+    "ja": "靴（複数）"
+  },
+  {
+    "id": "g5-w-glasses",
+    "en": "glasses",
+    "ja": "眼鏡"
+  },
+  {
+    "id": "g5-w-people",
+    "en": "people",
+    "ja": "人々"
+  },
+  {
+    "id": "g5-w-children",
+    "en": "children",
+    "ja": "子どもたち"
+  },
+  {
+    "id": "g5-w-feet",
+    "en": "feet",
+    "ja": "足（複数）"
+  },
+  {
+    "id": "g5-w-teeth",
+    "en": "teeth",
+    "ja": "歯（2本以上）"
+  },
+  {
+    "id": "g5-w-money",
+    "en": "money",
+    "ja": "お金"
+  },
+  {
+    "id": "g5-w-paper",
+    "en": "paper",
+    "ja": "紙"
+  },
+  {
+    "id": "g5-w-news",
+    "en": "news",
+    "ja": "知らせ・ニュース"
+  },
+  {
+    "id": "g5-w-idea",
+    "en": "idea",
+    "ja": "考え"
+  },
+  {
+    "id": "g5-w-thing",
+    "en": "thing",
+    "ja": "もの・こと"
+  },
+  {
+    "id": "g5-w-place",
+    "en": "place",
+    "ja": "場所"
+  },
+  {
+    "id": "g5-w-life",
+    "en": "life",
+    "ja": "生活・命"
+  },
+  {
+    "id": "g5-w-trip",
+    "en": "trip",
+    "ja": "旅行"
+  },
+  {
+    "id": "g5-w-party",
+    "en": "party",
+    "ja": "パーティー"
+  },
+  {
+    "id": "g5-w-picnic",
+    "en": "picnic",
+    "ja": "ピクニック"
+  },
+  {
+    "id": "g5-w-shopping",
+    "en": "shopping",
+    "ja": "買い物"
+  },
+  {
+    "id": "g5-w-swimming",
+    "en": "swimming",
+    "ja": "水泳"
+  },
+  {
+    "id": "g5-w-running",
+    "en": "running",
+    "ja": "走ること"
+  },
+  {
+    "id": "g5-w-fishing",
+    "en": "fishing",
+    "ja": "魚釣り"
+  },
+  {
+    "id": "g5-w-tennis-court",
+    "en": "tennis court",
+    "ja": "テニスコート"
+  },
+  {
+    "id": "g5-w-wear",
+    "en": "wear",
+    "ja": "身に着けている"
+  },
+  {
+    "id": "g5-w-brush",
+    "en": "brush",
+    "ja": "ブラシで磨く"
+  },
+  {
+    "id": "g5-w-take-a-bath",
+    "en": "take a bath",
+    "ja": "風呂に入る"
+  },
+  {
+    "id": "g5-w-go-to-bed",
+    "en": "go to bed",
+    "ja": "寝る"
+  },
+  {
+    "id": "g5-w-get-home",
+    "en": "get home",
+    "ja": "帰宅する"
+  },
+  {
+    "id": "g5-w-have-lunch",
+    "en": "have lunch",
+    "ja": "昼食を食べる"
+  },
+  {
+    "id": "g5-w-after-school",
+    "en": "after school",
+    "ja": "放課後"
+  },
+  {
+    "id": "g5-w-every-day",
+    "en": "every day",
+    "ja": "毎日"
+  },
+  {
+    "id": "g5-w-on-foot",
+    "en": "on foot",
+    "ja": "歩いて"
+  },
+  {
+    "id": "g5-w-in-front-of",
+    "en": "in front of",
+    "ja": "〜の前に（位置）"
+  },
+  {
+    "id": "g5-w-next-to",
+    "en": "next to",
+    "ja": "〜の隣に"
+  },
+  {
+    "id": "g5-w-a-lot-of",
+    "en": "a lot of",
+    "ja": "たくさんの"
+  },
+  {
+    "id": "g5-w-look-at",
+    "en": "look at",
+    "ja": "〜を見る"
+  },
+  {
+    "id": "g5-w-listen-to",
+    "en": "listen to",
+    "ja": "〜を聞く"
+  },
+  {
+    "id": "g5-w-be-from",
+    "en": "be from",
+    "ja": "〜の出身である"
+  },
+  {
+    "id": "g5-w-be-good-at",
+    "en": "be good at",
+    "ja": "〜が得意である"
+  },
+  {
+    "id": "g5-w-want-to",
+    "en": "want to",
+    "ja": "〜したい"
+  },
+  {
+    "id": "g5-w-would-like",
+    "en": "would like",
+    "ja": "〜が欲しい（丁寧）"
+  },
+  {
+    "id": "g5-w-how-much",
+    "en": "how much",
+    "ja": "値段・量はいくら"
+  },
+  {
+    "id": "g5-w-how-many",
+    "en": "how many",
+    "ja": "数はいくつ"
+  },
+  {
+    "id": "g5-w-how-old",
+    "en": "how old",
+    "ja": "何歳"
+  },
+  {
+    "id": "g5-w-how-about",
+    "en": "how about",
+    "ja": "〜はどうですか"
+  },
+  {
+    "id": "g5-p-extra-i-m-from-japan",
+    "en": "I'm from Japan.",
+    "ja": "日本出身です。"
+  },
+  {
+    "id": "g5-p-extra-where-are-you-from",
+    "en": "Where are you from?",
+    "ja": "どこの出身ですか。"
+  },
+  {
+    "id": "g5-p-extra-i-live-in-tokyo",
+    "en": "I live in Tokyo.",
+    "ja": "東京に住んでいます。"
+  },
+  {
+    "id": "g5-p-extra-where-do-you-live",
+    "en": "Where do you live?",
+    "ja": "どこに住んでいますか。"
+  },
+  {
+    "id": "g5-p-extra-who-is-that-boy",
+    "en": "Who is that boy?",
+    "ja": "あの男の子はだれですか。"
+  },
+  {
+    "id": "g5-p-extra-he-is-my-brother",
+    "en": "He is my brother.",
+    "ja": "彼はわたしの兄（弟）です。"
+  },
+  {
+    "id": "g5-p-extra-this-is-my-friend",
+    "en": "This is my friend.",
+    "ja": "こちらはわたしの友達です。"
+  },
+  {
+    "id": "g5-p-extra-is-this-your-book",
+    "en": "Is this your book?",
+    "ja": "これはあなたの本ですか。"
+  },
+  {
+    "id": "g5-p-extra-yes-it-is",
+    "en": "Yes, it is.",
+    "ja": "はい、そうです。（単数のものについて）"
+  },
+  {
+    "id": "g5-p-extra-no-it-isn-t",
+    "en": "No, it isn't.",
+    "ja": "いいえ、違います。（単数のものについて）"
+  },
+  {
+    "id": "g5-p-extra-are-you-a-student",
+    "en": "Are you a student?",
+    "ja": "あなたは生徒ですか。"
+  },
+  {
+    "id": "g5-p-extra-yes-i-am",
+    "en": "Yes, I am.",
+    "ja": "はい、そうです。（自分について）"
+  },
+  {
+    "id": "g5-p-extra-no-i-m-not",
+    "en": "No, I'm not.",
+    "ja": "いいえ、違います。（自分について）"
+  },
+  {
+    "id": "g5-p-extra-these-are-my-shoes",
+    "en": "These are my shoes.",
+    "ja": "これらはわたしの靴です。"
+  },
+  {
+    "id": "g5-p-extra-whose-pen-is-this",
+    "en": "Whose pen is this?",
+    "ja": "これはだれのペンですか。"
+  },
+  {
+    "id": "g5-p-extra-it-s-mine",
+    "en": "It's mine.",
+    "ja": "わたしのものです。"
+  },
+  {
+    "id": "g5-p-extra-what-color-is-it",
+    "en": "What color is it?",
+    "ja": "それは何色ですか。"
+  },
+  {
+    "id": "g5-p-extra-it-s-blue",
+    "en": "It's blue.",
+    "ja": "青色です。"
+  },
+  {
+    "id": "g5-p-extra-what-s-your-favorite-food",
+    "en": "What's your favorite food?",
+    "ja": "いちばん好きな食べ物は何ですか。"
+  },
+  {
+    "id": "g5-p-extra-my-favorite-food-is-curry",
+    "en": "My favorite food is curry.",
+    "ja": "いちばん好きな食べ物はカレーです。"
+  },
+  {
+    "id": "g5-p-extra-what-subject-do-you-like",
+    "en": "What subject do you like?",
+    "ja": "どの教科が好きですか。"
+  },
+  {
+    "id": "g5-p-extra-i-like-english",
+    "en": "I like English.",
+    "ja": "英語が好きです。"
+  },
+  {
+    "id": "g5-p-extra-does-she-like-tennis",
+    "en": "Does she like tennis?",
+    "ja": "彼女はテニスが好きですか。"
+  },
+  {
+    "id": "g5-p-extra-yes-she-does",
+    "en": "Yes, she does.",
+    "ja": "はい、彼女はそうです。"
+  },
+  {
+    "id": "g5-p-extra-no-she-doesn-t",
+    "en": "No, she doesn't.",
+    "ja": "いいえ、彼女は違います。"
+  },
+  {
+    "id": "g5-p-extra-he-plays-soccer-every-day",
+    "en": "He plays soccer every day.",
+    "ja": "彼は毎日サッカーをします。"
+  },
+  {
+    "id": "g5-p-extra-she-doesn-t-play-the-piano",
+    "en": "She doesn't play the piano.",
+    "ja": "彼女はピアノを弾きません。"
+  },
+  {
+    "id": "g5-p-extra-what-do-you-have-for-breakfast",
+    "en": "What do you have for breakfast?",
+    "ja": "朝食に何を食べますか。"
+  },
+  {
+    "id": "g5-p-extra-i-have-bread-and-milk",
+    "en": "I have bread and milk.",
+    "ja": "パンと牛乳をとります。"
+  },
+  {
+    "id": "g5-p-extra-when-do-you-get-up",
+    "en": "When do you get up?",
+    "ja": "いつ起きますか。"
+  },
+  {
+    "id": "g5-p-extra-i-get-up-at-seven",
+    "en": "I get up at seven.",
+    "ja": "7時に起きます。"
+  },
+  {
+    "id": "g5-p-extra-i-go-to-bed-at-nine",
+    "en": "I go to bed at nine.",
+    "ja": "9時に寝ます。"
+  },
+  {
+    "id": "g5-p-extra-what-do-you-do-after-school",
+    "en": "What do you do after school?",
+    "ja": "放課後は何をしますか。"
+  },
+  {
+    "id": "g5-p-extra-i-do-my-homework-after-school",
+    "en": "I do my homework after school.",
+    "ja": "放課後に宿題をします。"
+  },
+  {
+    "id": "g5-p-extra-how-do-you-go-to-school",
+    "en": "How do you go to school?",
+    "ja": "どうやって学校に行きますか。"
+  },
+  {
+    "id": "g5-p-extra-i-walk-to-school",
+    "en": "I walk to school.",
+    "ja": "歩いて学校へ行きます。"
+  },
+  {
+    "id": "g5-p-extra-how-much-is-this",
+    "en": "How much is this?",
+    "ja": "これはいくらですか。"
+  },
+  {
+    "id": "g5-p-extra-it-s-five-hundred-yen",
+    "en": "It's five hundred yen.",
+    "ja": "500円です。"
+  },
+  {
+    "id": "g5-p-extra-may-i-help-you",
+    "en": "May I help you?",
+    "ja": "いらっしゃいませ。何かお探しですか。"
+  },
+  {
+    "id": "g5-p-extra-i-d-like-this-one",
+    "en": "I'd like this one.",
+    "ja": "これをいただきたいです。"
+  },
+  {
+    "id": "g5-p-extra-anything-else",
+    "en": "Anything else?",
+    "ja": "ほかに何かありますか。"
+  },
+  {
+    "id": "g5-p-extra-no-thank-you",
+    "en": "No, thank you.",
+    "ja": "いいえ、結構です。"
+  },
+  {
+    "id": "g5-p-extra-can-i-have-some-water",
+    "en": "Can I have some water?",
+    "ja": "水をもらえますか。"
+  },
+  {
+    "id": "g5-p-extra-you-re-welcome",
+    "en": "You're welcome.",
+    "ja": "どういたしまして。（短縮形）"
+  },
+  {
+    "id": "g5-p-extra-i-m-hungry",
+    "en": "I'm hungry.",
+    "ja": "おなかがすいています。"
+  },
+  {
+    "id": "g5-p-extra-i-m-thirsty",
+    "en": "I'm thirsty.",
+    "ja": "喉が渇いています。"
+  },
+  {
+    "id": "g5-p-extra-let-s-have-lunch",
+    "en": "Let's have lunch.",
+    "ja": "昼食にしましょう。"
+  },
+  {
+    "id": "g5-p-extra-how-about-some-juice",
+    "en": "How about some juice?",
+    "ja": "ジュースはいかがですか。"
+  },
+  {
+    "id": "g5-p-extra-how-s-the-weather-today",
+    "en": "How's the weather today?",
+    "ja": "今日の天気はどうですか。"
+  },
+  {
+    "id": "g5-p-extra-it-s-sunny-today",
+    "en": "It's sunny today.",
+    "ja": "今日は晴れです。"
+  },
+  {
+    "id": "g5-p-extra-it-s-cold-in-winter",
+    "en": "It's cold in winter.",
+    "ja": "冬は寒いです。"
+  },
+  {
+    "id": "g5-p-extra-what-season-do-you-like",
+    "en": "What season do you like?",
+    "ja": "どの季節が好きですか。"
+  },
+  {
+    "id": "g5-p-extra-i-like-summer",
+    "en": "I like summer.",
+    "ja": "夏が好きです。"
+  },
+  {
+    "id": "g5-p-extra-what-can-you-do",
+    "en": "What can you do?",
+    "ja": "何ができますか。"
+  },
+  {
+    "id": "g5-p-extra-i-can-play-the-piano",
+    "en": "I can play the piano.",
+    "ja": "ピアノが弾けます。"
+  },
+  {
+    "id": "g5-p-extra-i-can-t-swim",
+    "en": "I can't swim.",
+    "ja": "泳げません。"
+  },
+  {
+    "id": "g5-p-extra-yes-i-can",
+    "en": "Yes, I can.",
+    "ja": "はい、できます。"
+  },
+  {
+    "id": "g5-p-extra-no-i-can-t",
+    "en": "No, I can't.",
+    "ja": "いいえ、できません。"
+  },
+  {
+    "id": "g5-p-extra-can-you-help-me",
+    "en": "Can you help me?",
+    "ja": "手伝ってくれますか。"
+  },
+  {
+    "id": "g5-p-extra-sure",
+    "en": "Sure.",
+    "ja": "もちろんです。"
+  },
+  {
+    "id": "g5-p-extra-sorry-i-can-t",
+    "en": "Sorry, I can't.",
+    "ja": "ごめんなさい、できません。"
+  },
+  {
+    "id": "g5-p-extra-let-s-go-to-the-park",
+    "en": "Let's go to the park.",
+    "ja": "公園へ行きましょう。"
+  },
+  {
+    "id": "g5-p-extra-that-s-a-good-idea",
+    "en": "That's a good idea.",
+    "ja": "それはよい考えです。"
+  },
+  {
+    "id": "g5-p-extra-sorry-i-m-busy",
+    "en": "Sorry, I'm busy.",
+    "ja": "ごめんなさい、忙しいです。"
+  },
+  {
+    "id": "g5-p-extra-are-you-free-tomorrow",
+    "en": "Are you free tomorrow?",
+    "ja": "明日は暇ですか。"
+  },
+  {
+    "id": "g5-p-extra-please-come-in",
+    "en": "Please come in.",
+    "ja": "どうぞ入ってください。"
+  },
+  {
+    "id": "g5-p-extra-please-sit-down",
+    "en": "Please sit down.",
+    "ja": "座ってください。"
+  },
+  {
+    "id": "g5-p-extra-stand-up-please",
+    "en": "Stand up, please.",
+    "ja": "立ってください。"
+  },
+  {
+    "id": "g5-p-extra-don-t-run-here",
+    "en": "Don't run here.",
+    "ja": "ここでは走らないで。"
+  },
+  {
+    "id": "g5-p-extra-be-careful",
+    "en": "Be careful.",
+    "ja": "気をつけて。"
+  },
+  {
+    "id": "g5-p-extra-please-be-quiet",
+    "en": "Please be quiet.",
+    "ja": "静かにしてください。"
+  },
+  {
+    "id": "g5-p-extra-turn-right-at-the-corner",
+    "en": "Turn right at the corner.",
+    "ja": "角で右に曲がって。"
+  },
+  {
+    "id": "g5-p-extra-the-bank-is-next-to-the-station",
+    "en": "The bank is next to the station.",
+    "ja": "銀行は駅の隣です。"
+  },
+  {
+    "id": "g5-p-extra-where-is-the-post-office",
+    "en": "Where is the post office?",
+    "ja": "郵便局はどこですか。"
+  },
+  {
+    "id": "g5-p-extra-it-s-near-the-park",
+    "en": "It's near the park.",
+    "ja": "公園の近くです。"
+  },
+  {
+    "id": "g5-p-extra-there-is-a-cat-under-the-table",
+    "en": "There is a cat under the table.",
+    "ja": "テーブルの下に猫がいます。"
+  },
+  {
+    "id": "g5-p-extra-there-are-three-books-on-the-desk",
+    "en": "There are three books on the desk.",
+    "ja": "机の上に本が3冊あります。"
+  },
+  {
+    "id": "g5-p-extra-is-he-reading-a-book",
+    "en": "Is he reading a book?",
+    "ja": "彼は本を読んでいますか。"
+  },
+  {
+    "id": "g5-p-extra-yes-he-is",
+    "en": "Yes, he is.",
+    "ja": "はい、彼はそうしています。"
+  },
+  {
+    "id": "g5-p-extra-no-he-isn-t",
+    "en": "No, he isn't.",
+    "ja": "いいえ、彼はそうしていません。"
+  },
+  {
+    "id": "g5-p-extra-they-are-playing-soccer",
+    "en": "They are playing soccer.",
+    "ja": "彼らはサッカーをしています。"
+  },
+  {
+    "id": "g5-p-extra-i-m-not-watching-tv",
+    "en": "I'm not watching TV.",
+    "ja": "テレビを見ていません。"
+  },
+  {
+    "id": "g5-p-extra-what-is-she-doing",
+    "en": "What is she doing?",
+    "ja": "彼女は何をしていますか。"
+  },
+  {
+    "id": "g5-p-extra-she-is-cooking-dinner",
+    "en": "She is cooking dinner.",
+    "ja": "彼女は夕食を作っています。"
+  },
+  {
+    "id": "g5-p-extra-i-want-to-be-a-teacher",
+    "en": "I want to be a teacher.",
+    "ja": "先生になりたいです。"
+  },
+  {
+    "id": "g5-p-extra-i-like-playing-tennis",
+    "en": "I like playing tennis.",
+    "ja": "テニスをするのが好きです。"
+  },
+  {
+    "id": "g5-p-extra-happy-birthday",
+    "en": "Happy birthday!",
+    "ja": "お誕生日おめでとう。"
+  },
+  {
+    "id": "g5-p-extra-happy-new-year",
+    "en": "Happy New Year!",
+    "ja": "あけましておめでとう。"
+  },
+  {
+    "id": "g5-p-extra-have-a-nice-day",
+    "en": "Have a nice day.",
+    "ja": "よい1日を。"
+  },
+  {
+    "id": "g5-p-extra-have-a-good-time",
+    "en": "Have a good time.",
+    "ja": "楽しんできてね。"
+  },
+  {
+    "id": "g5-p-extra-see-you-later",
+    "en": "See you later.",
+    "ja": "またあとで。"
+  },
+  {
+    "id": "g5-p-extra-take-care",
+    "en": "Take care.",
+    "ja": "元気でね。"
+  },
+  {
+    "id": "g5-p-extra-are-you-ok",
+    "en": "Are you OK?",
+    "ja": "大丈夫ですか。"
+  },
+  {
+    "id": "g5-p-extra-i-m-tired",
+    "en": "I'm tired.",
+    "ja": "疲れています。"
+  },
+  {
+    "id": "g5-p-extra-what-s-wrong",
+    "en": "What's wrong?",
+    "ja": "どうしたのですか。"
+  },
+  {
+    "id": "g5-p-extra-one-more-time-please",
+    "en": "One more time, please.",
+    "ja": "もう一度お願いします。"
+  },
+  {
+    "id": "g5-p-extra-please-speak-slowly",
+    "en": "Please speak slowly.",
+    "ja": "ゆっくり話してください。"
+  },
+  {
+    "id": "g5-p-extra-i-don-t-understand",
+    "en": "I don't understand.",
+    "ja": "わかりません。"
+  },
+  {
+    "id": "g5-p-extra-how-do-you-say-this-in-english",
+    "en": "How do you say this in English?",
+    "ja": "これは英語で何と言いますか。"
+  },
+  {
+    "id": "g5-p-extra-what-does-this-word-mean",
+    "en": "What does this word mean?",
+    "ja": "この単語はどういう意味ですか。"
+  },
+  {
+    "id": "g5-w-rj-hers",
+    "en": "hers",
+    "ja": "彼女のもの"
+  },
+  {
+    "id": "g5-w-rj-its",
+    "en": "its",
+    "ja": "それの"
+  },
+  {
+    "id": "g5-w-rj-theirs",
+    "en": "theirs",
+    "ja": "彼らのもの・それらのもの"
+  },
+  {
+    "id": "g5-w-rj-ours",
+    "en": "ours",
+    "ja": "わたしたちのもの"
+  },
+  {
+    "id": "g5-w-rj-what-color",
+    "en": "what color",
+    "ja": "何色"
+  },
+  {
+    "id": "g5-w-rj-what-sports",
+    "en": "what sports",
+    "ja": "どんなスポーツ"
+  },
+  {
+    "id": "g5-w-rj-what-food",
+    "en": "what food",
+    "ja": "どんな食べ物"
+  },
+  {
+    "id": "g5-w-rj-what-drink",
+    "en": "what drink",
+    "ja": "どんな飲み物"
+  },
+  {
+    "id": "g5-w-rj-what-animal",
+    "en": "what animal",
+    "ja": "どんな動物"
+  },
+  {
+    "id": "g5-w-rj-what-subject",
+    "en": "what subject",
+    "ja": "どの教科"
+  },
+  {
+    "id": "g5-w-rj-what-time",
+    "en": "what time",
+    "ja": "何時"
+  },
+  {
+    "id": "g5-w-rj-how-tall",
+    "en": "how tall",
+    "ja": "身長や高さがどのくらい"
+  },
+  {
+    "id": "g5-w-rj-how-long",
+    "en": "how long",
+    "ja": "長さや時間がどのくらい"
+  },
+  {
+    "id": "g5-w-rj-midnight",
+    "en": "midnight",
+    "ja": "夜の12時・真夜中"
+  },
+  {
+    "id": "g5-w-rj-autumn",
+    "en": "autumn",
+    "ja": "秋（主に英国英語）"
+  },
+  {
+    "id": "g5-w-rj-spain",
+    "en": "Spain",
+    "ja": "スペイン"
+  },
+  {
+    "id": "g5-w-rj-france",
+    "en": "France",
+    "ja": "フランス"
+  },
+  {
+    "id": "g5-w-rj-germany",
+    "en": "Germany",
+    "ja": "ドイツ"
+  },
+  {
+    "id": "g5-w-rj-brazil",
+    "en": "Brazil",
+    "ja": "ブラジル"
+  },
+  {
+    "id": "g5-w-rj-africa",
+    "en": "Africa",
+    "ja": "アフリカ"
+  },
+  {
+    "id": "g5-w-rj-asia",
+    "en": "Asia",
+    "ja": "アジア"
+  },
+  {
+    "id": "g5-w-rj-europe",
+    "en": "Europe",
+    "ja": "ヨーロッパ"
+  },
+  {
+    "id": "g5-w-rj-city-hall",
+    "en": "city hall",
+    "ja": "市役所"
+  },
+  {
+    "id": "g5-w-rj-bedroom",
+    "en": "bedroom",
+    "ja": "寝室"
+  },
+  {
+    "id": "g5-w-rj-foggy",
+    "en": "foggy",
+    "ja": "霧が出ている"
+  },
+  {
+    "id": "g5-w-rj-sunshine",
+    "en": "sunshine",
+    "ja": "日光・日ざし"
+  },
+  {
+    "id": "g5-w-rj-shower",
+    "en": "shower",
+    "ja": "にわか雨"
+  },
+  {
+    "id": "g5-w-rj-fog",
+    "en": "fog",
+    "ja": "霧"
+  },
+  {
+    "id": "g5-w-rj-clear-up",
+    "en": "clear up",
+    "ja": "天気がよくなる・晴れる"
+  },
+  {
+    "id": "g5-w-rj-dancer",
+    "en": "dancer",
+    "ja": "ダンサー・おどる人"
+  },
+  {
+    "id": "g5-w-rj-job",
+    "en": "job",
+    "ja": "仕事・職業"
+  },
+  {
+    "id": "g5-w-rj-officer",
+    "en": "officer",
+    "ja": "役人・警察官など"
+  },
+  {
+    "id": "g5-w-rj-person",
+    "en": "person",
+    "ja": "人（1人）"
+  },
+  {
+    "id": "g5-w-rj-pianist",
+    "en": "pianist",
+    "ja": "ピアニスト"
+  },
+  {
+    "id": "g5-w-rj-pilot",
+    "en": "pilot",
+    "ja": "飛行機を操縦する人"
+  },
+  {
+    "id": "g5-w-rj-waiter",
+    "en": "waiter",
+    "ja": "レストランなどの男性の給仕"
+  },
+  {
+    "id": "g5-w-rj-worker",
+    "en": "worker",
+    "ja": "働く人"
+  },
+  {
+    "id": "g5-w-rj-table-tennis",
+    "en": "table tennis",
+    "ja": "卓球"
+  },
+  {
+    "id": "g5-w-rj-surfing",
+    "en": "surfing",
+    "ja": "サーフィン"
+  },
+  {
+    "id": "g5-w-rj-marathon",
+    "en": "marathon",
+    "ja": "マラソン"
+  },
+  {
+    "id": "g5-w-rj-boxing",
+    "en": "boxing",
+    "ja": "ボクシング"
+  },
+  {
+    "id": "g5-w-rj-passport",
+    "en": "passport",
+    "ja": "パスポート・旅券"
+  },
+  {
+    "id": "g5-w-rj-animal",
+    "en": "animal",
+    "ja": "動物"
+  },
+  {
+    "id": "g5-w-rj-blackboard",
+    "en": "blackboard",
+    "ja": "黒板"
+  },
+  {
+    "id": "g5-w-rj-newspaper",
+    "en": "newspaper",
+    "ja": "新聞"
+  },
+  {
+    "id": "g5-w-rj-diary",
+    "en": "diary",
+    "ja": "日記"
+  },
+  {
+    "id": "g5-w-rj-history",
+    "en": "history",
+    "ja": "歴史"
+  },
+  {
+    "id": "g5-w-rj-dish",
+    "en": "dish",
+    "ja": "皿・料理"
+  },
+  {
+    "id": "g5-w-rj-ski",
+    "en": "ski",
+    "ja": "スキーをする"
+  },
+  {
+    "id": "g5-w-rj-camp",
+    "en": "camp",
+    "ja": "キャンプをする"
+  },
+  {
+    "id": "g5-w-rj-begin",
+    "en": "begin",
+    "ja": "始まる・始める"
+  },
+  {
+    "id": "g5-w-rj-move",
+    "en": "move",
+    "ja": "動く・動かす・引っ越す"
+  },
+  {
+    "id": "g5-w-rj-a-watch",
+    "en": "a watch",
+    "ja": "腕時計（名詞のwatch）"
+  },
+  {
+    "id": "g5-w-rj-a-drink",
+    "en": "a drink",
+    "ja": "飲み物（名詞のdrink）"
+  },
+  {
+    "id": "g5-p-rj-what-s-the-date-today",
+    "en": "What's the date today?",
+    "ja": "今日は何月何日ですか。"
+  },
+  {
+    "id": "g5-p-rj-how-do-you-get-to-the-station",
+    "en": "How do you get to the station?",
+    "ja": "駅へはどうやって行きますか。"
+  },
+  {
+    "id": "g5-p-rj-this-bag-is-his",
+    "en": "This bag is his.",
+    "ja": "このかばんは彼のものです。"
+  },
+  {
+    "id": "g5-p-rj-he-is-a-piano-player",
+    "en": "He is a piano player.",
+    "ja": "彼はピアノの演奏者です。"
+  },
+  {
+    "id": "g5-p-rj-please-ask-him-for-help",
+    "en": "Please ask him for help.",
+    "ja": "彼に助けをお願いしてください。"
+  },
+  {
+    "id": "g5-w-rj-one-o-clock",
+    "en": "one o'clock",
+    "ja": "1時"
+  },
+  {
+    "id": "g5-w-rj-two-o-clock",
+    "en": "two o'clock",
+    "ja": "2時"
+  },
+  {
+    "id": "g5-w-rj-three-o-clock",
+    "en": "three o'clock",
+    "ja": "3時"
+  },
+  {
+    "id": "g5-w-rj-four-o-clock",
+    "en": "four o'clock",
+    "ja": "4時"
+  },
+  {
+    "id": "g5-w-rj-five-o-clock",
+    "en": "five o'clock",
+    "ja": "5時"
+  },
+  {
+    "id": "g5-w-rj-six-o-clock",
+    "en": "six o'clock",
+    "ja": "6時"
+  },
+  {
+    "id": "g5-w-rj-seven-o-clock",
+    "en": "seven o'clock",
+    "ja": "7時"
+  },
+  {
+    "id": "g5-w-rj-eight-o-clock",
+    "en": "eight o'clock",
+    "ja": "8時"
+  },
+  {
+    "id": "g5-w-rj-nine-o-clock",
+    "en": "nine o'clock",
+    "ja": "9時"
+  },
+  {
+    "id": "g5-w-rj-ten-o-clock",
+    "en": "ten o'clock",
+    "ja": "10時"
+  },
+  {
+    "id": "g5-w-rj-eleven-o-clock",
+    "en": "eleven o'clock",
+    "ja": "11時"
+  },
+  {
+    "id": "g5-w-rj-twelve-o-clock",
+    "en": "twelve o'clock",
+    "ja": "12時"
+  },
+  {
+    "id": "g5-w-ph-comic",
+    "en": "comic",
+    "ja": "まんが"
+  },
+  {
+    "id": "g5-w-ph-e-mail",
+    "en": "e-mail",
+    "ja": "電子メール"
+  },
+  {
+    "id": "g5-w-ph-date",
+    "en": "date",
+    "ja": "日付"
+  },
+  {
+    "id": "g5-w-ph-classmate",
+    "en": "classmate",
+    "ja": "同じクラスの人"
+  },
+  {
+    "id": "g5-w-ph-cafeteria",
+    "en": "cafeteria",
+    "ja": "食堂"
+  },
+  {
+    "id": "g5-w-ph-ice",
+    "en": "ice",
+    "ja": "氷"
+  },
+  {
+    "id": "g5-w-ph-football",
+    "en": "football",
+    "ja": "フットボール"
+  },
+  {
+    "id": "g5-w-ph-son",
+    "en": "son",
+    "ja": "息子"
+  },
+  {
+    "id": "g5-w-ph-daughter",
+    "en": "daughter",
+    "ja": "娘"
+  },
+  {
+    "id": "g5-w-ph-rock",
+    "en": "rock",
+    "ja": "岩・ロック音楽"
+  },
+  {
+    "id": "g5-w-ph-flute",
+    "en": "flute",
+    "ja": "フルート"
+  },
+  {
+    "id": "g5-w-ph-spanish",
+    "en": "Spanish",
+    "ja": "スペイン語・スペインの"
+  },
+  {
+    "id": "g5-w-ph-meter",
+    "en": "meter",
+    "ja": "メートル"
+  },
+  {
+    "id": "g5-w-ph-wonderful",
+    "en": "wonderful",
+    "ja": "すばらしい"
+  },
+  {
+    "id": "g5-w-ph-pretty",
+    "en": "pretty",
+    "ja": "かわいらしい・きれいな"
+  },
+  {
+    "id": "g5-w-ph-then",
+    "en": "then",
+    "ja": "それから・そのとき"
+  },
+  {
+    "id": "g5-w-ph-off",
+    "en": "off",
+    "ja": "離れて・外して"
+  },
+  {
+    "id": "g5-w-ph-over",
+    "en": "over",
+    "ja": "～の上方に・～を越えて"
+  },
+  {
+    "id": "g5-w-ph-more",
+    "en": "more",
+    "ja": "もっと多くの・さらに"
+  },
+  {
+    "id": "g5-w-ph-so",
+    "en": "so",
+    "ja": "それで・だから"
+  },
+  {
+    "id": "g5-w-ph-mr",
+    "en": "Mr.",
+    "ja": "～さん（男性への敬称）"
+  },
+  {
+    "id": "g5-w-ph-ms",
+    "en": "Ms.",
+    "ja": "～さん（女性への敬称）"
+  },
+  {
+    "id": "g5-w-ph-mrs",
+    "en": "Mrs.",
+    "ja": "～さん（既婚女性への敬称）"
+  },
+  {
+    "id": "g5-w-ph-into",
+    "en": "into",
+    "ja": "～の中へ"
+  },
+  {
+    "id": "g5-w-ph-case",
+    "en": "case",
+    "ja": "ケース・入れ物"
+  },
+  {
+    "id": "g5-w-ph-package",
+    "en": "package",
+    "ja": "小包"
+  },
+  {
+    "id": "g5-w-ph-magazine",
+    "en": "magazine",
+    "ja": "雑誌"
+  },
+  {
+    "id": "g5-w-ph-soap",
+    "en": "soap",
+    "ja": "せっけん"
+  },
+  {
+    "id": "g5-w-ph-towel",
+    "en": "towel",
+    "ja": "タオル"
+  },
+  {
+    "id": "g5-w-ph-chalk",
+    "en": "chalk",
+    "ja": "チョーク"
+  },
+  {
+    "id": "g5-w-ph-exam",
+    "en": "exam",
+    "ja": "試験"
+  },
+  {
+    "id": "g5-w-ph-ground",
+    "en": "ground",
+    "ja": "地面・運動場"
+  },
+  {
+    "id": "g5-w-ph-doghouse",
+    "en": "doghouse",
+    "ja": "犬小屋"
+  },
+  {
+    "id": "g5-w-ph-telephone",
+    "en": "telephone",
+    "ja": "電話"
+  },
+  {
+    "id": "g5-w-ph-poster",
+    "en": "poster",
+    "ja": "ポスター"
+  },
+  {
+    "id": "g5-w-ph-living",
+    "en": "living",
+    "ja": "暮らし・生活"
+  },
+  {
+    "id": "g5-w-ph-backpack",
+    "en": "backpack",
+    "ja": "リュックサック"
+  },
+  {
+    "id": "g5-w-ph-police",
+    "en": "police",
+    "ja": "警察"
+  },
+  {
+    "id": "g5-w-ph-theater",
+    "en": "theater",
+    "ja": "劇場・映画館"
+  },
+  {
+    "id": "g5-w-ph-post",
+    "en": "post",
+    "ja": "郵便・郵便ポスト"
+  },
+  {
+    "id": "g5-w-ph-tower",
+    "en": "tower",
+    "ja": "塔・タワー"
+  },
+  {
+    "id": "g5-w-ph-bench",
+    "en": "bench",
+    "ja": "ベンチ"
+  },
+  {
+    "id": "g5-w-ph-softball",
+    "en": "softball",
+    "ja": "ソフトボール"
+  },
+  {
+    "id": "g5-w-ph-pineapple",
+    "en": "pineapple",
+    "ja": "パイナップル"
+  },
+  {
+    "id": "g5-w-ph-pumpkin",
+    "en": "pumpkin",
+    "ja": "かぼちゃ"
+  },
+  {
+    "id": "g5-w-ph-cucumber",
+    "en": "cucumber",
+    "ja": "きゅうり"
+  },
+  {
+    "id": "g5-w-ph-cream",
+    "en": "cream",
+    "ja": "クリーム"
+  },
+  {
+    "id": "g5-w-ph-pie",
+    "en": "pie",
+    "ja": "パイ"
+  },
+  {
+    "id": "g5-w-ph-dessert",
+    "en": "dessert",
+    "ja": "食後のデザート"
+  },
+  {
+    "id": "g5-w-ph-ham",
+    "en": "ham",
+    "ja": "ハム"
+  },
+  {
+    "id": "g5-w-ph-sushi",
+    "en": "sushi",
+    "ja": "すし"
+  },
+  {
+    "id": "g5-w-ph-sausage",
+    "en": "sausage",
+    "ja": "ソーセージ"
+  },
+  {
+    "id": "g5-w-ph-yogurt",
+    "en": "yogurt",
+    "ja": "ヨーグルト"
+  },
+  {
+    "id": "g5-w-ph-lunchbox",
+    "en": "lunchbox",
+    "ja": "弁当箱"
+  },
+  {
+    "id": "g5-w-ph-chopsticks",
+    "en": "chopsticks",
+    "ja": "箸"
+  },
+  {
+    "id": "g5-w-ph-concert",
+    "en": "concert",
+    "ja": "コンサート・音楽会"
+  },
+  {
+    "id": "g5-w-ph-band",
+    "en": "band",
+    "ja": "音楽のバンド"
+  },
+  {
+    "id": "g5-w-ph-harmonica",
+    "en": "harmonica",
+    "ja": "ハーモニカ"
+  },
+  {
+    "id": "g5-w-ph-drum",
+    "en": "drum",
+    "ja": "太鼓・ドラム"
+  },
+  {
+    "id": "g5-w-ph-violin",
+    "en": "violin",
+    "ja": "バイオリン"
+  },
+  {
+    "id": "g5-w-ph-rose",
+    "en": "rose",
+    "ja": "バラ"
+  },
+  {
+    "id": "g5-w-ph-kilogram",
+    "en": "kilogram",
+    "ja": "キログラム"
+  },
+  {
+    "id": "g5-w-ph-centimeter",
+    "en": "centimeter",
+    "ja": "センチメートル"
+  },
+  {
+    "id": "g5-w-ph-cent",
+    "en": "cent",
+    "ja": "セント"
+  },
+  {
+    "id": "g5-w-ph-hi",
+    "en": "hi",
+    "ja": "やあ・こんにちは"
+  },
+  {
+    "id": "g5-w-ph-goodbye",
+    "en": "goodbye",
+    "ja": "さようなら"
+  },
+  {
+    "id": "g5-w-ph-bye",
+    "en": "bye",
+    "ja": "じゃあね"
+  },
+  {
+    "id": "g5-w-ph-hey",
+    "en": "hey",
+    "ja": "やあ・ねえ"
+  },
+  {
+    "id": "g5-w-ph-final",
+    "en": "final",
+    "ja": "最後の"
+  },
+  {
+    "id": "g5-w-ph-main",
+    "en": "main",
+    "ja": "主な・中心の"
+  },
+  {
+    "id": "g5-w-ph-soft",
+    "en": "soft",
+    "ja": "やわらかい"
+  },
+  {
+    "id": "g5-w-ph-will",
+    "en": "will",
+    "ja": "～するつもり・～だろう"
+  },
+  {
+    "id": "g5-w-ph-welcome",
+    "en": "welcome",
+    "ja": "ようこそ・歓迎する"
+  },
+  {
+    "id": "g5-w-ph-later",
+    "en": "later",
+    "ja": "あとで・もっと遅く"
+  },
+  {
+    "id": "g5-w-ph-thank",
+    "en": "thank",
+    "ja": "感謝する"
+  },
+  {
+    "id": "g5-w-ph-orange-color",
+    "en": "orange (color)",
+    "ja": "オレンジ色"
+  },
+  {
+    "id": "g5-w-cat",
+    "en": "cat",
+    "ja": "ねこ"
+  },
+  {
+    "id": "g5-w-dog",
+    "en": "dog",
+    "ja": "いぬ"
+  },
+  {
+    "id": "g5-w-bird",
+    "en": "bird",
+    "ja": "とり"
+  },
+  {
+    "id": "g5-w-fish",
+    "en": "fish",
+    "ja": "さかな"
+  },
+  {
+    "id": "g5-w-horse",
+    "en": "horse",
+    "ja": "うま"
+  },
+  {
+    "id": "g5-w-cow",
+    "en": "cow",
+    "ja": "うし"
+  },
+  {
+    "id": "g5-w-pig",
+    "en": "pig",
+    "ja": "ぶた"
+  },
+  {
+    "id": "g5-w-sheep",
+    "en": "sheep",
+    "ja": "ひつじ"
+  },
+  {
+    "id": "g5-w-monkey",
+    "en": "monkey",
+    "ja": "さる"
+  },
+  {
+    "id": "g5-w-elephant",
+    "en": "elephant",
+    "ja": "ぞう"
+  },
+  {
+    "id": "g5-w-tiger",
+    "en": "tiger",
+    "ja": "とら"
+  },
+  {
+    "id": "g5-w-bear",
+    "en": "bear",
+    "ja": "くま"
+  },
+  {
+    "id": "game-w-14",
+    "en": "panda",
+    "ja": "パンダ"
+  },
+  {
+    "id": "g5-w-chicken",
+    "en": "chicken",
+    "ja": "にわとり"
+  },
+  {
+    "id": "g5-w-frog",
+    "en": "frog",
+    "ja": "かえる"
+  },
+  {
+    "id": "g5-w-snake",
+    "en": "snake",
+    "ja": "へび"
+  },
+  {
+    "id": "game-w-20",
+    "en": "giraffe",
+    "ja": "キリン"
+  },
+  {
+    "id": "game-w-21",
+    "en": "penguin",
+    "ja": "ペンギン"
+  },
+  {
+    "id": "game-w-22",
+    "en": "koala",
+    "ja": "コアラ"
+  },
+  {
+    "id": "game-w-23",
+    "en": "zebra",
+    "ja": "シマウマ"
+  },
+  {
+    "id": "game-w-24",
+    "en": "kangaroo",
+    "ja": "カンガルー"
+  },
+  {
+    "id": "game-w-25",
+    "en": "whale",
+    "ja": "くじら"
+  },
+  {
+    "id": "game-w-26",
+    "en": "dolphin",
+    "ja": "イルカ"
+  },
+  {
+    "id": "g5-w-turtle",
+    "en": "turtle",
+    "ja": "かめ"
+  },
+  {
+    "id": "g5-w-butterfly",
+    "en": "butterfly",
+    "ja": "ちょう"
+  },
+  {
+    "id": "g5-w-bee",
+    "en": "bee",
+    "ja": "はち"
+  },
+  {
+    "id": "g5-w-orange",
+    "en": "orange",
+    "ja": "オレンジ"
+  },
+  {
+    "id": "g5-w-grape",
+    "en": "grape",
+    "ja": "ぶどう"
+  },
+  {
+    "id": "g5-w-peach",
+    "en": "peach",
+    "ja": "もも"
+  },
+  {
+    "id": "game-w-41",
+    "en": "corn",
+    "ja": "とうもろこし"
+  },
+  {
+    "id": "g5-w-egg",
+    "en": "egg",
+    "ja": "たまご"
+  },
+  {
+    "id": "g5-w-car",
+    "en": "car",
+    "ja": "くるま"
+  },
+  {
+    "id": "g5-w-train",
+    "en": "train",
+    "ja": "でんしゃ"
+  },
+  {
+    "id": "g5-w-bike",
+    "en": "bike",
+    "ja": "じてんしゃ"
+  },
+  {
+    "id": "g5-w-plane",
+    "en": "plane",
+    "ja": "ひこうき"
+  },
+  {
+    "id": "g5-w-ship",
+    "en": "ship",
+    "ja": "ふね"
+  },
+  {
+    "id": "g5-w-book",
+    "en": "book",
+    "ja": "ほん"
+  },
+  {
+    "id": "g5-w-clock",
+    "en": "clock",
+    "ja": "とけい"
+  },
+  {
+    "id": "g5-w-umbrella",
+    "en": "umbrella",
+    "ja": "かさ"
+  },
+  {
+    "id": "g5-w-chair",
+    "en": "chair",
+    "ja": "いす"
+  },
+  {
+    "id": "g5-w-key",
+    "en": "key",
+    "ja": "かぎ"
+  },
+  {
+    "id": "g5-w-hat",
+    "en": "hat",
+    "ja": "ぼうし"
+  },
+  {
+    "id": "g5-w-shoes",
+    "en": "shoes",
+    "ja": "くつ"
+  },
+  {
+    "id": "g5-w-sun",
+    "en": "sun",
+    "ja": "たいよう"
+  },
+  {
+    "id": "g5-w-moon",
+    "en": "moon",
+    "ja": "つき"
+  },
+  {
+    "id": "g5-w-star",
+    "en": "star",
+    "ja": "ほし"
+  },
+  {
+    "id": "g5-w-rain",
+    "en": "rain",
+    "ja": "あめ"
+  },
+  {
+    "id": "g5-w-snow",
+    "en": "snow",
+    "ja": "ゆき"
+  },
+  {
+    "id": "g5-w-tree",
+    "en": "tree",
+    "ja": "き"
+  },
+  {
+    "id": "g5-w-flower",
+    "en": "flower",
+    "ja": "はな"
+  },
+  {
+    "id": "g5-w-mountain",
+    "en": "mountain",
+    "ja": "やま"
+  },
+  {
+    "id": "game-w-76",
+    "en": "fire",
+    "ja": "ひ"
+  },
+  {
+    "id": "g5-w-cloud",
+    "en": "cloud",
+    "ja": "くも"
+  },
+  {
+    "id": "g5-w-rj-animal",
+    "en": "animal",
+    "ja": "どうぶつ"
+  },
+  {
+    "id": "game-w-80",
+    "en": "goat",
+    "ja": "やぎ"
+  },
+  {
+    "id": "game-w-81",
+    "en": "deer",
+    "ja": "しか"
+  },
+  {
+    "id": "game-w-83",
+    "en": "wolf",
+    "ja": "おおかみ"
+  },
+  {
+    "id": "game-w-84",
+    "en": "owl",
+    "ja": "ふくろう"
+  },
+  {
+    "id": "g5-w-ant",
+    "en": "ant",
+    "ja": "あり"
+  },
+  {
+    "id": "game-w-86",
+    "en": "crab",
+    "ja": "かに"
+  },
+  {
+    "id": "game-w-87",
+    "en": "shark",
+    "ja": "さめ"
+  },
+  {
+    "id": "g5-w-onion",
+    "en": "onion",
+    "ja": "たまねぎ"
+  },
+  {
+    "id": "game-w-89",
+    "en": "cabbage",
+    "ja": "キャベツ"
+  },
+  {
+    "id": "g5-w-rice",
+    "en": "rice",
+    "ja": "ごはん"
+  },
+  {
+    "id": "g5-w-milk",
+    "en": "milk",
+    "ja": "ぎゅうにゅう"
+  },
+  {
+    "id": "g5-w-tea",
+    "en": "tea",
+    "ja": "おちゃ"
+  },
+  {
+    "id": "g5-w-water",
+    "en": "water",
+    "ja": "みず"
+  },
+  {
+    "id": "game-w-102",
+    "en": "hot dog",
+    "ja": "ホットドッグ"
+  },
+  {
+    "id": "game-w-105",
+    "en": "steak",
+    "ja": "ステーキ"
+  },
+  {
+    "id": "game-w-109",
+    "en": "candy",
+    "ja": "キャンディー"
+  },
+  {
+    "id": "game-w-111",
+    "en": "pudding",
+    "ja": "プリン"
+  },
+  {
+    "id": "game-w-112",
+    "en": "noodles",
+    "ja": "めん"
+  },
+  {
+    "id": "g5-w-meat",
+    "en": "meat",
+    "ja": "にく"
+  },
+  {
+    "id": "g5-w-sugar",
+    "en": "sugar",
+    "ja": "さとう"
+  },
+  {
+    "id": "g5-w-salt",
+    "en": "salt",
+    "ja": "しお"
+  },
+  {
+    "id": "g5-w-breakfast",
+    "en": "breakfast",
+    "ja": "あさごはん"
+  },
+  {
+    "id": "g5-w-lunch",
+    "en": "lunch",
+    "ja": "ひるごはん"
+  },
+  {
+    "id": "g5-w-dinner",
+    "en": "dinner",
+    "ja": "ばんごはん"
+  },
+  {
+    "id": "game-w-120",
+    "en": "snack",
+    "ja": "おやつ"
+  },
+  {
+    "id": "g5-w-food",
+    "en": "food",
+    "ja": "たべもの"
+  },
+  {
+    "id": "g5-w-drink",
+    "en": "drink",
+    "ja": "のむ・のみもの"
+  },
+  {
+    "id": "g5-w-fruit",
+    "en": "fruit",
+    "ja": "くだもの"
+  },
+  {
+    "id": "g5-w-vegetable",
+    "en": "vegetable",
+    "ja": "やさい"
+  },
+  {
+    "id": "g5-w-ph-ice",
+    "en": "ice",
+    "ja": "こおり"
+  },
+  {
+    "id": "game-w-126",
+    "en": "jam",
+    "ja": "ジャム"
+  },
+  {
+    "id": "game-w-127",
+    "en": "French fries",
+    "ja": "フライドポテト"
+  },
+  {
+    "id": "g5-w-boat",
+    "en": "boat",
+    "ja": "ボート"
+  },
+  {
+    "id": "game-w-129",
+    "en": "subway",
+    "ja": "ちかてつ"
+  },
+  {
+    "id": "game-w-130",
+    "en": "helicopter",
+    "ja": "ヘリコプター"
+  },
+  {
+    "id": "game-w-131",
+    "en": "motorbike",
+    "ja": "バイク"
+  },
+  {
+    "id": "game-w-132",
+    "en": "fire truck",
+    "ja": "しょうぼうしゃ"
+  },
+  {
+    "id": "game-w-133",
+    "en": "ambulance",
+    "ja": "きゅうきゅうしゃ"
+  },
+  {
+    "id": "game-w-134",
+    "en": "rocket",
+    "ja": "ロケット"
+  },
+  {
+    "id": "g5-w-desk",
+    "en": "desk",
+    "ja": "つくえ"
+  },
+  {
+    "id": "g5-w-window",
+    "en": "window",
+    "ja": "まど"
+  },
+  {
+    "id": "g5-w-pencil",
+    "en": "pencil",
+    "ja": "えんぴつ"
+  },
+  {
+    "id": "g5-w-eraser",
+    "en": "eraser",
+    "ja": "けしゴム"
+  },
+  {
+    "id": "g5-w-ruler",
+    "en": "ruler",
+    "ja": "じょうぎ"
+  },
+  {
+    "id": "g5-w-box",
+    "en": "box",
+    "ja": "はこ"
+  },
+  {
+    "id": "g5-w-bottle",
+    "en": "bottle",
+    "ja": "びん"
+  },
+  {
+    "id": "g5-w-ph-telephone",
+    "en": "telephone",
+    "ja": "でんわ"
+  },
+  {
+    "id": "g5-w-letter",
+    "en": "letter",
+    "ja": "てがみ"
+  },
+  {
+    "id": "g5-w-rj-newspaper",
+    "en": "newspaper",
+    "ja": "しんぶん"
+  },
+  {
+    "id": "g5-w-picture",
+    "en": "picture",
+    "ja": "え・しゃしん"
+  },
+  {
+    "id": "g5-w-map",
+    "en": "map",
+    "ja": "ちず"
+  },
+  {
+    "id": "g5-w-rj-dish",
+    "en": "dish",
+    "ja": "さら"
+  },
+  {
+    "id": "g5-w-money",
+    "en": "money",
+    "ja": "おかね"
+  },
+  {
+    "id": "g5-w-ticket",
+    "en": "ticket",
+    "ja": "チケット"
+  },
+  {
+    "id": "g5-w-present",
+    "en": "present",
+    "ja": "プレゼント"
+  },
+  {
+    "id": "g5-w-kite",
+    "en": "kite",
+    "ja": "たこ"
+  },
+  {
+    "id": "game-w-164",
+    "en": "wind",
+    "ja": "かぜ"
+  },
+  {
+    "id": "g5-w-sky",
+    "en": "sky",
+    "ja": "そら"
+  },
+  {
+    "id": "g5-w-river",
+    "en": "river",
+    "ja": "かわ"
+  },
+  {
+    "id": "g5-w-sea",
+    "en": "sea",
+    "ja": "うみ"
+  },
+  {
+    "id": "g5-w-lake",
+    "en": "lake",
+    "ja": "みずうみ"
+  },
+  {
+    "id": "game-w-169",
+    "en": "forest",
+    "ja": "もり"
+  },
+  {
+    "id": "g5-w-beach",
+    "en": "beach",
+    "ja": "はま"
+  },
+  {
+    "id": "g5-w-sunny",
+    "en": "sunny",
+    "ja": "はれ"
+  },
+  {
+    "id": "g5-w-rainy",
+    "en": "rainy",
+    "ja": "あめふり"
+  },
+  {
+    "id": "g5-w-cloudy",
+    "en": "cloudy",
+    "ja": "くもり"
+  },
+  {
+    "id": "g5-w-windy",
+    "en": "windy",
+    "ja": "かぜがつよい"
+  },
+  {
+    "id": "g5-w-snowy",
+    "en": "snowy",
+    "ja": "ゆきふり"
+  },
+  {
+    "id": "g5-w-weather",
+    "en": "weather",
+    "ja": "てんき"
+  },
+  {
+    "id": "game-w-177",
+    "en": "earth",
+    "ja": "ちきゅう"
+  },
+  {
+    "id": "g5-w-grass",
+    "en": "grass",
+    "ja": "くさ"
+  },
+  {
+    "id": "g5-w-leaf",
+    "en": "leaf",
+    "ja": "は"
+  },
+  {
+    "id": "game-w-180",
+    "en": "rainbow",
+    "ja": "にじ"
+  },
+  {
+    "id": "game-w-181",
+    "en": "world",
+    "ja": "せかい"
+  },
+  {
+    "id": "g5-w-red",
+    "en": "red",
+    "ja": "あか"
+  },
+  {
+    "id": "g5-w-blue",
+    "en": "blue",
+    "ja": "あお"
+  },
+  {
+    "id": "g5-w-yellow",
+    "en": "yellow",
+    "ja": "きいろ"
+  },
+  {
+    "id": "g5-w-green",
+    "en": "green",
+    "ja": "みどり"
+  },
+  {
+    "id": "g5-w-black",
+    "en": "black",
+    "ja": "くろ"
+  },
+  {
+    "id": "g5-w-white",
+    "en": "white",
+    "ja": "しろ"
+  },
+  {
+    "id": "g5-w-brown",
+    "en": "brown",
+    "ja": "ちゃいろ"
+  },
+  {
+    "id": "g5-w-purple",
+    "en": "purple",
+    "ja": "むらさき"
+  },
+  {
+    "id": "g5-w-pink",
+    "en": "pink",
+    "ja": "ピンク"
+  },
+  {
+    "id": "g5-w-gray",
+    "en": "gray",
+    "ja": "はいいろ"
+  },
+  {
+    "id": "game-w-192",
+    "en": "gold",
+    "ja": "きんいろ"
+  },
+  {
+    "id": "game-w-193",
+    "en": "silver",
+    "ja": "ぎんいろ"
+  },
+  {
+    "id": "g5-w-color",
+    "en": "color",
+    "ja": "いろ"
+  },
+  {
+    "id": "g5-w-zero",
+    "en": "zero",
+    "ja": "ゼロ"
+  },
+  {
+    "id": "g5-w-one",
+    "en": "one",
+    "ja": "いち"
+  },
+  {
+    "id": "g5-w-two",
+    "en": "two",
+    "ja": "に"
+  },
+  {
+    "id": "g5-w-three",
+    "en": "three",
+    "ja": "さん"
+  },
+  {
+    "id": "g5-w-four",
+    "en": "four",
+    "ja": "よん"
+  },
+  {
+    "id": "g5-w-five",
+    "en": "five",
+    "ja": "ご"
+  },
+  {
+    "id": "g5-w-six",
+    "en": "six",
+    "ja": "ろく"
+  },
+  {
+    "id": "g5-w-seven",
+    "en": "seven",
+    "ja": "なな"
+  },
+  {
+    "id": "g5-w-eight",
+    "en": "eight",
+    "ja": "はち"
+  },
+  {
+    "id": "g5-w-nine",
+    "en": "nine",
+    "ja": "きゅう"
+  },
+  {
+    "id": "g5-w-ten",
+    "en": "ten",
+    "ja": "じゅう"
+  },
+  {
+    "id": "g5-w-eleven",
+    "en": "eleven",
+    "ja": "じゅういち"
+  },
+  {
+    "id": "g5-w-twelve",
+    "en": "twelve",
+    "ja": "じゅうに"
+  },
+  {
+    "id": "g5-w-thirteen",
+    "en": "thirteen",
+    "ja": "じゅうさん"
+  },
+  {
+    "id": "g5-w-fifteen",
+    "en": "fifteen",
+    "ja": "じゅうご"
+  },
+  {
+    "id": "g5-w-twenty",
+    "en": "twenty",
+    "ja": "にじゅう"
+  },
+  {
+    "id": "g5-w-thirty",
+    "en": "thirty",
+    "ja": "さんじゅう"
+  },
+  {
+    "id": "g5-w-forty",
+    "en": "forty",
+    "ja": "よんじゅう"
+  },
+  {
+    "id": "g5-w-fifty",
+    "en": "fifty",
+    "ja": "ごじゅう"
+  },
+  {
+    "id": "g5-w-hundred",
+    "en": "hundred",
+    "ja": "ひゃく"
+  },
+  {
+    "id": "g5-w-thousand",
+    "en": "thousand",
+    "ja": "せん"
+  },
+  {
+    "id": "g5-w-first",
+    "en": "first",
+    "ja": "1ばんめ"
+  },
+  {
+    "id": "g5-w-second",
+    "en": "second",
+    "ja": "2ばんめ"
+  },
+  {
+    "id": "g5-w-third",
+    "en": "third",
+    "ja": "3ばんめ"
+  },
+  {
+    "id": "game-w-219",
+    "en": "fourth",
+    "ja": "4ばんめ"
+  },
+  {
+    "id": "game-w-220",
+    "en": "fifth",
+    "ja": "5ばんめ"
+  },
+  {
+    "id": "g5-w-half",
+    "en": "half",
+    "ja": "はんぶん"
+  },
+  {
+    "id": "g5-w-sunday",
+    "en": "Sunday",
+    "ja": "にちようび"
+  },
+  {
+    "id": "g5-w-monday",
+    "en": "Monday",
+    "ja": "げつようび"
+  },
+  {
+    "id": "g5-w-tuesday",
+    "en": "Tuesday",
+    "ja": "かようび"
+  },
+  {
+    "id": "g5-w-wednesday",
+    "en": "Wednesday",
+    "ja": "すいようび"
+  },
+  {
+    "id": "g5-w-thursday",
+    "en": "Thursday",
+    "ja": "もくようび"
+  },
+  {
+    "id": "g5-w-friday",
+    "en": "Friday",
+    "ja": "きんようび"
+  },
+  {
+    "id": "g5-w-saturday",
+    "en": "Saturday",
+    "ja": "どようび"
+  },
+  {
+    "id": "g5-w-january",
+    "en": "January",
+    "ja": "いちがつ"
+  },
+  {
+    "id": "g5-w-february",
+    "en": "February",
+    "ja": "にがつ"
+  },
+  {
+    "id": "g5-w-march",
+    "en": "March",
+    "ja": "さんがつ"
+  },
+  {
+    "id": "g5-w-april",
+    "en": "April",
+    "ja": "しがつ"
+  },
+  {
+    "id": "g5-w-may",
+    "en": "May",
+    "ja": "ごがつ"
+  },
+  {
+    "id": "g5-w-june",
+    "en": "June",
+    "ja": "ろくがつ"
+  },
+  {
+    "id": "g5-w-july",
+    "en": "July",
+    "ja": "しちがつ"
+  },
+  {
+    "id": "g5-w-august",
+    "en": "August",
+    "ja": "はちがつ"
+  },
+  {
+    "id": "g5-w-september",
+    "en": "September",
+    "ja": "くがつ"
+  },
+  {
+    "id": "g5-w-october",
+    "en": "October",
+    "ja": "じゅうがつ"
+  },
+  {
+    "id": "g5-w-november",
+    "en": "November",
+    "ja": "じゅういちがつ"
+  },
+  {
+    "id": "g5-w-december",
+    "en": "December",
+    "ja": "じゅうにがつ"
+  },
+  {
+    "id": "g5-w-today",
+    "en": "today",
+    "ja": "きょう"
+  },
+  {
+    "id": "g5-w-tomorrow",
+    "en": "tomorrow",
+    "ja": "あした"
+  },
+  {
+    "id": "g5-w-yesterday",
+    "en": "yesterday",
+    "ja": "きのう"
+  },
+  {
+    "id": "g5-w-morning",
+    "en": "morning",
+    "ja": "あさ"
+  },
+  {
+    "id": "g5-w-afternoon",
+    "en": "afternoon",
+    "ja": "ごご"
+  },
+  {
+    "id": "g5-w-evening",
+    "en": "evening",
+    "ja": "ゆうがた"
+  },
+  {
+    "id": "g5-w-night",
+    "en": "night",
+    "ja": "よる"
+  },
+  {
+    "id": "g5-w-day",
+    "en": "day",
+    "ja": "いちにち"
+  },
+  {
+    "id": "g5-w-week",
+    "en": "week",
+    "ja": "しゅう"
+  },
+  {
+    "id": "g5-w-month",
+    "en": "month",
+    "ja": "1かげつ"
+  },
+  {
+    "id": "g5-w-year",
+    "en": "year",
+    "ja": "ねん"
+  },
+  {
+    "id": "g5-w-time",
+    "en": "time",
+    "ja": "じかん"
+  },
+  {
+    "id": "g5-w-hour",
+    "en": "hour",
+    "ja": "1じかん"
+  },
+  {
+    "id": "g5-w-minute",
+    "en": "minute",
+    "ja": "ふん"
+  },
+  {
+    "id": "g5-w-now",
+    "en": "now",
+    "ja": "いま"
+  },
+  {
+    "id": "g5-w-birthday",
+    "en": "birthday",
+    "ja": "たんじょうび"
+  },
+  {
+    "id": "g5-w-weekend",
+    "en": "weekend",
+    "ja": "しゅうまつ"
+  },
+  {
+    "id": "game-w-258",
+    "en": "season",
+    "ja": "きせつ"
+  },
+  {
+    "id": "g5-w-spring",
+    "en": "spring",
+    "ja": "はる"
+  },
+  {
+    "id": "g5-w-summer",
+    "en": "summer",
+    "ja": "なつ"
+  },
+  {
+    "id": "g5-w-fall",
+    "en": "fall",
+    "ja": "あき"
+  },
+  {
+    "id": "g5-w-winter",
+    "en": "winter",
+    "ja": "ふゆ"
+  },
+  {
+    "id": "g5-w-holiday",
+    "en": "holiday",
+    "ja": "きゅうじつ"
+  },
+  {
+    "id": "g5-w-father",
+    "en": "father",
+    "ja": "おとうさん"
+  },
+  {
+    "id": "g5-w-mother",
+    "en": "mother",
+    "ja": "おかあさん"
+  },
+  {
+    "id": "game-w-266",
+    "en": "dad",
+    "ja": "パパ"
+  },
+  {
+    "id": "game-w-267",
+    "en": "mom",
+    "ja": "ママ"
+  },
+  {
+    "id": "g5-w-brother",
+    "en": "brother",
+    "ja": "あに・おとうと"
+  },
+  {
+    "id": "g5-w-sister",
+    "en": "sister",
+    "ja": "あね・いもうと"
+  },
+  {
+    "id": "g5-w-grandfather",
+    "en": "grandfather",
+    "ja": "おじいさん"
+  },
+  {
+    "id": "g5-w-grandmother",
+    "en": "grandmother",
+    "ja": "おばあさん"
+  },
+  {
+    "id": "g5-w-uncle",
+    "en": "uncle",
+    "ja": "おじさん"
+  },
+  {
+    "id": "g5-w-aunt",
+    "en": "aunt",
+    "ja": "おばさん"
+  },
+  {
+    "id": "g5-w-family",
+    "en": "family",
+    "ja": "かぞく"
+  },
+  {
+    "id": "game-w-275",
+    "en": "parents",
+    "ja": "りょうしん"
+  },
+  {
+    "id": "g5-w-ph-son",
+    "en": "son",
+    "ja": "むすこ"
+  },
+  {
+    "id": "g5-w-ph-daughter",
+    "en": "daughter",
+    "ja": "むすめ"
+  },
+  {
+    "id": "g5-w-baby",
+    "en": "baby",
+    "ja": "あかちゃん"
+  },
+  {
+    "id": "g5-w-boy",
+    "en": "boy",
+    "ja": "おとこのこ"
+  },
+  {
+    "id": "g5-w-girl",
+    "en": "girl",
+    "ja": "おんなのこ"
+  },
+  {
+    "id": "g5-w-man",
+    "en": "man",
+    "ja": "おとこのひと"
+  },
+  {
+    "id": "g5-w-woman",
+    "en": "woman",
+    "ja": "おんなのひと"
+  },
+  {
+    "id": "g5-w-friend",
+    "en": "friend",
+    "ja": "ともだち"
+  },
+  {
+    "id": "g5-w-people",
+    "en": "people",
+    "ja": "ひとびと"
+  },
+  {
+    "id": "g5-w-ph-classmate",
+    "en": "classmate",
+    "ja": "クラスメート"
+  },
+  {
+    "id": "g5-w-head",
+    "en": "head",
+    "ja": "あたま"
+  },
+  {
+    "id": "g5-w-face",
+    "en": "face",
+    "ja": "かお"
+  },
+  {
+    "id": "g5-w-eye",
+    "en": "eye",
+    "ja": "め"
+  },
+  {
+    "id": "g5-w-ear",
+    "en": "ear",
+    "ja": "みみ"
+  },
+  {
+    "id": "g5-w-nose",
+    "en": "nose",
+    "ja": "はな"
+  },
+  {
+    "id": "g5-w-mouth",
+    "en": "mouth",
+    "ja": "くち"
+  },
+  {
+    "id": "g5-w-hand",
+    "en": "hand",
+    "ja": "て"
+  },
+  {
+    "id": "g5-w-arm",
+    "en": "arm",
+    "ja": "うで"
+  },
+  {
+    "id": "g5-w-leg",
+    "en": "leg",
+    "ja": "あし"
+  },
+  {
+    "id": "g5-w-foot",
+    "en": "foot",
+    "ja": "あし(さき)"
+  },
+  {
+    "id": "g5-w-finger",
+    "en": "finger",
+    "ja": "ゆび"
+  },
+  {
+    "id": "g5-w-hair",
+    "en": "hair",
+    "ja": "かみのけ"
+  },
+  {
+    "id": "game-w-298",
+    "en": "body",
+    "ja": "からだ"
+  },
+  {
+    "id": "g5-w-tooth",
+    "en": "tooth",
+    "ja": "は"
+  },
+  {
+    "id": "g5-w-neck",
+    "en": "neck",
+    "ja": "くび"
+  },
+  {
+    "id": "game-w-301",
+    "en": "back",
+    "ja": "せなか"
+  },
+  {
+    "id": "game-w-302",
+    "en": "heart",
+    "ja": "ハート"
+  },
+  {
+    "id": "g5-w-school",
+    "en": "school",
+    "ja": "がっこう"
+  },
+  {
+    "id": "g5-w-class",
+    "en": "class",
+    "ja": "クラス"
+  },
+  {
+    "id": "g5-w-classroom",
+    "en": "classroom",
+    "ja": "きょうしつ"
+  },
+  {
+    "id": "g5-w-teacher",
+    "en": "teacher",
+    "ja": "せんせい"
+  },
+  {
+    "id": "g5-w-student",
+    "en": "student",
+    "ja": "がくせい"
+  },
+  {
+    "id": "g5-w-rj-blackboard",
+    "en": "blackboard",
+    "ja": "こくばん"
+  },
+  {
+    "id": "g5-w-homework",
+    "en": "homework",
+    "ja": "しゅくだい"
+  },
+  {
+    "id": "g5-w-lesson",
+    "en": "lesson",
+    "ja": "じゅぎょう"
+  },
+  {
+    "id": "g5-w-library",
+    "en": "library",
+    "ja": "としょしつ"
+  },
+  {
+    "id": "g5-w-gym",
+    "en": "gym",
+    "ja": "たいいくかん"
+  },
+  {
+    "id": "game-w-314",
+    "en": "playground",
+    "ja": "うんどうじょう"
+  },
+  {
+    "id": "g5-w-subject",
+    "en": "subject",
+    "ja": "きょうか"
+  },
+  {
+    "id": "g5-w-english",
+    "en": "English",
+    "ja": "えいご"
+  },
+  {
+    "id": "g5-w-japanese",
+    "en": "Japanese",
+    "ja": "にほんご"
+  },
+  {
+    "id": "g5-w-math",
+    "en": "math",
+    "ja": "さんすう"
+  },
+  {
+    "id": "g5-w-science",
+    "en": "science",
+    "ja": "りか"
+  },
+  {
+    "id": "game-w-321",
+    "en": "P.E.",
+    "ja": "たいいく"
+  },
+  {
+    "id": "g5-w-art",
+    "en": "art",
+    "ja": "ずこう"
+  },
+  {
+    "id": "game-w-323",
+    "en": "social studies",
+    "ja": "しゃかいか"
+  },
+  {
+    "id": "game-w-324",
+    "en": "bell",
+    "ja": "ベル"
+  },
+  {
+    "id": "g5-w-dictionary",
+    "en": "dictionary",
+    "ja": "じしょ"
+  },
+  {
+    "id": "g5-w-paper",
+    "en": "paper",
+    "ja": "かみ"
+  },
+  {
+    "id": "g5-w-word",
+    "en": "word",
+    "ja": "たんご"
+  },
+  {
+    "id": "g5-w-question",
+    "en": "question",
+    "ja": "しつもん"
+  },
+  {
+    "id": "g5-w-answer",
+    "en": "answer",
+    "ja": "こたえ"
+  },
+  {
+    "id": "g5-w-story",
+    "en": "story",
+    "ja": "おはなし"
+  },
+  {
+    "id": "g5-w-name",
+    "en": "name",
+    "ja": "なまえ"
+  },
+  {
+    "id": "g5-w-doctor",
+    "en": "doctor",
+    "ja": "いしゃ"
+  },
+  {
+    "id": "g5-w-nurse",
+    "en": "nurse",
+    "ja": "かんごし"
+  },
+  {
+    "id": "g5-w-farmer",
+    "en": "farmer",
+    "ja": "のうか"
+  },
+  {
+    "id": "g5-w-cook",
+    "en": "cook",
+    "ja": "コック・りょうりする"
+  },
+  {
+    "id": "g5-w-singer",
+    "en": "singer",
+    "ja": "かしゅ"
+  },
+  {
+    "id": "g5-w-rj-dancer",
+    "en": "dancer",
+    "ja": "ダンサー"
+  },
+  {
+    "id": "game-w-338",
+    "en": "artist",
+    "ja": "がか"
+  },
+  {
+    "id": "g5-w-player",
+    "en": "player",
+    "ja": "せんしゅ"
+  },
+  {
+    "id": "g5-w-driver",
+    "en": "driver",
+    "ja": "うんてんしゅ"
+  },
+  {
+    "id": "g5-w-rj-pilot",
+    "en": "pilot",
+    "ja": "パイロット"
+  },
+  {
+    "id": "g5-w-police-officer",
+    "en": "police officer",
+    "ja": "けいさつかん"
+  },
+  {
+    "id": "game-w-343",
+    "en": "firefighter",
+    "ja": "しょうぼうし"
+  },
+  {
+    "id": "game-w-344",
+    "en": "scientist",
+    "ja": "かがくしゃ"
+  },
+  {
+    "id": "game-w-345",
+    "en": "writer",
+    "ja": "さっか"
+  },
+  {
+    "id": "game-w-346",
+    "en": "baker",
+    "ja": "パンやさん"
+  },
+  {
+    "id": "game-w-347",
+    "en": "musician",
+    "ja": "おんがくか"
+  },
+  {
+    "id": "g5-w-rj-job",
+    "en": "job",
+    "ja": "しごと"
+  },
+  {
+    "id": "g5-w-house",
+    "en": "house",
+    "ja": "いえ"
+  },
+  {
+    "id": "g5-w-home",
+    "en": "home",
+    "ja": "うち"
+  },
+  {
+    "id": "g5-w-room",
+    "en": "room",
+    "ja": "へや"
+  },
+  {
+    "id": "g5-w-kitchen",
+    "en": "kitchen",
+    "ja": "だいどころ"
+  },
+  {
+    "id": "g5-w-bathroom",
+    "en": "bathroom",
+    "ja": "おふろ"
+  },
+  {
+    "id": "g5-w-rj-bedroom",
+    "en": "bedroom",
+    "ja": "しんしつ"
+  },
+  {
+    "id": "g5-w-garden",
+    "en": "garden",
+    "ja": "にわ"
+  },
+  {
+    "id": "g5-w-park",
+    "en": "park",
+    "ja": "こうえん"
+  },
+  {
+    "id": "g5-w-zoo",
+    "en": "zoo",
+    "ja": "どうぶつえん"
+  },
+  {
+    "id": "g5-w-station",
+    "en": "station",
+    "ja": "えき"
+  },
+  {
+    "id": "g5-w-hospital",
+    "en": "hospital",
+    "ja": "びょういん"
+  },
+  {
+    "id": "g5-w-shop",
+    "en": "shop",
+    "ja": "みせ"
+  },
+  {
+    "id": "g5-w-supermarket",
+    "en": "supermarket",
+    "ja": "スーパー"
+  },
+  {
+    "id": "g5-w-museum",
+    "en": "museum",
+    "ja": "はくぶつかん"
+  },
+  {
+    "id": "g5-w-post-office",
+    "en": "post office",
+    "ja": "ゆうびんきょく"
+  },
+  {
+    "id": "g5-w-bank",
+    "en": "bank",
+    "ja": "ぎんこう"
+  },
+  {
+    "id": "g5-w-city",
+    "en": "city",
+    "ja": "とし"
+  },
+  {
+    "id": "g5-w-town",
+    "en": "town",
+    "ja": "まち"
+  },
+  {
+    "id": "g5-w-airport",
+    "en": "airport",
+    "ja": "くうこう"
+  },
+  {
+    "id": "game-w-370",
+    "en": "castle",
+    "ja": "おしろ"
+  },
+  {
+    "id": "g5-w-farm",
+    "en": "farm",
+    "ja": "のうじょう"
+  },
+  {
+    "id": "g5-w-street",
+    "en": "street",
+    "ja": "どおり"
+  },
+  {
+    "id": "g5-w-bridge",
+    "en": "bridge",
+    "ja": "はし"
+  },
+  {
+    "id": "g5-w-country",
+    "en": "country",
+    "ja": "くに"
+  },
+  {
+    "id": "g5-w-japan",
+    "en": "Japan",
+    "ja": "にほん"
+  },
+  {
+    "id": "g5-w-america",
+    "en": "America",
+    "ja": "アメリカ"
+  },
+  {
+    "id": "g5-w-floor",
+    "en": "floor",
+    "ja": "ゆか"
+  },
+  {
+    "id": "g5-w-wall",
+    "en": "wall",
+    "ja": "かべ"
+  },
+  {
+    "id": "game-w-379",
+    "en": "stairs",
+    "ja": "かいだん"
+  },
+  {
+    "id": "g5-w-clothes",
+    "en": "clothes",
+    "ja": "ふく"
+  },
+  {
+    "id": "g5-w-dress",
+    "en": "dress",
+    "ja": "ドレス"
+  },
+  {
+    "id": "g5-w-cap",
+    "en": "cap",
+    "ja": "キャップ"
+  },
+  {
+    "id": "game-w-389",
+    "en": "socks",
+    "ja": "くつした"
+  },
+  {
+    "id": "game-w-390",
+    "en": "gloves",
+    "ja": "てぶくろ"
+  },
+  {
+    "id": "g5-w-glasses",
+    "en": "glasses",
+    "ja": "めがね"
+  },
+  {
+    "id": "game-w-392",
+    "en": "scarf",
+    "ja": "マフラー"
+  },
+  {
+    "id": "game-w-393",
+    "en": "jeans",
+    "ja": "ジーンズ"
+  },
+  {
+    "id": "g5-w-uniform",
+    "en": "uniform",
+    "ja": "せいふく"
+  },
+  {
+    "id": "game-w-395",
+    "en": "boots",
+    "ja": "ブーツ"
+  },
+  {
+    "id": "game-w-396",
+    "en": "ring",
+    "ja": "ゆびわ"
+  },
+  {
+    "id": "game-w-397",
+    "en": "mask",
+    "ja": "マスク"
+  },
+  {
+    "id": "g5-w-baseball",
+    "en": "baseball",
+    "ja": "やきゅう"
+  },
+  {
+    "id": "g5-w-basketball",
+    "en": "basketball",
+    "ja": "バスケットボール"
+  },
+  {
+    "id": "g5-w-volleyball",
+    "en": "volleyball",
+    "ja": "バレーボール"
+  },
+  {
+    "id": "g5-w-swimming",
+    "en": "swimming",
+    "ja": "すいえい"
+  },
+  {
+    "id": "g5-w-rj-table-tennis",
+    "en": "table tennis",
+    "ja": "たっきゅう"
+  },
+  {
+    "id": "game-w-406",
+    "en": "golf",
+    "ja": "ゴルフ"
+  },
+  {
+    "id": "game-w-407",
+    "en": "skiing",
+    "ja": "スキー"
+  },
+  {
+    "id": "game-w-408",
+    "en": "skating",
+    "ja": "スケート"
+  },
+  {
+    "id": "g5-w-sport",
+    "en": "sport",
+    "ja": "スポーツ"
+  },
+  {
+    "id": "game-w-412",
+    "en": "race",
+    "ja": "きょうそう"
+  },
+  {
+    "id": "game-w-413",
+    "en": "judo",
+    "ja": "じゅうどう"
+  },
+  {
+    "id": "g5-w-music",
+    "en": "music",
+    "ja": "おんがく"
+  },
+  {
+    "id": "g5-w-song",
+    "en": "song",
+    "ja": "うた"
+  },
+  {
+    "id": "g5-w-ph-drum",
+    "en": "drum",
+    "ja": "ドラム"
+  },
+  {
+    "id": "game-w-419",
+    "en": "trumpet",
+    "ja": "トランペット"
+  },
+  {
+    "id": "g5-w-ph-concert",
+    "en": "concert",
+    "ja": "コンサート"
+  },
+  {
+    "id": "g5-w-ph-band",
+    "en": "band",
+    "ja": "バンド"
+  },
+  {
+    "id": "g5-w-movie",
+    "en": "movie",
+    "ja": "えいが"
+  },
+  {
+    "id": "g5-w-rj-camp",
+    "en": "camp",
+    "ja": "キャンプ"
+  },
+  {
+    "id": "g5-w-go",
+    "en": "go",
+    "ja": "いく"
+  },
+  {
+    "id": "g5-w-come",
+    "en": "come",
+    "ja": "くる"
+  },
+  {
+    "id": "g5-w-eat",
+    "en": "eat",
+    "ja": "たべる"
+  },
+  {
+    "id": "g5-w-play",
+    "en": "play",
+    "ja": "あそぶ・する"
+  },
+  {
+    "id": "g5-w-run",
+    "en": "run",
+    "ja": "はしる"
+  },
+  {
+    "id": "g5-w-walk",
+    "en": "walk",
+    "ja": "あるく"
+  },
+  {
+    "id": "g5-w-swim",
+    "en": "swim",
+    "ja": "およぐ"
+  },
+  {
+    "id": "g5-w-read",
+    "en": "read",
+    "ja": "よむ"
+  },
+  {
+    "id": "g5-w-write",
+    "en": "write",
+    "ja": "(じを)かく"
+  },
+  {
+    "id": "g5-w-speak",
+    "en": "speak",
+    "ja": "はなす"
+  },
+  {
+    "id": "g5-w-listen",
+    "en": "listen",
+    "ja": "きく"
+  },
+  {
+    "id": "g5-w-watch",
+    "en": "watch",
+    "ja": "じっとみる"
+  },
+  {
+    "id": "g5-w-look",
+    "en": "look",
+    "ja": "みる(めをむける)"
+  },
+  {
+    "id": "g5-w-see",
+    "en": "see",
+    "ja": "みえる"
+  },
+  {
+    "id": "g5-w-meet",
+    "en": "meet",
+    "ja": "であう"
+  },
+  {
+    "id": "g5-w-sing",
+    "en": "sing",
+    "ja": "うたう"
+  },
+  {
+    "id": "g5-w-dance",
+    "en": "dance",
+    "ja": "おどる"
+  },
+  {
+    "id": "g5-w-study",
+    "en": "study",
+    "ja": "べんきょうする"
+  },
+  {
+    "id": "g5-w-learn",
+    "en": "learn",
+    "ja": "まなぶ"
+  },
+  {
+    "id": "g5-w-teach",
+    "en": "teach",
+    "ja": "おしえる"
+  },
+  {
+    "id": "g5-w-help",
+    "en": "help",
+    "ja": "たすける"
+  },
+  {
+    "id": "g5-w-like",
+    "en": "like",
+    "ja": "すきだ"
+  },
+  {
+    "id": "g5-w-love",
+    "en": "love",
+    "ja": "あいする"
+  },
+  {
+    "id": "g5-w-want",
+    "en": "want",
+    "ja": "ほしい"
+  },
+  {
+    "id": "g5-w-have",
+    "en": "have",
+    "ja": "もっている"
+  },
+  {
+    "id": "g5-w-make",
+    "en": "make",
+    "ja": "つくる"
+  },
+  {
+    "id": "g5-w-use",
+    "en": "use",
+    "ja": "つかう"
+  },
+  {
+    "id": "g5-w-take",
+    "en": "take",
+    "ja": "とる"
+  },
+  {
+    "id": "g5-w-buy",
+    "en": "buy",
+    "ja": "かう"
+  },
+  {
+    "id": "game-w-455",
+    "en": "sell",
+    "ja": "うる"
+  },
+  {
+    "id": "g5-w-open",
+    "en": "open",
+    "ja": "あける"
+  },
+  {
+    "id": "g5-w-close",
+    "en": "close",
+    "ja": "しめる"
+  },
+  {
+    "id": "g5-w-sit",
+    "en": "sit",
+    "ja": "すわる"
+  },
+  {
+    "id": "g5-w-stand",
+    "en": "stand",
+    "ja": "たつ"
+  },
+  {
+    "id": "g5-w-sleep",
+    "en": "sleep",
+    "ja": "ねる"
+  },
+  {
+    "id": "g5-w-get-up",
+    "en": "get up",
+    "ja": "おきる"
+  },
+  {
+    "id": "g5-w-wash",
+    "en": "wash",
+    "ja": "あらう"
+  },
+  {
+    "id": "g5-w-ride",
+    "en": "ride",
+    "ja": "のる"
+  },
+  {
+    "id": "g5-w-drive",
+    "en": "drive",
+    "ja": "うんてんする"
+  },
+  {
+    "id": "g5-w-fly",
+    "en": "fly",
+    "ja": "とぶ"
+  },
+  {
+    "id": "g5-w-jump",
+    "en": "jump",
+    "ja": "とびはねる"
+  },
+  {
+    "id": "g5-w-ask",
+    "en": "ask",
+    "ja": "たずねる"
+  },
+  {
+    "id": "g5-w-call",
+    "en": "call",
+    "ja": "よぶ"
+  },
+  {
+    "id": "g5-w-know",
+    "en": "know",
+    "ja": "しっている"
+  },
+  {
+    "id": "g5-w-think",
+    "en": "think",
+    "ja": "おもう"
+  },
+  {
+    "id": "g5-w-live",
+    "en": "live",
+    "ja": "すむ"
+  },
+  {
+    "id": "g5-w-work",
+    "en": "work",
+    "ja": "はたらく"
+  },
+  {
+    "id": "g5-w-visit",
+    "en": "visit",
+    "ja": "おとずれる"
+  },
+  {
+    "id": "g5-w-get",
+    "en": "get",
+    "ja": "てにいれる"
+  },
+  {
+    "id": "g5-w-bring",
+    "en": "bring",
+    "ja": "もってくる"
+  },
+  {
+    "id": "g5-w-carry",
+    "en": "carry",
+    "ja": "はこぶ"
+  },
+  {
+    "id": "g5-w-draw",
+    "en": "draw",
+    "ja": "(えを)かく"
+  },
+  {
+    "id": "game-w-479",
+    "en": "paint",
+    "ja": "ペンキをぬる"
+  },
+  {
+    "id": "g5-w-find",
+    "en": "find",
+    "ja": "みつける"
+  },
+  {
+    "id": "g5-w-put",
+    "en": "put",
+    "ja": "おく"
+  },
+  {
+    "id": "g5-w-say",
+    "en": "say",
+    "ja": "いう"
+  },
+  {
+    "id": "g5-w-tell",
+    "en": "tell",
+    "ja": "つたえる"
+  },
+  {
+    "id": "g5-w-wait",
+    "en": "wait",
+    "ja": "まつ"
+  },
+  {
+    "id": "g5-w-stop",
+    "en": "stop",
+    "ja": "とまる"
+  },
+  {
+    "id": "g5-w-start",
+    "en": "start",
+    "ja": "はじめる"
+  },
+  {
+    "id": "g5-w-enjoy",
+    "en": "enjoy",
+    "ja": "たのしむ"
+  },
+  {
+    "id": "g5-w-practice",
+    "en": "practice",
+    "ja": "れんしゅうする"
+  },
+  {
+    "id": "g5-w-need",
+    "en": "need",
+    "ja": "ひつようだ"
+  },
+  {
+    "id": "g5-w-try",
+    "en": "try",
+    "ja": "やってみる"
+  },
+  {
+    "id": "g5-w-wear",
+    "en": "wear",
+    "ja": "きている"
+  },
+  {
+    "id": "g5-w-cry",
+    "en": "cry",
+    "ja": "なく"
+  },
+  {
+    "id": "game-w-493",
+    "en": "laugh",
+    "ja": "わらう"
+  },
+  {
+    "id": "g5-w-do",
+    "en": "do",
+    "ja": "する"
+  },
+  {
+    "id": "g5-w-can",
+    "en": "can",
+    "ja": "できる"
+  },
+  {
+    "id": "g5-w-big",
+    "en": "big",
+    "ja": "おおきい"
+  },
+  {
+    "id": "g5-w-small",
+    "en": "small",
+    "ja": "ちいさい"
+  },
+  {
+    "id": "g5-w-long",
+    "en": "long",
+    "ja": "ながい"
+  },
+  {
+    "id": "g5-w-short",
+    "en": "short",
+    "ja": "みじかい"
+  },
+  {
+    "id": "g5-w-tall",
+    "en": "tall",
+    "ja": "せがたかい"
+  },
+  {
+    "id": "g5-w-new",
+    "en": "new",
+    "ja": "あたらしい"
+  },
+  {
+    "id": "g5-w-old",
+    "en": "old",
+    "ja": "ふるい"
+  },
+  {
+    "id": "g5-w-young",
+    "en": "young",
+    "ja": "わかい"
+  },
+  {
+    "id": "g5-w-bad",
+    "en": "bad",
+    "ja": "わるい"
+  },
+  {
+    "id": "g5-w-sad",
+    "en": "sad",
+    "ja": "かなしい"
+  },
+  {
+    "id": "g5-w-hot",
+    "en": "hot",
+    "ja": "あつい"
+  },
+  {
+    "id": "g5-w-cold",
+    "en": "cold",
+    "ja": "さむい"
+  },
+  {
+    "id": "g5-w-warm",
+    "en": "warm",
+    "ja": "あたたかい"
+  },
+  {
+    "id": "g5-w-cool",
+    "en": "cool",
+    "ja": "すずしい"
+  },
+  {
+    "id": "g5-w-fast",
+    "en": "fast",
+    "ja": "はやい"
+  },
+  {
+    "id": "g5-w-slow",
+    "en": "slow",
+    "ja": "おそい"
+  },
+  {
+    "id": "g5-w-high",
+    "en": "high",
+    "ja": "たかい"
+  },
+  {
+    "id": "g5-w-low",
+    "en": "low",
+    "ja": "ひくい"
+  },
+  {
+    "id": "g5-w-easy",
+    "en": "easy",
+    "ja": "かんたんな"
+  },
+  {
+    "id": "g5-w-difficult",
+    "en": "difficult",
+    "ja": "むずかしい"
+  },
+  {
+    "id": "game-w-519",
+    "en": "heavy",
+    "ja": "おもい"
+  },
+  {
+    "id": "game-w-520",
+    "en": "light",
+    "ja": "かるい"
+  },
+  {
+    "id": "g5-w-kind",
+    "en": "kind",
+    "ja": "しんせつな"
+  },
+  {
+    "id": "g5-w-beautiful",
+    "en": "beautiful",
+    "ja": "うつくしい"
+  },
+  {
+    "id": "g5-w-ph-pretty",
+    "en": "pretty",
+    "ja": "かわいい"
+  },
+  {
+    "id": "g5-w-fun",
+    "en": "fun",
+    "ja": "たのしい"
+  },
+  {
+    "id": "g5-w-interesting",
+    "en": "interesting",
+    "ja": "おもしろい"
+  },
+  {
+    "id": "game-w-527",
+    "en": "famous",
+    "ja": "ゆうめいな"
+  },
+  {
+    "id": "g5-w-favorite",
+    "en": "favorite",
+    "ja": "おきにいりの"
+  },
+  {
+    "id": "g5-w-busy",
+    "en": "busy",
+    "ja": "いそがしい"
+  },
+  {
+    "id": "g5-w-tired",
+    "en": "tired",
+    "ja": "つかれた"
+  },
+  {
+    "id": "g5-w-sleepy",
+    "en": "sleepy",
+    "ja": "ねむい"
+  },
+  {
+    "id": "g5-w-hungry",
+    "en": "hungry",
+    "ja": "おなかがすいた"
+  },
+  {
+    "id": "g5-w-thirsty",
+    "en": "thirsty",
+    "ja": "のどがかわいた"
+  },
+  {
+    "id": "g5-w-sick",
+    "en": "sick",
+    "ja": "びょうきの"
+  },
+  {
+    "id": "g5-w-fine",
+    "en": "fine",
+    "ja": "げんきな"
+  },
+  {
+    "id": "g5-w-clean",
+    "en": "clean",
+    "ja": "きれいな"
+  },
+  {
+    "id": "game-w-538",
+    "en": "dirty",
+    "ja": "きたない"
+  },
+  {
+    "id": "g5-w-many",
+    "en": "many",
+    "ja": "たくさんの(かず)"
+  },
+  {
+    "id": "g5-w-much",
+    "en": "much",
+    "ja": "たくさんの(りょう)"
+  },
+  {
+    "id": "g5-w-some",
+    "en": "some",
+    "ja": "いくつかの"
+  },
+  {
+    "id": "g5-w-all",
+    "en": "all",
+    "ja": "ぜんぶの"
+  },
+  {
+    "id": "g5-w-angry",
+    "en": "angry",
+    "ja": "おこった"
+  },
+  {
+    "id": "g5-w-bright",
+    "en": "bright",
+    "ja": "あかるい"
+  },
+  {
+    "id": "g5-w-dark",
+    "en": "dark",
+    "ja": "くらい"
+  },
+  {
+    "id": "g5-w-strong",
+    "en": "strong",
+    "ja": "つよい"
+  },
+  {
+    "id": "g5-w-right",
+    "en": "right",
+    "ja": "ただしい"
+  },
+  {
+    "id": "g5-w-wrong",
+    "en": "wrong",
+    "ja": "まちがった"
+  },
+  {
+    "id": "game-w-550",
+    "en": "same",
+    "ja": "おなじ"
+  },
+  {
+    "id": "game-w-551",
+    "en": "different",
+    "ja": "ちがう"
+  },
+  {
+    "id": "g5-w-late",
+    "en": "late",
+    "ja": "おくれた"
+  },
+  {
+    "id": "g5-w-early",
+    "en": "early",
+    "ja": "はやい(じかん)"
+  },
+  {
+    "id": "g5-w-i",
+    "en": "I",
+    "ja": "わたし"
+  },
+  {
+    "id": "g5-w-you",
+    "en": "you",
+    "ja": "あなた"
+  },
+  {
+    "id": "g5-w-he",
+    "en": "he",
+    "ja": "かれ"
+  },
+  {
+    "id": "g5-w-she",
+    "en": "she",
+    "ja": "かのじょ"
+  },
+  {
+    "id": "g5-w-it",
+    "en": "it",
+    "ja": "それ"
+  },
+  {
+    "id": "g5-w-we",
+    "en": "we",
+    "ja": "わたしたち"
+  },
+  {
+    "id": "g5-w-they",
+    "en": "they",
+    "ja": "かれら"
+  },
+  {
+    "id": "g5-w-his",
+    "en": "his",
+    "ja": "かれの"
+  },
+  {
+    "id": "g5-w-her",
+    "en": "her",
+    "ja": "かのじょの"
+  },
+  {
+    "id": "g5-w-their",
+    "en": "their",
+    "ja": "かれらの"
+  },
+  {
+    "id": "g5-w-this",
+    "en": "this",
+    "ja": "これ"
+  },
+  {
+    "id": "g5-w-that",
+    "en": "that",
+    "ja": "あれ"
+  },
+  {
+    "id": "g5-w-these",
+    "en": "these",
+    "ja": "これら"
+  },
+  {
+    "id": "g5-w-those",
+    "en": "those",
+    "ja": "あれら"
+  },
+  {
+    "id": "g5-w-what",
+    "en": "what",
+    "ja": "なに"
+  },
+  {
+    "id": "g5-w-how",
+    "en": "how",
+    "ja": "どうやって"
+  },
+  {
+    "id": "g5-w-which",
+    "en": "which",
+    "ja": "どれ"
+  },
+  {
+    "id": "g5-w-in",
+    "en": "in",
+    "ja": "〜のなかに"
+  },
+  {
+    "id": "g5-w-on",
+    "en": "on",
+    "ja": "〜のうえに"
+  },
+  {
+    "id": "g5-w-under",
+    "en": "under",
+    "ja": "〜のしたに"
+  },
+  {
+    "id": "g5-w-by",
+    "en": "by",
+    "ja": "〜のそばに"
+  },
+  {
+    "id": "g5-w-at",
+    "en": "at",
+    "ja": "〜で"
+  },
+  {
+    "id": "g5-w-near",
+    "en": "near",
+    "ja": "〜のちかくに"
+  },
+  {
+    "id": "g5-w-to",
+    "en": "to",
+    "ja": "〜へ"
+  },
+  {
+    "id": "g5-w-with",
+    "en": "with",
+    "ja": "〜といっしょに"
+  },
+  {
+    "id": "g5-w-about",
+    "en": "about",
+    "ja": "〜について"
+  },
+  {
+    "id": "g5-w-after",
+    "en": "after",
+    "ja": "〜のあとで"
+  },
+  {
+    "id": "g5-w-before",
+    "en": "before",
+    "ja": "〜のまえに"
+  },
+  {
+    "id": "g5-w-too",
+    "en": "too",
+    "ja": "〜も"
+  },
+  {
+    "id": "g5-w-again",
+    "en": "again",
+    "ja": "もういちど"
+  },
+  {
+    "id": "g5-w-often",
+    "en": "often",
+    "ja": "よく"
+  },
+  {
+    "id": "g5-w-never",
+    "en": "never",
+    "ja": "ぜったい〜ない"
+  },
+  {
+    "id": "g5-w-here",
+    "en": "here",
+    "ja": "ここ"
+  },
+  {
+    "id": "g5-w-there",
+    "en": "there",
+    "ja": "そこ"
+  },
+  {
+    "id": "g5-w-up",
+    "en": "up",
+    "ja": "うえへ"
+  },
+  {
+    "id": "g5-w-down",
+    "en": "down",
+    "ja": "したへ"
+  },
+  {
+    "id": "g5-w-please",
+    "en": "please",
+    "ja": "おねがいします"
+  },
+  {
+    "id": "game-w-608",
+    "en": "thanks",
+    "ja": "ありがとう"
+  },
+  {
+    "id": "game-w-609",
+    "en": "hello",
+    "ja": "こんにちは"
+  },
+  {
+    "id": "game-w-611",
+    "en": "sorry",
+    "ja": "ごめんなさい"
+  },
+  {
+    "id": "g5-w-ph-welcome",
+    "en": "welcome",
+    "ja": "ようこそ"
+  },
+  {
+    "id": "g5-w-and",
+    "en": "and",
+    "ja": "そして"
+  },
+  {
+    "id": "g5-w-but",
+    "en": "but",
+    "ja": "でも"
+  },
+  {
+    "id": "g5-w-because",
+    "en": "because",
+    "ja": "なぜなら"
+  },
+  {
+    "id": "game-w-617",
+    "en": "if",
+    "ja": "もし"
+  },
+  {
+    "id": "accent-w-hello",
+    "en": "hello",
+    "ja": "こんにちは"
+  },
+  {
+    "id": "intonation-0a",
+    "en": "Do you like cats?",
+    "ja": "ねこは すき？"
+  },
+  {
+    "id": "g5-p-20",
+    "en": "Can you swim?",
+    "ja": "およげる？"
+  },
+  {
+    "id": "intonation-0c",
+    "en": "Is this your bag?",
+    "ja": "これは あなたの かばん？"
+  },
+  {
+    "id": "intonation-0d",
+    "en": "Are you hungry?",
+    "ja": "おなか すいた？"
+  },
+  {
+    "id": "intonation-1a",
+    "en": "What's your name?",
+    "ja": "名前は なに？"
+  },
+  {
+    "id": "g5-p-extra-where-do-you-live",
+    "en": "Where do you live?",
+    "ja": "どこに すんでる？"
+  },
+  {
+    "id": "g5-p-12",
+    "en": "How old are you?",
+    "ja": "なんさい？"
+  },
+  {
+    "id": "g5-p-27",
+    "en": "What time is it?",
+    "ja": "いま なん時？"
+  },
+  {
+    "id": "intonation-2a",
+    "en": "Do you like cats or dogs?",
+    "ja": "ねこと いぬ、どっちが すき？"
+  },
+  {
+    "id": "intonation-2b",
+    "en": "Is it red or blue?",
+    "ja": "赤？青？"
+  },
+  {
+    "id": "intonation-2c",
+    "en": "Do you want tea or coffee?",
+    "ja": "おちゃ？コーヒー？"
+  },
+  {
+    "id": "intonation-2d",
+    "en": "Do you want rice or bread?",
+    "ja": "ごはん？パン？"
+  },
+  {
+    "id": "intonation-3a",
+    "en": "Would you like milk, juice, or water?",
+    "ja": "ミルク、ジュース、水、どれにする？"
+  },
+  {
+    "id": "intonation-3b",
+    "en": "Do you like apples, bananas, or grapes?",
+    "ja": "りんご、バナナ、ぶどう、どれが すき？"
+  },
+  {
+    "id": "intonation-3c",
+    "en": "Is it a cat, a dog, or a rabbit?",
+    "ja": "ねこ、いぬ、うさぎ、どれ？"
+  },
+  {
+    "id": "intonation-4a",
+    "en": "You like soccer?",
+    "ja": "サッカー、すきなの？"
+  },
+  {
+    "id": "intonation-4b",
+    "en": "You're a teacher?",
+    "ja": "先生なの？"
+  },
+  {
+    "id": "intonation-4c",
+    "en": "This is yours?",
+    "ja": "これ、あなたの？"
+  },
+  {
+    "id": "g5-p-extra-can-i-have-some-water",
+    "en": "Can I have some water?",
+    "ja": "お水を もらえますか？"
+  },
+  {
+    "id": "intonation-5b",
+    "en": "Would you like some tea?",
+    "ja": "おちゃは いかがですか？"
+  },
+  {
+    "id": "g5-p-extra-can-you-help-me",
+    "en": "Can you help me?",
+    "ja": "手つだってくれる？"
+  },
+  {
+    "id": "intonation-5d",
+    "en": "Shall we play?",
+    "ja": "あそぼうか？"
+  },
+  {
+    "id": "intonation-6a",
+    "en": "It's a nice day, isn't it?",
+    "ja": "「いい天気だね」（そう思ってる）"
+  },
+  {
+    "id": "intonation-6b",
+    "en": "This is fun, isn't it?",
+    "ja": "「楽しいよね」（そう思ってる）"
+  },
+  {
+    "id": "intonation-6c",
+    "en": "You're Ken, aren't you?",
+    "ja": "「ケンだよね？」（じしんが ない）"
+  },
+  {
+    "id": "intonation-6d",
+    "en": "He can swim, can't he?",
+    "ja": "「およげるよね？」（よく しらない）"
+  },
+  {
+    "id": "intonation-7a",
+    "en": "Really?",
+    "ja": "ほんとう？"
+  },
+  {
+    "id": "intonation-7b",
+    "en": "You did?",
+    "ja": "そうなの？"
+  },
+  {
+    "id": "intonation-7c",
+    "en": "Pardon?",
+    "ja": "もういちど言って？"
+  },
+  {
+    "id": "grammar-word-order-1",
+    "en": "I like dogs.",
+    "ja": "私は犬が好きです。"
+  },
+  {
+    "id": "grammar-word-order-2",
+    "en": "We play tennis.",
+    "ja": "私たちはテニスをします。"
+  },
+  {
+    "id": "grammar-word-order-3",
+    "en": "She is happy.",
+    "ja": "彼女はうれしいです。"
+  },
+  {
+    "id": "grammar-word-order-4",
+    "en": "I like cats.",
+    "ja": "私は猫が好きです。"
+  },
+  {
+    "id": "grammar-word-order-5",
+    "en": "They eat apples.",
+    "ja": "彼らはりんごを食べます。"
+  },
+  {
+    "id": "grammar-word-order-6",
+    "en": "You are kind.",
+    "ja": "あなたは親切です。"
+  },
+  {
+    "id": "grammar-subjects-1",
+    "en": "He is Ken.",
+    "ja": "彼はケンです。"
+  },
+  {
+    "id": "grammar-subjects-2",
+    "en": "She is Anna.",
+    "ja": "彼女はアンナです。"
+  },
+  {
+    "id": "grammar-subjects-3",
+    "en": "They are friends.",
+    "ja": "彼らは友達です。"
+  },
+  {
+    "id": "grammar-subjects-4",
+    "en": "We are friends.",
+    "ja": "私たちは友達です。"
+  },
+  {
+    "id": "grammar-subjects-5",
+    "en": "They are books.",
+    "ja": "それらは本です。"
+  },
+  {
+    "id": "grammar-subjects-6",
+    "en": "It is a book.",
+    "ja": "それは本です。"
+  },
+  {
+    "id": "grammar-be-1",
+    "en": "I am a student.",
+    "ja": "私は生徒です。"
+  },
+  {
+    "id": "grammar-be-2",
+    "en": "You are kind.",
+    "ja": "あなたは親切です。"
+  },
+  {
+    "id": "grammar-be-3",
+    "en": "Ken is at home.",
+    "ja": "ケンは家にいます。"
+  },
+  {
+    "id": "grammar-be-4",
+    "en": "My cats are small.",
+    "ja": "私の猫たちは小さいです。"
+  },
+  {
+    "id": "grammar-be-5",
+    "en": "Anna and I are friends.",
+    "ja": "アンナと私は友達です。"
+  },
+  {
+    "id": "grammar-be-6",
+    "en": "It is cold today.",
+    "ja": "今日は寒いです。"
+  },
+  {
+    "id": "grammar-be-7",
+    "en": "We are students.",
+    "ja": "私たちは生徒です。"
+  },
+  {
+    "id": "grammar-be-questions-1",
+    "en": "She is not hungry.",
+    "ja": "彼女はおなかがすいていません。"
+  },
+  {
+    "id": "grammar-be-questions-2",
+    "en": "Are you a student?",
+    "ja": "あなたは生徒ですか。"
+  },
+  {
+    "id": "grammar-be-questions-3",
+    "en": "Yes, he is.",
+    "ja": "はい、そうです。"
+  },
+  {
+    "id": "grammar-be-questions-4",
+    "en": "No, they aren’t.",
+    "ja": "いいえ、そうではありません。"
+  },
+  {
+    "id": "grammar-be-questions-5",
+    "en": "Is she your sister?",
+    "ja": "彼女はあなたのお姉さんですか。"
+  },
+  {
+    "id": "grammar-be-questions-6",
+    "en": "I am not tired.",
+    "ja": "私は疲れていません。"
+  },
+  {
+    "id": "grammar-articles-1",
+    "en": "I have a book.",
+    "ja": "私は本を一冊持っています。"
+  },
+  {
+    "id": "grammar-articles-2",
+    "en": "This is an egg.",
+    "ja": "これは卵です。"
+  },
+  {
+    "id": "grammar-articles-3",
+    "en": "The dog is small.",
+    "ja": "その犬は小さいです。"
+  },
+  {
+    "id": "grammar-articles-4",
+    "en": "She has an orange bag.",
+    "ja": "彼女はオレンジ色のかばんを持っています。"
+  },
+  {
+    "id": "grammar-articles-5",
+    "en": "It is a big apple.",
+    "ja": "それは大きなりんごです。"
+  },
+  {
+    "id": "grammar-articles-6",
+    "en": "Some water, please.",
+    "ja": "水を少しください。"
+  },
+  {
+    "id": "grammar-articles-7",
+    "en": "I have some apples.",
+    "ja": "私はりんごをいくつか持っています。"
+  },
+  {
+    "id": "grammar-articles-8",
+    "en": "I don’t have any pencils.",
+    "ja": "私は鉛筆を一本も持っていません。"
+  },
+  {
+    "id": "grammar-articles-9",
+    "en": "There are many books.",
+    "ja": "本がたくさんあります。"
+  },
+  {
+    "id": "grammar-articles-10",
+    "en": "There isn’t much water.",
+    "ja": "あまり水がありません。"
+  },
+  {
+    "id": "grammar-plurals-1",
+    "en": "I have two books.",
+    "ja": "私は本を二冊持っています。"
+  },
+  {
+    "id": "grammar-plurals-2",
+    "en": "There are two buses.",
+    "ja": "バスが二台あります。"
+  },
+  {
+    "id": "grammar-plurals-3",
+    "en": "They are babies.",
+    "ja": "彼らは赤ちゃんです。"
+  },
+  {
+    "id": "grammar-plurals-4",
+    "en": "I see two children.",
+    "ja": "子どもが二人見えます。"
+  },
+  {
+    "id": "grammar-plurals-5",
+    "en": "The baby has two teeth.",
+    "ja": "その赤ちゃんには歯が二本あります。"
+  },
+  {
+    "id": "grammar-plurals-6",
+    "en": "The cats are small.",
+    "ja": "その猫たちは小さいです。"
+  },
+  {
+    "id": "grammar-plurals-7",
+    "en": "I have two cats.",
+    "ja": "私は猫を二匹飼っています。"
+  },
+  {
+    "id": "grammar-this-that-1",
+    "en": "This is my book.",
+    "ja": "これは私の本です。"
+  },
+  {
+    "id": "grammar-this-that-2",
+    "en": "That is a dog.",
+    "ja": "あれは犬です。"
+  },
+  {
+    "id": "grammar-this-that-3",
+    "en": "These are my books.",
+    "ja": "これらは私の本です。"
+  },
+  {
+    "id": "grammar-this-that-4",
+    "en": "Those are birds.",
+    "ja": "あれらは鳥です。"
+  },
+  {
+    "id": "grammar-this-that-5",
+    "en": "These are red flowers.",
+    "ja": "これらは赤い花です。"
+  },
+  {
+    "id": "grammar-this-that-6",
+    "en": "Is that your bag?",
+    "ja": "あれはあなたのかばんですか。"
+  },
+  {
+    "id": "grammar-pronouns-1",
+    "en": "This is my bag.",
+    "ja": "これは私のかばんです。"
+  },
+  {
+    "id": "grammar-pronouns-2",
+    "en": "This bag is mine.",
+    "ja": "このかばんは私のものです。"
+  },
+  {
+    "id": "grammar-pronouns-3",
+    "en": "Please help me.",
+    "ja": "私を手伝ってください。"
+  },
+  {
+    "id": "grammar-pronouns-4",
+    "en": "I like him.",
+    "ja": "私は彼が好きです。"
+  },
+  {
+    "id": "grammar-pronouns-5",
+    "en": "This is Ken’s bike.",
+    "ja": "これはケンの自転車です。"
+  },
+  {
+    "id": "grammar-pronouns-6",
+    "en": "This pencil is yours.",
+    "ja": "この鉛筆はあなたのものです。"
+  },
+  {
+    "id": "grammar-pronouns-7",
+    "en": "Please help us.",
+    "ja": "私たちを手伝ってください。"
+  },
+  {
+    "id": "grammar-pronouns-8",
+    "en": "Its name is Max.",
+    "ja": "その犬の名前はマックスです。"
+  },
+  {
+    "id": "grammar-present-1",
+    "en": "I play soccer every day.",
+    "ja": "私は毎日サッカーをします。"
+  },
+  {
+    "id": "grammar-present-2",
+    "en": "We like apples.",
+    "ja": "私たちはりんごが好きです。"
+  },
+  {
+    "id": "grammar-present-3",
+    "en": "They go to school every day.",
+    "ja": "彼らは毎日学校へ行きます。"
+  },
+  {
+    "id": "grammar-present-4",
+    "en": "I have a new bag.",
+    "ja": "私は新しいかばんを持っています。"
+  },
+  {
+    "id": "grammar-present-5",
+    "en": "You play the piano.",
+    "ja": "あなたはピアノを弾きます。"
+  },
+  {
+    "id": "grammar-present-6",
+    "en": "We eat breakfast at seven.",
+    "ja": "eat breakfastは朝食を食べる。at sevenは7時。"
+  },
+  {
+    "id": "grammar-third-s-1",
+    "en": "Ken plays soccer every Sunday.",
+    "ja": "ケンは毎週日曜日にサッカーをします。"
+  },
+  {
+    "id": "grammar-third-s-2",
+    "en": "She studies English every day.",
+    "ja": "彼女は毎日英語を勉強します。"
+  },
+  {
+    "id": "grammar-third-s-3",
+    "en": "He has a dog.",
+    "ja": "彼は犬を飼っています。"
+  },
+  {
+    "id": "grammar-third-s-4",
+    "en": "My cats run fast.",
+    "ja": "私の猫たちは速く走ります。"
+  },
+  {
+    "id": "grammar-third-s-5",
+    "en": "You play tennis.",
+    "ja": "あなたはテニスをします。"
+  },
+  {
+    "id": "grammar-third-s-6",
+    "en": "My brother watches TV after dinner.",
+    "ja": "私の兄は夕食の後にテレビを見ます。"
+  },
+  {
+    "id": "grammar-third-s-7",
+    "en": "The cat runs fast.",
+    "ja": "その猫は速く走ります。"
+  },
+  {
+    "id": "grammar-do-negative-1",
+    "en": "I don’t like fish.",
+    "ja": "私は魚が好きではありません。"
+  },
+  {
+    "id": "grammar-do-negative-2",
+    "en": "Ken doesn’t play tennis.",
+    "ja": "ケンはテニスをしません。"
+  },
+  {
+    "id": "grammar-do-negative-3",
+    "en": "She doesn’t drink coffee.",
+    "ja": "彼女はコーヒーを飲みません。"
+  },
+  {
+    "id": "grammar-do-negative-4",
+    "en": "They don’t have a car.",
+    "ja": "彼らは車を持っていません。"
+  },
+  {
+    "id": "grammar-do-negative-5",
+    "en": "He doesn’t have a bike.",
+    "ja": "彼は自転車を持っていません。"
+  },
+  {
+    "id": "grammar-do-negative-6",
+    "en": "We do not play baseball.",
+    "ja": "私たちは野球をしません。"
+  },
+  {
+    "id": "grammar-do-questions-1",
+    "en": "Do you like apples?",
+    "ja": "あなたはりんごが好きですか。"
+  },
+  {
+    "id": "grammar-do-questions-2",
+    "en": "Does your sister play tennis?",
+    "ja": "あなたのお姉さんはテニスをしますか。"
+  },
+  {
+    "id": "grammar-do-questions-3",
+    "en": "Does Ken play soccer?",
+    "ja": "ケンはサッカーをしますか。"
+  },
+  {
+    "id": "grammar-do-questions-4",
+    "en": "Yes, they do.",
+    "ja": "はい、飼っています。"
+  },
+  {
+    "id": "grammar-do-questions-5",
+    "en": "No, she doesn’t.",
+    "ja": "いいえ、好きではありません。"
+  },
+  {
+    "id": "grammar-do-questions-6",
+    "en": "Does he have a bike?",
+    "ja": "彼は自転車を持っていますか。"
+  },
+  {
+    "id": "grammar-wh-1",
+    "en": "What is your name?",
+    "ja": "あなたの名前は何ですか。"
+  },
+  {
+    "id": "grammar-wh-2",
+    "en": "Where do you live?",
+    "ja": "あなたはどこに住んでいますか。"
+  },
+  {
+    "id": "grammar-wh-3",
+    "en": "Who is that boy?",
+    "ja": "あの男の子はだれですか。"
+  },
+  {
+    "id": "grammar-wh-4",
+    "en": "When is your birthday?",
+    "ja": "あなたの誕生日はいつですか。"
+  },
+  {
+    "id": "grammar-wh-5",
+    "en": "Whose bag is this?",
+    "ja": "これはだれのかばんですか。"
+  },
+  {
+    "id": "grammar-wh-6",
+    "en": "Which do you like, red or blue?",
+    "ja": "赤と青のどちらが好きですか。"
+  },
+  {
+    "id": "grammar-wh-7",
+    "en": "How old are you?",
+    "ja": "あなたは何歳ですか。"
+  },
+  {
+    "id": "grammar-wh-8",
+    "en": "How many books do you have?",
+    "ja": "あなたは本を何冊持っていますか。"
+  },
+  {
+    "id": "grammar-wh-9",
+    "en": "How much is this bag?",
+    "ja": "このかばんはいくらですか。"
+  },
+  {
+    "id": "grammar-wh-10",
+    "en": "Why do you like dogs?",
+    "ja": "なぜ犬が好きですか。"
+  },
+  {
+    "id": "grammar-wh-11",
+    "en": "What time is it?",
+    "ja": "何時ですか。"
+  },
+  {
+    "id": "grammar-can-1",
+    "en": "He can run fast.",
+    "ja": "彼は速く走れます。"
+  },
+  {
+    "id": "grammar-can-2",
+    "en": "Can you play the piano?",
+    "ja": "あなたはピアノを弾けますか。"
+  },
+  {
+    "id": "grammar-can-3",
+    "en": "Yes, she can.",
+    "ja": "はい、泳げます。"
+  },
+  {
+    "id": "grammar-can-4",
+    "en": "I can’t swim.",
+    "ja": "私は泳げません。"
+  },
+  {
+    "id": "grammar-can-5",
+    "en": "Ken can speak English.",
+    "ja": "ケンは英語を話せます。"
+  },
+  {
+    "id": "grammar-can-6",
+    "en": "Can they play tennis?",
+    "ja": "彼らはテニスができますか。"
+  },
+  {
+    "id": "grammar-imperative-1",
+    "en": "Open your book, please.",
+    "ja": "本を開いてください。"
+  },
+  {
+    "id": "grammar-imperative-2",
+    "en": "Don’t run here.",
+    "ja": "ここで走らないでください。"
+  },
+  {
+    "id": "grammar-imperative-3",
+    "en": "Let’s play soccer.",
+    "ja": "一緒にサッカーをしよう。"
+  },
+  {
+    "id": "grammar-imperative-4",
+    "en": "Please sit down.",
+    "ja": "座ってください。"
+  },
+  {
+    "id": "grammar-imperative-5",
+    "en": "Be quiet, please.",
+    "ja": "静かにしてください。"
+  },
+  {
+    "id": "grammar-imperative-6",
+    "en": "Don’t open the window.",
+    "ja": "窓を開けないでください。"
+  },
+  {
+    "id": "grammar-progressive-1",
+    "en": "She is playing tennis now.",
+    "ja": "彼女は今テニスをしています。"
+  },
+  {
+    "id": "grammar-progressive-2",
+    "en": "They are running now.",
+    "ja": "彼らは今走っています。"
+  },
+  {
+    "id": "grammar-progressive-3",
+    "en": "I am reading a book now.",
+    "ja": "私は今本を読んでいます。"
+  },
+  {
+    "id": "grammar-progressive-4",
+    "en": "He is making a cake now.",
+    "ja": "彼は今ケーキを作っています。"
+  },
+  {
+    "id": "grammar-progressive-5",
+    "en": "She plays tennis every Sunday.",
+    "ja": "彼女は毎週日曜日にテニスをします。"
+  },
+  {
+    "id": "grammar-progressive-6",
+    "en": "Is he studying now?",
+    "ja": "彼は今勉強していますか。"
+  },
+  {
+    "id": "grammar-progressive-7",
+    "en": "She is not sleeping now.",
+    "ja": "彼女は今寝ていません。"
+  },
+  {
+    "id": "grammar-progressive-8",
+    "en": "They are swimming now.",
+    "ja": "Theyは彼ら。are swimming nowは今泳いでいるところだよ。"
+  },
+  {
+    "id": "grammar-prepositions-1",
+    "en": "The cat is in the box.",
+    "ja": "猫は箱の中にいます。"
+  },
+  {
+    "id": "grammar-prepositions-2",
+    "en": "The book is on the desk.",
+    "ja": "本は机の上にあります。"
+  },
+  {
+    "id": "grammar-prepositions-3",
+    "en": "The cat is under the desk.",
+    "ja": "猫は机の下にいます。"
+  },
+  {
+    "id": "grammar-prepositions-4",
+    "en": "I get up at seven.",
+    "ja": "私は7時に起きます。"
+  },
+  {
+    "id": "grammar-prepositions-5",
+    "en": "I play tennis on Sunday.",
+    "ja": "私は日曜日にテニスをします。"
+  },
+  {
+    "id": "grammar-prepositions-6",
+    "en": "My birthday is in June.",
+    "ja": "私の誕生日は6月です。"
+  },
+  {
+    "id": "grammar-prepositions-7",
+    "en": "The park is by the school.",
+    "ja": "公園は学校のそばにあります。"
+  },
+  {
+    "id": "grammar-prepositions-8",
+    "en": "I go to school every day.",
+    "ja": "私は毎日学校へ行きます。"
+  },
+  {
+    "id": "grammar-prepositions-9",
+    "en": "I am from Japan.",
+    "ja": "私は日本出身です。"
+  },
+  {
+    "id": "grammar-prepositions-10",
+    "en": "I play tennis with Ken.",
+    "ja": "私はケンと一緒にテニスをします。"
+  },
+  {
+    "id": "grammar-prepositions-11",
+    "en": "This present is for you.",
+    "ja": "このプレゼントはあなたのためのものです。"
+  },
+  {
+    "id": "grammar-adjectives-1",
+    "en": "This is a big dog.",
+    "ja": "これは大きな犬です。"
+  },
+  {
+    "id": "grammar-adjectives-2",
+    "en": "The flower is very beautiful.",
+    "ja": "その花はとても美しいです。"
+  },
+  {
+    "id": "grammar-adjectives-3",
+    "en": "I always eat breakfast.",
+    "ja": "私はいつも朝食を食べます。"
+  },
+  {
+    "id": "grammar-adjectives-4",
+    "en": "He is always kind.",
+    "ja": "彼はいつも親切です。"
+  },
+  {
+    "id": "grammar-adjectives-5",
+    "en": "I sometimes play tennis.",
+    "ja": "私はときどきテニスをします。"
+  },
+  {
+    "id": "grammar-adjectives-6",
+    "en": "She can run fast.",
+    "ja": "彼女は速く走れます。"
+  },
+  {
+    "id": "grammar-conjunctions-1",
+    "en": "I have a brother and a sister.",
+    "ja": "私には兄と姉がいます。"
+  },
+  {
+    "id": "grammar-conjunctions-2",
+    "en": "I like milk, but I don’t like coffee.",
+    "ja": "私は牛乳が好きですが、コーヒーは好きではありません。"
+  },
+  {
+    "id": "grammar-conjunctions-3",
+    "en": "Which do you like, tea or milk?",
+    "ja": "お茶と牛乳のどちらが好きですか。"
+  },
+  {
+    "id": "grammar-conjunctions-4",
+    "en": "I like dogs because they are cute.",
+    "ja": "かわいいので私は犬が好きです。"
+  },
+  {
+    "id": "grammar-conjunctions-5",
+    "en": "Because I can swim.",
+    "ja": "泳げるからです。"
+  },
+  {
+    "id": "grammar-conjunctions-6",
+    "en": "I like apples and oranges.",
+    "ja": "andは両方をつなぐ「と」だよ。"
+  },
+  {
+    "id": "grammar-useful-1",
+    "en": "There is a book on the desk.",
+    "ja": "机の上に本が一冊あります。"
+  },
+  {
+    "id": "grammar-useful-2",
+    "en": "There are two cats in the room.",
+    "ja": "部屋に猫が二匹います。"
+  },
+  {
+    "id": "grammar-useful-3",
+    "en": "I want to play soccer.",
+    "ja": "私はサッカーをしたいです。"
+  },
+  {
+    "id": "grammar-useful-4",
+    "en": "I like swimming.",
+    "ja": "私は泳ぐことが好きです。"
+  },
+  {
+    "id": "grammar-useful-5",
+    "en": "How about tennis?",
+    "ja": "テニスはどうですか。"
+  },
+  {
+    "id": "grammar-useful-6",
+    "en": "Is there a park near your house?",
+    "ja": "あなたの家の近くに公園はありますか。"
+  },
+  {
+    "id": "grammar-useful-7",
+    "en": "She wants to read this book.",
+    "ja": "彼女はこの本を読みたいです。"
+  },
+  {
+    "id": "grammar-past-be-1",
+    "en": "I was tired yesterday.",
+    "ja": "私は昨日疲れていました。"
+  },
+  {
+    "id": "grammar-past-be-2",
+    "en": "They were at school yesterday.",
+    "ja": "彼らは昨日学校にいました。"
+  },
+  {
+    "id": "grammar-past-be-3",
+    "en": "You were happy yesterday.",
+    "ja": "あなたは昨日うれしそうでした。"
+  },
+  {
+    "id": "grammar-past-be-4",
+    "en": "Was Ken at home yesterday?",
+    "ja": "ケンは昨日家にいましたか。"
+  },
+  {
+    "id": "grammar-past-be-5",
+    "en": "She was not busy yesterday.",
+    "ja": "彼女は昨日忙しくありませんでした。"
+  },
+  {
+    "id": "grammar-past-be-6",
+    "en": "Yes, they were.",
+    "ja": "はい、そうでした。"
+  },
+  {
+    "id": "grammar-past-regular-1",
+    "en": "I played tennis yesterday.",
+    "ja": "私は昨日テニスをしました。"
+  },
+  {
+    "id": "grammar-past-regular-2",
+    "en": "She studied English yesterday.",
+    "ja": "彼女は昨日英語を勉強しました。"
+  },
+  {
+    "id": "grammar-past-regular-3",
+    "en": "He lived in Tokyo last year.",
+    "ja": "彼は去年東京に住んでいました。"
+  },
+  {
+    "id": "grammar-past-regular-4",
+    "en": "They played soccer yesterday.",
+    "ja": "彼らは昨日サッカーをしました。"
+  },
+  {
+    "id": "grammar-past-regular-5",
+    "en": "The bus stopped here yesterday.",
+    "ja": "バスは昨日ここで止まりました。"
+  },
+  {
+    "id": "grammar-past-regular-6",
+    "en": "We watched TV yesterday.",
+    "ja": "私たちは昨日テレビを見ました。"
+  },
+  {
+    "id": "grammar-past-irregular-1",
+    "en": "I went to school yesterday.",
+    "ja": "私は昨日学校へ行きました。"
+  },
+  {
+    "id": "grammar-past-irregular-2",
+    "en": "She ate an apple yesterday.",
+    "ja": "彼女は昨日りんごを食べました。"
+  },
+  {
+    "id": "grammar-past-irregular-3",
+    "en": "We had lunch at twelve yesterday.",
+    "ja": "私たちは昨日12時に昼食を食べました。"
+  },
+  {
+    "id": "grammar-past-irregular-4",
+    "en": "I saw Ken yesterday.",
+    "ja": "私は昨日ケンに会いました。"
+  },
+  {
+    "id": "grammar-past-irregular-5",
+    "en": "He made a cake yesterday.",
+    "ja": "彼は昨日ケーキを作りました。"
+  },
+  {
+    "id": "grammar-past-irregular-6",
+    "en": "They came to the park yesterday.",
+    "ja": "彼らは昨日公園へ来ました。"
+  },
+  {
+    "id": "grammar-past-questions-1",
+    "en": "Did you play tennis yesterday?",
+    "ja": "あなたは昨日テニスをしましたか。"
+  },
+  {
+    "id": "grammar-past-questions-2",
+    "en": "Did he go to school yesterday?",
+    "ja": "彼は昨日学校へ行きましたか。"
+  },
+  {
+    "id": "grammar-past-questions-3",
+    "en": "She didn’t watch TV yesterday.",
+    "ja": "彼女は昨日テレビを見ませんでした。"
+  },
+  {
+    "id": "grammar-past-questions-4",
+    "en": "Yes, he did.",
+    "ja": "はい、食べました。"
+  },
+  {
+    "id": "grammar-past-questions-5",
+    "en": "No, they didn’t.",
+    "ja": "いいえ、しませんでした。"
+  },
+  {
+    "id": "grammar-past-questions-6",
+    "en": "Did she have a dog?",
+    "ja": "彼女は犬を飼っていましたか。"
+  },
+  {
+    "id": "expression-g5-m1-01",
+    "en": "My brother plays the piano every evening.",
+    "ja": "楽器のpianoをplay theと組み合わせます。"
+  },
+  {
+    "id": "expression-g5-m1-02",
+    "en": "We eat lunch in the school cafeteria.",
+    "ja": "食べる場所なのでcafeteria（食堂）。"
+  },
+  {
+    "id": "expression-g5-m1-03",
+    "en": "My aunt is a nurse. She works at a hospital.",
+    "ja": "病院で働くnurse（看護師）。"
+  },
+  {
+    "id": "expression-g5-m1-04",
+    "en": "Please open the window. This room is hot.",
+    "ja": "暑い部屋で開けるのはwindow（窓）。"
+  },
+  {
+    "id": "expression-g5-m1-05",
+    "en": "I have a red bag. Your bag is blue.",
+    "ja": "名詞bagの前は所有を表すYour。"
+  },
+  {
+    "id": "expression-g5-m1-06",
+    "en": "There are two cats in the room.",
+    "ja": "two catsは複数なのでare。"
+  },
+  {
+    "id": "expression-g5-m1-07",
+    "en": "Mina goes to school by bus.",
+    "ja": "主語Minaは三人称単数なのでgoes。"
+  },
+  {
+    "id": "expression-g5-m1-08",
+    "en": "My father can swim very well.",
+    "ja": "canのあとは動詞の原形。"
+  },
+  {
+    "id": "expression-g5-m1-09",
+    "en": "We do not watch TV before school.",
+    "ja": "do notのあとは動詞の原形watch。"
+  },
+  {
+    "id": "expression-g5-m1-10",
+    "en": "The class starts at nine.",
+    "ja": "時刻の前はat。"
+  },
+  {
+    "id": "expression-g5-m1-11",
+    "en": "I am reading a book now.",
+    "ja": "amと動詞のing形で「今〜している」。"
+  },
+  {
+    "id": "expression-g5-m1-12",
+    "en": "A: When is your birthday? B: In May.",
+    "ja": "月で答えているので、いつを尋ねるWhen。"
+  },
+  {
+    "id": "expression-g5-m1-13",
+    "en": "This is an orange.",
+    "ja": "母音で始まるorangeの前はan。"
+  },
+  {
+    "id": "expression-g5-m1-14",
+    "en": "I get up early on Sunday, too.",
+    "ja": "曜日の前はon。"
+  },
+  {
+    "id": "expression-g5-m1-15",
+    "en": "A: How many pencils do you have? B: Six.",
+    "ja": "数えられるpencilsの数はHow many。"
+  },
+  {
+    "id": "expression-g5-m1-16",
+    "en": "A: Thank you for your help.\nB: You're welcome.",
+    "ja": "感謝への応答は「どういたしまして」。"
+  },
+  {
+    "id": "expression-g5-m1-17",
+    "en": "A: What time is it?\nB: It is three o'clock.",
+    "ja": "時刻を尋ねています。"
+  },
+  {
+    "id": "expression-g5-m1-18",
+    "en": "A: Would you like some tea?\nB: Yes, please.",
+    "ja": "飲み物の申し出に「はい、お願いします」。"
+  },
+  {
+    "id": "expression-g5-m1-19",
+    "en": "A: Where is my cap?\nB: On the chair.",
+    "ja": "Whereへの答えは場所。"
+  },
+  {
+    "id": "expression-g5-m1-20",
+    "en": "A: Let us play soccer after school.\nB: That sounds fun.",
+    "ja": "誘いに「楽しそうだね」。"
+  },
+  {
+    "id": "expression-g5-m1-21",
+    "en": "わたしは毎日英語を勉強します。\n( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nI / study / every / English / day\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "I study English every day."
+  },
+  {
+    "id": "expression-g5-m1-22",
+    "en": "あなたはピアノを弾けますか。\n( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nthe / you / play / Can / piano\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "Can you play the piano."
+  },
+  {
+    "id": "expression-g5-m1-23",
+    "en": "彼女はわたしの新しい先生です。\n( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nis / my / She / new / teacher\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "She is my new teacher."
+  },
+  {
+    "id": "expression-g5-m1-24",
+    "en": "これはあなたの赤いかばんですか。\n( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nyour / this / Is / red / bag\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "Is this your red bag."
+  },
+  {
+    "id": "expression-g5-m1-25",
+    "en": "わたしの弟はネコが大好きです。\nMy ( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nmuch / cats / brother / very / likes\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "My brother likes cats very much."
+  },
+  {
+    "id": "expression-g5-m1-26",
+    "en": "A: Hello. B: Hello. A: What sport do you like?\n1. At the library.\n2. I like tennis.\n3. It is nine.",
+    "ja": "好きなスポーツなのでtennis。"
+  },
+  {
+    "id": "expression-g5-m1-27",
+    "en": "A: Hello. B: Hello. A: Can you ride a bike?\n1. Yes, I can.\n2. It is red.\n3. On Friday.",
+    "ja": "Canへの応答。"
+  },
+  {
+    "id": "expression-g5-m1-28",
+    "en": "A: Hello. B: Hello. A: How many sisters do you have?\n1. She is fine.\n2. I have two.\n3. It is sunny.",
+    "ja": "姉妹の人数を答えます。"
+  },
+  {
+    "id": "expression-g5-m1-29",
+    "en": "A: Hello. B: Hello. A: Where is the library?\n1. Next to the school.\n2. I read books.\n3. It is my bag.",
+    "ja": "場所を答えます。"
+  },
+  {
+    "id": "expression-g5-m1-30",
+    "en": "A: Hello. B: Hello. A: Do you like milk?\n1. Yes, I do.\n2. Yes, she is.\n3. Yes, he can.",
+    "ja": "Do youへの応答。"
+  },
+  {
+    "id": "expression-g5-m1-31",
+    "en": "A: Hello. B: Hello. A: What time do you get up?\n1. At six thirty.\n2. It is blue.\n3. In the park.",
+    "ja": "起床時刻を答えます。"
+  },
+  {
+    "id": "expression-g5-m1-32",
+    "en": "A: Hello. B: Hello. A: Who is that boy?\n1. He is my brother.\n2. It is small.\n3. On the table.",
+    "ja": "誰かを答えます。"
+  },
+  {
+    "id": "expression-g5-m1-33",
+    "en": "A: Hello. B: Hello. A: How much is this notebook?\n1. She is kind.\n2. Three cats.\n3. Two dollars.",
+    "ja": "値段を答えます。"
+  },
+  {
+    "id": "expression-g5-m1-34",
+    "en": "A: Hello. B: Hello. A: Are you hungry?\n1. Yes, she does.\n2. Yes, I do.\n3. Yes, I am.",
+    "ja": "Are youへの応答。"
+  },
+  {
+    "id": "expression-g5-m1-35",
+    "en": "A: Hello. B: Hello. A: Let us go to the park.\n1. Good idea.\n2. I am ten.\n3. It is mine.",
+    "ja": "誘いを受ける応答。"
+  },
+  {
+    "id": "expression-g5-m1-36",
+    "en": "A: Do you play tennis on Monday? B: No, I play on Saturday.\nWhen does the girl play tennis?",
+    "ja": "MondayではなくSaturdayと言っています。"
+  },
+  {
+    "id": "expression-g5-m1-37",
+    "en": "A: Is that your dog? B: No. My dog is white. That dog is black.\nWhat color is the girl's dog?",
+    "ja": "自分のイヌはwhite。"
+  },
+  {
+    "id": "expression-g5-m1-38",
+    "en": "A: What do you want for lunch? B: A sandwich, please.\nWhat does the girl want?",
+    "ja": "昼食にsandwichを希望しています。"
+  },
+  {
+    "id": "expression-g5-m1-39",
+    "en": "A: How do you go to school? B: I walk with my sister.\nHow does the girl go to school?",
+    "ja": "walkは歩いて行くこと。"
+  },
+  {
+    "id": "expression-g5-m1-40",
+    "en": "A: Where is your mother? B: She is in the kitchen.\nWhere is the girl's mother?",
+    "ja": "kitchenを聞き取ります。"
+  },
+  {
+    "id": "expression-g5-m1-41",
+    "en": "1. The boy is swimming.\n2. The boy is cooking.\n3. The boy is reading a book.",
+    "ja": "本を開いて読んでいる絵。"
+  },
+  {
+    "id": "expression-g5-m1-42",
+    "en": "1. The girl is eating.\n2. The girl is playing tennis.\n3. The girl is sleeping.",
+    "ja": "ラケットでテニスをしている絵。"
+  },
+  {
+    "id": "expression-g5-m1-43",
+    "en": "1. The boy is playing soccer.\n2. The boy is reading.\n3. The boy is singing.",
+    "ja": "足元にサッカーボール。"
+  },
+  {
+    "id": "expression-g5-m1-44",
+    "en": "1. The girl is playing tennis.\n2. The girl is running.\n3. The girl is sleeping.",
+    "ja": "ベッドで眠っている絵。"
+  },
+  {
+    "id": "expression-g5-m1-45",
+    "en": "1. It is snowing.\n2. It is sunny.\n3. It is raining.",
+    "ja": "雲から雨が降っています。"
+  },
+  {
+    "id": "expression-g5-m1-46",
+    "en": "1. It is snowing.\n2. It is raining.\n3. It is sunny.",
+    "ja": "太陽が出ています。"
+  },
+  {
+    "id": "expression-g5-m1-47",
+    "en": "1. There are two apples.\n2. There are three apples.\n3. There is one apple.",
+    "ja": "りんごは3個。"
+  },
+  {
+    "id": "expression-g5-m1-48",
+    "en": "1. The ball is under the table.\n2. The ball is on the table.\n3. The ball is in the box.",
+    "ja": "ボールは机の下。"
+  },
+  {
+    "id": "expression-g5-m1-49",
+    "en": "1. The ball is under the table.\n2. The ball is on the table.\n3. The ball is in the bag.",
+    "ja": "ボールは机の上。"
+  },
+  {
+    "id": "expression-g5-m1-50",
+    "en": "1. The cat is in the box.\n2. The cat is on the bed.\n3. The cat is under the chair.",
+    "ja": "ネコは箱の中。"
+  },
+  {
+    "id": "expression-g5-m2-01",
+    "en": "I want some water. I am thirsty.",
+    "ja": "のどが渇いたとき飲むwater。"
+  },
+  {
+    "id": "expression-g5-m2-02",
+    "en": "My mother teaches at a school. She is a teacher.",
+    "ja": "学校で教えるteacher。"
+  },
+  {
+    "id": "expression-g5-m2-03",
+    "en": "Please write your name with a pencil.",
+    "ja": "名前を書く道具はpencil。"
+  },
+  {
+    "id": "expression-g5-m2-04",
+    "en": "We play baseball in the park.",
+    "ja": "野球をする場所はpark。"
+  },
+  {
+    "id": "expression-g5-m2-05",
+    "en": "A: Is this your umbrella? B: Yes, it is mine.",
+    "ja": "名詞umbrellaの前はyour。"
+  },
+  {
+    "id": "expression-g5-m2-06",
+    "en": "My sister has a new bike.",
+    "ja": "三人称単数の主語にはhas。"
+  },
+  {
+    "id": "expression-g5-m2-07",
+    "en": "Ken and I are good friends.",
+    "ja": "Ken and Iは複数なのでare。"
+  },
+  {
+    "id": "expression-g5-m2-08",
+    "en": "Do you like music?",
+    "ja": "Doで尋ねる文では動詞は原形like。"
+  },
+  {
+    "id": "expression-g5-m2-09",
+    "en": "My dog is under the table. I cannot see it.",
+    "ja": "位置を表すunder（下に）。"
+  },
+  {
+    "id": "expression-g5-m2-10",
+    "en": "A: Who is that woman? B: My aunt.",
+    "ja": "人が誰かを尋ねるWho。"
+  },
+  {
+    "id": "expression-g5-m2-11",
+    "en": "Look! The children are running.",
+    "ja": "areとing形で進行中の動作。"
+  },
+  {
+    "id": "expression-g5-m2-12",
+    "en": "I have music class on Monday.",
+    "ja": "曜日にはon。"
+  },
+  {
+    "id": "expression-g5-m2-13",
+    "en": "A: Can you play the guitar? B: Yes, I can.",
+    "ja": "Yes, I can.に対応するCan。"
+  },
+  {
+    "id": "expression-g5-m2-14",
+    "en": "My brother does not drink coffee.",
+    "ja": "does notの後は原形drink。"
+  },
+  {
+    "id": "expression-g5-m2-15",
+    "en": "A: How much is this hat? B: Ten dollars.",
+    "ja": "値段を尋ねるHow much。"
+  },
+  {
+    "id": "expression-g5-m2-16",
+    "en": "A: How are you today?\nB: Fine, thank you.",
+    "ja": "調子を尋ねる表現に応答します。"
+  },
+  {
+    "id": "expression-g5-m2-17",
+    "en": "A: May I use your pen?\nB: Sure. Here you are.",
+    "ja": "貸してよいときの「もちろん。どうぞ」。"
+  },
+  {
+    "id": "expression-g5-m2-18",
+    "en": "A: What day is it today?\nB: It is Thursday.",
+    "ja": "曜日を答えます。"
+  },
+  {
+    "id": "expression-g5-m2-19",
+    "en": "A: I am sorry I am late.\nB: That is OK.",
+    "ja": "謝る人に「大丈夫だよ」。"
+  },
+  {
+    "id": "expression-g5-m2-20",
+    "en": "A: Do you have any brothers?\nB: Yes, I have one.",
+    "ja": "兄弟がいるかという質問に答えます。"
+  },
+  {
+    "id": "expression-g5-m2-21",
+    "en": "わたしたちは公園でテニスをします。\nWe ( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nin / play / the / tennis / park\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "We play tennis in the park."
+  },
+  {
+    "id": "expression-g5-m2-22",
+    "en": "あなたは何冊の本を持っていますか。\nHow ( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nyou / many / do / have / books\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "How many books do you have."
+  },
+  {
+    "id": "expression-g5-m2-23",
+    "en": "彼は今朝食を食べています。\n( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nnow / He / eating / breakfast / is\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "He is eating breakfast now."
+  },
+  {
+    "id": "expression-g5-m2-24",
+    "en": "これはわたしの姉の自転車です。\n( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nsister's / my / is / bike / This\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "This is my sister's bike."
+  },
+  {
+    "id": "expression-g5-m2-25",
+    "en": "あなたはいつサッカーをしますか。\n( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nyou / play / When / soccer / do\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "When do you play soccer."
+  },
+  {
+    "id": "expression-g5-m2-26",
+    "en": "A: Hello. B: Hello. A: What animal do you like?\n1. At eight.\n2. I like horses.\n3. It is Monday.",
+    "ja": "好きな動物を答えます。"
+  },
+  {
+    "id": "expression-g5-m2-27",
+    "en": "A: Hello. B: Hello. A: Is this your pencil?\n1. Yes, I do.\n2. Yes, she can.\n3. Yes, it is.",
+    "ja": "Is thisへの応答。"
+  },
+  {
+    "id": "expression-g5-m2-28",
+    "en": "A: Hello. B: Hello. A: When is your birthday?\n1. In my bag.\n2. It is green.\n3. In September.",
+    "ja": "誕生月を答えます。"
+  },
+  {
+    "id": "expression-g5-m2-29",
+    "en": "A: Hello. B: Hello. A: Where do you play soccer?\n1. I like apples.\n2. It is seven.\n3. In the park.",
+    "ja": "場所を答えます。"
+  },
+  {
+    "id": "expression-g5-m2-30",
+    "en": "A: Hello. B: Hello. A: Does your father cook?\n1. Yes, it is.\n2. Yes, he does.\n3. Yes, I am.",
+    "ja": "Does heへの応答。"
+  },
+  {
+    "id": "expression-g5-m2-31",
+    "en": "A: Hello. B: Hello. A: What are you doing?\n1. I am reading.\n2. I have a cat.\n3. I am twelve.",
+    "ja": "今していることを答えます。"
+  },
+  {
+    "id": "expression-g5-m2-32",
+    "en": "A: Hello. B: Hello. A: How old is your sister?\n1. She is at home.\n2. She likes music.\n3. She is eight.",
+    "ja": "年齢を答えます。"
+  },
+  {
+    "id": "expression-g5-m2-33",
+    "en": "A: Hello. B: Hello. A: Would you like some juice?\n1. No, I cannot.\n2. No, she is not.\n3. No, thank you.",
+    "ja": "飲み物の申し出を断る表現。"
+  },
+  {
+    "id": "expression-g5-m2-34",
+    "en": "A: Hello. B: Hello. A: What color is your bike?\n1. It is Sunday.\n2. It is in May.\n3. It is white.",
+    "ja": "色を答えます。"
+  },
+  {
+    "id": "expression-g5-m2-35",
+    "en": "A: Hello. B: Hello. A: May I open the window?\n1. I have three.\n2. Yes, please.\n3. She is my aunt.",
+    "ja": "許可を求める問いへの応答。"
+  },
+  {
+    "id": "expression-g5-m2-36",
+    "en": "A: Do you have three cats? B: No, I have two cats and one dog.\nHow many cats does the girl have?",
+    "ja": "ネコはtwo。"
+  },
+  {
+    "id": "expression-g5-m2-37",
+    "en": "A: What time do you eat dinner? B: At seven.\nWhat time does the girl eat dinner?",
+    "ja": "夕食時刻はseven。"
+  },
+  {
+    "id": "expression-g5-m2-38",
+    "en": "A: Do you like soccer? B: Yes, but my favorite sport is basketball.\nWhat is the girl's favorite sport?",
+    "ja": "favoriteとして挙げたbasketball。"
+  },
+  {
+    "id": "expression-g5-m2-39",
+    "en": "A: Where is my bag? B: It is on the chair, next to your coat.\nWhere is the bag?",
+    "ja": "かばんの位置はon the chair。"
+  },
+  {
+    "id": "expression-g5-m2-40",
+    "en": "A: Can your sister swim? B: No, but she can skate.\nWhat can the girl's sister do?",
+    "ja": "できるのはskate。"
+  },
+  {
+    "id": "expression-g5-m2-41",
+    "en": "1. The boy is reading.\n2. The boy is singing.\n3. The boy is sleeping.",
+    "ja": "音符があり歌っている絵。"
+  },
+  {
+    "id": "expression-g5-m2-42",
+    "en": "1. The girl is riding a bike.\n2. The girl is swimming.\n3. The girl is cooking.",
+    "ja": "自転車に乗っている絵。"
+  },
+  {
+    "id": "expression-g5-m2-43",
+    "en": "1. The girl is reading.\n2. The girl is running.\n3. The girl is dancing.",
+    "ja": "本を読んでいます。"
+  },
+  {
+    "id": "expression-g5-m2-44",
+    "en": "1. The boy is sleeping.\n2. The boy is eating.\n3. The boy is singing.",
+    "ja": "ベッドで眠っています。"
+  },
+  {
+    "id": "expression-g5-m2-45",
+    "en": "1. There are two apples.\n2. There is one apple.\n3. There are three apples.",
+    "ja": "りんごは1個。"
+  },
+  {
+    "id": "expression-g5-m2-46",
+    "en": "1. It is sunny today.\n2. It is raining today.\n3. It is snowing today.",
+    "ja": "太陽の出た天気。"
+  },
+  {
+    "id": "expression-g5-m2-47",
+    "en": "1. There is a cat on the table.\n2. There is a ball on the table.\n3. There is a ball under the table.",
+    "ja": "机の上にボール。"
+  },
+  {
+    "id": "expression-g5-m2-48",
+    "en": "1. There is a dog in the box.\n2. There is a cat in the box.\n3. There is a cat under the box.",
+    "ja": "箱の中にネコ。"
+  },
+  {
+    "id": "expression-g5-m2-49",
+    "en": "1. It is sunny today.\n2. It is rainy today.\n3. It is snowy today.",
+    "ja": "雨の天気。"
+  },
+  {
+    "id": "expression-g5-m2-50",
+    "en": "1. The boy is playing tennis.\n2. The boy is reading a book.\n3. The boy is playing soccer.",
+    "ja": "ラケットでテニス。"
+  },
+  {
+    "id": "expression-g5-m3-01",
+    "en": "We buy bread at the bakery.",
+    "ja": "パンを買うbakery（パン屋）。"
+  },
+  {
+    "id": "expression-g5-m3-02",
+    "en": "It is cold. Please put on your coat.",
+    "ja": "寒いとき着るcoat。"
+  },
+  {
+    "id": "expression-g5-m3-03",
+    "en": "My uncle drives a bus. He is a bus driver.",
+    "ja": "バスを運転するdriver。"
+  },
+  {
+    "id": "expression-g5-m3-04",
+    "en": "I like animals. My favorite animal is a rabbit.",
+    "ja": "rabbitを含むanimals。"
+  },
+  {
+    "id": "expression-g5-m3-05",
+    "en": "This is my sister. Her name is Yui.",
+    "ja": "名詞nameの前はHer。"
+  },
+  {
+    "id": "expression-g5-m3-06",
+    "en": "Tom studies English every day.",
+    "ja": "三人称単数なのでstudyをstudiesに。"
+  },
+  {
+    "id": "expression-g5-m3-07",
+    "en": "There is a ball in the box.",
+    "ja": "a ballは単数なのでis。"
+  },
+  {
+    "id": "expression-g5-m3-08",
+    "en": "A: Where does your brother live? B: In Kobe.",
+    "ja": "住む場所を尋ねるWhere。"
+  },
+  {
+    "id": "expression-g5-m3-09",
+    "en": "We are not hungry now.",
+    "ja": "hungryは形容詞。主語Weにはare。"
+  },
+  {
+    "id": "expression-g5-m3-10",
+    "en": "Please be quiet in the library.",
+    "ja": "命令文のbeは原形。"
+  },
+  {
+    "id": "expression-g5-m3-11",
+    "en": "The boy is drawing a picture.",
+    "ja": "isとing形で「描いている」。"
+  },
+  {
+    "id": "expression-g5-m3-12",
+    "en": "A: What is your favorite color? B: Green.",
+    "ja": "何色かを尋ねるWhat。"
+  },
+  {
+    "id": "expression-g5-m3-13",
+    "en": "I go to bed at ten every night.",
+    "ja": "時刻tenの前はat。"
+  },
+  {
+    "id": "expression-g5-m3-14",
+    "en": "A: Does Emi like cats? B: Yes, she does.",
+    "ja": "Doesのあとの動詞は原形。"
+  },
+  {
+    "id": "expression-g5-m3-15",
+    "en": "A: How old is your brother? B: He is nine.",
+    "ja": "年齢を尋ねるHow old。"
+  },
+  {
+    "id": "expression-g5-m3-16",
+    "en": "A: Nice to meet you.\nB: Nice to meet you, too.",
+    "ja": "初対面の挨拶を返します。"
+  },
+  {
+    "id": "expression-g5-m3-17",
+    "en": "A: Whose bag is this?\nB: It is mine.",
+    "ja": "Whoseは持ち主を尋ねます。"
+  },
+  {
+    "id": "expression-g5-m3-18",
+    "en": "A: How is the weather?\nB: It is rainy.",
+    "ja": "天気を答えます。"
+  },
+  {
+    "id": "expression-g5-m3-19",
+    "en": "A: See you tomorrow.\nB: See you.",
+    "ja": "別れの挨拶を返します。"
+  },
+  {
+    "id": "expression-g5-m3-20",
+    "en": "A: What subject do you like?\nB: I like science.",
+    "ja": "好きな教科を答えます。"
+  },
+  {
+    "id": "expression-g5-m3-21",
+    "en": "わたしの父は上手に泳げます。\n( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nMy / swim / can / well / father\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "My father can swim well."
+  },
+  {
+    "id": "expression-g5-m3-22",
+    "en": "あの大きなイヌを見てください。\nPlease ( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nlook / dog / that / at / big\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "Please look at that big dog."
+  },
+  {
+    "id": "expression-g5-m3-23",
+    "en": "彼女は毎日牛乳を飲みます。\n( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nevery / day / She / milk / drinks\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "She drinks milk every day."
+  },
+  {
+    "id": "expression-g5-m3-24",
+    "en": "あなたはどこに住んでいますか。\n( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nlive / do / now / you / Where\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "Where do you live now."
+  },
+  {
+    "id": "expression-g5-m3-25",
+    "en": "彼はわたしたちの英語の先生です。\n( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 5 )\nteacher / English / He / is / our\n空欄の2番目 / 4番目に入る語の組み合わせは？",
+    "ja": "He is our English teacher."
+  },
+  {
+    "id": "expression-g5-m3-26",
+    "en": "A: Hello. B: Hello. A: What subject do you like?\n1. On the chair.\n2. I have two.\n3. I like math.",
+    "ja": "好きな教科を答えます。"
+  },
+  {
+    "id": "expression-g5-m3-27",
+    "en": "A: Hello. B: Hello. A: Can your sister sing?\n1. Yes, she can.\n2. Yes, he does.\n3. Yes, I am.",
+    "ja": "Can your sisterへの応答。"
+  },
+  {
+    "id": "expression-g5-m3-28",
+    "en": "A: Hello. B: Hello. A: Where is your dog?\n1. It is Friday.\n2. I am fine.\n3. Under the table.",
+    "ja": "場所を答えます。"
+  },
+  {
+    "id": "expression-g5-m3-29",
+    "en": "A: Hello. B: Hello. A: What day is it today?\n1. It is Tuesday.\n2. It is my pen.\n3. It is hot.",
+    "ja": "曜日を答えます。"
+  },
+  {
+    "id": "expression-g5-m3-30",
+    "en": "A: Hello. B: Hello. A: How many books do you have?\n1. I have four.\n2. I am a student.\n3. It is red.",
+    "ja": "本の数を答えます。"
+  },
+  {
+    "id": "expression-g5-m3-31",
+    "en": "A: Hello. B: Hello. A: Do you walk to school?\n1. Yes, she is.\n2. Yes, he can.\n3. Yes, I do.",
+    "ja": "Do youへの応答。"
+  },
+  {
+    "id": "expression-g5-m3-32",
+    "en": "A: Hello. B: Hello. A: Whose cap is this?\n1. It is windy.\n2. At nine.\n3. It is my cap.",
+    "ja": "持ち主を答えます。"
+  },
+  {
+    "id": "expression-g5-m3-33",
+    "en": "A: Hello. B: Hello. A: How is the weather there?\n1. It is cloudy.\n2. I am ten.\n3. It is mine.",
+    "ja": "天気を答えます。"
+  },
+  {
+    "id": "expression-g5-m3-34",
+    "en": "A: Hello. B: Hello. A: What do you want for lunch?\n1. A sandwich, please.\n2. At the station.\n3. It is Saturday.",
+    "ja": "昼食にほしい物を答えます。"
+  },
+  {
+    "id": "expression-g5-m3-35",
+    "en": "A: Hello. B: Hello. A: Thank you for the present.\n1. I am hungry.\n2. Good morning.\n3. You are welcome.",
+    "ja": "お礼への応答。"
+  },
+  {
+    "id": "expression-g5-m3-36",
+    "en": "A: Is your birthday in June? B: No, it is in July.\nWhen is the girl's birthday?",
+    "ja": "Juneを否定してJulyと答えています。"
+  },
+  {
+    "id": "expression-g5-m3-37",
+    "en": "A: What do you drink at breakfast? B: I drink milk.\nWhat does the girl drink?",
+    "ja": "朝食で飲むmilk。"
+  },
+  {
+    "id": "expression-g5-m3-38",
+    "en": "A: Is your father a doctor? B: No. He is a teacher.\nWhat does the girl's father do?",
+    "ja": "父の職業はteacher。"
+  },
+  {
+    "id": "expression-g5-m3-39",
+    "en": "A: Let us go to the park. B: Sorry. It is raining. Let us read books at home.\nWhat does the girl want to do?",
+    "ja": "雨なので家で読書を提案しています。"
+  },
+  {
+    "id": "expression-g5-m3-40",
+    "en": "A: How much is this blue pen? B: Three dollars. The red one is two dollars.\nHow much is the blue pen?",
+    "ja": "尋ねられた青いペンはthree。"
+  },
+  {
+    "id": "expression-g5-m3-41",
+    "en": "1. The girl is playing soccer.\n2. The girl is playing tennis.\n3. The girl is cooking.",
+    "ja": "足元のサッカーボール。"
+  },
+  {
+    "id": "expression-g5-m3-42",
+    "en": "1. The boy has a guitar.\n2. The boy has an open book.\n3. The boy has a ball.",
+    "ja": "開いた本を持っています。"
+  },
+  {
+    "id": "expression-g5-m3-43",
+    "en": "1. There are two apples.\n2. There is one apple.\n3. There are three apples.",
+    "ja": "りんごは2個。"
+  },
+  {
+    "id": "expression-g5-m3-44",
+    "en": "1. There is a ball on the table.\n2. There is a book under the table.\n3. There is a ball under the table.",
+    "ja": "机の下のボール。"
+  },
+  {
+    "id": "expression-g5-m3-45",
+    "en": "1. A cat is in a box.\n2. A cat is on a chair.\n3. A dog is in a box.",
+    "ja": "箱の中のネコ。"
+  },
+  {
+    "id": "expression-g5-m3-46",
+    "en": "1. The girl is reading.\n2. The girl is singing.\n3. The girl is sleeping.",
+    "ja": "歌っている絵。"
+  },
+  {
+    "id": "expression-g5-m3-47",
+    "en": "1. The boy is riding a bike.\n2. The boy is playing baseball.\n3. The boy is swimming.",
+    "ja": "自転車に乗っています。"
+  },
+  {
+    "id": "expression-g5-m3-48",
+    "en": "1. It is snowing now.\n2. It is sunny now.\n3. It is raining now.",
+    "ja": "雨が降っています。"
+  },
+  {
+    "id": "expression-g5-m3-49",
+    "en": "1. The girl is in the kitchen.\n2. The girl is in bed.\n3. The girl is in the park.",
+    "ja": "ベッドの中にいます。"
+  },
+  {
+    "id": "expression-g5-m3-50",
+    "en": "1. The girl has a cup.\n2. The girl has a tennis racket.\n3. The girl has a book.",
+    "ja": "テニスラケットを持っています。"
+  }
+]

@@ -12,7 +12,7 @@ for(const file of data.audio)assert(fs.existsSync(path.join(root,'assets/audio',
 await page.locator('#distractors').selectOption('8');await page.locator('#hints').selectOption('none');await page.locator('#rounds').selectOption('5');
 await page.locator('button[type=submit]').click();await page.waitForFunction(()=>waiter!==null);
 assert.equal(await page.evaluate(()=>tiles.length),await page.evaluate(()=>W.w.length+8));
-await page.locator('#sn').click();await page.locator('#card').click({force:true});await page.waitForFunction(()=>wordAudio.currentTime>0);assert(await page.evaluate(()=>wordAudio.src.endsWith('.mp3')));
+if(await page.locator('#sn').getAttribute('aria-pressed')==='false')await page.locator('#sn').click();await page.locator('#card').click({force:true});await page.waitForFunction(()=>wordAudio.currentTime>0);assert(await page.evaluate(()=>wordAudio.src.endsWith('.mp3')));
 const before=await page.evaluate(()=>({score,combo}));
 await page.evaluate(()=>tiles.find(t=>t.ch!==W.w[currentStep]).el.onclick());await page.waitForFunction(()=>errors===1&&waiter!==null);assert.equal(await page.evaluate(()=>combo),0);assert.equal(await page.evaluate(()=>S[currentStep].g.querySelector('text').getAttribute('opacity')),'0');
 // Real user-selectable tiles drive the original crane animation. Speed only animation clocks.
@@ -22,14 +22,14 @@ const current=await page.evaluate(()=>wi);await page.evaluate(()=>window.__qaWi=
 for(let i=0;i<await page.evaluate(()=>W.w.length);i++){await page.waitForFunction(()=>waiter!==null);await page.evaluate(()=>tiles.find(t=>!t.used&&t.ch===W.w[currentStep]).el.onclick());}
 await page.waitForFunction(n=>wi>n||sessionDone,current);}
 await page.waitForFunction(()=>sessionDone);const result=await page.evaluate(()=>({score,combo,best,base:hunterBase(deckPoolSize),demoUsed}));assert.equal(result.score,[1,2,3,4,5].reduce((n,c)=>n+result.base*c*(1+Math.floor(c/3))*2,0));
-await page.locator('#settings-open').click();await page.locator('button[type=submit]').click();await page.waitForFunction(()=>waiter!==null);await page.locator('#am').click();await page.waitForFunction(()=>sessionDone);assert.equal(await page.evaluate(()=>score),0);
-await page.locator('#settings-open').click();await page.locator('#all-genres').click();const all=await page.evaluate(()=>eligible());assert.equal(all.length,904);assert(Math.max(...all.map(w=>w.w.length))<=16);
+await page.locator('#review-again').click();await page.locator('button[type=submit]').click();await page.waitForFunction(()=>waiter!==null);await page.locator('#am').click();await page.waitForFunction(()=>sessionDone);assert.equal(await page.evaluate(()=>score),0);
+await page.locator('#review-again').click();await page.locator('#all-genres').click();const all=await page.evaluate(()=>eligible());assert.equal(all.length,904);assert(Math.max(...all.map(w=>w.w.length))<=16);
 // Check the longest spelling uses the second slot row and all three tile rows.
 await page.evaluate(()=>{deck=[eligible().sort((a,b)=>b.w.length-a.w.length)[0]];deckPoolSize=904;wi=score=combo=0;sessionDone=false;auto=false;started=true;resume();main();});await page.waitForFunction(()=>waiter!==null);
 for(const width of [320,390,430,1280]){await page.setViewportSize({width,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:path.join(report,`game-${width}.png`)});}
 assert.equal(await page.evaluate(()=>Math.max(...S.map(s=>s.y))<Math.min(...tiles.map(t=>t.home.y))-38),true);
 await page.locator('#settings-open').click();assert(await page.locator('#hints').isDisabled());await page.locator('#close-settings').click();
-await page.addInitScript(()=>Math.random=()=>.5);await page.goto(base+'/abc-hand.html');await page.locator('#hints').selectOption('mistake');await page.locator('button[type=submit]').click();await page.waitForFunction(()=>waiter!==null);assert.equal(await page.evaluate(()=>D[W.id][0]),'cat');
+await page.addInitScript(()=>Math.random=()=>.5);await page.goto(base+'/abc-hand.html');await page.locator('#hints').selectOption('mistake');await page.locator('button[type=submit]').click();await page.waitForFunction(()=>waiter!==null);assert(await page.evaluate(()=>eligible().some(w=>w.id===W.id)));
 assert.equal(await page.evaluate(()=>S[0].g.querySelector('text').getAttribute('opacity')),'0');await page.evaluate(()=>tiles.find(t=>t.ch!==W.w[0]).el.onclick());await page.waitForFunction(()=>errors===1&&waiter!==null);assert.equal(await page.evaluate(()=>S[0].g.querySelector('text').getAttribute('opacity')),'.5');
 const imageURL=await page.locator('#ci image').getAttribute('href');assert(imageURL&&!imageURL.endsWith('.svg'));assert(await page.evaluate(url=>new Promise(resolve=>{const img=new Image();img.onload=()=>resolve(img.naturalWidth>0);img.onerror=()=>resolve(false);img.src=url;}),imageURL));await page.setViewportSize({width:390,height:844});await page.screenshot({path:path.join(report,'illustration-390.png')});
 await page.goto(base+'/abc-hand.html');assert.equal(await page.locator('#hints').inputValue(),'mistake');await page.locator('#hints').selectOption('always');await page.locator('button[type=submit]').click();await page.waitForFunction(()=>waiter!==null);assert.equal(await page.evaluate(()=>S[0].g.querySelector('text').getAttribute('opacity')),'0.3');

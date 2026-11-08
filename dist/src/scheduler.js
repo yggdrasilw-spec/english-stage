@@ -6,19 +6,23 @@ export const dayKey=t=>new Date(t).toLocaleDateString('sv-SE',{timeZone:'Asia/To
 export function updateProgress(old={},quality,now=Date.now()){
  const p={stage:0,days:[],attempts:0,correct:0,mistakes:0,...old};
  const prior=p.lastAt||0, same=prior&&dayKey(prior)===dayKey(now);
- p.attempts++;p.lastAt=now;p.lastQuality=quality;
+ const eligible=!prior||(!same&&now>=old.due);
+ p.attempts++;p.lastAt=now;p.lastQuality=quality;p.policy=2;
  if(quality==='correct'){
-  p.correct++;const newDay=!p.days.includes(dayKey(now));
-  if(newDay){p.days=[...p.days,dayKey(now)];p.stage=Math.min(intervals.length,p.stage+1);}
-  p.lastGap=prior?(now-prior)/DAY:0;
-  p.due=now+intervals[Math.max(0,p.stage-1)]*DAY;
-  p.mastered=!!old.mastered||(p.days.length>=3&&p.lastGap>=7);
+  p.correct++;
+  if(eligible){
+   p.days=[...new Set([...p.days,dayKey(now)])];p.stage=Math.min(intervals.length,p.stage+1);
+   p.lastGap=prior?(now-prior)/DAY:0;
+   p.mastered=p.days.length>=3&&p.lastGap>=7||!!old.mastered;
+   p.retired=!!old.retired&&old.policy===2||old.policy===2&&old.stage===6&&p.lastGap>=60;
+   p.due=now+intervals[Math.max(0,p.stage-1)]*DAY;
+  }else{p.due=old.due;p.retired=!!old.retired&&old.policy===2;}
  }else{
   if(quality==='wrong')p.mistakes++;
-  p.stage=0;p.mastered=false;p.due=now+DAY;
+  p.stage=0;p.days=[];p.mastered=false;p.retired=false;p.due=now+DAY;
  }
- // A same-day retry never promotes an interval beyond its existing stage.
  if(same&&quality==='correct'&&old.stage===0){p.stage=0;p.due=now+DAY;}
+
  return p;
 }
 export const skills=['read','listen','recall'];
@@ -29,13 +33,13 @@ export function knownChecks(card,state,now=Date.now()){
  const latest=Math.max(0,...skills.map(k=>records[k]?.lastAt||0));
  // One objective skill per known word per day, rather than three at once.
  if(latest>=at&&dayKey(latest)===dayKey(now))return [];
- const candidates=skills.map(skill=>{const p=records[skill];return {id:card.id,skill,due:p?Math.max(first,p.due):Math.max(first,latest>=at?nextDay(latest):first),priority:p?.lastQuality==='wrong'||p?.lastQuality==='guess'?0:!p?1:2};}).filter(t=>t.due<=now);
+ const candidates=skills.map(skill=>{const p=records[skill];if(p?.retired&&p.policy===2)return null;return {id:card.id,skill,due:p?Math.max(first,p.due):Math.max(first,latest>=at?nextDay(latest):first),priority:p?.lastQuality==='wrong'||p?.lastQuality==='guess'?0:!p?1:2};}).filter(t=>t&&t.due<=now);
  candidates.sort((a,b)=>a.priority-b.priority||a.due-b.due);
  return candidates.slice(0,1).map(({priority,...task})=>task);
 }
 export function dueTasks(cards,state,now=Date.now()){
  return shuffle(cards).flatMap(c=>isKnown(state,c.id)?knownChecks(c,state,now):skills.flatMap(skill=>{
-  const p=state.progress[c.id]?.[skill];return p&&p.due<=now?[{id:c.id,skill,due:p.due}]:[];
+  const p=state.progress[c.id]?.[skill];return p&&!(p.retired&&p.policy===2)&&p.due<=now?[{id:c.id,skill,due:p.due}]:[];
  })).sort((a,b)=>a.due-b.due);
 }
 export function plan(cards,state,mode='daily',now=Date.now()){

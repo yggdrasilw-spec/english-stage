@@ -1,0 +1,597 @@
+{
+  "14": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-4661.png",
+    "sourceWord": "パンダ",
+    "sourceMeaning": "白と黒の模様があるクマの仲間。主に竹を食べる。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "20": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1608.png",
+    "sourceWord": "キリン",
+    "sourceMeaning": "首がとても長い、アフリカの大型の動物。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "21": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-5072.png",
+    "sourceWord": "ペンギン",
+    "sourceMeaning": "南半球にすむ、泳ぎが得意な鳥。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "22": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-7021.png",
+    "sourceWord": "コアラ",
+    "sourceMeaning": "オーストラリアにすみ、きのうえでくらし、ユーカリのはなどをたべるどうぶつ。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "23": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2809.png",
+    "sourceWord": "シマウマ",
+    "sourceMeaning": "白黒などのしま模様があるウマ科の動物。主にアフリカにすむ。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "24": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-11676.png",
+    "sourceWord": "カンガルー",
+    "sourceMeaning": "大きな後ろ足で跳ねる有袋類の動物。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "25": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1711.png",
+    "sourceWord": "クジラ",
+    "sourceMeaning": "海にすむ、大型の哺乳類。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "26": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-432.png",
+    "sourceWord": "海豚",
+    "sourceMeaning": "海にすむ哺乳類。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "41": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-d-word-3859.png",
+    "sourceWord": "トウモロコシ",
+    "sourceMeaning": "つぶつぶの実が集まる、植物とその実の名前。黄色い実などがあり、ゆでたりやいたりして食べます。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "76": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-4641.png",
+    "sourceWord": "火",
+    "sourceMeaning": "物が燃えるときに出る炎や、燃焼によって生じる光や熱。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "80": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-f-word-5640.png",
+    "sourceWord": "ヤギ",
+    "sourceMeaning": "角やあごひげを持つ動物のなかま。人に飼われるもののほか、山などで野生でくらすものもいる。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "81": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2764.png",
+    "sourceWord": "シカ",
+    "sourceMeaning": "シカ科の動物。多くの種類ではオスに角がある。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "83": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-768.png",
+    "sourceWord": "オオカミ",
+    "sourceMeaning": "犬に似た、群れで暮らす野生動物。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "84": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4852.png",
+    "sourceWord": "フクロウ",
+    "sourceMeaning": "夜に活動する種類が多い鳥。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "86": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/common-word-1124.png",
+    "sourceWord": "蟹",
+    "sourceMeaning": "はさみのような爪を持つ、甲殻類。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "87": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-2631.png",
+    "sourceWord": "鮫",
+    "sourceMeaning": "軟骨でできた骨格を持つ魚の一群。多くは海にすみ、種類によって大きさや食性が異なる。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "89": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1465.png",
+    "sourceWord": "キャベツ",
+    "sourceMeaning": "葉が丸く重なって育つ野菜。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "105": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-c-word-3006.png",
+    "sourceWord": "ステーキ",
+    "sourceMeaning": "肉の厚い切り身を焼いた料理。牛肉以外の肉や魚を使うこともある。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "109": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13115.png",
+    "sourceWord": "キャンディー",
+    "sourceMeaning": "砂糖などを煮つめて作る甘いお菓子。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "111": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-4978.png",
+    "sourceWord": "プリン",
+    "sourceMeaning": "卵や牛乳などで作る、柔らかい甘いお菓子。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "112": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5521.png",
+    "sourceWord": "麺",
+    "sourceMeaning": "小麦粉などを細長く練って作った食べ物。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "120": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-956.png",
+    "sourceWord": "おやつ",
+    "sourceMeaning": "ごはんのあいだにたべるもの。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "127": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5146.png",
+    "sourceWord": "ポテト",
+    "sourceMeaning": "じゃがいものこと。また、細く切って油で揚げた料理を指すこともある。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "129": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13506.png",
+    "sourceWord": "地下鉄",
+    "sourceMeaning": "地下を中心に走る鉄道。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "130": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-e-word-5016.png",
+    "sourceWord": "ヘリコプター",
+    "sourceMeaning": "回転する羽根で揚力を得て飛ぶ乗り物。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "131": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-4528.png",
+    "sourceWord": "バイク",
+    "sourceMeaning": "エンジンで走る二輪車。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "133": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1556.png",
+    "sourceWord": "救急車",
+    "sourceMeaning": "急な病気やけがをした人を、病院などへ運ぶ車。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "134": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave3-word-6029.png",
+    "sourceWord": "ロケット",
+    "sourceMeaning": "燃料を噴き出す力で進む乗り物。宇宙へ行くものもある。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "164": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-1097.png",
+    "sourceWord": "風",
+    "sourceMeaning": "空気が動くこと。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "169": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-f-word-5606.png",
+    "sourceWord": "森",
+    "sourceMeaning": "木がたくさん生えている広い場所。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "177": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r4-word-3428.png",
+    "sourceWord": "地球",
+    "sourceMeaning": "私たちが住む太陽系の惑星。太陽の周りを回っている。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "180": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/rainbow.png",
+    "sourceWord": "虹",
+    "sourceMeaning": "雨のあとなどに空に見える、色の帯。日本では七色と表すことが多い。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "181": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave10-r3-word-3068.png",
+    "sourceWord": "世界",
+    "sourceMeaning": "地球や人々の社会など ある範囲にあるもの全体。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "192": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512b-word-7790.png",
+    "sourceWord": "金色",
+    "sourceMeaning": "きんぞくのきんのように、かがやくいろ。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "193": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r2-word-1662.png",
+    "sourceWord": "銀色",
+    "sourceMeaning": "銀のような、明るく光る灰色。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "258": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r2-word-1403.png",
+    "sourceWord": "季節",
+    "sourceMeaning": "春夏秋冬という、一年の四つの時期。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "266": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-4611.png",
+    "sourceWord": "パパ",
+    "sourceMeaning": "お父さんを親しんで呼ぶ言葉。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "267": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r3-word-5255.png",
+    "sourceWord": "ママ",
+    "sourceMeaning": "お母さんを親しんで呼ぶ言葉。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "275": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7-word-5883.png",
+    "sourceWord": "両親",
+    "sourceMeaning": "父親と母親。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "298": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave6-word-1197.png",
+    "sourceWord": "体",
+    "sourceMeaning": "人や動物の、頭や手足などを合わせた全体。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "301": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave8-word-3098.png",
+    "sourceWord": "背中",
+    "sourceMeaning": "からだの後ろ側にある、お顔や胸の反対側にある広くて平らな部分のこと。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "302": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-4619.png",
+    "sourceWord": "ハート",
+    "sourceMeaning": "心や気持ちを表すときに使われる形。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "314": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-11470.png",
+    "sourceWord": "運動場",
+    "sourceMeaning": "走ったり球技をしたりするための広い場所。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "321": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/taisou.png",
+    "sourceWord": "体育",
+    "sourceMeaning": "体を動かす運動や 健康な体について学ぶ教科。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "323": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave9-word-6336.png",
+    "sourceWord": "社会科",
+    "sourceMeaning": "人々の暮らしや仕事、土地の様子、歴史などを学ぶ、学校の教科。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "324": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-5017.png",
+    "sourceWord": "ベル",
+    "sourceMeaning": "音を鳴らして合図する道具。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "338": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-oct14-word-7512.png",
+    "sourceWord": "画家",
+    "sourceMeaning": "えをかくことを、しごとにしているひと。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "344": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-11587.png",
+    "sourceWord": "科学者",
+    "sourceMeaning": "自然の仕組みなどを科学で調べる人。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "345": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-12051.png",
+    "sourceWord": "作家",
+    "sourceMeaning": "小説などの作品を作る仕事の人。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "347": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024g-word-11527.png",
+    "sourceWord": "音楽家",
+    "sourceMeaning": "音楽を作ったり演奏したりする仕事の人。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "370": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave6-word-833.png",
+    "sourceWord": "お城",
+    "sourceMeaning": "むかしのおうさまがすんでいたところ。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "379": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/general01-word-66951.png",
+    "sourceWord": "階段",
+    "sourceMeaning": "たかいところへ のぼりおりするための、だんだんに なった みち。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "389": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-b-word-1735.png",
+    "sourceWord": "靴下",
+    "sourceMeaning": "足に履き、靴の中で使う衣類。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "390": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave5-word-6137.png",
+    "sourceWord": "手袋",
+    "sourceMeaning": "てをさむさやけがからまもるために、てにかぶせるもの。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "393": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512c-word-8161.png",
+    "sourceWord": "ジーンズ",
+    "sourceMeaning": "おもにデニムのぬのでつくるズボン。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "395": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024h-word-13907.png",
+    "sourceWord": "ブーツ",
+    "sourceMeaning": "足首より上までおおう長い靴。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "396": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave2-f-word-5748.png",
+    "sourceWord": "指輪",
+    "sourceMeaning": "指にはめる輪の形の飾り。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "397": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave4-word-5212.png",
+    "sourceWord": "マスク",
+    "sourceMeaning": "口や鼻をおおう布や道具。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "406": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024f-word-10881.png",
+    "sourceWord": "ゴルフ",
+    "sourceMeaning": "クラブでボールを打ち、少ない打数で穴に入れることを競うスポーツ。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "407": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion1024fv2-word-10918.png",
+    "sourceWord": "アルペンスキー",
+    "sourceMeaning": "スキーで雪の斜面を滑る競技。skiingの具体例として参照。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "408": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/pv-slide.png",
+    "sourceWord": "スケート",
+    "sourceMeaning": "刃や車輪の付いた靴で、氷や床の上を滑る運動や競技。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "412": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/review93-competition.png",
+    "sourceWord": "競争",
+    "sourceMeaning": "速さや上手さなどを比べて競うこと。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "413": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/wave7r1-word-2888.png",
+    "sourceWord": "柔道",
+    "sourceMeaning": "相手を投げたり押さえたりして勝敗を競う武道。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "455": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6622.png",
+    "sourceWord": "売る",
+    "sourceMeaning": "ものなどをわたして、そのかわりに、おかねをもらうこと。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "479": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-4326.png",
+    "sourceWord": "塗る",
+    "sourceMeaning": "液体や粉などを表面に広げてつけること。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "493": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512b-v2-word-7707.png",
+    "sourceWord": "大笑い",
+    "sourceMeaning": "おおきなこえなどをだして、たくさんわらうこと。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "519": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-0972.png",
+    "sourceWord": "重い",
+    "sourceMeaning": "もちあげるときにちからがいること。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "520": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-1255.png",
+    "sourceWord": "軽い",
+    "sourceMeaning": "持ち上げるときに、あまり力がいらないこと。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "527": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512-word-6750.png",
+    "sourceWord": "有名",
+    "sourceMeaning": "たくさんのひとに、なまえなどをしられているようす。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "538": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/expansion512b-word-7781.png",
+    "sourceWord": "汚い",
+    "sourceMeaning": "よごれなどがついて、きれいではないこと。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "550": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/complete-0917.png",
+    "sourceWord": "同じ",
+    "sourceMeaning": "ちがうところがひとつもないこと。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "551": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/chigau.png",
+    "sourceWord": "違う",
+    "sourceMeaning": "同じではないこと。また 正しいものと一致しないこと。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "608": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/kansha.png",
+    "sourceWord": "感謝",
+    "sourceMeaning": "ありがたいと思う気持ち。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "609": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/konnichiwa.png",
+    "sourceWord": "こんにちは",
+    "sourceMeaning": "日中に人と会ったときに使う、あいさつの言葉。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "611": {
+    "url": "https://shiritori-images.yggdrasil-learning.workers.dev/assets/shiritori/ayamaru.png",
+    "sourceWord": "謝る",
+    "sourceMeaning": "自分の悪い行いを認めて、ごめんなさいと相手に伝えること。",
+    "credit": "しりとり共有・AI生成イラスト",
+    "sourceReview": "2026-11-08 English spelling and Japanese sense checked against dictionary asset record"
+  },
+  "102": {
+    "url": "assets/vocabulary/game-hot-dog.svg",
+    "credit": "独自の学習イラスト",
+    "sourceWord": "ホットドッグ",
+    "sourceMeaning": "ホットドッグ",
+    "sourceReview": "2026-11-08 code-authored concept illustration"
+  },
+  "126": {
+    "url": "assets/vocabulary/game-jam.svg",
+    "credit": "独自の学習イラスト",
+    "sourceWord": "ジャム",
+    "sourceMeaning": "ジャム",
+    "sourceReview": "2026-11-08 code-authored concept illustration"
+  },
+  "132": {
+    "url": "assets/vocabulary/game-fire-truck.svg",
+    "credit": "独自の学習イラスト",
+    "sourceWord": "しょうぼうしゃ",
+    "sourceMeaning": "しょうぼうしゃ",
+    "sourceReview": "2026-11-08 code-authored concept illustration"
+  },
+  "219": {
+    "url": "assets/vocabulary/game-fourth.svg",
+    "credit": "独自の学習イラスト",
+    "sourceWord": "4ばんめ",
+    "sourceMeaning": "4ばんめ",
+    "sourceReview": "2026-11-08 code-authored concept illustration"
+  },
+  "220": {
+    "url": "assets/vocabulary/game-fifth.svg",
+    "credit": "独自の学習イラスト",
+    "sourceWord": "5ばんめ",
+    "sourceMeaning": "5ばんめ",
+    "sourceReview": "2026-11-08 code-authored concept illustration"
+  },
+  "343": {
+    "url": "assets/vocabulary/game-firefighter.svg",
+    "credit": "独自の学習イラスト",
+    "sourceWord": "しょうぼうし",
+    "sourceMeaning": "しょうぼうし",
+    "sourceReview": "2026-11-08 code-authored concept illustration"
+  },
+  "346": {
+    "url": "assets/vocabulary/game-baker.svg",
+    "credit": "独自の学習イラスト",
+    "sourceWord": "パンやさん",
+    "sourceMeaning": "パンやさん",
+    "sourceReview": "2026-11-08 code-authored concept illustration"
+  },
+  "392": {
+    "url": "assets/vocabulary/game-scarf.svg",
+    "credit": "独自の学習イラスト",
+    "sourceWord": "マフラー",
+    "sourceMeaning": "マフラー",
+    "sourceReview": "2026-11-08 code-authored concept illustration"
+  },
+  "419": {
+    "url": "assets/vocabulary/game-trumpet.svg",
+    "credit": "独自の学習イラスト",
+    "sourceWord": "トランペット",
+    "sourceMeaning": "トランペット",
+    "sourceReview": "2026-11-08 code-authored concept illustration"
+  },
+  "617": {
+    "url": "assets/vocabulary/game-if.svg",
+    "credit": "独自の学習イラスト",
+    "sourceWord": "もし",
+    "sourceMeaning": "もし",
+    "sourceReview": "2026-11-08 code-authored concept illustration"
+  }
+}

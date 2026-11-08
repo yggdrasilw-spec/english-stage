@@ -55,9 +55,9 @@ test('resident summaries count distinct species and distinguish scenery from amb
 });
 
 test('existing saves and water balances acquire scenery without additional state or spending',()=>{
- const s=initial();s.stars=17;for(let i=0;i<40;i++)recordForest(s);for(let i=0;i<7;i++)waterForest(s,i);
+ const s=initial();s.stars=17;for(let i=0;i<160;i++)recordForest(s);for(let i=0;i<28;i++)waterForest(s,i);
  const before=structuredClone(s),restored=validateBackup({app:'english-stage',version:1,state:structuredClone(s)},new Set());
  assert.equal(forestScene(s),forestScene(restored));assert.deepEqual(s,before);assert.equal(s.stars,17);
  assert(forestScene(s).includes('data-resident="bench"'));assert(!forestScene(s).includes('data-resident="fish"'));
- const reward=waterForest(s,7);assert.match(reward.arrival,/ランタン/);assert.equal(s.stars,17);
+ for(let i=28;i<31;i++)waterForest(s,i);const reward=waterForest(s,31);assert.match(reward.arrival,/ランタン/);assert.equal(s.stars,17);
 });

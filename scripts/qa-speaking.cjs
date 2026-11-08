@@ -47,13 +47,13 @@ const server=http.createServer((req,res)=>{try{const name=new URL(req.url,'http:
   await page.evaluate(()=>{Object.defineProperty(document,'hidden',{configurable:true,get:()=>false});document.dispatchEvent(new Event('visibilitychange'));});
   await page.waitForFunction(()=>!document.querySelector('#speaking-mic').disabled);assert.equal(await count(),beforeHide);
   await page.locator('#speaking-mic').click();await page.evaluate(()=>window.__late=__recs.at(-1).onresult);await page.locator('.speaking-wrap a[href="#home"]').click();
-  await page.locator('.speaking-entry').waitFor();assert(await page.evaluate(()=>__recs.at(-1).aborted));
-  await page.locator('.speaking-entry').click();assert.equal(await count(),beforeHide+1);assert.equal(await page.locator('#speaking-mic').isEnabled(),true);
+  await page.locator('.banner-speaking').waitFor();assert(await page.evaluate(()=>__recs.at(-1).aborted));
+  await page.locator('.banner-speaking').click();assert.equal(await count(),beforeHide+1);assert.equal(await page.locator('#speaking-mic').isEnabled(),true);
   // Muting is persisted without starting recognition or playing the correct effect.
   await page.locator('#sound').click();await page.waitForFunction(()=>document.querySelector('#sound').textContent==='音声 OFF');
   await page.locator('#speaking-mic').click();const mutedTones=await page.evaluate(()=>__tones);await correct();assert.equal(await page.evaluate(()=>__tones),mutedTones);
   for(let i=0;i<3;i++){await page.locator('#speaking-next').click();assert(await page.locator('#speaking-mic').isDisabled());await correct();}
-  const s=await saved();assert.equal(s.forest.total,5);assert.equal(s.forest.watered,0);assert.equal(s.history.length,0);assert.equal(s.stars,0);
+  const s=await saved();assert.equal(s.forest.total,5);assert.equal(s.forest.watered,0);assert(s.history.some(h=>h.source==='speaking'&&h.skill==='recall'));assert(s.history.some(h=>h.source==='speaking'&&h.skill==='speak'&&h.quality==='guess'));assert.equal(s.stars,0);
   assert(await page.evaluate(async()=>{const m=await import('./src/storage.js'),s=await m.read(),cards=await(await fetch('data/grade5.json')).json();return !!m.validateBackup({app:'english-stage',version:1,state:s},new Set(cards.map(c=>c.id)));}));
   await page.locator('#speaking-next').click();await page.getByText('5問、おつかれさま！',{exact:true}).waitFor();
   await page.locator('#speaking-game a[href="#forest"]').click();await page.locator('#forest-water').click();

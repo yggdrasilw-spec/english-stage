@@ -24,12 +24,12 @@ test('each watering consumes exactly one unit and visibly adds a flower; stale c
 });
 
 test('growth milestones match the displayed flowers, tree, pond, bridge and animals across two forests',()=>{
- const s=initial();earn(s,200);
- for(let n=1;n<=40;n++){
-  const change=waterForest(s,n-1);assert(change);assert.equal(change.area,Math.floor((n-1)/20));
-  const j=forestJourney(s,at);assert.equal(j.area,Math.floor(n/20));assert.equal(j.local,n%20);
-  const scene=forestScene(s,change.area),local=(n-1)%20+1;
-  assert.equal((scene.match(/forest-bloom/g)||[]).length,local*3);
+ const s=initial();earn(s,800);
+ for(let n=1;n<=160;n++){
+  const change=waterForest(s,n-1);assert(change);assert.equal(change.area,Math.floor((n-1)/80));
+  const j=forestJourney(s,at);assert.equal(j.area,Math.floor(n/80));assert.equal(j.local,(n%80)/4);
+  const scene=forestScene(s,change.area),local=((n-1)%80+1)/4;
+  assert.equal((scene.match(/forest-bloom/g)||[]).length,local*12);
   assert.equal(scene.includes(' forest-pond"'),local>=8);
   assert.equal(scene.includes(' forest-bridge"'),local>=10);
   assert.equal(scene.includes(' forest-animal"'),local>=12);
@@ -67,14 +67,14 @@ test('flowers scatter stably in previously open ground; mist retreats only every
  for(let area=0;area<5;area++){
   let before=[];
   for(let local=0;local<=20;local++){
-   const points=forestFlowers(local,area);assert.equal(points.length,local*3);
+   const points=forestFlowers(local,area);assert.equal(points.length,local*12);
    assert.deepEqual(points.slice(0,before.length),before);
-   for(const p of points)assert(isOpenGround(p.x,p.y,fogProgress(p.water-1),[],45));
+   for(const p of points)assert(isOpenGround(p.x,p.y,fogProgress(p.water-.25),[],45));
    for(let i=0;i<points.length;i++)for(let j=i+1;j<points.length;j++)assert(Math.hypot(points[i].x-points[j].x,points[i].y-points[j].y)>=48);
    assert.equal(fogProgress(local),Math.floor(local/4)*20);before=points;
   }
  }
  assert.notDeepEqual(forestFlowers(4,0),forestFlowers(4,1));
  const s=initial();earn(s,25);
- for(let n=0;n<5;n++){const r=waterForest(s,n);assert.equal(r.flowersAdded,3);assert.equal(r.fogExpanded,n===3);}
+ for(let n=0;n<5;n++){const r=waterForest(s,n);assert.equal(r.flowersAdded,3);assert.equal(r.fogExpanded,false);}
 });

@@ -14,6 +14,7 @@ async function ready(){
 }
 export async function play(card,{example=false,slow=false}={}){
  stop();const mine=token;await init();if(mine!==token)return false;
+ if(card.audioPath&&!example){current=new Audio(card.audioPath);current.playbackRate=slow?.75:1;try{await current.play();return true;}catch{throw Error('音声ファイルを再生できません。');}}
  const file=manifest?.files.find(f=>f.id===card.id&&f.part===(example?'example':'word')&&f.speed===(slow?'slow':'normal'));
  if(file&&/^assets\/audio\/[a-z0-9-]+\.mp3$/.test(file.path)){
   current=new Audio(file.path);try{await current.play();return true;}catch{if(mine!==token)return false;throw Error('音声ファイルを再生できません。「もう一度」で再試行してください。');}

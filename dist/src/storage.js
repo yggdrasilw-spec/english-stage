@@ -23,11 +23,11 @@ export function validateBackup(b,ids){
  for(const [id,p] of Object.entries(s.progress)){
   if(!ids.has(id)||!p||typeof p!=='object')throw Error('教材のIDが一致しません。');
   for(const [skill,r] of Object.entries(p)){
-   if(!['read','listen','recall','self'].includes(skill)||!r||!Number.isFinite(r.due)||r.due<0||!Number.isFinite(r.lastAt)||!Number.isInteger(r.stage)||r.stage<0||r.stage>6||!Array.isArray(r.days)||r.days.some(x=>typeof x!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(x))||!['correct','wrong','guess','self'].includes(r.lastQuality)||!['attempts','correct','mistakes'].every(k=>Number.isInteger(r[k])&&r[k]>=0))throw Error('復習記録が壊れています。');
+   if((r?.retired!==undefined&&typeof r.retired!=='boolean')||(r?.policy!==undefined&&r.policy!==2)||!['read','listen','recall','self','spell','speak','accent','intonation','grammar'].includes(skill)||!r||!Number.isFinite(r.due)||r.due<0||!Number.isFinite(r.lastAt)||!Number.isInteger(r.stage)||r.stage<0||r.stage>6||!Array.isArray(r.days)||r.days.some(x=>typeof x!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(x))||!['correct','wrong','guess','self'].includes(r.lastQuality)||!['attempts','correct','mistakes'].every(k=>Number.isInteger(r[k])&&r[k]>=0))throw Error('復習記録が壊れています。');
   }
  }
  if(Object.entries(s.seen).some(([id,t])=>!ids.has(id)||!Number.isFinite(t)))throw Error('学習記録が壊れています。');
- if(s.history.some(h=>!h||!ids.has(h.id)||!['read','listen','recall','self'].includes(h.skill)||!['correct','wrong','guess','self'].includes(h.quality)||!Number.isFinite(h.at)))throw Error('回答履歴が壊れています。');
+ if(s.history.some(h=>!h||!ids.has(h.id)||!['read','listen','recall','self','spell','speak','accent','intonation','grammar'].includes(h.skill)||!['correct','wrong','guess','self'].includes(h.quality)||!Number.isFinite(h.at)))throw Error('回答履歴が壊れています。');
  if(s.rewards.some(r=>typeof r!=='string'))throw Error('星の記録が壊れています。');
  if(s.screening){
   if(!s.screening.results||typeof s.screening.results!=='object'||Array.isArray(s.screening.results))throw Error('最初のチェックの形式が正しくありません。');
@@ -41,8 +41,10 @@ export function validateBackup(b,ids){
   if(!Array.isArray(f.ids)||f.ids.length>ids.size||f.ids.some(id=>!ids.has(id))||!Number.isInteger(f.index)||f.index<0||f.index>f.ids.length||!['card','read','recall','listen','match'].includes(f.mode)||!['all','new','weak','due'].includes(f.filter)||typeof f.theme!=='string'||typeof f.auto!=='boolean'||!['checked','correct','known'].every(k=>Number.isSafeInteger(f[k])&&f[k]>=0))throw Error('カードの中断記録が壊れています。');
   if(f.forestCredits!==undefined&&(!Array.isArray(f.forestCredits)||f.forestCredits.length>ids.size*2||f.forestCredits.some(k=>typeof k!=='string'||!/^\d+:/.test(k)||!ids.has(k.slice(k.indexOf(':')+1)))))throw Error('水の確認記録が壊れています。');
   f.feedback=null;
-  if(f.tasks&&(!Array.isArray(f.tasks)||f.tasks.length!==f.ids.length||f.tasks.length>10||f.tasks.some((t,i)=>!t||t.id!==f.ids[i]||!['read','listen','recall'].includes(t.skill)||!Number.isFinite(t.due))))throw Error('復習チェックの中断記録が壊れています。');
+  if(f.tasks&&(!Array.isArray(f.tasks)||f.tasks.length!==f.ids.length||f.tasks.length>60||f.tasks.some((t,i)=>!t||t.id!==f.ids[i]||!['read','listen','recall'].includes(t.skill)||!Number.isFinite(t.due))))throw Error('復習チェックの中断記録が壊れています。');
  }
+ if(s.goal&&(!/^\d{4}-\d{2}-\d{2}$/.test(s.goal.date)||!Number.isInteger(s.goal.dailyLimit)||s.goal.dailyLimit<1||s.goal.dailyLimit>50))throw Error('目標の形式が違います。');
+ if(s.fastPreferences&&(!Array.isArray(s.fastPreferences.themes)||s.fastPreferences.themes.some(t=>typeof t!=='string')||!Array.isArray(s.fastPreferences.filters)||s.fastPreferences.filters.some(t=>!['all','new','weak','due'].includes(t))))throw Error('学習設定が壊れています。');
  if(s.karutaLearning!==undefined&&!validKarutaLearning(s.karutaLearning,ids))throw Error('かるたの学習記録が壊れています。');
  if(s.karuta&&!validKaruta(s.karuta,ids))throw Error('かるたの中断記録が壊れています。');
  if(s.hunter!==undefined&&!validHunter(s.hunter,ids))throw Error('たんごハンターの記録が壊れています。');

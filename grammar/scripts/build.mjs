@@ -1,4 +1,4 @@
-import {mkdir,readFile,writeFile} from 'node:fs/promises';
+import {mkdir,readFile,writeFile,readdir} from 'node:fs/promises';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {resolve,sep} from 'node:path';
 import {createHash} from 'node:crypto';
@@ -7,6 +7,10 @@ export async function releaseFiles(){
  const files=new Map(),imports={},modules=['app.js','content.js','core.js','ai-prompt.js','ai-view.js'];
  for(const file of ['index.html','style.css',...modules])files.set(file,(await readFile(new URL(file,source),'utf8')).replace(/\r\n/g,'\n'));
  const digest=text=>createHash('sha256').update(text).digest('hex').slice(0,16);
+ const shared=new URL('../dist/',source);
+ for(const file of (await readdir(new URL('src/',shared))).filter(n=>n.endsWith('.js')))imports['../src/'+file]='../src/'+file+'?v='+digest((await readFile(new URL('src/'+file,shared),'utf8')).replace(/\r\n/g,'\n'));
+ const bridgeHash=digest(await readFile(new URL('game-bridge.js',shared),'utf8'));
+ files.set('index.html',files.get('index.html').replace('../game-bridge.js','../game-bridge.js?v='+bridgeHash));
  for(const file of modules)imports['./'+file]='./'+file+'?v='+digest(files.get(file));
  files.set('index.html',files.get('index.html').replace(/style\.css\?v=[^" ]+/,`style.css?v=${digest(files.get('style.css'))}`).replace(/<script type="module" src="app\.js[^\"]*"><\/script>/,`<script type="importmap">${JSON.stringify({imports})}</script><script type="module">import './app.js';</script>`));
  return files;
