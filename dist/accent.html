@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>アクセントを聞き分けろ！</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap">
+<style>
+:root{--lit:#E3E3FF;--bg:#F1EEFF;--glow:#fff;--card:#fff;--ink:#241F5C;--mute:#7470A3;--line:#DAD5F6;--pri:#5B5CFF;--pri-d:#3738C4;--hot:#FF9A1F;--hot-d:#D4690A;--okc:#1FAF74;--okd:#128A58;--okbg:#DDF6EA;--ngc:#E5546B;--ngd:#B93450;--ngbg:#FFE5EA;--weak:#C4C0EE;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--lit:#3B3897;--bg:#14123A;--glow:#2B2788;--card:#242059;--ink:#F2F0FF;--mute:#A9A5DA;--line:#39347D;--okbg:#10382B;--ngbg:#43202C;--weak:#4B4792}}
+:root[data-theme="dark"]{--lit:#3B3897;--bg:#14123A;--glow:#2B2788;--card:#242059;--ink:#F2F0FF;--mute:#A9A5DA;--line:#39347D;--okbg:#10382B;--ngbg:#43202C;--weak:#4B4792}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0}
+body{background:radial-gradient(90% 55% at 50% 0,var(--glow),transparent),var(--bg);color:var(--ink);font:700 16px/1.45 "Zen Maru Gothic","Hiragino Maru Gothic ProN","Hiragino Sans","Yu Gothic UI",Meiryo,system-ui,sans-serif;overflow:hidden;user-select:none;-webkit-user-select:none;touch-action:manipulation}
+button{font:inherit;color:inherit;border:0;cursor:pointer;padding:0}
+button:focus-visible{outline:4px solid var(--hot);outline-offset:3px}
+#app{height:100%;max-width:560px;margin:0 auto;position:relative}
+.scr{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;opacity:0;pointer-events:none;transform:translateY(16px);transition:opacity .35s,transform .35s}
+.scr.on{opacity:1;pointer-events:auto;transform:none}
+.cta{background:var(--c,var(--pri));color:#fff;font-size:20px;font-weight:900;letter-spacing:.06em;border-radius:20px;padding:15px 30px;box-shadow:0 6px 0 var(--cd,var(--pri-d));transition:transform .08s,box-shadow .08s}
+.cta:active{transform:translateY(5px);box-shadow:0 1px 0 var(--cd,var(--pri-d))}
+.ghost{background:none;color:var(--mute);font-size:16px;padding:10px 20px}
+.note{margin:0;font-size:13px;color:var(--mute)}
+/* start */
+#start{justify-content:center;gap:clamp(16px,3.6vh,32px);padding:24px;text-align:center}
+.demo{display:flex;gap:12px;align-items:center;height:clamp(110px,18vh,150px)}
+.blob{font:900 32px Nunito,sans-serif;background:var(--card);border-radius:24px;padding:20px 22px;box-shadow:0 6px 0 var(--line),inset 0 0 0 3px var(--line);animation:beat 2.4s infinite}
+.blob.hot{background:linear-gradient(#FFB63D,var(--hot));color:#fff;padding:26px 30px;font-size:44px;box-shadow:0 8px 0 var(--hot-d),0 0 40px #FF9A1F77;animation-name:beatH;animation-delay:.55s}
+.blob:nth-child(3){animation-delay:1.1s}
+h1{margin:0;font-size:clamp(30px,8.4vw,46px);line-height:1.25;font-weight:900}
+.sub{margin:0;color:var(--mute)}
+.chips{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.chip{background:var(--card);border-radius:99px;padding:9px 16px;font-size:14px;box-shadow:inset 0 0 0 2px var(--line)}
+.chip[aria-pressed=true]{box-shadow:inset 0 0 0 2px var(--pri);color:var(--pri)}
+/* play */
+#play{padding-top:12px}
+.hd{display:flex;align-items:center;gap:12px;padding:0 16px;width:100%}
+.x{width:40px;height:40px;border-radius:50%;background:var(--card);color:var(--mute);font-size:18px;box-shadow:0 3px 0 var(--line)}
+.x:active,.slow:active{transform:translateY(3px)}
+.bar{flex:1;display:flex;gap:5px}
+.bar i{flex:1;height:12px;border-radius:9px;background:var(--line);transition:background .3s}
+.bar i.cur{background:var(--pri);animation:blink 1.4s infinite}
+.bar i.ok{background:var(--okc)}.bar i.ng{background:var(--ngc)}
+.fire{font:900 16px Nunito,sans-serif;background:var(--card);border-radius:99px;padding:7px 12px;min-width:66px;text-align:center;box-shadow:0 3px 0 var(--line)}
+.stage{flex:1;min-height:0;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;padding:6px 16px}
+.wd{display:flex;flex-direction:column;align-items:center;gap:8px}
+.pic{width:clamp(92px,16vh,128px);aspect-ratio:1;border-radius:34px;background:var(--card);display:grid;place-items:center;font-size:clamp(50px,9.5vh,72px);box-shadow:0 6px 0 var(--line);animation:pop .5s both}
+.jp{height:22px;margin:0;font-size:17px;color:var(--mute);opacity:0;transition:opacity .3s}.jp.on{opacity:1}
+.sp{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;width:100%}
+.spk{position:relative;grid-column:2;width:clamp(88px,15vh,112px);aspect-ratio:1;border-radius:50%;background:var(--pri);box-shadow:0 7px 0 var(--pri-d);display:grid;place-items:center;transition:transform .08s,box-shadow .08s}
+.spk:active{transform:translateY(5px);box-shadow:0 2px 0 var(--pri-d)}
+.spk svg{width:46%;fill:#fff}
+.spk::before,.spk::after{content:"";position:absolute;inset:0;border-radius:50%;border:3px solid var(--pri);opacity:0;pointer-events:none}
+.spk.on::before{animation:ring 1s infinite}.spk.on::after{animation:ring 1s .45s infinite}
+.slow{grid-column:3;justify-self:start;margin-left:16px;width:52px;height:52px;border-radius:50%;background:var(--card);font-size:24px;box-shadow:0 4px 0 var(--line)}
+.q{margin:0;font-size:clamp(18px,5.2vw,23px);font-weight:900;text-align:center}
+.row{display:flex;gap:10px;width:100%;justify-content:center;align-items:center;min-height:clamp(120px,20vh,156px)}
+.syl{position:relative;flex:1 1 0;min-width:0;max-width:150px;height:clamp(84px,14vh,112px);border-radius:26px;background:var(--card);font:900 clamp(26px,8vw,38px) Nunito,sans-serif;box-shadow:0 6px 0 var(--line),inset 0 0 0 3px var(--line);transition:transform .55s cubic-bezier(.3,1.7,.4,1),background .3s,opacity .3s,box-shadow .08s}
+.syl:active:not(:disabled){transform:translateY(5px);box-shadow:0 1px 0 var(--line),inset 0 0 0 3px var(--line)}
+.syl:disabled{cursor:default}
+.syl.lit{animation:lit .34s ease-out}
+.syl.big{transform:translateY(-8px) scale(1.2);background:linear-gradient(#FFB63D,var(--hot));color:#fff;box-shadow:0 8px 0 var(--hot-d),0 0 36px #FF9A1F88}
+.syl.small{transform:scale(.84);opacity:.55}
+.syl.bad{opacity:1;box-shadow:0 6px 0 var(--ngd),inset 0 0 0 3px var(--ngc);animation:shake .4s}
+.syl.big::after{content:"いちばん強い！";position:absolute;left:50%;top:-30px;translate:-50% 0;white-space:nowrap;background:var(--card);color:var(--hot-d);font:900 12px "Zen Maru Gothic",sans-serif;padding:3px 10px;border-radius:99px;box-shadow:0 2px 0 var(--line);animation:pop .4s .25s both}
+.foot{flex:none;width:100%;height:clamp(132px,22vh,170px);padding:16px 20px;display:flex;align-items:center;gap:14px;background:var(--card);box-shadow:inset 0 3px 0 var(--line);border-radius:30px 30px 0 0;transition:background .35s}
+.foot .msg{flex:1;min-width:0}
+.foot h3{margin:0;font-size:22px;font-weight:900}
+.foot p{margin:2px 0 0;font-size:14px;color:var(--mute)}
+.foot p b{font:900 17px Nunito,sans-serif}
+.foot .cta{display:none}
+.foot.ok{background:var(--okbg);--c:var(--okc);--cd:var(--okd);box-shadow:inset 0 3px 0 var(--okc)}
+.foot.ng{background:var(--ngbg);--c:var(--ngc);--cd:var(--ngd);box-shadow:inset 0 3px 0 var(--ngc)}
+.foot.ok h3{color:var(--okc)}.foot.ng h3{color:var(--ngc)}
+.foot.ok p,.foot.ng p{color:var(--ink)}
+.foot.ok .cta,.foot.ng .cta{display:block;animation:pop .35s .15s both}
+/* result */
+#result{padding:30px 20px 18px;gap:12px;text-align:center}
+h2{margin:0;font-size:26px;font-weight:900}
+.stars{display:flex;gap:6px;font-size:54px;line-height:1}
+.stars span{filter:grayscale(1) opacity(.3);transform:scale(.7)}
+.stars span.on{filter:none;animation:pop .6s both}
+.score{font:900 52px/1 Nunito,sans-serif}.score small{font-size:22px;color:var(--mute)}
+.list{width:100%;flex:1;min-height:0;overflow:auto;display:grid;gap:8px;align-content:start;padding:4px 2px 8px}
+.it{display:flex;align-items:center;gap:12px;width:100%;background:var(--card);border-radius:20px;padding:10px 14px;box-shadow:0 4px 0 var(--line);text-align:left}
+.it:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line)}
+.it em{font-style:normal;font-size:28px}.it b{flex:1;font:900 20px Nunito,sans-serif}
+.dots{display:flex;align-items:center;gap:5px;margin-right:6px}.dots i{width:10px;height:10px;border-radius:50%;background:var(--weak)}.dots i.h{width:20px;height:20px;background:var(--hot)}
+.mk{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:14px}.mk.ok{background:var(--okc)}.mk.ng{background:var(--ngc)}
+.acts{display:flex;flex-direction:column;align-items:center;gap:4px}
+@keyframes pop{0%{transform:scale(.4);opacity:0}70%{transform:scale(1.1)}100%{transform:scale(1);opacity:1}}
+@keyframes ring{from{transform:scale(1);opacity:.7}to{transform:scale(1.7);opacity:0}}
+@keyframes shake{25%{transform:translateX(-9px) scale(.84)}75%{transform:translateX(9px) scale(.84)}}
+@keyframes blink{50%{opacity:.45}}
+@keyframes lit{40%{transform:translateY(-6px) scale(1.1);background:var(--lit);box-shadow:0 10px 0 var(--pri-d),inset 0 0 0 3px var(--pri),0 0 28px #5B5CFF77}}
+@keyframes bump{40%{transform:scale(1.3)}}
+@keyframes beat{0%,20%,100%{transform:scale(1)}10%{transform:scale(1.1)}}
+@keyframes beatH{0%,24%,100%{transform:scale(1)}12%{transform:scale(1.24)}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-iteration-count:1!important;transition-duration:.01s!important}.syl.lit{animation:litc .34s!important}@keyframes litc{40%{background:var(--lit);box-shadow:0 6px 0 var(--line),inset 0 0 0 3px var(--pri)}}}
+/* しつもんの声モード */
+.modes .chip{font-size:16px;padding:11px 18px}.modes .chip[aria-pressed=true]{background:var(--pri);color:#fff;box-shadow:0 4px 0 var(--pri-d)}
+.sent{display:none;margin:0;font:900 clamp(20px,6vw,26px)/1.35 Nunito,sans-serif;text-align:center}
+.sent i{font-style:normal;display:inline-block;transition:transform .15s,color .15s}.sent i.on{color:var(--pri);transform:translateY(-4px) scale(1.15)}
+.sent em{font-style:normal;font-size:1.4em;margin-right:6px}
+.mq .sent{display:block}.mq .pic{display:none}.mq .jp{font-size:15px}.mq .foot p{font-size:13px}.mq .spk{width:clamp(72px,12vh,96px)}
+.ch{flex:1 1 0;max-width:170px;display:flex;flex-direction:column;gap:12px}
+.ch .syl{flex:none;max-width:none;width:100%;height:clamp(64px,11vh,96px);font-size:clamp(24px,7vw,32px)}
+.pl.on{background:var(--lit);box-shadow:0 6px 0 var(--pri-d),inset 0 0 0 3px var(--pri)}
+.pk{--c:var(--hot);--cd:var(--hot-d);width:100%;font-size:16px;padding:11px 0;border-radius:16px}
+.mq .syl.big::after{content:'ふつうはこっち！'}
+.it b.s{font-size:16px}.it b small{display:block;font:700 12px "Zen Maru Gothic",sans-serif;color:var(--mute)}.it i.a{font:900 20px Nunito,sans-serif;color:var(--hot-d)}
+@media (max-height:640px){#start{gap:10px}}
+</style>
+</head>
+<body>
+<div id="app">
+<section class="scr on" id="start">
+ <div class="demo" id="demo"><span class="blob">ba</span><span class="blob hot">na</span><span class="blob">na</span></div>
+ <h1>アクセントを<br>聞き分けろ！</h1>
+ <p class="sub" id="sub">英語には、強く言うところがあるよ。<br>耳をすまして、見つけよう。</p>
+ <div class="chips modes"><button class="chip" id="m0"></button><button class="chip" id="m1"></button></div>
+ <button class="cta" id="go">スタート</button>
+ <div class="chips"><button class="chip" id="cSp"></button><button class="chip" id="cSy"></button><button class="chip" id="cSf"></button></div>
+ <p class="note" id="nt">6もん。時間ははかりません。何度でも聞けるよ。</p>
+</section>
+<section class="scr" id="play">
+ <div class="hd"><button class="x" id="x" aria-label="もどる">✕</button><div class="bar" id="bar"></div><div class="fire" id="fire">🔥 0</div></div>
+ <div class="stage">
+  <div class="wd"><div class="pic" id="pic"></div><p class="sent" id="sent"></p><p class="jp" id="jp"></p></div>
+  <div class="sp"><button class="spk" id="spk" aria-label="音を聞く"><svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 4V5L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg></button><button class="slow" id="slow" aria-label="ゆっくり聞く">🐢</button></div>
+  <p class="q" id="qt">いちばん強く聞こえるのは、どこ？</p>
+  <div class="row" id="row"></div>
+ </div>
+ <div class="foot idle" id="foot"><div class="msg"><h3 id="fh"></h3><p id="fp"></p></div><button class="cta" id="next">つぎへ</button></div>
+</section>
+<section class="scr" id="result">
+ <h2 id="rt"></h2>
+ <div class="stars" id="stars"></div>
+ <div class="score" id="sc"></div>
+ <p class="note" id="bs"></p>
+ <div class="list" id="list"></div>
+ <div class="acts"><button class="cta" id="again">もういちど</button><button class="ghost" id="home">タイトルへ</button></div>
+</section>
+</div>
+<script>
+// t = 各音節が始まる時刻(ms)。本番は音声ごとの実測値（強制アライメント）を入れる
+const W=[
+{w:'apple',jp:'りんご',e:'🍎',s:['ap','ple'],k:0,t:[0,330]},
+{w:'hello',jp:'こんにちは',e:'👋',s:['hel','lo'],k:1,t:[0,260]},
+{w:'banana',jp:'バナナ',e:'🍌',s:['ba','na','na'],k:1,t:[0,230,520]},
+{w:'guitar',jp:'ギター',e:'🎸',s:['gui','tar'],k:1,t:[0,300]},
+{w:'monkey',jp:'さる',e:'🐵',s:['mon','key'],k:0,t:[0,330]},
+{w:'piano',jp:'ピアノ',e:'🎹',s:['pi','a','no'],k:1,t:[0,230,520]}
+];
+const P=['せいかい！','いいね！','ばっちり！','その調子！'];
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+let i=0,streak=0,best=0,res=[],locked=true,answered=false,spell=true,sfxOn=true,sync=true,tms=[],timer,ctx,mq=0,Q=[],L=W,vo;
+const AC=window.AudioContext||window.webkitAudioContext;
+function tone(f,d,ty,v,w){if(!sfxOn||!AC)return;try{ctx=ctx||new AC();const o=ctx.createOscillator(),g=ctx.createGain(),t=ctx.currentTime+(w||0);o.type=ty||'sine';o.frequency.value=f;g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(v||.14,t+.01);g.gain.exponentialRampToValueAtTime(.0001,t+d);o.connect(g);g.connect(ctx.destination);o.start(t);o.stop(t+d+.05)}catch(e){}}
+const sfx={tap:()=>tone(540,.07,'triangle',.1),ok:()=>[660,880,1320].forEach((f,n)=>tone(f,.25,'triangle',.13,n*.09)),ng:()=>{tone(311,.2,'sine',.12);tone(247,.3,'sine',.1,.13)},fin:()=>[523,659,784,1047].forEach((f,n)=>tone(f,.35,'triangle',.13,n*.12))};
+const buzz=p=>{try{navigator.vibrate&&navigator.vibrate(p)}catch(e){}};
+const go=id=>$$('.scr').forEach(s=>s.classList.toggle('on',s.id===id));
+const redo=(el,a)=>{el.style.animation='none';el.offsetWidth;el.style.animation=a||''};
+function say(t,r,cb){let d=0;const kick=()=>{if(cb&&!d){d=1;cb()}};try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='en-US';u.rate=r||1;const v=speechSynthesis.getVoices().find(v=>/en[-_]US/i.test(v.lang));if(v)u.voice=v;if(cb){u.onstart=kick;tms.push(setTimeout(kick,900))}speechSynthesis.speak(u)}catch(e){kick()}}
+const stopSync=()=>{tms.forEach(clearTimeout);tms=[];try{vo&&vo.stop()}catch(e){}vo=0;$$('.syl.lit').forEach(b=>b.classList.remove('lit'));$$('.pl.on,.sent i.on,.spk.on').forEach(b=>b.classList.remove('on'))};
+// 解答前は全音節を同じ強さで光らせる（強勢が分かってしまわないように）。解答後は強勢を大きく光らせる
+function runSync(w,r){if(!answered&&!sync)return;$$('.syl').forEach((b,j)=>tms.push(setTimeout(()=>lit(b,j,w),w.t[j]/r)))}
+function lit(b,j,w){if(answered){const hot=j==w.k,base=hot?'translateY(-8px) scale(1.2)':'scale(.84)',up=hot?'translateY(-16px) scale(1.4)':'scale(.96)';b.animate([{transform:base},{transform:up},{transform:base}],{duration:hot?480:260,easing:'ease-out'})}else{b.classList.remove('lit');b.offsetWidth;b.classList.add('lit');tms.push(setTimeout(()=>b.classList.remove('lit'),360))}}
+function play(r){r=r||1;const w=W[i];stopSync();say(w.w,r,()=>runSync(w,r));const sp=$('#spk');sp.classList.add('on');clearTimeout(timer);timer=setTimeout(()=>sp.classList.remove('on'),(w.t[w.t.length-1]+560)/r+200);
+}
+function foot(s,w){const f=$('#foot'),h=$('#fh'),p=$('#fp');f.className='foot '+s;
+ if(s=='idle'){h.textContent='💡 ききかたのコツ';p.textContent='強い音は、大きく・長く・高く聞こえるよ'}
+ else{h.textContent=s=='ok'?P[i%P.length]:'おしい！';p.innerHTML='強いのは「<b>'+w.s[w.k]+'</b>」。'+(s=='ok'?'':'もう一度聞いてみよう')}
+ $('#next').textContent=i==W.length-1?'けっかを見る':'つぎへ'}
+function q(n){stopSync();try{speechSynthesis.cancel()}catch(e){}i=n;const w=W[n];answered=false;locked=true;setTimeout(()=>locked=false,350);
+ $('#pic').textContent=w.e;redo($('#pic'));
+ const jp=$('#jp');jp.textContent=w.jp;jp.classList.remove('on');
+ $('#row').innerHTML=w.s.map((s,j)=>`<button class="syl" data-j="${j}">${spell?s:j+1}</button>`).join('');
+ $('#bar').innerHTML=W.map((_,j)=>`<i class="${j<n?(res[j]?'ok':'ng'):j==n?'cur':''}"></i>`).join('');
+ foot('idle');go('play');setTimeout(()=>{if(i==n&&!answered&&$('#play').classList.contains('on'))play()},550)}
+function pick(j){if(locked||answered)return;stopSync();answered=true;const w=W[i],ok=j==w.k;res[i]=ok;streak=ok?streak+1:0;best=Math.max(best,streak);
+ $$('.syl').forEach((b,n)=>{b.disabled=true;b.textContent=w.s[n];b.classList.add(n==w.k?'big':'small');if(n==j&&!ok)b.classList.add('bad')});
+ $('#jp').classList.add('on');$('#bar').children[i].className=ok?'ok':'ng';
+ const f=$('#fire');f.textContent='🔥 '+streak;redo(f,ok?'bump .4s':'');
+ if(ok){sfx.ok();buzz(20);setTimeout(confetti,150)}else{sfx.ng();buzz([40,30,40])}
+ foot(ok?'ok':'ng',w);tms.push(setTimeout(()=>play(),750))}
+function confetti(){const b=$('.syl.big');if(!b)return;const r=b.getBoundingClientRect(),x=r.left+r.width/2,y=r.top+r.height/2,C=['#FF9A1F','#5B5CFF','#1FAF74','#FF5FA2','#FFD23F'];
+ for(let n=0;n<18;n++){const e=document.createElement('i'),a=Math.random()*6.28,d=70+Math.random()*90;
+  e.style.cssText=`position:fixed;left:${x}px;top:${y}px;width:10px;height:10px;border-radius:${n%2?'50%':'3px'};background:${C[n%5]};pointer-events:none;z-index:9`;
+  document.body.appendChild(e);
+  e.animate([{transform:'translate(-50%,-50%) scale(1)',opacity:1},{transform:`translate(${Math.cos(a)*d}px,${Math.sin(a)*d-40}px) rotate(${Math.random()*540}deg) scale(.4)`,opacity:0}],{duration:700+Math.random()*300,easing:'cubic-bezier(.15,.8,.3,1)'}).onfinish=()=>e.remove()}}
+function fin(){stopSync();const n=res.filter(Boolean).length,t=L.length,st=n==t?3:n/t>=.6?2:1;go('result');sfx.fin();
+ $('#rt').textContent=['','つぎはもっと聞き分けられるよ！','いいかんじ！','ぜんぶ聞き分けた！'][st];
+ $('#sc').innerHTML=n+'<small> / '+t+'</small>';
+ $('#bs').textContent='さいこう '+best+'れんぞく。'+(mq?'ぶんをタップすると、ふつうの言い方が聞けるよ。':'ことばをタップすると、もう一度聞けるよ。');
+ $('#stars').innerHTML=[0,1,2].map(k=>`<span class="${k<st?'on':''}" style="animation-delay:${.25+k*.2}s">⭐</span>`).join('');
+ $('#list').innerHTML=mq?Q.map((w,k)=>`<button class="it" data-k="${k}"><em>${w.e}</em><b class="s">${w.s}<small>${PT[w.p].m}</small></b><i class="a">${w.n=='u'?'↗':'↘'}</i><span class="mk ${res[k]?'ok':'ng'}">${res[k]?'✓':'✕'}</span></button>`).join(''):W.map((w,k)=>`<button class="it" data-k="${k}"><em>${w.e}</em><b>${w.w}</b><span class="dots">${w.s.map((_,j)=>`<i class="${j==w.k?'h':''}"></i>`).join('')}</span><span class="mk ${res[k]?'ok':'ng'}">${res[k]?'✓':'✕'}</span></button>`).join('')}
+// ===== しつもんの声モード =====
+// PT: パターンの説明。a=自然な言い方のルール / b=もう一方の聞こえ方 / m=結果画面での名前
+const PT=[
+{m:'はい・いいえ',a:'「はい・いいえ」でこたえる しつもんは、さいごが ↗ 上がるよ。',b:'↘だと、ぶっきらぼうに聞こえるよ。'},
+{m:'What・Where',a:'What や Where ではじまる しつもんは、さいごが ↘ 下がるよ。',b:'↗だと「え？」ときき返す感じになることも。'},
+{m:'AかB？',a:'「AかB？」は、Aを ↗ 上げて、さいごのBは ↘ 下げるよ。',b:'さいごが ↗だと、ちがう いみに聞こえるよ。'},
+{m:'ならべる',a:'ならべるときは ↗ ↗ ↘。さいごのことばは 下げるよ。',b:'さいごが ↗だと、まだ つづくみたい。'},
+{m:'文のかたち',a:'ふつうの文でも、さいごを ↗ 上げると しつもんになるよ。',b:'↘だと ただの文になるよ。'},
+{m:'おねがい・さそい',a:'おねがいや さそいは ↗ 上げると やさしく聞こえるよ。',b:'↘だと、ちょっと つめたく聞こえるよ。'},
+{m:'たしかめる'},
+{m:'ききかえす',a:'おどろいたり ききかえすときは、さいごが ↗ 上がるよ。',b:'↘だと、そっけなく聞こえるよ。'}];
+// たしかめる文(〜ね？)は気もちで変わるので、問題ごとに n で切り替える
+const TD={a:'そう思って たしかめるときは ↘ 下げるよ。',b:'↗だと「ほんとうに わからない」になるよ。'},TU={a:'ほんとうに わからないときは ↗ 上げるよ。',b:'↘だと「そうだよね」とたしかめる感じ。'};
+// [パターン, 文, 日本語, 絵, 自然な語尾(u=上がる/d=下がる)]  ※パターンを足すときは PT と ここに追加
+/*QD_START*/
+const QD=[{"p":0,"s":"Do you like cats?","jp":"ねこは すき？","e":"🐱","n":"u","id":"0a"},{"p":0,"s":"Can you swim?","jp":"およげる？","e":"🏊","n":"u","id":"0b"},{"p":0,"s":"Is this your bag?","jp":"これは あなたの かばん？","e":"🎒","n":"u","id":"0c"},{"p":0,"s":"Are you hungry?","jp":"おなか すいた？","e":"🍙","n":"u","id":"0d"},{"p":1,"s":"What's your name?","jp":"名前は なに？","e":"🏷️","n":"d","id":"1a"},{"p":1,"s":"Where do you live?","jp":"どこに すんでる？","e":"🏠","n":"d","id":"1b"},{"p":1,"s":"How old are you?","jp":"なんさい？","e":"🎂","n":"d","id":"1c"},{"p":1,"s":"What time is it?","jp":"いま なん時？","e":"⏰","n":"d","id":"1d"},{"p":2,"s":"Do you like cats or dogs?","jp":"ねこと いぬ、どっちが すき？","e":"🐶","n":"d","id":"2a"},{"p":2,"s":"Is it red or blue?","jp":"赤？青？","e":"🎨","n":"d","id":"2b"},{"p":2,"s":"Do you want tea or coffee?","jp":"おちゃ？コーヒー？","e":"☕","n":"d","id":"2c"},{"p":2,"s":"Do you want rice or bread?","jp":"ごはん？パン？","e":"🍚","n":"d","id":"2d"},{"p":3,"s":"Would you like milk, juice, or water?","jp":"ミルク、ジュース、水、どれにする？","e":"🥛","n":"d","id":"3a"},{"p":3,"s":"Do you like apples, bananas, or grapes?","jp":"りんご、バナナ、ぶどう、どれが すき？","e":"🍎","n":"d","id":"3b"},{"p":3,"s":"Is it a cat, a dog, or a rabbit?","jp":"ねこ、いぬ、うさぎ、どれ？","e":"🐰","n":"d","id":"3c"},{"p":4,"s":"You like soccer?","jp":"サッカー、すきなの？","e":"⚽","n":"u","id":"4a"},{"p":4,"s":"You're a teacher?","jp":"先生なの？","e":"📚","n":"u","id":"4b"},{"p":4,"s":"This is yours?","jp":"これ、あなたの？","e":"🧢","n":"u","id":"4c"},{"p":5,"s":"Can I have some water?","jp":"お水を もらえますか？","e":"💧","n":"u","id":"5a"},{"p":5,"s":"Would you like some tea?","jp":"おちゃは いかがですか？","e":"🍵","n":"u","id":"5b"},{"p":5,"s":"Can you help me?","jp":"手つだってくれる？","e":"🤝","n":"u","id":"5c"},{"p":5,"s":"Shall we play?","jp":"あそぼうか？","e":"🎲","n":"u","id":"5d"},{"p":6,"s":"It's a nice day, isn't it?","jp":"「いい天気だね」（そう思ってる）","e":"🌞","n":"d","id":"6a"},{"p":6,"s":"This is fun, isn't it?","jp":"「楽しいよね」（そう思ってる）","e":"🎉","n":"d","id":"6b"},{"p":6,"s":"You're Ken, aren't you?","jp":"「ケンだよね？」（じしんが ない）","e":"🙋","n":"u","id":"6c"},{"p":6,"s":"He can swim, can't he?","jp":"「およげるよね？」（よく しらない）","e":"🏊","n":"u","id":"6d"},{"p":7,"s":"Really?","jp":"ほんとう？","e":"😲","n":"u","id":"7a"},{"p":7,"s":"You did?","jp":"そうなの？","e":"😮","n":"u","id":"7b"},{"p":7,"s":"Pardon?","jp":"もういちど言って？","e":"👂","n":"u","id":"7c"}];
+/*QD_END*/
+/*CLIPS_START*/
+const CLIPS={};
+/*CLIPS_END*/
+// 1回に8もん。パターンごとに1問ずつ選び、A/Bの並びと出題順はランダム
+const round=()=>PT.map((_,p)=>{const c=QD.filter(x=>x.p==p),x=c[Math.random()*c.length|0],v=Math.random()<.5?['u','d']:['d','u'];return{...x,v,k:v.indexOf(x.n)}}).sort(()=>Math.random()-.5);
+// 音声のモック(合成のハミング)。本番はGoogle TTSの音声ファイルを再生し、単語の時刻(T)は実測値に差し替える。この関数だけ置き換えればOK
+// it=問題 / v='u'|'d'(語尾) / r=速さ / cb=終わったら呼ぶ / c=光らせるカード番号
+function voiceMock(it,v,r,cb,c){const ws=it.s.split(' '),n=ws.length,T=[],S=[];let t=0;
+ ws.forEach((x,j)=>{const last=j==n-1,d=(150+45*x.replace(/\W/g,'').length+(last?160:0))/r,a=3-.4*j,b=!last&&(ws[j+1]=='or'||/,$/.test(x))?4:0;
+  T.push(t);S.push([a+(last&&v=='d'?1:0),last?(v=='u'?a+7:a-6):a+b,d]);t+=d+40/r});
+ if(AC)try{ctx=ctx||new AC();ctx.resume&&ctx.resume();const o=ctx.createOscillator(),f=ctx.createBiquadFilter(),g=ctx.createGain(),s=ctx.currentTime+.05,hz=x=>220*2**(x/12);
+  o.type='sawtooth';f.type='lowpass';f.frequency.value=1500;g.gain.value=0;o.connect(f);f.connect(g);g.connect(ctx.destination);
+  S.forEach(([a,b,d],j)=>{const u=s+T[j]/1e3,e=u+d/1e3;o.frequency.setValueAtTime(hz(a),u);o.frequency.linearRampToValueAtTime(hz(b),e);g.gain.setValueAtTime(.0001,u);g.gain.linearRampToValueAtTime(.16,u+.04);g.gain.setValueAtTime(.16,e-.05);g.gain.linearRampToValueAtTime(.0001,e)});
+  o.start(s);o.stop(s+t/1e3+.1);vo=o}catch(e){}
+ const el=$$('.sent i'),pl=c==null?null:$$('.pl')[c];pl&&pl.classList.add('on');
+ if(sync||answered)ws.forEach((x,j)=>{tms.push(setTimeout(()=>el[j]&&el[j].classList.add('on'),T[j]));tms.push(setTimeout(()=>el[j]&&el[j].classList.remove('on'),T[j]+S[j][2]))});
+ tms.push(setTimeout(()=>{pl&&pl.classList.remove('on');cb&&cb()},t+120))}
+// Shared media element is unlocked synchronously during the start tap.
+const questionAudio=new Audio();questionAudio.preload='auto';questionAudio.setAttribute('playsinline','');
+const questionBlobs=new Map(),questionFailures=new Set(),questionModes=new Map();let questionGeneration=0;
+const silence='data:audio/wav;base64,UklGRiYAAABXQVZFZm10IBAAAAABAAEAwF0AAIC7AAACABAAZGF0YQIAAAAAAA==';
+function unlockQuestionAudio(){
+ questionAudio.src=silence;
+ const p=questionAudio.play();if(p)p.catch(()=>{});
+}
+function hasQuestionPair(it){return CLIPS[it.id+'_u']&&CLIPS[it.id+'_d']&&!questionFailures.has(it.id)}
+function preloadRound(items){
+ const generation=++questionGeneration;
+ for(const url of questionBlobs.values())URL.revokeObjectURL(url);questionBlobs.clear();questionModes.clear();
+ // Validate both clips before either can be used. A failed half invalidates the pair.
+ for(const it of items){if(!hasQuestionPair(it))continue;
+  Promise.allSettled(['u','d'].map(async v=>{const clip=CLIPS[it.id+'_'+v];const res=await fetch(clip.file);if(!res.ok)throw Error('clip fetch');
+   const blob=await res.blob();if(!blob.size)throw Error('empty clip');
+   if(ctx&&ctx.decodeAudioData)await ctx.decodeAudioData(await blob.arrayBuffer());
+   return [it.id+'_'+v,URL.createObjectURL(blob)]
+  })).then(results=>{const pair=results.filter(x=>x.status==='fulfilled').map(x=>x.value);
+   if(generation!==questionGeneration||pair.length!==2){pair.forEach(([,url])=>URL.revokeObjectURL(url));if(generation===questionGeneration)questionFailures.add(it.id);return}
+   pair.forEach(([key,url])=>questionBlobs.set(key,url));
+  });
+ }
+}
+function voice(it,v,r,cb,c){
+ if(!questionModes.has(it.id))questionModes.set(it.id,!!(hasQuestionPair(it)&&questionBlobs.has(it.id+'_u')&&questionBlobs.has(it.id+'_d')));
+ if(!questionModes.get(it.id)||!hasQuestionPair(it))return voiceMock(it,v,r,cb,c);
+ const clip=CLIPS[it.id+'_'+v],audio=questionAudio,el=$$('.sent i'),pl=c==null?null:$$('.pl')[c];
+ let stopped=false,done=false,started=false;const local=[];
+ const clear=()=>{local.forEach(clearTimeout);local.length=0;pl&&pl.classList.remove('on');el.forEach(e=>e.classList.remove('on'));audio.onended=null;audio.onerror=null;audio.onplaying=null};
+ const stop=()=>{stopped=true;clear();audio.pause();try{audio.currentTime=0}catch(e){}};
+ const finish=()=>{if(stopped||done)return;done=true;clear();audio.pause();cb&&cb()};
+ const schedule=(f,ms)=>{const t=setTimeout(f,ms);local.push(t);tms.push(t)};
+ const fallback=()=>{if(stopped||done)return;questionFailures.add(it.id);stop();voiceMock(it,v,r,cb,c)};
+ audio.pause();audio.src=questionBlobs.get(it.id+'_'+v);audio.playbackRate=r;audio.preservesPitch=true;audio.webkitPreservesPitch=true;
+ audio.onended=finish;audio.onerror=fallback;
+ audio.onplaying=()=>{if(stopped||started)return;started=true;pl&&pl.classList.add('on');
+  if(sync||answered)clip.T.forEach((t,j)=>{schedule(()=>el[j]&&el[j].classList.add('on'),t/r);schedule(()=>el[j]&&el[j].classList.remove('on'),((clip.T[j+1]||clip.dur)-20)/r)});
+  schedule(finish,clip.dur/r+500);
+ };
+ vo={stop};
+ const p=audio.play();if(p)p.catch(fallback);
+ // Catch stalled loading separately; stopSync cancels this along with all highlights.
+ schedule(()=>{if(!started)fallback()},5000);
+}
+
+function playQ(v,r,cb){stopSync();voice(Q[i],Q[i].v[v],r||1,cb,v)}
+function playAB(r){r=r||1;stopSync();const sp=$('#spk');sp.classList.add('on');voice(Q[i],Q[i].v[0],r,()=>tms.push(setTimeout(()=>voice(Q[i],Q[i].v[1],r,()=>sp.classList.remove('on'),1),350)),0)}
+function footQ(s,w){const f=$('#foot'),t=w&&(w.p==6?(w.n=='d'?TD:TU):PT[w.p]);f.className='foot '+s;
+ $('#fh').textContent=s=='idle'?'💡 ききかたのコツ':s=='ok'?P[i%P.length]:'おしい！';
+ $('#fp').innerHTML=s=='idle'?'声の「さいご」が、上がるか 下がるかを 聞いてみよう':t.a+'<br>'+t.b;
+ $('#next').textContent=i==L.length-1?'けっかを見る':'つぎへ'}
+function qq(n){stopSync();i=n;const w=Q[n];answered=false;locked=true;setTimeout(()=>locked=false,350);
+ $('#sent').innerHTML='<em>'+w.e+'</em>'+w.s.split(' ').map(x=>'<i>'+(spell?x:'・・・')+'</i>').join(' ');
+ const jp=$('#jp');jp.textContent=w.jp;jp.classList.add('on');
+ $('#row').innerHTML=[0,1].map(c=>`<div class="ch"><button class="syl pl" data-v="${c}">▶ ${'AB'[c]}</button><button class="cta pk" data-v="${c}">こっち！</button></div>`).join('');
+ $('#bar').innerHTML=L.map((_,j)=>`<i class="${j<n?(res[j]?'ok':'ng'):j==n?'cur':''}"></i>`).join('');
+ footQ('idle');go('play');setTimeout(()=>{if(i==n&&!answered&&$('#play').classList.contains('on'))playAB()},550)}
+function pickQ(j){if(locked||answered)return;stopSync();answered=true;const w=Q[i],ok=j==w.k;res[i]=ok;streak=ok?streak+1:0;best=Math.max(best,streak);
+ $$('.ch').forEach((c,n)=>{const b=c.firstChild;b.textContent='AB'[n]+' '+(w.v[n]=='u'?'↗':'↘');b.classList.add(n==w.k?'big':'small');if(n==j&&!ok)b.classList.add('bad');c.lastChild.style.visibility='hidden'});
+ $$('.sent i').forEach((e,n)=>e.textContent=w.s.split(' ')[n]);$('#bar').children[i].className=ok?'ok':'ng';
+ const f=$('#fire');f.textContent='🔥 '+streak;redo(f,ok?'bump .4s':'');
+ if(ok){sfx.ok();buzz(20);setTimeout(confetti,150)}else{sfx.ng();buzz([40,30,40])}
+ footQ(ok?'ok':'ng',w);tms.push(setTimeout(()=>playQ(w.k),750))}
+function modeUi(){$('#m0').textContent='🍌 ことばの強い音';$('#m1').textContent='❓ しつもんの声';$('#m0').setAttribute('aria-pressed',!mq);$('#m1').setAttribute('aria-pressed',!!mq);
+ $('#demo').innerHTML=mq?'<span class="blob">↘</span><span class="blob hot">↗</span><span class="blob">↘</span>':'<span class="blob">ba</span><span class="blob hot">na</span><span class="blob">na</span>';
+ $('#sub').innerHTML=mq?'おなじ しつもんでも、声の さいごが<br>上がったり 下がったり。耳をすまそう。':'英語には、強く言うところがあるよ。<br>耳をすまして、見つけよう。';
+ $('#nt').textContent=mq?'8もん。いろんな しつもんが 出るよ。何度でも聞けるよ。':'6もん。時間ははかりません。何度でも聞けるよ。'}
+$('#m0').onclick=()=>{mq=0;modeUi();sfx.tap()};$('#m1').onclick=()=>{mq=1;modeUi();sfx.tap()};
+const chips=()=>{const a=$('#cSp'),b=$('#cSf'),c=$('#cSy');a.textContent=spell?'📖 つづりあり':'👂 耳だけ';a.setAttribute('aria-pressed',spell);b.textContent=sfxOn?'🔊 こうかおんあり':'🔇 こうかおんなし';b.setAttribute('aria-pressed',sfxOn);c.textContent=sync?'✨ 音に合わせて光る':'✨ 光らない';c.setAttribute('aria-pressed',sync)};
+const begin=()=>{if(mq)unlockQuestionAudio();sfx.tap();streak=best=0;res=[];$('#fire').textContent='🔥 0';try{if(AC){ctx=ctx||new AC();ctx.resume()}}catch(e){}$('#play').classList.toggle('mq',!!mq);$('#qt').textContent=mq?'ふつうの言い方は、どっち？':'いちばん強く聞こえるのは、どこ？';L=mq?(Q=round()):W;if(mq)preloadRound(Q);mq?qq(0):q(0)};
+$('#cSp').onclick=()=>{spell=!spell;chips();sfx.tap()};
+$('#cSf').onclick=()=>{sfxOn=!sfxOn;chips();sfx.tap()};
+$('#cSy').onclick=()=>{sync=!sync;chips();sfx.tap()};
+$('#go').onclick=begin;$('#again').onclick=begin;
+$('#home').onclick=()=>{sfx.tap();go('start')};
+$('#x').onclick=()=>{stopSync();try{speechSynthesis.cancel()}catch(e){}go('start')};
+$('#spk').onclick=()=>mq?playAB():play();$('#slow').onclick=()=>mq?playAB(.55):play(.55);
+$('#row').onclick=e=>{if(mq){const b=e.target.closest('button');if(!b)return;sfx.tap();b.classList.contains('pk')?pickQ(+b.dataset.v):playQ(+b.dataset.v);return}const b=e.target.closest('.syl');if(b){sfx.tap();pick(+b.dataset.j)}};
+$('#next').onclick=()=>{sfx.tap();i==L.length-1?fin():mq?qq(i+1):q(i+1)};
+$('#list').onclick=e=>{const b=e.target.closest('.it');if(!b)return;if(mq){i=+b.dataset.k;playQ(Q[i].k)}else say(W[+b.dataset.k].w)};
+addEventListener('keydown',e=>{if(!$('#play').classList.contains('on'))return;if(mq){if(e.key=='1'||e.key=='2')pickQ(e.key-1);else if(e.key=='r'||e.key=='R')playAB();return}
+ if(e.key>='1'&&e.key<='4'&&W[i].s[e.key-1]!==undefined)pick(e.key-1);else if(e.key=='r'||e.key=='R')play()});
+chips();modeUi();
+</script>
+</body>
+</html>

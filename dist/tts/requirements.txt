@@ -1,0 +1,4 @@
+google-cloud-texttospeech>=2.29.0
+praat-parselmouth>=0.4.6
+pytest>=8.0
+# Optional bundled ffmpeg executable: pip install imageio-ffmpeg

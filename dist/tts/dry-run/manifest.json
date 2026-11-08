@@ -1,0 +1,1722 @@
+[
+  {
+    "id": "0a",
+    "v": "u",
+    "file": "tts/dry-run/audio/0a_u.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      314,
+      665,
+      1132
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "8b417176767b722431362ae8049302e9667955b8a632e1cf5efb0d2d7edbc858",
+    "delta_st": 4.447,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.828257776806648,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "0a",
+    "v": "d",
+    "file": "tts/dry-run/audio/0a_d.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      314,
+      665,
+      1132
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "8b417176767b722431362ae8049302e9667955b8a632e1cf5efb0d2d7edbc858",
+    "delta_st": -4.487,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.729154134052836,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "0b",
+    "v": "u",
+    "file": "tts/dry-run/audio/0b_u.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      440,
+      800
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "bf811c78afb5eb6d7864957996983edb293aa1297e24bf4de8786e383ddc027c",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.934483918965398,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "0b",
+    "v": "d",
+    "file": "tts/dry-run/audio/0b_d.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      440,
+      800
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "bf811c78afb5eb6d7864957996983edb293aa1297e24bf4de8786e383ddc027c",
+    "delta_st": -4.566,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.778279296398868,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "0c",
+    "v": "u",
+    "file": "tts/dry-run/audio/0c_u.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      314,
+      782,
+      1249
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "03ea0b1694a3cd250386c74d436b7b630468a92cbc841b14990da1be19c2b267",
+    "delta_st": 4.447,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.828257776806648,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "0c",
+    "v": "d",
+    "file": "tts/dry-run/audio/0c_d.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      314,
+      782,
+      1249
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "03ea0b1694a3cd250386c74d436b7b630468a92cbc841b14990da1be19c2b267",
+    "delta_st": -4.487,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.729154134052836,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "0d",
+    "v": "u",
+    "file": "tts/dry-run/audio/0d_u.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      380,
+      680
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "12dc03f3813751857ba85dca6fda350ef65c0dd8f9fdde6da24e6f66a8fd1d8d",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.934483918965398,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "0d",
+    "v": "d",
+    "file": "tts/dry-run/audio/0d_d.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      380,
+      680
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "12dc03f3813751857ba85dca6fda350ef65c0dd8f9fdde6da24e6f66a8fd1d8d",
+    "delta_st": -4.566,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.778279296398868,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "1a",
+    "v": "u",
+    "file": "tts/dry-run/audio/1a_u.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      542,
+      911
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "d146192d4d5d5feeec7009293711b01809b737fc795fdb8cdc7812bbc4cb6358",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.934483918965398,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "1a",
+    "v": "d",
+    "file": "tts/dry-run/audio/1a_d.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      542,
+      911
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "d146192d4d5d5feeec7009293711b01809b737fc795fdb8cdc7812bbc4cb6358",
+    "delta_st": -4.566,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.778279296398868,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "1b",
+    "v": "u",
+    "file": "tts/dry-run/audio/1b_u.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      623,
+      840,
+      1166
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "d7420e2d307d2c5785f6f4fff91c40751804930fc76f22d2c70a74b651949a13",
+    "delta_st": 4.447,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.828257776806648,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "1b",
+    "v": "d",
+    "file": "tts/dry-run/audio/1b_d.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      623,
+      840,
+      1166
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "d7420e2d307d2c5785f6f4fff91c40751804930fc76f22d2c70a74b651949a13",
+    "delta_st": -4.487,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.729154134052836,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "1c",
+    "v": "u",
+    "file": "tts/dry-run/audio/1c_u.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      460,
+      840,
+      1220
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "b135605651cd2db13fa7b848c927c9ef809471d43937b39958e9ba989cf1b496",
+    "delta_st": 4.447,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.828257776806648,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "1c",
+    "v": "d",
+    "file": "tts/dry-run/audio/1c_d.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      460,
+      840,
+      1220
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "b135605651cd2db13fa7b848c927c9ef809471d43937b39958e9ba989cf1b496",
+    "delta_st": -4.487,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.729154134052836,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "1d",
+    "v": "u",
+    "file": "tts/dry-run/audio/1d_u.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      587,
+      1093,
+      1347
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "bda2b62e3ee73dc89a151c113b2766e40daf72a90cf65c2bb5c8f7720812f306",
+    "delta_st": 4.447,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.828257776806648,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "1d",
+    "v": "d",
+    "file": "tts/dry-run/audio/1d_d.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      587,
+      1093,
+      1347
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "bda2b62e3ee73dc89a151c113b2766e40daf72a90cf65c2bb5c8f7720812f306",
+    "delta_st": -4.487,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.729154134052836,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "2a",
+    "v": "u",
+    "file": "tts/dry-run/audio/2a_u.mp3",
+    "dur": 2440,
+    "T": [
+      80,
+      320,
+      680,
+      1160,
+      1640,
+      1880
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "12cc076bfa88afbee174bb2f74237463f1e4a3965118f842d0f022e8e57ef187",
+    "delta_st": 4.504,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.44,
+      "db": -15.660690412403937,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2a",
+    "v": "d",
+    "file": "tts/dry-run/audio/2a_d.mp3",
+    "dur": 2440,
+    "T": [
+      80,
+      320,
+      680,
+      1160,
+      1640,
+      1880
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "12cc076bfa88afbee174bb2f74237463f1e4a3965118f842d0f022e8e57ef187",
+    "delta_st": -4.399,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.44,
+      "db": -15.58954886016796,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2b",
+    "v": "u",
+    "file": "tts/dry-run/audio/2b_u.mp3",
+    "dur": 2060,
+    "T": [
+      80,
+      372,
+      665,
+      1103,
+      1395
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "930edf3e3aab36fcbe4e366c59f89c85938e2985a8c138f07b3ce7c64944d5b6",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w2 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.06,
+      "db": -15.733738808608273,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2b",
+    "v": "d",
+    "file": "tts/dry-run/audio/2b_d.mp3",
+    "dur": 2060,
+    "T": [
+      80,
+      372,
+      665,
+      1103,
+      1395
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "930edf3e3aab36fcbe4e366c59f89c85938e2985a8c138f07b3ce7c64944d5b6",
+    "delta_st": -4.399,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w2 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.06,
+      "db": -15.643008905561057,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2c",
+    "v": "u",
+    "file": "tts/dry-run/audio/2c_u.mp3",
+    "dur": 2440,
+    "T": [
+      80,
+      308,
+      650,
+      1106,
+      1448,
+      1676
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "3a565a3a3b7c3ec1de715b981b0ed9f6287f361b99bff00fe8734391f85472a1",
+    "delta_st": 4.504,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.44,
+      "db": -15.660690412403937,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2c",
+    "v": "d",
+    "file": "tts/dry-run/audio/2c_d.mp3",
+    "dur": 2440,
+    "T": [
+      80,
+      308,
+      650,
+      1106,
+      1448,
+      1676
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "3a565a3a3b7c3ec1de715b981b0ed9f6287f361b99bff00fe8734391f85472a1",
+    "delta_st": -4.399,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.44,
+      "db": -15.58954886016796,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2d",
+    "v": "u",
+    "file": "tts/dry-run/audio/2d_u.mp3",
+    "dur": 2440,
+    "T": [
+      80,
+      308,
+      650,
+      1106,
+      1562,
+      1790
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "8178034ad3412e2eb65813a15acd9ef58b5e0c5a22ee7e00ba7a495b2848d2c4",
+    "delta_st": 4.504,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.44,
+      "db": -15.660690412403937,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "2d",
+    "v": "d",
+    "file": "tts/dry-run/audio/2d_d.mp3",
+    "dur": 2440,
+    "T": [
+      80,
+      308,
+      650,
+      1106,
+      1562,
+      1790
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "8178034ad3412e2eb65813a15acd9ef58b5e0c5a22ee7e00ba7a495b2848d2c4",
+    "delta_st": -4.399,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.44,
+      "db": -15.58954886016796,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "3a",
+    "v": "u",
+    "file": "tts/dry-run/audio/3a_u.mp3",
+    "dur": 2820,
+    "T": [
+      80,
+      555,
+      840,
+      1220,
+      1600,
+      2075,
+      2265
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "12a9668f3c5157cf9cfb3b74a974e8e4aa762971e9c8ba6324a26886a2c4c159",
+    "delta_st": 4.5,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "earlier option w4 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.82,
+      "db": -15.612566045414837,
+      "lead": 0.08,
+      "tail": 0.07999999999999963
+    }
+  },
+  {
+    "id": "3a",
+    "v": "d",
+    "file": "tts/dry-run/audio/3a_d.mp3",
+    "dur": 2820,
+    "T": [
+      80,
+      555,
+      840,
+      1220,
+      1600,
+      2075,
+      2265
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "12a9668f3c5157cf9cfb3b74a974e8e4aa762971e9c8ba6324a26886a2c4c159",
+    "delta_st": -3.756,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "earlier option w4 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.82,
+      "db": -15.546736514467241,
+      "lead": 0.08,
+      "tail": 0.07999999999999963
+    }
+  },
+  {
+    "id": "3b",
+    "v": "u",
+    "file": "tts/dry-run/audio/3b_u.mp3",
+    "dur": 2820,
+    "T": [
+      80,
+      257,
+      523,
+      878,
+      1410,
+      2031,
+      2208
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "a955ffd544adec22c1f681f3a15de3b8822b5c12410d767bc399bd5a146c6197",
+    "delta_st": 4.5,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "earlier option w4 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.82,
+      "db": -15.612566045414837,
+      "lead": 0.08,
+      "tail": 0.07999999999999963
+    }
+  },
+  {
+    "id": "3b",
+    "v": "d",
+    "file": "tts/dry-run/audio/3b_d.mp3",
+    "dur": 2820,
+    "T": [
+      80,
+      257,
+      523,
+      878,
+      1410,
+      2031,
+      2208
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "a955ffd544adec22c1f681f3a15de3b8822b5c12410d767bc399bd5a146c6197",
+    "delta_st": -3.756,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "earlier option w4 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.82,
+      "db": -15.546736514467241,
+      "lead": 0.08,
+      "tail": 0.07999999999999963
+    }
+  },
+  {
+    "id": "3c",
+    "v": "u",
+    "file": "tts/dry-run/audio/3c_u.mp3",
+    "dur": 3580,
+    "T": [
+      80,
+      406,
+      731,
+      894,
+      1383,
+      1546,
+      2034,
+      2360,
+      2523
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "95aa291ab98867776de73b0f6e2c319fcb6b4c08a0ff92f898b83460fa0fb445",
+    "delta_st": 4.447,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "earlier option w5 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 3.58,
+      "db": -15.48043175519706,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "3c",
+    "v": "d",
+    "file": "tts/dry-run/audio/3c_d.mp3",
+    "dur": 3580,
+    "T": [
+      80,
+      406,
+      731,
+      894,
+      1383,
+      1546,
+      2034,
+      2360,
+      2523
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "95aa291ab98867776de73b0f6e2c319fcb6b4c08a0ff92f898b83460fa0fb445",
+    "delta_st": -4.487,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "earlier option w3 not rising (approximate timing)",
+      "earlier option w5 not rising (approximate timing)",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 3.58,
+      "db": -15.480440410976076,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "4a",
+    "v": "u",
+    "file": "tts/dry-run/audio/4a_u.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      357,
+      726
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "7a0b300647f32aab2d59c4a83d5759e078dbdfe94c1bbecd8af5b418550f3127",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.934483918965398,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "4a",
+    "v": "d",
+    "file": "tts/dry-run/audio/4a_d.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      357,
+      726
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "7a0b300647f32aab2d59c4a83d5759e078dbdfe94c1bbecd8af5b418550f3127",
+    "delta_st": -4.566,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.778279296398868,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "4b",
+    "v": "u",
+    "file": "tts/dry-run/audio/4b_u.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      542,
+      634
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "4e8a6811414cc6948cdcbc2901fc7ed2fb6cc0606a87328dc3d32051c2448d99",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.934483918965398,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "4b",
+    "v": "d",
+    "file": "tts/dry-run/audio/4b_d.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      542,
+      634
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "4e8a6811414cc6948cdcbc2901fc7ed2fb6cc0606a87328dc3d32051c2448d99",
+    "delta_st": -4.566,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.778279296398868,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "4c",
+    "v": "u",
+    "file": "tts/dry-run/audio/4c_u.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      516,
+      735
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "bd4a16a3a8c8cbbac660f81907c705f24a2c1159a2805d42cf32a862b086b1c3",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.934483918965398,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "4c",
+    "v": "d",
+    "file": "tts/dry-run/audio/4c_d.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      516,
+      735
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "bd4a16a3a8c8cbbac660f81907c705f24a2c1159a2805d42cf32a862b086b1c3",
+    "delta_st": -4.566,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.778279296398868,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "5a",
+    "v": "u",
+    "file": "tts/dry-run/audio/5a_u.mp3",
+    "dur": 2060,
+    "T": [
+      80,
+      415,
+      527,
+      974,
+      1421
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "e529dc9fdd349733a225eb3e03357d5b4dfc6bed9e7d9631c01c529f2ee36132",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.06,
+      "db": -15.733738808608273,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "5a",
+    "v": "d",
+    "file": "tts/dry-run/audio/5a_d.mp3",
+    "dur": 2060,
+    "T": [
+      80,
+      415,
+      527,
+      974,
+      1421
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "e529dc9fdd349733a225eb3e03357d5b4dfc6bed9e7d9631c01c529f2ee36132",
+    "delta_st": -4.399,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.06,
+      "db": -15.643008905561057,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "5b",
+    "v": "u",
+    "file": "tts/dry-run/audio/5b_u.mp3",
+    "dur": 2060,
+    "T": [
+      80,
+      580,
+      880,
+      1280,
+      1680
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "1fce5aa3b435e199619f110533364a07cc0b67541bb9b3a74ecf88724d9ecaa2",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.06,
+      "db": -15.733738808608273,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "5b",
+    "v": "d",
+    "file": "tts/dry-run/audio/5b_d.mp3",
+    "dur": 2060,
+    "T": [
+      80,
+      580,
+      880,
+      1280,
+      1680
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "1fce5aa3b435e199619f110533364a07cc0b67541bb9b3a74ecf88724d9ecaa2",
+    "delta_st": -4.399,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.06,
+      "db": -15.643008905561057,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "5c",
+    "v": "u",
+    "file": "tts/dry-run/audio/5c_u.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      460,
+      840,
+      1347
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "01f1461a2cd2659613380d47f5c21f3c12fd8399eb33fe3fe9ef789a4badf5ec",
+    "delta_st": 4.447,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.828257776806648,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "5c",
+    "v": "d",
+    "file": "tts/dry-run/audio/5c_d.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      460,
+      840,
+      1347
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "01f1461a2cd2659613380d47f5c21f3c12fd8399eb33fe3fe9ef789a4badf5ec",
+    "delta_st": -4.487,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.729154134052836,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "5d",
+    "v": "u",
+    "file": "tts/dry-run/audio/5d_u.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      625,
+      844
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "b1c1efc7cf78b6f4859af7e6167bc1a7e5793d832cc7e9124e2eed9f9441d04a",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.934483918965398,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "5d",
+    "v": "d",
+    "file": "tts/dry-run/audio/5d_d.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      625,
+      844
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "b1c1efc7cf78b6f4859af7e6167bc1a7e5793d832cc7e9124e2eed9f9441d04a",
+    "delta_st": -4.566,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.778279296398868,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "6a",
+    "v": "u",
+    "file": "tts/dry-run/audio/6a_u.mp3",
+    "dur": 2440,
+    "T": [
+      80,
+      482,
+      616,
+      1153,
+      1555,
+      2092
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "b7ab85d565228a7af24bd0e5da706645c0eededb0d18dafbd0d42cfcc93f581e",
+    "delta_st": 4.504,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.44,
+      "db": -15.660690412403937,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "6a",
+    "v": "d",
+    "file": "tts/dry-run/audio/6a_d.mp3",
+    "dur": 2440,
+    "T": [
+      80,
+      482,
+      616,
+      1153,
+      1555,
+      2092
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "b7ab85d565228a7af24bd0e5da706645c0eededb0d18dafbd0d42cfcc93f581e",
+    "delta_st": -4.399,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.44,
+      "db": -15.58954886016796,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "6b",
+    "v": "u",
+    "file": "tts/dry-run/audio/6b_u.mp3",
+    "dur": 2060,
+    "T": [
+      80,
+      587,
+      840,
+      1220,
+      1727
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "73fd01450a79b2d6ece3b0bd74a9ed8491820cac0b043343fec72546a72934b4",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.06,
+      "db": -15.733738808608273,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "6b",
+    "v": "d",
+    "file": "tts/dry-run/audio/6b_d.mp3",
+    "dur": 2060,
+    "T": [
+      80,
+      587,
+      840,
+      1220,
+      1727
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-1",
+    "approx": true,
+    "dry_run": true,
+    "signature": "73fd01450a79b2d6ece3b0bd74a9ed8491820cac0b043343fec72546a72934b4",
+    "delta_st": -4.399,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.06,
+      "db": -15.643008905561057,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "6c",
+    "v": "u",
+    "file": "tts/dry-run/audio/6c_u.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      555,
+      840,
+      1315
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "358e0ee77a8203450c881de53a5bdb71f2ef2481e81dd94d33ed649ec8d42f4c",
+    "delta_st": 4.447,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.828257776806648,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "6c",
+    "v": "d",
+    "file": "tts/dry-run/audio/6c_d.mp3",
+    "dur": 1680,
+    "T": [
+      80,
+      555,
+      840,
+      1315
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "358e0ee77a8203450c881de53a5bdb71f2ef2481e81dd94d33ed649ec8d42f4c",
+    "delta_st": -4.487,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.68,
+      "db": -15.729154134052836,
+      "lead": 0.08,
+      "tail": 0.07999999999999985
+    }
+  },
+  {
+    "id": "6d",
+    "v": "u",
+    "file": "tts/dry-run/audio/6d_u.mp3",
+    "dur": 2060,
+    "T": [
+      80,
+      333,
+      713,
+      1220,
+      1727
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "05f9f405b013f37ba38123380ff36a96eb8c322d7d6b67d542fa81a91b7ea4a8",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.06,
+      "db": -15.733738808608273,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "6d",
+    "v": "d",
+    "file": "tts/dry-run/audio/6d_d.mp3",
+    "dur": 2060,
+    "T": [
+      80,
+      333,
+      713,
+      1220,
+      1727
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "05f9f405b013f37ba38123380ff36a96eb8c322d7d6b67d542fa81a91b7ea4a8",
+    "delta_st": -4.399,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 2.06,
+      "db": -15.643008905561057,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "7a",
+    "v": "u",
+    "file": "tts/dry-run/audio/7a_u.mp3",
+    "dur": 1360,
+    "T": [
+      80
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "cb33db3bd1512c02c85646a223f2ea43caa4743fdf1f2fff399aacdefc9912fe",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.934483918965398,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "7a",
+    "v": "d",
+    "file": "tts/dry-run/audio/7a_d.mp3",
+    "dur": 1360,
+    "T": [
+      80
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "cb33db3bd1512c02c85646a223f2ea43caa4743fdf1f2fff399aacdefc9912fe",
+    "delta_st": -4.566,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.778279296398868,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "7b",
+    "v": "u",
+    "file": "tts/dry-run/audio/7b_u.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      680
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "09e6afbe2cc0f52e775f8d25b94eef3c20cd7d49d52df13afea6f5429a65a3e6",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.934483918965398,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "7b",
+    "v": "d",
+    "file": "tts/dry-run/audio/7b_d.mp3",
+    "dur": 1360,
+    "T": [
+      80,
+      680
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "09e6afbe2cc0f52e775f8d25b94eef3c20cd7d49d52df13afea6f5429a65a3e6",
+    "delta_st": -4.566,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.778279296398868,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "7c",
+    "v": "u",
+    "file": "tts/dry-run/audio/7c_u.mp3",
+    "dur": 1360,
+    "T": [
+      80
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "49f92fc16c14948e3b2fa1181cc7f6e507f923ecf8bd3fc79d5a2cf7b167ac41",
+    "delta_st": 4.469,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.934483918965398,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  },
+  {
+    "id": "7c",
+    "v": "d",
+    "file": "tts/dry-run/audio/7c_d.mp3",
+    "dur": 1360,
+    "T": [
+      80
+    ],
+    "engine": "dry-run",
+    "recipe": "punctuation-0",
+    "approx": true,
+    "dry_run": true,
+    "signature": "49f92fc16c14948e3b2fa1181cc7f6e507f923ecf8bd3fc79d5a2cf7b167ac41",
+    "delta_st": -4.566,
+    "pass": true,
+    "warnings": [
+      "Praat unavailable: dry-run sine-only F0 estimator",
+      "approximate word timing; human check required"
+    ],
+    "metrics": {
+      "duration": 1.36,
+      "db": -15.778279296398868,
+      "lead": 0.08,
+      "tail": 0.08000000000000007
+    }
+  }
+]

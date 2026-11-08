@@ -1,0 +1,9 @@
+{
+  "html": "accent.html",
+  "language_code": "en-US",
+  "ssml_voice": "en-US-Neural2-F",
+  "gemini": {"enabled": false, "model": "gemini-2.5-flash-tts", "voice": "Kore"},
+  "speaking_rate": 0.9,
+  "threshold_st": 2.0,
+  "max_attempts": 4
+}
