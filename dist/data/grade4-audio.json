@@ -143,6 +143,62 @@
       "text": "Next Sunday, Tom is going to go shopping with his father. Tom is going to buy a bag for school. They are going to come home before lunch because his father is going to cook.",
       "hash": "608c87a758910f19",
       "path": "assets/audio/g4-future-b-listening-slow-608c87a758910f19.mp3"
+    },
+    {
+      "passageId": "g4-infinitive-a-listening",
+      "speed": "normal",
+      "text": "On Saturday, Leo went to the park to take pictures of flowers. His sister wanted to play tennis, so she went to the sports center. Leo came home at three to help his father.",
+      "hash": "c643ff936bf3087b",
+      "path": "assets/audio/g4-infinitive-a-listening-normal-c643ff936bf3087b.mp3"
+    },
+    {
+      "passageId": "g4-infinitive-a-listening",
+      "speed": "slow",
+      "text": "On Saturday, Leo went to the park to take pictures of flowers. His sister wanted to play tennis, so she went to the sports center. Leo came home at three to help his father.",
+      "hash": "410808511f415a4e",
+      "path": "assets/audio/g4-infinitive-a-listening-slow-410808511f415a4e.mp3"
+    },
+    {
+      "passageId": "g4-infinitive-b-listening",
+      "speed": "normal",
+      "text": "May went to the station to meet her cousin on Sunday. Her cousin wanted to see the sea, so they took a bus to the beach. They stopped at a shop to buy some water.",
+      "hash": "051797ccb0313484",
+      "path": "assets/audio/g4-infinitive-b-listening-normal-051797ccb0313484.mp3"
+    },
+    {
+      "passageId": "g4-infinitive-b-listening",
+      "speed": "slow",
+      "text": "May went to the station to meet her cousin on Sunday. Her cousin wanted to see the sea, so they took a bus to the beach. They stopped at a shop to buy some water.",
+      "hash": "f05ea70c4a4751e5",
+      "path": "assets/audio/g4-infinitive-b-listening-slow-f05ea70c4a4751e5.mp3"
+    },
+    {
+      "passageId": "g4-gerund-a-listening",
+      "speed": "normal",
+      "text": "Tom enjoys playing soccer after school. Yesterday, he finished doing his homework at four. After doing his homework, he played soccer with his brother.",
+      "hash": "398cbdb306056317",
+      "path": "assets/audio/g4-gerund-a-listening-normal-398cbdb306056317.mp3"
+    },
+    {
+      "passageId": "g4-gerund-a-listening",
+      "speed": "slow",
+      "text": "Tom enjoys playing soccer after school. Yesterday, he finished doing his homework at four. After doing his homework, he played soccer with his brother.",
+      "hash": "a5d3521ca95fc34c",
+      "path": "assets/audio/g4-gerund-a-listening-slow-a5d3521ca95fc34c.mp3"
+    },
+    {
+      "passageId": "g4-gerund-b-listening",
+      "speed": "normal",
+      "text": "Rina enjoys taking pictures of birds. Last Sunday, she went to the park after finishing her homework. She took pictures there with her mother.",
+      "hash": "b8711bee0f8f4551",
+      "path": "assets/audio/g4-gerund-b-listening-normal-b8711bee0f8f4551.mp3"
+    },
+    {
+      "passageId": "g4-gerund-b-listening",
+      "speed": "slow",
+      "text": "Rina enjoys taking pictures of birds. Last Sunday, she went to the park after finishing her homework. She took pictures there with her mother.",
+      "hash": "feea1190f6f20897",
+      "path": "assets/audio/g4-gerund-b-listening-slow-feea1190f6f20897.mp3"
     }
   ]
 }

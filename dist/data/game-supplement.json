@@ -5441,5 +5441,181 @@
     "example": "We will visit Ken tomorrow.",
     "exampleJa": "私たちは明日ケンを訪ねるでしょう。",
     "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-infinitive-1",
+    "en": "I want to study English.",
+    "ja": "私は英語を勉強したいです。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "I want to study English.",
+    "exampleJa": "私は英語を勉強したいです。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-infinitive-2",
+    "en": "She wants to be a doctor.",
+    "ja": "彼女は医者になりたいです。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "She wants to be a doctor.",
+    "exampleJa": "彼女は医者になりたいです。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-infinitive-3",
+    "en": "I went to the library to borrow a book.",
+    "ja": "私は本を借りるために図書館へ行きました。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "I went to the library to borrow a book.",
+    "exampleJa": "私は本を借りるために図書館へ行きました。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-infinitive-4",
+    "en": "To buy some water.",
+    "ja": "水を買うために。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "To buy some water.",
+    "exampleJa": "水を買うために。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-infinitive-5",
+    "en": "I want something to eat.",
+    "ja": "私は何か食べるものが欲しいです。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "I want something to eat.",
+    "exampleJa": "私は何か食べるものが欲しいです。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-infinitive-6",
+    "en": "I want to read a book.",
+    "ja": "私は本を読みたいです。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "I want to read a book.",
+    "exampleJa": "私は本を読みたいです。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-infinitive-7",
+    "en": "We went to the park to play tennis.",
+    "ja": "私たちはテニスをするために公園へ行きました。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "We went to the park to play tennis.",
+    "exampleJa": "私たちはテニスをするために公園へ行きました。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-infinitive-8",
+    "en": "I want to read a book.",
+    "ja": "私は本を読みたいです。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "I want to read a book.",
+    "exampleJa": "私は本を読みたいです。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-gerund-1",
+    "en": "She enjoys reading books.",
+    "ja": "彼女は本を読むことを楽しんでいます。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "She enjoys reading books.",
+    "exampleJa": "彼女は本を読むことを楽しんでいます。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-gerund-2",
+    "en": "I finished doing my homework.",
+    "ja": "私は宿題をし終えました。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "I finished doing my homework.",
+    "exampleJa": "私は宿題をし終えました。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-gerund-3",
+    "en": "Thank you for helping me.",
+    "ja": "手伝ってくれてありがとう。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "Thank you for helping me.",
+    "exampleJa": "手伝ってくれてありがとう。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-gerund-4",
+    "en": "After eating lunch, we played tennis.",
+    "ja": "昼食を食べた後、私たちはテニスをしました。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "After eating lunch, we played tennis.",
+    "exampleJa": "昼食を食べた後、私たちはテニスをしました。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-gerund-5",
+    "en": "Swimming is fun.",
+    "ja": "泳ぐことは楽しいです。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "Swimming is fun.",
+    "exampleJa": "泳ぐことは楽しいです。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-gerund-6",
+    "en": "She enjoys reading.",
+    "ja": "彼女は読むことを楽しんでいます。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "She enjoys reading.",
+    "exampleJa": "彼女は読むことを楽しんでいます。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-gerund-7",
+    "en": "I like reading.",
+    "ja": "私は読むことが好きです。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "I like reading.",
+    "exampleJa": "私は読むことが好きです。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-gerund-8",
+    "en": "He enjoys playing tennis.",
+    "ja": "彼はテニスをすることを楽しんでいます。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "He enjoys playing tennis.",
+    "exampleJa": "彼はテニスをすることを楽しんでいます。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
   }
 ]

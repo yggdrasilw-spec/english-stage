@@ -1,11 +1,13 @@
 // Original bridge curriculum. A/B use different situations for delayed retrieval.
+import {expansionUnits,addExpansion} from './grade4-expansion.js';
 export const courseVersion=1;
 export const units=[
  {id:'past-be',title:'きのう、どこにいた？',lesson:'past-be',wordId:'g5-w-busy',prerequisite:'be',rule:'過去の状態や場所には was / were。I・he・she・it は was、you・we・they は were。',before:'She is at home today.',after:'She was at the library yesterday.',parts:['She','was','at the library','yesterday'],roles:['だれが','過去のbe動詞','場所','過去のしるし']},
  {id:'past-regular',title:'きのう、何をした？',lesson:'past-regular',wordId:'g5-w-visit',prerequisite:'present',rule:'過去の動作は、規則動詞なら -ed などを付ける。主語が変わっても、過去形は同じ。',before:'I visit my aunt on Sundays.',after:'I visited my aunt last Sunday.',parts:['I','visited','my aunt','last Sunday'],roles:['だれが','過去の動作','だれを','過去のしるし']},
  {id:'past-irregular',title:'went・saw・bought を使おう',lesson:'past-irregular',wordId:'g5-w-go',prerequisite:'present',rule:'go → went、see → saw、buy → bought のように、-ed ではない過去形もある。動作と例文を結びつけて覚えよう。',before:'We go to the park on Sundays.',after:'We went to the museum last Sunday.',parts:['We','went','to the museum','last Sunday'],roles:['だれが','goの過去形','行き先','過去のしるし']},
  {id:'past-questions',title:'Did のあとは原形',lesson:'past-questions',wordId:'g5-w-yesterday',prerequisite:'do-questions',rule:'一般動詞の過去の質問は Did ＋ 主語 ＋ 動詞の原形。否定は didn’t ＋ 原形。be動詞の質問には Was / Were を使う。',before:'You play tennis.',after:'Did you play tennis yesterday?',parts:['Did','you','play tennis','yesterday?'],roles:['過去の質問','だれが','動詞は原形','過去のしるし']},
- {id:'future',title:'明日、何をする？',lesson:'future',wordId:'g5-w-tomorrow',prerequisite:'be',rule:'これからの予定は am / is / are going to ＋ 動詞の原形。will ＋ 原形は、その場で決めたことや予想などにも使う。will の否定は will not（won’t）、質問は Will ＋ 主語 ＋ 原形。',before:'She plays tennis every Sunday.',after:'She is going to play tennis tomorrow.',parts:['She','is going to','play tennis','tomorrow'],roles:['だれが','これからの予定','動詞は原形','未来のしるし'],timeline:['現在 / today','未来 → / tomorrow・next Sunday']}
+ {id:'future',title:'明日、何をする？',lesson:'future',wordId:'g5-w-tomorrow',prerequisite:'be',rule:'これからの予定は am / is / are going to ＋ 動詞の原形。will ＋ 原形は、その場で決めたことや予想などにも使う。will の否定は will not（won’t）、質問は Will ＋ 主語 ＋ 原形。',before:'She plays tennis every Sunday.',after:'She is going to play tennis tomorrow.',parts:['She','is going to','play tennis','tomorrow'],roles:['だれが','これからの予定','動詞は原形','未来のしるし'],timeline:['現在 / today','未来 → / tomorrow・next Sunday']},
+ ...expansionUnits
 ];
 const questions=[],passages=[];
 function add(unit,variant,word,grammar,reading,listening){
@@ -70,6 +72,7 @@ add('future','b',
  ['クラブの掲示',['Our club is going to visit a farm next Saturday.','We are going to meet at the school gate at nine.','We are not going to have lunch at the farm, so please bring a snack for the morning.'],['クラブで今度の土曜日に農場を訪ねる予定です。','9時に校門で集合する予定です。','農場で昼食を食べる予定はないので、午前中のおやつを持ってきてください。'],[['Where is the club going to meet?','At the school gate.',['At the farm.','At the station.','At a restaurant.'],'訪問先の農場と集合場所の校門を区別しよう。',1],['What is the club NOT going to do at the farm?','Have lunch.',['See animals.','Visit the farm.','Walk around.'],'最後の文の not going to have lunch が根拠。ほかの活動をするかは本文には書かれていない。',2]]],
  ['日曜日の買い物',['Next Sunday, Tom is going to go shopping with his father.','Tom is going to buy a bag for school.','They are going to come home before lunch because his father is going to cook.'],['今度の日曜日、トムは父と買い物へ行く予定です。','トムは学校用のかばんを買う予定です。','父が料理をする予定なので、二人は昼食前に帰宅する予定です。'],[['What is Tom going to buy?','A bag.',['A book.','A camera.','A shirt.'],'Tom が買う予定の物は a bag。',1],['Why are they going to come home before lunch?','Tom’s father is going to cook.',['Tom is going to play tennis.','A shop is going to close.','Tom’s mother is going to visit a farm.'],'because の後ろが理由。料理をするのは父。',2]]]);
 
+addExpansion(add);
 export {questions,passages};
 export const questionById=id=>questions.find(q=>q.id===id);
 export const passageById=id=>passages.find(p=>p.id===id);

@@ -151,6 +151,36 @@ lessons.push(lesson('future','これからの予定と予想','be going to / wil
  q('Will Ken cook tomorrow? — No, he ___.','won’t',['doesn’t','isn’t'],'Willの質問の否定の答えはwon’t（will not）。','No, he won’t.','いいえ、しません。','willの否定の答え'),
  order('We will visit Ken tomorrow.','私たちは明日ケンを訪ねるでしょう。','We → will → visit Ken → tomorrow。')],{extension:true,diagram:'future'}));
 
+
+lessons.push(
+lesson('infinitive','「したい」と「するために」','to ＋ 動詞の原形の役割',
+'to＋動詞の原形は、文の中で「〜すること」「〜するために」「〜するための」などの役割を持つよ。want a bookとwant to readでは、欲しいものと、したい動作が違う。',[
+ ex('したいこと','I want [to read] a book.','私は本を読みたいです。','🧒 → 📖',[['I want','私は望む'],['to read','読むことを'],['a book','本を']],'wantの後ろにto readを置いて、したい動作を示すよ。'),
+ ex('動作の目的','I went to the library [to read] a book.','私は本を読むために図書館へ行きました。','🚶 → 📚 → 📖',[['went to the library','図書館へ行った'],['to read a book','本を読むために']],'後ろのto readは、行った目的。最初のto the libraryは行き先だよ。'),
+ ex('名詞の説明','I want something [to drink].','私は何か飲むものが欲しいです。','🥤 ❓',[['something','何か'],['to drink','飲むための']],'to drinkがsomethingを後ろから説明するよ。')],[
+ q('I want to ___ English.','study',['studies','studying'],'toの後ろは原形study。','I want to study English.','私は英語を勉強したいです。','to＋原形'),
+ q('She wants to ___ a doctor.','be',['is','being'],'be動詞もtoの後ろは原形be。','She wants to be a doctor.','彼女は医者になりたいです。','to be'),
+ q('「本を借りるために」の文にしよう：I went to the library ___ borrow a book.','to',['at','with'],'to borrowが行った目的。','I went to the library to borrow a book.','私は本を借りるために図書館へ行きました。','目的のto'),
+ q('Why did you go to the shop? — ___ some water.（買うために）','To buy',['Bought','Buys'],'理由を目的で答えるならTo buy。','To buy some water.','水を買うために。','Whyへの目的の答え'),
+ q('I want something ___ eat.（何か食べるもの）','to',['at','on'],'something to eatで何か食べるもの。','I want something to eat.','私は何か食べるものが欲しいです。','名詞を説明するto'),
+ q('I want ___ a book.（本を読みたい）','to read',['reading','reads'],'wantの後ろで、したい動作をto readで表そう。','I want to read a book.','私は本を読みたいです。','want to'),
+ order('We went to the park to play tennis.','私たちはテニスをするために公園へ行きました。','行った場所の後ろに、目的のto play tennisを置こう。'),
+ q('I want a book. と I want to read a book. の違いは？','本が欲しい／本を読みたい',['どちらも昨日読んだ','どちらも今読んでいる'],'to readがある方は、したい動作を表しているよ。','I want to read a book.','私は本を読みたいです。','名詞としたい動作')],{extension:true}),
+lesson('gerund','「すること」をingで表す','enjoy / finish / 前置詞 ＋ ing',
+'動詞のing形は「〜すること」という名詞の働きにもなるよ。enjoyやfinishの後ろ、前置詞の後ろで使う。be動詞＋ingの進行形とは文の中の役割が違う。like readingとlike to readはどちらも使えるよ。',[
+ ex('進行形','She [is reading] a book.','彼女は本を読んでいるところです。','👧 📖 ⏱️',[['She','主語'],['is reading','読んでいるところ'],['a book','本を']],'isとreadingが組みになって今の動作を表すよ。'),
+ ex('好きな活動','She enjoys [reading] books.','彼女は本を読むことを楽しんでいます。','👧 ❤️ 📚',[['She enjoys','彼女は楽しむ'],['reading books','本を読むことを']],'enjoysが文の動詞。reading booksは楽しむ対象だよ。'),
+ ex('前置詞の後ろ','Thank you for [helping] me.','手伝ってくれてありがとう。','🤝',[['Thank you','ありがとう'],['for','何に対して'],['helping me','私を手伝うこと']],'前置詞forの後ろに、動名詞helpingを置くよ。')],[
+ q('She enjoys ___ books.','reading',['to read','reads'],'enjoyの後ろは動名詞reading。','She enjoys reading books.','彼女は本を読むことを楽しんでいます。','enjoy＋ing'),
+ q('I finished ___ my homework.','doing',['to do','does'],'finishの後ろは動名詞doing。','I finished doing my homework.','私は宿題をし終えました。','finish＋ing'),
+ q('Thank you for ___ me.','helping',['help','to help'],'前置詞forの後ろで動作を表すならhelping。','Thank you for helping me.','手伝ってくれてありがとう。','前置詞＋ing'),
+ q('After ___ lunch, we played tennis.','eating',['eat','to eat'],'前置詞afterの後ろはeating。「昼食を食べた後で」。','After eating lunch, we played tennis.','昼食を食べた後、私たちはテニスをしました。','after＋ing'),
+ q('「泳ぐことは楽しい」の文にしよう：___ is fun.','Swimming',['Swim','Swims'],'Swimmingが「泳ぐこと」という主語。To swimも主語になれるが、ここでは選択肢にないよ。','Swimming is fun.','泳ぐことは楽しいです。','主語になるing'),
+ q('She is reading. と She enjoys reading. の違いは？','読んでいるところ／読むことを楽しんでいる',['どちらも読み終えた','どちらも読む予定だ'],'be＋ingは進行形。enjoysの後ろのreadingは楽しむ対象だよ。','She enjoys reading.','彼女は読むことを楽しんでいます。','進行形との区別'),
+ q('I like reading. と I like to read. は？','どちらも「読むことが好き」を表せる',['ingだけがいつも正しい','toだけがいつも正しい'],'likeはingとto＋原形のどちらも使えるよ。enjoyと同じ規則にしないでね。','I like reading.','私は読むことが好きです。','likeの両方の形'),
+ order('He enjoys playing tennis.','彼はテニスをすることを楽しんでいます。','He → enjoys → playing tennisの順。')],{extension:true})
+);
+
 lessons.forEach((l,li)=>{l.number=li+1;l.questions.forEach((question,i)=>{question.id=`${l.id}-${i+1}`;question.lessonId=l.id;});});
 export const basic=lessons.filter(l=>!l.extension);
 export const questionBank=lessons.flatMap(l=>l.questions);

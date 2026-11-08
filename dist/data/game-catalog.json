@@ -8500,6 +8500,86 @@
     "ja": "私たちは明日ケンを訪ねるでしょう。"
   },
   {
+    "id": "grammar-infinitive-1",
+    "en": "I want to study English.",
+    "ja": "私は英語を勉強したいです。"
+  },
+  {
+    "id": "grammar-infinitive-2",
+    "en": "She wants to be a doctor.",
+    "ja": "彼女は医者になりたいです。"
+  },
+  {
+    "id": "grammar-infinitive-3",
+    "en": "I went to the library to borrow a book.",
+    "ja": "私は本を借りるために図書館へ行きました。"
+  },
+  {
+    "id": "grammar-infinitive-4",
+    "en": "To buy some water.",
+    "ja": "水を買うために。"
+  },
+  {
+    "id": "grammar-infinitive-5",
+    "en": "I want something to eat.",
+    "ja": "私は何か食べるものが欲しいです。"
+  },
+  {
+    "id": "grammar-infinitive-6",
+    "en": "I want to read a book.",
+    "ja": "私は本を読みたいです。"
+  },
+  {
+    "id": "grammar-infinitive-7",
+    "en": "We went to the park to play tennis.",
+    "ja": "私たちはテニスをするために公園へ行きました。"
+  },
+  {
+    "id": "grammar-infinitive-8",
+    "en": "I want to read a book.",
+    "ja": "私は本を読みたいです。"
+  },
+  {
+    "id": "grammar-gerund-1",
+    "en": "She enjoys reading books.",
+    "ja": "彼女は本を読むことを楽しんでいます。"
+  },
+  {
+    "id": "grammar-gerund-2",
+    "en": "I finished doing my homework.",
+    "ja": "私は宿題をし終えました。"
+  },
+  {
+    "id": "grammar-gerund-3",
+    "en": "Thank you for helping me.",
+    "ja": "手伝ってくれてありがとう。"
+  },
+  {
+    "id": "grammar-gerund-4",
+    "en": "After eating lunch, we played tennis.",
+    "ja": "昼食を食べた後、私たちはテニスをしました。"
+  },
+  {
+    "id": "grammar-gerund-5",
+    "en": "Swimming is fun.",
+    "ja": "泳ぐことは楽しいです。"
+  },
+  {
+    "id": "grammar-gerund-6",
+    "en": "She enjoys reading.",
+    "ja": "彼女は読むことを楽しんでいます。"
+  },
+  {
+    "id": "grammar-gerund-7",
+    "en": "I like reading.",
+    "ja": "私は読むことが好きです。"
+  },
+  {
+    "id": "grammar-gerund-8",
+    "en": "He enjoys playing tennis.",
+    "ja": "彼はテニスをすることを楽しんでいます。"
+  },
+  {
     "id": "expression-g5-m1-01",
     "en": "My brother plays the piano every evening.",
     "ja": "楽器のpianoをplay theと組み合わせます。"
