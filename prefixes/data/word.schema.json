@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prefix Word Entry",
+  "type": "object",
+  "required": [
+    "id",
+    "prefix_id",
+    "word",
+    "base",
+    "split",
+    "meaning_ja",
+    "compositional_hint_ja",
+    "stage",
+    "mvp",
+    "quiz_eligible",
+    "review_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "prefix_id": {
+      "type": "string"
+    },
+    "word": {
+      "type": "string"
+    },
+    "base": {
+      "type": "string"
+    },
+    "split": {
+      "type": "string"
+    },
+    "meaning_ja": {
+      "type": "string"
+    },
+    "compositional_hint_ja": {
+      "type": "string"
+    },
+    "stage": {
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "mvp": {
+      "type": "boolean"
+    },
+    "quiz_eligible": {
+      "type": "boolean"
+    },
+    "base_type": {
+      "type": "string"
+    },
+    "caution_ja": {
+      "type": "string"
+    },
+    "review_status": {
+      "type": "string"
+    },
+    "lexical_source_id": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

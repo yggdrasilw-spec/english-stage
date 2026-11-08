@@ -1,0 +1,72 @@
+[
+  {
+    "id": "TRAP_RE_RECEIVE",
+    "word": "receive",
+    "looks_like": "re-",
+    "message_ja": "receive の re を「もう一度」と切り分ける問題を出さない。英語の現在の語の意味から自動分解しない。",
+    "quiz_use": "exception_notice"
+  },
+  {
+    "id": "TRAP_UN_UNICORN",
+    "word": "unicorn",
+    "looks_like": "un-",
+    "message_ja": "unicorn は un-（否定）+ icorn ではない。uni-（1）と角を表す語源に関係する。",
+    "quiz_use": "false_friend"
+  },
+  {
+    "id": "TRAP_IN_INSIDE",
+    "word": "inside",
+    "looks_like": "in-",
+    "message_ja": "inside の in は「否定」の in- と違う。",
+    "quiz_use": "false_friend"
+  },
+  {
+    "id": "TRAP_DIS_DISCOVER",
+    "word": "discover",
+    "looks_like": "dis-",
+    "message_ja": "discover を単純に「coverでない」と訳す練習は避ける。語史と現代意味がずれる。",
+    "quiz_use": "teacher_note"
+  },
+  {
+    "id": "TRAP_SUPER_SUPERMARKET",
+    "word": "supermarket",
+    "looks_like": "super-",
+    "message_ja": "supermarket を「すごい市場」と直訳させない。慣用的な意味も必要。",
+    "quiz_use": "exception_notice"
+  },
+  {
+    "id": "TRAP_BI_BIWEEKLY",
+    "word": "biweekly",
+    "looks_like": "bi-",
+    "message_ja": "biweekly は「週2回」と「2週間ごと」の両義性があるので単一正解の初級問題にしない。",
+    "quiz_use": "exception_notice"
+  },
+  {
+    "id": "TRAP_UN_NOT_ANY",
+    "word": "unbig",
+    "looks_like": "un-",
+    "message_ja": "un- をどの形容詞にも自由に付けられるわけではない。unbig は通常の語として採用しない。",
+    "quiz_use": "invalid_word"
+  },
+  {
+    "id": "TRAP_RE_RED",
+    "word": "red",
+    "looks_like": "re-",
+    "message_ja": "red の頭の re は「再び」ではない。文字列一致だけで接頭辞を判定しない。",
+    "quiz_use": "false_friend"
+  },
+  {
+    "id": "TRAP_AUTO_AUTOGRAPH",
+    "word": "autograph",
+    "looks_like": "auto-",
+    "message_ja": "autograph を auto + graph と見せるなら graph のここでの意味（書く）を補足する。",
+    "quiz_use": "teacher_note"
+  },
+  {
+    "id": "TRAP_WORD_VALIDITY",
+    "word": "*all",
+    "looks_like": "any prefix",
+    "message_ja": "学習者の自由入力から推測した新語を自動で正解扱いにしない。単語生成は許可リストを利用。",
+    "quiz_use": "implementation_rule"
+  }
+]

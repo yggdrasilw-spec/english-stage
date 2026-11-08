@@ -134,3 +134,11 @@ PDFのあいさつ欄の high は意味と発音から hi に補正。chopstick(
 ### ABC HAND
 
 ホームから「ABC HAND」でクレーン式のスペル練習を開けます。単語ハンターと同じ904語・26ジャンル・MP3を使い、不要文字とヒントを設定できます。設計・得点・検証は [ABC_HAND.md](ABC_HAND.md) を参照してください。
+
+## 接頭辞の教材（2026-11-08）
+
+ホームの「ことばのパーツ研究所」から、基本・中級・応用・発展の4段階で学べます。14項目、56語の出題候補、10語の説明カード。元語ヒント、英語読み上げ、端末内記録、間隔復習に対応。教材は暫定版で、全語の辞書確認とChromebook実機検証は未完了です。
+
+公開先： https://yggdrasilw-spec.github.io/english-stage/prefixes/
+
+ソースは `prefixes/`、公開ファイルは `npm run prefixes:build` で `dist/prefixes/` に生成します。`npm run prefixes:test` と `npm run prefixes:check` で検証します。既存の英検5級の記録とは別のキーに保存します。

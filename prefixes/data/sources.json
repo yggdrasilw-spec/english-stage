@@ -1,0 +1,98 @@
+[
+  {
+    "id": "SRC_CAMBRIDGE_PREFIXES",
+    "organization": "Cambridge Dictionary / English Grammar Today",
+    "role": "English prefix meanings and spelling, broad list",
+    "url": "https://dictionary.cambridge.org/grammar/british-grammar/prefixes",
+    "confidence": "高",
+    "rights_note_ja": "例文や辞書本文は転載せず、語義と例語を個別確認する。"
+  },
+  {
+    "id": "SRC_CAMBRIDGE_SPELLING",
+    "organization": "Cambridge Dictionary / English Grammar Today",
+    "role": "General rules for prefix spelling",
+    "url": "https://dictionary.cambridge.org/grammar/british-grammar/e",
+    "confidence": "高",
+    "rights_note_ja": "本文・図表の無断転載を避ける。"
+  },
+  {
+    "id": "SRC_READING_ROCKETS_CHART",
+    "organization": "Reading Rockets / Elaine K. McEwan",
+    "role": "Overview of Latin/Greek roots and affixes",
+    "url": "https://www.readingrockets.org/topics/spelling-and-word-study/articles/root-words-suffixes-and-prefixes",
+    "confidence": "高",
+    "rights_note_ja": "原表・画像のコピーを使わず、作成者独自の教材データを用いる。"
+  },
+  {
+    "id": "SRC_READING_ROCKETS_PARENTS",
+    "organization": "Reading Rockets",
+    "role": "Number prefixes and conversation with children",
+    "url": "https://www.readingrockets.org/topics/spelling-and-word-study/articles/use-words-teach-words",
+    "confidence": "高",
+    "rights_note_ja": "教材の発想の参考。本文を再配布しない。"
+  },
+  {
+    "id": "SRC_READING_ROCKETS_SPELLING",
+    "organization": "Reading Rockets",
+    "role": "Morphology and advanced word learning",
+    "url": "https://www.readingrockets.org/topics/early-literacy-development/articles/how-spelling-supports-reading",
+    "confidence": "高",
+    "rights_note_ja": "解説を要約して利用。転載は別途確認。"
+  },
+  {
+    "id": "SRC_GOV_UK_ENGLISH",
+    "organization": "UK Department for Education / GOV.UK",
+    "role": "UK national curriculum year 1-6, un-, prefixes, morphology",
+    "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+    "confidence": "高",
+    "rights_note_ja": "本文はOpen Government Licence v3.0（第三者権利例外あり）。本ZIPは原文転載しない。"
+  },
+  {
+    "id": "SRC_MEXT",
+    "organization": "文部科学省",
+    "role": "Japanese elementary English curriculum guide and resources",
+    "url": "https://www.mext.go.jp/a_menu/kokusai/gaikokugo/index_00005.htm",
+    "confidence": "高",
+    "rights_note_ja": "日本の小学校英語の授業に直接接頭辞の網羅習得目標があるとは主張しない。"
+  },
+  {
+    "id": "SRC_OXFORD_UN",
+    "organization": "Oxford Learner’s Dictionaries",
+    "role": "Two meanings of un-: negation and reversal",
+    "url": "https://www.oxfordlearnersdictionaries.com/definition/english/un_2",
+    "confidence": "高",
+    "rights_note_ja": "語義の参照用。辞書本文をコピーしない。"
+  },
+  {
+    "id": "SRC_UVA_MORPH",
+    "organization": "University of Virginia / literacy.virginia.edu",
+    "role": "Teacher routine: model, guided practice, independent use (grades 4–8)",
+    "url": "https://literacy.virginia.edu/sites/g/files/jsddwu1006/files/2024-07/instructional-protocol-morphology-routine-4-8.pdf",
+    "confidence": "高",
+    "rights_note_ja": "教師用教材の転載はせず、一般的な学習手順のみ独自実装。"
+  },
+  {
+    "id": "SRC_BC_KIDS",
+    "organization": "British Council / LearnEnglish Kids",
+    "role": "Age-appropriate English games and vocabulary activities",
+    "url": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-practice",
+    "confidence": "中",
+    "rights_note_ja": "接頭辞専用リソースではなくUI・学習方法の参考。ゲーム・画像・音声の転載禁止。"
+  },
+  {
+    "id": "SRC_CAMBRIDGE_BI",
+    "organization": "Cambridge Dictionary",
+    "role": "Bi- can express two or twice; ambiguity",
+    "url": "https://dictionary.cambridge.org/dictionary/english/bi",
+    "confidence": "高",
+    "rights_note_ja": "biweekly の両義性に注意する。"
+  },
+  {
+    "id": "SRC_CAMBRIDGE_TRI",
+    "organization": "Cambridge Dictionary",
+    "role": "tri- means three",
+    "url": "https://dictionary.cambridge.org/dictionary/english/tri",
+    "confidence": "高",
+    "rights_note_ja": "語義参照のみ。"
+  }
+]

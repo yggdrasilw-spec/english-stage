@@ -14,6 +14,9 @@
     "grammar:check": "node scripts/check-grammar.mjs",
     "grammar:qa": "node grammar/tests/browser.cjs",
     "grammar:qa-ai": "node grammar/tests/ai-browser.cjs",
-    "grammar:qa-release": "node scripts/qa-grammar-release.cjs"
+    "grammar:qa-release": "node scripts/qa-grammar-release.cjs",
+    "prefixes:test": "node --test prefixes/tests/*.test.mjs",
+    "prefixes:build": "node scripts/build-prefixes.mjs",
+    "prefixes:check": "node scripts/check-prefixes.mjs"
   }
 }

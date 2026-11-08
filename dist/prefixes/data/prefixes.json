@@ -1,0 +1,690 @@
+[
+  {
+    "id": "un_not",
+    "form": "un-",
+    "meaning_ja": "〜でない／反対の",
+    "stage": 1,
+    "mvp": true,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "形容詞などに付く否定。どんな単語にも付けられるわけではない。",
+    "order": 1,
+    "example_count": 5,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "un_reverse",
+    "form": "un-",
+    "meaning_ja": "動作を逆にする／ほどく",
+    "stage": 1,
+    "mvp": true,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "同じun-でも「〜でない」とは別の使い方。",
+    "order": 2,
+    "example_count": 5,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "re_again",
+    "form": "re-",
+    "meaning_ja": "もう一度／再び",
+    "stage": 1,
+    "mvp": true,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "re-で始まっても、いつも「再び」ではない。receive等を機械的に分解しない。",
+    "order": 3,
+    "example_count": 6,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "dis_negative",
+    "form": "dis-",
+    "meaning_ja": "〜でない／反対にする",
+    "stage": 1,
+    "mvp": true,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "dis-には否定・反対・取り消しなどの意味がある。単語ごとの使い方を確認。",
+    "order": 4,
+    "example_count": 5,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "pre_before",
+    "form": "pre-",
+    "meaning_ja": "前もって／〜より前",
+    "stage": 1,
+    "mvp": true,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "時間の前後を図解。事前の動作がイメージしやすい語から。",
+    "order": 5,
+    "example_count": 5,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "mis_wrong",
+    "form": "mis-",
+    "meaning_ja": "間違って／悪く",
+    "stage": 1,
+    "mvp": true,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "意味が逆になるというより、やり方が間違っている。",
+    "order": 6,
+    "example_count": 5,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "over_too_much",
+    "form": "over-",
+    "meaning_ja": "〜しすぎる／多すぎる",
+    "stage": 1,
+    "mvp": true,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "over-は「上」に関する意味もあるが、ここは過剰の意味だけを練習。",
+    "order": 7,
+    "example_count": 5,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "under_too_little",
+    "form": "under-",
+    "meaning_ja": "〜が足りない／少なすぎる",
+    "stage": 1,
+    "mvp": true,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "over-との対比。under-には「下」の意味もある。",
+    "order": 8,
+    "example_count": 5,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "non_not",
+    "form": "non-",
+    "meaning_ja": "〜ではない／非〜",
+    "stage": 2,
+    "mvp": true,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "ハイフンを使う語もある。non-とun-を自由に交換できない。",
+    "order": 9,
+    "example_count": 5,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "bi_two",
+    "form": "bi-",
+    "meaning_ja": "2／2つの",
+    "stage": 2,
+    "mvp": true,
+    "morphology_type": "combining_form",
+    "teaching_note_ja": "数を表す結合形式。biweekly は「週2回／2週間ごと」で曖昧なので出題しない。",
+    "order": 10,
+    "example_count": 3,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "tri_three",
+    "form": "tri-",
+    "meaning_ja": "3／3つの",
+    "stage": 2,
+    "mvp": true,
+    "morphology_type": "combining_form",
+    "teaching_note_ja": "数を表す語要素。tripod の pod は独立語の「さや」とは別のギリシャ語由来。",
+    "order": 11,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "multi_many",
+    "form": "multi-",
+    "meaning_ja": "たくさんの／複数の",
+    "stage": 2,
+    "mvp": true,
+    "morphology_type": "prefix_like_combining_form",
+    "teaching_note_ja": "multi は組み合わせる語によって複数・多様などニュアンスが違う。",
+    "order": 12,
+    "example_count": 5,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "sub_under",
+    "form": "sub-",
+    "meaning_ja": "下に／下位に",
+    "stage": 2,
+    "mvp": true,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "submarine は marine が子どもには難しいため、初級の構築問題には使わない。",
+    "order": 13,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "super_above",
+    "form": "super-",
+    "meaning_ja": "普通より上／すごい",
+    "stage": 2,
+    "mvp": true,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "supermarketは「すごい市場」と直訳して覚えない。意味の透明な語から。",
+    "order": 14,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "inter_between",
+    "form": "inter-",
+    "meaning_ja": "間の／相互の",
+    "stage": 2,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "nationalなどが既習でない場合は意味推測より絵で示す。",
+    "order": 15,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "post_after",
+    "form": "post-",
+    "meaning_ja": "〜の後／後から",
+    "stage": 2,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "pre-と時系列で対比。",
+    "order": 16,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "anti_against",
+    "form": "anti-",
+    "meaning_ja": "反対の／防ぐ",
+    "stage": 2,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "antivirusは病原体のウイルスやコンピュータのウイルスを防ぐ語。",
+    "order": 17,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "semi_half",
+    "form": "semi-",
+    "meaning_ja": "半分／部分的に",
+    "stage": 2,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "halfと同じ意味でも、いつもぴったり半分ではない。",
+    "order": 18,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "co_together",
+    "form": "co-",
+    "meaning_ja": "一緒に／共同の",
+    "stage": 2,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "co-worker と coworker などハイフンの表記揺れがある。",
+    "order": 19,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "auto_self",
+    "form": "auto-",
+    "meaning_ja": "自分で／自動で",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix_like_combining_form",
+    "teaching_note_ja": "auto-のギリシャ語由来の「自己」と、現代の「自動的に」の用法の違いを示す。",
+    "order": 20,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "tele_distance",
+    "form": "tele-",
+    "meaning_ja": "遠く／遠隔の",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "combining_form",
+    "teaching_note_ja": "phoneやvisionの意味を知っていれば類推しやすい。",
+    "order": 21,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "mini_small",
+    "form": "mini-",
+    "meaning_ja": "小さい／小型の",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "日本語のミニとの関連を使えるが、意味とスペルは英語の実語で確認。",
+    "order": 22,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "mega_large",
+    "form": "mega-",
+    "meaning_ja": "非常に大きい／巨大",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix_like_combining_form",
+    "teaching_note_ja": "megabyteなどSI接頭語のmega（100万）とは区別。",
+    "order": 23,
+    "example_count": 3,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "mono_one",
+    "form": "mono-",
+    "meaning_ja": "1つ／単一の",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "combining_form",
+    "teaching_note_ja": "mono-はギリシャ語由来。下位語基が独立語と同じ意味でない場合がある。",
+    "order": 24,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "de_reverse",
+    "form": "de-",
+    "meaning_ja": "取り除く／逆にする",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "de-の意味は複数。すべてに「反対」を当てるのは危険。",
+    "order": 25,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "mid_middle",
+    "form": "mid-",
+    "meaning_ja": "真ん中の／途中の",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "時間・位置の中間を表す。",
+    "order": 26,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "fore_before",
+    "form": "fore-",
+    "meaning_ja": "前もって／前面の",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "時間の前と位置の前を分けて学ぶ。",
+    "order": 27,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "ex_former",
+    "form": "ex-",
+    "meaning_ja": "以前の／元〜",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "元〜はハイフン表記の例を選ぶ。exは別に「外へ」の意味の接頭語もある。",
+    "order": 28,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "out_exceed",
+    "form": "out-",
+    "meaning_ja": "〜より上回る／先んじる",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "out-には外に出る等ほかの意味もある。",
+    "order": 29,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "in_negative",
+    "form": "in-",
+    "meaning_ja": "〜でない",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "否定のin-は場所を表すin（中）とは別。綴り変化の親グループ。",
+    "order": 30,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "im_negative",
+    "form": "im-",
+    "meaning_ja": "〜でない（in-の変化形）",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "主にp/m/bの前でim-。すべてのimで始まる語に当てはめない。",
+    "order": 31,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "il_negative",
+    "form": "il-",
+    "meaning_ja": "〜でない（in-の変化形）",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "主にlの前でil-。",
+    "order": 32,
+    "example_count": 3,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "ir_negative",
+    "form": "ir-",
+    "meaning_ja": "〜でない（in-の変化形）",
+    "stage": 3,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "主にrの前でir-。",
+    "order": 33,
+    "example_count": 3,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "trans_across",
+    "form": "trans-",
+    "meaning_ja": "横切って／〜を越えて",
+    "stage": 4,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "単語全体が地理的にわかる場合に採用。",
+    "order": 34,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "micro_small",
+    "form": "micro-",
+    "meaning_ja": "非常に小さい／微小な",
+    "stage": 4,
+    "mvp": false,
+    "morphology_type": "combining_form",
+    "teaching_note_ja": "micro-は科学語でよく使う。microphoneは「小さな電話」ではないので避ける。",
+    "order": 35,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "extra_beyond",
+    "form": "extra-",
+    "meaning_ja": "外側に／普通を越えて",
+    "stage": 4,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "ordinaryなどは日本語訳に単純合成が通用しない場合がある。",
+    "order": 36,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "hyper_excess",
+    "form": "hyper-",
+    "meaning_ja": "過度に／非常に",
+    "stage": 4,
+    "mvp": false,
+    "morphology_type": "prefix_like_combining_form",
+    "teaching_note_ja": "hyperactiveは医療的な意味を想起させる文脈を避け、単なる語構成を説明。",
+    "order": 37,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "counter_against",
+    "form": "counter-",
+    "meaning_ja": "反対に／対抗して",
+    "stage": 4,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "counterclockwiseは方向を絵で示す。",
+    "order": 38,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "uni_one",
+    "form": "uni-",
+    "meaning_ja": "1つ／単一",
+    "stage": 4,
+    "mvp": false,
+    "morphology_type": "combining_form",
+    "teaching_note_ja": "un-（否定）と区別。unicornのcornはトウモロコシではなく角の語源。",
+    "order": 39,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "poly_many",
+    "form": "poly-",
+    "meaning_ja": "多い／複数の",
+    "stage": 4,
+    "mvp": false,
+    "morphology_type": "combining_form",
+    "teaching_note_ja": "語基は独立語でないことが多い。「polyester」のpolyは単純に「多い+ester」と教えない。",
+    "order": 40,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "ultra_extreme",
+    "form": "ultra-",
+    "meaning_ja": "非常に／〜を越えて",
+    "stage": 4,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "ultravioletは「紫より外側」という専門的用法。",
+    "order": 41,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "pro_support",
+    "form": "pro-",
+    "meaning_ja": "〜に賛成して",
+    "stage": 4,
+    "mvp": false,
+    "morphology_type": "prefix",
+    "teaching_note_ja": "professionalのpro（専門家の略）と混同しない。",
+    "order": 42,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  },
+  {
+    "id": "macro_large",
+    "form": "macro-",
+    "meaning_ja": "大きい／大規模な",
+    "stage": 4,
+    "mvp": false,
+    "morphology_type": "combining_form",
+    "teaching_note_ja": "社会・科学の専門語向け。小学生の必修にはしない。",
+    "order": 43,
+    "example_count": 4,
+    "reference_ids": [
+      "SRC_CAMBRIDGE_PREFIXES",
+      "SRC_READING_ROCKETS_CHART",
+      "SRC_GOV_UK_ENGLISH"
+    ]
+  }
+]

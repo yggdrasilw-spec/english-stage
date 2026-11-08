@@ -1,0 +1,488 @@
+{
+  "version": 1,
+  "checked_at": "2026-11-08",
+  "status_ja": "暫定教材。MVP全66語の編集点検を実施。個別辞書照合は一部のみで、辞書確認済みの認定ではありません。",
+  "words": {
+    "unhappy": {
+      "use": "quiz",
+      "base_hint_ja": "うれしい・幸せな",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "unfair": {
+      "use": "quiz",
+      "base_hint_ja": "公平な。みんなに同じルールで接すること",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "unkind": {
+      "use": "quiz",
+      "base_hint_ja": "親切な",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "unsafe": {
+      "use": "quiz",
+      "base_hint_ja": "安全な",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "unlucky": {
+      "use": "quiz",
+      "base_hint_ja": "運がよい",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "undo": {
+      "use": "quiz",
+      "base_hint_ja": "する",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "unlock": {
+      "use": "quiz",
+      "base_hint_ja": "鍵をかける",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "unpack": {
+      "use": "quiz",
+      "base_hint_ja": "荷物をつめる",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "untie": {
+      "use": "quiz",
+      "base_hint_ja": "結ぶ",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "unwrap": {
+      "use": "quiz",
+      "base_hint_ja": "包む",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "redo": {
+      "use": "quiz",
+      "base_hint_ja": "する",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "reread": {
+      "use": "quiz",
+      "base_hint_ja": "読む",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "replay": {
+      "use": "quiz",
+      "base_hint_ja": "遊ぶ・再生する",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "rewrite": {
+      "use": "quiz",
+      "base_hint_ja": "書く",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "reuse": {
+      "use": "quiz",
+      "base_hint_ja": "使う",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "repaint": {
+      "use": "quiz",
+      "base_hint_ja": "色をぬる",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "disagree": {
+      "use": "quiz",
+      "base_hint_ja": "賛成する",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "dislike": {
+      "use": "quiz",
+      "base_hint_ja": "好きである",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "dishonest": {
+      "use": "quiz",
+      "base_hint_ja": "正直な",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "disappear": {
+      "use": "quiz",
+      "base_hint_ja": "現れる",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "disconnect": {
+      "use": "quiz",
+      "base_hint_ja": "つなぐ",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "preview": {
+      "use": "quiz",
+      "base_hint_ja": "見る",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "preheat": {
+      "use": "quiz",
+      "base_hint_ja": "温める",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "prepay": {
+      "use": "quiz",
+      "base_hint_ja": "お金を払う",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "preschool": {
+      "use": "card",
+      "base_hint_ja": "学校",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "国の制度による違いと品詞の扱いを要確認。"
+    },
+    "pretest": {
+      "use": "quiz",
+      "base_hint_ja": "テスト・試す",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "misspell": {
+      "use": "quiz",
+      "base_hint_ja": "文字のつづりを言う・書く",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "miscount": {
+      "use": "quiz",
+      "base_hint_ja": "数える",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "misplace": {
+      "use": "quiz",
+      "base_hint_ja": "置く",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "mishear": {
+      "use": "quiz",
+      "base_hint_ja": "聞く",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "misunderstand": {
+      "use": "quiz",
+      "base_hint_ja": "理解する・分かる",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "overcook": {
+      "use": "quiz",
+      "base_hint_ja": "料理する・加熱する",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "overeat": {
+      "use": "quiz",
+      "base_hint_ja": "食べる",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "overwork": {
+      "use": "quiz",
+      "base_hint_ja": "働く",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "overfill": {
+      "use": "quiz",
+      "base_hint_ja": "いっぱいに入れる",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "oversleep": {
+      "use": "quiz",
+      "base_hint_ja": "眠る",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。",
+      "meaning_ja": "寝過ごす",
+      "note_ja": "起きる予定の時刻より遅くまで眠ること。ただ長く眠ることとは区別します。"
+    },
+    "undercook": {
+      "use": "quiz",
+      "base_hint_ja": "料理する・加熱する",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "underpay": {
+      "use": "quiz",
+      "base_hint_ja": "お金を払う",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "underuse": {
+      "use": "quiz",
+      "base_hint_ja": "使う",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "underfill": {
+      "use": "card",
+      "base_hint_ja": "いっぱいに入れる",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語の使用頻度と児童向け訳の自然さを要確認。"
+    },
+    "undercharge": {
+      "use": "quiz",
+      "base_hint_ja": "代金を請求する",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。",
+      "meaning_ja": "本来より安い料金を請求する",
+      "note_ja": "本来の金額より少なく請求することです。"
+    },
+    "nonstop": {
+      "use": "quiz",
+      "base_hint_ja": "止まる",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "nonstick": {
+      "use": "quiz",
+      "base_hint_ja": "くっつく",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "nonfiction": {
+      "use": "quiz",
+      "base_hint_ja": "作り話・フィクション",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "nonliving": {
+      "use": "quiz",
+      "base_hint_ja": "生きている",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "nonmetal": {
+      "use": "quiz",
+      "base_hint_ja": "金属",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "bicycle": {
+      "use": "card",
+      "base_hint_ja": "ふつうは「周期・一周」。車輪の意味との関係は特別な説明が必要",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "cycleを現在の単独語の意味から足しても「自転車」にはならない。語源と図を伴う説明が必要。"
+    },
+    "biplane": {
+      "use": "quiz",
+      "base_hint_ja": "飛行機。この語では、上下に重なった主翼が2組ある飛行機を表す",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。",
+      "modes": [
+        "meaning"
+      ],
+      "note_ja": "bi-は2を表すが、「2機の飛行機」ではありません。上下に重なった主翼が2組ある飛行機です。",
+      "meaning_ja": "上下2組の主翼をもつ飛行機（複葉機）"
+    },
+    "bilingual": {
+      "use": "card",
+      "base_hint_ja": "言語に関係する（初めて学ぶ人には難しい語）",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "lingualの既習性と語基説明を教員レビュー。"
+    },
+    "triangle": {
+      "use": "quiz",
+      "base_hint_ja": "角。三角形には3つの角がある",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "tricycle": {
+      "use": "card",
+      "base_hint_ja": "ふつうは「周期・一周」。車輪の意味との関係は特別な説明が必要",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "cycleの語基の扱いを要確認。単独語の語義の足し算問題から除外。"
+    },
+    "tricolor": {
+      "use": "quiz",
+      "base_hint_ja": "色",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "tripod": {
+      "use": "card",
+      "base_hint_ja": "この語では「脚」を表す語のパーツ。さやの意味ではない",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "結合語基podを単独語「さや」と混同するため、元データでも出題不可。"
+    },
+    "multiplayer": {
+      "use": "quiz",
+      "base_hint_ja": "遊ぶ人・プレーヤー",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "multicolor": {
+      "use": "quiz",
+      "base_hint_ja": "色",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "multivitamin": {
+      "use": "card",
+      "base_hint_ja": "ビタミン",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "「多くのビタミン」だけで薬剤の意味は確定しない。"
+    },
+    "multitask": {
+      "use": "quiz",
+      "base_hint_ja": "仕事・やること",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "multicultural": {
+      "use": "quiz",
+      "base_hint_ja": "文化に関する",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "subzero": {
+      "use": "quiz",
+      "base_hint_ja": "ゼロ・0",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "subsoil": {
+      "use": "quiz",
+      "base_hint_ja": "土",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "subfloor": {
+      "use": "card",
+      "base_hint_ja": "床",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "建築用語。図を使った元語・難易度の確認を要する。"
+    },
+    "subheading": {
+      "use": "card",
+      "base_hint_ja": "見出し",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "下の位置ではなく文書階層の小見出し。文脈教材を準備するまで保留。"
+    },
+    "superhero": {
+      "use": "quiz",
+      "base_hint_ja": "ヒーロー",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "superhuman": {
+      "use": "quiz",
+      "base_hint_ja": "人間・人間の",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    },
+    "superpower": {
+      "use": "card",
+      "base_hint_ja": "力",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "超能力のほか大国も表す。文脈のない単一訳の問題を保留。"
+    },
+    "superstar": {
+      "use": "quiz",
+      "base_hint_ja": "星・人気者",
+      "review": "editorial_screened_dictionary_incomplete",
+      "reason_ja": "語義・分解・元語を編集点検。全語の個別辞書照合と児童の難易度検証は未完了。"
+    }
+  },
+  "traps": [
+    {
+      "id": "TRAP_RE_RECEIVE",
+      "word": "receive",
+      "claim": "receive の re- を「もう一度」と考えれば意味が分かる。",
+      "answer": "その考え方は使えない",
+      "explanation": "receive は「受け取る」。re-の形が見えても、「もう一度」の足し算では分かりません。"
+    },
+    {
+      "id": "TRAP_UN_UNICORN",
+      "word": "unicorn",
+      "claim": "unicorn は、否定の un- と icorn に分けられる。",
+      "answer": "その考え方は使えない",
+      "explanation": "unicorn は伝説の一角獣。un-ではなく、1を表すuni-と角の語源に関係します。"
+    },
+    {
+      "id": "TRAP_IN_INSIDE",
+      "word": "inside",
+      "claim": "inside の in- は「〜ではない」を表す。",
+      "answer": "その考え方は使えない",
+      "explanation": "inside は「内側」。否定のin-とは別です。"
+    },
+    {
+      "id": "TRAP_SUPER_SUPERMARKET",
+      "word": "supermarket",
+      "claim": "supermarket の意味は「すごい市場」だけで十分に分かる。",
+      "answer": "その考え方は使えない",
+      "explanation": "実際は食品や日用品などを売るスーパーマーケット。単語全体の意味を確かめよう。"
+    },
+    {
+      "id": "TRAP_BI_BIWEEKLY",
+      "word": "biweekly",
+      "claim": "biweekly は、文脈なしでも「週2回」と決められる。",
+      "answer": "その考え方は使えない",
+      "explanation": "週2回と、2週間ごとの両方の使い方があります。文脈で確認します。"
+    },
+    {
+      "id": "TRAP_UN_NOT_ANY",
+      "word": "unbig",
+      "claim": "big に un- を付ければ、ふつうの英単語 unbig になる。",
+      "answer": "その考え方は使えない",
+      "explanation": "どんな元の単語にも付けられるわけではありません。unbig はこの教材の正解語に含めません。"
+    },
+    {
+      "id": "TRAP_RE_RED",
+      "word": "red",
+      "claim": "red の先頭の re は「もう一度」を表す接頭辞だ。",
+      "answer": "その考え方は使えない",
+      "explanation": "red は「赤い」。頭の文字だけでは接頭辞と判断できません。"
+    },
+    {
+      "id": "TRAP_WORD_VALIDITY",
+      "word": "unhappy",
+      "claim": "unhappy は、この教材では un- + happy と分けて考えられる。",
+      "answer": "そう考えてよい",
+      "explanation": "happy は「幸せな」。un- が付くと「幸せではない」という手がかりになります。"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/prefixes",
+      "scope": "接頭辞の一般則。検索結果で確認。本文は403のため取得できず。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/biplane",
+      "scope": "上下2組の主翼という語義を検索結果で確認。本文取得403。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/biweekly",
+      "scope": "週2回・2週間ごとの両義を検索結果で確認。本文取得403。"
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/undercharge",
+      "scope": "本来の価格より安く請求する語義を検索結果で確認。"
+    }
+  ]
+}

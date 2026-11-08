@@ -1,0 +1,29 @@
+{
+  "prefix_ids": [
+    "un_not",
+    "un_reverse",
+    "re_again",
+    "dis_negative",
+    "pre_before",
+    "mis_wrong",
+    "over_too_much",
+    "under_too_little",
+    "non_not",
+    "bi_two",
+    "tri_three",
+    "multi_many",
+    "sub_under",
+    "super_above"
+  ],
+  "recommended_initial_unlock": [
+    "un_not",
+    "un_reverse",
+    "re_again",
+    "dis_negative",
+    "pre_before",
+    "mis_wrong"
+  ],
+  "progression_ja": "最初の6群を順に解放し、over/underの対比を挟んでnon/bi/tri/multi/sub/superへ進める。",
+  "launch_rule_ja": "各接頭辞から3〜5例を使う（re-のみ6例）。語幹が未習の場合は語幹音声・絵から導入。",
+  "notes_ja": "MVP 14項目にはun-の二つの用法を別教材として含む。同じ綴りの別レッスンを1接頭辞として数えるなら13種類。"
+}

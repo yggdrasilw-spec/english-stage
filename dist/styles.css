@@ -248,3 +248,6 @@ html:has(body.forest-open),body.forest-open{overflow:hidden;overscroll-behavior:
 .reduce-motion .feature-banner{transition:none}
 
 .banner-phonics{--banner-bg:#f3eddb;--banner-ink:#3b705f}
+.banner-prefixes{--banner-bg:#f2e9e9;--banner-ink:#77485c}
+.banner-prefixes .feature-banner-copy strong{font-size:21px;max-width:240px}
+@media(max-width:360px){.banner-prefixes .feature-banner-copy strong{font-size:19px;max-width:205px}}

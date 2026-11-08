@@ -1,0 +1,94 @@
+[
+  {
+    "stage": 1,
+    "label_ja": "基本：反対・再び・事前・間違い・量",
+    "objective_ja": "よく知る語の前につけると意味が変わることに気づく",
+    "activities": [
+      "意味の二択",
+      "接頭辞と元の単語を色分け",
+      "語の組み立て",
+      "音声を聴く"
+    ],
+    "required_prefix_ids": [
+      "un_not",
+      "un_reverse",
+      "re_again",
+      "dis_negative",
+      "pre_before",
+      "mis_wrong",
+      "over_too_much",
+      "under_too_little"
+    ]
+  },
+  {
+    "stage": 2,
+    "label_ja": "広がり：数・位置・関係",
+    "objective_ja": "数字・上下・単語間の関係を使い意味を予測する",
+    "activities": [
+      "イラストと一致",
+      "bi/tri/multi 比較",
+      "既習接頭辞の混合復習"
+    ],
+    "required_prefix_ids": [
+      "non_not",
+      "bi_two",
+      "tri_three",
+      "multi_many",
+      "sub_under",
+      "super_above",
+      "inter_between",
+      "post_after",
+      "anti_against",
+      "semi_half",
+      "co_together"
+    ]
+  },
+  {
+    "stage": 3,
+    "label_ja": "応用：自動・距離・否定の形",
+    "objective_ja": "身近な専門語とin/im/il/ir の形の違いを知る",
+    "activities": [
+      "語形変化の分類",
+      "文脈から正しい意味を選択",
+      "意味推測のあと辞書で確認"
+    ],
+    "required_prefix_ids": [
+      "auto_self",
+      "tele_distance",
+      "mini_small",
+      "mega_large",
+      "mono_one",
+      "de_reverse",
+      "mid_middle",
+      "fore_before",
+      "ex_former",
+      "out_exceed",
+      "in_negative",
+      "im_negative",
+      "il_negative",
+      "ir_negative"
+    ]
+  },
+  {
+    "stage": 4,
+    "label_ja": "発展：科学語・語源と限界",
+    "objective_ja": "専門語の意味を考え、分解できない語を見極める",
+    "activities": [
+      "語源カード",
+      "正しい分析か見抜く",
+      "例外クイズ"
+    ],
+    "required_prefix_ids": [
+      "trans_across",
+      "micro_small",
+      "extra_beyond",
+      "hyper_excess",
+      "counter_against",
+      "uni_one",
+      "poly_many",
+      "ultra_extreme",
+      "pro_support",
+      "macro_large"
+    ]
+  }
+]

@@ -19,6 +19,11 @@ jobs:
         run: |
           python -m unittest discover -s dist/tts -p test_build_clips.py
           node --test dist/tts/test_player.cjs
+      - name: Check prefix lessons and release
+        run: |
+          npm run prefixes:test
+          python prefixes/tests/test_data.py
+          npm run prefixes:check
       - name: Check grammar learning and AI handoff
         run: npm run grammar:test
       - name: Check grammar release files
