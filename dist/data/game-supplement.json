@@ -5353,5 +5353,93 @@
     "example": "Did she have a dog?",
     "exampleJa": "彼女は犬を飼っていましたか。",
     "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-future-1",
+    "en": "She is going to play tennis tomorrow.",
+    "ja": "彼女は明日テニスをする予定です。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "She is going to play tennis tomorrow.",
+    "exampleJa": "彼女は明日テニスをする予定です。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-future-2",
+    "en": "They are going to visit Kyoto next week.",
+    "ja": "彼らは来週京都を訪ねる予定です。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "They are going to visit Kyoto next week.",
+    "exampleJa": "彼らは来週京都を訪ねる予定です。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-future-3",
+    "en": "Are you going to cook tomorrow?",
+    "ja": "あなたは明日料理をする予定ですか。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "Are you going to cook tomorrow?",
+    "exampleJa": "あなたは明日料理をする予定ですか。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-future-4",
+    "en": "He is not going to play soccer tomorrow.",
+    "ja": "彼は明日サッカーをする予定はありません。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "He is not going to play soccer tomorrow.",
+    "exampleJa": "彼は明日サッカーをする予定はありません。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-future-5",
+    "en": "I will answer the phone.",
+    "ja": "私が電話に出ます。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "I will answer the phone.",
+    "exampleJa": "私が電話に出ます。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-future-6",
+    "en": "Will she come here tomorrow?",
+    "ja": "彼女は明日ここへ来ますか。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "Will she come here tomorrow?",
+    "exampleJa": "彼女は明日ここへ来ますか。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-future-7",
+    "en": "No, he won’t.",
+    "ja": "いいえ、しません。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "No, he won’t.",
+    "exampleJa": "いいえ、しません。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
+  },
+  {
+    "id": "grammar-future-8",
+    "en": "We will visit Ken tomorrow.",
+    "ja": "私たちは明日ケンを訪ねるでしょう。",
+    "theme": "ぶんぽうラボの表現",
+    "kind": "phrase",
+    "level": "extension",
+    "example": "We will visit Ken tomorrow.",
+    "exampleJa": "私たちは明日ケンを訪ねるでしょう。",
+    "explanation": "遊びの中で出会ったことば・表現です。"
   }
 ]

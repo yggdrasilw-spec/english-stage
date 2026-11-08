@@ -8460,6 +8460,46 @@
     "ja": "彼女は犬を飼っていましたか。"
   },
   {
+    "id": "grammar-future-1",
+    "en": "She is going to play tennis tomorrow.",
+    "ja": "彼女は明日テニスをする予定です。"
+  },
+  {
+    "id": "grammar-future-2",
+    "en": "They are going to visit Kyoto next week.",
+    "ja": "彼らは来週京都を訪ねる予定です。"
+  },
+  {
+    "id": "grammar-future-3",
+    "en": "Are you going to cook tomorrow?",
+    "ja": "あなたは明日料理をする予定ですか。"
+  },
+  {
+    "id": "grammar-future-4",
+    "en": "He is not going to play soccer tomorrow.",
+    "ja": "彼は明日サッカーをする予定はありません。"
+  },
+  {
+    "id": "grammar-future-5",
+    "en": "I will answer the phone.",
+    "ja": "私が電話に出ます。"
+  },
+  {
+    "id": "grammar-future-6",
+    "en": "Will she come here tomorrow?",
+    "ja": "彼女は明日ここへ来ますか。"
+  },
+  {
+    "id": "grammar-future-7",
+    "en": "No, he won’t.",
+    "ja": "いいえ、しません。"
+  },
+  {
+    "id": "grammar-future-8",
+    "en": "We will visit Ken tomorrow.",
+    "ja": "私たちは明日ケンを訪ねるでしょう。"
+  },
+  {
     "id": "expression-g5-m1-01",
     "en": "My brother plays the piano every evening.",
     "ja": "楽器のpianoをplay theと組み合わせます。"

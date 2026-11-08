@@ -10,8 +10,10 @@ for(const p of passages.filter(p=>p.skill==='listening'))for(const [speed,speaki
  const hash=crypto.createHash('sha256').update(JSON.stringify(body)).digest('hex').slice(0,16);
  jobs.push({passageId:p.id,speed,text,hash,path:`assets/audio/${p.id}-${speed}-${hash}.mp3`,body});
 }
-const chars=jobs.reduce((n,j)=>n+j.text.length,0);if(chars>5000)throw Error('Character budget exceeded');
-console.log(JSON.stringify({files:jobs.length,characters:chars,mode:process.argv.includes('--generate')?'generate':'dry-run'}));
+const pending=[];
+for(const j of jobs){try{if((await fs.stat(new URL('dist/'+j.path,root))).size>100)continue;}catch{}pending.push(j);}
+const chars=pending.reduce((n,j)=>n+j.text.length,0);if(chars>5000)throw Error('Character budget exceeded');
+console.log(JSON.stringify({files:jobs.length,newFiles:pending.length,characters:chars,mode:process.argv.includes('--generate')?'generate':'dry-run'}));
 if(!process.argv.includes('--generate'))process.exit(0);
 const {stdout}=await promisify(execFile)('powershell.exe',['-NoProfile','-Command','gcloud.cmd auth print-access-token'],{windowsHide:true,maxBuffer:1024*1024});
 const headers={Authorization:'Bearer '+stdout.trim(),'x-goog-user-project':'tts-test-513311','Content-Type':'application/json'};

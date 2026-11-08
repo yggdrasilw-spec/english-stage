@@ -135,6 +135,22 @@ pronouns.questions.push(q('This is my dog. ___ name is Max.','Its',['It’s','It
 lessons.find(l=>l.id==='be').examples[0].point+=' I amはI’mと短く言うこともできるよ。';
 lessons.find(l=>l.id==='be').examples[1].point+=' She isはShe’s、It isはIt’sとも言えるよ。';
 lessons.find(l=>l.id==='be').examples[2].point+=' They areはThey’re、You areはYou’reとも言えるよ。';
+
+lessons.push(lesson('future','これからの予定と予想','be going to / will',
+'これからの予定はam・is・are going to＋動詞の原形で表せるよ。will＋原形は、その場で決めたことや予想などにも使える。どちらも未来に使えるので、いつも完全に使い分けるわけではないよ。',[
+ ex('前からの予定','She [is going to play] tennis tomorrow.','彼女は明日テニスをする予定です。','📅 → 🎾',[['She','主語'],['is going to','予定'],['play','原形'],['tomorrow','明日']],'sheにはis。going toの後ろはplaysではなくplay。'),
+ ex('今決めたこと','I [will answer] the phone.','私が電話に出ます。','📞 → 🙋',[['I','主語'],['will','今決めたこと'],['answer','原形']],'電話が鳴って、今出ると決めた場面。willの前にamは置かないよ。'),
+ ex('予定を聞く','[Are] you [going to visit] Ken tomorrow?','あなたは明日ケンを訪ねる予定ですか。','📅 → 👦 ❓',[['Are','be動詞を前に'],['you','主語'],['going to visit','訪ねる予定']],'be going toの質問ではbe動詞を主語の前に出すよ。'),
+ ex('未来の否定','He [will not come] tomorrow.','彼は明日来ないでしょう。','📅 → 🚫',[['He','主語'],['will not','〜ないだろう'],['come','原形']],'will notはwon’tとも言えるよ。')],[
+ q('She is going to ___ tennis tomorrow.','play',['plays','played'],'going toの後ろは原形play。','She is going to play tennis tomorrow.','彼女は明日テニスをする予定です。','going to＋原形'),
+ q('They ___ going to visit Kyoto next week.','are',['is','will'],'主語がtheyなのでare going to。','They are going to visit Kyoto next week.','彼らは来週京都を訪ねる予定です。','主語とbe動詞'),
+ q('___ you going to cook tomorrow?','Are',['Do','Will'],'be going toの質問はbe動詞から。','Are you going to cook tomorrow?','あなたは明日料理をする予定ですか。','予定の疑問文'),
+ q('He is ___ going to play soccer tomorrow.（する予定はありません）','not',['don’t','won’t'],'be動詞の後ろにnotを置くよ。','He is not going to play soccer tomorrow.','彼は明日サッカーをする予定はありません。','予定の否定'),
+ q('電話が鳴ったので、今出ると決めました：I ___ answer the phone.','will',['am','did'],'その場で決めたことはwill answerで表せるよ。','I will answer the phone.','私が電話に出ます。','will＋原形'),
+ q('Will she ___ here tomorrow?','come',['comes','came'],'Willの後ろの動詞は原形come。','Will she come here tomorrow?','彼女は明日ここへ来ますか。','willの疑問文'),
+ q('Will Ken cook tomorrow? — No, he ___.','won’t',['doesn’t','isn’t'],'Willの質問の否定の答えはwon’t（will not）。','No, he won’t.','いいえ、しません。','willの否定の答え'),
+ order('We will visit Ken tomorrow.','私たちは明日ケンを訪ねるでしょう。','We → will → visit Ken → tomorrow。')],{extension:true,diagram:'future'}));
+
 lessons.forEach((l,li)=>{l.number=li+1;l.questions.forEach((question,i)=>{question.id=`${l.id}-${i+1}`;question.lessonId=l.id;});});
 export const basic=lessons.filter(l=>!l.extension);
 export const questionBank=lessons.flatMap(l=>l.questions);

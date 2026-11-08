@@ -115,6 +115,34 @@
       "text": "Rina did not visit her aunt on Sunday because her aunt was busy. Rina went to a museum with her friend instead. They saw many old pictures there.",
       "hash": "bbabf3486b80b9a1",
       "path": "assets/audio/g4-past-questions-b-listening-slow-bbabf3486b80b9a1.mp3"
+    },
+    {
+      "passageId": "g4-future-a-listening",
+      "speed": "normal",
+      "text": "Tomorrow, Emi is going to go to the library with her sister. Emi is going to borrow a book about animals. They are going to meet their mother at the station at four.",
+      "hash": "4341d972844c07c1",
+      "path": "assets/audio/g4-future-a-listening-normal-4341d972844c07c1.mp3"
+    },
+    {
+      "passageId": "g4-future-a-listening",
+      "speed": "slow",
+      "text": "Tomorrow, Emi is going to go to the library with her sister. Emi is going to borrow a book about animals. They are going to meet their mother at the station at four.",
+      "hash": "eb295c38b66769a5",
+      "path": "assets/audio/g4-future-a-listening-slow-eb295c38b66769a5.mp3"
+    },
+    {
+      "passageId": "g4-future-b-listening",
+      "speed": "normal",
+      "text": "Next Sunday, Tom is going to go shopping with his father. Tom is going to buy a bag for school. They are going to come home before lunch because his father is going to cook.",
+      "hash": "ab4aa573d8b5f0e2",
+      "path": "assets/audio/g4-future-b-listening-normal-ab4aa573d8b5f0e2.mp3"
+    },
+    {
+      "passageId": "g4-future-b-listening",
+      "speed": "slow",
+      "text": "Next Sunday, Tom is going to go shopping with his father. Tom is going to buy a bag for school. They are going to come home before lunch because his father is going to cook.",
+      "hash": "608c87a758910f19",
+      "path": "assets/audio/g4-future-b-listening-slow-608c87a758910f19.mp3"
     }
   ]
 }

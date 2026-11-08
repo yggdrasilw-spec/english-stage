@@ -29,7 +29,7 @@ export function buildHandoff(input,{attempts=[],contexts=[],now=Date.now()}={}){
  const lastWrong=new Map(),last=new Map();for(const a of records){last.set(a.qid,a);if(!a.correct)lastWrong.set(a.qid,a);}
  const errors=[...lastWrong.values()].sort((a,b)=>Number(draft.focusQids.includes(b.qid))-Number(draft.focusQids.includes(a.qid))||Number(last.get(a.qid).correct)-Number(last.get(b.qid).correct)||b.at-a.at);
  const mistakes=errors.slice(0,8).map(a=>{const q=byId(a.qid),l=lessons.find(l=>l.id===q.lessonId),latest=last.get(a.qid);return {questionId:q.id,topic:l.title,focus:q.focus,format:q.mode,prompt:q.prompt,...(q.mode==='listen'?{spokenEnglish:q.sentence}:{}),...(q.choices?{choices:q.choices}:{}),learnerAnswer:answerFrom(a,contexts),correctAnswer:q.answer,correctSentence:q.sentence,japanese:q.ja,explanation:q.hint,incorrectAt:iso(a.at),laterRecord:latest.correct?'その後、同じ問題で正解した記録あり（別問題での理解は要確認）':'この誤答より後の正解記録なし（未理解とは断定しない）'};});
- const reference=selected.map(l=>({topic:l.title,scope:l.extension?'追加の過去形コース':'5級を目安にした基本・補助',explanation:l.explain,examples:l.examples.slice(0,2).map(e=>({english:clean(e.en),japanese:e.ja,point:e.point}))}));
+ const reference=selected.map(l=>({topic:l.title,scope:l.extension?(l.id==='future'?'追加の未来表現コース':'追加の過去形コース'):'5級を目安にした基本・補助',explanation:l.explain,examples:l.examples.slice(0,2).map(e=>({english:clean(e.en),japanese:e.ja,point:e.point}))}));
  const payload={requestedTopics:selected.map(l=>l.title),customTopic:draft.customTopic.trim()||null,learnerRequest:draft.note.trim()||null,historyIncluded:draft.includeHistory,historyNote:draft.includeHistory?'選択した文法項目だけの記録。解答数は同じ問題の再解答を含む。':'学習記録を含めない設定。以下に実際の成績や誤答は含まれていません。',summaries:draft.includeHistory?summaries:[],mistakes,totalMistakenQuestions:errors.length,omittedMistakenQuestions:Math.max(0,errors.length-mistakes.length),teachingReference:reference};
  if(!valid)return {draft,valid:false,text:'',payload};
  const text=`あなたは、英検5級を学ぶ小学5年生の英語の対話コーチです。以下の条件と学習データを使い、${draft.minutes}分程度、学習者と対話してください。
@@ -42,7 +42,7 @@ export function buildHandoff(input,{attempts=[],contexts=[],now=Date.now()}={}){
 
 【今回の目的】
 ${GOALS[draft.goal]}。${draft.goal==='repair'?'誤答の選択理由を本人に確かめ、誤概念・語彙・読み違い・未習のどれに由来するかを仮説として調べる。':draft.goal==='transfer'?'基本を短く確かめてから、似た文の比較や最小限の書き換えを通して、学んだ規則が別の場面でも使えるか調べる。':'最初に短い問題で理解を確かめ、説明が必要な部分だけ扱う。'}
-選択した文法と任意の学習事項を対象にする。5級の基本と追加の過去形は区別し、4級以上の事項を扱っても5級の必須範囲・到達度と混同しない。
+選択した文法と任意の学習事項を対象にする。5級の基本と追加の過去形・未来表現は区別し、4級以上の事項を扱っても5級の必須範囲・到達度と混同しない。
 
 【対話の進め方】
 1. 最初の返答は、今回扱うことを一言で示してから確認問題を一問だけ出し、必ず返答を待つ。最初に答えや長い講義、全問題一覧を出さない。

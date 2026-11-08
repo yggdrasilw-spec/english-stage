@@ -1,0 +1,73 @@
+{
+  "scope": "未来単元で使う対象語のみ。全4級候補の網羅照合ではない。",
+  "items": [
+    {
+      "wordId": "g5-w-tomorrow",
+      "en": "tomorrow",
+      "existingMeaning": "明日",
+      "usedSense": "明日という時を表す副詞",
+      "context": "新単元の共通語彙・A/Bのことば問題",
+      "status": "既存語義を参照"
+    },
+    {
+      "wordId": "g5-w-ph-will",
+      "en": "will",
+      "existingMeaning": "～するつもり・～だろう",
+      "usedSense": "その場の決定・未来の予想を表す助動詞",
+      "context": "will＋原形・Willの質問・won’t",
+      "status": "既存語義を参照"
+    },
+    {
+      "wordId": "g5-w-next",
+      "en": "next",
+      "existingMeaning": "次の",
+      "usedSense": "次の・今度の",
+      "context": "next Sunday / next Saturday",
+      "status": "既存語義を参照"
+    },
+    {
+      "wordId": "g5-w-visit",
+      "en": "visit",
+      "existingMeaning": "訪ねる",
+      "usedSense": "人や場所を訪ねる",
+      "context": "visit my grandmother / visit a farm",
+      "status": "既存語義を参照"
+    },
+    {
+      "wordId": null,
+      "en": "borrow",
+      "existingMeaning": null,
+      "usedSense": "借りる",
+      "context": "borrow a book",
+      "status": "既存977項目に未収録。本文・訳で扱う。単語帳への追加は未完了。"
+    },
+    {
+      "wordId": null,
+      "en": "join",
+      "existingMeaning": null,
+      "usedSense": "加わる・合流する",
+      "context": "join us",
+      "status": "既存977項目に未収録。本文・訳で扱う。単語帳への追加は未完了。"
+    },
+    {
+      "wordId": null,
+      "en": "snack",
+      "existingMeaning": null,
+      "usedSense": "軽い食べ物・おやつ",
+      "context": "bring a snack",
+      "status": "既存977項目に未収録。本文・訳で扱う。単語帳への追加は未完了。"
+    }
+  ],
+  "chunks": [
+    {
+      "en": "be going to + verb",
+      "meaning": "〜する予定だ",
+      "status": "未来単元とラボで文型として追加。単語帳への重複登録なし。"
+    },
+    {
+      "en": "will not / won’t",
+      "meaning": "〜しないだろう・〜しないつもりだ",
+      "status": "未来単元とラボで否定の用法を追加。"
+    }
+  ]
+}

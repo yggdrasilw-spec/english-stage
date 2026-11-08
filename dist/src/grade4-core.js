@@ -23,7 +23,7 @@ export function createGrade4Session(state,unitId,mode='learn',now=Date.now(),ran
  const g=grade4(state);if(g.session&&g.session.index<g.session.queue.length)return g.session;
  const attempts=g.attempts,latest=attempts.filter(a=>questionById(a.qid)?.unit===unitId).at(-1);
  const variant=latest?questionById(latest.qid).variant==='a'?'b':'a':'a';
- const queue=mode==='diagnostic'?[questions.find(q=>q.unit==='past-be'&&q.variant==='a'&&q.skill==='vocab').id,...units.map(u=>questions.find(q=>q.unit===u.id&&q.variant==='a'&&q.skill==='grammar').id),...questions.filter(q=>q.unit==='past-be'&&q.variant==='a'&&q.skill==='reading').map(q=>q.id),questions.find(q=>q.unit==='past-regular'&&q.variant==='a'&&q.skill==='listening').id]:questions.filter(q=>q.unit===unitId&&q.variant===variant).map(q=>q.id);
+ const queue=mode==='diagnostic'?[questions.find(q=>q.unit==='past-be'&&q.variant==='a'&&q.skill==='vocab').id,...units.filter(u=>u.id.startsWith('past-')).map(u=>questions.find(q=>q.unit===u.id&&q.variant==='a'&&q.skill==='grammar').id),...questions.filter(q=>q.unit==='past-be'&&q.variant==='a'&&q.skill==='reading').map(q=>q.id),questions.find(q=>q.unit==='past-regular'&&q.variant==='a'&&q.skill==='listening').id]:questions.filter(q=>q.unit===unitId&&q.variant===variant).map(q=>q.id);
  const id=globalThis.crypto?.randomUUID?.()||`${now}-${Math.random()}`;
  return g.session={id,version:courseVersion,mode,unitId,variant,queue,index:0,ruleSeen:mode==='diagnostic',orders:Object.fromEntries(queue.map(id=>[id,shuffle(questionById(id).choices.map((_,i)=>i),random)])),draft:null,plays:{},heard:{},supported:[],startedAt:now};
 }
