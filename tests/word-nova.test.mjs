@@ -1,3 +1,4 @@
+import {featureBanners} from '../dist/src/home-banners.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
@@ -19,6 +20,7 @@ test('listening contrasts have distinct recordings and preserve all choices in t
  const html=readFileSync(new URL('word-nova.html',root),'utf8');
  assert(!/speechSynthesis|SpeechSynthesisUtterance/.test(html));
  assert.match(html,/聞き分け · にた発音のことば/);
- assert.match(readFileSync(new URL('src/app.js',root),'utf8'),/href="\.\/word-nova.html"/);
+ assert.match(readFileSync(new URL('src/app.js',root),'utf8'),/featureBanners\(cards\)/);
+ assert.match(featureBanners([]),/href="\.\/word-nova.html"/);
  new vm.Script(html.match(/<script>([\s\S]*?)<\/script>/)[1]);
 });
