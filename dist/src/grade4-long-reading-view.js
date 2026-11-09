@@ -38,7 +38,7 @@ function renderReadingResults(ctx, run, set) {
     <details class="g4-translation"><summary>本文と日本語訳</summary>
       ${set.paragraphs.map((paragraph, index) => `<p lang="en">${escapeHtml(paragraph)}</p><p>${escapeHtml(set.translations[index])}</p>`).join('')}
     </details>
-    <p><a class="pill" href="#home">4級のホームへ →</a></p>
+    <div class="actions"><a class="pill" href="#home">4級のホームへ →</a><a class="pill" href="#grade4-plan">学習計画へ</a></div>
   </section></div>`;
 }
 

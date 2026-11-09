@@ -265,3 +265,8 @@ html:has(body.forest-open),body.forest-open{overflow:hidden;overscroll-behavior:
 .g4-mock-tiles span{padding:6px 10px;background:#edf3ef;border-radius:8px}
 .g4-mock-scene{text-align:center;font-size:34px;background:#edf3ef;border-radius:14px;padding:12px;margin:14px 0}
 .g4-wrap audio{max-width:100%}
+.g4-plan-form{display:grid;gap:12px;justify-items:start}
+.g4-plan-form label{display:grid;gap:5px;max-width:100%}
+.g4-plan-tasks{list-style:none;padding:0;display:grid;gap:8px}
+.g4-plan-tasks button{width:100%;min-height:46px;text-align:left;white-space:normal}
+.g4-speaking-picture{display:block;max-width:100%;height:auto;border-radius:14px}

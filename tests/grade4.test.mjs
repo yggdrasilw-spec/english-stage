@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {units,questions,passages,questionById} from '../dist/src/grade4-content.js';
+import {vocabularySets,vocabularyQuestions} from '../dist/src/grade4-vocabulary.js';
 import {initial,validateBackup} from '../dist/src/storage.js';
 import {createGrade4Session,currentQuestion,submitGrade4,nextGrade4,validGrade4,unitStatus,courseStats,tokyoDay} from '../dist/src/grade4-core.js';
 import {syncGrammar,validGrammarSnapshot,restoreGrammar} from '../dist/src/grammar-bridge.js';
@@ -15,6 +16,48 @@ test('bridge content: unique keys, independent variants, evidence, shared vocabu
  for(const q of questions){assert.equal(new Set(q.choices).size,q.choices.length);assert(q.explanation);if(q.passageId){const p=passages.find(p=>p.id===q.passageId);assert(p);assert(p.sentences[q.evidence]);assert.equal(p.sentences.length,p.translation.length);}}
  const m=JSON.parse(fs.readFileSync(new URL('../dist/data/grade4-audio.json',import.meta.url)));assert.equal(m.files.length,40);
  for(const f of m.files){const p=passages.find(p=>p.id===f.passageId);assert.equal(f.text,p.sentences.join(' '));const body={input:{text:f.text},voice:{languageCode:'en-US',name:m.voice},audioConfig:{audioEncoding:'MP3',speakingRate:f.speed==='normal'?.95:.75}};assert.equal(crypto.createHash('sha256').update(JSON.stringify(body)).digest('hex').slice(0,16),f.hash);assert(fs.statSync(new URL('../dist/'+f.path,import.meta.url)).size>100);}
+});
+test('Grade 4 vocabulary links exact senses and related uses without replacing existing cards',()=>{
+ const supplement=JSON.parse(fs.readFileSync(new URL('../dist/data/game-supplement.json',import.meta.url)));
+ const byId=new Map([...cards,...supplement].map(c=>[c.id,c]));
+ assert.equal(vocabularySets.length,9);
+ assert.equal(vocabularyQuestions.length,108);
+ assert.equal(new Set([...questions,...vocabularyQuestions].map(q=>q.id)).size,248);
+ for(const set of vocabularySets){
+  assert.equal(set.entries.length,6);
+  for(const entry of set.entries){
+   assert.equal(entry.examples.length,2);
+   assert.notDeepEqual(entry.examples[0],entry.examples[1]);
+   assert(entry.examples.every(example=>example.length===4&&example.every(Boolean)));
+   assert.equal(new Set([entry.ja,...entry.wrong]).size,3);
+   if(entry.sharedId)assert.equal(byId.get(entry.sharedId)?.en.toLowerCase(),entry.en);
+   if(entry.relatedId)assert(byId.has(entry.relatedId));
+  }
+ }
+});
+test('contextual vocabulary resumes and alternates passages without modifying the Grade 5 deck progress',()=>{
+ const state=initial(),run=createGrade4Session(state,'library-club','vocabulary',now,()=>.3);
+ assert.equal(run.queue.length,6);
+ assert.throws(()=>createGrade4Session(state,'past-be','vocabulary',now));
+ assert(submitGrade4(state,{choice:0},now));
+ assert.equal(submitGrade4(state,{choice:0},now),false);
+ const backup=state=>({app:'english-stage',version:1,state:structuredClone(state)});
+ const restored=validateBackup(backup(state),ids);
+ assert.deepEqual(restored.grade4.session,run);
+ assert.equal(createGrade4Session(restored,'future','learn').id,run.id);
+ assert(nextGrade4(restored));
+ complete(restored);
+ const next=createGrade4Session(restored,'library-club','vocabulary',now+86400000);
+ assert.equal(next.variant,'b');
+ assert(next.queue.every(id=>!run.queue.includes(id)));
+ complete(restored,now+86400000);
+ assert.equal(restored.forest.total,12);
+ assert.equal(courseStats(restored).vocab.answered,0);
+ assert.deepEqual(restored.progress,{});
+ assert(validateBackup(backup(restored),ids));
+ const invalid=backup(restored);
+ invalid.state.grade4.session.queue[0]='g4-vocab-take-a-bus-b';
+ assert.throws(()=>validateBackup(invalid,ids));
 });
 test('resume preserves question/answer order; double submission and next do not grant water twice',()=>{
  const s=initial(),r=createGrade4Session(s,'past-be','learn',now,()=>.3),copy=structuredClone(r);assert.equal(createGrade4Session(s,'past-irregular').id,r.id);assert.deepEqual(r.orders,copy.orders);

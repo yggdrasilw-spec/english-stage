@@ -1,6 +1,7 @@
 import {units,questions,questionById,courseVersion} from './grade4-content.js';
 import {recordForest} from './forest.js';
 import {readingSetById,questionsForReadingSet} from './grade4-long-reading.js';
+import {vocabularySetById,questionsForVocabularySet} from './grade4-vocabulary.js';
 const DAY=86400000;
 export const tokyoDay=at=>new Date(at).toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'});
 export const initialGrade4=()=>({version:1,attempts:[],session:null});
@@ -22,13 +23,16 @@ export function recommendedUnit(state,grammarStatus,now=Date.now()){
 }
 export function createGrade4Session(state,unitId,mode='learn',now=Date.now(),random=Math.random){
  const readingSet=mode==='reading'?readingSetById(unitId):null;
- if(!readingSet&&(!units.some(u=>u.id===unitId)||!['learn','diagnostic'].includes(mode)))throw Error('Unknown course unit');
+ const vocabularySet=mode==='vocabulary'?vocabularySetById(unitId):null;
+ if(!readingSet&&!vocabularySet&&(!units.some(u=>u.id===unitId)||!['learn','diagnostic'].includes(mode)))throw Error('Unknown course unit');
  const g=grade4(state);if(g.session&&g.session.index<g.session.queue.length)return g.session;
  const attempts=g.attempts,latest=attempts.filter(a=>questionById(a.qid)?.unit===unitId).at(-1);
  const variant=latest?questionById(latest.qid).variant==='a'?'b':'a':'a';
  let queue;
  if(readingSet){
   queue=questionsForReadingSet(readingSet.id).map(question=>question.id);
+ }else if(vocabularySet){
+  queue=questionsForVocabularySet(vocabularySet.id,variant).map(question=>question.id);
  }else if(mode==='diagnostic'){
   const first=(unit,skill)=>questions.find(q=>q.unit===unit&&q.variant==='a'&&q.skill===skill).id;
   queue=[first('past-be','vocab'),
@@ -56,7 +60,7 @@ export function submitGrade4(state,{choice,evidence=null},now=Date.now()){
  run.draft=null;return true;
 }
 export function nextGrade4(state){const run=state.grade4?.session;if(!currentAttempt(state))return false;run.index++;run.draft=null;return true;}
-export function courseStats(state){return Object.fromEntries(['vocab','grammar','reading','listening'].map(skill=>{const all=(state.grade4?.attempts||[]).filter(a=>{const q=questionById(a.qid);return q?.skill===skill&&!q.readingSetId;}),a=all.filter(a=>!a.guided);return [skill,{answered:all.length,independent:a.length,correct:a.filter(a=>a.correct).length}];}));}
+export function courseStats(state){return Object.fromEntries(['vocab','grammar','reading','listening'].map(skill=>{const all=(state.grade4?.attempts||[]).filter(a=>{const q=questionById(a.qid);return q?.skill===skill&&!q.readingSetId&&!q.vocabularySetId;}),a=all.filter(a=>!a.guided);return [skill,{answered:all.length,independent:a.length,correct:a.filter(a=>a.correct).length}];}));}
 export function validGrade4(value){
  if(!value||value.version!==1||!Array.isArray(value.attempts)||value.attempts.length>20000)return false;
  const validA=a=>{const q=questionById(a?.qid);return !!q&&a.version===courseVersion&&typeof a.sid==='string'&&a.sid.length<=100&&a.id===`${a.sid}:${a.qid}`&&Number.isInteger(a.choice)&&a.choice>=0&&a.choice<q.choices.length&&a.correct===(a.choice===q.answer)&&typeof a.guided==='boolean'&&Number.isSafeInteger(a.plays)&&a.plays>=0&&a.plays<=1000&&Number.isFinite(a.at)&&a.at>0&&(a.plays<=2||a.guided)&&(q.skill!=='listening'||a.plays>0||a.guided)&&(requiresEvidence(q)?Number.isInteger(a.evidence)&&a.evidence>=0&&a.evidence<=2&&(a.evidence===q.evidence||a.guided):a.evidence===null);};
@@ -66,7 +70,10 @@ export function validGrade4(value){
  if(r.mode==='reading'){
   const expected=questionsForReadingSet(r.unitId);
   if(r.variant!=='a'||!r.ruleSeen||r.draft!==null||r.queue.length!==expected.length||!expected.every((q,i)=>r.queue[i]===q.id))return false;
- }else if(!['learn','diagnostic'].includes(r.mode)||!units.some(u=>u.id===r.unitId)||r.queue.some(id=>questionById(id).readingSetId))return false;
+ }else if(r.mode==='vocabulary'){
+  const expected=questionsForVocabularySet(r.unitId,r.variant);
+  if(!r.ruleSeen||r.draft!==null||r.queue.length!==expected.length||!expected.every((q,i)=>r.queue[i]===q.id))return false;
+ }else if(!['learn','diagnostic'].includes(r.mode)||!units.some(u=>u.id===r.unitId)||r.queue.some(id=>{const q=questionById(id);return q.readingSetId||q.vocabularySetId;}))return false;
  if(!r.orders||!r.queue.every(id=>{const a=r.orders[id],q=questionById(id);return Array.isArray(a)&&a.length===q.choices.length&&new Set(a).size===a.length&&a.every(n=>Number.isInteger(n)&&n>=0&&n<q.choices.length);}))return false;
  if(!r.plays||!Object.entries(r.plays).every(([id,n])=>r.queue.includes(id)&&Number.isSafeInteger(n)&&n>=0&&n<=1000)||!r.heard||!Object.entries(r.heard).every(([id,b])=>r.queue.includes(id)&&b===true)||!Array.isArray(r.supported)||!r.supported.every(id=>r.queue.includes(id)))return false;
  if(r.draft!==null&&(!r.draft||r.draft.qid!==r.queue[r.index]||!Number.isInteger(r.draft.choice)||r.draft.choice<0||r.draft.choice>=questionById(r.draft.qid).choices.length))return false;
