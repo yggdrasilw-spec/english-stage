@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="gym" viewBox="0 0 96 72">
+    <path d="M59 12h29v23H59z" fill="#fefaf0"/><path d="M66 27h15v9H66zm-5 10h25l-5 13H66z" fill="#b6dcd0"/>
+    <circle cx="33" cy="46" r="17" fill="#e9aa65"/><path d="M21 34c9 5 15 16 16 28m-19-9c11-6 22-8 31-6M34 29c-1 9-7 17-17 19m33-9c-7 4-11 13-10 22"/>
+  </symbol>
+  <symbol id="library" viewBox="0 0 96 72">
+    <path d="M16 15h64v45H16z" fill="#fefaf0"/>
+    <path d="M23 25h9v26h-9z" fill="#e9aa65"/><path d="M32 21h10v30H32zm24 7h8l5 23h-8z" fill="#b6dcd0"/>
+    <path d="M43 25h10v26H43zm25-4h6v30h-6z" fill="#9fadd7"/><path d="M16 51h64"/>
+  </symbol>
+  <symbol id="cafeteria" viewBox="0 0 96 72">
+    <ellipse cx="47" cy="37" rx="19" ry="21" fill="#fffaf0"/><circle cx="47" cy="37" r="12" fill="#e9d3a1"/>
+    <path d="M20 17v12q0 7 5 7t5-7V17m-5 0v40m48-40v40m0-40q-8 7-8 19h8"/>
+  </symbol>
+  <symbol id="hall" viewBox="0 0 96 72">
+    <path d="M16 58V15h23v43m18 0V15h23v43M16 58h64M30 35h3m30 0h3" fill="#b6dcd0"/>
+    <path d="M39 58l9-15 9 15m-9-15V12" fill="none"/>
+  </symbol>
+  <symbol id="party" viewBox="0 0 96 72">
+    <path d="M15 12q35 22 66 0M25 18v15l12-10m7 2 6 13 8-14m8-3 13 10-2-17" fill="#e9aa65"/>
+    <path d="M29 54h40m-36 5h32m-26 5h20" stroke-width="3"/>
+  </symbol>
+  <symbol id="door" viewBox="0 0 96 72">
+    <path d="M54 60V12h28v48m-20-25h2" fill="#fefaf0"/>
+    <path d="M12 37q3-18 19-18t19 18q-8-5-19 0-12-5-19 0z" fill="#9fadd7"/>
+    <path d="M31 19v-4m0 22v17q0 9 7 9 6 0 6-5"/>
+  </symbol>
+  <symbol id="music" viewBox="0 0 96 72">
+    <path d="M16 24h64v28H16z" fill="#fefaf0"/>
+    <path d="M24 52v8m48-8v8M27 24v28m10-28v28m11-28v28m11-28v28m10-28v28"/>
+    <path d="M24 24h6v15h-6zm10 0h6v15h-6zm22 0h6v15h-6zm10 0h6v15h-6z" fill="#315c57"/>
+  </symbol>
+  <symbol id="bus" viewBox="0 0 96 72">
+    <path d="M21 17h34v45M23 37h31m5 25h20M23 56h28" fill="none"/>
+    <rect x="63" y="15" width="15" height="22" rx="4" fill="#fefaf0"/><path d="M71 37v25M67 22h7m-7 5h7"/>
+  </symbol>
+  <symbol id="park" viewBox="0 0 96 72">
+    <path d="M28 57V37m-9 20h17" /><path d="M28 15 15 38h26z" fill="#b6dcd0"/>
+    <path d="M47 43h32v8H47zM43 54h40m-34 0v7m28-7v7" fill="#e9aa65"/>
+  </symbol>
+  <symbol id="shop" viewBox="0 0 96 72">
+    <path d="M22 17h52m-47 0v47m42-47v47" />
+    <path d="M42 24q6 7 12 0l11 7-6 9-5-3v19H42V37l-5 3-6-9z" fill="#9fadd7"/>
+  </symbol>
+</svg>

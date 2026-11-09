@@ -148,6 +148,7 @@ async function main() {
 
     await page.getByRole('link',{name:'4級ホーム'}).click();
     await page.locator('[data-course="5"]').click();
+    await page.locator('#start').waitFor();
     await page.goto(base + '#exams');
     await page.getByRole('heading',{name:'実戦テスト',exact:true}).waitFor();
     console.log('PASS: 6 practice questions, all 65 exam questions, reload, retry, scoring, 320px, Grade 5 navigation');

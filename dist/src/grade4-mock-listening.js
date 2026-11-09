@@ -33,25 +33,25 @@ function passage(text, prompt, options, answer, explanation) {
 }
 
 const responses = [
-  response(['🏀','体育館'], ["Are you ready to play?", "Almost. Do you have a ball?"],
+  response(['gym','体育館'], ["Are you ready to play?", "Almost. Do you have a ball?"],
     ["Yes, it's in my bag.", "No, I don't play the piano.", "Yes, the gym is far away."], 0, "ボールを持っているか聞かれています。「うん、かばんの中にあるよ」が合います。"),
-  response(['📚','図書館'], ["I'd like to read this book at home. Can I take it with me?", "Yes. May I see your library card?"],
+  response(['library','図書館'], ["I'd like to read this book at home. Can I take it with me?", "Yes. May I see your library card?"],
     ["No, I don't know her.", "Sure. Here it is.", "I read it yesterday."], 1, "図書カードを見せてほしいと頼まれているので、「はい、どうぞ」が合います。"),
-  response(['🍽️','食堂'], ["Would you like some soup?", "No, thank you. Could I have some water?"],
+  response(['cafeteria','食堂'], ["Would you like some soup?", "No, thank you. Could I have some water?"],
     ["It's a bowl of soup.", "I didn't cook it.", "Of course. I'll bring you a glass."], 2, "水を頼まれたので「もちろん。コップに入れて持ってくるね」が合います。"),
-  response(['🎒','学校の廊下'], ["Excuse me. Is this your bag?", "No, mine is green. Where did you find it?"],
+  response(['hall','学校の廊下'], ["Excuse me. Is this your bag?", "No, mine is green. Where did you find it?"],
     ["Under that chair.", "With my sister.", "Because it was cold."], 0, "Where で場所を聞いているので「そのいすの下」が合います。"),
-  response(['🎂','誕生日会の準備'], ["Let's put these plates on the table.", "OK. How many do we need?"],
+  response(['party','誕生日会の準備'], ["Let's put these plates on the table.", "OK. How many do we need?"],
     ["After six.", "Eight should be enough.", "They're made of paper."], 1, "How many で皿の枚数を聞いています。「8枚で足りるよ」が合います。"),
-  response(['🌂','玄関'], ["It looks like rain. Did you bring an umbrella?", "No. Can I use yours?"],
+  response(['door','玄関'], ["It looks like rain. Did you bring an umbrella?", "No. Can I use yours?"],
     ["I like sunny days.", "It rained this morning.", "Sure. I'll get it for you."], 2, "傘を借りたいというお願いなので、貸してくれる返事が合います。"),
-  response(['🎹','音楽室'], ["Did you practice this song yesterday?", "Yes, but the last part is hard. Can you show me how to play it?"],
+  response(['music','音楽室'], ["Did you practice this song yesterday?", "Yes, but the last part is hard. Can you show me how to play it?"],
     ["Sure. Watch my left hand.", "It starts at three.", "No, yesterday was Monday."], 0, "弾き方を教えてほしいので、手本を見せる返事が合います。"),
-  response(['🚌','バス停'], ["Does this bus go to City Hall?", "No. You need the number six bus.", "Thanks. Where does it stop?"],
+  response(['bus','バス停'], ["Does this bus go to City Hall?", "No. You need the number six bus.", "Thanks. Where does it stop?"],
     ["You can pay on the bus.", "It's usually crowded.", "Across the street, by the bank."], 2, "バスが停まる場所を聞いています。「道の反対側の銀行のそば」です。"),
-  response(['🧺','公園'], ["Is there a place to sit in the shade?", "There's a bench under that tree. Shall we eat there?"],
+  response(['park','公園'], ["Is there a place to sit in the shade?", "There's a bench under that tree. Shall we eat there?"],
     ["We walked there yesterday.", "Yes, let's go.", "I don't have a tree."], 1, "Shall we ...? は提案です。「うん、行こう」が合います。"),
-  response(['👕','服屋'], ["These shirts are nice. Do you have one in blue?", "Yes. What size do you need?"],
+  response(['shop','服屋'], ["These shirts are nice. Do you have one in blue?", "Yes. What size do you need?"],
     ["Medium, please.", "It's on sale today.", "Blue is my favorite color."], 0, "色に続いてサイズを聞いているので、Medium が合います。")
 ];
 

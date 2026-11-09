@@ -201,8 +201,18 @@ function bindAnswers(app, run, q) {
 
 function renderListening(app, run) {
   const q = mockListening[run.index];
-  const scene = q.scene ? `<div class="g4-mock-scene" role="img" aria-label="${q.scene[1]}">
-    <span aria-hidden="true">👤 ${q.scene[0]} 👤</span></div>` : '';
+  const scene = q.scene ? `<figure class="g4-mock-scene">
+    <svg viewBox="0 0 220 88" aria-hidden="true" fill="none" stroke="#315c57" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9 78h202" stroke="#adc8b7"/>
+      <use href="assets/grade4-mock-scenes.svg#${q.scene[0]}" x="62" y="2" width="96" height="72"/>
+      <circle cx="34" cy="36" r="11" fill="#eec49f"/><circle cx="185" cy="36" r="11" fill="#c69270"/>
+      <path d="M23 34q0-14 12-14 10 0 12 13-7-1-11-6-5 6-13 7zm151 0q0-14 12-14 10 0 12 13-8-1-11-6-5 6-13 7z" fill="#315c57"/>
+      <path d="M15 78v-6a19 19 0 0 1 38 0v6z" fill="#e9aa65"/>
+      <path d="M166 78v-6a19 19 0 0 1 38 0v6z" fill="#9fadd7"/>
+      <path d="M43 38h.1m134 0h.1"/>
+    </svg>
+    <figcaption>${q.scene[1]}</figcaption></figure>` : '';
   app.innerHTML = `<div class="exam-wrap g4-wrap">${examHeader('聞く', run)}
     <section class="panel exam-question"><h1 tabindex="-1">${sections[q.section]} · ${run.index + 1} / ${mockListening.length}</h1>
       <p>${q.section === 'l1' ? '会話と選択肢を聞いて、返事の番号を選びましょう。' : '英語と質問を聞いて、答えを選びましょう。'}</p>
@@ -337,7 +347,10 @@ export function renderGrade4Mock(context) {
   const tick = () => {
     const remaining = run.deadline - Date.now();
     const display = app.querySelector('#exam-clock');
-    if (display) display.textContent = countdown(remaining);
+    if (display) {
+      display.textContent = countdown(remaining);
+      display.toggleAttribute('data-urgent', remaining <= 60_000);
+    }
     const reply = app.querySelector('#g4-mock-reply');
     if (reply && playback && run.replyUntil) reply.textContent = '残り ' + Math.max(0, Math.ceil((run.replyUntil - Date.now()) / 1000)) + '秒';
     if (remaining > 0) return;

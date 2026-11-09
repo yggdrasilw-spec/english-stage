@@ -1,25 +1,25 @@
 const sets = [
   {
     id: 'garden', title: 'The School Garden', label: '学校の花だん',
-    passage: 'Our school has a small garden. On Fridays, students work there after lunch. They water the flowers and look for insects. In summer, they can see many butterflies.',
+    passage: 'Our school has a garden. On Fridays, students work there after lunch. They water the flowers. In summer, they can see butterflies in the garden.',
     readingTip: '文の終わりでひと息。after lunch や in summer はひとまとまりで読もう。',
-    pictureDescription: '学校の花だん。左の女の子はじょうろで花に水をやっています。右に赤い花が3本あります。',
+    pictureDescription: '学校の花だん。左の女の子はじょうろで花に水をやっています。',
     questions: [
-      ['When do the students work in the garden on Fridays?', '何時ごろの活動かをたずねています。本文の after lunch を探そう。', ['They work there after lunch.', 'After lunch.']],
+      ['When do the students work in the garden on Fridays?', 'いつ活動するかをたずねています。本文の after lunch を探そう。', ['They work there after lunch.', 'After lunch.']],
+      ['What can the students see in the garden in summer?', '本文の can see の後ろを確かめよう。', ['They can see butterflies.', 'Butterflies.']],
       ['What is the girl doing?', '女の子が今していることを、She is ...ing で言ってみよう。', ['She is watering the flowers.', 'She’s watering the plants.']],
-      ['How many red flowers can you see?', '赤い花だけを数えよう。数と flowers を一緒に言えるかな？', ['I can see three red flowers.', 'Three red flowers.']],
       ['What do you like to do after school?', '自分が放課後にするのが好きなことを一つ言おう。', ['I like to play soccer.', 'I like reading comics.']]
     ]
   },
   {
     id: 'library', title: 'Saturday at the Library', label: '土曜日の図書館',
-    passage: 'Mina goes to the library on Saturday mornings. She usually reads books about animals. Last Saturday, she chose a book about birds. She took it home to read with her brother.',
+    passage: 'Mina goes to the library on Saturdays. She usually reads books about animals. Last Saturday, she took home a book about birds to read with her brother.',
     readingTip: 'usually と Last Saturday が表す時間の違いを意識しよう。最後の文は to read with her brother をつなげて読もう。',
-    pictureDescription: '図書館。左の男の子は椅子に座って本を読んでいます。右の机の上に閉じた本が2冊あります。',
+    pictureDescription: '図書館。左の男の子は椅子に座って本を読んでいます。',
     questions: [
       ['What kind of books does Mina usually read?', 'ふだん読む本の種類を聞いています。通常の習慣を述べた文を探そう。', ['She usually reads books about animals.', 'Books about animals.']],
+      ['Who did Mina want to read the book about birds with?', '本文の with の後ろが、一緒に読む人です。', ['She wanted to read it with her brother.', 'With her brother.']],
       ['What is the boy doing?', '男の子が今していることを、He is ...ing で言ってみよう。', ['He is reading a book.', 'He’s reading.']],
-      ['How many books are on the table?', '机の上にある本を数えよう。男の子が手に持っている本は数に入らないよ。', ['There are two books on the table.', 'Two books.']],
       ['What do you like to do on weekends?', '自分の好きな週末の過ごし方を一つ言おう。', ['I like to visit my grandparents.', 'I like riding my bike.']]
     ]
   }
@@ -28,7 +28,7 @@ const sets = [
 const escapeHtml = value => value.replace(/[&<>"']/g, character => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
 })[character]);
-const steps = ['音読', '本文について', '絵について', '絵について', '自分のこと'];
+const steps = ['音読', '本文について 1', '本文について 2', '絵について', '自分のこと'];
 let practice = null;
 let utterance = null;
 
@@ -50,9 +50,12 @@ export function renderGrade4Speaking({app, state}) {
     app.innerHTML = `${head}<h1 tabindex="-1">4級 スピーキング練習</h1><section class="panel">
       <p>英文を音読し、本文・絵・自分のことについて英語で答えよう。1セット約4分が目安です。</p>
       <p>声に出したあと、解答例で自分の答えを確かめます。マイクは使いません。練習の途中から再開できるのは、このページを開いている間です。</p>
-      <div class="actions">${practice ? '<button class="primary" id="g4-speaking-resume">前回のつづき →</button>' : ''}
-        ${sets.map(set => `<button data-g4-speaking-set="${set.id}">${set.label} →</button>`).join('')}
-      </div></section></div>`;
+      ${practice ? '<p><button class="primary" id="g4-speaking-resume">前回のつづき →</button></p>' : ''}
+      <div class="g4-units g4-speaking-sets">${sets.map(set => `<button data-g4-speaking-set="${set.id}">
+        <img src="assets/grade4-speaking-${set.id}.svg" alt="" class="g4-speaking-picture">
+        <span>${set.label} →</span>
+      </button>`).join('')}</div>
+    </section></div>`;
     app.querySelectorAll('[data-g4-speaking-set]').forEach(button => {
       button.onclick = () => {
         practice = {set: sets.find(set => set.id === button.dataset.g4SpeakingSet), index: 0, review: false};
@@ -67,12 +70,12 @@ export function renderGrade4Speaking({app, state}) {
     const {set, index, review} = practice;
     const [prompt, tip, answers] = set.questions[index - 1] || [set.passage, set.readingTip, []];
     const canSpeak = state.settings.sound && !!window.speechSynthesis && !!window.SpeechSynthesisUtterance;
-    const picture = index === 2 || index === 3;
+    const picture = index === 3;
     app.innerHTML = `${head}<div class="study-top"><span>${set.label} · ${index + 1} / ${steps.length}</span>
       <button id="g4-speaking-menu">題材を選ぶ</button></div>
       <progress value="${index}" max="${steps.length}" aria-label="練習の進み具合"></progress>
       <section class="panel"><h1 tabindex="-1">${steps[index]}</h1>
-        ${index < 2 ? `<div class="g4-passage" lang="en"><strong>${set.title}</strong><p>${set.passage}</p></div>` : ''}
+        ${index < 3 ? `<div class="g4-passage" lang="en"><strong>${set.title}</strong><p>${set.passage}</p></div>` : ''}
         ${picture ? `<img class="g4-speaking-picture" src="assets/grade4-speaking-${set.id}.svg" alt="${set.pictureDescription}">` : ''}
         ${index ? `<p class="g4-example" lang="en">${escapeHtml(prompt)}</p>` : ''}
         <p>${index ? '英語で答えてみよう。' : 'まず黙って読んでから、声に出して読もう。'}</p>

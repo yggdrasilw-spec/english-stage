@@ -3,26 +3,176 @@ import {grade4,createGrade4Session,currentQuestion,currentAttempt,submitGrade4,n
 import {grammarStatus} from './grammar-bridge.js';
 import {readingHome,renderLongReading} from './grade4-long-reading-view.js';
 import {renderVocabularyPractice} from './grade4-vocabulary-view.js';
+import {grade4Plan} from './grade4-plan.js';
+import {readingSetById} from './grade4-long-reading.js';
+import {vocabularySetById, vocabularySets} from './grade4-vocabulary.js';
 import {forestJourney} from './forest.js';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const labels={vocab:'ことば',grammar:'文法',reading:'読む',listening:'聞く'};
 let media=null,generation=0,manifest=null,loading=null;
 export function cleanupGrade4(){generation++;if(media)media.pause();media=null;}
 document.addEventListener('visibilitychange',()=>{if(document.hidden)cleanupGrade4();});
-export const courseSwitch=course=>`<nav class="course-switch" aria-label="学習する級"><button data-course="5" aria-pressed="${course!==4}">5級コース</button><button data-course="4" aria-pressed="${course===4}">4級へのステップ</button></nav>`;
-export function bindCourseSwitch(ctx){ctx.app.querySelectorAll('[data-course]').forEach(b=>b.onclick=async()=>{await ctx.mutate(s=>{s.course=+b.dataset.course;});if(location.hash!=='#home')location.hash='home';});}
-const lessonLink=(u,label='ぶんぽうラボで図を見る')=>`<a class="g4-lesson-link" href="./grammar/?course=4#lesson/${u.lesson}">${esc(label)} ↗</a>`;
-export function renderGrade4Home(ctx){
- const {app,state,mutate}=ctx,g=grade4(state),run=g.session,pending=run&&run.index<run.queue.length,recommended=recommendedUnit(state,id=>grammarStatus(state,id)),stats=courseStats(state),forest=forestJourney(state);
- app.innerHTML=`<div class="narrow g4-wrap">${courseSwitch(4)}<div class="eyebrow">ENGLISH STAGE · GRADE 4 BRIDGE</div><h1>短い文から、まとまりのある英語へ。</h1><p>5級で覚えたことばを使って、出来事・予定・目的・比較・理由・決まりを、短い文から読んだり聞いたりしよう。</p><section class="panel g4-today"><span class="pill">${state.grade4Goal ? '単元のおすすめ' : '今日のおすすめ · 約10〜15分'}</span><h2>${pending?'前回のつづき':esc(recommended.title)}</h2><p>${pending&&run.mode==='vocabulary'?'文の中で、ことば・熟語を確かめる練習':pending&&run.mode==='reading'?'長めの文章を読む練習':'ことば → 図で確認 → メール・文章 → 音声'}</p><button class="primary start" id="g4-start">${pending?'つづきから · '+(run.index+1)+' / '+run.queue.length+'問':unitStatus(state,recommended.id).due?'別の場面で、もう一度確かめる':'今日の練習をはじめる'}</button>${pending?'<button id="g4-end">この回を区切る（解答済みの記録は残す）</button>':''}<p class="muted">過去形・未来・不定詞・動名詞・比較・接続詞・助動詞の計${units.length}単元です。下の「長めの文章」でも、学んだ表現を使えます。</p></section><details class="panel"><summary>はじめのチェック · 8問</summary><p>5級の基礎と、過去形・短い文章・音声を確認します。結果は開始位置の参考に使います。</p><button id="g4-diagnostic" ${pending?'disabled':''}>チェックをはじめる</button></details><section class="panel"><h2>4級のことば・熟語</h2><p>図書館、乗り物、お知らせなどの場面で、ことばの使い方を確かめよう。</p><a class="button-link" href="#grade4-vocab">ことば・熟語を練習する →</a></section><div class="g4-units g4-listen-mock"><section class="panel"><h2>受験日までの学習計画</h2><p>受験日と時間から、今日の練習を選ぼう。</p><a class="button-link" href="#grade4-plan">${state.grade4Goal ? '今日の予定を見る' : '学習計画を開く'} →</a></section><section class="panel"><h2>スピーキング練習</h2><p>英文を音読し、絵や自分のことを英語で話そう。</p><a class="button-link" href="#grade4-speaking">声に出して練習する →</a></section></div>${readingHome(state,pending)}<div class="g4-units g4-listen-mock"><section class="panel"><h2>会話の聞き取り</h2><p>二人の会話を6問。答えてから台本と解説を確認できます。</p><a class="button-link" href="#grade4-dialogue">聞き取りを練習する →</a></section><section class="panel"><h2>4級 実戦模試</h2><p>読む35問・聞く30問。練習とは別の問題に挑戦できます。</p><a class="button-link primary" href="#grade4-mock">${state.grade4Exam?.active?'模試のつづきへ':'模試を開く'} →</a></section></div><div class="g4-units">${units.map(u=>{const st=unitStatus(state,u.id),gs=grammarStatus(state,u.lesson),word=ctx.cards.find(c=>c.id===u.wordId),known=state.progress?.[u.wordId]?.read?.correct;return `<section class="panel"><span class="pill">${st.label}${st.due?' · 復習の時期':''}</span><h2>${esc(u.title)}</h2><p class="muted">ラボの記録：${gs.label} · 共通のことば：${esc(word?.en||'')} ${known?'（5級で正解あり）':'（この回で確認）'}</p><div class="actions"><button data-unit="${u.id}" ${pending?'disabled':''}>${st.key==='new'?'この単元をはじめる':'別の場面で練習'}</button>${lessonLink(u)}</div></section>`;}).join('')}</div><section class="panel"><h2>4級へのステップの記録</h2><p>支援なしでの正解 / 解答数</p><div class="g4-stats">${Object.entries(stats).map(([k,v])=>`<div><strong>${v.correct} / ${v.independent}</strong><span>${labels[k]}</span><small>支援あり ${v.answered-v.independent}問</small></div>`).join('')}</div><p class="muted">別の日・別の場面でも確認します。合否やCSEスコアへの換算は行いません。</p></section><section class="panel"><h2>5級と同じ森を育てよう</h2><p>水 ${forest.pending}回分 · 次の水まで ${forest.untilWater}問。4級の解答も1問ずつ集められます。</p><a class="pill" href="#forest">森で水をやる →</a></section><p><a href="#settings">5級・4級・ラボの記録をまとめて保存 →</a></p></div>`;
- bindCourseSwitch(ctx);
- const start=async(id,mode='learn')=>{await mutate(s=>{s.course=4;createGrade4Session(s,id,mode);});location.hash='grade4';};
- app.querySelector('#g4-start').onclick=()=>start(recommended.id);
- app.querySelector('#g4-diagnostic').onclick=()=>start('past-be','diagnostic');
- app.querySelectorAll('[data-unit]').forEach(b=>b.onclick=()=>start(b.dataset.unit));
- app.querySelectorAll('[data-g4-reading]').forEach(b=>b.onclick=()=>start(b.dataset.g4Reading,'reading'));
- app.querySelector('#g4-end')?.addEventListener('click',()=>mutate(s=>{grade4(s).session=null;}));
+export const courseSwitch=course=>`<nav class="course-switch" aria-label="学習する級"><button data-course="5" aria-pressed="${course!==4}">5級コース</button><button data-course="4" aria-pressed="${course===4}">4級コース</button></nav>`;
+export function bindCourseSwitch({app, mutate}) {
+  app.querySelectorAll('[data-course]').forEach(button => {
+    button.onclick = async () => {
+      const course = Number(button.dataset.course);
+      await mutate(saved => { saved.course = course; }, {queue: true});
+      app.querySelector('[data-course="' + course + '"]')?.focus({preventScroll: true});
+    };
+  });
 }
+const lessonLink=(u,label='ぶんぽうラボで図を見る')=>`<a class="g4-lesson-link" href="./grammar/?course=4#lesson/${u.lesson}">${esc(label)} ↗</a>`;
+const activityIcons = {
+  words: '<path d="M3 5h6a3 3 0 0 1 3 3v12a3 3 0 0 0-3-3H3zM21 5h-6a3 3 0 0 0-3 3v12a3 3 0 0 1 3-3h6z"/>',
+  listen: '<path d="M4 14v-3a8 8 0 0 1 16 0v3M4 13h4v7H6a2 2 0 0 1-2-2zM20 13h-4v7h2a2 2 0 0 0 2-2z"/>',
+  speak: '<path d="M4 4h16v12h-7l-5 4v-4H4zM8 10h.01m4 0h.01m4 0h.01"/>',
+  test: '<path d="M6 4h12v17H6zM9 8h6m-6 4h6m-6 4 2 2 4-4"/>',
+};
+const activityLink = (icon, route, title, description, action) => `
+  <a href="#grade4-${route}" class="g4-activity g4-activity-${icon}">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${activityIcons[icon]}</svg>
+    <span><strong>${title}</strong><small>${description}</small></span>
+    <span class="g4-activity-action">${action} <span aria-hidden="true">→</span></span>
+  </a>`;
+
+const recordsPanel = stats => `<section class="panel g4-records">
+      <h2>4級の学習記録</h2><p>支援なしでの正解 / 解答数</p>
+      <div class="g4-stats">${Object.entries(stats).map(([key, value]) => `<div>
+        <span>${labels[key]}</span><strong>${value.correct} / ${value.independent}</strong>
+        <small>支援あり ${value.answered - value.independent}問</small></div>`).join('')}</div>
+      <p class="muted">別の日にも、違う場面で分かるか確かめよう。</p>
+    </section>`;
+
+export function renderGrade4Records({app, state}) {
+  const plan = grade4Plan(state);
+  app.innerHTML = `<div class="narrow g4-wrap">
+    <a class="g4-plan-link" href="#home">← 4級ホーム</a>
+    <span class="g4-kicker" lang="en">GRADE 4 / PROGRESS</span>
+    <h1>学習の記録</h1>
+    <section class="panel g4-home-plan">
+      <h2>一巡した練習</h2>
+      <div class="g4-plan-meter"><span>単元・ことば・長文</span><strong>${plan.total - plan.remaining.length} / ${plan.total}</strong></div>
+      <progress value="${plan.total - plan.remaining.length}" max="${plan.total}" aria-label="一巡した練習"></progress>
+      <a class="g4-plan-link" href="#grade4-plan">学習計画へ →</a>
+    </section>
+    ${recordsPanel(courseStats(state))}
+    <div class="actions">
+      <a class="button-link" href="#grade4-mock">実戦模試へ →</a>
+      <a class="g4-plan-link" href="#settings">学習記録のバックアップ →</a>
+    </div>
+  </div>`;
+}
+
+export function renderGrade4Home(ctx) {
+  const {app, state, mutate} = ctx;
+  const plan = grade4Plan(state);
+  const pending = plan.pending;
+  const recommended = recommendedUnit(state, id => grammarStatus(state, id));
+  const suggested = plan.todayTasks?.[0] || plan.review;
+  const activeMock = state.grade4Exam?.active;
+  const stats = courseStats(state);
+  const forest = forestJourney(state);
+  const completed = plan.total - plan.remaining.length;
+  const terms = vocabularySets.reduce((count, set) => count + set.entries.length, 0);
+  const title = pending
+    ? ({diagnostic: 'はじめのチェック', reading: readingSetById(pending.unitId)?.title,
+        vocabulary: vocabularySetById(pending.unitId)?.title, learn: units.find(u => u.id === pending.unitId)?.title})[pending.mode]
+    : suggested?.title || recommended.title;
+  const focus = pending ? '前回のつづき'
+    : suggested ? '今日の予定 · 約' + suggested.minutes + '分' : 'おすすめの単元 · 約12分';
+  const description = pending ? '答えたところまで、端末に保存しています。'
+    : suggested?.mode === 'vocabulary' ? '例文の中で、ことばや熟語の意味を選ぼう。'
+    : suggested?.mode === 'reading' ? '文章を読んで、答えの根拠を確かめよう。'
+    : 'ことばから始めて、図・短い文章・音声へ。';
+  const startLabel = pending ? 'つづきから · ' + (pending.index + 1) + ' / ' + pending.queue.length + '問'
+    : !suggested && unitStatus(state, recommended.id).due ? '別の場面で、もう一度確かめる' : '今日の練習をはじめる';
+  app.innerHTML = `<div class="narrow g4-wrap g4-home">
+    ${courseSwitch(4)}
+    <section class="g4-hero" aria-labelledby="g4-home-title">
+      <div class="g4-hero-copy">
+        <span class="g4-kicker" lang="en">ENGLISH STAGE / LEVEL 04</span>
+        <h1 id="g4-home-title">英検4級コース</h1>
+        <p>短い文から、会話と長文へ。</p>
+      </div>
+      <img src="assets/grade4-route.svg" alt="" width="324" height="192" class="g4-hero-art">
+    </section>
+    ${activeMock ? `<a class="g4-mock-resume" href="#grade4-mock">
+      <strong>途中の実戦模試</strong><span>${activeMock.phase === 'break' ? '聞く問題の開始前' :
+        (activeMock.phase === 'r' ? '読む' : '聞く') + ' · ' + (activeMock.index + 1) + '問目'} →</span>
+    </a>` : ''}
+    <div class="g4-home-top">
+      <section class="panel g4-today" aria-labelledby="g4-today-title">
+        <span class="g4-kicker">${focus}</span>
+        <h2 id="g4-today-title">${esc(title)}</h2>
+        <p>${description}</p>
+        <button class="primary start" id="g4-start">${startLabel} <span aria-hidden="true">→</span></button>
+        ${pending ? '<button id="g4-end">この回を区切る（解答済みの記録は残す）</button>' : ''}
+      </section>
+      <section class="panel g4-home-plan" aria-labelledby="g4-home-plan-title">
+        <span class="g4-kicker">受験日まで</span>
+        <h2 id="g4-home-plan-title">学習計画</h2>
+        <p>${plan.days > 0 ? '学習できる日 あと<strong>' + plan.days + '日</strong>'
+          : plan.days === 0 ? '次の受験日を設定できます。' : '受験日と、1日に使える時間を決めよう。'}</p>
+        <div class="g4-plan-meter"><span>一巡した練習</span><strong>${completed} / ${plan.total}</strong></div>
+        <progress value="${completed}" max="${plan.total}" aria-label="一巡した練習"></progress>
+        <a class="g4-plan-link" href="#grade4-plan">${state.grade4Goal ? '今日の予定を見る' : '学習計画をつくる'} →</a>
+      </section>
+    </div>
+    <details class="panel g4-check">
+      <summary>はじめのチェック <span class="pill">8問</span></summary>
+      <p>5級の基礎と、過去形・短い文章・音声を確認します。結果は開始位置の参考に使います。</p>
+      <button id="g4-diagnostic" ${pending ? 'disabled' : ''}>チェックをはじめる</button>
+    </details>
+    <section class="g4-home-section" aria-labelledby="g4-skills-title">
+      <div class="g4-section-heading"><span class="g4-kicker" lang="en">PRACTICE</span><h2 id="g4-skills-title">練習を選ぶ</h2></div>
+      <div class="g4-activities">
+        ${activityLink('words', 'vocab', 'ことば・熟語', terms + '項目 · 1回6問', '練習する')}
+        ${activityLink('listen', 'dialogue', '会話の聞き取り', '二人の会話 · 6問', '聞き取りを練習する')}
+        ${activityLink('speak', 'speaking', 'スピーキング', '音読と受け答え · 2題材', '題材を選ぶ')}
+        ${activityLink('test', 'mock', '4級 実戦模試', '読む35問・聞く30問', activeMock ? '模試のつづきへ' : '模試を開く')}
+      </div>
+    </section>
+    ${readingHome(state, pending)}
+    <section class="g4-home-section" aria-labelledby="g4-units-title">
+      <div class="g4-section-heading"><span class="g4-kicker" lang="en">LESSONS</span><h2 id="g4-units-title">図で学ぶ ${units.length}単元</h2></div>
+      <div class="g4-units g4-unit-grid">${units.map((u, index) => {
+        const status = unitStatus(state, u.id);
+        const grammar = grammarStatus(state, u.lesson);
+        return `<section class="panel">
+          <div class="g4-unit-meta"><span class="g4-unit-number">${String(index + 1).padStart(2, '0')}</span>
+            <span class="pill">${status.label}${status.due ? ' · 復習の時期' : ''}</span></div>
+          <h3>${esc(u.title)}</h3><p class="muted">ラボの記録 · ${grammar.label}</p>
+          <button data-unit="${u.id}" ${pending ? 'disabled' : ''}>${status.key === 'new' ? 'この単元をはじめる' : '別の場面で練習'}</button>
+          ${lessonLink(u)}
+        </section>`;
+      }).join('')}</div>
+    </section>
+    ${recordsPanel(stats)}
+    <section class="panel g4-forest-link">
+      <div><h2>英語の森</h2><p>水 ${forest.pending}回分 · 次の水まで ${forest.untilWater}問</p></div>
+      <a class="button-link" href="#forest">森で水をやる →</a>
+    </section>
+    <a class="g4-plan-link" href="#settings">5級・4級・ラボの記録をまとめて保存 →</a>
+  </div>`;
+  bindCourseSwitch(ctx);
+  const start = async (id, mode = 'learn') => {
+    await mutate(saved => {
+      saved.course = 4;
+      createGrade4Session(saved, id, mode);
+    }, {queue: true});
+    if (!location.hash || location.hash === '#home') location.hash = 'grade4';
+  };
+  app.querySelector('#g4-start').onclick = () => start(suggested?.id || recommended.id, suggested?.mode);
+  app.querySelector('#g4-diagnostic').onclick = () => start('past-be', 'diagnostic');
+  app.querySelectorAll('[data-unit]').forEach(button => button.onclick = () => start(button.dataset.unit));
+  app.querySelectorAll('[data-g4-reading]').forEach(button => button.onclick = () => start(button.dataset.g4Reading, 'reading'));
+  app.querySelector('#g4-end')?.addEventListener('click', () => mutate(saved => {
+    if (saved.grade4?.session?.id === pending.id) saved.grade4.session = null;
+  }));
+}
+
 function rule(u){return `<section class="panel g4-rule"><span class="eyebrow">図で、きまりを確認</span><h2>${esc(u.title)}</h2>${u.timeline||u.id.startsWith('past-')?`<div class="g4-time">${(u.timeline||['← 過去 / yesterday・last Sunday','現在 / today']).map(t=>`<span>${esc(t)}</span>`).join('')}</div>`:''}<p lang="en">${esc(u.before)}</p><p class="g4-example" lang="en">${esc(u.after)}</p><div class="g4-blocks">${u.parts.map((p,i)=>`<div><b lang="en">${esc(p)}</b><small>${esc(u.roles[i])}</small></div>`).join('')}</div><p>${esc(u.rule)}</p>${lessonLink(u)}<div class="g4-bottom"><button class="primary" id="g4-rule-next">別の文で確かめる →</button></div></section>`;}
 const supportPassage=(s,q)=>{const r=s.grade4.session;for(const id of r.queue){const x=questionById(id);if(x.id===q.id||q.passageId&&x.passageId===q.passageId)if(!r.supported.includes(id))r.supported.push(id);}};
 async function loadAudio(){if(manifest)return manifest;if(!loading)loading=fetch('data/grade4-audio.json').then(r=>{if(!r.ok)throw Error('音声を読み込めません。再試行するか、台本を見て練習できます。');return r.json();}).then(m=>manifest=m).finally(()=>loading=null);return loading;}

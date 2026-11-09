@@ -7,7 +7,7 @@ const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({
 
 export function readingHome(state, pending) {
   const answered = new Set((state.grade4?.attempts || []).map(attempt => attempt.qid));
-  return `<section class="panel" aria-labelledby="g4-long-title">
+  return `<section class="panel g4-reading-home" aria-labelledby="g4-long-title">
     <h2 id="g4-long-title">長めの文章に挑戦</h2>
     <p>掲示・メール・説明文を読んで、文章ごとに4問。答えと根拠は、読み終えた後にまとめて確かめます。</p>
     <div class="g4-units">${readingSets.map(set => {

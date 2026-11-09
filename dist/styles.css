@@ -270,3 +270,131 @@ html:has(body.forest-open),body.forest-open{overflow:hidden;overscroll-behavior:
 .g4-plan-tasks{list-style:none;padding:0;display:grid;gap:8px}
 .g4-plan-tasks button{width:100%;min-height:46px;text-align:left;white-space:normal}
 .g4-speaking-picture{display:block;max-width:100%;height:auto;border-radius:14px}
+
+/* The Grade 4 course uses ink, mint and warm paper across practice and review. */
+.g4-wrap {
+  --g4-ink: #173d3b;
+  --g4-accent: #236356;
+  --g4-line: #d5e1d9;
+  --g4-paper: #fcfaf1;
+  color: var(--g4-ink);
+}
+.g4-wrap.narrow { max-width: 760px; }
+.g4-home.narrow { max-width: 960px; }
+.g4-wrap .panel { border-color: var(--g4-line); box-shadow: 0 3px 0 #173d3b08; }
+.g4-wrap .primary { background: var(--g4-accent); color: #fff; border-color: var(--g4-accent); }
+.g4-wrap .primary:hover:not(:disabled) { background: #174c43; }
+.g4-wrap :focus-visible { outline: 3px solid #9f5c15; outline-offset: 3px; }
+.g4-wrap progress { accent-color: var(--g4-accent); }
+.g4-home .course-switch { width: min(100%, 330px); margin: 0 0 18px; }
+.g4-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 38%);
+  align-items: center;
+  overflow: hidden;
+  border-radius: 26px;
+  background: #194f4d;
+  color: #fff9e8;
+  min-height: 190px;
+}
+.g4-hero-copy { padding: clamp(20px, 4vw, 42px); }
+.g4-kicker { display: block; font-size: .75rem; letter-spacing: .08em; font-weight: 700; color: #33675d; }
+.g4-hero .g4-kicker { color: #f6d69a; }
+.g4-hero h1 { margin: .35em 0 .12em; font-size: clamp(1.75rem, 5vw, 2.95rem); letter-spacing: .015em; }
+.g4-hero p { margin: 0; font-size: clamp(.86rem, 2.4vw, 1.06rem); color: #e0eee4; }
+.g4-hero-art { width: 100%; height: auto; align-self: end; display: block; }
+.g4-home-top { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 14px; margin-top: 16px; }
+.g4-home-top .panel { margin: 0; }
+.g4-home-top h2 { margin: .3em 0; }
+.g4-today { background: #eff7ef; border-top: 4px solid #519181; }
+.g4-today .start { margin: 7px 0 0; max-width: none; min-height: 56px; padding: 12px 16px; gap: 8px; }
+.g4-home-plan { background: var(--g4-paper); }
+.g4-plan-meter { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .82rem; }
+.g4-plan-meter + progress { display: block; height: 10px; margin: 8px 0 4px; }
+.g4-plan-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; text-underline-offset: 4px; }
+.g4-home .g4-check { padding: 0 18px; }
+.g4-check summary { padding: 12px 0; }
+.g4-check[open] { padding-bottom: 16px; }
+.g4-check .pill { margin-left: 8px; }
+.g4-home-section { margin: 28px 0; }
+.g4-section-heading { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
+.g4-section-heading h2 { margin: 0; }
+.g4-activities { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.g4-activity {
+  --g4-tile: #e8f2e7;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 8px 13px;
+  align-items: center;
+  padding: 15px;
+  border-radius: 18px;
+  border: 1px solid var(--g4-line);
+  background: #fff;
+  box-shadow: 0 3px 0 #173d3b08;
+  color: var(--g4-ink);
+  text-decoration: none;
+}
+.g4-activity-listen { --g4-tile: #e3eef9; }
+.g4-activity-speak { --g4-tile: #f0e9f8; }
+.g4-activity-test { --g4-tile: #f9ebd3; background: #fffaf0; }
+.g4-activity:hover { border-color: #618b81; background: var(--g4-tile); }
+.g4-activity svg { box-sizing: border-box; width: 42px; height: 42px; padding: 9px; background: var(--g4-tile); border-radius: 13px; }
+.g4-activity strong, .g4-activity small { display: block; }
+.g4-activity strong { font-size: 1.05rem; }
+.g4-activity small { color: #496762; font-size: .78rem; }
+.g4-activity-action { grid-column: 2; font-size: .84rem; font-weight: 700; color: #235d53; }
+.g4-unit-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.g4-unit-grid .panel { padding: 16px; }
+.g4-unit-grid h3 { margin: .5em 0; }
+.g4-unit-grid p { margin: .4em 0 .9em; font-size: .83rem; }
+.g4-unit-grid button { width: 100%; min-height: 44px; }
+.g4-unit-grid .g4-lesson-link { font-size: .82rem; min-height: 44px; }
+.g4-unit-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.g4-unit-number { color: #33675d; font-size: .85rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.g4-reading-home .g4-units { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.g4-reading-home .g4-units > div { padding: 14px; background: var(--g4-paper); border-radius: 14px; }
+.g4-reading-home h3 { margin: .55em 0; }
+.g4-reading-home button { min-height: 44px; }
+.g4-forest-link { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+.g4-forest-link h2, .g4-forest-link p { margin: 0; }
+.g4-wrap .study-top { align-items: center; padding: 10px 12px; border-radius: 12px; background: #eaf3ec; }
+.g4-wrap .study-top a { padding: 7px 0; }
+.g4-wrap #exam-clock { font-variant-numeric: tabular-nums; }
+.g4-wrap #exam-clock[data-urgent] { color: #843626; background: #fae7dc; }
+.g4-wrap .g4-passage { background: var(--g4-paper); border-inline-start: 3px solid #9fbba8; }
+.g4-passage mark { padding: 0 2px; border-radius: 4px; background: #f7dea0; color: #253e31; }
+.g4-wrap .g4-choices button > span:first-child {
+  display: grid;
+  place-items: center;
+  flex: 0 0 26px;
+  min-height: 26px;
+  border-radius: 8px;
+  background: #eaf2ed;
+  color: #23574d;
+  font-weight: 700;
+}
+.g4-wrap .g4-feedback { padding: 12px 14px; border-radius: 12px; background: #f0f6ef; }
+.g4-wrap .g4-feedback > :first-child { margin-top: 0; }
+.g4-bottom { bottom: max(8px, env(safe-area-inset-bottom)); }
+@media (max-width: 760px) {
+  .g4-unit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 540px) {
+  .g4-home-top, .g4-unit-grid, .g4-reading-home .g4-units { grid-template-columns: minmax(0, 1fr); }
+  .g4-hero { min-height: 136px; grid-template-columns: minmax(0, 1fr) minmax(0, 30%); border-radius: 20px; }
+  .g4-home .course-switch { width: 100%; }
+  .g4-hero-copy { padding-right: 0; }
+  .g4-hero h1 { font-size: clamp(1.45rem, 7.2vw, 1.75rem); }
+  .g4-hero .g4-kicker { font-size: .63rem; }
+  .g4-activities { gap: 8px; }
+  .g4-activity { grid-template-columns: minmax(0, 1fr); grid-template-rows: 42px 1fr auto; align-items: start; gap: 6px; padding: 12px; }
+  .g4-activity-action { grid-column: 1; }
+  .g4-wrap .study-top { gap: 7px; padding: 8px; }
+}
+.g4-mock-scene { margin: 14px 0; background: #eef5ed; font-size: .82rem; color: #3d5f56; }
+.g4-mock-scene svg { width: min(100%, 250px); height: auto; display: block; margin: auto; }
+.g4-mock-scene figcaption { margin-top: 2px; font-weight: 700; }
+.g4-speaking-sets button { display: grid; gap: 9px; text-align: left; padding: 9px; }
+.g4-speaking-sets button span { padding: 0 4px 4px; }
+.g4-mock-resume { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 12px; margin-top: 14px; padding: 11px 16px; border: 1px solid #d8b77e; border-radius: 14px; background: #fff5df; color: #624815; text-decoration: none; }
+.g4-mock-resume:hover { background: #fae9c4; }
