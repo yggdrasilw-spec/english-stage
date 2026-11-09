@@ -10,6 +10,11 @@ export function validateListening(q){
  const p=q.listening;assert(p,`${q.id}: missing structured listening plan`);
  assert(q.options[q.answer],`${q.id}: missing answer`);
  if(q.section==='l3'){
+  if(p.kind==='passage'){
+   assert(genders[p.voice]&&genders[p.narratorVoice]&&p.voice!==p.narratorVoice);
+   assert(p.text.trim()&&p.question.trim());
+   assert.equal(q.script,p.text+'\n'+p.question);return;
+  }
   assert.equal(p.kind,'statements');assert(genders[p.voice]);
   assert.equal(q.script,numbered(q.options));return;
  }
@@ -38,7 +43,8 @@ export function validateListening(q){
 
 export function buildExamAudio(q){
  validateListening(q);const p=q.listening;let content;
- if(q.section==='l3')content=spoken(p.voice,numbered(q.options));
+ if(p.kind==='passage')content=spoken(p.voice,p.text)+'<break time="900ms"/>'+spoken(p.narratorVoice,p.question);
+ else if(q.section==='l3')content=spoken(p.voice,numbered(q.options));
  else{
   content=p.turns.map(t=>spoken(p.speakers[t.speaker].voice,t.text)).join('');
   if(q.section==='l1')content+=spoken(p.speakers[p.responseSpeaker].voice,numbered(q.options));

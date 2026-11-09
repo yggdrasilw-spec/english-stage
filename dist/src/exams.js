@@ -1,14 +1,15 @@
 import {recordEvidence} from './evidence.js';
 import {recordForest} from './forest.js';
 import {forestReward,bindForestStarts} from './forest-view.js';
+import {examFormats,readingSections,score} from './exam-format.js';
+export {score};
 const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const labels={r1:'短文の空所補充',r2:'会話文の空所補充',r3:'語句の並べ替え',l1:'会話への応答',l2:'会話の内容',l3:'絵に合う英文'};
+const labels={...readingSections,l1:'会話への応答',l2:'会話の内容',l3:'絵に合う英文'};
 let evidenceLinks=null,data=null,ctx,media=null,generation=0,timer=null,playing=false,onlyWrong=false;
 export function cleanupExam(){generation++;media?.pause();media=null;playing=false;clearInterval(timer);timer=null;}
 export async function loadExams(){if(!data){const r=await fetch('data/mock-exams.json');if(!r.ok)throw Error('テストを読み込めません。通信を確認してもう一度開いてください。');data=await r.json();const links=await fetch('data/exam-evidence.json');if(!links.ok){data=null;throw Error('テストの記録表を読み込めません');}evidenceLinks=await links.json();}return data;}
 const answered=(run,qs)=>qs.filter(q=>Number.isInteger(run.answers[q.id])).length;
-export function score(exam,run){return Object.fromEntries(['r','l'].map(p=>{const qs=exam.questions.filter(q=>q.section.startsWith(p));return [p,{correct:qs.filter(q=>run.answers[q.id]===q.answer).length,total:qs.length,answered:answered(run,qs)}];}));}
-export function createRun(examId,phase='r',now=Date.now()){return {examId,phase,index:0,answers:{},plays:{},startedAt:now,deadline:now+(phase==='r'?25:20)*60000,readingDone:phase==='l'};}
+export function createRun(examId,phase='r',now=Date.now()){return {examId,phase,index:0,answers:{},plays:{},startedAt:now,deadline:now+examFormats[5].minutes[phase]*60000,readingDone:phase==='l'};}
 async function playQuestion(q){
  if(playing)return;const run=ctx.state.mock.active;if((run.plays[q.id]||0)>=2)return;
  const my=++generation;playing=true;
