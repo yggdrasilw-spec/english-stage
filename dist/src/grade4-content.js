@@ -1,5 +1,6 @@
 // Original bridge curriculum. A/B use different situations for delayed retrieval.
 import {expansionUnits,addExpansion} from './grade4-expansion.js';
+import {longReadingQuestions} from './grade4-long-reading.js';
 export const courseVersion=1;
 export const units=[
  {id:'past-be',title:'きのう、どこにいた？',lesson:'past-be',wordId:'g5-w-busy',prerequisite:'be',rule:'過去の状態や場所には was / were。I・he・she・it は was、you・we・they は were。',before:'She is at home today.',after:'She was at the library yesterday.',parts:['She','was','at the library','yesterday'],roles:['だれが','過去のbe動詞','場所','過去のしるし']},
@@ -74,5 +75,5 @@ add('future','b',
 
 addExpansion(add);
 export {questions,passages};
-export const questionById=id=>questions.find(q=>q.id===id);
+export const questionById=id=>questions.find(q=>q.id===id)||longReadingQuestions.find(q=>q.id===id);
 export const passageById=id=>passages.find(p=>p.id===id);
